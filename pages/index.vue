@@ -1,40 +1,50 @@
 <template>
 
     <!-- option section -->
-    <div class="bg-slate-200 rounded-md shadow-xl my-5 ml-1 mr-1 pb-2">
+    <div class="bg-slate-200 rounded-md shadow-xl my-5 ml-1 mr-1 pb-2" :style="{ width: `${(343 * columns) - 8}px` }">
         <div class="rounded-t-md text-xl font-sans font-semibold text-left px-2 mb-2 text-white bg-neutral-500">
             Options
         </div>
-        <span class="ml-2">
-            <label class="font-sans font-semibold">Randomizer options</label>
-            <button class="rounded-sm text-white py-1 px-4 ml-1 hover:bg-violet-400 bg-violet-800"
-                :class="{ 'opacity-50': !filters.items }" @click="filters.items = !filters.items">Items</button>
-            <button class="rounded-sm text-white py-1 px-4 ml-1 hover:bg-violet-400 bg-violet-800"
-                :class="{ 'opacity-50': !filters.skulltulas }"
-                @click="filters.skulltulas = !filters.skulltulas">Skulltulas</button>
-            <button class="rounded-sm text-white py-1 px-4 ml-1 hover:bg-violet-400 bg-violet-800"
-                :class="{ 'opacity-50': !filters.shops }" @click="filters.shops = !filters.shops">Shops</button>
-            <button class="rounded-sm text-white py-1 px-4 ml-1 hover:bg-violet-400 bg-violet-800"
-                :class="{ 'opacity-50': !filters.scrubs }" @click="filters.scrubs = !filters.scrubs">Scrubs</button>
-            <button class="rounded-sm text-white py-1 px-4 ml-1 hover:bg-violet-400 bg-violet-800"
-                :class="{ 'opacity-50': !filters.cows }" @click="filters.cows = !filters.cows">Cows</button>
-        </span>
-        <span class="ml-2">
-            <label class="font-sans font-semibold">Filter by tag</label>
-            <button class="rounded-sm text-white py-1 px-4 ml-1 hover:bg-violet-400 bg-violet-800"
-                :class="{ 'opacity-30': !tagFilters.child }" @click="clickTagFilter('child')">Child</button>
-            <button class="rounded-sm text-white py-1 px-4 ml-1 hover:bg-violet-400 bg-violet-800"
-                :class="{ 'opacity-30': !tagFilters.adult }" @click="clickTagFilter('adult')">Adult</button>
-            <button class="rounded-sm text-white py-1 px-4 ml-1 hover:bg-violet-400 bg-violet-800"
-                :class="{ 'opacity-30': !tagFilters.grotto }" @click="clickTagFilter('grotto')">Grotto</button>
-            <button class="rounded-sm text-white py-1 px-4 ml-1 hover:bg-violet-400 bg-violet-800"
-                :class="{ 'opacity-30': !tagFilters.bean }" @click="clickTagFilter('bean')">Bean Plants</button>
-            <button class="rounded-sm text-white py-1 px-4 ml-1 hover:bg-violet-400 bg-violet-800"
-                :class="{ 'opacity-30': !tagFilters.night }" @click="clickTagFilter('night')">Night</button>
-        </span>
-        <span class="ml-2 float-right">
-            <button class="rounded-full text-white py-1 px-4 mr-2 bg-red-600" @click="reset">Reset</button>
-        </span>
+        <div class="flex flex-row">
+            <span class="ml-2 basis-1/2">
+                <label class="font-sans font-semibold">Randomizer options</label>
+                <button class="btn-option" :class="{ 'opacity-50': !filters.items }"
+                    @click="filters.items = !filters.items">Items</button>
+                <button class="btn-option" :class="{ 'opacity-50': !filters.skulltulas }"
+                    @click="filters.skulltulas = !filters.skulltulas">Skulltulas</button>
+                <button class="btn-option" :class="{ 'opacity-50': !filters.shops }"
+                    @click="filters.shops = !filters.shops">Shops</button>
+                <button class="btn-option" :class="{ 'opacity-50': !filters.scrubs }"
+                    @click="filters.scrubs = !filters.scrubs">Scrubs</button>
+                <button class="btn-option" :class="{ 'opacity-50': !filters.cows }"
+                    @click="filters.cows = !filters.cows">Cows</button>
+                <button class="btn-option" :class="{ 'opacity-50': !filters.rupees }"
+                    @click="filters.rupees = !filters.rupees">Rupees & Hearts</button>
+                <button class="btn-option" :class="{ 'opacity-50': !filters.pots }"
+                    @click="filters.pots = !filters.pots">Pots</button>
+                <button class="btn-option" :class="{ 'opacity-50': !filters.crates }"
+                    @click="filters.crates = !filters.crates">Crates</button>
+                <button class="btn-option" :class="{ 'opacity-50': !filters.beehives }"
+                    @click="filters.beehives = !filters.beehives">Beehives</button>
+            </span>
+            <span class="ml-2 basis-2/5">
+                <label class="font-sans font-semibold">Filter by tag</label>
+                <button class="btn-option" :class="{ 'opacity-50': !tagFilters.child }"
+                    @click="clickTagFilter('child')">Child</button>
+                <button class="btn-option" :class="{ 'opacity-50': !tagFilters.adult }"
+                    @click="clickTagFilter('adult')">Adult</button>
+                <button class="btn-option" :class="{ 'opacity-50': !tagFilters.grotto }"
+                    @click="clickTagFilter('grotto')">Grotto</button>
+                <button class="btn-option" :class="{ 'opacity-50': !tagFilters.bean }"
+                    @click="clickTagFilter('bean')">Bean Plants</button>
+                <button class="btn-option" :class="{ 'opacity-50': !tagFilters.night }"
+                    @click="clickTagFilter('night')">Night</button>
+            </span>
+            <span class="ml-2" style="flex-basis: 10%;">
+                <button class="float-right rounded-full text-white py-1 px-4 my-1 mr-2 bg-red-600"
+                    @click="reset">Reset</button>
+            </span>
+        </div>
     </div>
 
     <!-- region cards -->
@@ -42,7 +52,7 @@
         <div class="my-5 w-full flex flex-wrap flex-row card-container">
 
             <!-- no results -->
-            <div v-if="filteredRegions.length == 0" class="text-white font-sans">
+            <div v-if="filteredRegions.length == 0" class="w-full text-white text-center font-sans">
                 No Results
             </div>
 
@@ -105,7 +115,11 @@
 
 <script setup>
 
-const cardContainerHeight = ref(0);
+const cardHeaderHeight = 28;
+const cardMarginHeight = 20;
+const cardRowHeight = 24;
+const cardRowBorderHeight = 2;
+
 const columns = ref(1);
 const regions = useRegions();
 const filters = reactive({
@@ -113,23 +127,11 @@ const filters = reactive({
     skulltulas: false,
     shops: false,
     scrubs: false,
-    cows: false
-});
-
-const filterAll = computed({
-    get() {
-        let result = true;
-        for (let prop in filters) {
-            result &= filters[prop];
-        }
-
-        return result;
-    },
-    set(newValue) {
-        for (let prop in filters) {
-            filters[prop] = newValue;
-        }
-    }
+    cows: false,
+    rupees: false,
+    pots: false,
+    crates: false,
+    beehives: false
 });
 
 const tagFilters = reactive({
@@ -140,8 +142,7 @@ const tagFilters = reactive({
     night: false
 });
 
-
-
+const filteredRegionGroups = ref([]);
 
 
 
@@ -151,11 +152,11 @@ onMounted(() => {
     if (stored)
         regions.value = JSON.parse(stored);
 
-    assignColumnNumber(window.innerWidth);
-    getCardContainerHeight(columns.value);
+    assignColumnNumber(document.querySelector("body").clientWidth);
+    adjustRegionCardHeights(columns.value);
 
     window.addEventListener("resize", (e) => {
-        assignColumnNumber(e.target.innerWidth);
+        assignColumnNumber(document.querySelector("body").clientWidth);
     });
 
 });
@@ -221,7 +222,6 @@ const filteredRegions = computed(() => {
     return result;
 });
 
-const filteredRegionGroups = ref([]);
 
 function assignRegionGroups() {
     //group by colnum
@@ -238,11 +238,11 @@ function assignRegionGroups() {
 
 
 watch(filteredRegions, () => {
-    getCardContainerHeight(columns.value);
+    adjustRegionCardHeights(columns.value);
     assignRegionGroups();
 });
 watch(columns, () => {
-    getCardContainerHeight(columns.value);
+    adjustRegionCardHeights(columns.value);
     assignRegionGroups();
 });
 
@@ -262,7 +262,7 @@ function assignColumnNumber(width) {
 }
 
 // resizing the card container to fit the cards into a set number of columns
-function getCardContainerHeight(colNum) {
+function adjustRegionCardHeights(colNum) {
     if (process.server)
         return;
 
@@ -304,20 +304,14 @@ function getCardContainerHeight(colNum) {
 }
 
 function calculateRegionCardHeight(region) {
-    const cardHeaderHeight = 28;
-    const marginHeight = 20;
-
-    let headerH = cardHeaderHeight + marginHeight;
+    let headerH = cardHeaderHeight + cardMarginHeight;
 
     return headerH + calculateRegionCardRowsHeight(region);
 }
 
 function calculateRegionCardRowsHeight(region) {
-    const cardRowHeight = 24;
-    const borderHeight = 2;
-
     let rowsH = cardRowHeight * region.locations.length;
-    let borderH = Math.max(0, region.locations.length - 1) * borderHeight;
+    let borderH = Math.max(0, region.locations.length - 1) * cardRowBorderHeight;
 
     return rowsH + borderH;
 }
@@ -330,14 +324,13 @@ function clickLocation(loc) {
 function clickMQ(region) {
     let r = regions.value.find((reg) => reg.name == region.name);
     r.showMQ = !r.showMQ;
-
-    getCardContainerHeight(columns.value);
 }
 
 function clickHeader(e, region) {
     let r = regions.value.find((reg) => reg.name == region.name);
     r.collapsed = !r.collapsed;
 
+    // collapse animation without reordering region cards
     if (e.currentTarget.nextElementSibling.style.height != "0px")
         e.currentTarget.nextElementSibling.style.height = "0px";
     else
@@ -407,5 +400,9 @@ function reset() {
 
 .tooltip:hover:before {
     display: block;
+}
+
+.btn-option {
+    @apply rounded-sm text-white py-1 px-4 my-1 ml-1 hover:bg-violet-900 bg-violet-700;
 }
 </style>

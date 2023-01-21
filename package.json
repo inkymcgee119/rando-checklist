@@ -6,10 +6,12 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "build-docker": "docker build -t zeldo-tracker ."
+    "build-docker": "docker build -t zeldo-tracker .",
+    "tauri": "tauri"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.2.0",
+    "@tauri-apps/cli": "^1.2.3",
     "nuxt": "3.0.0",
     "nuxt-icon": "^0.2.0"
   },

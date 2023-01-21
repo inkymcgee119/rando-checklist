@@ -81,6 +81,8 @@ typings/
 # Nuxt.js build / generate output
 .nuxt
 dist
+.output
+src-tauri/target
 
 # Gatsby files
 .cache/
