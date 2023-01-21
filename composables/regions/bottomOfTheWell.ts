@@ -166,5 +166,19 @@ export const bottomOfTheWell = {
             type: LocationTypes.gs,
             tags: [Tags.mq]
         },
+
+        // rupees and hearts
+        {
+            title: "Left side, coffin room (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Fall into pit, platform (5)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
     ]
 };

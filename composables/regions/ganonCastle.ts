@@ -141,6 +141,26 @@ export const ganonCastle = {
             type: LocationTypes.scrub,
             tags: [Tags.mq]
         },
+
+        // rupees and hearts
+        {
+            title: "Fire trial",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Shadow trial (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Spirit trial",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
         
     ]
 };

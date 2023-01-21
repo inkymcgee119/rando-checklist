@@ -140,5 +140,27 @@ export const dekuTree = {
             type: LocationTypes.scrub,
             tags: [Tags.mq]
         },
+
+
+        // rupees and hearts
+        {
+            title: "Walk the plank",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Leap down",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Water before boss (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
     ]
 };

@@ -49,5 +49,13 @@ export const desertColossus = {
             type: LocationTypes.scrub,
             tags: [Tags.grotto]
         },
+
+        // beehives
+        {
+            title: "Silver rock grotto",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
     ]
 };

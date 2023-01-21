@@ -153,5 +153,13 @@ export const kakarikoVillage = {
             type: LocationTypes.shop,
             tags: []
         },
+
+        // beehives
+        {
+            title: "Open grotto, near potion shop (2)",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
     ]
 };

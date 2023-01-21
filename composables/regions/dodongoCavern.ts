@@ -199,4 +199,25 @@ export const dodongoCavern = {
         },
 
 
+        // rupees and hearts
+        {
+            title: "Lower lizafos fight",
+            description: "Hidden behind the left side of the lavafall",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Upper lizafos fight (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Upper right, behind block",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
     ]};

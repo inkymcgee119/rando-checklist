@@ -1,4 +1,4 @@
-import {LocationTypes, Tags} from "../constants";
+import { LocationTypes, Tags } from "../constants";
 
 export const zoraFountain = {
     name: "Zora's Fountain",
@@ -44,5 +44,12 @@ export const zoraFountain = {
             tags: [Tags.adult]
         },
 
+        // rupees and hearts
+        {
+            title: "Bottom of lake (18)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.adult]
+        },
     ]
 };

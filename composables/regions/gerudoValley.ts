@@ -59,7 +59,23 @@ export const gerudoValley = {
             title: "Bottom of canyon",
             isChecked: false,
             type: LocationTypes.cow,
-            tags: []
+            tags: [Tags.child]
+        },
+
+        // rupees and hearts
+        {
+            title: "Silver rock grotto (8)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.grotto]
+        },
+
+        // beehives
+        {
+            title: "Song of storms, behind tent",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.adult, Tags.grotto]
         },
     ]
 };

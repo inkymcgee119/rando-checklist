@@ -305,5 +305,14 @@ export const spiritTemple = {
             tags: [Tags.mq]
         },
 
+
+        // rupees and hearts
+        {
+            title: "Shifting walls climb (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
     ]
 };

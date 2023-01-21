@@ -36,5 +36,19 @@ export const zoraDomain = {
             tags: []
         },
 
+
+        // beehives
+        {
+            title: "In front of king zora (2)",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.child]
+        },
+        {
+            title: "Behind king zora",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.child]
+        },
     ]
 };

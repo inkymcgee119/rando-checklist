@@ -92,7 +92,7 @@ export const waterTemple = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Top floor, river after dark link",
+            title: "River after dark link",
             isChecked: false,
             type: LocationTypes.gs,
             tags: [Tags.vanilla]
@@ -180,5 +180,13 @@ export const waterTemple = {
             tags: [Tags.mq]
         },
 
+
+        // rupees and hearts
+        {
+            title: "River after dark link (4)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
     ]
 };

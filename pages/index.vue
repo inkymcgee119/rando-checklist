@@ -188,6 +188,18 @@ const filteredRegions = computed(() => {
                 case LocationTypes.shop.name:
                     rowVisible &= f.shops;
                     break;
+                case LocationTypes.rupee.name:
+                    rowVisible &= f.rupees;
+                    break;
+                case LocationTypes.pot.name:
+                    rowVisible &= f.pots;
+                    break;
+                case LocationTypes.crate.name:
+                    rowVisible &= f.crates;
+                    break;
+                case LocationTypes.beehive.name:
+                    rowVisible &= f.beehives;
+                    break;
                 default:
                     rowVisible = false;
                     break;

@@ -93,5 +93,33 @@ export const lostWoods = {
             type: LocationTypes.scrub,
             tags: [Tags.child]
         },
+
+        // rupees and hearts
+        {
+            title: "Under rock near exit",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: []
+        },
+        {
+            title: "Water warp (8)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: []
+        },
+
+        // beehives
+        {
+            title: "Rock by Goron City warp (2)",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
+        {
+            title: "Deku Salesman, rock near exit",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
     ]
 };

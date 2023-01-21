@@ -1,4 +1,4 @@
-import {LocationTypes, Tags} from "../constants";
+import { LocationTypes, Tags } from "../constants";
 
 export const lakeHylia = {
     name: "Lake Hylia",
@@ -49,7 +49,7 @@ export const lakeHylia = {
             tags: [Tags.child, Tags.bean]
         },
         {
-            title: "Back of the house",
+            title: "Back of the lab",
             isChecked: false,
             type: LocationTypes.gs,
             tags: [Tags.child, Tags.night]
@@ -79,5 +79,32 @@ export const lakeHylia = {
             tags: [Tags.grotto]
         },
 
+        // rupees and hearts
+        {
+            title: "Near bottle, shallow",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.child]
+        },
+        {
+            title: "Near bottle, deep (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.child]
+        },
+        {
+            title: "In the lab (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: []
+        },
+
+        // beehives
+        {
+            title: "Under gravestone",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
     ]
 };

@@ -232,5 +232,19 @@ export const forestTemple = {
             tags: [Tags.mq]
         },
         
+
+        // rupees and hearts
+        {
+            title: "In the well (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Courtyard, on pillars (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
     ]
 };

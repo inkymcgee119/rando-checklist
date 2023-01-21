@@ -72,5 +72,25 @@ export const goronCity = {
             type: LocationTypes.shop,
             tags: []
         },
+
+        // rupees and hearts
+        {
+            title: "Spinning pot 🙂 (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.child]
+        },
+        {
+            title: "Spinning pot 😐 (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.child]
+        },
+        {
+            title: "Spinning pot 😡 (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.child]
+        },
     ]
 };

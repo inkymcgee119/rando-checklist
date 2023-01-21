@@ -235,5 +235,25 @@ export const fireTemple = {
             tags: [Tags.mq]
         },
         
+
+        // rupees and hearts
+        {
+            title: "Elevator room, on fence (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Room after boulder maze (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Moving fire wall room (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
     ]
 };

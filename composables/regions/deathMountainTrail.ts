@@ -1,4 +1,4 @@
-import {LocationTypes, Tags} from "../constants";
+import { LocationTypes, Tags } from "../constants";
 
 export const deathMountainTrail = {
     name: "Death Mountain Trail",
@@ -68,5 +68,34 @@ export const deathMountainTrail = {
             tags: [Tags.grotto]
         },
 
+        // rupees and hearts
+        {
+            title: "Under rocks on ramp (2)",
+            description: "The rupees are only there as child, but logic can require breaking the rocks as adult and returning as child.",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.child]
+        },
+        {
+            title: "Cow grotto (11)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.grotto]
+        },
+        {
+            title: "Cow grotto",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
+
+        // beehives
+        {
+            title: "Song of storms grotto (2)",
+            description: "Rock circle outside goron city",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: []
+        },
     ]
 };

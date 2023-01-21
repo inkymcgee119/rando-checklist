@@ -262,5 +262,31 @@ export const shadowTemple = {
             tags: [Tags.mq]
         },
 
+        // rupees and hearts
+        {
+            title: "Invisible blade room (2)",
+            description: "Use song of time to reach",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before boat (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "After boat (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Triple skull room (9)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
     ]
 };

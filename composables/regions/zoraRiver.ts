@@ -74,5 +74,27 @@ export const zoraRiver = {
             tags: [Tags.grotto]
         },
 
+        // rupees and hearts
+        {
+            title: "Under waterfall (4)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.adult]
+        },
+
+        // beehives
+        {
+            title: "Open grotto (2)",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
+        {
+            title: "Song of storms, rock circle",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
+        
     ]
 };

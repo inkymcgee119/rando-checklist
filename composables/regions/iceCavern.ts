@@ -106,5 +106,26 @@ export const iceCavern = {
             type: LocationTypes.gs,
             tags: [Tags.mq]
         },
+
+        // rupees and hearts
+        {
+            title: "Red ice near entrance",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Back room (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Block pushing puzzle (3)",
+            description: "Use song of time to reach",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
     ]
 };

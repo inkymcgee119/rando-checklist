@@ -6,7 +6,7 @@ export const deathMountainCrater = {
     hasMQ: false,
     locations: [
         {
-            title: "Crater grotto",
+            title: "Upper grotto",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.grotto]
@@ -60,6 +60,34 @@ export const deathMountainCrater = {
             isChecked: false,
             type: LocationTypes.scrub,
             tags: [Tags.child]
+        },
+
+        // rupees and hearts
+        {
+            title: "Scarecrow song platform (7)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.adult]
+        },
+        {
+            title: "Lower platform (8)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.child]
+        },
+
+        // beehives
+        {
+            title: "Upper grotto (2)",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
+        {
+            title: "Hammer rock near bridge",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
         },
     ]
 };

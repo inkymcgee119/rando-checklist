@@ -48,7 +48,7 @@ export const lonLonRanch = {
             tags: [Tags.child, Tags.night]
         },
         {
-            title: "Open grotto in the rear  (3)",
+            title: "Open grotto in the rear (3)",
             isChecked: false,
             type: LocationTypes.scrub,
             tags: [Tags.grotto]
@@ -64,6 +64,14 @@ export const lonLonRanch = {
             isChecked: false,
             type: LocationTypes.cow,
             tags: []
+        },
+
+        // beehives
+        {
+            title: "Open grotto in the rear",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
         },
     ]
 };

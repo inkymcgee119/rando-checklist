@@ -19,7 +19,7 @@ export const gerudoTrainingGrounds = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Lizalfos and beamos room",
+            title: "Lizafos and beamos room",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.vanilla]
@@ -183,6 +183,14 @@ export const gerudoTrainingGrounds = {
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.mq]
+        },
+
+        // rupees and hearts
+        {
+            title: "Lizafos and beamos room (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
         },
     ]
 };

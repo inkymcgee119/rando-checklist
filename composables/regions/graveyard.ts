@@ -61,5 +61,12 @@ export const graveyard = {
             tags: [Tags.child, Tags.bean]
         },
 
+        // rupees and hearts
+        {
+            title: "Dampe race (8)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: []
+        },
     ]
 };

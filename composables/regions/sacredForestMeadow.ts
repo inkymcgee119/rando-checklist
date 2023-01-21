@@ -35,5 +35,13 @@ export const sacredForestMeadow = {
             type: LocationTypes.scrub,
             tags: [Tags.grotto]
         },
+
+        // beehives
+        {
+            title: "Song of storms grotto",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
     ]
 };

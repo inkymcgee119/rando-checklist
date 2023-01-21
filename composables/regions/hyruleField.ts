@@ -69,5 +69,32 @@ export const hyruleField = {
             type: LocationTypes.cow,
             tags: [Tags.grotto]
         },
+
+        // beehives
+        {
+            title: "Open grotto near lake hylia (2)",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
+        {
+            title: "Southeast grotto, under rock (2)",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
+        {
+            title: "Deku salesman",
+            description: "Grotto inside the fences by lake hylia",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
+        {
+            title: "Grotto west of castle town (2)",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
     ]
 };
