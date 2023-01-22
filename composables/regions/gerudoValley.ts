@@ -5,6 +5,7 @@ export const gerudoValley = {
     bgColor: 'bg-rose-400',
     hasMQ: false,
     locations: [
+        // items
         {
             title: "Crate heart piece",
             isChecked: false,
@@ -24,7 +25,7 @@ export const gerudoValley = {
             tags: [Tags.adult]
         },
 
-
+        // gold skulltulas
         {
             title: "Bean patch, bottom of canyon",
             isChecked: false,
@@ -49,12 +50,16 @@ export const gerudoValley = {
             type: LocationTypes.gs,
             tags: [Tags.adult, Tags.night]
         },
+
+        // scrubs
         {
             title: "Song of storms, behind tent",
             isChecked: false,
             type: LocationTypes.scrub,
             tags: [Tags.grotto, Tags.adult]
         },
+
+        // cows
         {
             title: "Bottom of canyon",
             isChecked: false,
@@ -77,5 +82,22 @@ export const gerudoValley = {
             type: LocationTypes.beehive,
             tags: [Tags.adult, Tags.grotto]
         },
+
+        // pots and crates
+        {
+            title: "Near cow",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.child]
+        },
+        {
+            title: "HP crate",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: []
+        },
+        
+
+
     ]
 };

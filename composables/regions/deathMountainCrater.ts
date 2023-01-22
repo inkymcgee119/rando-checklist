@@ -5,6 +5,7 @@ export const deathMountainCrater = {
     bgColor: 'bg-red-900',
     hasMQ: false,
     locations: [
+        // items
         {
             title: "Upper grotto",
             isChecked: false,
@@ -36,6 +37,7 @@ export const deathMountainCrater = {
             tags: [Tags.adult]
         },
 
+        // gold skulltulas
         {
             title: "Crate near exit at the top of the crater",
             isChecked: false,
@@ -49,6 +51,7 @@ export const deathMountainCrater = {
             tags: [Tags.child, Tags.bean]
         },
 
+        // scrubs
         {
             title: "Hammer rock near bridge (3)",
             isChecked: false,
@@ -88,6 +91,14 @@ export const deathMountainCrater = {
             isChecked: false,
             type: LocationTypes.beehive,
             tags: [Tags.grotto]
+        },
+
+        // pots
+        {
+            title: "Near goron city entrance (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.adult]
         },
     ]
 };

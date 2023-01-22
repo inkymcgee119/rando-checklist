@@ -5,6 +5,7 @@ export const goronCity = {
     bgColor: 'bg-amber-800',
     hasMQ: false,
     locations: [
+        // items
         {
             title: "Rolling goron",
             isChecked: false,
@@ -48,6 +49,7 @@ export const goronCity = {
             tags: [Tags.adult]
         },
 
+        // gold skulltulas
         {
             title: "Rock maze, right side crate",
             isChecked: false,
@@ -60,12 +62,16 @@ export const goronCity = {
             type: LocationTypes.gs,
             tags: [Tags.adult]
         },
+
+        // scrubs
         {
             title: "Hookshot in lava room (3)",
             isChecked: false,
             type: LocationTypes.scrub,
             tags: [Tags.grotto]
         },
+
+        // shops
         {
             title: "Shop",
             isChecked: false,
@@ -92,5 +98,34 @@ export const goronCity = {
             type: LocationTypes.rupee,
             tags: [Tags.child]
         },
+
+        // crates
+        {
+            title: "Rock maze, right side",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: []
+        },
+
+        // pots
+        {
+            title: "Staircase (5)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: []
+        },
+        {
+            title: "Medigoron",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: []
+        },
+        {
+            title: "Darunia (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: []
+        },
+
     ]
 };

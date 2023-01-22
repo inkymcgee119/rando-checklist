@@ -6,6 +6,7 @@ export const dodongoCavern = {
     hasMQ: true,
     showMQ: false,
     locations: [
+        // items
         {
             title: "Lobby, left side bombable wall",
             isChecked: false,
@@ -48,6 +49,8 @@ export const dodongoCavern = {
             type: LocationTypes.boss,
             tags: [Tags.vanilla]
         },
+
+        // gold skulltulas
         {
             title: "Lower right, scarecrow song",
             description: "This can also be gotten by dragging a statue all way from the other end of the hallway",
@@ -80,6 +83,8 @@ export const dodongoCavern = {
             type: LocationTypes.gs,
             tags: [Tags.vanilla]
         },
+
+        // scrubs
         {
             title: "Lobby, left side",
             isChecked: false,
@@ -101,6 +106,7 @@ export const dodongoCavern = {
         
 
         // MQ
+        // items
         {
             title: "Lobby, right side bombable wall",
             isChecked: false,
@@ -149,6 +155,8 @@ export const dodongoCavern = {
             type: LocationTypes.boss,
             tags: [Tags.mq]
         },
+
+        // gold skulltulas
         {
             title: "Lower right path, room after lizafos",
             isChecked: false,
@@ -179,6 +187,8 @@ export const dodongoCavern = {
             type: LocationTypes.gs,
             tags: [Tags.mq]
         },
+
+        // scrubs
         {
             title: "Lobby, left side (2)",
             isChecked: false,
@@ -217,6 +227,63 @@ export const dodongoCavern = {
             title: "Upper right, behind block",
             isChecked: false,
             type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // pots        
+        {
+            title: "Lower right hallway (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before Lower lizafos (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Lower lizafos (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },        
+        {
+            title: "Lower right, after lizafos (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },        
+        {
+            title: "Left side, staircase (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        
+        {
+            title: "Sliding blades room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },        
+        {
+            title: "Single eye switch room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Double eye switch room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before boss (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
             tags: [Tags.vanilla]
         },
 

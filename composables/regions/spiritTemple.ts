@@ -6,6 +6,7 @@ export const spiritTemple = {
     hasMQ: true,
     showMQ: false,
     locations: [
+        // items
         {
             title: "Child side, left room",
             isChecked: false,
@@ -109,6 +110,8 @@ export const spiritTemple = {
             type: LocationTypes.boss,
             tags: [Tags.vanilla]
         },
+
+        // gold skulltulas
         {
             title: "Child side, right room, on fence",
             isChecked: false,
@@ -141,6 +144,7 @@ export const spiritTemple = {
         },
 
         // MQ
+        // items
         {
             title: "Entrance, free chest",
             isChecked: false,
@@ -280,6 +284,8 @@ export const spiritTemple = {
             type: LocationTypes.boss,
             tags: [Tags.mq]
         },
+
+        // gold skulltulas
         {
             title: "Sun block room",
             isChecked: false,
@@ -311,6 +317,70 @@ export const spiritTemple = {
             title: "Shifting walls climb (2)",
             isChecked: false,
             type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // crates
+        {
+            title: "Before child climb (4)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.vanilla]
+        },
+        
+        // pots
+        {
+            title: "Lobby (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Flying pot in bridge room",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla, Tags.child]
+        },
+        {
+            title: "Anubis room",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla, Tags.child]
+        },
+        {
+            title: "Child climb room",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before child iron knuckle (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Adult climb flying pots (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Main statue room, flying pots (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Beamos hallway",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Mirror room, flying pots (6)",
+            isChecked: false,
+            type: LocationTypes.pot,
             tags: [Tags.vanilla]
         },
 

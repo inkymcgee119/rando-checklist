@@ -5,6 +5,7 @@ export const kakarikoVillage = {
     bgColor: 'bg-lime-900',
     hasMQ: false,
     locations: [
+        // items
         {
             title: "Anju's chickens",
             isChecked: false,
@@ -99,6 +100,8 @@ export const kakarikoVillage = {
             type: LocationTypes.song,
             tags: [Tags.adult]
         },
+
+        // gold skulltulas
         {
             title: "Tree near entrance",
             isChecked: false,
@@ -135,12 +138,16 @@ export const kakarikoVillage = {
             type: LocationTypes.gs,
             tags: [Tags.adult, Tags.night]
         },
+
+        // cows
         {
             title: "Impa's house",
             isChecked: false,
             type: LocationTypes.cow,
             tags: []
         },
+
+        // shops
         {
             title: "Shop, bazaar",
             isChecked: false,
@@ -161,5 +168,52 @@ export const kakarikoVillage = {
             type: LocationTypes.beehive,
             tags: [Tags.grotto]
         },
+
+        // crates
+        {
+            title: "Near open grotto (2)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.adult]
+        },
+        {
+            title: "Near archery",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.adult]
+        },
+        {
+            title: "Near man on knees",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.adult]
+        },
+
+        // pots
+        {
+            title: "Outside potion shop (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.child]
+        },
+        {
+            title: "Outside bazaar (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.child]
+        },
+        {
+            title: "Outside impa's house (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.child]
+        },
+        {
+            title: "Outside odd medicine shop (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.child]
+        },
+
     ]
 };

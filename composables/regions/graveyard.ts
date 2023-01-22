@@ -5,6 +5,7 @@ export const graveyard = {
     bgColor: 'bg-violet-500',
     hasMQ: false,
     locations: [
+        // items
         {
             title: "Flower grave",
             isChecked: false,
@@ -48,6 +49,7 @@ export const graveyard = {
             tags: []
         },
 
+        // gold skulltulas
         {
             title: "Back right wall",
             isChecked: false,
@@ -66,6 +68,14 @@ export const graveyard = {
             title: "Dampe race (8)",
             isChecked: false,
             type: LocationTypes.rupee,
+            tags: []
+        },
+
+        // pots
+        {
+            title: "Dampe race (6)",
+            isChecked: false,
+            type: LocationTypes.pot,
             tags: []
         },
     ]

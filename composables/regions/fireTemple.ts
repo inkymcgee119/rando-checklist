@@ -6,8 +6,9 @@ export const fireTemple = {
     hasMQ: true,
     showMQ: false,
     locations: [
+        // items
         {
-            title: "Room before Volvagia",
+            title: "Room before volvagia",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.vanilla]
@@ -97,6 +98,8 @@ export const fireTemple = {
             type: LocationTypes.boss,
             tags: [Tags.vanilla]
         },
+
+        // gold skulltulas
         {
             title: "Entrance loop, back right room",
             isChecked: false,
@@ -126,6 +129,7 @@ export const fireTemple = {
 
 
         // MQ
+        // items
         {
             title: "Room before volvagia",
             isChecked: false,
@@ -204,6 +208,8 @@ export const fireTemple = {
             type: LocationTypes.boss,
             tags: [Tags.mq]
         },
+
+        // gold skulltulas
         {
             title: "Bridge room, left side room",
             isChecked: false,
@@ -255,5 +261,32 @@ export const fireTemple = {
             type: LocationTypes.rupee,
             tags: [Tags.vanilla]
         },
+
+        // pots
+        {
+            title: "Room before volvagia (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Bridge room, left side (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Fire wall maze, left (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Fire wall maze, right (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+
     ]
 };

@@ -6,6 +6,7 @@ export const shadowTemple = {
     hasMQ: true,
     showMQ: false,
     locations: [
+        // items
         {
             title: "Opening section, redead room",
             isChecked: false,
@@ -90,6 +91,8 @@ export const shadowTemple = {
             type: LocationTypes.boss,
             tags: [Tags.vanilla]
         },
+
+        // gold skulltulas
         {
             title: "Invisible spinning blade room",
             isChecked: false,
@@ -123,6 +126,7 @@ export const shadowTemple = {
 
 
         // MQ
+        // items
         {
             title: "Opening section, redead room",
             isChecked: false,
@@ -231,6 +235,8 @@ export const shadowTemple = {
             type: LocationTypes.boss,
             tags: [Tags.mq]
         },
+
+        // gold skulltulas
         {
             title: "Falling spike room",
             isChecked: false,
@@ -286,6 +292,62 @@ export const shadowTemple = {
             title: "Triple skull room (9)",
             isChecked: false,
             type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // pots
+        {
+            title: "Opening section (6 and flying pot)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Opening section, redead room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Falling spike room, lower (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Falling spike room, upper (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Fan area, gibdos room (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "After boat",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Spike trap roo",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Invisible floor master room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before boss (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
             tags: [Tags.vanilla]
         },
     ]

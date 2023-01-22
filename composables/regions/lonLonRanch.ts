@@ -5,6 +5,7 @@ export const lonLonRanch = {
     bgColor: 'bg-amber-400',
     hasMQ: false,
     locations: [
+        // items
         {
             title: "Silo, rear of the ranch",
             isChecked: false,
@@ -23,6 +24,8 @@ export const lonLonRanch = {
             type: LocationTypes.song,
             tags: [Tags.child]
         },
+
+        // gold skulltulas
         {
             title: "Tree near entrance",
             isChecked: false,
@@ -47,12 +50,16 @@ export const lonLonRanch = {
             type: LocationTypes.gs,
             tags: [Tags.child, Tags.night]
         },
+
+        // scrubs
         {
             title: "Open grotto in the rear (3)",
             isChecked: false,
             type: LocationTypes.scrub,
             tags: [Tags.grotto]
         },
+
+        // cows
         {
             title: "In stable (2)",
             isChecked: false,
@@ -73,5 +80,35 @@ export const lonLonRanch = {
             type: LocationTypes.beehive,
             tags: [Tags.grotto]
         },
+
+        // crates
+        {
+            title: "Near tree",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.child]
+        },
+
+        // pots
+        {
+            title: "Near entrance (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.child]
+        },
+        {
+            title: "In fenced area (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.child]
+        },
+        {
+            title: "Talon's house (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: []
+        },
+
+
     ]
 };

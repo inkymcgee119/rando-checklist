@@ -6,6 +6,7 @@ export const ganonCastle = {
     hasMQ: true,
     showMQ: false,
     locations: [
+        // items
         {
             title: "Forest trial",
             isChecked: false,
@@ -69,6 +70,7 @@ export const ganonCastle = {
         
 
         // MQ
+        // items
         {
             title: "Forest trial, freestanding item",
             isChecked: false,
@@ -159,6 +161,56 @@ export const ganonCastle = {
             title: "Spirit trial",
             isChecked: false,
             type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // pots
+        {
+            title: "Forest trial (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Water trial (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Shadow trial (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Fire trial (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Light trial, boulder room",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Light trial (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Spirit trial (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before ganondorf (14)",
+            isChecked: false,
+            type: LocationTypes.pot,
             tags: [Tags.vanilla]
         },
         

@@ -6,6 +6,7 @@ export const waterTemple = {
     hasMQ: true,
     showMQ: false,
     locations: [
+        // items
         {
             title: "Bottom floor, first chest",
             isChecked: false,
@@ -50,7 +51,7 @@ export const waterTemple = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Second floor, eye target",
+            title: "Second floor, eye switch",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.vanilla]
@@ -73,6 +74,8 @@ export const waterTemple = {
             type: LocationTypes.boss,
             tags: [Tags.vanilla]
         },
+
+        // gold skulltulas
         {
             title: "Bottom floor, behind a gate",
             isChecked: false,
@@ -106,6 +109,7 @@ export const waterTemple = {
 
 
         // MQ
+        // items
         {
             title: "Bottom floor, first chest",
             isChecked: false,
@@ -149,6 +153,8 @@ export const waterTemple = {
             type: LocationTypes.boss,
             tags: [Tags.mq]
         },
+
+        // gold skulltulas
         {
             title: "Bottom floor, light torches",
             isChecked: false,
@@ -188,5 +194,62 @@ export const waterTemple = {
             type: LocationTypes.rupee,
             tags: [Tags.vanilla]
         },
+
+        // pots
+        {
+            title: "Main room, second floor (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Bottom floor, torch room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Second floor, water column room (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Second floor, water column room (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Second floor, eye switch (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Bottom floor, behind a gate (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Bottom floor, waterfall boulders (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before dark link (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Top floor, river after dark Link",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+
     ]
 };

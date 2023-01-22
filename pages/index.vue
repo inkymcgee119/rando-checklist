@@ -377,7 +377,7 @@ function reset() {
 
 <style>
 .tooltip {
-    position: absolute;
+    position: relative;
     /* making the .tooltip span a container for the tooltip text */
 }
 
@@ -412,6 +412,7 @@ function reset() {
 
 .tooltip:hover:before {
     display: block;
+    position: absolute;
 }
 
 .btn-option {

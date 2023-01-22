@@ -5,6 +5,7 @@ export const kokiriForest = {
     bgColor: 'bg-lime-500',
     hasMQ: false,
     locations: [
+        // items
         {
             title: "Mido's House (4)",
             isChecked: false,
@@ -24,6 +25,7 @@ export const kokiriForest = {
             tags: [Tags.grotto]
         },
 
+        // gold skulltulas
         {
             title: "Back of Know-it-all Bros house",
             isChecked: false,
@@ -119,6 +121,27 @@ export const kokiriForest = {
             type: LocationTypes.beehive,
             tags: [Tags.grotto]
         },
+
+        // pots 
+        {
+            title: "Link's house",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: []
+        },
+        {
+            title: "Twin's house (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: []
+        },
+        {
+            title: "Know-it-all bros' house",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: []
+        },
+
     ]
 
 };

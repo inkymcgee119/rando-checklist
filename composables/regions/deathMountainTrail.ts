@@ -95,7 +95,7 @@ export const deathMountainTrail = {
             description: "Rock circle outside goron city",
             isChecked: false,
             type: LocationTypes.beehive,
-            tags: []
+            tags: [Tags.grotto]
         },
     ]
 };

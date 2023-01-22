@@ -5,6 +5,7 @@ export const zoraFountain = {
     bgColor: 'bg-sky-800',
     hasMQ: false,
     locations: [
+        // items
         {
             title: "Great fairy",
             isChecked: false,
@@ -24,7 +25,7 @@ export const zoraFountain = {
             tags: [Tags.adult]
         },
 
-
+        // gold skulltulas
         {
             title: "Tree near great fairy",
             isChecked: false,
@@ -49,6 +50,20 @@ export const zoraFountain = {
             title: "Bottom of lake (18)",
             isChecked: false,
             type: LocationTypes.rupee,
+            tags: [Tags.adult]
+        },
+
+        // pots
+        {
+            title: "Near jabu (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.child]
+        },
+        {
+            title: "Tunnel under silver rock (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
             tags: [Tags.adult]
         },
     ]

@@ -5,6 +5,7 @@ export const castleGrounds = {
     bgColor: 'bg-zinc-400',
     hasMQ: false,
     locations: [
+        // items
         {
             title: "Talk to Malon",
             isChecked: false,
@@ -29,6 +30,8 @@ export const castleGrounds = {
             type: LocationTypes.song,
             tags: [Tags.child]
         },
+
+        // gold skulltulas
         {
             title: "In tree near entrance",
             isChecked: false,
@@ -47,6 +50,14 @@ export const castleGrounds = {
             isChecked: false,
             type: LocationTypes.gs,
             tags: [Tags.adult]
+        },
+
+        // pots
+        {
+            title: "Song of storms grotto (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.grotto]
         },
     ]
 };

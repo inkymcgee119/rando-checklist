@@ -5,6 +5,7 @@ export const zoraDomain = {
     bgColor: 'bg-sky-600',
     hasMQ: false,
     locations: [
+        // items
         {
             title: "Diving Minigame",
             isChecked: false,
@@ -23,12 +24,16 @@ export const zoraDomain = {
             type: LocationTypes.item,
             tags: [Tags.adult]
         },
+
+        // gold skulltulas
         {
             title: "Top of the waterfall",
             isChecked: false,
             type: LocationTypes.gs,
             tags: [Tags.adult]
         },
+
+        // shops
         {
             title: "Shop",
             isChecked: false,
@@ -49,6 +54,14 @@ export const zoraDomain = {
             isChecked: false,
             type: LocationTypes.beehive,
             tags: [Tags.child]
+        },
+
+        // pots
+        {
+            title: "Pots (5)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: []
         },
     ]
 };

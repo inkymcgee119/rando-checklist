@@ -6,6 +6,7 @@ export const forestTemple = {
     hasMQ: true,
     showMQ: false,
     locations: [
+        // items
         {
             title: "Entrance area, up in the tree",
             isChecked: false,
@@ -90,6 +91,8 @@ export const forestTemple = {
             type: LocationTypes.boss,
             tags: [Tags.vanilla]
         },
+
+        // gold skulltulas
         {
             title: "Entrance area, on the vines",
             isChecked: false,
@@ -201,6 +204,8 @@ export const forestTemple = {
             type: LocationTypes.boss,
             tags: [Tags.mq]
         },
+
+        // gold skulltulas
         {
             title: "Entrance hallway, upper left corner",
             isChecked: false,
@@ -246,5 +251,44 @@ export const forestTemple = {
             type: LocationTypes.rupee,
             tags: [Tags.vanilla]
         },
+
+        // pots
+        {
+            title: "Center room (6)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Room straight back, staflos fight",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Bow chest (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Blue poe (Beth) (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Frozen eye switch room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Green poe (Amy) (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        
     ]
 };

@@ -6,6 +6,7 @@ export const bottomOfTheWell = {
     hasMQ: true,
     showMQ: false,
     locations: [
+        // items
         {
             title: "Front left invisible wall",
             isChecked: false,
@@ -91,7 +92,7 @@ export const bottomOfTheWell = {
             tags: [Tags.vanilla]
         },
 
-        
+        // gold skulltulas
         {
             title: "Center, left key door",
             isChecked: false,
@@ -113,6 +114,7 @@ export const bottomOfTheWell = {
 
 
         // MQ
+        // items
         {
             title: "Center chest",
             isChecked: false,
@@ -145,9 +147,7 @@ export const bottomOfTheWell = {
             tags: [Tags.mq]
         },
 
-
-
-
+        // gold skulltulas
         {
             title: "Left side, coffin room",
             isChecked: false,
@@ -178,6 +178,44 @@ export const bottomOfTheWell = {
             title: "Fall into pit, platform (5)",
             isChecked: false,
             type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // pots
+        {
+            title: "Near entrance (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Left side, basement exit (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Center room, flying pots (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Near lullaby, after draining",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Back right room, fire keese",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Basement (12)",
+            isChecked: false,
+            type: LocationTypes.pot,
             tags: [Tags.vanilla]
         },
     ]

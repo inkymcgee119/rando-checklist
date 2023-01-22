@@ -6,6 +6,7 @@ export const jabu = {
     hasMQ: true,
     showMQ: false,
     locations: [
+        // items
         {
             title: "Tentacle area, right room",
             isChecked: false,
@@ -30,6 +31,8 @@ export const jabu = {
             type: LocationTypes.boss,
             tags: [Tags.vanilla]
         },
+
+        // gold skulltulas
         {
             title: "Bottom path, switch room",
             isChecked: false,
@@ -48,6 +51,8 @@ export const jabu = {
             type: LocationTypes.gs,
             tags: [Tags.vanilla]
         },
+
+        // scrubs
         {
             title: "Elevator room, dive under wall",
             isChecked: false,
@@ -56,6 +61,7 @@ export const jabu = {
         },
 
         // MQ
+        // items
         {
             title: "First room, press button",
             isChecked: false,
@@ -122,6 +128,8 @@ export const jabu = {
             type: LocationTypes.boss,
             tags: [Tags.mq]
         },
+
+        // gold skulltulas
         {
             title: "Bottom path, switch room SoT block",
             isChecked: false,
@@ -136,6 +144,7 @@ export const jabu = {
         },
         {
             title: "Ruto room, room behind tentacle",
+            description: "This is the rear door in the room you meet Ruto that you normally wouldn't enter.",
             isChecked: false,
             type: LocationTypes.gs,
             tags: [Tags.mq]
@@ -146,12 +155,48 @@ export const jabu = {
             type: LocationTypes.gs,
             tags: [Tags.mq]
         },
+
+        // cows
         {
             title: "Room after miniboss",
             isChecked: false,
             type: LocationTypes.cow,
             tags: [Tags.mq]
         },
+
+        // crates
+        {
+            title: "Elevator room, small crate",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.vanilla]
+        },
         
+        // pots
+        {
+            title: "Bottom path, switch room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Bottom path, wiggler room (4)",
+            description: "This is the rear door in the room you meet Ruto that you normally wouldn't enter.",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "After miniboss (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Barinade (6)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
     ]
 };

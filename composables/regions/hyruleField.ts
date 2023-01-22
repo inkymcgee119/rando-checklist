@@ -5,6 +5,7 @@ export const hyruleField = {
     bgColor: 'bg-yellow-700',
     hasMQ: false,
     locations: [
+        // items
         {
             title: "Open grotto near lake hylia",
             isChecked: false,
@@ -50,7 +51,7 @@ export const hyruleField = {
             tags: [Tags.child]
         },
 
-       
+        // gold skulltulas
         {
             title: "Grotto near kakariko, near tree",
             isChecked: false,
@@ -63,6 +64,8 @@ export const hyruleField = {
             type: LocationTypes.gs,
             tags: [Tags.grotto]
         },
+
+        // cows
         {
             title: "Grotto near gerudo valley",
             isChecked: false,
@@ -94,6 +97,14 @@ export const hyruleField = {
             title: "Grotto west of castle town (2)",
             isChecked: false,
             type: LocationTypes.beehive,
+            tags: [Tags.grotto]
+        },
+
+        // pots
+        {
+            title: "Grotto near gerudo valley (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
             tags: [Tags.grotto]
         },
     ]

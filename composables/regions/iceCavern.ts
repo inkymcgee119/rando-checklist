@@ -6,6 +6,7 @@ export const iceCavern = {
     hasMQ: true,
     showMQ: false,
     locations: [
+        // items
         {
             title: "Back room chest",
             isChecked: false,
@@ -36,6 +37,8 @@ export const iceCavern = {
             type: LocationTypes.song,
             tags: [Tags.vanilla]
         },
+
+        // gold skulltulas
         {
             title: "Spinning blade room",
             isChecked: false,
@@ -57,6 +60,7 @@ export const iceCavern = {
 
 
         // MQ
+        // items
         {
             title: "Right room, red ice",
             isChecked: false,
@@ -87,6 +91,8 @@ export const iceCavern = {
             type: LocationTypes.song,
             tags: [Tags.mq]
         },
+
+        // gold skulltulas
         {
             title: "Right room, under red ice",
             isChecked: false,
@@ -125,6 +131,32 @@ export const iceCavern = {
             description: "Use song of time to reach",
             isChecked: false,
             type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // pots
+        {
+            title: "Hallway (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Spinning blade (3 + 1 flying)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Back room, frozen",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before wolfos (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
             tags: [Tags.vanilla]
         },
     ]
