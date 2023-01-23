@@ -62,8 +62,30 @@ export const dekuTree = {
             tags: [Tags.vanilla]
         },
 
+        // rupees and hearts
+        {
+            title: "Walk the plank",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Leap down",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Water before boss (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+
 
         // MQ
+        // items
         {
             title: "Lobby",
             isChecked: false,
@@ -106,6 +128,8 @@ export const dekuTree = {
             type: LocationTypes.boss,
             tags: [Tags.mq]
         },
+
+        // gold skulltulas
         {
             title: "Under crate in lobby",
             isChecked: false,
@@ -133,7 +157,7 @@ export const dekuTree = {
             tags: [Tags.mq]
         },
 
-        
+        // scrubs
         {
             title: "Scrub near gohma's hole",
             isChecked: false,
@@ -144,22 +168,48 @@ export const dekuTree = {
 
         // rupees and hearts
         {
-            title: "Walk the plank",
+            title: "Lobby, lower",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Leap down",
+            title: "Lobby, first floor",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Water before boss (3)",
+            title: "First floor room",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
+        },
+        {
+            title: "Second floor room",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Basement (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.mq]
+        },
+
+        // crates        
+        {
+            title: "Lobby",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Second floor room",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
         },
 
     ]

@@ -112,6 +112,59 @@ export const bottomOfTheWell = {
             tags: [Tags.vanilla]
         },
 
+        
+        // rupees and hearts
+        {
+            title: "Left side, coffin room (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Fall into pit, platform (5)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // pots
+        {
+            title: "Near entrance (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Left side, basement exit (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Center room, flying pots (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Near lullaby, after draining",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Back right room, fire keese",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Basement (12)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+
 
         // MQ
         // items
@@ -167,56 +220,40 @@ export const bottomOfTheWell = {
             tags: [Tags.mq]
         },
 
-        // rupees and hearts
+        // rupees
+        {
+            title: "Bombable recovery heart (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.mq]
+        },
         {
             title: "Left side, coffin room (2)",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Fall into pit, platform (5)",
+            title: "Basement recovery heart (3)",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
 
         // pots
         {
-            title: "Near entrance (2)",
+            title: "Center room (3)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Left side, basement exit (3)",
+            title: "Center right room (3)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
-        {
-            title: "Center room, flying pots (3)",
-            isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.vanilla]
-        },
-        {
-            title: "Near lullaby, after draining",
-            isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.vanilla]
-        },
-        {
-            title: "Back right room, fire keese",
-            isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.vanilla]
-        },
-        {
-            title: "Basement (12)",
-            isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.vanilla]
-        },
+
+
     ]
 };

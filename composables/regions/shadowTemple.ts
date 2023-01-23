@@ -124,6 +124,88 @@ export const shadowTemple = {
             tags: [Tags.vanilla]
         },
 
+        // rupees and hearts
+        {
+            title: "Invisible blade room (2)",
+            description: "Use song of time to reach",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before boat (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "After boat (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Triple skull room (9)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // pots
+        {
+            title: "Opening section (6 and flying pot)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Opening section, redead room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Falling spike room, lower (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Falling spike room, upper (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Fan area, gibdos room (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "After boat",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Spike trap roo",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Invisible floor master room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before boss (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
 
         // MQ
         // items
@@ -268,87 +350,113 @@ export const shadowTemple = {
             tags: [Tags.mq]
         },
 
-        // rupees and hearts
+        // rupees
         {
             title: "Invisible blade room (2)",
-            description: "Use song of time to reach",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
             title: "Before boat (2)",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "After boat (3)",
+            title: "After boat, lower",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Triple skull room (9)",
+            title: "After boat, upper (2)",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
+        },
+        {
+            title: "Triple spinning pots (9)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.mq]
+        },
+
+        // crates
+        {
+            title: "Truth spinner (4)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
         },
 
         // pots
         {
-            title: "Opening section (6 and flying pot)",
+            title: "Whispering walls (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Opening section, redead room (2)",
+            title: "Whispering walls, before SoT (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Falling spike room, lower (2)",
+            title: "Whispering walls, after SoT (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Falling spike room, upper (2)",
+            title: "Whispering walls, redead (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Fan area, gibdos room (4)",
+            title: "Falling spikes, lower (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "After boat",
+            title: "Falling spikes, upper (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Spike trap roo",
+            title: "After wind (4)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Invisible floor master room (2)",
+            title: "After boat (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Before boss (2)",
+            title: "Near boss (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
+        {
+            title: "Deadhand 2 (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Spike walls",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+
     ]
 };

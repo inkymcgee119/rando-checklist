@@ -109,6 +109,14 @@ export const gerudoTrainingGrounds = {
             tags: [Tags.vanilla]
         },
 
+        // rupees and hearts
+        {
+            title: "Lizafos and beamos room (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
 
         // MQ
         {
@@ -185,12 +193,21 @@ export const gerudoTrainingGrounds = {
             tags: [Tags.mq]
         },
 
-        // rupees and hearts
+        // crates        
         {
-            title: "Lizafos and beamos room (2)",
+            title: "Maze crate",
             isChecked: false,
-            type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
         },
+
+        // pots
+        {
+            title: "Lobby (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        
     ]
 };

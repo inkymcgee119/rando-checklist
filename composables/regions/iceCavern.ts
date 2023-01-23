@@ -58,6 +58,52 @@ export const iceCavern = {
             tags: [Tags.vanilla]
         },
 
+        // rupees and hearts
+        {
+            title: "Red ice near entrance",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Back room (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Block pushing puzzle (3)",
+            description: "Use song of time to reach",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // pots
+        {
+            title: "Hallway (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Spinning blade (3 + 1 flying)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Back room, frozen",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before wolfos (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
 
         // MQ
         // items
@@ -113,51 +159,37 @@ export const iceCavern = {
             tags: [Tags.mq]
         },
 
-        // rupees and hearts
-        {
-            title: "Red ice near entrance",
-            isChecked: false,
-            type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
-        },
-        {
-            title: "Back room (3)",
-            isChecked: false,
-            type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
-        },
-        {
-            title: "Block pushing puzzle (3)",
-            description: "Use song of time to reach",
-            isChecked: false,
-            type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
-        },
-
         // pots
         {
-            title: "Hallway (2)",
+            title: "First hall",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Spinning blade (3 + 1 flying)",
+            title: "Tektite room (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Back room, frozen",
+            title: "Center room (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
+        },        
+        {
+            title: "Compass room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
         },
         {
-            title: "Before wolfos (2)",
+            title: "Near end",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
+
     ]
 };

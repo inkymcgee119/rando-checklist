@@ -142,6 +142,79 @@ export const spiritTemple = {
             type: LocationTypes.gs,
             tags: [Tags.vanilla]
         },
+        
+
+        // rupees and hearts
+        {
+            title: "Shifting walls climb (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // crates
+        {
+            title: "Before child climb (4)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.vanilla]
+        },
+        
+        // pots
+        {
+            title: "Lobby (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Flying pot in bridge room",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla, Tags.child]
+        },
+        {
+            title: "Anubis room",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla, Tags.child]
+        },
+        {
+            title: "Child climb room",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before child iron knuckle (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Adult climb flying pots (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Main statue room, flying pots (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Beamos hallway",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Mirror room, flying pots (6)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
 
         // MQ
         // items
@@ -311,77 +384,94 @@ export const spiritTemple = {
             tags: [Tags.mq]
         },
 
-
-        // rupees and hearts
+        // rupees
         {
-            title: "Shifting walls climb (2)",
+            title: "Child side (2)",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq, Tags.child]
         },
 
         // crates
         {
-            title: "Before child climb (4)",
+            title: "Main statue room (2)",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
-        
+        {
+            title: "Big mirror (4)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq, Tags.adult]
+        },
+
         // pots
         {
             title: "Lobby (4)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Flying pot in bridge room",
+            title: "Child, torch slug",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla, Tags.child]
+            tags: [Tags.mq, Tags.child]
         },
         {
-            title: "Anubis room",
+            title: "Child, gibdo room (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla, Tags.child]
+            tags: [Tags.mq, Tags.child]
         },
         {
-            title: "Child climb room",
+            title: "Child, stalfos room (3)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq, Tags.child]
         },
         {
-            title: "Before child iron knuckle (2)",
+            title: "Child climb",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Adult climb flying pots (2)",
+            title: "Main statue room, floor (3)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Main statue room, flying pots (2)",
+            title: "Main statue room, top left (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Beamos hallway",
+            title: "Sun block room (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Mirror room, flying pots (6)",
+            title: "Adult descent (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq, Tags.adult]
+        },
+        {
+            title: "After shifting walls (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq, Tags.adult]
+        },
+        {
+            title: "Big mirror (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq, Tags.adult]
         },
 
     ]

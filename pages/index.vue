@@ -84,7 +84,7 @@
                             <div class="px-2 font-sans font-medium self-start grow">
                                 <Icon :name="loc.type.icon"></Icon>
                                 {{ loc.title }}
-                                <span v-if="loc.description" class="tooltip" :data-text="loc.description">
+                                <span v-if="loc.description && !region.collapsed" class="tooltip" :data-text="loc.description">
                                     <Icon name="material-symbols:info-outline"></Icon>
                                 </span>
                             </div>
@@ -377,7 +377,7 @@ function reset() {
 
 <style>
 .tooltip {
-    position: relative;
+    position: absolute;
     /* making the .tooltip span a container for the tooltip text */
 }
 

@@ -123,9 +123,62 @@ export const forestTemple = {
             type: LocationTypes.gs,
             tags: [Tags.vanilla]
         },
+        
+        // rupees and hearts
+        {
+            title: "In the well (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Courtyard, on pillars (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // pots
+        {
+            title: "Center room (6)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Room straight back, staflos fight",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Bow chest (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Blue poe (Beth) (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Frozen eye switch room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Green poe (Amy) (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
 
 
         // MQ
+        // items
         {
             title: "Entrance area, up in the tree",
             isChecked: false,
@@ -237,19 +290,18 @@ export const forestTemple = {
             tags: [Tags.mq]
         },
         
-
-        // rupees and hearts
+        // rupees
         {
-            title: "In the well (2)",
+            title: "Courtyard (3)",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Courtyard, on pillars (2)",
+            title: "In the well (3)",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
 
         // pots
@@ -257,38 +309,51 @@ export const forestTemple = {
             title: "Center room (6)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Room straight back, staflos fight",
+            title: "Room straight back",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Bow chest (4)",
+            title: "Room straight back",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
+        },
+        {
+            title: "Bow room (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
         },
         {
             title: "Blue poe (Beth) (3)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Frozen eye switch room (2)",
+            title: "Green poe (Amy)  (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Green poe (Amy) (2)",
+            title: "Frozen switch room (3)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
-        
+        {
+            title: "Basement (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+
+
     ]
 };

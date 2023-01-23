@@ -127,6 +127,52 @@ export const fireTemple = {
             tags: [Tags.vanilla]
         },
 
+        // rupees and hearts
+        {
+            title: "Elevator room, on fence (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Room after boulder maze (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Moving fire wall room (3)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // pots
+        {
+            title: "Room before volvagia (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Bridge room, left side (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Fire wall maze, left (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Fire wall maze, right (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+
 
         // MQ
         // items
@@ -241,51 +287,130 @@ export const fireTemple = {
             tags: [Tags.mq]
         },
         
-
-        // rupees and hearts
+        // rupees
         {
             title: "Elevator room, on fence (3)",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
-        },
-        {
-            title: "Room after boulder maze (3)",
-            isChecked: false,
-            type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
-        },
-        {
-            title: "Moving fire wall room (3)",
-            isChecked: false,
-            type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
 
-        // pots
+        // crates
         {
-            title: "Room before volvagia (2)",
+            title: "Before volvagia, left (2)",
             isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
         },
         {
-            title: "Bridge room, left side (3)",
+            title: "Before volvagia, right (2)",
             isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
         },
         {
-            title: "Fire wall maze, left (4)",
+            title: "Before volvagia, right mid",
             isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
         },
         {
-            title: "Fire wall maze, right (4)",
+            title: "Before volvagia, right upper",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Lizafos maze, lower (3)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Lizafos maze, upper (3)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
+        },        
+        {
+            title: "Lizafos maze, down hole (6)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
+        },        
+        {
+            title: "Former lava wall chase (5)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
+        },
+
+        // pots        
+        {
+            title: "Lobby (2)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
+        },
+        {
+            title: "Before volvagia (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Bridge, left (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Bridge, right",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Narrow path room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Former lava wall chase (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Flame maze, upper right (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Flame maze, right (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Flame maze, left",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Iron knuckle room (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Boss key chest",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
         },
 
     ]
