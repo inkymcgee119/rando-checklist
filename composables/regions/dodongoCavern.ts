@@ -1,4 +1,4 @@
-import {LocationTypes, Tags} from "../constants";
+import { LocationTypes, Tags } from "../constants";
 
 export const dodongoCavern = {
     name: "Dodongo's Cavern",
@@ -103,7 +103,86 @@ export const dodongoCavern = {
             type: LocationTypes.scrub,
             tags: [Tags.vanilla]
         },
-        
+
+
+        // rupees and hearts
+        {
+            title: "Lower lizafos fight",
+            description: "Hidden behind the left side of the lavafall",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Upper lizafos fight (2)",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Upper right, behind block",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.vanilla]
+        },
+
+        // pots        
+        {
+            title: "Lower right hallway (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before Lower lizafos (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Lower lizafos (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Lower right, after lizafos (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Left side, staircase (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+
+        {
+            title: "Sliding blades room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Single eye switch room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Double eye switch room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+        {
+            title: "Before boss (3)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla]
+        },
+
 
         // MQ
         // items
@@ -208,83 +287,120 @@ export const dodongoCavern = {
             tags: [Tags.mq]
         },
 
-
-        // rupees and hearts
+        // rupees
+        {
+            title: "Torch puzzle",
+            isChecked: false,
+            type: LocationTypes.rupee,
+            tags: [Tags.mq]
+        },
         {
             title: "Lower lizafos fight",
             description: "Hidden behind the left side of the lavafall",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
-        },
-        {
-            title: "Upper lizafos fight (2)",
-            isChecked: false,
-            type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
-        },
-        {
-            title: "Upper right, behind block",
-            isChecked: false,
-            type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
 
-        // pots        
+        // crates
+        {
+            title: "Lower right, poe room (8)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Left side, staircase (6)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Upper right, back room (6)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
+        },
+        {
+            title: "After upper lizafos (2)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
+        },
+
+        // pots
         {
             title: "Lower right hallway (4)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Before Lower lizafos (2)",
+            title: "Lower right, poe room (4)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
-        {
-            title: "Lower lizafos (4)",
-            isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.vanilla]
-        },        
-        {
-            title: "Lower right, after lizafos (4)",
-            isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.vanilla]
-        },        
         {
             title: "Left side, staircase (4)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
-        },
-        
-        {
-            title: "Sliding blades room (2)",
-            isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.vanilla]
-        },        
-        {
-            title: "Single eye switch room (2)",
-            isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Double eye switch room (2)",
+            title: "Torch puzzle, pillar",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
         },
         {
-            title: "Before boss (3)",
+            title: "Torch puzzle, corner",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq]
+        },
+        {
+            title: "Before upper lizafos (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Upper lizafos (4)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "After upper lizafos (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Armos army (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Armos army, upper",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Back poe room (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
+        },
+        {
+            title: "Before boss (2)",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq]
         },
 
-    ]};
+    ]
+};
