@@ -147,7 +147,7 @@ export const waterTemple = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Bottom floor, waterfall boulders (2)",
+            title: "Longshot area, back room (2)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.vanilla]
@@ -270,37 +270,19 @@ export const waterTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Storage room (7)",
+            title: "Second floor, spikey hookshot (7)",
             isChecked: false,
             type: LocationTypes.crate,
             tags: [Tags.mq]
         },
         {
-            title: "Dragon, by door (2)",
+            title: "Dragon, by door (8)",
             isChecked: false,
             type: LocationTypes.crate,
             tags: [Tags.mq]
         },
         {
-            title: "Dragon, submerged (4)",
-            isChecked: false,
-            type: LocationTypes.crate,
-            tags: [Tags.mq]
-        },
-        {
-            title: "Dragon, by torches (2)",
-            isChecked: false,
-            type: LocationTypes.crate,
-            tags: [Tags.mq]
-        },
-        {
-            title: "Boss key, upper",
-            isChecked: false,
-            type: LocationTypes.crate,
-            tags: [Tags.mq]
-        },
-        {
-            title: "boss key, lower (4)",
+            title: "Boss key (5)",
             isChecked: false,
             type: LocationTypes.crate,
             tags: [Tags.mq]
@@ -392,13 +374,7 @@ export const waterTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Storage room (3)",
-            isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.mq]
-        },
-        {
-            title: "Triple torch room (4)",
+            title: "Second floor, spikey hookshot (3)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]

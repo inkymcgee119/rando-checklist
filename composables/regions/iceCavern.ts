@@ -87,7 +87,7 @@ export const iceCavern = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Spinning blade (3 + 1 flying)",
+            title: "Spinning blade (4)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.vanilla]
@@ -161,7 +161,7 @@ export const iceCavern = {
 
         // pots
         {
-            title: "First hall",
+            title: "First hallway",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]
@@ -179,13 +179,13 @@ export const iceCavern = {
             tags: [Tags.mq]
         },        
         {
-            title: "Compass room (2)",
+            title: "Back room, floor (2)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]
         },
         {
-            title: "Near end",
+            title: "Before stalfos",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]
