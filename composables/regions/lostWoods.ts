@@ -1,4 +1,4 @@
-import {LocationTypes, Tags} from "../constants";
+import { LocationTypes, Tags } from "../constants";
 
 export const lostWoods = {
     name: "Lost Woods",
@@ -80,7 +80,7 @@ export const lostWoods = {
             tags: [Tags.adult, Tags.night]
         },
 
-        
+
         {
             title: "Deku Salesman, rock near exit",
             isChecked: false,
@@ -105,7 +105,7 @@ export const lostWoods = {
             title: "Water warp (8)",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: []
+            tags: [Tags.child]
         },
 
         // beehives
@@ -121,5 +121,40 @@ export const lostWoods = {
             type: LocationTypes.beehive,
             tags: [Tags.grotto]
         },
+    ],
+
+    entrances: [
+        // overworld
+        {
+            name: "Kokiri Forest",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Sacred Forest Meadow",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Goron City",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Zora River",
+            type: EntranceType.overworld
+        },
+
+        // grottos
+        {
+            name: "Deku theater",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Near goron city warp",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Near exit",
+            type: EntranceType.grotto
+        },
+
     ]
 };

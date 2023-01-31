@@ -100,5 +100,38 @@ export const deathMountainCrater = {
             type: LocationTypes.pot,
             tags: [Tags.adult]
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Goron City",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Death Mountain Trail",
+            type: EntranceType.overworld
+        },
+
+        // interior
+        {
+            name: "Great fairy",
+            type: EntranceType.interior
+        },
+
+        // grottos
+        {
+            name: "Hammer rock",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Upper rock",
+            type: EntranceType.grotto
+        },
+
+        // dungeons
+        {
+            name: "Fire temple",
+            type: EntranceType.dungeon
+        },
     ]
 };

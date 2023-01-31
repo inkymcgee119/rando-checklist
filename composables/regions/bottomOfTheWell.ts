@@ -169,13 +169,13 @@ export const bottomOfTheWell = {
         // MQ
         // items
         {
-            title: "Center chest",
+            title: "Center area chest",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.mq]
         },
         {
-            title: "Back right room, free standing",
+            title: "Center, right room",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.mq]
@@ -222,7 +222,7 @@ export const bottomOfTheWell = {
 
         // rupees
         {
-            title: "Bombable recovery heart (2)",
+            title: "Bombable debris, front (2)",
             isChecked: false,
             type: LocationTypes.rupee,
             tags: [Tags.mq]
@@ -234,7 +234,7 @@ export const bottomOfTheWell = {
             tags: [Tags.mq]
         },
         {
-            title: "Basement recovery heart (3)",
+            title: "Basement, end of tunnel (3)",
             isChecked: false,
             type: LocationTypes.rupee,
             tags: [Tags.mq]
@@ -242,13 +242,13 @@ export const bottomOfTheWell = {
 
         // pots
         {
-            title: "Center room (3)",
+            title: "Center area (3)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]
         },
         {
-            title: "Center right room (3)",
+            title: "Center, right room (3)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]

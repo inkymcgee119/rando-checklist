@@ -133,6 +133,28 @@ export const gerudoFortress = {
             type: LocationTypes.pot,
             tags: []
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Gerudo Valley",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Haunted Wasteland",
+            type: EntranceType.overworld
+        },
 
+        // grottos
+        {
+            name: "Song of storms",
+            type: EntranceType.grotto
+        },
+
+        // dungeons
+        {
+            name: "Gerudo training grounds",
+            type: EntranceType.dungeon
+        },
     ]
 };

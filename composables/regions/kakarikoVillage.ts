@@ -41,7 +41,7 @@ export const kakarikoVillage = {
             title: "Talk to man on the roof",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.adult]
+            tags: []
         },
         {
             title: "Shooting gallery minigame",
@@ -54,7 +54,7 @@ export const kakarikoVillage = {
             title: "Windmill hp",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.adult]
+            tags: []
         },
 
         {
@@ -171,13 +171,7 @@ export const kakarikoVillage = {
 
         // crates
         {
-            title: "Near open grotto (2)",
-            isChecked: false,
-            type: LocationTypes.crate,
-            tags: [Tags.adult]
-        },
-        {
-            title: "Near archery",
+            title: "Near open grotto",
             isChecked: false,
             type: LocationTypes.crate,
             tags: [Tags.adult]
@@ -214,6 +208,78 @@ export const kakarikoVillage = {
             type: LocationTypes.pot,
             tags: [Tags.child]
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Hyrule Field",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Death Mountain Trail",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Graveyard",
+            type: EntranceType.overworld
+        },
 
+        // interior
+        {
+            name: "Windmill",
+            type: EntranceType.interior
+        },
+        {
+            name: "House of skulltula",
+            type: EntranceType.interior
+        },
+        {
+            name: "Impa's house",
+            type: EntranceType.interior
+        },
+        {
+            name: "Impa's cow hole",
+            type: EntranceType.interior
+        },
+        {
+            name: "Carpenter boss house",
+            type: EntranceType.interior
+        },
+        {
+            name: "Bazaar",
+            type: EntranceType.interior
+        },
+        {
+            name: "Potion Shop, frontdoor",
+            type: EntranceType.interior
+        },
+        {
+            name: "Potion Shop, backdoor",
+            type: EntranceType.interior
+        },
+        {
+            name: "Shooting gallery",
+            type: EntranceType.interior
+        },
+        {
+            name: "Odd medicine house",
+            type: EntranceType.interior
+        },
+
+        // grottos
+        {
+            name: "Open",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Redead",
+            type: EntranceType.grotto
+        },
+
+        // dungeons
+        {
+            name: "Bottom of the well",
+            type: EntranceType.dungeon
+        },
     ]
 };

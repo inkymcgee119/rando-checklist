@@ -1,7 +1,7 @@
 import {LocationTypes, Tags} from "../constants";
 
-export const castleTown = {
-    name: "Castle Town",
+export const market = {
+    name: "Market",
     bgColor: 'bg-purple-500',
     locations: [
         // items
@@ -103,6 +103,55 @@ export const castleTown = {
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.adult]
+        },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Market Entrance",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Hyrule/Ganon's Castle Grounds",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Temple of Time Entrance",
+            type: EntranceType.overworld
+        },
+
+        // interior
+        {
+            name: "Bazaar",
+            type: EntranceType.interior
+        },
+        {
+            name: "Potion shop",
+            type: EntranceType.interior
+        },
+        {
+            name: "Mask shop",
+            type: EntranceType.interior
+        },
+        {
+            name: "Shooting gallery",
+            type: EntranceType.interior
+        },
+        {
+            name: "Bombchu bowling",
+            type: EntranceType.interior
+        },
+        {
+            name: "Treasure chest game",
+            type: EntranceType.interior
+        },
+        {
+            name: "Back alley, bombchu shop",
+            type: EntranceType.interior
+        },
+        {
+            name: "Back alley, man in green",
+            type: EntranceType.interior
         },
 
     ]

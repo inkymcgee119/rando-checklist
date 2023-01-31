@@ -16,6 +16,6 @@
     "nuxt-icon": "^0.2.0"
   },
   "dependencies": {
-    "animate.css": "^4.1.1"
+    "primevue": "^3.22.4"
   }
 }

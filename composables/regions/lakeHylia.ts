@@ -106,5 +106,44 @@ export const lakeHylia = {
             type: LocationTypes.beehive,
             tags: [Tags.grotto]
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Hyrule Field",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Zora's Domain",
+            type: EntranceType.overworld
+        },
+
+        // interior
+        {
+            name: "Fishing",
+            type: EntranceType.interior
+        },
+        {
+            name: "Lab",
+            type: EntranceType.interior
+        },
+
+        // grottos
+        {
+            name: "Gravestone",
+            type: EntranceType.grotto
+        },
+
+        // dungeons
+        {
+            name: "Water temple",
+            type: EntranceType.dungeon
+        },
+
+        // owls
+        {
+            name: "Owl",
+            type: EntranceType.owl
+        },
     ]
 };

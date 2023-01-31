@@ -63,5 +63,32 @@ export const zoraDomain = {
             type: LocationTypes.pot,
             tags: []
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Zora River",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Lake Hylia",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Zora's Fountain",
+            type: EntranceType.overworld
+        },
+
+        // interior
+        {
+            name: "Shop",
+            type: EntranceType.interior
+        },
+
+        // grottos
+        {
+            name: "Song of storms",
+            type: EntranceType.grotto
+        },
     ]
 };

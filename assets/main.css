@@ -1,0 +1,42 @@
+.tooltip {
+    position: absolute;
+    /* making the .tooltip span a container for the tooltip text */
+}
+
+.tooltip:before {
+    content: attr(data-text);
+    /* here's the magic */
+    position: absolute;
+
+    /* vertically center */
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* reset defaults */
+    top: initial;
+    margin: initial;
+
+    /* set new values */
+    bottom: 100%;
+    margin-bottom: 5px;
+
+    /* basic styles */
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+
+    display: none;
+    /* hide by default */
+}
+
+.tooltip:hover:before {
+    display: block;
+    position: absolute;
+}
+
+.btn-option {
+    @apply rounded-sm text-white py-1 px-4 my-1 ml-1 hover:bg-violet-900 bg-violet-700;
+}

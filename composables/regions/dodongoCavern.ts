@@ -217,7 +217,7 @@ export const dodongoCavern = {
             tags: [Tags.mq]
         },
         {
-            title: "Inside dodongo head, back room",
+            title: "Poe room in the rear",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.mq]
@@ -261,7 +261,7 @@ export const dodongoCavern = {
             tags: [Tags.mq]
         },
         {
-            title: "Inside dodongo head, top of maze",
+            title: "Armos army, top of maze",
             isChecked: false,
             type: LocationTypes.gs,
             tags: [Tags.mq]
@@ -289,7 +289,7 @@ export const dodongoCavern = {
 
         // rupees
         {
-            title: "Torch puzzle",
+            title: "Upper right, corner of maze",
             isChecked: false,
             type: LocationTypes.rupee,
             tags: [Tags.mq]
@@ -316,7 +316,7 @@ export const dodongoCavern = {
             tags: [Tags.mq]
         },
         {
-            title: "Upper right, back room (6)",
+            title: "Upper right, barred room (6)",
             isChecked: false,
             type: LocationTypes.crate,
             tags: [Tags.mq]
@@ -348,13 +348,13 @@ export const dodongoCavern = {
             tags: [Tags.mq]
         },
         {
-            title: "Torch puzzle, pillar",
+            title: "Upper right, pillar",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]
         },
         {
-            title: "Torch puzzle, corner",
+            title: "Upper right, corner",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]
@@ -378,19 +378,19 @@ export const dodongoCavern = {
             tags: [Tags.mq]
         },
         {
-            title: "Armos army (2)",
+            title: "Armos army, before (2)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]
         },
         {
-            title: "Armos army, upper",
+            title: "Armos army, after",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]
         },
         {
-            title: "Back poe room (2)",
+            title: "Poe room in the rear (2)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]

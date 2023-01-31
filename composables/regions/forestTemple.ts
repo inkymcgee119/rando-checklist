@@ -304,15 +304,17 @@ export const forestTemple = {
             tags: [Tags.mq]
         },
 
+        // crates        
+        {
+            title: "Frozen switch room (3)",
+            isChecked: false,
+            type: LocationTypes.crate,
+            tags: [Tags.mq]
+        },
+
         // pots
         {
             title: "Center room (6)",
-            isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.mq]
-        },
-        {
-            title: "Room straight back",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]
@@ -337,12 +339,6 @@ export const forestTemple = {
         },
         {
             title: "Green poe (Amy)  (2)",
-            isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.mq]
-        },
-        {
-            title: "Frozen switch room (3)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]

@@ -105,7 +105,7 @@ export const dekuTree = {
             tags: [Tags.mq]
         },
         {
-            title: "Basement",
+            title: "Basement, switch",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.mq]
@@ -168,19 +168,20 @@ export const dekuTree = {
 
         // rupees and hearts
         {
-            title: "Lobby, lower",
+            title: "Lobby, on branch",
             isChecked: false,
             type: LocationTypes.rupee,
             tags: [Tags.mq]
         },
         {
-            title: "Lobby, first floor",
+            title: "Lobby, giant deku baba room",
             isChecked: false,
             type: LocationTypes.rupee,
             tags: [Tags.mq]
         },
         {
-            title: "First floor room",
+            title: "Lobby, first floor chest room",
+            description: "Under the rocks next to the gold skulltula",
             isChecked: false,
             type: LocationTypes.rupee,
             tags: [Tags.mq]
@@ -192,7 +193,7 @@ export const dekuTree = {
             tags: [Tags.mq]
         },
         {
-            title: "Basement (3)",
+            title: "Basement, before gohma (3)",
             isChecked: false,
             type: LocationTypes.rupee,
             tags: [Tags.mq]
@@ -206,7 +207,7 @@ export const dekuTree = {
             tags: [Tags.mq]
         },
         {
-            title: "Second floor room",
+            title: "Second floor room (2)",
             isChecked: false,
             type: LocationTypes.crate,
             tags: [Tags.mq]

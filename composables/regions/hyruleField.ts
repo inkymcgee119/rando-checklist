@@ -107,5 +107,72 @@ export const hyruleField = {
             type: LocationTypes.pot,
             tags: [Tags.grotto]
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Lost Woods Bridge",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Zora River",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Kakariko Village",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Market Entrance",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Gerudo Valley",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Lon Lon Ranch",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Lake Hylia",
+            type: EntranceType.overworld
+        },
+
+
+        // grottos
+        {
+            name: "Open",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Near kakariko",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Near market entrance",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Tektite",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Fairy",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Cow",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Southeast",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Inside fence",
+            type: EntranceType.grotto
+        },
     ]
+
 };

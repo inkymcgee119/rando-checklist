@@ -126,6 +126,32 @@ export const goronCity = {
             type: LocationTypes.pot,
             tags: []
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Death Mountain Trail",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Lost Woods",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Death Mountain Crater",
+            type: EntranceType.overworld
+        },
 
+        // interior
+        {
+            name: "Shop",
+            type: EntranceType.interior
+        },
+
+        // grottos
+        {
+            name: "Song of time block",
+            type: EntranceType.grotto
+        },
     ]
 };

@@ -66,5 +66,28 @@ export const zoraFountain = {
             type: LocationTypes.pot,
             tags: [Tags.adult]
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Zora's domain",
+            type: EntranceType.overworld
+        },
+
+        // interior
+        {
+            name: "Great fairy",
+            type: EntranceType.interior
+        },
+
+        // dungeons
+        {
+            name: "Jabu jabu",
+            type: EntranceType.dungeon
+        },
+        {
+            name: "Ice cavern",
+            type: EntranceType.dungeon
+        },
     ]
 };

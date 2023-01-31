@@ -71,7 +71,7 @@ export const deathMountainTrail = {
         // rupees and hearts
         {
             title: "Under rocks on ramp (2)",
-            description: "The rupees are only there as child, but logic can require breaking the rocks as adult and returning as child.",
+            description: "The rupees are only there as child, but logic can require breaking the rocks as adult then returning as child.",
             isChecked: false,
             type: LocationTypes.rupee,
             tags: [Tags.child]
@@ -96,6 +96,49 @@ export const deathMountainTrail = {
             isChecked: false,
             type: LocationTypes.beehive,
             tags: [Tags.grotto]
+        },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Kakariko Village",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Goron City",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Death Mountain Crater",
+            type: EntranceType.overworld
+        },
+
+        // interior
+        {
+            name: "Great fairy",
+            type: EntranceType.interior
+        },
+
+        // grottos
+        {
+            name: "Song of storms",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Cow",
+            type: EntranceType.grotto
+        },
+
+        // dungeons
+        {
+            name: "Dodongo's cavern",
+            type: EntranceType.dungeon
+        },
+
+        // owls
+        {
+            name: "Owl",
+            type: EntranceType.owl
         },
     ]
 };

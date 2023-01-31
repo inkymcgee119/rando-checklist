@@ -43,5 +43,32 @@ export const sacredForestMeadow = {
             type: LocationTypes.beehive,
             tags: [Tags.grotto]
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Lost Woods",
+            type: EntranceType.overworld
+        },
+
+        // grottos
+        {
+            name: "Wolfos",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Song of storms",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Fairy",
+            type: EntranceType.grotto
+        },
+
+        // dungeons
+        {
+            name: "Forest temple",
+            type: EntranceType.dungeon
+        },
     ]
 };

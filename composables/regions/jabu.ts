@@ -146,7 +146,7 @@ export const jabu = {
             tags: [Tags.mq]
         },
         {
-            title: "Tentacle area, right room",
+            title: "Tentacle area, back right room",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.mq]
@@ -201,13 +201,13 @@ export const jabu = {
 
         // rupees
         {
-            title: "Underwater (3)",
+            title: "Evevator room, dive under wall (3)",
             isChecked: false,
             type: LocationTypes.rupee,
             tags: [Tags.mq]
         },
         {
-            title: "Recovery heart (2)",
+            title: "Elevator room, between wigglers (2)",
             isChecked: false,
             type: LocationTypes.rupee,
             tags: [Tags.mq]
@@ -221,7 +221,7 @@ export const jabu = {
             tags: [Tags.mq]
         },
         {
-            title: "Elevator room (2)",
+            title: "Elevator room, dive under wall (2)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]

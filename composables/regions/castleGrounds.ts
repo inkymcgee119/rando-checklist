@@ -59,5 +59,34 @@ export const castleGrounds = {
             type: LocationTypes.pot,
             tags: [Tags.grotto]
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Market",
+            type: EntranceType.overworld
+        },
+
+        // interior
+        {
+            name: "Great fairy, child",
+            type: EntranceType.interior
+        },
+        {
+            name: "Great fairy, adult",
+            type: EntranceType.interior
+        },
+
+        // grottos
+        {
+            name: "Song of storms",
+            type: EntranceType.grotto
+        },
+
+        // dungeons
+        {
+            name: "Ganon's castle",
+            type: EntranceType.dungeon
+        },
     ]
 };

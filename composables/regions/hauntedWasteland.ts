@@ -54,6 +54,16 @@ export const hauntedWasteland = {
             type: LocationTypes.pot,
             tags: []
         },
-
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Gerudo Fortress",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Desert Colossus",
+            type: EntranceType.overworld
+        },
     ]
 };

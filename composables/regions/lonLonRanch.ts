@@ -108,7 +108,32 @@ export const lonLonRanch = {
             type: LocationTypes.pot,
             tags: []
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Hyrule Field",
+            type: EntranceType.overworld
+        },
 
+        // interior
+        {
+            name: "Talon's house",
+            type: EntranceType.interior
+        },
+        {
+            name: "Stable",
+            type: EntranceType.interior
+        },
+        {
+            name: "Silo",
+            type: EntranceType.interior
+        },
 
+        // grottos
+        {
+            name: "Open",
+            type: EntranceType.grotto
+        },
     ]
 };

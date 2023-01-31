@@ -78,5 +78,42 @@ export const graveyard = {
             type: LocationTypes.pot,
             tags: []
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Kakariko Village",
+            type: EntranceType.overworld
+        },
+
+        // interior
+        {
+            name: "Dampe's hut",
+            type: EntranceType.interior
+        },
+
+        // grottos
+        {
+            name: "Flower grave",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Dampe's grave",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Redead",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Royal family tomb",
+            type: EntranceType.grotto
+        },
+
+        // dungeons
+        {
+            name: "Shadow temple",
+            type: EntranceType.dungeon
+        },
     ]
 };

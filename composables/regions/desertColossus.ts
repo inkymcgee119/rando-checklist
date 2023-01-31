@@ -57,5 +57,30 @@ export const desertColossus = {
             type: LocationTypes.beehive,
             tags: [Tags.grotto]
         },
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Haunted Wasteland",
+            type: EntranceType.overworld
+        },
+
+        // interior
+        {
+            name: "Great fairy",
+            type: EntranceType.interior
+        },
+
+        // grottos
+        {
+            name: "Silver rock",
+            type: EntranceType.grotto
+        },
+
+        // dungeons
+        {
+            name: "Spirit temple",
+            type: EntranceType.dungeon
+        },
     ]
 };

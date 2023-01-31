@@ -1,4 +1,4 @@
-import {LocationTypes, Tags} from "../constants";
+import { LocationTypes, Tags } from "../constants";
 
 export const kokiriForest = {
     name: "Kokiri Forest",
@@ -8,7 +8,7 @@ export const kokiriForest = {
         // items
         {
             title: "Mido's House (4)",
-            isChecked: false,
+            //isChecked: false,
             type: LocationTypes.item,
             tags: []
         },
@@ -99,7 +99,7 @@ export const kokiriForest = {
             title: "Nook above shop (7)",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: []
+            tags: [Tags.adult]
         },
         {
             title: "Inside saria's house (4)",
@@ -142,6 +142,56 @@ export const kokiriForest = {
             tags: []
         },
 
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Lost Woods Bridge",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Lost Woods",
+            type: EntranceType.overworld
+        },
+
+        // interior
+        {
+            name: "Link's house",
+            type: EntranceType.interior
+        },
+        {
+            name: "Mido's house",
+            type: EntranceType.interior
+        },
+        {
+            name: "Know-it-all brothers",
+            type: EntranceType.interior
+        },
+        {
+            name: "Saria's house",
+            type: EntranceType.interior
+        },
+        {
+            name: "Twin's house",
+            type: EntranceType.interior
+        },
+        {
+            name: "Shop",
+            type: EntranceType.interior
+        },
+
+        // grottos
+        {
+            name: "Song of storms",
+            type: EntranceType.grotto
+        },
+
+        // dungeons
+        {
+            name: "Deku tree",
+            type: EntranceType.dungeon
+        },
     ]
+
 
 };

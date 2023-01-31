@@ -8,13 +8,13 @@ export const shadowTemple = {
     locations: [
         // items
         {
-            title: "Opening section, redead room",
+            title: "Whispering walls, redead room",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.vanilla]
         },
         {
-            title: "Opening section, deadhand",
+            title: "Whispering walls, deadhand",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.vanilla]
@@ -153,13 +153,13 @@ export const shadowTemple = {
 
         // pots
         {
-            title: "Opening section (6 and flying pot)",
+            title: "Whispering walls (6 and flying pot)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.vanilla]
         },
         {
-            title: "Opening section, redead room (2)",
+            title: "Whispering walls, redead room (2)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.vanilla]
@@ -189,7 +189,7 @@ export const shadowTemple = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Spike trap roo",
+            title: "Spike trap room",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.vanilla]
@@ -210,13 +210,13 @@ export const shadowTemple = {
         // MQ
         // items
         {
-            title: "Opening section, redead room",
+            title: "Whispering walls, redead room",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.mq]
         },
         {
-            title: "Opening section, deadhand",
+            title: "Whispering walls, deadhand",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.mq]
@@ -300,7 +300,7 @@ export const shadowTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Invisible maze, freestanding",
+            title: "Invisible maze, triple skull",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.mq]
@@ -392,13 +392,7 @@ export const shadowTemple = {
 
         // pots
         {
-            title: "Whispering walls (2)",
-            isChecked: false,
-            type: LocationTypes.pot,
-            tags: [Tags.mq]
-        },
-        {
-            title: "Whispering walls, before SoT (2)",
+            title: "Whispering walls, before SoT (4)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]
@@ -428,7 +422,7 @@ export const shadowTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "After wind (4)",
+            title: "Fan area, gibdos room (4)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]
@@ -446,13 +440,13 @@ export const shadowTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Deadhand 2 (2)",
+            title: "Invisible maze, deadhand 2 (2)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]
         },
         {
-            title: "Spike walls",
+            title: "Invisible maze, spike walls",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]

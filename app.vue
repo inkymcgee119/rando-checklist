@@ -5,7 +5,12 @@
 </template>
 
 <script setup>
-import 'animate.css';
+
+// load saved data
+const appState = useAppState();
+let stored = localStorage.getItem("ootTrackerData");
+    if (stored)
+        appState.value = JSON.parse(stored);
 
 useHead({
   bodyAttrs: {    

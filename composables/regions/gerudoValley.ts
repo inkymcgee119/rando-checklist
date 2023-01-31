@@ -91,13 +91,37 @@ export const gerudoValley = {
             tags: [Tags.child]
         },
         {
-            title: "HP crate",
+            title: "Crate heart piece",
             isChecked: false,
             type: LocationTypes.crate,
             tags: []
         },
-        
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Hyrule Field",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Gerudo Fortress",
+            type: EntranceType.overworld
+        },
 
+        // interior
+        {
+            name: "Carpenter's tent",
+            type: EntranceType.interior
+        },
 
+        // grottos
+        {
+            name: "Song of storms",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Silver rock",
+            type: EntranceType.grotto
+        },
     ]
 };

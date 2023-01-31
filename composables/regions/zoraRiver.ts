@@ -1,7 +1,7 @@
 import {LocationTypes, Tags} from "../constants";
 
 export const zoraRiver = {
-    name: "Zora's River",
+    name: "Zora River",
     bgColor: 'bg-sky-400',
     hasMQ: false,
     locations: [
@@ -94,7 +94,36 @@ export const zoraRiver = {
             isChecked: false,
             type: LocationTypes.beehive,
             tags: [Tags.grotto]
+        },        
+    ],
+    entrances: [
+        // overworld
+        {
+            name: "Hyrule Field",
+            type: EntranceType.overworld
         },
-        
+        {
+            name: "Zora's Domain",
+            type: EntranceType.overworld
+        },
+        {
+            name: "Lost Woods",
+            type: EntranceType.overworld
+        },
+
+        // grottos
+        {
+            name: "Song of storms",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Open",
+            type: EntranceType.grotto
+        },
+        {
+            name: "Fairy",
+            type: EntranceType.grotto
+        },
+
     ]
 };

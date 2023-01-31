@@ -303,19 +303,7 @@ export const fireTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Before volvagia, right (2)",
-            isChecked: false,
-            type: LocationTypes.crate,
-            tags: [Tags.mq]
-        },
-        {
-            title: "Before volvagia, right mid",
-            isChecked: false,
-            type: LocationTypes.crate,
-            tags: [Tags.mq]
-        },
-        {
-            title: "Before volvagia, right upper",
+            title: "Before volvagia, right (4)",
             isChecked: false,
             type: LocationTypes.crate,
             tags: [Tags.mq]
@@ -353,7 +341,7 @@ export const fireTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Before volvagia (2)",
+            title: "Before volvagia, right (2)",
             isChecked: false,
             type: LocationTypes.pot,
             tags: [Tags.mq]

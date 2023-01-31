@@ -1,3 +1,9 @@
+export const cardWidth = 335;
+export const cardMargin = 8;
+export const cardHeaderHeight = 28;
+export const cardMarginHeight = 20;
+export const cardRowHeight = 24;
+export const cardRowBorderHeight = 2;
 export const LocationTypes =
 {
     item: {
@@ -88,4 +94,33 @@ export const Tags = {
         description: "Bean patch",
         icon: "game-icons:jelly-beans"
     }
+};
+
+export const EntranceType = {
+    dungeon: {
+        name: "Dungeon",
+        icon: "material-symbols:castle-outline"
+    },
+    interior: {
+        name: "Interior",
+        icon: "material-symbols:house-outline"
+    },
+    overworld: {
+        name: "Overworld",
+        icon: "ion:md-globe"
+    },
+    grotto: {
+        name: "Grotto",
+        icon: "game-icons:hole"
+    },
+    owl: {
+        name: "Owl",
+        icon: "icon-park-solid:owl"
+    },
+    song: {
+        name: "Song",
+        icon: "game-icons:musical-score"
+    }
+
+
 };
