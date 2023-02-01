@@ -1,9 +1,4 @@
-export const cardWidth = 335;
-export const cardMargin = 8;
-export const cardHeaderHeight = 28;
-export const cardMarginHeight = 20;
-export const cardRowHeight = 24;
-export const cardRowBorderHeight = 2;
+
 export const LocationTypes =
 {
     item: {
@@ -121,6 +116,4 @@ export const EntranceType = {
         name: "Song",
         icon: "game-icons:musical-score"
     }
-
-
 };

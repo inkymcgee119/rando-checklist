@@ -66,31 +66,35 @@ export const iceCavern = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Back room (3)",
+            title: "Back room",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
         {
-            title: "Block pushing puzzle (3)",
+            title: "Block pushing puzzle",
             description: "Use song of time to reach",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
 
         // pots
         {
-            title: "Hallway (2)",
+            title: "Hallway",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Spinning blade (4)",
+            title: "Spinning blade",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
         {
             title: "Back room, frozen",
@@ -99,10 +103,11 @@ export const iceCavern = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Before wolfos (2)",
+            title: "Before wolfos",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
 
         // MQ
@@ -167,22 +172,25 @@ export const iceCavern = {
             tags: [Tags.mq]
         },
         {
-            title: "Tektite room (2)",
+            title: "Tektite room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Center room (2)",
+            title: "Center room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },        
         {
-            title: "Back room, floor (2)",
+            title: "Back room, floor",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "Before stalfos",

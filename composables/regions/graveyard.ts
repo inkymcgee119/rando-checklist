@@ -31,10 +31,11 @@ export const graveyard = {
             tags: [Tags.child]
         },
         {
-            title: "Dampe race (2)",
+            title: "Dampe race",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.adult]
+            tags: [Tags.adult],
+            count: 2
         },
         {
             title: "Crate hp, above bean patch",
@@ -65,18 +66,20 @@ export const graveyard = {
 
         // rupees and hearts
         {
-            title: "Dampe race (8)",
+            title: "Dampe race",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: []
+            tags: [],
+            count: 8
         },
 
         // pots
         {
-            title: "Dampe race (6)",
+            title: "Dampe race",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 6
         },
     ],
     entrances: [

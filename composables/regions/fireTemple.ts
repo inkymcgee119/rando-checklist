@@ -120,57 +120,65 @@ export const fireTemple = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Above boulder maze (2 tokens)",
+            title: "Above boulder maze",
             description: "Scarecrow song area",
             isChecked: false,
             type: LocationTypes.gs,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
 
         // rupees and hearts
         {
-            title: "Elevator room, on fence (3)",
+            title: "Elevator room, on fence",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
         {
-            title: "Room after boulder maze (3)",
+            title: "Room after boulder maze",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
         {
-            title: "Moving fire wall room (3)",
+            title: "Moving fire wall room",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
 
         // pots
         {
-            title: "Room before volvagia (2)",
+            title: "Room before volvagia",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Bridge room, left side (3)",
+            title: "Bridge room, left side",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
         {
-            title: "Fire wall maze, left (4)",
+            title: "Fire wall maze, left",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
         {
-            title: "Fire wall maze, right (4)",
+            title: "Fire wall maze, right",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
 
 
@@ -289,68 +297,78 @@ export const fireTemple = {
         
         // rupees
         {
-            title: "Elevator room, on fence (3)",
+            title: "Elevator room, on fence",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
 
         // crates
         {
-            title: "Before volvagia, left (2)",
+            title: "Before volvagia, left",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Before volvagia, right (4)",
+            title: "Before volvagia, right",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
-            title: "Lizafos maze, lower (3)",
+            title: "Lizafos maze, lower",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
-            title: "Lizafos maze, upper (3)",
+            title: "Lizafos maze, upper",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },        
         {
-            title: "Lizafos maze, down hole (6)",
+            title: "Lizafos maze, down hole",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 6
         },        
         {
-            title: "Former lava wall chase (5)",
+            title: "Former lava wall chase",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 5
         },
 
         // pots        
         {
-            title: "Lobby (2)",
+            title: "Lobby",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Before volvagia, right (2)",
+            title: "Before volvagia, right",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Bridge, left (2)",
+            title: "Bridge, left",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "Bridge, right",
@@ -359,28 +377,32 @@ export const fireTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Narrow path room (2)",
+            title: "Narrow path room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Former lava wall chase (2)",
+            title: "Former lava wall chase",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Flame maze, upper right (2)",
+            title: "Flame maze, upper right",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Flame maze, right (2)",
+            title: "Flame maze, right",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "Flame maze, left",
@@ -389,10 +411,11 @@ export const fireTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Iron knuckle room (4)",
+            title: "Iron knuckle room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
             title: "Boss key chest",

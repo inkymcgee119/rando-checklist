@@ -88,10 +88,11 @@ export const lostWoods = {
             tags: [Tags.grotto]
         },
         {
-            title: "Near deku theater (2)",
+            title: "Near deku theater",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 2
         },
 
         // rupees and hearts
@@ -102,18 +103,20 @@ export const lostWoods = {
             tags: []
         },
         {
-            title: "Water warp (8)",
+            title: "Water warp",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 8
         },
 
         // beehives
         {
-            title: "Rock by Goron City warp (2)",
+            title: "Rock by Goron City warp",
             isChecked: false,
             type: LocationTypes.beehive,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
         {
             title: "Deku Salesman, rock near exit",

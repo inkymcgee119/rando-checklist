@@ -56,7 +56,8 @@ export const gerudoValley = {
             title: "Song of storms, behind tent",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.grotto, Tags.adult]
+            tags: [Tags.grotto, Tags.adult],
+            count: 2
         },
 
         // cows
@@ -69,10 +70,11 @@ export const gerudoValley = {
 
         // rupees and hearts
         {
-            title: "Silver rock grotto (8)",
+            title: "Silver rock grotto",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 8
         },
 
         // beehives

@@ -37,6 +37,8 @@ import { marketEntrance } from "./regions/marketEntrance";
 import { lostWoodsBridge } from "./regions/lostWoodsBridge";
 import { warpSongs } from "./regions/warpSongs";
 
+
+
 export const columns = ref(1);
 export const columnsEntrances = ref(1);
 export function save(data: any) {

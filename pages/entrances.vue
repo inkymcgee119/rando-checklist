@@ -143,14 +143,14 @@ function updateDropdown(meta, selectedEnt) {
     if (!selectedEnt.value)
         return;
 
-    if (meta.entrance.type.name != EntranceType.owl.name || meta.entrance.type.name != EntranceType.song.name)
+    if (meta.entrance.type.name == EntranceType.owl.name || meta.entrance.type.name == EntranceType.song.name)
         return;
         
     // A->B becomes C->D, D->C also becomes B->A, assign the inverse if coupled entrances
     // only do this if at least one is an overworld entrance
     if (!appState.value.entranceOptions.decoupled &&
-        (meta.entrance.type.name != EntranceType.overworld.name ||
-            selectedEnt.entrance.type.name != EntranceType.overworld.name)) {
+        (meta.entrance.type.name == EntranceType.overworld.name ||
+            selectedEnt.entrance.type.name == EntranceType.overworld.name)) {
 
         let srcRegion = meta.region.name;
         let srcEnt = meta.entrance.name;
@@ -369,8 +369,7 @@ const entranceListByType = computed(() => {
 });
 
 function clickHeader(e, region) {
-    let r = appState.value.regions.find((reg) => reg.name == region.name);
-    r.collapsedEnt = !r.collapsedEnt;
+    region.collapsedEnt = !region.collapsedEnt;
 
     if (!e.currentTarget.nextElementSibling.style.maxHeight)
         e.currentTarget.nextElementSibling.style.maxHeight = `${e.currentTarget.nextElementSibling.scrollHeight}px`;

@@ -1,0 +1,265 @@
+{
+    "name": "Deku Tree",
+    "bgColor": "bg-emerald-600",
+    "hasMQ": true,
+    "showMQ": false,
+    "locations": [
+      {
+        "title": "Lobby",
+        "isChecked": false,
+        "type": "Item",
+        "tags": [
+          "Vanilla"
+        ]
+      },
+      {
+        "title": "First floor Room",
+        "isChecked": false,
+        "type": "Item",
+        "tags": [
+          "Vanilla"
+        ],
+        "count": 2
+      },
+      {
+        "title": "Second floor Room",
+        "isChecked": false,
+        "type": "Item",
+        "tags": [
+          "Vanilla"
+        ],
+        "count": 2
+      },
+      {
+        "title": "Basement",
+        "isChecked": false,
+        "type": "Item",
+        "tags": [
+          "Vanilla"
+        ]
+      },
+      {
+        "title": "Queen Gohma",
+        "isChecked": false,
+        "type": "Boss",
+        "tags": [
+          "Vanilla"
+        ]
+      },
+      {
+        "title": "Compass Room",
+        "isChecked": false,
+        "type": "GS",
+        "tags": [
+          "Vanilla"
+        ]
+      },
+      {
+        "title": "Basement on vines",
+        "isChecked": false,
+        "type": "GS",
+        "tags": [
+          "Vanilla"
+        ]
+      },
+      {
+        "title": "Basement on the bars",
+        "isChecked": false,
+        "type": "GS",
+        "tags": [
+          "Vanilla"
+        ]
+      },
+      {
+        "title": "Basement, back room",
+        "isChecked": false,
+        "type": "GS",
+        "tags": [
+          "Vanilla"
+        ]
+      },
+      {
+        "title": "Walk the plank",
+        "isChecked": false,
+        "type": "Rupee",
+        "tags": [
+          "Vanilla"
+        ]
+      },
+      {
+        "title": "Leap down",
+        "isChecked": false,
+        "type": "Rupee",
+        "tags": [
+          "Vanilla"
+        ]
+      },
+      {
+        "title": "Water before boss",
+        "isChecked": false,
+        "type": "Rupee",
+        "tags": [
+          "Vanilla"
+        ],
+        "count": 3
+      },
+      {
+        "title": "Lobby",
+        "isChecked": false,
+        "type": "Item",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "First floor Room",
+        "isChecked": false,
+        "type": "Item",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Second floor Room",
+        "isChecked": false,
+        "type": "Item",
+        "tags": [
+          "MQ"
+        ],
+        "count": 2
+      },
+      {
+        "title": "Basement, switch",
+        "isChecked": false,
+        "type": "Item",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Water platform room chest",
+        "isChecked": false,
+        "type": "Item",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Water platform room, song of time",
+        "isChecked": false,
+        "type": "Item",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Queen Gohma",
+        "isChecked": false,
+        "type": "Boss",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Under crate in lobby",
+        "isChecked": false,
+        "type": "GS",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "First floor room, behind rock",
+        "description": "Use song of time",
+        "isChecked": false,
+        "type": "GS",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Basement, grave room, ceiling",
+        "description": "Use song of time",
+        "isChecked": false,
+        "type": "GS",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Basement, back room",
+        "isChecked": false,
+        "type": "GS",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Scrub near gohma's hole",
+        "isChecked": false,
+        "type": "Scrub",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Lobby, on branch",
+        "isChecked": false,
+        "type": "Rupee",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Lobby, giant deku baba room",
+        "isChecked": false,
+        "type": "Rupee",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Lobby, first floor chest room",
+        "description": "Under the rocks next to the gold skulltula",
+        "isChecked": false,
+        "type": "Rupee",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Second floor room",
+        "isChecked": false,
+        "type": "Rupee",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Basement, before gohma",
+        "isChecked": false,
+        "type": "Rupee",
+        "tags": [
+          "MQ"
+        ],
+        "count": 3
+      },
+      {
+        "title": "Lobby",
+        "isChecked": false,
+        "type": "Crate",
+        "tags": [
+          "MQ"
+        ]
+      },
+      {
+        "title": "Second floor room",
+        "isChecked": false,
+        "type": "Crate",
+        "tags": [
+          "MQ"
+        ],
+        "count": 2
+      }
+    ]
+  }

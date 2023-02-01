@@ -73,10 +73,11 @@ export const lakeHylia = {
             tags: [Tags.adult]
         },
         {
-            title: "Under gravestone (3)",
+            title: "Under gravestone",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 3
         },
 
         // rupees and hearts
@@ -87,16 +88,18 @@ export const lakeHylia = {
             tags: [Tags.child]
         },
         {
-            title: "Near bottle, deep (2)",
+            title: "Near bottle, deep",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 2
         },
         {
-            title: "In the lab (3)",
+            title: "In the lab",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: []
+            tags: [],
+            count: 3
         },
 
         // beehives

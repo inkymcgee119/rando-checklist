@@ -109,54 +109,62 @@ export const waterTemple = {
 
         // rupees and hearts
         {
-            title: "River after dark link (4)",
+            title: "River after dark link",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
 
         // pots
         {
-            title: "Main room, second floor (2)",
+            title: "Main room, second floor",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Bottom floor, torch room (2)",
+            title: "Bottom floor, torch room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Second floor, water column room (3)",
+            title: "Second floor, water column room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
         {
-            title: "Second floor, eye switch (2)",
+            title: "Second floor, eye switch",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Bottom floor, behind a gate (4)",
+            title: "Bottom floor, behind a gate",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
         {
-            title: "Longshot area, back room (2)",
+            title: "Longshot area, back room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Before dark link (2)",
+            title: "Before dark link",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
             title: "Top floor, river after dark Link",
@@ -246,82 +254,95 @@ export const waterTemple = {
 
         // crates
         {
-            title: "Central pillar (2)",
+            title: "Central pillar",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Central pillar basement (14)",
+            title: "Central pillar basement",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 14
         },
         {
-            title: "Triple torch, submerged (6)",
+            title: "Triple torch, submerged",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 6
         },
         {
-            title: "Triple torch, behind gate (3)",
+            title: "Triple torch, behind gate",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
-            title: "Second floor, spikey hookshot (7)",
+            title: "Second floor, spikey hookshot",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 7
         },
         {
-            title: "Dragon, by door (8)",
+            title: "Dragon, by door",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 8
         },
         {
-            title: "Boss key (5)",
+            title: "Boss key",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 5
         },
         {
-            title: "To top water switch, lower (6)",
+            title: "To top water switch, lower",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 6
         },
         {
-            title: "To top water switch, lower (2)",
+            title: "To top water switch, lower",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Longshot area, behind gate (4)",
+            title: "Longshot area, behind gate",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
-            title: "Longshot area, front crates (2)",
+            title: "Longshot area, front crates",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Longshot area, submerged (6)",
+            title: "Longshot area, submerged",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 6
         },
         {
-            title: "Dodongo, lower (3)",
+            title: "Dodongo, lower",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
             title: "Dodongo, upper",
@@ -336,48 +357,55 @@ export const waterTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Waterfall room (5)",
+            title: "Waterfall room",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 5
         },
         {
-            title: "Lizalfos hallway, gate (2)",
+            title: "Lizalfos hallway, gate",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Lizalfos hallway, hall (3)",
+            title: "Lizalfos hallway, hall",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
-            title: "Lizalfos hallway, room (5)",
+            title: "Lizalfos hallway, room",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 5
         },
 
         // pots
         {
-            title: "Bottom, torch room (2)",
+            title: "Bottom, torch room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Triple torch room (4)",
+            title: "Triple torch room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
-            title: "Second floor, spikey hookshot (3)",
+            title: "Second floor, spikey hookshot",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
             title: "Before dark link, lower",
@@ -386,10 +414,11 @@ export const waterTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Before dark link, upper (2)",
+            title: "Before dark link, upper",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "Room after dark link",
@@ -410,16 +439,18 @@ export const waterTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "To top water switch (3)",
+            title: "To top water switch",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
-            title: "Dodongo (2)",
+            title: "Dodongo",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "Waterfall room",
@@ -428,16 +459,18 @@ export const waterTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Lizalfos hallway (3)",
+            title: "Lizalfos hallway",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
-            title: "Lizalfos hallway, gate (2)",
+            title: "Lizalfos hallway, gate",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
 
     ]

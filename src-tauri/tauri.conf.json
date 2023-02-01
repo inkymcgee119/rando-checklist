@@ -4,15 +4,22 @@
     "beforeBuildCommand": "npm run generate",
     "beforeDevCommand": "npm run dev",
     "devPath": "http://localhost:3000",
-    "distDir": "../.output/public"
+    "distDir": "../.output/public",
+    "withGlobalTauri": false
   },
   "package": {
-    "productName": "zeldo-tracker",
+    "productName": "zeldo-rando-trackdo",
     "version": "0.1.0"
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "all": true,
+      "fs": {        
+        "scope": [
+          "$RESOURCE/*",
+          "**"
+        ]
+      }
     },
     "bundle": {
       "active": true,
@@ -38,7 +45,7 @@
         "providerShortName": null,
         "signingIdentity": null
       },
-      "resources": [],
+      "resources": ["../public/*"],
       "shortDescription": "",
       "targets": "all",
       "windows": {
@@ -58,8 +65,8 @@
         "fullscreen": false,
         "height": 900,
         "resizable": true,
-        "title": "Zeldo Tracker",
-        "width": 1740
+        "title": "Zeldo Rando Trackdo",
+        "width": 1740        
       }
     ]
   }

@@ -53,24 +53,27 @@ export const lonLonRanch = {
 
         // scrubs
         {
-            title: "Open grotto in the rear (3)",
+            title: "Open grotto in the rear",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 3
         },
 
         // cows
         {
-            title: "In stable (2)",
+            title: "In stable",
             isChecked: false,
             type: LocationTypes.cow,
-            tags: []
+            tags: [],
+            count: 2
         },
         {
-            title: "Rear silo (2)",
+            title: "Rear silo",
             isChecked: false,
             type: LocationTypes.cow,
-            tags: []
+            tags: [],
+            count: 2
         },
 
         // beehives
@@ -91,22 +94,25 @@ export const lonLonRanch = {
 
         // pots
         {
-            title: "Near entrance (4)",
+            title: "Near entrance",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 4
         },
         {
-            title: "In fenced area (3)",
+            title: "In fenced area",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 3
         },
         {
-            title: "Talon's house (3)",
+            title: "Talon's house",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 3
         },
     ],
     entrances: [

@@ -10,23 +10,32 @@
             </div>
             <div class="grow">
                 <button class="btn-option" :class="{ 'opacity-50': !appState.options.items }"
-                    @click="appState.options.items = !appState.options.items">Items<Icon :name="LocationTypes.item.icon"></Icon></button>
+                    @click="appState.options.items = !appState.options.items">Items<Icon
+                        :name="LocationTypes.item.icon"></Icon></button>
                 <button class="btn-option" :class="{ 'opacity-50': !appState.options.skulltulas }"
-                    @click="appState.options.skulltulas = !appState.options.skulltulas">Skulltulas<Icon :name="LocationTypes.gs.icon"></Icon></button>
+                    @click="appState.options.skulltulas = !appState.options.skulltulas">Skulltulas<Icon
+                        :name="LocationTypes.gs.icon"></Icon></button>
                 <button class="btn-option" :class="{ 'opacity-50': !appState.options.shops }"
-                    @click="appState.options.shops = !appState.options.shops">Shops<Icon :name="LocationTypes.shop.icon"></Icon></button>
+                    @click="appState.options.shops = !appState.options.shops">Shops<Icon
+                        :name="LocationTypes.shop.icon"></Icon></button>
                 <button class="btn-option" :class="{ 'opacity-50': !appState.options.scrubs }"
-                    @click="appState.options.scrubs = !appState.options.scrubs">Scrubs<Icon :name="LocationTypes.scrub.icon"></Icon></button>
+                    @click="appState.options.scrubs = !appState.options.scrubs">Scrubs<Icon
+                        :name="LocationTypes.scrub.icon"></Icon></button>
                 <button class="btn-option" :class="{ 'opacity-50': !appState.options.cows }"
-                    @click="appState.options.cows = !appState.options.cows">Cows<Icon :name="LocationTypes.cow.icon"></Icon></button>
+                    @click="appState.options.cows = !appState.options.cows">Cows<Icon :name="LocationTypes.cow.icon">
+                    </Icon></button>
                 <button class="btn-option" :class="{ 'opacity-50': !appState.options.rupees }"
-                    @click="appState.options.rupees = !appState.options.rupees">Rupees & Hearts<Icon :name="LocationTypes.rupee.icon"></Icon></button>
+                    @click="appState.options.rupees = !appState.options.rupees">Rupees & Hearts<Icon
+                        :name="LocationTypes.rupee.icon"></Icon></button>
                 <button class="btn-option" :class="{ 'opacity-50': !appState.options.pots }"
-                    @click="appState.options.pots = !appState.options.pots">Pots<Icon :name="LocationTypes.pot.icon"></Icon></button>
+                    @click="appState.options.pots = !appState.options.pots">Pots<Icon :name="LocationTypes.pot.icon">
+                    </Icon></button>
                 <button class="btn-option" :class="{ 'opacity-50': !appState.options.crates }"
-                    @click="appState.options.crates = !appState.options.crates">Crates<Icon :name="LocationTypes.crate.icon"></Icon></button>
+                    @click="appState.options.crates = !appState.options.crates">Crates<Icon
+                        :name="LocationTypes.crate.icon"></Icon></button>
                 <button class="btn-option" :class="{ 'opacity-50': !appState.options.beehives }"
-                    @click="appState.options.beehives = !appState.options.beehives">Beehives<Icon :name="LocationTypes.beehive.icon"></Icon></button>
+                    @click="appState.options.beehives = !appState.options.beehives">Beehives<Icon
+                        :name="LocationTypes.beehive.icon"></Icon></button>
             </div>
 
             <div class="ml-2 my-auto">
@@ -55,10 +64,9 @@
 
 <script setup>
 
+
+
 const appState = useAppState();
-
-
-
 
 function clickTagFilter(tag) {
     appState.value.tagFilters[tag] = !appState.value.tagFilters[tag];

@@ -53,10 +53,11 @@ export const deathMountainCrater = {
 
         // scrubs
         {
-            title: "Hammer rock near bridge (3)",
+            title: "Hammer rock near bridge",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 3
         },
         {
             title: "Down ladder from upper DMC",
@@ -67,24 +68,27 @@ export const deathMountainCrater = {
 
         // rupees and hearts
         {
-            title: "Scarecrow song platform (7)",
+            title: "Scarecrow song platform",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.adult]
+            tags: [Tags.adult],
+            count: 7
         },
         {
-            title: "Lower platform (8)",
+            title: "Lower platform",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 8
         },
 
         // beehives
         {
-            title: "Upper grotto (2)",
+            title: "Upper grotto",
             isChecked: false,
             type: LocationTypes.beehive,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
         {
             title: "Hammer rock near bridge",
@@ -95,10 +99,11 @@ export const deathMountainCrater = {
 
         // pots
         {
-            title: "Near goron city entrance (4)",
+            title: "Near goron city entrance",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.adult]
+            tags: [Tags.adult],
+            count: 4
         },
     ],
     entrances: [

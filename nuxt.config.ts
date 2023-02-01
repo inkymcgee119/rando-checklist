@@ -10,8 +10,6 @@ export default defineNuxtConfig({
         }
     },
     css: [
-        'primevue/resources/themes/mdc-light-deeppurple/theme.css',
-        'primevue/resources/primevue.css',
         '@/assets/main.css'
     ],
     ssr: false,
@@ -20,7 +18,4 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         'nuxt-icon'
     ],
-    build: {
-        transpile: ['primevue']
-    }
 })

@@ -14,10 +14,11 @@ export const ganonCastle = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Water trial (2)",
+            title: "Water trial",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
             title: "Shadow trial, left platform",
@@ -44,10 +45,11 @@ export const ganonCastle = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Light trial, first room (7)",
+            title: "Light trial, first room",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 7
         },
         {
             title: "Light trial, lullaby room chest",
@@ -62,10 +64,11 @@ export const ganonCastle = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Scrubs behind invisible wall (4)",
+            title: "Scrubs behind invisible wall",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
         // rupees and hearts
         {
@@ -75,10 +78,11 @@ export const ganonCastle = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Shadow trial (3)",
+            title: "Shadow trial",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
         {
             title: "Spirit trial",
@@ -89,28 +93,39 @@ export const ganonCastle = {
 
         // pots
         {
-            title: "Forest trial (2)",
+            title: "Forest trial",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Water trial (2)",
+            title: "Water trial",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Shadow trial (2)",
+            title: "Shadow trial, like like",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Fire trial (2)",
+            title: "Shadow trial",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
+        },
+        {
+            title: "Fire trial",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
             title: "Light trial, boulder room",
@@ -119,22 +134,25 @@ export const ganonCastle = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Light trial (2)",
+            title: "Light trial",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Spirit trial (2)",
+            title: "Spirit trial",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Before ganondorf (14)",
+            title: "Before ganondorf",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 14
         },
 
         // MQ
@@ -188,10 +206,11 @@ export const ganonCastle = {
             tags: [Tags.mq]
         },
         {
-            title: "Spirit Trial, sun switchs (4)",
+            title: "Spirit Trial, sun switchs",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
             title: "Light Trial",
@@ -206,10 +225,11 @@ export const ganonCastle = {
             tags: [Tags.mq]
         },
         {
-            title: "Scrubs behind invisible wall (5)",
+            title: "Scrubs behind invisible wall",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 5
         },
 
         // rupees and hearts
@@ -220,54 +240,62 @@ export const ganonCastle = {
             tags: [Tags.mq]
         },
         {
-            title: "Light trial (2)",
+            title: "Light trial",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
 
         // pots
         {
-            title: "Forest trial (2)",
+            title: "Forest trial",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Water trial (2)",
+            title: "Water trial",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Shadow trial (2)",
+            title: "Shadow trial",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Fire trial (2)",
+            title: "Fire trial",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Light trial (2)",
+            title: "Light trial",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Spirit trial (2)",
+            title: "Spirit trial",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Before ganondorf (14)",
+            title: "Before ganondorf",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 14
         },
         
     ]

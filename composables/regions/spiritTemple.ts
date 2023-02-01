@@ -20,10 +20,11 @@ export const spiritTemple = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Child side, sun room (2)",
+            title: "Child side, sun room",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
             title: "Main statue room, center torches",
@@ -68,10 +69,11 @@ export const spiritTemple = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Adult side, mirror room (2)",
+            title: "Adult side, mirror room",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
             title: "Adult side, sun switch room",
@@ -80,10 +82,11 @@ export const spiritTemple = {
             tags: [Tags.vanilla]
         },        
         {
-            title: "Hallway (2 invisible)",
+            title: "Hallway, invisible",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
             title: "Mirror shield chest",
@@ -146,26 +149,29 @@ export const spiritTemple = {
 
         // rupees and hearts
         {
-            title: "Shifting walls climb (2)",
+            title: "Shifting walls climb",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
 
         // crates
         {
-            title: "Before child climb (4)",
+            title: "Before child climb",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         
         // pots
         {
-            title: "Lobby (4)",
+            title: "Lobby",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
         {
             title: "Flying pot in bridge room",
@@ -186,22 +192,25 @@ export const spiritTemple = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Before child iron knuckle (2)",
+            title: "Before child iron knuckle",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Adult climb flying pots (2)",
+            title: "Adult climb flying pots",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Main statue room, flying pots (2)",
+            title: "Main statue room, flying pots",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
             title: "Beamos hallway",
@@ -210,10 +219,11 @@ export const spiritTemple = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Mirror room, flying pots (6)",
+            title: "Mirror room, flying pots",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 6
         },
 
         // MQ
@@ -378,40 +388,45 @@ export const spiritTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Iron knuckle room (2 skulltulas)",
+            title: "Iron knuckle room",
             isChecked: false,
             type: LocationTypes.gs,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
 
         // rupees
         {
-            title: "Child side (2)",
+            title: "Child side",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq, Tags.child]
+            tags: [Tags.mq, Tags.child],
+            count: 2
         },
 
         // crates
         {
-            title: "Main statue room (2)",
+            title: "Main statue room",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Big mirror (4)",
+            title: "Big mirror",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq, Tags.adult]
+            tags: [Tags.mq, Tags.adult],
+            count: 4
         },
 
         // pots
         {
-            title: "Lobby (4)",
+            title: "Lobby",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
             title: "Child, torch slug",
@@ -420,16 +435,18 @@ export const spiritTemple = {
             tags: [Tags.mq, Tags.child]
         },
         {
-            title: "Child, gibdo room (2)",
+            title: "Child, gibdo room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq, Tags.child]
+            tags: [Tags.mq, Tags.child],
+            count: 2
         },
         {
-            title: "Child, stalfos room (3)",
+            title: "Child, stalfos room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq, Tags.child]
+            tags: [Tags.mq, Tags.child],
+            count: 3
         },
         {
             title: "Child climb",
@@ -438,40 +455,53 @@ export const spiritTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Main statue room, floor (3)",
+            title: "Main statue room, floor",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
-            title: "Main statue room, top left (2)",
+            title: "Main statue room, top left",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Sun block room (2)",
+            title: "Sun block room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Adult descent (2)",
+            title: "Adult descent",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq, Tags.adult]
+            tags: [Tags.mq, Tags.adult],
+            count: 2
         },
         {
-            title: "After shifting walls (2)",
+            title: "Shifting walls",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq, Tags.adult]
+            tags: [Tags.mq, Tags.adult],
+            count: 2
         },
         {
-            title: "Big mirror (4)",
+            title: "After shifting walls",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq, Tags.adult]
+            tags: [Tags.mq, Tags.adult],
+            count: 2
+        },
+        {
+            title: "Big mirror",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.mq, Tags.adult],
+            count: 4
         },
 
     ]

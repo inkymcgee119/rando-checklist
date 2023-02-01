@@ -7,10 +7,11 @@ export const kokiriForest = {
     locations: [
         // items
         {
-            title: "Mido's House (4)",
+            title: "Mido's House",
             //isChecked: false,
             type: LocationTypes.item,
-            tags: []
+            tags: [],
+            count: 4
         },
         {
             title: "Kokiri sword chest",
@@ -66,10 +67,11 @@ export const kokiriForest = {
             tags: [Tags.child]
         },
         {
-            title: "Boulder maze (2)",
+            title: "Boulder maze",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 2
         },
         {
             title: "End of the skywalk",
@@ -78,34 +80,39 @@ export const kokiriForest = {
             tags: [Tags.child]
         },
         {
-            title: "Top of saria's house (3)",
+            title: "Top of saria's house",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 3
         },
         {
-            title: "Grass near mido's house (2)",
+            title: "Grass near mido's house",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 2
         },
         {
-            title: "Grass near ramp (2)",
+            title: "Grass near ramp",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 2
         },
         {
-            title: "Nook above shop (7)",
+            title: "Nook above shop",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.adult]
+            tags: [Tags.adult],
+            count: 7
         },
         {
-            title: "Inside saria's house (4)",
+            title: "Inside saria's house",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: []
+            tags: [],
+            count: 4
         },
         {
             title: "Shop, around corner",
@@ -116,10 +123,11 @@ export const kokiriForest = {
 
         // beehives
         {
-            title: "Song of storms grotto (2)",
+            title: "Song of storms grotto",
             isChecked: false,
             type: LocationTypes.beehive,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
 
         // pots 
@@ -130,16 +138,18 @@ export const kokiriForest = {
             tags: []
         },
         {
-            title: "Twin's house (2)",
+            title: "Twin's house",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 2
         },
         {
             title: "Know-it-all bros' house",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 2
         },
 
     ],

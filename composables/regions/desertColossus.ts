@@ -44,10 +44,11 @@ export const desertColossus = {
         },
 
         {
-            title: "Under silver rock (2)",
+            title: "Under silver rock",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
 
         // beehives

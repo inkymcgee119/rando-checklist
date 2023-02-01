@@ -7,10 +7,11 @@ export const gerudoTrainingGrounds = {
     showMQ: false,
     locations: [
         {
-            title: "Lobby (2)",
+            title: "Lobby",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
             title: "Stafos room",
@@ -67,16 +68,18 @@ export const gerudoTrainingGrounds = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Silver block like like room (4)",
+            title: "Silver block like like room",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
         {
-            title: "Lock maze, right side (2)",
+            title: "Lock maze, right side",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
             title: "Lock maze, up through ceiling",
@@ -111,19 +114,21 @@ export const gerudoTrainingGrounds = {
 
         // rupees and hearts
         {
-            title: "Lizafos and beamos room (2)",
+            title: "Lizafos and beamos room",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
 
 
         // MQ
         {
-            title: "Lobby (2)",
+            title: "Lobby",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "Iron knuckle room",
@@ -163,22 +168,25 @@ export const gerudoTrainingGrounds = {
             tags: [Tags.mq]
         },
         {
-            title: "Fiery iron knuckles room (2)",
+            title: "Fiery iron knuckles room",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Lock maze, right side (2)",
+            title: "Lock maze, right side",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Lock maze, left side (3 free)",
+            title: "Lock maze, left side",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
             title: "Lock maze, left side key",
@@ -203,10 +211,11 @@ export const gerudoTrainingGrounds = {
 
         // pots
         {
-            title: "Lobby (4)",
+            title: "Lobby",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         
     ]

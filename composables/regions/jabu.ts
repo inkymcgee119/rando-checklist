@@ -40,10 +40,11 @@ export const jabu = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Ruto room (2 skulltulas)",
+            title: "Ruto room",
             isChecked: false,
             type: LocationTypes.gs,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },        
         {
             title: "Room before Barinade",
@@ -70,29 +71,33 @@ export const jabu = {
         
         // pots
         {
-            title: "Bottom path, switch room (2)",
+            title: "Bottom path, switch room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Bottom path, wiggler room (4)",
+            title: "Bottom path, wiggler room",
             description: "This is the rear door in the room you meet Ruto that you normally wouldn't enter.",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
         {
-            title: "After miniboss (2)",
+            title: "After miniboss",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Barinade (6)",
+            title: "Barinade",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 6
         },
 
         // MQ
@@ -140,10 +145,11 @@ export const jabu = {
             tags: [Tags.mq]
         },
         {
-            title: "Ruto room (2)",
+            title: "Ruto room",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "Tentacle area, back right room",
@@ -201,44 +207,56 @@ export const jabu = {
 
         // rupees
         {
-            title: "Evevator room, dive under wall (3)",
+            title: "Evevator room, dive under wall",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
-            title: "Elevator room, between wigglers (2)",
+            title: "Elevator room, between wigglers",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
 
         // pots
         {
-            title: "First room (2)",
+            title: "First room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Elevator room, dive under wall (2)",
+            title: "Elevator room, dive under wall",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Bottom path, switch room (2)",
+            title: "Bottom path, switch room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Tentacle area, back right (2)",
+            title: "Tentacle area, back right",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
-        
+        {
+            title: "Barinade",
+            isChecked: false,
+            type: LocationTypes.pot,
+            tags: [Tags.vanilla],
+            count: 6
+        },
 
 
     ]

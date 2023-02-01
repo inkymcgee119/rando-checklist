@@ -70,17 +70,19 @@ export const deathMountainTrail = {
 
         // rupees and hearts
         {
-            title: "Under rocks on ramp (2)",
+            title: "Under rocks on ramp",
             description: "The rupees are only there as child, but logic can require breaking the rocks as adult then returning as child.",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 2
         },
         {
-            title: "Cow grotto (11)",
+            title: "Cow grotto",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 11
         },
         {
             title: "Cow grotto",
@@ -91,11 +93,12 @@ export const deathMountainTrail = {
 
         // beehives
         {
-            title: "Song of storms grotto (2)",
+            title: "Song of storms grotto",
             description: "Rock circle outside goron city",
             isChecked: false,
             type: LocationTypes.beehive,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
     ],
     entrances: [

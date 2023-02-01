@@ -126,24 +126,27 @@ export const forestTemple = {
         
         // rupees and hearts
         {
-            title: "In the well (2)",
+            title: "In the well",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Courtyard, on pillars (2)",
+            title: "Courtyard, on pillars",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
 
         // pots
         {
-            title: "Center room (6)",
+            title: "Center room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 6
         },
         {
             title: "Room straight back, staflos fight",
@@ -152,28 +155,32 @@ export const forestTemple = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Bow chest (4)",
+            title: "Bow chest",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
         {
-            title: "Blue poe (Beth) (3)",
+            title: "Blue poe (Beth)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
         {
-            title: "Frozen eye switch room (2)",
+            title: "Frozen eye switch room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Green poe (Amy) (2)",
+            title: "Green poe (Amy)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
 
 
@@ -292,32 +299,36 @@ export const forestTemple = {
         
         // rupees
         {
-            title: "Courtyard (3)",
+            title: "Courtyard",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
-            title: "In the well (3)",
+            title: "In the well",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
 
         // crates        
         {
-            title: "Frozen switch room (3)",
+            title: "Frozen switch room",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
 
         // pots
         {
-            title: "Center room (6)",
+            title: "Center room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 6
         },
         {
             title: "Room straight back",
@@ -326,28 +337,32 @@ export const forestTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Bow room (4)",
+            title: "Bow room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
-            title: "Blue poe (Beth) (3)",
+            title: "Blue poe (Beth)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
-            title: "Green poe (Amy)  (2)",
+            title: "Green poe (Amy)",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Basement (4)",
+            title: "Basement",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
 
 

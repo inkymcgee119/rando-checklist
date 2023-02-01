@@ -44,10 +44,11 @@ export const zoraDomain = {
 
         // beehives
         {
-            title: "In front of king zora (2)",
+            title: "In front of king zora",
             isChecked: false,
             type: LocationTypes.beehive,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 2
         },
         {
             title: "Behind king zora",
@@ -58,10 +59,11 @@ export const zoraDomain = {
 
         // pots
         {
-            title: "Pots (5)",
+            title: "Pots",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 5
         },
     ],
     entrances: [

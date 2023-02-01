@@ -115,36 +115,41 @@ export const bottomOfTheWell = {
         
         // rupees and hearts
         {
-            title: "Left side, coffin room (2)",
+            title: "Left side, coffin room",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Fall into pit, platform (5)",
+            title: "Fall into pit, platform",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 5
         },
 
         // pots
         {
-            title: "Near entrance (2)",
+            title: "Near entrance",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Left side, basement exit (3)",
+            title: "Left side, basement exit",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
         {
-            title: "Center room, flying pots (3)",
+            title: "Center room, flying pots",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
         {
             title: "Near lullaby, after draining",
@@ -159,10 +164,11 @@ export const bottomOfTheWell = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Basement (12)",
+            title: "Basement",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 12
         },
 
 
@@ -222,36 +228,41 @@ export const bottomOfTheWell = {
 
         // rupees
         {
-            title: "Bombable debris, front (2)",
+            title: "Bombable debris, front",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Left side, coffin room (2)",
+            title: "Left side, coffin room",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Basement, end of tunnel (3)",
+            title: "Basement, end of tunnel",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
 
         // pots
         {
-            title: "Center area (3)",
+            title: "Center area",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
-            title: "Center, right room (3)",
+            title: "Center, right room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
 
 

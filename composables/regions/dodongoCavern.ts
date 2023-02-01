@@ -98,10 +98,11 @@ export const dodongoCavern = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Upper right, bombable wall (2)",
+            title: "Upper right, bombable wall",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
 
 
@@ -114,10 +115,11 @@ export const dodongoCavern = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Upper lizafos fight (2)",
+            title: "Upper lizafos fight",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
             title: "Upper right, behind block",
@@ -128,59 +130,68 @@ export const dodongoCavern = {
 
         // pots        
         {
-            title: "Lower right hallway (4)",
+            title: "Lower right hallway",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
         {
-            title: "Before Lower lizafos (2)",
+            title: "Before Lower lizafos",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Lower lizafos (4)",
+            title: "Lower lizafos",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
         {
-            title: "Lower right, after lizafos (4)",
+            title: "Lower right, after lizafos",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
         {
-            title: "Left side, staircase (4)",
+            title: "Left side, staircase",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
 
         {
-            title: "Sliding blades room (2)",
+            title: "Sliding blades room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Single eye switch room (2)",
+            title: "Single eye switch room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Double eye switch room (2)",
+            title: "Double eye switch room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Before boss (3)",
+            title: "Before boss",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
 
 
@@ -269,10 +280,11 @@ export const dodongoCavern = {
 
         // scrubs
         {
-            title: "Lobby, left side (2)",
+            title: "Lobby, left side",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "Lower right, before lizafos",
@@ -304,48 +316,55 @@ export const dodongoCavern = {
 
         // crates
         {
-            title: "Lower right, poe room (8)",
+            title: "Lower right, poe room",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 8
         },
         {
-            title: "Left side, staircase (6)",
+            title: "Left side, staircase",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 6
         },
         {
-            title: "Upper right, barred room (6)",
+            title: "Upper right, barred room",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 6
         },
         {
-            title: "After upper lizafos (2)",
+            title: "After upper lizafos",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
 
         // pots
         {
-            title: "Lower right hallway (4)",
+            title: "Lower right hallway",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
-            title: "Lower right, poe room (4)",
+            title: "Lower right, poe room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
-            title: "Left side, staircase (4)",
+            title: "Left side, staircase",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
             title: "Upper right, pillar",
@@ -360,28 +379,32 @@ export const dodongoCavern = {
             tags: [Tags.mq]
         },
         {
-            title: "Before upper lizafos (2)",
+            title: "Before upper lizafos",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Upper lizafos (4)",
+            title: "Upper lizafos",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
-            title: "After upper lizafos (2)",
+            title: "After upper lizafos",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Armos army, before (2)",
+            title: "Armos army, before",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "Armos army, after",
@@ -390,16 +413,18 @@ export const dodongoCavern = {
             tags: [Tags.mq]
         },
         {
-            title: "Poe room in the rear (2)",
+            title: "Poe room in the rear",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Before boss (2)",
+            title: "Before boss",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
 
     ]

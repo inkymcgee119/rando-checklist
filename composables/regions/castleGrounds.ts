@@ -54,10 +54,11 @@ export const castleGrounds = {
 
         // pots
         {
-            title: "Song of storms grotto (4)",
+            title: "Song of storms grotto",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 4
         },
     ],
     entrances: [

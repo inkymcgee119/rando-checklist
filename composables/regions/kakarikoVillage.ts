@@ -163,10 +163,11 @@ export const kakarikoVillage = {
 
         // beehives
         {
-            title: "Open grotto, near potion shop (2)",
+            title: "Open grotto, near potion shop",
             isChecked: false,
             type: LocationTypes.beehive,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
 
         // crates
@@ -185,28 +186,32 @@ export const kakarikoVillage = {
 
         // pots
         {
-            title: "Outside potion shop (3)",
+            title: "Outside potion shop",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 3
         },
         {
-            title: "Outside bazaar (3)",
+            title: "Outside bazaar",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 3
         },
         {
-            title: "Outside impa's house (3)",
+            title: "Outside impa's house",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 3
         },
         {
-            title: "Outside odd medicine shop (2)",
+            title: "Outside odd medicine shop",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 2
         },
     ],
     entrances: [

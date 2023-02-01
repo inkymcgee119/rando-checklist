@@ -1,5 +1,5 @@
 <template>
-    <div class="my-5 flex flex-row flex-nowrap card-container">
+    <div class="my-5 flex flex-row flex-nowrap card-container" oncontextmenu="return false;">
 
         <!-- no results -->
         <div v-if="filteredRegions.length == 0" class="w-full text-white text-center font-sans">
@@ -18,9 +18,10 @@
                         <Icon name="tabler:switch"></Icon>
                     </button>
                     <span class="float-right">
-                        <span v-if="region.locations.filter(x => !x.isChecked).length > 0">{{
-                            region.locations.filter(x => !x.isChecked).length
-                        }}</span>
+                        <span
+                            v-if="region.locations.reduce((acc, x) => acc + (!x.isChecked ? (x.count ? x.count : 1) : 0), 0) > 0">{{
+                                region.locations.reduce((acc, x) => acc + (!x.isChecked ? (x.count ? x.count : 1) : 0), 0)
+                            }}</span>
                         <span v-if="region.locations.filter(x => !x.isChecked).length == 0">
                             <Icon name="ic:baseline-check">
                             </Icon>
@@ -31,11 +32,11 @@
                 <!-- items -->
                 <div style="transition: max-height 200ms; overflow: hidden;">
                     <div v-for="(loc, idx) in region.locations" class="flex flex-row cursor-pointer"
-                        :class="{ 'border-b-2 border-slate-300': idx < region.locations.length - 1 }"
-                        @click="clickLocation(loc)">
+                        :class="{ 'border-b-2 border-slate-300': idx < region.locations.length - 1, 'bg-yellow-400': loc.isStarred }"
+                        @click="clickLocation(loc)" @contextmenu="rightClickLocation(loc)">
                         <div class="px-2 font-sans font-medium self-start grow">
                             <Icon :name="loc.type.icon"></Icon>
-                            {{ loc.title }}
+                            {{ loc.title }} <span v-if="loc.count">({{ loc.count }})</span>
                             <span v-if="loc.description && !region.collapsed" class="tooltip"
                                 :data-text="loc.description">
                                 <Icon name="material-symbols:info-outline"></Icon>
@@ -66,8 +67,9 @@
 const appState = useAppState();
 const filteredRegionGroups = ref([]);
 
+
 onMounted(() => {
-    
+
     assignColumnNumber(window.innerWidth);
     assignRegionCardColumns(columns.value);
 
@@ -80,70 +82,72 @@ onMounted(() => {
 const filteredRegions = computed(() => {
     let result = [];
 
-    for (let region of appState.value.regions) {
-        let r = { ...region };
-        //let f = { ...filters }; // this is to trigger vue to recompute when the filters change
-        r.locations = region.locations.filter(loc => {
-            let rowVisible = true;
+    if (appState.value.regions) {
+        for (let region of appState.value.regions) {
+            let r = { ...region };
 
-            switch (loc.type.name) {
-                case LocationTypes.item.name:
-                case LocationTypes.boss.name:
-                case LocationTypes.song.name:
-                    rowVisible &= appState.value.options.items;
-                    break;
-                case LocationTypes.gs.name:
-                    rowVisible &= appState.value.options.skulltulas;
-                    break;
-                case LocationTypes.scrub.name:
-                    rowVisible &= appState.value.options.scrubs;
-                    break;
-                case LocationTypes.cow.name:
-                    rowVisible &= appState.value.options.cows;
-                    break;
-                case LocationTypes.shop.name:
-                    rowVisible &= appState.value.options.shops;
-                    break;
-                case LocationTypes.rupee.name:
-                    rowVisible &= appState.value.options.rupees;
-                    break;
-                case LocationTypes.pot.name:
-                    rowVisible &= appState.value.options.pots;
-                    break;
-                case LocationTypes.crate.name:
-                    rowVisible &= appState.value.options.crates;
-                    break;
-                case LocationTypes.beehive.name:
-                    rowVisible &= appState.value.options.beehives;
-                    break;
-                default:
-                    rowVisible = false;
-                    break;
-            }
+            r.locations = region.locations.filter(loc => {
+                let rowVisible = true;
 
-            if (appState.value.tagFilters.child)
-                rowVisible &= !!loc.tags.find(x => x.name == Tags.child.name);
-            if (appState.value.tagFilters.adult)
-                rowVisible &= !!loc.tags.find(x => x.name == Tags.adult.name);
-            if (appState.value.tagFilters.grotto)
-                rowVisible &= !!loc.tags.find(x => x.name == Tags.grotto.name);
-            if (appState.value.tagFilters.bean)
-                rowVisible &= !!loc.tags.find(x => x.name == Tags.bean.name);
-            if (appState.value.tagFilters.night)
-                rowVisible &= !!loc.tags.find(x => x.name == Tags.night.name);
+                switch (loc.type.name) {
+                    case LocationTypes.item.name:
+                    case LocationTypes.boss.name:
+                    case LocationTypes.song.name:
+                        rowVisible &= appState.value.options.items;
+                        break;
+                    case LocationTypes.gs.name:
+                        rowVisible &= appState.value.options.skulltulas;
+                        break;
+                    case LocationTypes.scrub.name:
+                        rowVisible &= appState.value.options.scrubs;
+                        break;
+                    case LocationTypes.cow.name:
+                        rowVisible &= appState.value.options.cows;
+                        break;
+                    case LocationTypes.shop.name:
+                        rowVisible &= appState.value.options.shops;
+                        break;
+                    case LocationTypes.rupee.name:
+                        rowVisible &= appState.value.options.rupees;
+                        break;
+                    case LocationTypes.pot.name:
+                        rowVisible &= appState.value.options.pots;
+                        break;
+                    case LocationTypes.crate.name:
+                        rowVisible &= appState.value.options.crates;
+                        break;
+                    case LocationTypes.beehive.name:
+                        rowVisible &= appState.value.options.beehives;
+                        break;
+                    default:
+                        rowVisible = false;
+                        break;
+                }
 
-            if (r.hasMQ) {
-                if (!r.showMQ)
-                    rowVisible &= !!loc.tags.find(({ name }) => name == Tags.vanilla.name);
-                else
-                    rowVisible &= !!loc.tags.find(({ name }) => name == Tags.mq.name);
-            }
+                if (appState.value.tagFilters.child)
+                    rowVisible &= !!loc.tags.find(x => x.name == Tags.child.name);
+                if (appState.value.tagFilters.adult)
+                    rowVisible &= !!loc.tags.find(x => x.name == Tags.adult.name);
+                if (appState.value.tagFilters.grotto)
+                    rowVisible &= !!loc.tags.find(x => x.name == Tags.grotto.name);
+                if (appState.value.tagFilters.bean)
+                    rowVisible &= !!loc.tags.find(x => x.name == Tags.bean.name);
+                if (appState.value.tagFilters.night)
+                    rowVisible &= !!loc.tags.find(x => x.name == Tags.night.name);
 
-            return rowVisible;
-        });
+                if (r.hasMQ) {
+                    if (!r.showMQ)
+                        rowVisible &= !!loc.tags.find(({ name }) => name == Tags.vanilla.name);
+                    else
+                        rowVisible &= !!loc.tags.find(({ name }) => name == Tags.mq.name);
+                }
 
-        if (r.locations.length > 0)
-            result.push(r);
+                return rowVisible;
+            });
+
+            if (r.locations.length > 0)
+                result.push(r);
+        }
     }
 
 
@@ -196,7 +200,7 @@ function assignColumnNumber(width) {
 // hacky attempt to balance the height by distributing the region cards evenly by height
 function assignRegionCardColumns(colNum) {
 
-    if(!filteredRegions.value || filteredRegions.value.length == 0) {
+    if (!filteredRegions.value || filteredRegions.value.length == 0) {
         filteredRegionGroups.value = [];
         return;
     }
@@ -239,14 +243,19 @@ function clickLocation(loc) {
     save(appState.value);
 }
 
+function rightClickLocation(loc) {
+    loc.isStarred = !loc.isStarred;
+    save(appState.value);
+
+    return false;
+}
 function clickMQ(region) {
     let r = appState.value.regions.find((reg) => reg.name == region.name);
     r.showMQ = !r.showMQ;
 }
 
 function clickHeader(e, region) {
-    let r = appState.value.regions.find((reg) => reg.name == region.name);
-    r.collapsed = !r.collapsed;
+    region.collapsed = !region.collapsed;
 
     if (!e.currentTarget.nextElementSibling.style.maxHeight)
         e.currentTarget.nextElementSibling.style.maxHeight = `${e.currentTarget.nextElementSibling.scrollHeight}px`;
@@ -258,6 +267,7 @@ function clickHeader(e, region) {
         else
             e.target.nextElementSibling.style.maxHeight = `${e.target.nextElementSibling.scrollHeight}px`;
     }, 10);
+
 }
 
 

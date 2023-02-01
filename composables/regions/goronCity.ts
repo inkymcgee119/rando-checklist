@@ -25,10 +25,11 @@ export const goronCity = {
             tags: [Tags.child]
         },
         {
-            title: "Rock maze, right side (2)",
+            title: "Rock maze, right side",
             isChecked: false,
             type: LocationTypes.item,
-            tags: []
+            tags: [],
+            count: 2
         },
         {
             title: "Rock maze, left side",
@@ -65,10 +66,11 @@ export const goronCity = {
 
         // scrubs
         {
-            title: "Hookshot in lava room (3)",
+            title: "Hookshot in lava room",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 3
         },
 
         // shops
@@ -81,22 +83,25 @@ export const goronCity = {
 
         // rupees and hearts
         {
-            title: "Spinning pot 🙂 (2)",
+            title: "Spinning pot 🙂",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 2
         },
         {
-            title: "Spinning pot 😐 (3)",
+            title: "Spinning pot 😐",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 3
         },
         {
-            title: "Spinning pot 😡 (3)",
+            title: "Spinning pot 😡",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 3
         },
 
         // crates
@@ -109,10 +114,11 @@ export const goronCity = {
 
         // pots
         {
-            title: "Staircase (5)",
+            title: "Staircase",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 5
         },
         {
             title: "Medigoron",
@@ -121,10 +127,19 @@ export const goronCity = {
             tags: []
         },
         {
-            title: "Darunia (3)",
+            title: "Darunia",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 3
+        },
+
+        // beehives
+        {
+            title: "Hookshot in lava room",
+            isChecked: false,
+            type: LocationTypes.beehive,
+            tags: [Tags.grotto]
         },
     ],
     entrances: [

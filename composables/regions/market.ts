@@ -18,10 +18,11 @@ export const market = {
             tags: [Tags.child]
         },
         {
-            title: "Bombchu bowling (2)",
+            title: "Bombchu bowling",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 2
         },
         {
             title: "Treasure chest minigame",
@@ -66,10 +67,11 @@ export const market = {
 
         // crates
         {
-            title: "Market (4)",
+            title: "Market",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.child, Tags.night]
+            tags: [Tags.child, Tags.night],
+            count: 4
         },
         {
             title: "Richard's house",
@@ -86,23 +88,26 @@ export const market = {
 
         // pots
         {
-            title: "Pot room (44)",
+            title: "Pot room",
             description: "The pots on top of the walls can be reached by jumping from the crate with the Skulltula. From the first wall, you can reach the second wall by jumping from the sloped part of the first wall.",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 44
         },
         {
-            title: "Back alley house (3)",
+            title: "Back alley house",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 3
         },
         {
-            title: "Pot room (7)",
+            title: "Pot room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.adult]
+            tags: [Tags.adult],
+            count: 7
         },
     ],
     entrances: [

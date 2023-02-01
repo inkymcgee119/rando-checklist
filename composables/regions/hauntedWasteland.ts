@@ -35,10 +35,11 @@ export const hauntedWasteland = {
             tags: []
         },
         {
-            title: "After quicksand (3)",
+            title: "After quicksand",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: []
+            tags: [],
+            count: 3
         },
         {
             title: "Near colossus",
@@ -52,7 +53,8 @@ export const hauntedWasteland = {
             title: "Inside building",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 3
         },
     ],
     entrances: [

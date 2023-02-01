@@ -13,16 +13,18 @@ export const dekuTree = {
             tags: [Tags.vanilla]
         },
         {
-            title: "First floor Room (2)",
+            title: "First floor Room",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Second floor Room (2)",
+            title: "Second floor Room",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
             title: "Basement",
@@ -76,13 +78,12 @@ export const dekuTree = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Water before boss (3)",
+            title: "Water before boss",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
-
-
 
         // MQ
         // items
@@ -99,10 +100,11 @@ export const dekuTree = {
             tags: [Tags.mq]
         },
         {
-            title: "Second floor Room (2)",
+            title: "Second floor Room",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "Basement, switch",
@@ -193,10 +195,11 @@ export const dekuTree = {
             tags: [Tags.mq]
         },
         {
-            title: "Basement, before gohma (3)",
+            title: "Basement, before gohma",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
 
         // crates        
@@ -207,10 +210,11 @@ export const dekuTree = {
             tags: [Tags.mq]
         },
         {
-            title: "Second floor room (2)",
+            title: "Second floor room",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
 
     ]

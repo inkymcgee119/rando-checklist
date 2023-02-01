@@ -38,16 +38,17 @@ export const gerudoFortress = {
             tags: [Tags.adult]
         },
         {
-            title: "Gerudo membership card",
+            title: "Membership card (if enabled)",
             isChecked: false,
             type: LocationTypes.item,
             tags: [Tags.adult]
         },
         {
-            title: "Horseback archery (2)",
+            title: "Horseback archery",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.adult]
+            tags: [Tags.adult],
+            count: 2
         },
 
         // gold skulltulas
@@ -72,16 +73,18 @@ export const gerudoFortress = {
             tags: []
         },
         {
-            title: "Break room (4)",
+            title: "Break room",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: []
+            tags: [],
+            count: 4
         },
         {
-            title: "Kitchen (5)",
+            title: "Kitchen",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: []
+            tags: [],
+            count: 5
         },
         {
             title: "One torch jail",
@@ -90,10 +93,11 @@ export const gerudoFortress = {
             tags: []
         },
         {
-            title: "Two torch jail (2)",
+            title: "Two torch jail",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: []
+            tags: [],
+            count: 2
         },
         {
             title: "Three torch jail",
@@ -104,34 +108,39 @@ export const gerudoFortress = {
 
         // pots
         {
-            title: "Break room (2)",
+            title: "Break room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 2
         },
         {
-            title: "Kitchen (2)",
+            title: "Kitchen",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 2
         },
         {
-            title: "One torch jail (3)",
+            title: "One torch jail",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 3
         },
         {
-            title: "Two torch jail (7)",
+            title: "Two torch jail",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 7
         },
         {
-            title: "Four torch jail (2)",
+            title: "Four torch jail",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: []
+            tags: [],
+            count: 2
         },
     ],
     entrances: [

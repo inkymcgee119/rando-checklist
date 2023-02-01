@@ -32,16 +32,18 @@ export const shadowTemple = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Invisible blade room (2)",
+            title: "Invisible blade room",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Falling spike room (3)",
+            title: "Falling spike room",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
         {
             title: "Invisible floor spikes room",
@@ -80,10 +82,11 @@ export const shadowTemple = {
             tags: [Tags.vanilla]
         },        
         {
-            title: "Invisible maze, spike trap (2)",
+            title: "Invisible maze, spike trap",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
             title: "Bongo Bongo",
@@ -126,61 +129,70 @@ export const shadowTemple = {
 
         // rupees and hearts
         {
-            title: "Invisible blade room (2)",
+            title: "Invisible blade room",
             description: "Use song of time to reach",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Before boat (2)",
+            title: "Before boat",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "After boat (3)",
+            title: "After boat",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 3
         },
         {
-            title: "Triple skull room (9)",
+            title: "Triple skull room",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 9
         },
 
         // pots
         {
-            title: "Whispering walls (6 and flying pot)",
+            title: "Whispering walls",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 7
         },
         {
-            title: "Whispering walls, redead room (2)",
+            title: "Whispering walls, redead room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Falling spike room, lower (2)",
+            title: "Falling spike room, lower",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Falling spike room, upper (2)",
+            title: "Falling spike room, upper",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Fan area, gibdos room (4)",
+            title: "Fan area, gibdos room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 4
         },
         {
             title: "After boat",
@@ -195,16 +207,18 @@ export const shadowTemple = {
             tags: [Tags.vanilla]
         },
         {
-            title: "Invisible floor master room (2)",
+            title: "Invisible floor master room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
         {
-            title: "Before boss (2)",
+            title: "Before boss",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.vanilla]
+            tags: [Tags.vanilla],
+            count: 2
         },
 
         // MQ
@@ -258,10 +272,11 @@ export const shadowTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Falling spike room (3)",
+            title: "Falling spike room",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 3
         },
         {
             title: "Invisible floor spikes room",
@@ -306,10 +321,11 @@ export const shadowTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "Invisible maze, spike trap (2)",
+            title: "Invisible maze, spike trap",
             isChecked: false,
             type: LocationTypes.item,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "Bongo Bongo",
@@ -352,16 +368,18 @@ export const shadowTemple = {
 
         // rupees
         {
-            title: "Invisible blade room (2)",
+            title: "Invisible blade room",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Before boat (2)",
+            title: "Before boat",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "After boat, lower",
@@ -370,80 +388,92 @@ export const shadowTemple = {
             tags: [Tags.mq]
         },
         {
-            title: "After boat, upper (2)",
+            title: "After boat, upper",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Triple spinning pots (9)",
+            title: "Triple spinning pot",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 9
         },
 
         // crates
         {
-            title: "Truth spinner (4)",
+            title: "Truth spinner",
             isChecked: false,
             type: LocationTypes.crate,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
 
         // pots
         {
-            title: "Whispering walls, before SoT (4)",
+            title: "Whispering walls, before SoT",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
-            title: "Whispering walls, after SoT (2)",
+            title: "Whispering walls, after SoT",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Whispering walls, redead (2)",
+            title: "Whispering walls, redead",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Falling spikes, lower (2)",
+            title: "Falling spikes, lower",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Falling spikes, upper (2)",
+            title: "Falling spikes, upper",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Fan area, gibdos room (4)",
+            title: "Fan area, gibdos room",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 4
         },
         {
-            title: "After boat (2)",
+            title: "After boat",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Near boss (2)",
+            title: "Near boss",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
-            title: "Invisible maze, deadhand 2 (2)",
+            title: "Invisible maze, deadhand 2",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.mq]
+            tags: [Tags.mq],
+            count: 2
         },
         {
             title: "Invisible maze, spike walls",

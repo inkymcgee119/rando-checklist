@@ -75,16 +75,18 @@ export const hyruleField = {
 
         // beehives
         {
-            title: "Open grotto near lake hylia (2)",
+            title: "Open grotto near lake hylia",
             isChecked: false,
             type: LocationTypes.beehive,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
         {
-            title: "Southeast grotto, under rock (2)",
+            title: "Southeast grotto, under rock",
             isChecked: false,
             type: LocationTypes.beehive,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
         {
             title: "Deku salesman",
@@ -94,18 +96,20 @@ export const hyruleField = {
             tags: [Tags.grotto]
         },
         {
-            title: "Grotto west of castle town (2)",
+            title: "Grotto west of castle town",
             isChecked: false,
             type: LocationTypes.beehive,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
 
         // pots
         {
-            title: "Grotto near gerudo valley (2)",
+            title: "Grotto near gerudo valley",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
     ],
     entrances: [

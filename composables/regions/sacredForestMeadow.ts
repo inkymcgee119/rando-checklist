@@ -30,10 +30,11 @@ export const sacredForestMeadow = {
             tags: [Tags.adult, Tags.night]
         },
         {
-            title: "Song of storms, in corner (2)",
+            title: "Song of storms, in corner",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
 
         // beehives

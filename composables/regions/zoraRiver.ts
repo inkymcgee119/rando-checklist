@@ -24,6 +24,36 @@ export const zoraRiver = {
             tags: []
         },
         {
+            title: "Frogs, zelda's lullaby (if enabled)",
+            isChecked: false,
+            type: LocationTypes.item,
+            tags: [Tags.child]
+        },
+        {
+            title: "Frogs, epona's song (if enabled)",
+            isChecked: false,
+            type: LocationTypes.item,
+            tags: [Tags.child]
+        },
+        {
+            title: "Frogs, saria's song (if enabled)",
+            isChecked: false,
+            type: LocationTypes.item,
+            tags: [Tags.child]
+        },
+        {
+            title: "Frogs, sun song (if enabled)",
+            isChecked: false,
+            type: LocationTypes.item,
+            tags: [Tags.child]
+        },
+        {
+            title: "Frogs, song of time (if enabled)",
+            isChecked: false,
+            type: LocationTypes.item,
+            tags: [Tags.child]
+        },
+        {
             title: "Frogs, song of storms",
             isChecked: false,
             type: LocationTypes.item,
@@ -41,8 +71,6 @@ export const zoraRiver = {
             type: LocationTypes.item,
             tags: [Tags.child]
         },
-
-
         {
             title: "Tree near entrance",
             isChecked: false,
@@ -68,26 +96,29 @@ export const zoraRiver = {
             tags: [Tags.adult, Tags.night]
         },
         {
-            title: "Song of storms, rock circle (2)",
+            title: "Song of storms, rock circle",
             isChecked: false,
             type: LocationTypes.scrub,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
 
         // rupees and hearts
         {
-            title: "Under waterfall (4)",
+            title: "Under waterfall",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.adult]
+            tags: [Tags.adult],
+            count: 4
         },
 
         // beehives
         {
-            title: "Open grotto (2)",
+            title: "Open grotto",
             isChecked: false,
             type: LocationTypes.beehive,
-            tags: [Tags.grotto]
+            tags: [Tags.grotto],
+            count: 2
         },
         {
             title: "Song of storms, rock circle",

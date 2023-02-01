@@ -47,24 +47,27 @@ export const zoraFountain = {
 
         // rupees and hearts
         {
-            title: "Bottom of lake (18)",
+            title: "Bottom of lake",
             isChecked: false,
             type: LocationTypes.rupee,
-            tags: [Tags.adult]
+            tags: [Tags.adult],
+            count: 18
         },
 
         // pots
         {
-            title: "Near jabu (4)",
+            title: "Near jabu",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.child]
+            tags: [Tags.child],
+            count: 4
         },
         {
-            title: "Tunnel under silver rock (3)",
+            title: "Tunnel under silver rock",
             isChecked: false,
             type: LocationTypes.pot,
-            tags: [Tags.adult]
+            tags: [Tags.adult],
+            count: 3
         },
     ],
     entrances: [
