@@ -1,0 +1,298 @@
+{
+    "name": "Ganon's Castle",
+    "bgColor": "#27272a",
+    "hasMQ": true,
+    "locations": [
+        
+        {
+            "title": "Forest trial",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Water trial",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Shadow trial, left platform",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Shadow trial, rear platform",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Spirit trial, before bars",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Spirit trial, after bars",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Light trial, first room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"],
+            "count": 7
+        },
+        {
+            "title": "Light trial, lullaby room chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },        
+        {
+            "title": "Boss key chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Scrubs behind invisible wall",
+            "isChecked": false,
+            "type": "scrub",
+            "tags": ["vanilla"],
+            "count": 4
+        },
+        
+        {
+            "title": "Fire trial",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Shadow trial",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["vanilla"],
+            "count": 3
+        },
+        {
+            "title": "Spirit trial",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["vanilla"]
+        },
+
+        
+        {
+            "title": "Forest trial",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Water trial",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Shadow trial, like like",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Shadow trial",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Fire trial",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Light trial, boulder room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Light trial",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Spirit trial",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Before ganondorf",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 14
+        },
+
+        
+        
+        {
+            "title": "Forest trial, freestanding item",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Forest trial, eye switch",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Forest trial, frozen eye switch",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Water trial",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Shadow Trial, hookshot chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Shadow Trial, eye switch",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Spirit Trial, visible chest before gate",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Spirit Trial, invisible chest after gate",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Spirit Trial, sun switchs",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"],
+            "count": 4
+        },
+        {
+            "title": "Light Trial",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Boss key chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Scrubs behind invisible wall",
+            "isChecked": false,
+            "type": "scrub",
+            "tags": ["mq"],
+            "count": 5
+        },
+
+        
+        {
+            "title": "Water trial",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Light trial",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["mq"],
+            "count": 2
+        },
+
+        
+        {
+            "title": "Forest trial",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Water trial",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Shadow trial",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Fire trial",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Light trial",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Spirit trial",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Before ganondorf",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 14
+        }        
+    ]
+}

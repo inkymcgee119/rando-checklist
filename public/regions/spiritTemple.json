@@ -1,0 +1,501 @@
+{
+    "name": "Spirit Temple",
+    "bgColor": "#f97316",
+    "hasMQ": true,
+    "locations": [
+        
+        {
+            "title": "Child side, left room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Child side, right room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Child side, sun room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Main statue room, center torches",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Main statue room, lullaby hand",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Main statue room, lullaby upper",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Sun block room, torches",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Silver Gauntlet chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Adult side, lullaby room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Adult side, boulder room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Adult side, mirror room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Adult side, sun switch room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },        
+        {
+            "title": "Hallway, invisible",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Mirror shield chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },        
+        {
+            "title": "Boss key room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Mirror room",
+            "description": "Shine light onto the sun to spawn the chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },  
+        {
+            "title": "Twinrova",
+            "isChecked": false,
+            "type": "boss",
+            "tags": ["vanilla"]
+        },
+
+        
+        {
+            "title": "Child side, right room, on fence",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Child side, sun switch room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Hall before child side iron knuckles",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Main statue room, left upper ledge",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Adult side, boulder room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+        
+
+        
+        {
+            "title": "Shifting walls climb",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+
+        {
+            "title": "Before child climb",
+            "isChecked": false,
+            "type": "crate",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        
+        
+        {
+            "title": "Lobby",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 4
+        },
+        {
+            "title": "Flying pot in bridge room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla", "child"]
+        },
+        {
+            "title": "Anubis room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla", "child"]
+        },
+        {
+            "title": "Child climb room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Before child iron knuckle",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Adult climb flying pots",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Main statue room, flying pots",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Beamos hallway",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Mirror room, flying pots",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 6
+        },
+
+        
+        
+        {
+            "title": "Entrance, free chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Entrance, switch chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Entrance, eye switch chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Entrance, adult side, silver rupees",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Child side, left room, free chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Child side, left room, kill enemies",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Child side, hammer switch",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Child side, sun room, kill enemies",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Child side, sun room, on pillar",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Silver block hallway, eye switch",
+            "description": "This is accessed as child, use din's fire on the frozen eye switch to access the hallway, the eye switch is hidden in the pit",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Main statue room, eye switch",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Main statue room, lullaby chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Main statue room, upper right ledge",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Sun block room chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Silver gauntlet chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Song of time block puzzle room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Before mirror chest, free chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Before mirror chest, sun room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Mirror shield chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Adult side, lullaby room, leevers",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Adult side, song room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Mirror room, invisible chest by bars",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Twinrova",
+            "isChecked": false,
+            "type": "boss",
+            "tags": ["mq"]
+        },
+
+        
+        {
+            "title": "Sun block room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Adult side, lullaby room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Adult side, room after song room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Iron knuckle room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"],
+            "count": 2
+        },
+
+        {
+            "title": "Child side",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["mq", "child"],
+            "count": 2
+        },
+
+        {
+            "title": "Main statue room",
+            "isChecked": false,
+            "type": "crate",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Big mirror",
+            "isChecked": false,
+            "type": "crate",
+            "tags": ["mq", "adult"],
+            "count": 4
+        },
+
+        
+        {
+            "title": "Lobby",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 4
+        },
+        {
+            "title": "Child, torch slug",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq", "child"]
+        },
+        {
+            "title": "Child, gibdo room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq", "child"],
+            "count": 2
+        },
+        {
+            "title": "Child, stalfos room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq", "child"],
+            "count": 3
+        },
+        {
+            "title": "Child climb",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Main statue room, floor",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 3
+        },
+        {
+            "title": "Main statue room, top left",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Sun block room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Adult descent",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq", "adult"],
+            "count": 2
+        },
+        {
+            "title": "Shifting walls",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq", "adult"],
+            "count": 2
+        },
+        {
+            "title": "After shifting walls",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq", "adult"],
+            "count": 2
+        },
+        {
+            "title": "Big mirror",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq", "adult"],
+            "count": 4
+        }
+    ]
+}

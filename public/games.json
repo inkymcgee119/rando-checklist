@@ -1,0 +1,128 @@
+{
+    "games": [
+        {
+            "name": "oot",
+            "description": "Ocarina of Time",
+            "filters": {
+                "options": [
+                    {
+                        "name": "item",
+                        "description": "Items",
+                        "icon": "game-icons:chest"
+                    },
+                    {
+                        "name": "gs",
+                        "description": "Gold Skulltulas",
+                        "icon": "game-icons:masked-spider"
+                    },
+                    {
+                        "name": "shop",
+                        "description": "Shops",
+                        "icon": "game-icons:shopping-cart"
+                    },
+                    {
+                        "name": "scrub",
+                        "description": "Scrubs",
+                        "icon": "tabler:plant-2"
+                    },
+                    {
+                        "name": "cow",
+                        "description": "Cows",
+                        "icon": "game-icons:cow"
+                    },
+                    {
+                        "name": "pot",
+                        "description": "Pots",
+                        "icon": "game-icons:covered-jar"
+                    },
+                    {
+                        "name": "crate",
+                        "description": "Crates",
+                        "icon": "game-icons:wooden-crate"
+                    },
+                    {
+                        "name": "rupee",
+                        "description": "Rupees & Hearts",
+                        "icon": "game-icons:rupee"
+                    },
+                    {
+                        "name": "beehive",
+                        "description": "Bee Hives",
+                        "icon": "game-icons:bee"
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "child",
+                        "description": "Child",
+                        "icon": "fa6-solid:c"
+                    },
+                    {
+                        "name": "adult",
+                        "description": "Adult",
+                        "icon": "fa6-solid:a"
+                    },
+                    {
+                        "name": "grotto",
+                        "description": "Grotto",
+                        "icon": "game-icons:hole"
+                    },
+                    {
+                        "name": "night",
+                        "description": "Night",
+                        "icon": "bi:moon"
+                    },
+                    {
+                        "name": "bean",
+                        "description": "Bean Plants",
+                        "icon": "game-icons:jelly-beans"
+                    }
+                ]
+            },
+            "entranceOptions": {
+                "options": [
+                    {
+                        "name": "dungeon",
+                        "description": "Dungeons",
+                        "icon": "material-symbols:castle-outline"
+                    },
+                    {
+                        "name": "interior",
+                        "description": "Interiors",
+                        "icon": "material-symbols:house-outline"
+                    },
+                    {
+                        "name": "overworld",
+                        "description": "Overworld",
+                        "icon": "ion:md-globe"
+                    },
+                    {
+                        "name": "grotto",
+                        "description": "Grottos",
+                        "icon": "game-icons:hole"
+                    },
+                    {
+                        "name": "owl",
+                        "description": "Owls",
+                        "icon": "icon-park-solid:owl"
+                    },
+                    {
+                        "name": "song",
+                        "description": "Warp Songs",
+                        "icon": "game-icons:musical-score"
+                    }
+                ],
+                "toggles": [
+                    {
+                        "name": "mixedPool",
+                        "description": "Mixed entrance pools"
+                    },
+                    {
+                        "name": "decoupled",
+                        "description": "Decoupled entrances"
+                    }
+                ]
+            }
+        }
+    ]
+}

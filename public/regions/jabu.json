@@ -1,0 +1,255 @@
+{
+    "name": "Jabu Jabu",
+    "bgColor": "#0ea5e9",
+    "hasMQ": true,
+    "locations": [
+        
+        {
+            "title": "Tentacle area, right room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Tentacle area, left room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Tentacle area, back left room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },        
+        {
+            "title": "Barinade",
+            "isChecked": false,
+            "type": "boss",
+            "tags": ["vanilla"]
+        },
+
+        
+        {
+            "title": "Bottom path, switch room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Ruto room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"],
+            "count": 2
+        },        
+        {
+            "title": "Room before Barinade",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+
+        
+        {
+            "title": "Elevator room, dive under wall",
+            "isChecked": false,
+            "type": "scrub",
+            "tags": ["vanilla"]
+        },
+        
+        {
+            "title": "Elevator room, small crate",
+            "isChecked": false,
+            "type": "crate",
+            "tags": ["vanilla"]
+        },
+        
+        
+        {
+            "title": "Bottom path, switch room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Bottom path, wiggler room",
+            "description": "This is the rear door in the room you meet Ruto that you normally wouldn't enter.",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 4
+        },
+        {
+            "title": "After miniboss",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Barinade",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 6
+        },
+
+        
+        
+        {
+            "title": "First room, press button",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "First room, right cow",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },        
+        {
+            "title": "Elevator room, bottom",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Elevator room, dive under wall",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Elevator room, cow switch",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Bottom path, switch room chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Bottom path, switch room enemies",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Ruto room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Tentacle area, back right room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Room before Barinade",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Barinade",
+            "isChecked": false,
+            "type": "boss",
+            "tags": ["mq"]
+        },
+
+        
+        {
+            "title": "Bottom path, switch room SoT block",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Tentacle area, back left room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Ruto room, room behind tentacle",
+            "description": "This is the rear door in the room you meet Ruto that you normally wouldn't enter.",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Room before Barinade",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+
+        {
+            "title": "Room after miniboss",
+            "isChecked": false,
+            "type": "cow",
+            "tags": ["mq"]
+        },
+
+        {
+            "title": "Evevator room, dive under wall",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["mq"],
+            "count": 3
+        },
+        {
+            "title": "Elevator room, between wigglers",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["mq"],
+            "count": 2
+        },
+
+        
+        {
+            "title": "First room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Elevator room, dive under wall",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Bottom path, switch room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Tentacle area, back right",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Barinade",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 6
+        }
+    ]
+}

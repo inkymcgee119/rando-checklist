@@ -1,0 +1,19 @@
+{
+    "name": "Temple of Time",
+    "bgColor": "#0e7490",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Prelude of light",
+            "isChecked": false,
+            "type": "song",
+            "tags": ["adult"]
+        },
+        {
+            "title": "Light arrows",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["adult"]
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "name": "Zora's Domain",
+    "bgColor": "#06b6d4",
+    "hasMQ": false,
+    "locations": [
+        
+        {
+            "title": "Diving Minigame",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Light torches",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Melt king zora",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["adult"]
+        },
+
+        
+        {
+            "title": "Top of the waterfall",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["adult"]
+        },
+
+        {
+            "title": "Shop",
+            "isChecked": false,
+            "type": "shop",
+            "tags": []
+        },
+
+
+        
+        {
+            "title": "In front of king zora",
+            "isChecked": false,
+            "type": "beehive",
+            "tags": ["child"],
+            "count": 2
+        },
+        {
+            "title": "Behind king zora",
+            "isChecked": false,
+            "type": "beehive",
+            "tags": ["child"]
+        },
+
+        
+        {
+            "title": "Pots",
+            "isChecked": false,
+            "type": "pot",
+            "tags": [],
+            "count": 5
+        }
+    ],
+    "entrances": [
+        
+        {
+            "name": "Zora River",
+            "type": "overworld"
+        },
+        {
+            "name": "Lake Hylia",
+            "type": "overworld"
+        },
+        {
+            "name": "Zora's Fountain",
+            "type": "overworld"
+        },
+
+        
+        {
+            "name": "Shop",
+            "type": "interior"
+        },
+
+        
+        {
+            "name": "Song of storms",
+            "type": "grotto"
+        }
+    ]
+}

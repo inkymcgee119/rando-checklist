@@ -1,0 +1,32 @@
+{
+    "name": "Warp Songs",
+    "bgColor": "#44403c",
+    "hasMQ": false,
+    "locations": [],
+    "entrances": [
+        {
+            "name": "Minuet of Forest",
+            "type": "song"
+        },
+        {
+            "name": "Bolero of Fire",
+            "type": "song"
+        },
+        {
+            "name": "Serenade of Water",
+            "type": "song"
+        },
+        {
+            "name": "Nocturne of Shadow",
+            "type": "song"
+        },
+        {
+            "name": "Requiem of Spirit",
+            "type": "song"
+        },
+        {
+            "name": "Prelude of Light",
+            "type": "song"
+        }
+    ]
+}

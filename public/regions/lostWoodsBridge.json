@@ -1,0 +1,17 @@
+{
+    "name": "Lost Woods Bridge",
+    "bgColor": "#fbbf24",
+    "hasMQ": false,
+    "locations": [],
+    "entrances": [
+        
+        {
+            "name": "Hyrule Field",
+            "type": "overworld"
+        },
+        {
+            "name": "Kokiri Forest",
+            "type": "overworld"
+        }
+    ]
+}

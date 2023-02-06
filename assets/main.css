@@ -1,12 +1,12 @@
 .tooltip {
-    position: absolute;
+    position: relative;
     /* making the .tooltip span a container for the tooltip text */
 }
 
 .tooltip:before {
     content: attr(data-text);
     /* here's the magic */
-    position: absolute;
+    position: relative;
 
     /* vertically center */
     left: 50%;
@@ -37,6 +37,32 @@
     position: absolute;
 }
 
+.titlebar {
+    height: 30px;
+    background: #329ea3;
+    user-select: none;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .titlebar-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+  }
+  .titlebar-button:hover {
+    background: #5bbec3;
+  }
+
 .btn-option {
     @apply rounded-sm text-white py-1 px-4 my-1 ml-1 hover:bg-violet-900 bg-violet-700;
+}
+
+.dropdown {
+    @apply rounded-md bg-purple-400
 }

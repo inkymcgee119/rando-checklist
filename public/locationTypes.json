@@ -1,0 +1,61 @@
+{
+    "item": {
+        "name": "Items",
+        "icon": "game-icons:chest",
+        "hasFilter": true
+    },
+    "gs": {
+        "name": "Gold Skulltulas",
+        "icon": "game-icons:masked-spider",
+        "hasFilter": true
+    },
+    "boss": {
+        "name": "Boss",
+        "icon": "game-icons:death-skull",
+        "filterWith": "item"
+    },
+    "shop": {
+        "name": "Shops",
+        "icon": "game-icons:shopping-cart",
+        "hasFilter": true
+    },
+    "scrub": {
+        "name": "Scrubs",
+        "icon": "tabler:plant-2",
+        "hasFilter": true
+    },
+    "cow": {
+        "name": "Cows",
+        "icon": "game-icons:cow",
+        "hasFilter": true
+    },
+    "pot": {
+        "name": "Pots",
+        "icon": "game-icons:covered-jar",
+        "hasFilter": true
+    },
+    "crate": {
+        "name": "Crates",
+        "icon": "game-icons:wooden-crate",
+        "hasFilter": true
+    },
+    "song": {
+        "name": "Songs",
+        "icon": "game-icons:musical-score",
+        "filterWith": "item"
+    },
+    "rupee": {
+        "name": "Rupees & Hearts",
+        "icon": "game-icons:rupee",
+        "hasFilter": true
+    },
+    "heart": {
+        "name": "Heart",
+        "icon": "game-icons:hearts"
+    },
+    "beehive": {
+        "name": "Bee Hives",
+        "icon": "game-icons:bee",
+        "hasFilter": true
+    }
+}

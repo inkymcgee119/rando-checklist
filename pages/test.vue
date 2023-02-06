@@ -1,21 +1,15 @@
 <template>
 
-    <div class="bg-slate-400">
-        test
-
-
-    </div>
-    <div>
-        <!-- Rounded switch -->
-        <label class="switch">
-            <input type="checkbox" v-model="checked">
-            <span class="slider round"></span>
-        </label>{{ checked }}
-    </div>
+  <div class="container bg-slate-300">
     
-    <div class="bg-white">
-        <span class="test">Test class</span>
+    <div class="overflow-hidden">
+      <br/>
+      <Tooltip text="Difficulty">
+        <Icon name="material-symbols:info-outline"></Icon>
+      </Tooltip>
     </div>
+  </div>
+
 </template>
 
 <script setup>
@@ -25,9 +19,8 @@ const checked = ref(false);
 </script>
 
 <style>
-
- /* The switch - the box around the slider */
- .switch {
+/* The switch - the box around the slider */
+.switch {
   position: relative;
   display: inline-block;
   width: 40px;
@@ -66,12 +59,12 @@ const checked = ref(false);
   transition: .1s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   @apply bg-violet-700
 }
 
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   transform: translateX(15px);
 }
 
@@ -82,5 +75,5 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-} 
+}
 </style>

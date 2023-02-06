@@ -1,42 +1,6 @@
 <template>
-    <div class="bg-slate-200 rounded-md shadow-xl mt-2 ml-1 mr-1 pb-2">
-        <div class="rounded-t-md text-xl font-sans font-semibold text-left px-2 mb-2 text-white bg-neutral-500">
-            Entrance Randomizer Options
-        </div>
-        <div class="flex flex-row">
-            <div class="ml-2 my-auto">
-                <label class="font-sans font-semibold">Randomizer options</label>
-            </div>
-            <div class="grow">
-                <button class="btn-option" :class="{ 'opacity-50': !appState.entranceOptions.dungeons }"
-                    @click="appState.entranceOptions.dungeons = !appState.entranceOptions.dungeons">Dungeons<Icon
-                        :name="EntranceType.dungeon.icon"></Icon></button>
-                <button class="btn-option" :class="{ 'opacity-50': !appState.entranceOptions.interiors }"
-                    @click="appState.entranceOptions.interiors = !appState.entranceOptions.interiors">Interiors<Icon
-                        :name="EntranceType.interior.icon"></Icon></button>
-                <button class="btn-option" :class="{ 'opacity-50': !appState.entranceOptions.overworld }"
-                    @click="appState.entranceOptions.overworld = !appState.entranceOptions.overworld">Overworld<Icon
-                        :name="EntranceType.overworld.icon"></Icon></button>
-                <button class="btn-option" :class="{ 'opacity-50': !appState.entranceOptions.grottos }"
-                    @click="appState.entranceOptions.grottos = !appState.entranceOptions.grottos">Grottos<Icon
-                        :name="EntranceType.grotto.icon"></Icon></button>
-                <button class="btn-option" :class="{ 'opacity-50': !appState.entranceOptions.owls }"
-                    @click="appState.entranceOptions.owls = !appState.entranceOptions.owls">Owls<Icon
-                        :name="EntranceType.owl.icon"></Icon></button>
-                <button class="btn-option" :class="{ 'opacity-50': !appState.entranceOptions.songs }"
-                    @click="appState.entranceOptions.songs = !appState.entranceOptions.songs">Warp Songs<Icon
-                        :name="EntranceType.song.icon"></Icon></button>
+    <filters :options="appState.entranceOptions" :config="appState.gameInfo.games[0].entranceOptions"></filters>
 
-                <span class="font-sans font-semibold">
-                    Mix entrance pools <toggle-switch v-model="appState.entranceOptions.mixedPool"></toggle-switch>
-                </span>
-                <span class="font-sans font-semibold">
-                    Decouple entrances <toggle-switch v-model="appState.entranceOptions.decoupled"></toggle-switch>
-                </span>
-            </div>
-        </div>
-
-    </div>
     <div class="flex flex-row my-5">
         <!-- no results -->
         <div v-if="filteredRegions.length == 0" class="w-full text-white text-center font-sans">
@@ -46,25 +10,25 @@
         <div class="flex flex-col mx-1 grow" v-for="regionGroup in filteredRegionGroups">
             <div class="bg-slate-200 mb-3 rounded-md shadow-xl pb-2 select-none" v-for="region in regionGroup">
 
-                <div class="px-2 font-sans text-white bg-green-600 rounded-t-md text-xl font-semibold text-left cursor-pointer"
-                    :class="region.bgColor" @click="clickHeader($event, region)">
+                <div class="px-2 font-sans text-white rounded-t-md text-xl font-semibold text-left cursor-pointer"
+                    :style="{ background: region.bgColor }" v-collapsible-header>
                     {{ region.name }}
                 </div>
-                <div style="transition: max-height 200ms; overflow: hidden;">
+                <div>
                     <div v-for="(ent, idx) in region.entrances" class="flex flex-row justify-between px-2 my-1"
                         :class="{ 'border-b-2 border-slate-300': idx < region.entrances.length - 1 }">
                         <div class="font-semibold my-auto basis-1/2">
-                            <Icon :name="ent.type.icon"></Icon>
-                            {{ ent.name }}
+                            <Icon :name="getEntranceIcon(ent.type)"></Icon>
+                            <span v-if="stringCompareCaseInsensitive(ent.type, 'overworld')">To </span>{{ ent.name }}
                         </div>
 
                         <div class="basis-1/2 my-auto">
-                            <custom-dropdown v-model="ent.destination" :metadata="{ region: region, entrance: ent }"
-                                :toggler-class="`${region.bgColor} rounded-md text-white`"
+                            <dropdown v-model="ent.destination" :metadata="{ region: region, entrance: ent }"
+                                toggler-class="rounded-md text-white" :style="{ background: region.bgColor }"
                                 toggler-text="Select location"
-                                :groups="entranceListByType[appState.entranceOptions.mixedPool ? 'all' : ent.type.name]"
-                                :items="[{ value: '', description: 'Clear Value' }]"
-                                @update="updateDropdown"></custom-dropdown>
+                                :groups="dropdownGroupsByType[appState.entranceOptions.mixedPool ? 'all' : ent.type]"
+                                :items="[{ value: '', description: 'Clear Value' }]" @update="updateDropdown">
+                            </dropdown>
                         </div>
                     </div>
                 </div>
@@ -73,12 +37,12 @@
         </div>
 
     </div>
-
 </template>
 
 <script setup>
 
 const appState = useAppState();
+const filteredRegionGroups = ref([]);
 
 onMounted(() => {
 
@@ -91,8 +55,6 @@ onMounted(() => {
 
 });
 
-const filteredRegionGroups = ref([]);
-
 const filteredRegions = computed(() => {
     let result = [];
 
@@ -104,29 +66,10 @@ const filteredRegions = computed(() => {
         r.entrances = r.entrances.filter(ent => {
             let rowVisible = true;
 
-            switch (ent.type.name) {
-                case EntranceType.dungeon.name:
-                    rowVisible &= appState.value.entranceOptions.dungeons;
-                    break;
-                case EntranceType.interior.name:
-                    rowVisible &= appState.value.entranceOptions.interiors;
-                    break;
-                case EntranceType.overworld.name:
-                    rowVisible &= appState.value.entranceOptions.overworld;
-                    break;
-                case EntranceType.grotto.name:
-                    rowVisible &= appState.value.entranceOptions.grottos;
-                    break;
-                case EntranceType.owl.name:
-                    rowVisible &= appState.value.entranceOptions.owls;
-                    break;
-                case EntranceType.song.name:
-                    rowVisible &= appState.value.entranceOptions.songs;
-                    break;
-                default:
-                    rowVisible = false;
-                    break;
-            }
+            if (appState.value.entranceTypes[ent.type])
+                rowVisible &= appState.value.entranceOptions[ent.type];
+            else
+                rowVisible = false;
 
             return rowVisible;
         });
@@ -139,31 +82,106 @@ const filteredRegions = computed(() => {
     return result;
 });
 
+// full entrance list
+const filteredRegionEntranceList = computed(() => {
+    let entrances = [];
+
+    for (let region of appState.value.regions) {
+        if (region.entrances) {
+            let ents = region.entrances.filter(x => appState.value.entranceOptions[x.type]);
+            if (ents.length > 0) {
+                entrances.push({
+                    name: region.name,
+                    entrances: ents
+                });
+            }
+        }
+    }
+
+    return entrances;
+});
+
+
+// entrances grouped by type, used for dropdown
+const dropdownGroupsByType = computed(() => {
+    let result = [];
+
+    for (let entType of Object.getOwnPropertyNames(appState.value.entranceTypes)) {
+        result[entType] = getDropdownGroupsByType(entType);
+    }
+    result["all"] = getDropdownGroupsByType("all");
+
+    return result;
+});
+
+
+function getDropdownGroupsByType(entType) {
+    let groups = [];
+
+    //    for (let region of appState.value.regions) {
+    for (let region of filteredRegionEntranceList.value) {
+        if (region.entrances) {
+            let ents = region.entrances.filter(x => {
+                if (stringCompareCaseInsensitive(x.type, entType))
+                    return true;
+                if (stringCompareCaseInsensitive(entType, "owl"))
+                    return true;
+                if (stringCompareCaseInsensitive(entType, "song"))
+                    return true;
+
+                // mixed pool, all entrances included as long as the option is selected
+                if (stringCompareCaseInsensitive(entType, "all") && appState.value.entranceOptions[x.type])
+                    return true;
+
+                return false;
+            }).map(x => ({
+                value: getEntranceDescription(x.type, region.name, x.name),
+                description: stringCompareCaseInsensitive(x.type, "overworld") ? `To ${x.name}` : x.name,
+                icon: getEntranceIcon(x.type),
+                region: region.name,
+                name: x.name,
+                type: x.type
+            }));
+
+            if (ents.length > 0) {
+                groups.push({
+                    description: region.name,
+                    items: ents
+                });
+            }
+        }
+    }
+
+    return groups;
+}
+
+
 function updateDropdown(meta, selectedEnt) {
     if (!selectedEnt.value)
         return;
 
-    if (meta.entrance.type.name == EntranceType.owl.name || meta.entrance.type.name == EntranceType.song.name)
+    // one way
+    if (stringCompareCaseInsensitive(meta.entrance.type, "owl") || stringCompareCaseInsensitive(meta.entrance.type, "song"))
         return;
-        
+
     // A->B becomes C->D, D->C also becomes B->A, assign the inverse if coupled entrances
     // only do this if at least one is an overworld entrance
     if (!appState.value.entranceOptions.decoupled &&
-        (meta.entrance.type.name == EntranceType.overworld.name ||
-            selectedEnt.entrance.type.name == EntranceType.overworld.name)) {
+        (stringCompareCaseInsensitive(meta.entrance.type, "overworld") ||
+            stringCompareCaseInsensitive(selectedEnt.type, "overworld"))) {
 
         let srcRegion = meta.region.name;
         let srcEnt = meta.entrance.name;
-        let destRegion = selectedEnt.region.name;
-        let destEnt = selectedEnt.entrance.name;
+        let destRegion = selectedEnt.region;
+        let destEnt = selectedEnt.name;
 
         // data is backwards for overworld entrances
-        if (meta.entrance.type.name == EntranceType.overworld.name) {
+        if (stringCompareCaseInsensitive(meta.entrance.type, "overworld")) {
             let temp = srcRegion;
             srcRegion = srcEnt;
             srcEnt = temp;
         }
-        if (selectedEnt.entrance.type.name == EntranceType.overworld.name) {
+        if (stringCompareCaseInsensitive(selectedEnt.type, "overworld")) {
             let temp = destRegion;
             destRegion = destEnt;
             destEnt = temp;
@@ -171,16 +189,18 @@ function updateDropdown(meta, selectedEnt) {
 
 
         // find in entrance list
-        let entListRegion = entranceList.value.find(r => r.description == srcRegion);
-        let entListItem = entListRegion?.items.find(x => x.description == srcEnt);
+        let entListRegion = filteredRegionEntranceList.value.find(r => stringCompareCaseInsensitive(r.name, srcRegion));
+        let entListItem = entListRegion?.entrances.find(x => stringCompareCaseInsensitive(x.name, srcEnt));
 
         // assign in regions
-        let reg = appState.value.regions.find(x => x.name == destRegion);
-        let regEnt = reg?.entrances.find(x => x.name == destEnt);
+        let reg = appState.value.regions.find(x => stringCompareCaseInsensitive(x.name, destRegion));
+        let regEnt = reg?.entrances.find(x => stringCompareCaseInsensitive(x.name, destEnt));
 
         if (regEnt && entListItem)
-            regEnt.destination = entListItem;
+            regEnt.destination = getEntranceDescription(entListItem.type, srcRegion, srcEnt);
     }
+
+    save(appState.value);
 }
 
 function assignColumnNumber(width) {
@@ -203,7 +223,6 @@ function assignColumnNumber(width) {
     if (columnsEntrances.value != prevColNum) {
         assignRegionCardColumns(columnsEntrances.value);
     }
-
 }
 
 // hacky attempt to balance the height by distributing the region cards evenly by height
@@ -247,12 +266,7 @@ function calculateRegionCardHeight(region) {
     return region.entrances ? region.entrances.length + 1 : 0;
 }
 
-watch(filteredRegions, () => {
-    assignRegionCardColumns(columnsEntrances.value);
-});
-watch(columns, () => {
-    assignRegionCardColumns(columnsEntrances.value);
-});
+
 
 
 function assignRegionGroups() {
@@ -269,117 +283,14 @@ function assignRegionGroups() {
 };
 
 
-const entranceList = computed(() => {
-    let entrances = [];
-
-    for (let region of appState.value.regions) {
-        if (region.entrances) {
-            let ents = region.entrances.filter(x => {
-                if (x.type.name == EntranceType.dungeon.name && appState.value.entranceOptions.dungeons)
-                    return true;
-                if (x.type.name == EntranceType.interior.name && appState.value.entranceOptions.interiors)
-                    return true;
-                if (x.type.name == EntranceType.grotto.name && appState.value.entranceOptions.grottos)
-                    return true;
-                if (x.type.name == EntranceType.overworld.name && appState.value.entranceOptions.overworld)
-                    return true;
-                if (x.type.name == EntranceType.owl.name && appState.value.entranceOptions.owls)
-                    return true;
-                if (x.type.name == EntranceType.song.name && appState.value.entranceOptions.songs)
-                    return true;
-
-                return false;
-            }).map(ent => ({
-                value: EntranceType.overworld.name == ent.type.name ? `From ${region.name} to ${ent.name}` : `${region.name}, ${ent.name}`,
-                description: ent.name,
-                icon: ent.type.icon,
-                region: region,
-                entrance: ent
-            }));
-
-            if (ents.length > 0) {
-                entrances.push({
-                    description: region.name,
-                    items: ents
-                });
-            }
-        }
-    }
-
-    return entrances;
-});
-
-function getEntrancesByType(entType) {
-    let entrances = [];
-
-    for (let region of appState.value.regions) {
-        if (region.entrances) {
-            let ents = region.entrances.filter(x => {
-                if (x.type.name == entType)
-                    return true;
-                if (EntranceType.owl.name == entType)
-                    return true;
-                if (EntranceType.song.name == entType)
-                    return true;
-
-                // mixed pool, all entrances included as long as the option is selected
-                if (entType == "all" && x.type.name == EntranceType.dungeon.name && appState.value.entranceOptions.dungeons)
-                    return true;
-                if (entType == "all" && x.type.name == EntranceType.interior.name && appState.value.entranceOptions.interiors)
-                    return true;
-                if (entType == "all" && x.type.name == EntranceType.grotto.name && appState.value.entranceOptions.grottos)
-                    return true;
-                if (entType == "all" && x.type.name == EntranceType.overworld.name && appState.value.entranceOptions.overworld)
-                    return true;
-                if (entType == "all" && x.type.name == EntranceType.owl.name && appState.value.entranceOptions.owls)
-                    return true;
-                if (entType == "all" && x.type.name == EntranceType.song.name && appState.value.entranceOptions.songs)
-                    return true;
-
-                return false;
-            }).map(ent => ({
-                value: EntranceType.overworld.name == ent.type.name ? `From ${region.name} to ${ent.name}` : `${region.name}, ${ent.name}`,
-                description: ent.name,
-                icon: ent.type.icon,
-                region: region,
-                entrance: ent
-            }));
-
-            if (ents.length > 0) {
-                entrances.push({
-                    description: region.name,
-                    items: ents
-                });
-            }
-        }
-    }
-
-    return entrances;
+function getEntranceDescription(type, regionDesc, entDesc) {
+    return stringCompareCaseInsensitive(type, "overworld") ? `${entDesc}, from ${regionDesc}` : stringCompareCaseInsensitive(type, "dungeon") ? entDesc : `${regionDesc}, ${entDesc}`;
 }
 
-const entranceListByType = computed(() => {
-    let result = [];
-
-    for (let entType of Object.getOwnPropertyNames(EntranceType)) {
-        result[EntranceType[entType].name] = getEntrancesByType(EntranceType[entType].name);
-    }
-    result["all"] = getEntrancesByType("all");
-
-    return result;
+watch(filteredRegions, () => {
+    assignRegionCardColumns(columnsEntrances.value);
 });
-
-function clickHeader(e, region) {
-    region.collapsedEnt = !region.collapsedEnt;
-
-    if (!e.currentTarget.nextElementSibling.style.maxHeight)
-        e.currentTarget.nextElementSibling.style.maxHeight = `${e.currentTarget.nextElementSibling.scrollHeight}px`;
-
-    setTimeout(() => {
-        // collapse animation without reordering region cards
-        if (e.target.nextElementSibling.style.maxHeight != "0px")
-            e.target.nextElementSibling.style.maxHeight = "0px";
-        else
-            e.target.nextElementSibling.style.maxHeight = `${e.target.nextElementSibling.scrollHeight}px`;
-    }, 10);
-}
+watch(columns, () => {
+    assignRegionCardColumns(columnsEntrances.value);
+});
 </script>

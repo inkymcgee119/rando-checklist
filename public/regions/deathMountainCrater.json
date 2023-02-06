@@ -1,0 +1,140 @@
+{
+    "name": "Death Mountain Crater",
+    "bgColor": "#dc2626",
+    "hasMQ": false,
+    "locations": [
+        
+        {
+            "title": "Upper grotto",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["grotto"]
+        },
+        {
+            "title": "Wall heart piece",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Great fairy",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["adult"]
+        },
+        {
+            "title": "Heart piece on top of the volcano",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Sheik's song",
+            "isChecked": false,
+            "type": "song",
+            "tags": ["adult"]
+        },
+
+        
+        {
+            "title": "Crate near exit at the top of the crater",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["child"]
+        },
+        {
+            "title": "Bean patch",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["child", "bean"]
+        },
+
+        
+        {
+            "title": "Hammer rock near bridge",
+            "isChecked": false,
+            "type": "scrub",
+            "tags": ["grotto"],
+            "count": 3
+        },
+        {
+            "title": "Down ladder from upper DMC",
+            "isChecked": false,
+            "type": "scrub",
+            "tags": ["child"]
+        },
+
+        
+        {
+            "title": "Scarecrow song platform",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["adult"],
+            "count": 7
+        },
+        {
+            "title": "Lower platform",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["child"],
+            "count": 8
+        },
+
+        
+        {
+            "title": "Upper grotto",
+            "isChecked": false,
+            "type": "beehive",
+            "tags": ["grotto"],
+            "count": 2
+        },
+        {
+            "title": "Hammer rock near bridge",
+            "isChecked": false,
+            "type": "beehive",
+            "tags": ["grotto"]
+        },
+
+        
+        {
+            "title": "Near goron city entrance",
+            "isChecked": false,
+            "type": "pot",
+            "tags": [],
+            "count": 4
+        }
+    ],
+    "entrances": [
+        
+        {
+            "name": "Goron City",
+            "type": "overworld"
+        },
+        {
+            "name": "Death Mountain Trail",
+            "type": "overworld"
+        },
+
+        
+        {
+            "name": "Great fairy",
+            "type": "interior"
+        },
+
+        
+        {
+            "name": "Hammer rock",
+            "type": "grotto"
+        },
+        {
+            "name": "Upper rock",
+            "type": "grotto"
+        },
+
+        
+        {
+            "name": "Fire temple",
+            "type": "dungeon"
+        }
+    ]
+}

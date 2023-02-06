@@ -1,0 +1,166 @@
+{
+    "name": "Gerudo's Fortress",
+    "bgColor": "#ca8a04",
+    "hasMQ": false,
+    "locations": [
+        
+        {
+            "title": "Chest on the roof",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["adult"]
+        },
+        {
+            "title": "Guard 1",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Guard 2",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Guard 3",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        
+        {
+            "title": "Guard 4",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Membership card (if enabled)",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Horseback archery",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["adult"],
+            "count": 2
+        },
+
+        
+        {
+            "title": "Top of the fortress",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["adult", "night"]
+        },
+        {
+            "title": "Target on horse archery range",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["adult", "night"]
+        },
+
+        {
+            "title": "Above jail cell",
+            "isChecked": false,
+            "type": "crate",
+            "tags": []
+        },
+        {
+            "title": "Break room",
+            "isChecked": false,
+            "type": "crate",
+            "tags": [],
+            "count": 4
+        },
+        {
+            "title": "Kitchen",
+            "isChecked": false,
+            "type": "crate",
+            "tags": [],
+            "count": 5
+        },
+        {
+            "title": "One torch jail",
+            "isChecked": false,
+            "type": "crate",
+            "tags": []
+        },
+        {
+            "title": "Two torch jail",
+            "isChecked": false,
+            "type": "crate",
+            "tags": [],
+            "count": 2
+        },
+        {
+            "title": "Three torch jail",
+            "isChecked": false,
+            "type": "crate",
+            "tags": []
+        },
+
+        
+        {
+            "title": "Break room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": [],
+            "count": 2
+        },
+        {
+            "title": "Kitchen",
+            "isChecked": false,
+            "type": "pot",
+            "tags": [],
+            "count": 2
+        },
+        {
+            "title": "One torch jail",
+            "isChecked": false,
+            "type": "pot",
+            "tags": [],
+            "count": 3
+        },
+        {
+            "title": "Two torch jail",
+            "isChecked": false,
+            "type": "pot",
+            "tags": [],
+            "count": 7
+        },
+        {
+            "title": "Four torch jail",
+            "isChecked": false,
+            "type": "pot",
+            "tags": [],
+            "count": 2
+        }
+    ],
+    "entrances": [
+        
+        {
+            "name": "Gerudo Valley",
+            "type": "overworld"
+        },
+        {
+            "name": "Haunted Wasteland",
+            "type": "overworld"
+        },
+
+        
+        {
+            "name": "Song of storms",
+            "type": "grotto"
+        },
+
+        
+        {
+            "name": "Gerudo training grounds",
+            "type": "dungeon"
+        }
+    ]
+}

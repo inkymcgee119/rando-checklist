@@ -1,0 +1,81 @@
+<template>
+
+    <!-- header -->
+    <div class="rounded-t-md text-xl font-sans font-semibold text-left px-2 text-white"
+        :style="{ background: props.region.bgColor }" v-collapsible-header>
+
+        {{ props.region.name }} <span v-if="props.region.hasMQ && props.region.showMQ">MQ</span>
+        <button v-if="props.region.hasMQ" class="" @click.stop="clickMQ(region)">
+            <Icon name="tabler:switch"></Icon>
+        </button>
+        <span class="float-right">
+            <span
+                v-if="props.region.locations.reduce((acc, x) => acc + (!x.isChecked ? (x.count ? x.count : 1) : 0), 0) > 0">{{
+                    props.region.locations.reduce((acc, x) => acc + (!x.isChecked ? (x.count ? x.count : 1) : 0),
+                        0)
+                }}</span>
+            <span v-if="props.region.locations.filter(x => !x.isChecked).length == 0">
+                <Icon name="ic:baseline-check">
+                </Icon>
+            </span>
+        </span>
+
+    </div>
+
+    <!-- items -->
+    <div>
+        <div v-for="(loc, idx) in props.region.locations" class="flex flex-row cursor-pointer"
+            :class="{ 'border-b-2 border-slate-300': idx < props.region.locations.length - 1, 'bg-yellow-400': loc.isStarred }"
+            @click="clickLocation(loc)" @contextmenu="rightClickLocation(loc)">
+
+            <!-- description -->
+            <div class="px-2 font-sans font-medium self-start grow">
+                <Icon :name="getLocationIcon(loc.type)"></Icon>
+                {{ loc.title }} <span v-if="loc.count">({{ loc.count }})</span>
+                <span v-if="loc.description">
+                    <tooltip :text="loc.description">
+                        <Icon name="material-symbols:info-outline"></Icon>
+                    </tooltip>
+                </span>
+            </div>
+
+            <!-- tags and fake checkbox -->
+            <div class="px-2 justify-self-end whitespace-nowrap">
+                <span v-for="tag in loc.tags">
+                    <Icon v-if="getTagIcon(tag)" :name="getTagIcon(tag)"></Icon>
+                </span>
+                <span>
+                    <Icon name="fa-regular:square"
+                        class="cursor-pointer transition ease-in-out hover:scale-110 duration-100"
+                        v-if="!loc.isChecked"></Icon>
+                    <Icon name="fa-regular:check-square"
+                        class="text-green-700 cursor-pointer transition ease-in-out hover:scale-110 duration-100"
+                        v-if="loc.isChecked"></Icon>
+                </span>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script setup>
+const appState = useAppState();
+const props = defineProps(["region"]);
+
+function clickLocation(loc) {
+    loc.isChecked = !loc.isChecked;
+    save(appState.value);
+}
+
+function rightClickLocation(loc) {
+    loc.isStarred = !loc.isStarred;
+    save(appState.value);
+
+    return false;
+}
+function clickMQ(region) {
+    let r = appState.value.regions.find((reg) => stringCompareCaseInsensitive(reg.name, region.name));
+    r.showMQ = !r.showMQ;
+}
+
+
+</script>

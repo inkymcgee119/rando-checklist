@@ -1,0 +1,26 @@
+{
+    "dungeon": {
+        "name": "Dungeon",
+        "icon": "material-symbols:castle-outline"
+    },
+    "interior": {
+        "name": "Interior",
+        "icon": "material-symbols:house-outline"
+    },
+    "overworld": {
+        "name": "Overworld",
+        "icon": "ion:md-globe"
+    },
+    "grotto": {
+        "name": "Grotto",
+        "icon": "game-icons:hole"
+    },
+    "owl": {
+        "name": "Owl",
+        "icon": "icon-park-solid:owl"
+    },
+    "song": {
+        "name": "Song",
+        "icon": "game-icons:musical-score"
+    }
+}

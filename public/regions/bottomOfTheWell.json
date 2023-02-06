@@ -1,0 +1,265 @@
+{
+    "name": "Bottom of the Well",
+    "bgColor": "#c026d3",
+    "hasMQ": true,
+    "locations": [
+        
+        {
+            "title": "Front left invisible wall",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Right side invisible wall",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Left side invisible wall",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Center room, behind skulltula",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Left side, Coffin Room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Bombable debris, front",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Bombable debris, back left",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Basement, behind rocks",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Drained water, left side",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Drained water, front",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Back right room, keese",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Back right room, like like",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Invisible chest in deadhand room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Deadhand",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+
+        
+        {
+            "title": "Center, left key door",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Center, right key door",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Back right room, like like",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+
+        
+        
+        {
+            "title": "Left side, coffin room",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Fall into pit, platform",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["vanilla"],
+            "count": 5
+        },
+
+        
+        {
+            "title": "Near entrance",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Left side, basement exit",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 3
+        },
+        {
+            "title": "Center room, flying pots",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 3
+        },
+        {
+            "title": "Near lullaby, after draining",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Back right room, fire keese",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Basement",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 12
+        },
+
+
+        
+        
+        {
+            "title": "Center area chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Center, right room",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Basement chest",
+            "description": "Switch in back right room under bombable debris",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Deadhand room, bombable debris",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Deadhand",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+
+        
+        {
+            "title": "Left side, coffin room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Basement, end of the tunnel",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Center, left room, under gravestone",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+
+        
+        {
+            "title": "Bombable debris, front",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Left side, coffin room",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Basement, end of tunnel",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["mq"],
+            "count": 3
+        },
+
+        
+        {
+            "title": "Center area",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 3
+        },
+        {
+            "title": "Center, right room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 3
+        }
+    ]
+}

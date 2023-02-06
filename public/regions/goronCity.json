@@ -1,0 +1,168 @@
+{
+    "name": "Goron City",
+    "bgColor": "#713f12",
+    "hasMQ": false,
+    "locations": [
+        
+        {
+            "title": "Rolling goron",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Darunia's joy",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Spinning pot",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Rock maze, right side",
+            "isChecked": false,
+            "type": "item",
+            "tags": [],
+            "count": 2
+        },
+        {
+            "title": "Rock maze, left side",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Link the goron",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["adult"]
+        },
+        {
+            "title": "Medigoron (if enabled)",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["adult"]
+        },
+
+        
+        {
+            "title": "Rock maze, right side crate",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["child"]
+        },
+        {
+            "title": "Back of pedestal in the center",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["adult"]
+        },
+
+        
+        {
+            "title": "Hookshot in lava room",
+            "isChecked": false,
+            "type": "scrub",
+            "tags": ["grotto"],
+            "count": 3
+        },
+
+        {
+            "title": "Shop",
+            "isChecked": false,
+            "type": "shop",
+            "tags": []
+        },
+
+        
+        {
+            "title": "Spinning pot 🙂",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["child"],
+            "count": 2
+        },
+        {
+            "title": "Spinning pot 😐",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["child"],
+            "count": 3
+        },
+        {
+            "title": "Spinning pot 😡",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["child"],
+            "count": 3
+        },
+
+        {
+            "title": "Rock maze, right side",
+            "isChecked": false,
+            "type": "crate",
+            "tags": []
+        },
+
+        
+        {
+            "title": "Staircase",
+            "isChecked": false,
+            "type": "pot",
+            "tags": [],
+            "count": 5
+        },
+        {
+            "title": "Medigoron",
+            "isChecked": false,
+            "type": "pot",
+            "tags": []
+        },
+        {
+            "title": "Darunia",
+            "isChecked": false,
+            "type": "pot",
+            "tags": [],
+            "count": 3
+        },
+
+        
+        {
+            "title": "Hookshot in lava room",
+            "isChecked": false,
+            "type": "beehive",
+            "tags": ["grotto"]
+        }
+    ],
+    "entrances": [
+        
+        {
+            "name": "Death Mountain Trail",
+            "type": "overworld"
+        },
+        {
+            "name": "Lost Woods",
+            "type": "overworld"
+        },
+        {
+            "name": "Death Mountain Crater",
+            "type": "overworld"
+        },
+
+        
+        {
+            "name": "Shop",
+            "type": "interior"
+        },
+
+        
+        {
+            "name": "Song of time block",
+            "type": "grotto"
+        }
+    ]
+}

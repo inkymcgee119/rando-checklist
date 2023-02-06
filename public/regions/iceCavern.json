@@ -1,0 +1,199 @@
+{
+    "name": "Ice Cavern",
+    "bgColor": "#60a5fa",
+    "hasMQ": true,
+    "locations": [
+        
+        {
+            "title": "Back room chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Right room, chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Right room, red ice",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Wolfos chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Sheik's song",
+            "isChecked": false,
+            "type": "song",
+            "tags": ["vanilla"]
+        },
+
+        
+        {
+            "title": "Spinning blade room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Right room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Block puzzle room",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["vanilla"]
+        },
+
+        
+        {
+            "title": "Red ice near entrance",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Back room",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["vanilla"],
+            "count": 3
+        },
+        {
+            "title": "Block pushing puzzle",
+            "description": "Use song of time to reach",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["vanilla"],
+            "count": 3
+        },
+
+        
+        {
+            "title": "Hallway",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+        {
+            "title": "Spinning blade",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 4
+        },
+        {
+            "title": "Back room, frozen",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"]
+        },
+        {
+            "title": "Before wolfos",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["vanilla"],
+            "count": 2
+        },
+
+        
+        
+        {
+            "title": "Right room, red ice",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Back room, chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Back room, switch hidden in floor",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Stafos chest",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Sheik's song",
+            "isChecked": false,
+            "type": "song",
+            "tags": ["mq"]
+        },
+
+        
+        {
+            "title": "Back room, under red ice",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Block pushing puzzle, switch ",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Block pushing puzzle, side cave",
+            "description": "Use scarecrow song to reach",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["mq"]
+        },
+
+        
+        {
+            "title": "First hallway",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"]
+        },
+        {
+            "title": "Tektite room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Center room",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },        
+        {
+            "title": "Back room, floor",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"],
+            "count": 2
+        },
+        {
+            "title": "Before stalfos",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["mq"]
+        }
+    ]
+}

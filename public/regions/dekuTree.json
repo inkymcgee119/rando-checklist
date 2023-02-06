@@ -1,263 +1,263 @@
 {
     "name": "Deku Tree",
-    "bgColor": "bg-emerald-600",
+    "bgColor": "#16a34a",
     "hasMQ": true,
     "showMQ": false,
     "locations": [
       {
         "title": "Lobby",
         "isChecked": false,
-        "type": "Item",
+        "type": "item",
         "tags": [
-          "Vanilla"
+          "vanilla"
         ]
       },
       {
         "title": "First floor Room",
         "isChecked": false,
-        "type": "Item",
+        "type": "item",
         "tags": [
-          "Vanilla"
+          "vanilla"
         ],
         "count": 2
       },
       {
         "title": "Second floor Room",
         "isChecked": false,
-        "type": "Item",
+        "type": "item",
         "tags": [
-          "Vanilla"
+          "vanilla"
         ],
         "count": 2
       },
       {
         "title": "Basement",
         "isChecked": false,
-        "type": "Item",
+        "type": "item",
         "tags": [
-          "Vanilla"
+          "vanilla"
         ]
       },
       {
         "title": "Queen Gohma",
         "isChecked": false,
-        "type": "Boss",
+        "type": "boss",
         "tags": [
-          "Vanilla"
+          "vanilla"
         ]
       },
       {
         "title": "Compass Room",
         "isChecked": false,
-        "type": "GS",
+        "type": "gs",
         "tags": [
-          "Vanilla"
+          "vanilla"
         ]
       },
       {
         "title": "Basement on vines",
         "isChecked": false,
-        "type": "GS",
+        "type": "gs",
         "tags": [
-          "Vanilla"
+          "vanilla"
         ]
       },
       {
         "title": "Basement on the bars",
         "isChecked": false,
-        "type": "GS",
+        "type": "gs",
         "tags": [
-          "Vanilla"
+          "vanilla"
         ]
       },
       {
         "title": "Basement, back room",
         "isChecked": false,
-        "type": "GS",
+        "type": "gs",
         "tags": [
-          "Vanilla"
+          "vanilla"
         ]
       },
       {
         "title": "Walk the plank",
         "isChecked": false,
-        "type": "Rupee",
+        "type": "rupee",
         "tags": [
-          "Vanilla"
+          "vanilla"
         ]
       },
       {
         "title": "Leap down",
         "isChecked": false,
-        "type": "Rupee",
+        "type": "rupee",
         "tags": [
-          "Vanilla"
+          "vanilla"
         ]
       },
       {
         "title": "Water before boss",
         "isChecked": false,
-        "type": "Rupee",
+        "type": "rupee",
         "tags": [
-          "Vanilla"
+          "vanilla"
         ],
         "count": 3
       },
       {
         "title": "Lobby",
         "isChecked": false,
-        "type": "Item",
+        "type": "item",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "First floor Room",
         "isChecked": false,
-        "type": "Item",
+        "type": "item",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Second floor Room",
         "isChecked": false,
-        "type": "Item",
+        "type": "item",
         "tags": [
-          "MQ"
+          "mq"
         ],
         "count": 2
       },
       {
         "title": "Basement, switch",
         "isChecked": false,
-        "type": "Item",
+        "type": "item",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Water platform room chest",
         "isChecked": false,
-        "type": "Item",
+        "type": "item",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Water platform room, song of time",
         "isChecked": false,
-        "type": "Item",
+        "type": "item",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Queen Gohma",
         "isChecked": false,
-        "type": "Boss",
+        "type": "boss",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Under crate in lobby",
         "isChecked": false,
-        "type": "GS",
+        "type": "gs",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "First floor room, behind rock",
         "description": "Use song of time",
         "isChecked": false,
-        "type": "GS",
+        "type": "gs",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Basement, grave room, ceiling",
         "description": "Use song of time",
         "isChecked": false,
-        "type": "GS",
+        "type": "gs",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Basement, back room",
         "isChecked": false,
-        "type": "GS",
+        "type": "gs",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Scrub near gohma's hole",
         "isChecked": false,
-        "type": "Scrub",
+        "type": "scrub",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Lobby, on branch",
         "isChecked": false,
-        "type": "Rupee",
+        "type": "rupee",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Lobby, giant deku baba room",
         "isChecked": false,
-        "type": "Rupee",
+        "type": "rupee",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Lobby, first floor chest room",
         "description": "Under the rocks next to the gold skulltula",
         "isChecked": false,
-        "type": "Rupee",
+        "type": "rupee",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Second floor room",
         "isChecked": false,
-        "type": "Rupee",
+        "type": "rupee",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Basement, before gohma",
         "isChecked": false,
-        "type": "Rupee",
+        "type": "rupee",
         "tags": [
-          "MQ"
+          "mq"
         ],
         "count": 3
       },
       {
         "title": "Lobby",
         "isChecked": false,
-        "type": "Crate",
+        "type": "crate",
         "tags": [
-          "MQ"
+          "mq"
         ]
       },
       {
         "title": "Second floor room",
         "isChecked": false,
-        "type": "Crate",
+        "type": "crate",
         "tags": [
-          "MQ"
+          "mq"
         ],
         "count": 2
       }

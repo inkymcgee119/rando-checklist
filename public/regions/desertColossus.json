@@ -1,0 +1,85 @@
+{
+    "name": "Desert Colossus",
+    "bgColor": "#fbbf24",
+    "hasMQ": false,
+    "locations": [        
+        {
+            "title": "Great fairy",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Heart piece on archway",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Sheik's song",
+            "isChecked": false,
+            "type": "song",
+            "tags": []
+        },
+
+        {
+            "title": "Bean patch",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["child", "bean"]
+        },
+        {
+            "title": "Palm tree by dried pond",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["adult"]
+        },
+        {
+            "title": "Top of the sand dune",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["adult"]
+        },
+
+        {
+            "title": "Under silver rock",
+            "isChecked": false,
+            "type": "scrub",
+            "tags": ["grotto"],
+            "count": 2
+        },
+
+        
+        {
+            "title": "Silver rock grotto",
+            "isChecked": false,
+            "type": "beehive",
+            "tags": ["grotto"]
+        }
+    ],
+    "entrances": [
+        
+        {
+            "name": "Haunted Wasteland",
+            "type": "overworld"
+        },
+
+        
+        {
+            "name": "Great fairy",
+            "type": "interior"
+        },
+
+        
+        {
+            "name": "Silver rock",
+            "type": "grotto"
+        },
+
+        
+        {
+            "name": "Spirit temple",
+            "type": "dungeon"
+        }
+    ]
+}

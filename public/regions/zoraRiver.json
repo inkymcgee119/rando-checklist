@@ -1,0 +1,157 @@
+{
+    "name": "Zora River",
+    "bgColor": "#059669",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Open grotto",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["grotto"]
+        },
+        {
+            "title": "Lower river heart piece",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Upper river heart piece",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Frogs, zelda's lullaby (if enabled)",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Frogs, epona's song (if enabled)",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Frogs, saria's song (if enabled)",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Frogs, sun song (if enabled)",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Frogs, song of time (if enabled)",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Frogs, song of storms",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Frogs, minigame",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Bean salesman (if enabled)",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Tree near entrance",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["child"]
+        },
+        {
+            "title": "Upper river, on the ladder",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["child", "night"]
+        },
+        {
+            "title": "On wall near the open grotto",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["adult", "night"]
+        },
+        {
+            "title": "Upper river, high on the wall",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["adult", "night"]
+        },
+        {
+            "title": "Song of storms, rock circle",
+            "isChecked": false,
+            "type": "scrub",
+            "tags": ["grotto"],
+            "count": 2
+        },
+
+        
+        {
+            "title": "Under waterfall",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["adult"],
+            "count": 4
+        },
+
+        
+        {
+            "title": "Open grotto",
+            "isChecked": false,
+            "type": "beehive",
+            "tags": ["grotto"],
+            "count": 2
+        },
+        {
+            "title": "Song of storms, rock circle",
+            "isChecked": false,
+            "type": "beehive",
+            "tags": ["grotto"]
+        }
+    ],
+    "entrances": [
+        
+        {
+            "name": "Hyrule Field",
+            "type": "overworld"
+        },
+        {
+            "name": "Zora's Domain",
+            "type": "overworld"
+        },
+        {
+            "name": "Lost Woods",
+            "type": "overworld"
+        },
+
+        
+        {
+            "name": "Song of storms",
+            "type": "grotto"
+        },
+        {
+            "name": "Open",
+            "type": "grotto"
+        },
+        {
+            "name": "Fairy",
+            "type": "grotto"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "name": "Zora's Fountain",
+    "bgColor": "#d946ef",
+    "hasMQ": false,
+    "locations": [
+        
+        {
+            "title": "Great fairy",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Ice platform",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["adult"]
+        },
+        {
+            "title": "Bottom of the lake",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["adult"]
+        },
+
+        
+        {
+            "title": "Tree near great fairy",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["child"]
+        },
+        {
+            "title": "On wall to the right of entrance",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["child", "night"]
+        },
+        {
+            "title": "Tunnel under silver rock",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["adult"]
+        },
+
+        
+        {
+            "title": "Bottom of lake",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["adult"],
+            "count": 18
+        },
+
+        
+        {
+            "title": "Near jabu",
+            "isChecked": false,
+            "type": "pot",
+            "tags": ["child"],
+            "count": 4
+        },
+        {
+            "title": "Tunnel under silver rock",
+            "isChecked": false,
+            "type": "pot",
+            "tags": [],
+            "count": 3
+        }
+    ],
+    "entrances": [
+        
+        {
+            "name": "Zora's domain",
+            "type": "overworld"
+        },
+
+        
+        {
+            "name": "Great fairy",
+            "type": "interior"
+        },
+
+        
+        {
+            "name": "Jabu jabu",
+            "type": "dungeon"
+        },
+        {
+            "name": "Ice cavern",
+            "type": "dungeon"
+        }
+    ]
+}

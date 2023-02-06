@@ -1,0 +1,149 @@
+{
+    "name": "Lake Hylia",
+    "bgColor": "#2563eb",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Lab diving (gold scale)",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Underwater bottle",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Fishing",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["child"]
+        },
+        {
+            "title": "Fishing",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["adult"]
+        },
+        {
+            "title": "Rooftop heart piece",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Shoot the sun",
+            "isChecked": false,
+            "type": "item",
+            "tags": ["adult"]
+        },
+
+        {
+            "title": "Bean patch",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["child", "bean"]
+        },
+        {
+            "title": "Back of the lab",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["child", "night"]
+        },
+        {
+            "title": "On the little island",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["child", "night"]
+        },
+        {
+            "title": "Top of the tree",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["adult", "night"]
+        },
+        {
+            "title": "Crate in the lab",
+            "isChecked": false,
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Under gravestone",
+            "isChecked": false,
+            "type": "scrub",
+            "tags": ["grotto"],
+            "count": 3
+        },
+
+        
+        {
+            "title": "Near bottle, shallow",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["child"]
+        },
+        {
+            "title": "Near bottle, deep",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": ["child"],
+            "count": 2
+        },
+        {
+            "title": "In the lab",
+            "isChecked": false,
+            "type": "rupee",
+            "tags": [],
+            "count": 3
+        },
+
+        
+        {
+            "title": "Under gravestone",
+            "isChecked": false,
+            "type": "beehive",
+            "tags": ["grotto"]
+        }
+    ],
+    "entrances": [
+        
+        {
+            "name": "Hyrule Field",
+            "type": "overworld"
+        },
+        {
+            "name": "Zora's Domain",
+            "type": "overworld"
+        },
+
+        
+        {
+            "name": "Fishing",
+            "type": "interior"
+        },
+        {
+            "name": "Lab",
+            "type": "interior"
+        },
+
+        
+        {
+            "name": "Gravestone",
+            "type": "grotto"
+        },
+
+        
+        {
+            "name": "Water temple",
+            "type": "dungeon"
+        },
+
+        {
+            "name": "Owl",
+            "type": "owl"
+        }
+    ]
+}

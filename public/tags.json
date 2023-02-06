@@ -1,0 +1,40 @@
+{
+    "vanilla": {
+        "name": "Vanilla",
+        "description": "Vanilla Dungeon"
+    },
+    "mq": {
+        "name": "MQ",
+        "description": "Master Quest Dungeon"
+    },
+    "child": {
+        "name": "Child",
+        "description": "Child only",
+        "icon": "fa6-solid:c",
+        "hasFilter": true
+    },
+    "adult": {
+        "name": "Adult",
+        "description": "Adult only",
+        "icon": "fa6-solid:a",
+        "hasFilter": true
+    },
+    "grotto": {
+        "name": "Grotto",
+        "description": "Grotto",
+        "icon": "game-icons:hole",
+        "hasFilter": true
+    },
+    "night": {
+        "name": "Night",
+        "description": "Night",
+        "icon": "bi:moon",
+        "hasFilter": true
+    },
+    "bean": {
+        "name": "Bean",
+        "description": "Bean patch",
+        "icon": "game-icons:jelly-beans",
+        "hasFilter": true
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Temple of Time Entrance",
+    "bgColor": "#78716c",
+    "hasMQ": false,
+    "locations": [],
+    "entrances": [
+        
+        {
+            "name": "Market",
+            "type": "overworld"
+        },
+
+        
+        {
+            "name": "Temple of time",
+            "type": "interior"
+        }
+    ]
+}

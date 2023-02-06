@@ -1,0 +1,73 @@
+{
+    "name": "Sacred Forest Meadow",
+    "bgColor": "#10B981",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Wolfos grotto",
+            "isChecked": false,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Song from Saria",
+            "isChecked": false,
+            "type": "song",
+            "tags": ["child"]
+        },
+        {
+            "title": "Song from Sheik",
+            "isChecked": false,
+            "type": "song",
+            "tags": ["adult"]
+        },
+        {
+            "title": "On the wall above the maze",
+            "isChecked": false,
+            "type": "gs",
+            "tags": ["adult", "night"]
+        },
+        {
+            "title": "Song of storms, in corner",
+            "isChecked": false,
+            "type": "scrub",
+            "tags": ["grotto"],
+            "count": 2
+        },
+
+        
+        {
+            "title": "Song of storms grotto",
+            "isChecked": false,
+            "type": "beehive",
+            "tags": ["grotto"]
+        }
+    ],
+    "entrances": [
+        
+        {
+            "name": "Lost Woods",
+            "type": "overworld"
+        },
+
+        
+        {
+            "name": "Wolfos",
+            "type": "grotto"
+        },
+        {
+            "name": "Song of storms",
+            "type": "grotto"
+        },
+        {
+            "name": "Fairy",
+            "type": "grotto"
+        },
+
+        
+        {
+            "name": "Forest temple",
+            "type": "dungeon"
+        }
+    ]
+}
