@@ -8,8 +8,9 @@ export function save(data) {
 }
 
 export async function reset() {
+    let appState = useAppState();
     localStorage.removeItem("ootTrackerData");
-    await loadRegions();
+    await loadRegions(appState.value.selectedGame);
 }
 
 export function getLocationIcon(locType) {
@@ -20,11 +21,12 @@ export function getLocationIcon(locType) {
     return result;
 }
 
-export function getEntranceIcon(entType) {
+
+export function getEntranceTypeByName(entType) {
     let appState = useAppState();
     let result = "";
     if (appState.value.entranceTypes[entType])
-        result = appState.value.entranceTypes[entType].icon;
+        result = appState.value.entranceTypes[entType];
     return result;
 }
 
@@ -40,125 +42,56 @@ export function isTauri() {
     return !!window.__TAURI_IPC__;
 }
 
-export async function loadRegions() {
+export async function loadGameInfo() {
     let appState = useAppState();
+    let gameInfo = await (await fetch("./games.json")).json();
+    appState.value.games = gameInfo.games;
+}
 
-    if (window.__TAURI_IPC__) {
-        Promise.all([
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/tags.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/locationTypes.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/entranceTypes.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/games.json')))
-        ]).then(x => {
-            appState.value.tags = x[0];
-            appState.value.locationTypes = x[1];
-            appState.value.entranceTypes = x[2];
-            appState.value.gameInfo = x[3];
-        });
-    
-        let results = await Promise.all([
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/kokiriForest.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/lostWoods.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/lostWoodsBridge.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/sacredForestMeadow.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/hyruleField.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/marketEntrance.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/market.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/castleGrounds.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/templeOfTimeEntrance.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/templeOfTime.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/lonLonRanch.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/kakarikoVillage.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/graveyard.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/deathMountainTrail.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/deathMountainCrater.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/goronCity.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/zoraRiver.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/zoraDomain.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/zoraFountain.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/lakeHylia.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/gerudoValley.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/gerudoFortress.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/hauntedWasteland.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/desertColossus.json'))),
-    
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/dekuTree.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/dodongoCavern.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/jabu.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/forestTemple.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/fireTemple.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/iceCavern.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/waterTemple.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/bottomOfTheWell.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/shadowTemple.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/gerudoTrainingGrounds.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/spiritTemple.json'))),
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/ganonCastle.json'))),
-    
-            JSON.parse(await readTextFile(await resolveResource('_up_/public/regions/warpSongs.json'))),
-        ]);
-    
-        appState.value.regions = results;
+export async function loadRegions(gameInfo) {
+    let appState = useAppState();
+    let dirPrefix = "./";
+
+    try {
+        if (isTauri()) {
+            dirPrefix = "_up_/public/";
+
+            appState.value.tags = await (JSON.parse(await readTextFile(await resolveResource(`${dirPrefix}${gameInfo.dir}/tags.json`))));
+            appState.value.locationTypes = await (JSON.parse(await readTextFile(await resolveResource(`${dirPrefix}${gameInfo.dir}/locationTypes.json`))));
+            appState.value.entranceTypes = await (JSON.parse(await readTextFile(await resolveResource(`${dirPrefix}${gameInfo.dir}/entranceTypes.json`))));
+
+            let regionPromises = [];
+            for (let r of gameInfo.regions) {
+                regionPromises.push(JSON.parse(await readTextFile(await resolveResource(`${dirPrefix}${gameInfo.dir}/${r}`))));
+            }
+
+            let results = await Promise.all(regionPromises);
+            appState.value.regions = results;
+        }
+        else {
+            appState.value.tags = await (await fetch(`${dirPrefix}${gameInfo.dir}/tags.json`)).json();
+            appState.value.locationTypes = await (await fetch(`${dirPrefix}${gameInfo.dir}/locationTypes.json`)).json();
+            appState.value.entranceTypes = await (await fetch(`${dirPrefix}${gameInfo.dir}/entranceTypes.json`)).json();
+
+            let regionPromises = [];
+            for (let r of gameInfo.regions) {
+                regionPromises.push((await fetch(`${dirPrefix}${gameInfo.dir}/${r}`)).json());
+            }
+
+            let results = await Promise.all(regionPromises);
+            appState.value.regions = results;
+
+        }
     }
-    else {
-        Promise.all([
-            (await fetch("./tags.json")).json(),
-            (await fetch("./locationTypes.json")).json(),
-            (await fetch("./entranceTypes.json")).json(),
-            (await fetch("./games.json")).json()
-        ]).then(x => {
-            appState.value.tags = x[0];
-            appState.value.locationTypes = x[1];
-            appState.value.entranceTypes = x[2];
-            appState.value.gameInfo = x[3];
-        });
-
-        let results = await Promise.all([
-            await (await fetch("./regions/kokiriForest.json")).json(),
-            await (await fetch("./regions/lostWoods.json")).json(),
-            await (await fetch("./regions/lostWoodsBridge.json")).json(),
-            await (await fetch("./regions/sacredForestMeadow.json")).json(),
-            await (await fetch("./regions/hyruleField.json")).json(),
-            await (await fetch("./regions/marketEntrance.json")).json(),
-            await (await fetch("./regions/market.json")).json(),
-            await (await fetch("./regions/castleGrounds.json")).json(),
-            await (await fetch("./regions/templeOfTimeEntrance.json")).json(),
-            await (await fetch("./regions/templeOfTime.json")).json(),
-            await (await fetch("./regions/lonLonRanch.json")).json(),
-            await (await fetch("./regions/kakarikoVillage.json")).json(),
-            await (await fetch("./regions/graveyard.json")).json(),
-            await (await fetch("./regions/deathMountainTrail.json")).json(),
-            await (await fetch("./regions/deathMountainCrater.json")).json(),
-            await (await fetch("./regions/goronCity.json")).json(),
-            await (await fetch("./regions/zoraRiver.json")).json(),
-            await (await fetch("./regions/zoraDomain.json")).json(),
-            await (await fetch("./regions/zoraFountain.json")).json(),
-            await (await fetch("./regions/lakeHylia.json")).json(),
-            await (await fetch("./regions/gerudoValley.json")).json(),
-            await (await fetch("./regions/gerudoFortress.json")).json(),
-            await (await fetch("./regions/hauntedWasteland.json")).json(),
-            await (await fetch("./regions/desertColossus.json")).json(),
-
-            await (await fetch("./regions/dekuTree.json")).json(),
-            await (await fetch("./regions/dodongoCavern.json")).json(),
-            await (await fetch("./regions/jabu.json")).json(),
-            await (await fetch("./regions/forestTemple.json")).json(),
-            await (await fetch("./regions/fireTemple.json")).json(),
-            await (await fetch("./regions/iceCavern.json")).json(),
-            await (await fetch("./regions/waterTemple.json")).json(),
-            await (await fetch("./regions/bottomOfTheWell.json")).json(),
-            await (await fetch("./regions/shadowTemple.json")).json(),
-            await (await fetch("./regions/gerudoTrainingGrounds.json")).json(),
-            await (await fetch("./regions/spiritTemple.json")).json(),
-            await (await fetch("./regions/ganonCastle.json")).json(),
-
-            await (await fetch("./regions/warpSongs.json")).json()
-        ]);
-        appState.value.regions = results;
+    catch (ex) {
+        throw ("Error loading json files.")
     }
 }
 
 
 export function stringCompareCaseInsensitive(a, b) {
+    if (!a || !b)
+        return false;
+
     return a.toUpperCase() == b.toUpperCase();
 }

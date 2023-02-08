@@ -63,6 +63,10 @@
     @apply rounded-sm text-white py-1 px-4 my-1 ml-1 hover:bg-violet-900 bg-violet-700;
 }
 
+.btn-option-inactive {
+  @apply rounded-sm text-white py-1 px-4 my-1 ml-1 hover:bg-violet-500 bg-violet-400;
+}
+
 .dropdown {
     @apply rounded-md bg-purple-400
 }

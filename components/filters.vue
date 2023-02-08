@@ -12,7 +12,7 @@
             </div>
             <div v-if="props.config.options" class="grow">
                 <span v-for="opt of props.config.options">
-                    <button class="btn-option" :class="{ 'opacity-50': !options[opt.name] }"
+                    <button :class="{'btn-option': options[opt.name], 'btn-option-inactive': !options[opt.name] }"
                         @click="options[opt.name] = !options[opt.name]">{{ opt.description }}
                         <Icon v-if="opt.icon" :name="opt.icon"></Icon>
                     </button>
@@ -24,7 +24,7 @@
             </div>
             <div v-if="props.config.tags" class="grow">
                 <span v-for="tag of props.config.tags">
-                    <button class="btn-option" :class="{ 'opacity-50': !tags[tag.name] }"
+                    <button :class="{'btn-option': tags[tag.name], 'btn-option-inactive': !tags[tag.name] }"
                         @click="clickTagFilter(tag.name)">{{ tag.description }}<Icon :name="tag.icon"></Icon></button>
                 </span>
             </div>

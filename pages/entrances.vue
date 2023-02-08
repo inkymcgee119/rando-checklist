@@ -1,5 +1,5 @@
 <template>
-    <filters :options="appState.entranceOptions" :config="appState.gameInfo.games[0].entranceOptions"></filters>
+    <filters :options="appState.entranceOptions" :config="filterConfig"></filters>
 
     <div class="flex flex-row my-5">
         <!-- no results -->
@@ -18,7 +18,7 @@
                     <div v-for="(ent, idx) in region.entrances" class="flex flex-row justify-between px-2 my-1"
                         :class="{ 'border-b-2 border-slate-300': idx < region.entrances.length - 1 }">
                         <div class="font-semibold my-auto basis-1/2">
-                            <Icon :name="getEntranceIcon(ent.type)"></Icon>
+                            <Icon :name="getEntranceTypeByName(ent.type).icon"></Icon>
                             <span v-if="stringCompareCaseInsensitive(ent.type, 'overworld')">To </span>{{ ent.name }}
                         </div>
 
@@ -43,8 +43,13 @@
 
 const appState = useAppState();
 const filteredRegionGroups = ref([]);
+const filterConfig = ref({});
 
 onMounted(() => {
+    filterConfig.value = {
+        options: Object.keys(appState.value.entranceTypes).map(key => appState.value.entranceTypes[key]).filter(x => x.hasFilter),
+        toggles: Object.keys(appState.value.entranceTypes).map(key => appState.value.entranceTypes[key]).filter(x => x.hasToggle),
+    };
 
     assignColumnNumber(window.innerWidth);
     assignRegionCardColumns(columnsEntrances.value);
@@ -115,29 +120,27 @@ const dropdownGroupsByType = computed(() => {
 });
 
 
-function getDropdownGroupsByType(entType) {
+function getDropdownGroupsByType(entTypeName) {
     let groups = [];
-
+    let entType = getEntranceTypeByName(entTypeName);
+    
     //    for (let region of appState.value.regions) {
     for (let region of filteredRegionEntranceList.value) {
         if (region.entrances) {
             let ents = region.entrances.filter(x => {
-                if (stringCompareCaseInsensitive(x.type, entType))
+                if (stringCompareCaseInsensitive(x.type, entTypeName))
                     return true;
-                if (stringCompareCaseInsensitive(entType, "owl"))
-                    return true;
-                if (stringCompareCaseInsensitive(entType, "song"))
+                if (entType.showAll)
                     return true;
 
                 // mixed pool, all entrances included as long as the option is selected
-                if (stringCompareCaseInsensitive(entType, "all") && appState.value.entranceOptions[x.type])
+                if (stringCompareCaseInsensitive(entTypeName, "all") && appState.value.entranceOptions[x.type])
                     return true;
 
                 return false;
             }).map(x => ({
-                value: getEntranceDescription(x.type, region.name, x.name),
-                description: stringCompareCaseInsensitive(x.type, "overworld") ? `To ${x.name}` : x.name,
-                icon: getEntranceIcon(x.type),
+                description: getEntranceTypeByName(entTypeName).isBidirectional ? `from ${x.name}` : x.name,
+                icon: getEntranceTypeByName(x.type).icon,
                 region: region.name,
                 name: x.name,
                 type: x.type
@@ -156,49 +159,46 @@ function getDropdownGroupsByType(entType) {
 }
 
 
-function updateDropdown(meta, selectedEnt) {
-    if (!selectedEnt.value)
-        return;
+function updateDropdown(data) {
 
-    // one way
-    if (stringCompareCaseInsensitive(meta.entrance.type, "owl") || stringCompareCaseInsensitive(meta.entrance.type, "song"))
-        return;
+    let srcRegion = data.metadata.region.name;
+    let srcEnt = data.metadata.entrance.name;
+    let destRegion = data.item.region;
+    let destEnt = data.item.name;
+
+    // find in entrance list
+    let dropdownItems = getDropdownGroupsByType("all");
+    let srcRegionDDItem = dropdownItems.find(r => stringCompareCaseInsensitive(r.description, srcRegion));
+    let srcEntDDItem = srcRegionDDItem?.items.find(x => stringCompareCaseInsensitive(x.name, srcEnt));
+
+    let destRegionDDItem = dropdownItems.find(r => stringCompareCaseInsensitive(r.description, destRegion));
+    let destEntDDItem = destRegionDDItem?.items.find(x => stringCompareCaseInsensitive(x.name, destEnt));
+
+    // assign in regions
+    let srcReg = appState.value.regions.find(x => stringCompareCaseInsensitive(x.name, srcRegion));
+    let srcRegEnt = srcReg?.entrances.find(x => stringCompareCaseInsensitive(x.name, srcEnt));
+    let srcRegEntType = getEntranceTypeByName(data.metadata.entrance.type);
+
+    let destReg = appState.value.regions.find(x => stringCompareCaseInsensitive(x.name, destRegion));
+    let destRegEnt = destReg?.entrances.find(x => stringCompareCaseInsensitive(x.name, destEnt));
+    let destRegEntType = getEntranceTypeByName(data.item.type);
+
+    if (destRegEnt && srcEntDDItem)
+        srcRegEnt.destination = { ...destEntDDItem, value: getEntranceDescription(destEntDDItem) };
 
     // A->B becomes C->D, D->C also becomes B->A, assign the inverse if coupled entrances
-    // only do this if at least one is an overworld entrance
     if (!appState.value.entranceOptions.decoupled &&
-        (stringCompareCaseInsensitive(meta.entrance.type, "overworld") ||
-            stringCompareCaseInsensitive(selectedEnt.type, "overworld"))) {
+        (srcRegEntType.isBidirectional || destRegEntType.isBidirectional)) {
 
-        let srcRegion = meta.region.name;
-        let srcEnt = meta.entrance.name;
-        let destRegion = selectedEnt.region;
-        let destEnt = selectedEnt.name;
+        srcRegionDDItem = dropdownItems.find(r => stringCompareCaseInsensitive(r.description, destRegion));
+        srcEntDDItem = srcRegionDDItem?.items.find(x => stringCompareCaseInsensitive(x.name, destEnt));
 
-        // data is backwards for overworld entrances
-        if (stringCompareCaseInsensitive(meta.entrance.type, "overworld")) {
-            let temp = srcRegion;
-            srcRegion = srcEnt;
-            srcEnt = temp;
-        }
-        if (stringCompareCaseInsensitive(selectedEnt.type, "overworld")) {
-            let temp = destRegion;
-            destRegion = destEnt;
-            destEnt = temp;
-        }
+        destRegionDDItem = dropdownItems.find(r => stringCompareCaseInsensitive(r.description, srcRegion));
+        destEntDDItem = destRegionDDItem?.items.find(x => stringCompareCaseInsensitive(x.name, srcEnt));
 
-
-        // find in entrance list
-        let entListRegion = filteredRegionEntranceList.value.find(r => stringCompareCaseInsensitive(r.name, srcRegion));
-        let entListItem = entListRegion?.entrances.find(x => stringCompareCaseInsensitive(x.name, srcEnt));
-
-        // assign in regions
-        let reg = appState.value.regions.find(x => stringCompareCaseInsensitive(x.name, destRegion));
-        let regEnt = reg?.entrances.find(x => stringCompareCaseInsensitive(x.name, destEnt));
-
-        if (regEnt && entListItem)
-            regEnt.destination = getEntranceDescription(entListItem.type, srcRegion, srcEnt);
+        destRegEnt.destination = { ...destEntDDItem, value: getEntranceDescription(destEntDDItem) };
     }
+
 
     save(appState.value);
 }
@@ -283,8 +283,14 @@ function assignRegionGroups() {
 };
 
 
-function getEntranceDescription(type, regionDesc, entDesc) {
-    return stringCompareCaseInsensitive(type, "overworld") ? `${entDesc}, from ${regionDesc}` : stringCompareCaseInsensitive(type, "dungeon") ? entDesc : `${regionDesc}, ${entDesc}`;
+function getEntranceDescription(ddItem) {
+    let entType = getEntranceTypeByName(ddItem.type);
+    if (entType.hideRegionLabel)
+        return ddItem.name;
+    else if (entType.isBidirectional)
+        return `${ddItem.region}, from ${ddItem.name}`;
+    else
+        return `${ddItem.region}, ${ddItem.name}`;
 }
 
 watch(filteredRegions, () => {

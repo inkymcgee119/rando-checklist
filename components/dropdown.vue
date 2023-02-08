@@ -7,10 +7,11 @@
         </button>
 
         <div v-if="active"
-            class="border bg-white absolute cursor-pointer min-w-[200px] max-w-[80%] max-h-[50%] rounded-sm overflow-y-scroll"
+            class="border bg-white absolute cursor-pointer min-w-[200px] max-w-[80%] max-h-[50%] rounded-sm overflow-y-auto"
             :style="{ width: dropWidth }">
             <div class="bg-white hover:brightness-75 border-b-[1px] pl-3 py-2 align-middle font-sans"
                 @click.stop="select(item)" v-for="(item, idx) in props.items">
+                <Icon v-if="item.icon" :name="item.icon"></Icon>
                 {{ item.description }}
             </div>
             <div v-for="group in props.groups">
@@ -36,7 +37,7 @@ const button = ref();
 const dropWidth = ref(0);
 
 const props = defineProps({
-    'modelValue': String,
+    'modelValue': Object,
     'groups': {
         type: Array,
         default: undefined
@@ -61,8 +62,8 @@ const props = defineProps({
 const emit = defineEmits(['update:modelValue', 'update']);
 
 const togglerText = computed(() => {
-    if (props.modelValue)
-        return props.modelValue;
+    if (props.modelValue && props.modelValue.value)
+        return props.modelValue.value;
     else
         return props.togglerText;
 });
@@ -79,9 +80,9 @@ function toggle(e) {
     
 }
 
-function select(val) {
-    emit('update:modelValue', val.value);
-    emit('update', props.metadata, val);
+function select(item) {
+    emit('update:modelValue', item);
+    emit('update', { metadata: props.metadata, item: item });
     active.value = false;
 }
 

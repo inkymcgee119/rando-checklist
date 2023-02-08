@@ -1,6 +1,6 @@
 <template>
     <label class="switch">
-        <input type="checkbox" @click="clickCheckbox">
+        <input type="checkbox" v-model="checked" @click="clickCheckbox">
         <span class="slider round"></span>
     </label>
 </template>
@@ -10,6 +10,10 @@ const checked = ref(false);
 
 const props = defineProps(['modelValue']);
 const emit = defineEmits(['update:modelValue']);
+
+onMounted(() => {
+    checked.value = !!props.modelValue;
+});
 
 function clickCheckbox() {
     checked.value = !checked.value;

@@ -1,60 +1,72 @@
 {
     "item": {
-        "name": "Items",
+        "name": "item",
+        "description": "Items",
         "icon": "game-icons:chest",
         "hasFilter": true
     },
     "gs": {
-        "name": "Gold Skulltulas",
+        "name": "gs",
+        "description": "Gold Skulltulas",
         "icon": "game-icons:masked-spider",
         "hasFilter": true
     },
     "boss": {
-        "name": "Boss",
+        "name": "boss",
+        "description": "Boss",
         "icon": "game-icons:death-skull",
         "filterWith": "item"
     },
     "shop": {
-        "name": "Shops",
+        "name": "shop",
+        "description": "Shops",
         "icon": "game-icons:shopping-cart",
         "hasFilter": true
     },
     "scrub": {
-        "name": "Scrubs",
+        "name": "scrub",
+        "description": "Scrubs",
         "icon": "tabler:plant-2",
         "hasFilter": true
     },
     "cow": {
-        "name": "Cows",
+        "name": "cow",
+        "description": "Cows",
         "icon": "game-icons:cow",
         "hasFilter": true
     },
     "pot": {
-        "name": "Pots",
+        "name": "pot",
+        "description": "Pots",
         "icon": "game-icons:covered-jar",
         "hasFilter": true
     },
     "crate": {
-        "name": "Crates",
+        "name": "crate",
+        "description": "Crates",
         "icon": "game-icons:wooden-crate",
         "hasFilter": true
     },
     "song": {
-        "name": "Songs",
+        "name": "song",
+        "description": "Songs",
         "icon": "game-icons:musical-score",
         "filterWith": "item"
     },
     "rupee": {
-        "name": "Rupees & Hearts",
+        "name": "rupee",
+        "description": "Rupees & Hearts",
         "icon": "game-icons:rupee",
         "hasFilter": true
     },
     "heart": {
-        "name": "Heart",
+        "name": "heart",
+        "description": "Heart",
         "icon": "game-icons:hearts"
     },
     "beehive": {
-        "name": "Bee Hives",
+        "name": "beehive",
+        "description": "Bee Hives",
         "icon": "game-icons:bee",
         "hasFilter": true
     }

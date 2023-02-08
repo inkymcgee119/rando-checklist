@@ -1,5 +1,5 @@
 <template>
-    <filters :options="appState.options" :tags="appState.tagFilters" :config="appState.gameInfo.games[0].filters"></filters>
+    <filters :options="appState.options" :tags="appState.tagFilters" :config="filterConfig"></filters>
     <div class="my-5 flex flex-row flex-nowrap card-container" onco ntextmenu="return false;">
 
         <!-- no results -->
@@ -25,7 +25,10 @@ const filteredRegionGroups = ref([]);
 const filterConfig = ref({});
 
 onMounted(() => {
-    filterConfig.value = appState.value.gameInfo.games[0];
+    filterConfig.value = {
+        options: Object.keys(appState.value.locationTypes).map(key => appState.value.locationTypes[key]).filter(x => x.hasFilter), 
+        tags: Object.keys(appState.value.tags).map(key => appState.value.tags[key]).filter(x => x.hasFilter)
+    };
     assignColumnNumber(window.innerWidth);
     assignRegionCardColumns(columns.value);
 
