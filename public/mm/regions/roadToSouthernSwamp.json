@@ -1,0 +1,30 @@
+{
+    "name": "Road to Southern Swamp",
+    "bgColor": "#a3e635",
+    "locations": [
+        {
+            "title": "Grotto behind tree",
+            "type": "everything",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Bat tree",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Tingle maps",
+            "count": 2,
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Swamp archery",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

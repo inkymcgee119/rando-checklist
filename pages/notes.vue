@@ -15,7 +15,7 @@
 const appState = useAppState();
 
 function update() {
-    save(appState.value);
+    save();
 }
 
 </script>

@@ -1,0 +1,140 @@
+{
+    "name": "Pirates' Fortress",
+    "bgColor": "#9a3412",
+    "locations": [
+        {
+            "title": "Exterior, corner chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Exterior, log chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Exterior, sand chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Sewer, cage",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Sewer, cage room deep chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Sewer, cage room shallow chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Sewer, maze chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Interior, hookshot chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Interior, guard room chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Interior, lower chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Interior, tank chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Interior, upper chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Interior, left side under bridge",
+            "count": 3,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Interior, hookshot room skull flag",
+            "count": 3,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Interior, skull flag, left eye",
+            "count": 3,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Interior, skull flag, right eye",
+            "count": 3,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Sewer, cage pot",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Sewer, barrels around cage",
+            "count": 5,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Sewers, gate pot",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Sewer, exit barrels",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Sewer, exit pots",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Interior, room above hookshot pots",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Interior, barrel maze pots",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Interior, guarded egg pot",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Interior, lone guard pot",
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

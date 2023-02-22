@@ -1,0 +1,123 @@
+{
+    "name": "East Clock Town",
+    "bgColor": "#16a34a",
+    "locations": [
+        {
+            "title": "Bombers' hideout chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "East clock town chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Gorman",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Honey and Darling, any day",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Honey and Darling, three days",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Madame Aroma, in office",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Madame Aroma, in bar",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Mayor",
+            "type": "item",
+            "tags": [
+                "day1"
+            ]
+        },
+        {
+            "title": "Postbox",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Postman's freedom reward",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Town archery",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Treasure chest game, goron",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Treasure chest game, deku",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Treasure chest game, zora",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Treasure chest game, human",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Milk bar, milk",
+            "type": "shop",
+            "tags": []
+        },
+        {
+            "title": "Milk bar, chateau",
+            "type": "shop",
+            "tags": []
+        },
+        {
+            "title": "Basket",
+            "count": 3,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Target",
+            "count": 6,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Pots near balloon, right",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Pots near scarecrow",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Crate",
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

@@ -4,7 +4,6 @@
     "hasMQ": false,
     "locations": [],
     "entrances": [
-        
         {
             "name": "Hyrule field",
             "type": "overworld"
@@ -13,8 +12,6 @@
             "name": "Market",
             "type": "overworld"
         },
-
-        
         {
             "name": "Pot room",
             "type": "interior"

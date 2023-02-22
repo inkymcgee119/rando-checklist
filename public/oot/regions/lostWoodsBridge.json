@@ -4,7 +4,6 @@
     "hasMQ": false,
     "locations": [],
     "entrances": [
-        
         {
             "name": "Hyrule Field",
             "type": "overworld"

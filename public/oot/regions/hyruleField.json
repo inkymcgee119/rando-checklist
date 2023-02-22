@@ -3,114 +3,120 @@
     "bgColor": "#854D0E",
     "hasMQ": false,
     "locations": [
-        
         {
             "title": "Open grotto near lake hylia",
-            "isChecked": false,
             "type": "item",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
         {
             "title": "Deku salesman",
             "description": "Grotto inside the fences by lake hylia",
-            "isChecked": false,
             "type": "item",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
         {
             "title": "Southeast grotto, under rock",
-            "isChecked": false,
             "type": "item",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
         {
             "title": "Tektite grotto",
             "description": "Northwest of lon lon by tree",
-            "isChecked": false,
             "type": "item",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
         {
             "title": "Grotto west of castle town",
-            "isChecked": false,
             "type": "item",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
         {
             "title": "Ocarina of time",
-            "isChecked": false,
             "type": "item",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
         {
             "title": "Ocarina of time, song",
-            "isChecked": false,
             "type": "song",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
-
-        
         {
             "title": "Grotto near kakariko, near tree",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
         {
             "title": "Grotto near gerudo valley",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
-
         {
             "title": "Grotto near gerudo valley",
-            "isChecked": false,
             "type": "cow",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
-
-        
         {
             "title": "Open grotto near lake hylia",
-            "isChecked": false,
             "type": "beehive",
-            "tags": ["grotto"],
+            "tags": [
+                "grotto"
+            ],
             "count": 2
         },
         {
             "title": "Southeast grotto, under rock",
-            "isChecked": false,
             "type": "beehive",
-            "tags": ["grotto"],
+            "tags": [
+                "grotto"
+            ],
             "count": 2
         },
         {
             "title": "Deku salesman",
             "description": "Grotto inside the fences by lake hylia",
-            "isChecked": false,
             "type": "beehive",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
         {
             "title": "Grotto west of castle town",
-            "isChecked": false,
             "type": "beehive",
-            "tags": ["grotto"],
+            "tags": [
+                "grotto"
+            ],
             "count": 2
         },
-
-        
         {
             "title": "Grotto near gerudo valley",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["grotto"],
+            "tags": [
+                "grotto"
+            ],
             "count": 2
         }
     ],
     "entrances": [
-        
         {
             "name": "Lost Woods Bridge",
             "type": "overworld"
@@ -139,9 +145,6 @@
             "name": "Lake Hylia",
             "type": "overworld"
         },
-
-
-        
         {
             "name": "Open",
             "type": "grotto"
@@ -175,5 +178,4 @@
             "type": "grotto"
         }
     ]
-
 }

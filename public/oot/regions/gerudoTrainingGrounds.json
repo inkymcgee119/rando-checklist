@@ -5,214 +5,236 @@
     "locations": [
         {
             "title": "Lobby",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 2
         },
         {
             "title": "Stafos room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Lizafos and beamos room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Lava room, freestanding key",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Lava room, toilet",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Hammer room, kill enemies",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Hammer room, hidden switch",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Spinning eye statue",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Spinning eye statue, side room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Wolfos room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Silver block like like room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 4
         },
         {
             "title": "Lock maze, right side",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 2
         },
         {
             "title": "Lock maze, up through ceiling",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Lock maze, left side chest 1",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Lock maze, left side chest 2",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Lock maze, left side chest 3",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Lock maze, left side chest 4",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
-
-        
         {
             "title": "Lizafos and beamos room",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 2
         },
-
-
-        
         {
             "title": "Lobby",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 2
         },
         {
             "title": "Iron knuckle room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Stafos room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
-        
         {
             "title": "Silver block room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Lizalfos and dodongos room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Lava room, toilet",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Spinning eye statue",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Fiery iron knuckles room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 2
         },
         {
             "title": "Lock maze, right side",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 2
         },
         {
             "title": "Lock maze, left side",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 3
         },
         {
             "title": "Lock maze, left side key",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Lock maze, switch chest",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
-    
         {
             "title": "Maze crate",
-            "isChecked": false,
             "type": "crate",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
-
-        
         {
             "title": "Lobby",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 4
         }
-        
     ]
 }

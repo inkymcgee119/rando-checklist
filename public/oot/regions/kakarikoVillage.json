@@ -3,214 +3,219 @@
     "bgColor": "#b45309",
     "hasMQ": false,
     "locations": [
-        
         {
             "title": "Anju's chickens",
-            "isChecked": false,
             "type": "item",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
         {
             "title": "Impa's cow hp",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Redead grotto",
             "description": "In center of the village",
-            "isChecked": false,
             "type": "item",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
         {
             "title": "Open grotto, near potion shop",
-            "isChecked": false,
             "type": "item",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
         {
             "title": "Talk to Anju",
-            "isChecked": false,
             "type": "item",
-            "tags": ["adult"]
+            "tags": [
+                "adult"
+            ]
         },
         {
             "title": "Talk to man on the roof",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Shooting gallery minigame",
             "description": "Requires bow for item",
-            "isChecked": false,
             "type": "item",
-            "tags": ["adult"]
+            "tags": [
+                "adult"
+            ]
         },
         {
             "title": "Windmill hp",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
-
         {
             "title": "Gold skulltula reward: 10",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Gold skulltula reward: 20",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Gold skulltula reward: 30",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Gold skulltula reward: 40",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Gold skulltula reward: 50",
-            "isChecked": false,
             "type": "item",
             "tags": []
-        },        
+        },
         {
             "title": "Windmill song",
-            "isChecked": false,
             "type": "song",
-            "tags": ["adult"]
+            "tags": [
+                "adult"
+            ]
         },
         {
             "title": "Sheik's song",
             "description": "Need forest, fire, and water medallions",
-            "isChecked": false,
             "type": "song",
-            "tags": ["adult"]
+            "tags": [
+                "adult"
+            ]
         },
-
-        
         {
             "title": "Tree near entrance",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "night"]
+            "tags": [
+                "child",
+                "night"
+            ]
         },
         {
             "title": "Side of skulltula house",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "night"]
+            "tags": [
+                "child",
+                "night"
+            ]
         },
         {
             "title": "Partially built house",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "night"]
+            "tags": [
+                "child",
+                "night"
+            ]
         },
         {
             "title": "Side of shop by DMT",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "night"]
+            "tags": [
+                "child",
+                "night"
+            ]
         },
         {
             "title": "Ladder on the lookout tower",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "night"]
+            "tags": [
+                "child",
+                "night"
+            ]
         },
         {
             "title": "On top of Impa's house",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["adult", "night"]
+            "tags": [
+                "adult",
+                "night"
+            ]
         },
-
         {
             "title": "Impa's house",
-            "isChecked": false,
             "type": "cow",
             "tags": []
         },
-
         {
             "title": "Shop, bazaar",
-            "isChecked": false,
             "type": "shop",
-            "tags": ["adult"]
+            "tags": [
+                "adult"
+            ]
         },
         {
             "title": "Shop, potion",
-            "isChecked": false,
             "type": "shop",
             "tags": []
         },
-
-        
         {
             "title": "Open grotto, near potion shop",
-            "isChecked": false,
             "type": "beehive",
-            "tags": ["grotto"],
+            "tags": [
+                "grotto"
+            ],
             "count": 2
         },
-
         {
             "title": "Near open grotto",
-            "isChecked": false,
             "type": "crate",
-            "tags": ["adult"]
+            "tags": [
+                "adult"
+            ]
         },
         {
             "title": "Near man on knees",
-            "isChecked": false,
             "type": "crate",
-            "tags": ["adult"]
+            "tags": [
+                "adult"
+            ]
         },
-
-        
         {
             "title": "Outside potion shop",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["child"],
+            "tags": [
+                "child"
+            ],
             "count": 3
         },
         {
             "title": "Outside bazaar",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["child"],
+            "tags": [
+                "child"
+            ],
             "count": 3
         },
         {
             "title": "Outside impa's house",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["child"],
+            "tags": [
+                "child"
+            ],
             "count": 3
         },
         {
             "title": "Outside odd medicine shop",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["child"],
+            "tags": [
+                "child"
+            ],
             "count": 2
         }
     ],
     "entrances": [
-        
         {
             "name": "Hyrule Field",
             "type": "overworld"
@@ -223,8 +228,6 @@
             "name": "Graveyard",
             "type": "overworld"
         },
-
-        
         {
             "name": "Windmill",
             "type": "interior"
@@ -265,8 +268,6 @@
             "name": "Odd medicine house",
             "type": "interior"
         },
-
-        
         {
             "name": "Open",
             "type": "grotto"
@@ -275,8 +276,6 @@
             "name": "Redead",
             "type": "grotto"
         },
-
-        
         {
             "name": "Bottom of the well",
             "type": "dungeon"

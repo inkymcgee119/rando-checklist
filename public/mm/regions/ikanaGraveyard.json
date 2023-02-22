@@ -1,0 +1,111 @@
+{
+    "name": "Ikana Graveyard",
+    "bgColor": "#57534e",
+    "locations": [
+        {
+            "title": "Captain Keeta's chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Rock circle grotto",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Night 1 grave bats",
+            "type": "everything",
+            "tags": [
+                "day1",
+                "night"
+            ]
+        },
+        {
+            "title": "Night 1 Grave Tablet",
+            "type": "item",
+            "tags": [
+                "day1",
+                "night"
+            ]
+        },
+        {
+            "title": "Day 2 bats",
+            "description": "Kill bats around the graveyard then talk to Dampe",
+            "type": "mundane",
+            "tags": [
+                "day2",
+                "day"
+            ]
+        },
+        {
+            "title": "Night 2 grave rupees",
+            "count": 7,
+            "type": "rupee",
+            "tags": [
+                "day2",
+                "night"
+            ]
+        },
+        {
+            "title": "Night 2 iron knuckle chest",
+            "type": "item",
+            "tags": [
+                "day2",
+                "night"
+            ]
+        },
+        {
+            "title": "Dampe digging",
+            "type": "item",
+            "tags": [
+                "day3",
+                "night"
+            ]
+        },
+        {
+            "title": "Lanterns",
+            "count": 12,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Grass by graves",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Wall rocks, captain's path",
+            "count": 5,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Night 1 grave pots",
+            "count": 2,
+            "type": "fixed",
+            "tags": [
+                "day1",
+                "night"
+            ]
+        },
+        {
+            "title": "Night 2 grave pots",
+            "count": 2,
+            "type": "fixed",
+            "tags": [
+                "day2",
+                "night"
+            ]
+        },
+        {
+            "title": "Dampe's pots",
+            "count": 8,
+            "type": "fixed",
+            "tags": [
+                "day3",
+                "night"
+            ]
+        }
+    ]
+}

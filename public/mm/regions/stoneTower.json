@@ -1,0 +1,55 @@
+{
+    "name": "Stone Tower",
+    "bgColor": "#059669",
+    "locations": [
+        {
+            "title": "Inverted, left chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Inverted, middle chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Inverted, right chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Lower",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Upper",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Inverted, pots",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Lower scarecrow, pots",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Upper scarecrow, pots",
+            "count": 4,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Pots near owl",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

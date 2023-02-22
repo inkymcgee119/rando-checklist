@@ -1,0 +1,58 @@
+{
+    "name": "Zora Cape",
+    "bgColor": "#6366f1",
+    "locations": [
+        {
+            "title": "Beaver race",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Grotto",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Jar game",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Ledge with tree chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Deku flower ledge",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Like-Like",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Underwater chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Great fairy",
+            "type": "fairyrewards",
+            "tags": []
+        },
+        {
+            "title": "Pots near owl",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Pot near waterfall",
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

@@ -4,13 +4,10 @@
     "hasMQ": false,
     "locations": [],
     "entrances": [
-        
         {
             "name": "Market",
             "type": "overworld"
         },
-
-        
         {
             "name": "Temple of time",
             "type": "interior"

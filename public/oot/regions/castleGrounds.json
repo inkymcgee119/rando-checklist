@@ -1,73 +1,73 @@
-
 {
     "name": "Hyrule/Ganon's Castle Grounds",
     "bgColor": "#f43f5e",
     "hasMQ": false,
     "locations": [
-        
         {
             "title": "Talk to Malon",
-            "isChecked": false,
             "type": "item",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
         {
             "title": "Great fairy",
-            "isChecked": false,
             "type": "item",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
         {
             "title": "Great fairy",
-            "isChecked": false,
             "type": "item",
-            "tags": ["adult"]
-        },        
+            "tags": [
+                "adult"
+            ]
+        },
         {
             "title": "Zelda's lullaby",
-            "isChecked": false,
             "type": "song",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
-
-        
         {
             "title": "In tree near entrance",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
         {
             "title": "Song of storms grotto",
             "description": "Inside the gates, near the tree in the corner",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "grotto"]
+            "tags": [
+                "child",
+                "grotto"
+            ]
         },
         {
             "title": "On the side of pillar",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["adult"]
+            "tags": [
+                "adult"
+            ]
         },
-
-        
         {
             "title": "Song of storms grotto",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["grotto"],
+            "tags": [
+                "grotto"
+            ],
             "count": 4
         }
     ],
     "entrances": [
-        
         {
             "name": "Market",
             "type": "overworld"
         },
-
-        
         {
             "name": "Great fairy, child",
             "type": "interior"
@@ -76,14 +76,10 @@
             "name": "Great fairy, adult",
             "type": "interior"
         },
-
-        
         {
             "name": "Song of storms",
             "type": "grotto"
         },
-
-        
         {
             "name": "Ganon's castle",
             "type": "dungeon"

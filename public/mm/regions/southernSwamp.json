@@ -1,0 +1,126 @@
+{
+    "name": "Southern Swamp",
+    "bgColor": "#059669",
+    "locations": [
+        {
+            "title": "Boat archery",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Kotake",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Kotake, mushroom sale",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Koume, pictograph box",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Pictograph contest, good ghoto",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Pictograph contest, standard photo",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Pictograph contest, winner",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Mystery woods grotto",
+            "type": "everything",
+            "tags": [
+                "day2",
+                "grotto"
+            ]
+        },
+        {
+            "title": "Near swamp spider house grotto",
+            "type": "everything",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Swamp scrub trade",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Swamp scrub purchase",
+            "type": "shop",
+            "tags": []
+        },
+        {
+            "title": "Spider house reward",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Tourist center roof",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Potion shop, behind large pot",
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Potion shop, left",
+            "description": "Requires mushroom",
+            "type": "shop",
+            "tags": []
+        },
+        {
+            "title": "Potion shop, other items",
+            "count": 2,
+            "type": "shop",
+            "tags": []
+        },
+        {
+            "title": "On flowers near frog",
+            "count": 2,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Grass near owl, before beating temple",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Grass near owl, after beating temple",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Pots near potion shop, before beating temple",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Pots near potion shop, after beating temple",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Bee hive under archway",
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "name": "Deku Palace",
+    "bgColor": "#a16207",
+    "locations": [
+        {
+            "title": "Bean grotto",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Bean man",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Butler",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Deku palace west garden",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Imprisoned monkey",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bean grotto",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Outside wall",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Around guards",
+            "count": 17,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Rupee cluster",
+            "count": 7,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Butler race, pillar islands",
+            "count": 8,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Butler race, river",
+            "count": 6,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Butler race, right path",
+            "count": 6,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Butler race, final room",
+            "count": 10,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Butler race, dual pot",
+            "description": "1st or 2nd right turn, there are 2 pots but only 1 drop.",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Pots, top section",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

@@ -8,33 +8,33 @@
         "description": "Master Quest Dungeon"
     },
     "child": {
-        "name": "Child",
-        "description": "Child only",
+        "name": "child",
+        "description": "Child",
         "icon": "fa6-solid:c",
         "hasFilter": true
     },
     "adult": {
-        "name": "Adult",
-        "description": "Adult only",
+        "name": "adult",
+        "description": "Adult",
         "icon": "fa6-solid:a",
         "hasFilter": true
     },
     "grotto": {
-        "name": "Grotto",
+        "name": "grotto",
         "description": "Grotto",
         "icon": "game-icons:hole",
         "hasFilter": true
     },
     "night": {
-        "name": "Night",
+        "name": "night",
         "description": "Night",
         "icon": "bi:moon",
         "hasFilter": true
     },
     "bean": {
-        "name": "Bean",
-        "description": "Bean patch",
-        "icon": "game-icons:jelly-beans",
+        "name": "bean",
+        "description": "Soft soil",
+        "icon": "iconoir:soil-alt",
         "hasFilter": true
     }
 }

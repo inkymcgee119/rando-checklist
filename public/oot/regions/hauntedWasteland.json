@@ -3,59 +3,45 @@
     "bgColor": "#c084fc",
     "hasMQ": false,
     "locations": [
-        
         {
             "title": "Light torches",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Carpet salesman (if enabled)",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
-
-        
         {
             "title": "Inside building",
-            "isChecked": false,
             "type": "gs",
             "tags": []
         },
-
         {
             "title": "Before quicksand",
-            "isChecked": false,
             "type": "crate",
             "tags": []
         },
         {
             "title": "After quicksand",
-            "isChecked": false,
             "type": "crate",
             "tags": [],
             "count": 3
         },
         {
             "title": "Near colossus",
-            "isChecked": false,
             "type": "crate",
             "tags": []
         },
-
-        
         {
             "title": "Inside building",
-            "isChecked": false,
             "type": "pot",
             "tags": [],
             "count": 3
         }
     ],
     "entrances": [
-        
         {
             "name": "Gerudo Fortress",
             "type": "overworld"

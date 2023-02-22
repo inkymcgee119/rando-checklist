@@ -3,122 +3,120 @@
     "bgColor": "#ea580c",
     "hasMQ": false,
     "locations": [
-        
         {
             "title": "Silo, rear of the ranch",
-            "isChecked": false,
             "type": "item",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
         {
             "title": "Chicken minigame",
-            "isChecked": false,
             "type": "item",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
         {
             "title": "Malon's song",
-            "isChecked": false,
             "type": "song",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
-
-        
         {
             "title": "Tree near entrance",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
         {
             "title": "Backside of the fenced in area",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "night"]
+            "tags": [
+                "child",
+                "night"
+            ]
         },
         {
             "title": "On building near the entrance",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "night"]
+            "tags": [
+                "child",
+                "night"
+            ]
         },
         {
             "title": "Rear wall",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "night"]
+            "tags": [
+                "child",
+                "night"
+            ]
         },
-
-        
         {
             "title": "Open grotto in the rear",
-            "isChecked": false,
             "type": "scrub",
-            "tags": ["grotto"],
+            "tags": [
+                "grotto"
+            ],
             "count": 3
         },
-
         {
             "title": "In stable",
-            "isChecked": false,
             "type": "cow",
             "tags": [],
             "count": 2
         },
         {
             "title": "Rear silo",
-            "isChecked": false,
             "type": "cow",
             "tags": [],
             "count": 2
         },
-
-        
         {
             "title": "Open grotto in the rear",
-            "isChecked": false,
             "type": "beehive",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
-
         {
             "title": "Near tree",
-            "isChecked": false,
             "type": "crate",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
-
-        
         {
             "title": "Near entrance",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["child"],
+            "tags": [
+                "child"
+            ],
             "count": 4
         },
         {
             "title": "In fenced area",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["child"],
+            "tags": [
+                "child"
+            ],
             "count": 3
         },
         {
             "title": "Talon's house",
-            "isChecked": false,
             "type": "pot",
             "tags": [],
             "count": 3
         }
     ],
     "entrances": [
-        
         {
             "name": "Hyrule Field",
             "type": "overworld"
         },
-
-        
         {
             "name": "Talon's house",
             "type": "interior"
@@ -131,8 +129,6 @@
             "name": "Silo",
             "type": "interior"
         },
-
-        
         {
             "name": "Open",
             "type": "grotto"

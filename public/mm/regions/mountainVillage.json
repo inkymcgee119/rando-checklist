@@ -1,0 +1,132 @@
+{
+    "name": "Mountain Village",
+    "bgColor": "#d8b4fe",
+    "locations": [
+        {
+            "title": "Darmani",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Hungry goron",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Frog choir",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Keaton quiz",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Smithy day 1",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Smithy day 2",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Spring grotto",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Waterfall chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Path to village, snowball",
+            "type": "fixed",
+            "tags": [
+                "winter"
+            ]
+        },
+        {
+            "title": "Path to village, spring snowballs",
+            "count": 3,
+            "type": "fixed",
+            "tags": [
+                "spring"
+            ]
+        },
+        {
+            "title": "Snowballs near Darmani",
+            "count": 2,
+            "type": "fixed",
+            "tags": [
+                "winter"
+            ]
+        },
+        {
+            "title": "Large snowball near water",
+            "type": "fixed",
+            "tags": [
+                "day1",
+                "winter"
+            ]
+        },
+        {
+            "title": "Large snowball near water",
+            "type": "fixed",
+            "tags": [
+                "day2",
+                "winter"
+            ]
+        },
+        {
+            "title": "Large snowball near hungry goron",
+            "type": "fixed",
+            "tags": [
+                "day2",
+                "winter"
+            ]
+        },
+        {
+            "title": "Large snowball near exit",
+            "type": "fixed",
+            "tags": [
+                "day3",
+                "winter"
+            ]
+        },
+        {
+            "title": "Keaton grass",
+            "count": 9,
+            "type": "fixed",
+            "tags": [
+                "spring"
+            ]
+        },
+        {
+            "title": "Winter snowballs",
+            "count": 5,
+            "type": "fixed",
+            "tags": [
+                "winter"
+            ]
+        },
+        {
+            "title": "Spring snowballs near owl",
+            "count": 3,
+            "type": "fixed",
+            "tags": [
+                "spring"
+            ]
+        },
+        {
+            "title": "Spring, under smithy stairs",
+            "type": "fixed",
+            "tags": [
+                "spring"
+            ]
+        }
+    ]
+}

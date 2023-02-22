@@ -1,0 +1,92 @@
+{
+    "name": "Ganon's Tower",
+    "bgColor": "#f43f5e",
+    "locations": [
+        {
+            "title": "Torch",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "DMs room",
+            "count": 4,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bombable wall room",
+            "count": 4,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Firesnake room",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Map chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Big chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Hope room",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bob's chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Tile room",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Compass room",
+            "count": 4,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Big key chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Big key room",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Mini helmasaur room",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Pre-moldorm chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Moldorm chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Boss",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "name": "Twin Islands",
+    "bgColor": "#ec4899",
+    "locations": [
+        {
+            "title": "Goron race",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Grotto on ramp to racetrack",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Hot spring water grotto",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Tingle maps",
+            "count": 2,
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Underwater cave chest",
+            "type": "everything",
+            "tags": [
+                "spring"
+            ]
+        },
+        {
+            "title": "Underwater chest near ramp",
+            "type": "item",
+            "tags": [
+                "spring"
+            ]
+        },
+        {
+            "title": "Underwater rupees",
+            "count": 4,
+            "type": "rupee",
+            "tags": [
+                "spring"
+            ]
+        },
+        {
+            "title": "Large snowballs",
+            "count": 5,
+            "type": "fixed",
+            "tags": [
+                "day1",
+                "winter"
+            ]
+        },
+        {
+            "title": "Large snowballs",
+            "count": 4,
+            "type": "fixed",
+            "tags": [
+                "day2",
+                "winter"
+            ]
+        },
+        {
+            "title": "Large snowballs",
+            "count": 5,
+            "type": "fixed",
+            "tags": [
+                "day3",
+                "winter"
+            ]
+        },
+        {
+            "title": "Small snowball, ramp to race",
+            "type": "fixed",
+            "tags": [
+                "winter"
+            ]
+        },
+        {
+            "title": "Small snowballs",
+            "count": 2,
+            "type": "fixed",
+            "tags": [
+                "winter"
+            ]
+        },
+        {
+            "title": "Goron race, pots",
+            "count": 30,
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

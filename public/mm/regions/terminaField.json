@@ -1,0 +1,238 @@
+{
+    "name": "Termina Field",
+    "bgColor": "#3f6212",
+    "locations": [
+        {
+            "title": "Astronomy telescope",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bio baba grotto",
+            "type": "everything",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Bio baba grotto, bee hive",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Business scrub purchase",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Dodongo grotto",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Gossip stones",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Kamaro",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Peahat grotto",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "SW corner grass chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Grotto near grass chest",
+            "type": "everything",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Pillar grotto",
+            "type": "everything",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Stump chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Underwater chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Grotto in log tunnel",
+            "count": 2,
+            "type": "cow",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Observatory",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Near pillar",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "On top of pillar",
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "On top of pillar",
+            "description": "This item is hidden inside the visible rupee",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "South Wall",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Stump",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Clam above west clock town entrance",
+            "count": 3,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "South side, in the grass",
+            "count": 5,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "North ramp",
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "West ramp",
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Ramp near underwater chest",
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Fountains",
+            "count": 2,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Above cow grotto",
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Skull kid drawing",
+            "count": 3,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "West wall, near fountains",
+            "count": 3,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Takkuri, thief bird",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Guay",
+            "count": 20,
+            "description": "Play one of the dungeon songs near the guay, he will drop all the items",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Guay, goron or epona",
+            "count": 3,
+            "description": "The guay drops different items if you're goron or on epona",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Rocks in the NW wall",
+            "count": 9,
+            "description": "Use explosive",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Song on the wall, 0/8/12/16",
+            "count": 3,
+            "description": "Song wall gives different drops based on time of day, see reference link for more details",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Song on the wall, 2/10/14/18/22",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Song on the wall, 4/20",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Song on the wall, dawn",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Song on the wall, odd hour",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Telescope guay",
+            "description": "Look towards the mountain, a guay will fly in and drop an item",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Roll into tree with man in it",
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

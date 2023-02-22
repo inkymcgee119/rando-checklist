@@ -1,0 +1,53 @@
+{
+    "name": "Path to Snowhead",
+    "bgColor": "#fdba74",
+    "locations": [
+        {
+            "title": "Grotto",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Pillar",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Great Fairy",
+            "type": "fairyrewards",
+            "tags": []
+        },
+        {
+            "title": "Large snowballs on path",
+            "count": 4,
+            "type": "fixed",
+            "tags": [
+                "winter"
+            ]
+        },
+        {
+            "title": "Small snowballs on path",
+            "count": 4,
+            "type": "fixed",
+            "tags": [
+                "spring"
+            ]
+        },
+        {
+            "title": "Small snowballs near owl",
+            "count": 3,
+            "type": "fixed",
+            "tags": [
+                "winter"
+            ]
+        },
+        {
+            "title": "Large snowballs near snowhead",
+            "count": 6,
+            "type": "fixed",
+            "tags": [
+                "winter"
+            ]
+        }
+    ]
+}

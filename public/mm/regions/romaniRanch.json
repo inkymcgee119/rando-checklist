@@ -1,0 +1,104 @@
+{
+    "name": "Romani Ranch",
+    "bgColor": "#f97316",
+    "locations": [
+        {
+            "title": "Romani's game",
+            "type": "item",
+            "tags": [
+                "day1"
+            ]
+        },
+        {
+            "title": "Aliens defense",
+            "type": "item",
+            "tags": [
+                "day1",
+                "night"
+            ]
+        },
+        {
+            "title": "Cremia defense",
+            "type": "item",
+            "tags": [
+                "day2",
+                "night"
+            ]
+        },
+        {
+            "title": "Dog race",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Dog race, roof chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Dog race",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Grog",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Ranch",
+            "count": 3,
+            "type": "cow",
+            "tags": []
+        },
+        {
+            "title": "Ranch, day 1",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Ranch, day 2 or 3",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Ranch, hay",
+            "count": 2,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Fence items",
+            "count": 6,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Cucco shack, diamond holes",
+            "count": 6,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Cucco shack, potted plant",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Cucco shack, crate",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Dog race, pots",
+            "count": 4,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Romani's crate",
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

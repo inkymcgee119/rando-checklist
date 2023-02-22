@@ -1,0 +1,9 @@
+{
+    "dungeon": {
+        "name": "dungeon",
+        "description": "Dungeons",
+        "icon": "material-symbols:castle-outline",
+        "hasFilter": true,
+        "hideRegionLabel": true
+    }
+}

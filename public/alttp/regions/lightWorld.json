@@ -1,0 +1,186 @@
+{
+    "name": "Light World",
+    "bgColor": "#f43f5e",
+    "locations": [
+        {
+            "title": "Sahasrahla's Hut",
+            "count": 3,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Sahasrahla",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "King Zora",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Zora's Ledge",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Waterfall Fairy",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Potion Shop",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Master Sword Pedestal",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "King's Tomb",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Kakariko, Tavern",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Kakariko, Chicken House",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Kakariko, Well",
+            "count": 5,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Kakariko, Blind's Hideout",
+            "count": 5,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Kakariko, Bottle Salesman",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Kakariko, Sick Kid",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Kakariko, Bat",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Pegasus Rocks",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Lost Woods Hideout",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Lumberjack Tree",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Graveyard Ledge",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Mushroom",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Floodgate Chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Link's House",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Aginah's Cave",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Mini Moldorm Cave",
+            "count": 5,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Ice Rod Cave",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Hobo Under Bridge",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bombos Tablet",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Cave 45",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Checkerboard Cave",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Library",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Maze Race",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Desert Ledge",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Lake Hylia Island",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Sunken Treasure",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Flute Spot",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

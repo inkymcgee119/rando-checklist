@@ -1,0 +1,106 @@
+{
+    "name": "Great Bay Coast",
+    "bgColor": "#3b82f6",
+    "locations": [
+        {
+            "title": "Mikau",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Lab, baby zoras",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Lab, fish",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Fisherman game",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Fisherman pictograph",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Grotto behind fisherman house",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Hookshot cliffs",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Tingle maps",
+            "count": 2,
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Spider house, colored skulls chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Spider house, day 1 reward",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Spider house, day 2 reward",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Spider house, day 3 reward",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Hookshot cliffs, grotto",
+            "count": 2,
+            "type": "cow",
+            "tags": []
+        },
+        {
+            "title": "Hookshot cliffs, soil",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Hookshot cliffs, pots lower",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Hookshot cliffs, pots upper",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Pot near pirate dump location",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Pot on small island",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Pots behind lab",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

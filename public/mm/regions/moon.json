@@ -1,0 +1,47 @@
+{
+    "name": "The Moon",
+    "bgColor": "#c026d3",
+    "locations": [
+        {
+            "title": "Deku Trial",
+            "type": "moon",
+            "tags": []
+        },
+        {
+            "title": "Goron Trial",
+            "type": "moon",
+            "tags": []
+        },
+        {
+            "title": "Zora Trial",
+            "type": "moon",
+            "tags": []
+        },
+        {
+            "title": "Link Trial",
+            "type": "moon",
+            "tags": []
+        },
+        {
+            "title": "Link Trial, Garo Master",
+            "type": "moon",
+            "tags": []
+        },
+        {
+            "title": "Link Trial, Icon Knuckle",
+            "type": "moon",
+            "tags": []
+        },
+        {
+            "title": "Link trial, pots",
+            "count": 4,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Majora",
+            "type": "moon",
+            "tags": []
+        }
+    ]
+}

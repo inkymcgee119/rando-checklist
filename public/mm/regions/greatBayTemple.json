@@ -1,0 +1,156 @@
+{
+    "name": "Great Bay Temple",
+    "bgColor": "#1d4ed8",
+    "locations": [
+        {
+            "title": "Ice arrow chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Boss heart container",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Boss remains",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Outside red valve room",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Near boss key chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Near boss key chest, underwater",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Boss key chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Entrance torches",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Control room, under entrance ledge",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Control room, skulltula",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Whirlpool, jar",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Whirlpool, barrel",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Jar outside red valve room",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Bio babas chest",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Near boss key, dexihands jar",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Green valve, chest above",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Room before boss, bubble",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Room before boss, underwater tunnel",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Sewsaw room, barrel under",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Seesaw room, chest in cage",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Waterwheel, torch hookshot",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Waterwheel, above",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Control room, left side ledge",
+            "count": 5,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Near boss key, dexihands",
+            "count": 2,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Green pump",
+            "count": 2,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Green pump barrels",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Red valve barrels",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Red valve crate",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Seasaw room, pot",
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

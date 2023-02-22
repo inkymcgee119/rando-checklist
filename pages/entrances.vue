@@ -1,41 +1,45 @@
 <template>
-    <filters :options="appState.entranceOptions" :config="filterConfig"></filters>
+    <div>
+        <filters :options="appState.entranceOptions" :config="filterConfig"></filters>
 
-    <div class="flex flex-row my-5">
-        <!-- no results -->
-        <div v-if="filteredRegions.length == 0" class="w-full text-white text-center font-sans">
-            No Results, Select Your Options
-        </div>
+        <div class="flex flex-row my-5">
+            <!-- no results -->
+            <div v-if="filteredRegions.length == 0" class="w-full text-white text-center font-sans">
+                No Results, Select Your Options
+            </div>
 
-        <div class="flex flex-col mx-1 grow" v-for="regionGroup in filteredRegionGroups">
-            <div class="bg-slate-200 mb-3 rounded-md shadow-xl pb-2 select-none" v-for="region in regionGroup">
+            <div class="flex flex-col mx-1 grow" v-for="regionGroup in filteredRegionGroups">
+                <div class="bg-slate-200 mb-3 rounded-md shadow-xl pb-2 select-none" v-for="region in regionGroup">
 
-                <div class="px-2 font-sans text-white rounded-t-md text-xl font-semibold text-left cursor-pointer"
-                    :style="{ background: region.bgColor }" v-collapsible-header>
-                    {{ region.name }}
-                </div>
-                <div>
-                    <div v-for="(ent, idx) in region.entrances" class="flex flex-row justify-between px-2 my-1"
-                        :class="{ 'border-b-2 border-slate-300': idx < region.entrances.length - 1 }">
-                        <div class="font-semibold my-auto basis-1/2">
-                            <Icon :name="getEntranceTypeByName(ent.type).icon"></Icon>
-                            <span v-if="stringCompareCaseInsensitive(ent.type, 'overworld')">To </span>{{ ent.name }}
-                        </div>
+                    <div class="px-2 font-sans text-white rounded-t-md text-xl font-semibold text-left cursor-pointer"
+                        :style="{ background: region.bgColor }" v-collapsible-header>
+                        {{ region.name }}
+                    </div>
+                    <div>
+                        <div v-for="(ent, idx) in region.entrances" class="flex flex-row justify-between px-2 my-1"
+                            :class="{ 'border-b-2 border-slate-300': idx < region.entrances.length - 1 }">
+                            <div class="font-semibold my-auto basis-1/2">
+                                <Icon :name="getEntranceTypeByName(ent.type).icon"></Icon>
+                                <span v-if="stringCompareCaseInsensitive(ent.type, 'overworld')">To </span>{{
+                                    ent.name
+                                }}
+                            </div>
 
-                        <div class="basis-1/2 my-auto">
-                            <dropdown v-model="ent.destination" :metadata="{ region: region, entrance: ent }"
-                                toggler-class="rounded-md text-white" :style="{ background: region.bgColor }"
-                                toggler-text="Select location"
-                                :groups="dropdownGroupsByType[appState.entranceOptions.mixedPool ? 'all' : ent.type]"
-                                :items="[{ value: '', description: 'Clear Value' }]" @update="updateDropdown">
-                            </dropdown>
+                            <div class="basis-1/2 my-auto">
+                                <dropdown v-model="ent.destination" :metadata="{ region: region, entrance: ent }"
+                                    toggler-class="rounded-md text-white" :style="{ background: region.bgColor }"
+                                    toggler-text="Select location"
+                                    :groups="dropdownGroupsByType[appState.entranceOptions.mixedPool ? 'all' : ent.type]"
+                                    :items="[{ value: '', description: 'Clear Value' }]" @update="updateDropdown">
+                                </dropdown>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-
             </div>
-        </div>
 
+        </div>
     </div>
 </template>
 
@@ -123,7 +127,7 @@ const dropdownGroupsByType = computed(() => {
 function getDropdownGroupsByType(entTypeName) {
     let groups = [];
     let entType = getEntranceTypeByName(entTypeName);
-    
+
     //    for (let region of appState.value.regions) {
     for (let region of filteredRegionEntranceList.value) {
         if (region.entrances) {
@@ -200,7 +204,7 @@ function updateDropdown(data) {
     }
 
 
-    save(appState.value);
+    save();
 }
 
 function assignColumnNumber(width) {

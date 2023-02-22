@@ -1,0 +1,168 @@
+{
+    "name": "Ocean Spider House",
+    "bgColor": "#155e75",
+    "locations": [
+        {
+            "title": "Entrance, Left Wall",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Entrance, Right Wall",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Entrance, Webs",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "2nd Room, Behind Skull",
+            "count": 2,
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "2nd Room, Ceiling Edge",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "2nd Room, Ceiling Plank",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "2nd Room, Jar",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "2nd Room, Lower Pot",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "2nd Room, Upper Pot",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "2nd Room, Webbed Hole",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "2nd Room, Webbed Pot",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Colors, Behind Picture",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Colors, Ceiling Edge",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Colors, Chandelier",
+            "count": 3,
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Colors, Pot",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Library, Behind Bookcase",
+            "count": 2,
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Library, Behind Picture",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Library, Ceiling Edge",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Library, Cabinet Hole",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Library, Picture Hole",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Library, On Bookshelf",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Storage Room, Behind Boat",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Storage Room, Behind Crate",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Storage Room, Web",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Storage Room, Crate",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Storage Room, Jar",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Masks",
+            "count": 9,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Entrance, pots",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Main room, pots",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Mask room, pots",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Storage room pot",
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Tower of Hera",
+    "bgColor": "#f43f5e",
+    "locations": [
+        {
+            "title": "Map chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Compass chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Big key chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Big chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Basement cage",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Boss",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

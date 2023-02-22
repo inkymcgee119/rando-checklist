@@ -1,0 +1,32 @@
+{
+    "name": "Beneath the Well",
+    "bgColor": "#3f3f46",
+    "locations": [
+        {
+            "title": "Mirror shield chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Left path chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Right path chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Cow",
+            "type": "cow",
+            "tags": []
+        },
+        {
+            "title": "Left path pots",
+            "count": 5,
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

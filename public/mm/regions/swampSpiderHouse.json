@@ -1,0 +1,149 @@
+{
+    "name": "Swamp Spider House",
+    "bgColor": "#fb923c",
+    "locations": [
+        {
+            "title": "Gold room, hive",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Gold room, near ceiling",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Gold room, pillar",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Gold room, wall",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Main room, pot",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Main room, lower soft soils",
+            "count": 2,
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Main room, near ceiling",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Main room, pillar",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Main Room, upper pillar",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Main Room, upper soft soil",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Main Room, Water",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Monument room, crates",
+            "count": 2,
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Monument room, lower wall",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Monument room, on monument",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Monument room, torch",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Jar room, behind vines",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Jar room, hives",
+            "count": 2,
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Jar room, roll into jars",
+            "count": 2,
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Jar room, pot",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Jar room, on wall",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Tree room, grass",
+            "count": 2,
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Tree room, hive",
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Tree room, tree",
+            "count": 3,
+            "type": "gs",
+            "tags": []
+        },
+        {
+            "title": "Gold room",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Rock",
+            "type": "softsoil",
+            "tags": []
+        },
+        {
+            "title": "Blue gem",
+            "count": 12,
+            "type": "hiddenrupee",
+            "tags": []
+        },
+        {
+            "title": "Jar room, on top of the jars",
+            "count": 5,
+            "type": "hiddenrupee",
+            "tags": []
+        }
+    ]
+}

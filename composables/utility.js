@@ -3,14 +3,23 @@ import { useAppState } from "./state";
 import { resolveResource } from '@tauri-apps/api/path';
 import { readTextFile } from '@tauri-apps/api/fs';
 
-export function save(data) {
-    localStorage.setItem("ootTrackerData", JSON.stringify(data));
+export function save() {
+    let appState = useAppState();
+
+    let key = appState.value.selectedGame.dir;
+    localStorage.setItem("zeldoTrackdo", JSON.stringify(appState.value.selectedGame));
+    localStorage.setItem(key, JSON.stringify(appState.value));
 }
 
 export async function reset() {
     let appState = useAppState();
-    localStorage.removeItem("ootTrackerData");
-    await loadRegions(appState.value.selectedGame);
+    
+    localStorage.removeItem(appState.value.selectedGame.dir);
+
+    await loadGameInfo();
+    let gameInfo = appState.value.games.find(x => x.dir == appState.value.selectedGame.dir); // reset region data 
+
+    await loadGame(gameInfo);
 }
 
 export function getLocationIcon(locType) {
@@ -48,7 +57,7 @@ export async function loadGameInfo() {
     appState.value.games = gameInfo.games;
 }
 
-export async function loadRegions(gameInfo) {
+export async function loadGame(gameInfo) {
     let appState = useAppState();
     let dirPrefix = "./";
 

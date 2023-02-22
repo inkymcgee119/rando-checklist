@@ -3,97 +3,82 @@
     "bgColor": "#a78bfa",
     "hasMQ": false,
     "locations": [
-        
         {
             "title": "Flower grave",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Composer grave, torches",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Redead grave (play sun's song)",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Dampe digging game",
-            "isChecked": false,
             "type": "item",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
         {
             "title": "Dampe race",
-            "isChecked": false,
             "type": "item",
             "tags": [],
             "count": 2
         },
         {
             "title": "Crate hp, above bean patch",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Composer grave, song",
-            "isChecked": false,
             "type": "song",
             "tags": []
         },
-
-        
         {
             "title": "Back right wall",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "night"]
+            "tags": [
+                "child",
+                "night"
+            ]
         },
         {
             "title": "Bean patch",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "bean"]
+            "tags": [
+                "child",
+                "bean"
+            ]
         },
-
-        
         {
             "title": "Dampe race",
-            "isChecked": false,
             "type": "rupee",
             "tags": [],
             "count": 8
         },
-
-        
         {
             "title": "Dampe race",
-            "isChecked": false,
             "type": "pot",
             "tags": [],
             "count": 6
         }
     ],
     "entrances": [
-        
         {
             "name": "Kakariko Village",
             "type": "overworld"
         },
-
-        
         {
             "name": "Dampe's hut",
             "type": "interior"
         },
-
-        
         {
             "name": "Flower grave",
             "type": "grotto"
@@ -110,8 +95,6 @@
             "name": "Royal family tomb",
             "type": "grotto"
         },
-
-        
         {
             "name": "Shadow temple",
             "type": "dungeon"

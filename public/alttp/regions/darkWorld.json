@@ -1,0 +1,95 @@
+{
+    "name": "Dark World",
+    "bgColor": "#f43f5e",
+    "locations": [
+        {
+            "title": "Superbunny cave",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Hookshot cave",
+            "count": 4,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Spike cave",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Catfish",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Pyramid",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Pyramid fairy",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Brewery",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "C-shaped house",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Chest game",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Hammer pegs",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bumper cave",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Blacksmiths",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Purple chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Hype cave",
+            "count": 5,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Stumpy",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Digging game",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Mire shed",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

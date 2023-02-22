@@ -3,422 +3,460 @@
     "bgColor": "#dc2626",
     "hasMQ": true,
     "locations": [
-        
         {
             "title": "Lobby, left side bombable wall",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Lower left, bombable wall",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Upper right, bomb flower platform",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Upper right, bomb bag chest",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Upper lobby, across the bridge",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Room before King Dodongo",
-            "isChecked": false,
             "type": "item",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "King Dodongo",
-            "isChecked": false,
             "type": "boss",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
-
-        
         {
             "title": "Lower right, scarecrow song",
             "description": "This can also be gotten by dragging a statue all way from the other end of the hallway",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Lower right, bombable wall",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Left side, above the stairs",
             "description": "You can reach this by activating the elevator shortcut and re-entering the dungeon to reset the stairs",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Left side, on vines",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Inside the dodongo face, back room",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
-
-        
         {
             "title": "Lobby, left side",
-            "isChecked": false,
             "type": "scrub",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Lower right, after lizafos",
-            "isChecked": false,
             "type": "scrub",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Upper right, bombable wall",
-            "isChecked": false,
             "type": "scrub",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 2
         },
-
-
-        
         {
             "title": "Lower lizafos fight",
             "description": "Hidden behind the left side of the lavafall",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Upper lizafos fight",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 2
         },
         {
             "title": "Upper right, behind block",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["vanilla"]
+            "tags": [
+                "vanilla"
+            ]
         },
-
-                
         {
             "title": "Lower right hallway",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 4
         },
         {
             "title": "Before Lower lizafos",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 2
         },
         {
             "title": "Lower lizafos",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 4
         },
         {
             "title": "Lower right, after lizafos",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 4
         },
         {
             "title": "Left side, staircase",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 4
         },
-
         {
             "title": "Sliding blades room",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 2
         },
         {
             "title": "Single eye switch room",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 2
         },
         {
             "title": "Double eye switch room",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 2
         },
         {
             "title": "Before boss",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["vanilla"],
+            "tags": [
+                "vanilla"
+            ],
             "count": 3
         },
-
-
-        
-        
         {
             "title": "Lobby, right side bombable wall",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Lower right path, after poe room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Upper left side, dodongo room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Upper right side, barred room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Upper right side, bomb bag room",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Poe room in the rear",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Room before King Dodongo",
-            "isChecked": false,
             "type": "item",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "King Dodongo",
-            "isChecked": false,
             "type": "boss",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
-
-        
         {
             "title": "Lower right path, room after lizafos",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Lower left side, song of time room",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Upper right side, lizafos fight",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Upper right side, barred room",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Armos army, top of maze",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
-
-        
         {
             "title": "Lobby, left side",
-            "isChecked": false,
             "type": "scrub",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 2
         },
         {
             "title": "Lower right, before lizafos",
-            "isChecked": false,
             "type": "scrub",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Left side, above stairs",
-            "isChecked": false,
             "type": "scrub",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
-
         {
             "title": "Upper right, corner of maze",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Lower lizafos fight",
             "description": "Hidden behind the left side of the lavafall",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
-
         {
             "title": "Lower right, poe room",
-            "isChecked": false,
             "type": "crate",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 8
         },
         {
             "title": "Left side, staircase",
-            "isChecked": false,
             "type": "crate",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 6
         },
         {
             "title": "Upper right, barred room",
-            "isChecked": false,
             "type": "crate",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 6
         },
         {
             "title": "After upper lizafos",
-            "isChecked": false,
             "type": "crate",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 2
         },
-
-        
         {
             "title": "Lower right hallway",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 4
         },
         {
             "title": "Lower right, poe room",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 4
         },
         {
             "title": "Left side, staircase",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 4
         },
         {
             "title": "Upper right, pillar",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Upper right, corner",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Before upper lizafos",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 2
         },
         {
             "title": "Upper lizafos",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 4
         },
         {
             "title": "After upper lizafos",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 2
         },
         {
             "title": "Armos army, before",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 2
         },
         {
             "title": "Armos army, after",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"]
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Poe room in the rear",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 2
         },
         {
             "title": "Before boss",
-            "isChecked": false,
             "type": "pot",
-            "tags": ["mq"],
+            "tags": [
+                "mq"
+            ],
             "count": 2
         }
     ]

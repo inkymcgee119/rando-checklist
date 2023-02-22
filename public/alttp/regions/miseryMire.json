@@ -1,0 +1,46 @@
+{
+    "name": "Misery Mire",
+    "bgColor": "#f43f5e",
+    "locations": [
+        {
+            "title": "Map chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Compass chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Big key chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Big chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Main lobby",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bridge chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Spike chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Boss",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

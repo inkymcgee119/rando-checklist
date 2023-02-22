@@ -1,0 +1,202 @@
+{
+    "name": "Stone Tower Temple",
+    "bgColor": "#6b21a8",
+    "locations": [
+        {
+            "title": "Light arrow chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Giant's mask chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Boss heart container",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Boss remains",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Map chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Right path, chest in nook",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Boss key chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Basement, armos chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Inverted, flower stompy tunnel",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Eyegore room chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Updraft room chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Basement ledge",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Bridge crystal",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Inverted, death armos switch in statue room",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Entrance sun switch",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Eyegore",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Lava room, fire ring",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Lava room, ledge",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Mirror, sun block",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Mirror, sun switch",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Entrance, eye switch chest",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Thin bridge",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Underwater switch by spike bombs",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Updraft, fire ring",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Updraft, frozen eye",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Wizzrobe",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Inverted, dexihand",
+            "count": 3,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Inverted, pre-boss close",
+            "count": 2,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Inverted, pre-boss 2nd close",
+            "count": 2,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Inverted, pre-boss far",
+            "count": 2,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Inverted, pre-boss 2nd far",
+            "count": 2,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Inverted, pre-boss",
+            "count": 3,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Inverted, updraft",
+            "count": 2,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Eyegore",
+            "count": 2,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Lava room",
+            "count": 6,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Thin bridge",
+            "count": 8,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Mirror, crates",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

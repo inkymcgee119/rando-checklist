@@ -1,0 +1,139 @@
+{
+    "name": "Woodfall Temple",
+    "bgColor": "#854d0e",
+    "locations": [
+        {
+            "title": "Hero's bow chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Boss heart container",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Boss remains",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Right side, turtle room",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Right side, bottom ledge chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Right side, frog room",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Left side, dragonfly room",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Entrance, fairy",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Entrance, platform",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Main room, deku baba",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Main room, jar in corner",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Main Room, bubble",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Main Room, switch",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Left side, bridge room hive",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Left side, dark room",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Right side, hive",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Left side, under bridge",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Left side, skulltula",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Before boss, pillar bubble",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Before boss, upper left bubble",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Before boss, upper right bubble",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Before boss, lower right bubble",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Before boss, far pillars",
+            "count": 2,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Before boss, center platform",
+            "count": 4,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Entrance, bee hive",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Gekko pots",
+            "count": 4,
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

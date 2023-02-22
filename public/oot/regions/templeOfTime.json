@@ -5,15 +5,17 @@
     "locations": [
         {
             "title": "Prelude of light",
-            "isChecked": false,
             "type": "song",
-            "tags": ["adult"]
+            "tags": [
+                "adult"
+            ]
         },
         {
             "title": "Light arrows",
-            "isChecked": false,
             "type": "item",
-            "tags": ["adult"]
+            "tags": [
+                "adult"
+            ]
         }
     ]
 }

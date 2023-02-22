@@ -1,0 +1,46 @@
+{
+    "name": "Skull Woods",
+    "bgColor": "#f43f5e",
+    "locations": [
+        {
+            "title": "Map chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Compass chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Big key chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Big chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bridge room",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Pot prison",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Pinball room",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Boss",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

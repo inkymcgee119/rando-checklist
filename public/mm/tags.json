@@ -1,0 +1,50 @@
+{
+    "day": {
+        "name": "day",
+        "description": "Day",
+        "icon": "bi:sun",
+        "hasFilter": true
+    },
+    "night": {
+        "name": "night",
+        "description": "Night",
+        "icon": "bi:moon",
+        "hasFilter": true
+    },
+    "day1": {
+        "name": "day1",
+        "description": "Day",
+        "icon": "ri:number-1",
+        "hasFilter": true
+    },
+    "day2": {
+        "name": "day2",
+        "description": "Day",
+        "icon": "ri:number-2",
+        "hasFilter": true
+    },
+    "day3": {
+        "name": "day3",
+        "description": "Day",
+        "icon": "ri:number-3",
+        "hasFilter": true
+    },
+    "grotto": {
+        "name": "grotto",
+        "description": "Grotto",
+        "icon": "game-icons:hole",
+        "hasFilter": true
+    },
+    "winter": {
+        "name": "winter",
+        "description": "Winter",
+        "icon": "bi:snow",
+        "hasFilter": true
+    },
+    "spring": {
+        "name": "spring",
+        "description": "Spring",
+        "icon": "cib:spring",
+        "hasFilter": true
+    }
+}

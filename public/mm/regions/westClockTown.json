@@ -1,0 +1,102 @@
+{
+    "name": "West Clock Town",
+    "bgColor": "#db2777",
+    "locations": [
+        {
+            "title": "Bank reward #1",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bank reward #2",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Bank reward #3",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Curiosity shop, blue rupee",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Curiosity shop, red rupee",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Curiosity shop, purple rupee",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Curiosity shop, gold rupee",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Curiosity shop, all-night mask",
+            "type": "shop",
+            "tags": [
+                "day3",
+                "night"
+            ]
+        },
+        {
+            "title": "Lottery",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Postman's game",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Rosa sisters",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Swordsman's school",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bomb shop",
+            "count": 3,
+            "type": "shop",
+            "tags": []
+        },
+        {
+            "title": "Big bomb bag purchase",
+            "description": "Save old lady on night 1 or buy from curiosity shop night 3",
+            "type": "shop",
+            "tags": []
+        },
+        {
+            "title": "Trading post",
+            "count": 8,
+            "type": "shop",
+            "tags": []
+        },
+        {
+            "title": "Swordsman's school, gong",
+            "description": "Ring it at 30min of the hour",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Swordsman's school, pots",
+            "count": 5,
+            "type": "fixed",
+            "tags": [
+                "day3",
+                "night"
+            ]
+        }
+    ]
+}

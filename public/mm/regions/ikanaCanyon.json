@@ -1,0 +1,59 @@
+{
+    "name": "Ikana Canyon",
+    "bgColor": "#991b1b",
+    "locations": [
+        {
+            "title": "Canyon scrub trade",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Canyon scrub purchase",
+            "type": "shop",
+            "tags": []
+        },
+        {
+            "title": "Tingle maps",
+            "count": 2,
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Ledge near scrub",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Pamela's father",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Poe hut",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Secret shrine grotto",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Great fairy",
+            "type": "fairyrewards",
+            "tags": []
+        },
+        {
+            "title": "Grass before beating temple",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Grass after beating temple",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

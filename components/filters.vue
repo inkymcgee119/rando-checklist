@@ -1,6 +1,6 @@
 <template>
 
-    <div class="bg-slate-200 rounded-md shadow-xl mt-2 ml-1 mr-1 pb-2">
+    <div class="bg-slate-200 rounded-md shadow-xl ml-1 mr-1 pb-2">
         <div class="rounded-t-md text-xl font-sans font-semibold text-left px-2 mb-2 text-white bg-neutral-500"
             v-collapsible-header>
             Options
@@ -19,7 +19,7 @@
                 </span>
             </div>
 
-            <div v-if="props.config.tags" class="ml-2 my-auto">
+            <div v-if="props.config.tags && props.config.tags.length > 0" class="ml-2 my-auto">
                 <label class="font-sans font-semibold">Filter by tag</label>
             </div>
             <div v-if="props.config.tags" class="grow">
@@ -48,14 +48,11 @@
 
 const appState = useAppState();
 const props = defineProps(["options", "tags", "config"]);
+const emit = defineEmits(["tagClick"])
 
 function clickTagFilter(tagName) {
-    props.tags[tagName] = !props.tags[tagName];
-    for (let tag of props.config.tags) {
-        if (tagName != tag.name)
-            props.tags[tag.name] = false;
-    }
-
+    
+    emit("tagClick", tagName);
 }
 
 </script>

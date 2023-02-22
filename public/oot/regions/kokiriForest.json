@@ -3,7 +3,6 @@
     "bgColor": "#84CC16",
     "hasMQ": false,
     "locations": [
-        
         {
             "title": "Mido's House",
             "type": "item",
@@ -12,145 +11,145 @@
         },
         {
             "title": "Kokiri sword chest",
-            "isChecked": false,
             "type": "item",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
         {
             "title": "Song of storms grotto",
-            "isChecked": false,
             "type": "item",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
-
-        
         {
             "title": "Back of Know-it-all Bros house",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "night"]
+            "tags": [
+                "child",
+                "night"
+            ]
         },
         {
             "title": "Bean patch by shop",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "bean"]
+            "tags": [
+                "child",
+                "bean"
+            ]
         },
         {
             "title": "On top of twins' house",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["adult", "night"]
+            "tags": [
+                "adult",
+                "night"
+            ]
         },
         {
             "title": "Link's cow",
             "description": "Win obstacle course minigame at lon lon ranch",
-            "isChecked": false,
             "type": "cow",
             "tags": []
         },
         {
             "title": "Shop",
-            "isChecked": false,
             "type": "shop",
             "tags": []
         },
-
         {
             "title": "Behind mido's house",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
         {
             "title": "Boulder maze",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["child"],
+            "tags": [
+                "child"
+            ],
             "count": 2
         },
         {
             "title": "End of the skywalk",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["child"]
+            "tags": [
+                "child"
+            ]
         },
         {
             "title": "Top of saria's house",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["child"],
+            "tags": [
+                "child"
+            ],
             "count": 3
         },
         {
             "title": "Grass near mido's house",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["child"],
+            "tags": [
+                "child"
+            ],
             "count": 2
         },
         {
             "title": "Grass near ramp",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["child"],
+            "tags": [
+                "child"
+            ],
             "count": 2
         },
         {
             "title": "Nook above shop",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["adult"],
+            "tags": [
+                "adult"
+            ],
             "count": 7
         },
         {
             "title": "Inside saria's house",
-            "isChecked": false,
             "type": "rupee",
             "tags": [],
             "count": 4
         },
         {
             "title": "Shop, around corner",
-            "isChecked": false,
             "type": "rupee",
             "tags": []
         },
-
-        
         {
             "title": "Song of storms grotto",
-            "isChecked": false,
             "type": "beehive",
-            "tags": ["grotto"],
+            "tags": [
+                "grotto"
+            ],
             "count": 2
         },
-
-         
         {
             "title": "Link's house",
-            "isChecked": false,
             "type": "pot",
             "tags": []
         },
         {
             "title": "Twin's house",
-            "isChecked": false,
             "type": "pot",
             "tags": [],
             "count": 2
         },
         {
             "title": "Know-it-all bros' house",
-            "isChecked": false,
             "type": "pot",
             "tags": [],
             "count": 2
         }
-
     ],
     "entrances": [
-        
         {
             "name": "Lost Woods Bridge",
             "type": "overworld"
@@ -159,8 +158,6 @@
             "name": "Lost Woods",
             "type": "overworld"
         },
-
-        
         {
             "name": "Link's house",
             "type": "interior"
@@ -185,19 +182,13 @@
             "name": "Shop",
             "type": "interior"
         },
-
-        
         {
             "name": "Song of storms",
             "type": "grotto"
         },
-
-        
         {
             "name": "Deku tree",
             "type": "dungeon"
         }
     ]
-
-
 }

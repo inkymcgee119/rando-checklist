@@ -1,0 +1,32 @@
+{
+    "name": "Pinnacle Rock",
+    "bgColor": "#ca8a04",
+    "locations": [
+        {
+            "title": "Lower chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Upper chest",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Seahorses",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Pots at bottom",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Pot by snake",
+            "type": "fixed",
+            "tags": []
+        }
+    ]
+}

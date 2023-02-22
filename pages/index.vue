@@ -1,21 +1,23 @@
 <template>
-    <filters :options="appState.options" :tags="appState.tagFilters" :config="filterConfig"></filters>
-    <div class="my-5 flex flex-row flex-nowrap card-container" onco ntextmenu="return false;">
+    <div>
+        <filters :options="appState.options" :tags="appState.tagFilters" :config="filterConfig" @tag-click="filtersTagClick"></filters>
+        <div class="my-2 flex flex-row flex-nowrap card-container">
 
-        <!-- no results -->
-        <div v-if="filteredRegions.length == 0" class="w-full text-white text-center font-sans">
-            No Results
-        </div>
-
-        <!-- region layout -->
-        <div class="flex flex-col mx-1 grow" v-for="regionGroup in filteredRegionGroups">
-            <div class="bg-slate-200 mb-3 rounded-md shadow-xl pb-2 region-card select-none"
-                v-for="region in regionGroup">
-
-                <RegionCard :region="region"></RegionCard>
+            <!-- no results -->
+            <div v-if="filteredRegions.length == 0" class="w-full text-white text-center font-sans">
+                No Results
             </div>
-        </div>
 
+            <!-- region layout -->
+            <div class="flex flex-col mx-1 grow" v-for="regionGroup in filteredRegionGroups">
+                <div class="bg-slate-200 mb-3 rounded-md shadow-xl pb-2 region-card select-none"
+                    v-for="region in regionGroup">
+
+                    <RegionCard :region="region"></RegionCard>
+                </div>
+            </div>
+
+        </div>
     </div>
 </template>
 
@@ -24,9 +26,16 @@ const appState = useAppState();
 const filteredRegionGroups = ref([]);
 const filterConfig = ref({});
 
+watchEffect(() => {
+    filterConfig.value = {
+        options: Object.keys(appState.value.locationTypes).map(key => appState.value.locationTypes[key]).filter(x => x.hasFilter),
+        tags: Object.keys(appState.value.tags).map(key => appState.value.tags[key]).filter(x => x.hasFilter)
+    };
+});
+
 onMounted(() => {
     filterConfig.value = {
-        options: Object.keys(appState.value.locationTypes).map(key => appState.value.locationTypes[key]).filter(x => x.hasFilter), 
+        options: Object.keys(appState.value.locationTypes).map(key => appState.value.locationTypes[key]).filter(x => x.hasFilter),
         tags: Object.keys(appState.value.tags).map(key => appState.value.tags[key]).filter(x => x.hasFilter)
     };
     assignColumnNumber(window.innerWidth);
@@ -40,7 +49,7 @@ onMounted(() => {
 
 const filteredRegions = computed(() => {
     let result = [];
-
+    let total = 0;
     if (appState.value.regions) {
         for (let region of appState.value.regions) {
             let r = { ...region }; // to prevent infinite loop
@@ -76,10 +85,14 @@ const filteredRegions = computed(() => {
                 return rowVisible;
             });
 
-            if (r.locations.length > 0)
+            if (r.locations.length > 0) {
                 result.push(r);
+                total += r.locations.reduce((acc, x) => acc + (x.count ? x.count : 1), 0);
+            }
         }
     }
+
+    console.log("Total:" + total);
     return result;
 });
 
@@ -163,5 +176,17 @@ function assignRegionCardColumns(colNum) {
 
 function calculateRegionCardHeight(region) {
     return region.locations.length + 1;
+}
+
+function filtersTagClick(tagName) {
+    
+    for (let tag of Object.keys(appState.value.tags)) {
+        if (tagName != tag)
+            appState.value.tagFilters[tag] = false;
+        else
+            appState.value.tagFilters[tag] = !appState.value.tagFilters[tag];
+    }
+
+    appState.value.regions = [...appState.value.regions];
 }
 </script>

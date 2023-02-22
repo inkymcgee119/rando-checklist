@@ -51,6 +51,79 @@
             "icon": "carbon:face-mask",
             "dir": "mm",
             "regions": [
+                "regions/clockTowerRoof.json",
+                "regions/southClockTown.json",
+                "regions/northClockTown.json",
+                "regions/eastClockTown.json",
+                "regions/westClockTown.json",
+                "regions/stockPotInn.json",
+                "regions/laundryPool.json",
+                "regions/terminaField.json",
+                "regions/roadToSouthernSwamp.json",
+                "regions/southernSwamp.json",
+                "regions/swampSpiderHouse.json",
+                "regions/dekuPalace.json",
+                "regions/woodfall.json",
+                "regions/woodfallTemple.json",
+                "regions/mountainVillage.json",
+                "regions/twinIslands.json",
+                "regions/goronVillage.json",                
+                "regions/pathToSnowhead.json",
+                "regions/snowheadTemple.json",
+                "regions/milkRoad.json",
+                "regions/romaniRanch.json",
+                "regions/greatBayCoast.json",
+                "regions/oceanSpiderHouse.json",
+                "regions/pinnacleRock.json",
+                "regions/zoraCape.json",
+                "regions/zoraHall.json",                
+                "regions/pirateFortress.json",
+                "regions/greatBayTemple.json",
+                "regions/roadToIkana.json",
+                "regions/ikanaGraveyard.json",
+                "regions/ikanaCanyon.json",
+                "regions/beneathTheWell.json",
+                "regions/ikanaCastle.json",
+                "regions/stoneTower.json",
+                "regions/stoneTowerTemple.json",
+                "regions/secretShrine.json",
+                "regions/moon.json"
+                
+                
+            ],
+            "resources": [
+                {
+                    "description": "Google doc of 1.14 additions, includes rupees, hidden rupees, and fixed items",
+                    "url": "https://docs.google.com/spreadsheets/d/1x7goqNzsFm3CJtXjai78kEEXjtinSvzMOQcUe1S6C_g/edit#gid=744095763"
+                },
+                {
+                    "description": "Google doc of tricks",
+                    "url": "https://docs.google.com/spreadsheets/d/1ts8FhQOBrWLIlVGrJ-oAwv4TuOpzwSRsPVm4lw-atqY/edit#gid=0"
+                }
+            ]
+        },
+        {
+            "value": "A Link to the Past",
+            "description": "A Link to the Past",
+            "icon": "game-icons:sword-altar",
+            "dir": "alttp",
+            "regions": [
+                "regions/lightWorld.json",
+                "regions/deathMountain.json",
+                "regions/darkWorld.json",
+                "regions/hyruleCastle.json",
+                "regions/easternPalace.json",
+                "regions/desertPalace.json",
+                "regions/towerOfHera.json",
+                "regions/castleTower.json",
+                "regions/darkPalace.json",
+                "regions/swampPalace.json",
+                "regions/skullWoods.json",
+                "regions/thievesTown.json",
+                "regions/icePalace.json",
+                "regions/miseryMire.json",
+                "regions/turtleRock.json",
+                "regions/ganonTower.json"
             ]
         }
     ]

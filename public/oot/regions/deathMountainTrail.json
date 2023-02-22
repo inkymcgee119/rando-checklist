@@ -5,102 +5,105 @@
     "locations": [
         {
             "title": "Bombable wall",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Song of storms grotto",
             "description": "Rock circle outside goron city",
-            "isChecked": false,
             "type": "item",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
         {
             "title": "Great fairy at the summit",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Above dodongo's cavern",
-            "isChecked": false,
             "type": "item",
             "tags": []
         },
         {
             "title": "Biggeron trade quest",
-            "isChecked": false,
             "type": "item",
-            "tags": ["adult"]
+            "tags": [
+                "adult"
+            ]
         },
-
         {
             "title": "Bombable wall, near entrance",
-            "isChecked": false,
             "type": "gs",
             "tags": []
         },
         {
             "title": "Bean patch, dodongo's cavern",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["child", "bean"]
+            "tags": [
+                "child",
+                "bean"
+            ]
         },
         {
             "title": "Hammer rock, above DC",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["adult", "night"]
+            "tags": [
+                "adult",
+                "night"
+            ]
         },
         {
             "title": "Hammer rock, path to summit",
-            "isChecked": false,
             "type": "gs",
-            "tags": ["adult", "night"]
+            "tags": [
+                "adult",
+                "night"
+            ]
         },
         {
             "title": "Grotto heading towards summit",
-            "isChecked": false,
             "type": "cow",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
-
-        
         {
             "title": "Under rocks on ramp",
             "description": "The rupees are only there as child, but logic can require breaking the rocks as adult then returning as child.",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["child"],
+            "tags": [
+                "child"
+            ],
             "count": 2
         },
         {
             "title": "Cow grotto",
-            "isChecked": false,
             "type": "rupee",
-            "tags": ["grotto"],
+            "tags": [
+                "grotto"
+            ],
             "count": 11
         },
         {
             "title": "Cow grotto",
-            "isChecked": false,
             "type": "beehive",
-            "tags": ["grotto"]
+            "tags": [
+                "grotto"
+            ]
         },
-
-        
         {
             "title": "Song of storms grotto",
             "description": "Rock circle outside goron city",
-            "isChecked": false,
             "type": "beehive",
-            "tags": ["grotto"],
+            "tags": [
+                "grotto"
+            ],
             "count": 2
         }
     ],
     "entrances": [
-        
         {
             "name": "Kakariko Village",
             "type": "overworld"
@@ -113,14 +116,10 @@
             "name": "Death Mountain Crater",
             "type": "overworld"
         },
-
-        
         {
             "name": "Great fairy",
             "type": "interior"
         },
-
-        
         {
             "name": "Song of storms",
             "type": "grotto"
@@ -129,13 +128,10 @@
             "name": "Cow",
             "type": "grotto"
         },
-
-        
         {
             "name": "Dodongo's cavern",
             "type": "dungeon"
         },
-
         {
             "name": "Owl",
             "type": "owl"
