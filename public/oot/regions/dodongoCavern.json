@@ -11,43 +11,8 @@
             ]
         },
         {
-            "title": "Lower left, bombable wall",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Upper right, bomb flower platform",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Upper right, bomb bag chest",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Upper lobby, across the bridge",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Room before King Dodongo",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "King Dodongo",
-            "type": "boss",
+            "title": "Lobby, left side",
+            "type": "scrub",
             "tags": [
                 "vanilla"
             ]
@@ -68,6 +33,60 @@
             ]
         },
         {
+            "title": "Lower right hallway",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 4
+        },
+        {
+            "title": "Lower right, before lizafos",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Lower right, lizafos",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 4
+        },
+        {
+            "title": "Lower right, lizafos",
+            "description": "Hidden behind the left side of the lavafall",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lower right, after lizafos",
+            "type": "scrub",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lower right, after lizafos",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 4
+        },
+        {
+            "title": "Lower left, bombable wall",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
             "title": "Left side, above the stairs",
             "description": "You can reach this by activating the elevator shortcut and re-entering the dungeon to reset the stairs",
             "type": "gs",
@@ -83,22 +102,16 @@
             ]
         },
         {
-            "title": "Inside the dodongo face, back room",
-            "type": "gs",
+            "title": "Left side, staircase",
+            "type": "pot",
             "tags": [
                 "vanilla"
-            ]
+            ],
+            "count": 4
         },
         {
-            "title": "Lobby, left side",
-            "type": "scrub",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Lower right, after lizafos",
-            "type": "scrub",
+            "title": "Upper right, bomb flower platform",
+            "type": "item",
             "tags": [
                 "vanilla"
             ]
@@ -110,69 +123,6 @@
                 "vanilla"
             ],
             "count": 2
-        },
-        {
-            "title": "Lower lizafos fight",
-            "description": "Hidden behind the left side of the lavafall",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Upper lizafos fight",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Upper right, behind block",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Lower right hallway",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 4
-        },
-        {
-            "title": "Before Lower lizafos",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Lower lizafos",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 4
-        },
-        {
-            "title": "Lower right, after lizafos",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 4
-        },
-        {
-            "title": "Left side, staircase",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 4
         },
         {
             "title": "Sliding blades room",
@@ -191,12 +141,48 @@
             "count": 2
         },
         {
+            "title": "Upper lizafos fight",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Upper right, behind block",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
             "title": "Double eye switch room",
             "type": "pot",
             "tags": [
                 "vanilla"
             ],
             "count": 2
+        },
+        {
+            "title": "Upper right, bomb bag chest",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Upper lobby, across the bridge",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Inside the dodongo face, back room",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Before boss",
@@ -207,92 +193,22 @@
             "count": 3
         },
         {
-            "title": "Lobby, right side bombable wall",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Lower right path, after poe room",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Upper left side, dodongo room",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Upper right side, barred room",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Upper right side, bomb bag room",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Poe room in the rear",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
             "title": "Room before King Dodongo",
             "type": "item",
             "tags": [
-                "mq"
+                "vanilla"
             ]
         },
         {
             "title": "King Dodongo",
             "type": "boss",
             "tags": [
-                "mq"
+                "vanilla"
             ]
         },
         {
-            "title": "Lower right path, room after lizafos",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Lower left side, song of time room",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Upper right side, lizafos fight",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Upper right side, barred room",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Armos army, top of maze",
-            "type": "gs",
+            "title": "Lobby, right side bombable wall",
+            "type": "item",
             "tags": [
                 "mq"
             ]
@@ -306,22 +222,16 @@
             "count": 2
         },
         {
+            "title": "Lower right hallway",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 4
+        },
+        {
             "title": "Lower right, before lizafos",
             "type": "scrub",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Left side, above stairs",
-            "type": "scrub",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Upper right, corner of maze",
-            "type": "rupee",
             "tags": [
                 "mq"
             ]
@@ -343,36 +253,11 @@
             "count": 8
         },
         {
-            "title": "Left side, staircase",
-            "type": "crate",
+            "title": "Lower right, poe side room",
+            "type": "gs",
             "tags": [
                 "mq"
-            ],
-            "count": 6
-        },
-        {
-            "title": "Upper right, barred room",
-            "type": "crate",
-            "tags": [
-                "mq"
-            ],
-            "count": 6
-        },
-        {
-            "title": "After upper lizafos",
-            "type": "crate",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Lower right hallway",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 4
+            ]
         },
         {
             "title": "Lower right, poe room",
@@ -383,12 +268,55 @@
             "count": 4
         },
         {
+            "title": "Lower right path, after poe room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Lower left side, song of time room",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Left side, staircase",
+            "type": "crate",
+            "tags": [
+                "mq"
+            ],
+            "count": 6
+        },
+        {
             "title": "Left side, staircase",
             "type": "pot",
             "tags": [
                 "mq"
             ],
             "count": 4
+        },
+        {
+            "title": "Left side, above stairs",
+            "type": "scrub",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Upper left side, dodongo room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Upper right, corner of maze",
+            "type": "rupee",
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Upper right, pillar",
@@ -413,6 +341,28 @@
             "count": 2
         },
         {
+            "title": "Upper right side, barred room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Upper right side, barred room",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Upper right, barred room",
+            "type": "crate",
+            "tags": [
+                "mq"
+            ],
+            "count": 6
+        },
+        {
             "title": "Upper lizafos",
             "type": "pot",
             "tags": [
@@ -429,6 +379,28 @@
             "count": 2
         },
         {
+            "title": "Upper right side, bomb bag room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Upper right side, lizafos fight",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "After upper lizafos",
+            "type": "crate",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
             "title": "Armos army, before",
             "type": "pot",
             "tags": [
@@ -437,8 +409,22 @@
             "count": 2
         },
         {
+            "title": "Armos army, top of maze",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
             "title": "Armos army, after",
             "type": "pot",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Poe room in the rear",
+            "type": "item",
             "tags": [
                 "mq"
             ]
@@ -458,6 +444,20 @@
                 "mq"
             ],
             "count": 2
+        },
+        {
+            "title": "Room before King Dodongo",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "King Dodongo",
+            "type": "boss",
+            "tags": [
+                "mq"
+            ]
         }
     ]
 }

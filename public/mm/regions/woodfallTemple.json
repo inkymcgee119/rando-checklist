@@ -3,18 +3,38 @@
     "bgColor": "#854d0e",
     "locations": [
         {
-            "title": "Hero's bow chest",
-            "type": "item",
+            "title": "Entrance, fairy",
+            "type": "fairies",
             "tags": []
         },
         {
-            "title": "Boss heart container",
-            "type": "everything",
+            "title": "Entrance, platform",
+            "type": "fairies",
             "tags": []
         },
         {
-            "title": "Boss remains",
-            "type": "item",
+            "title": "Entrance, bee hive",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Main room, deku baba",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Main room, pot in corner",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Main Room, bubble",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Main Room, switch",
+            "type": "fairies",
             "tags": []
         },
         {
@@ -33,38 +53,24 @@
             "tags": []
         },
         {
+            "title": "Right side, hive",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Hero's bow chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Gekko pots",
+            "count": 4,
+            "type": "fixed",
+            "tags": []
+        },
+        {
             "title": "Left side, dragonfly room",
             "type": "dungeon",
-            "tags": []
-        },
-        {
-            "title": "Entrance, fairy",
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Entrance, platform",
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Main room, deku baba",
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Main room, jar in corner",
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Main Room, bubble",
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Main Room, switch",
-            "type": "fairies",
             "tags": []
         },
         {
@@ -74,11 +80,6 @@
         },
         {
             "title": "Left side, dark room",
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Right side, hive",
             "type": "fairies",
             "tags": []
         },
@@ -125,14 +126,13 @@
             "tags": []
         },
         {
-            "title": "Entrance, bee hive",
-            "type": "fixed",
+            "title": "Boss heart container",
+            "type": "everything",
             "tags": []
         },
         {
-            "title": "Gekko pots",
-            "count": 4,
-            "type": "fixed",
+            "title": "Boss remains",
+            "type": "item",
             "tags": []
         }
     ]

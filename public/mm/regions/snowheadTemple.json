@@ -2,54 +2,11 @@
     "name": "Snowhead Temple",
     "bgColor": "#a1a1aa",
     "locations": [
-        {
-            "title": "Fire arrow chest",
-            "type": "item",
-            "tags": []
-        },
-        {
-            "title": "Boss heart container",
-            "type": "everything",
-            "tags": []
-        },
-        {
-            "title": "Boss Remains",
-            "type": "item",
-            "tags": []
-        },
-        {
-            "title": "Elevator room, chest",
-            "type": "dungeon",
-            "tags": []
-        },
-        {
-            "title": "Wolfos/ice chunk, chest",
-            "type": "dungeon",
-            "tags": []
-        },
-        {
-            "title": "Boss key chest",
-            "type": "dungeon",
-            "tags": []
-        },
-        {
-            "title": "Double block room, chest",
-            "type": "dungeon",
-            "tags": []
-        },
+
+        
         {
             "title": "Bridge room, chest",
             "type": "dungeon",
-            "tags": []
-        },
-        {
-            "title": "Icicle room, chest",
-            "type": "dungeon",
-            "tags": []
-        },
-        {
-            "title": "Basement, lava button",
-            "type": "fairies",
             "tags": []
         },
         {
@@ -60,6 +17,13 @@
         {
             "title": "Bridge room, pillar bubble",
             "type": "fairies",
+            "tags": []
+        },
+
+        
+        {
+            "title": "Elevator room, chest",
+            "type": "dungeon",
             "tags": []
         },
         {
@@ -73,6 +37,27 @@
             "tags": []
         },
         {
+            "title": "Elevator room, crates",
+            "count": 5,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Double block room, chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Double block",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Wolfos/ice chunk, chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
             "title": "Wolfos/ice chunk, crate",
             "type": "fairies",
             "tags": []
@@ -83,45 +68,30 @@
             "tags": []
         },
         {
+            "title": "Icicle room, chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
             "title": "Icicle room, wall",
             "type": "fairies",
+            "tags": []
+        },        
+        {
+            "title": "Icicle room, frozen rupeees",
+            "count": 3,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Icicle room, snowballs",
+            "count": 5,
+            "type": "fixed",
             "tags": []
         },
         {
             "title": "Ceiling bubble",
             "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Dinolfos",
-            "count": 2,
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Main room, wall",
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Pillar freezards",
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Snow room, fake wall bubble",
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Double block",
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Icicle room, frozen rupeees",
-            "count": 3,
-            "type": "rupee",
             "tags": []
         },
         {
@@ -131,15 +101,49 @@
             "tags": []
         },
         {
-            "title": "Elevator room, crates",
-            "count": 5,
-            "type": "fixed",
+            "title": "Fire arrow chest",
+            "type": "item",
             "tags": []
         },
         {
-            "title": "Icicle room, snowballs",
-            "count": 5,
-            "type": "fixed",
+            "title": "Snow room, fake wall bubble",
+            "type": "fairies",
+            "tags": []
+        },        
+        {
+            "title": "Dinolfos",
+            "count": 2,
+            "type": "fairies",
+            "tags": []
+        },        
+        {
+            "title": "Basement, lava button",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Pillar freezards",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Main room, wall",
+            "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Boss key chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Boss heart container",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Boss remains",
+            "type": "item",
             "tags": []
         }
     ]

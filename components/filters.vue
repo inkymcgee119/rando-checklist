@@ -7,10 +7,10 @@
         </div>
 
         <div class="flex flex-row">
-            <div v-if="props.config.options" class="ml-2 my-auto">
+            <div v-if="props.config.options && props.config.options.length > 0" class="ml-2 my-auto">
                 <label class="font-sans font-semibold">Randomizer options</label>
             </div>
-            <div v-if="props.config.options" class="grow">
+            <div v-if="props.config.options && props.config.options.length > 0" class="grow">
                 <span v-for="opt of props.config.options">
                     <button :class="{'btn-option': options[opt.name], 'btn-option-inactive': !options[opt.name] }"
                         @click="options[opt.name] = !options[opt.name]">{{ opt.description }}
@@ -22,7 +22,7 @@
             <div v-if="props.config.tags && props.config.tags.length > 0" class="ml-2 my-auto">
                 <label class="font-sans font-semibold">Filter by tag</label>
             </div>
-            <div v-if="props.config.tags" class="grow">
+            <div v-if="props.config.tags && props.config.tags.length > 0" class="grow">
                 <span v-for="tag of props.config.tags">
                     <button :class="{'btn-option': tags[tag.name], 'btn-option-inactive': !tags[tag.name] }"
                         @click="clickTagFilter(tag.name)">{{ tag.description }}<Icon :name="tag.icon"></Icon></button>

@@ -60,12 +60,12 @@ const props = defineProps(["region"]);
 
 function clickLocation(loc) {
     loc.isChecked = !loc.isChecked;
-    save();
+    save(appState.value.selectedGame.dir, appState.value);
 }
 
 function rightClickLocation(loc) {
     loc.isStarred = !loc.isStarred;
-    save();
+    save(appState.value.selectedGame.dir, appState.value);
 
     return false;
 }

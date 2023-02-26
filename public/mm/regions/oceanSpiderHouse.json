@@ -3,135 +3,141 @@
     "bgColor": "#155e75",
     "locations": [
         {
-            "title": "Entrance, Left Wall",
+            "title": "Entrance, slope left",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Entrance, Right Wall",
+            "title": "Entrance, slope right",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Entrance, Webs",
+            "title": "Entrance, ceiling webs",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "2nd Room, Behind Skull",
+            "title": "Entrance, pots",
+            "count": 3,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Stairs room, behind skull",
             "count": 2,
             "type": "gs",
             "tags": []
         },
         {
-            "title": "2nd Room, Ceiling Edge",
+            "title": "Stairs room, ceiling edge",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "2nd Room, Ceiling Plank",
+            "title": "Stairs room, ceiling plank",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "2nd Room, Jar",
+            "title": "Stairs room, pot",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "2nd Room, Lower Pot",
+            "title": "Stairs room, lower pot",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "2nd Room, Upper Pot",
+            "title": "Stairs room, upper pot",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "2nd Room, Webbed Hole",
+            "title": "Stairs room, webbed hole",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "2nd Room, Webbed Pot",
+            "title": "Stairs room, webbed pot",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Colors, Behind Picture",
+            "title": "Colored masks, behind picture",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Colors, Ceiling Edge",
+            "title": "Colored masks, ceiling edge",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Colors, Chandelier",
+            "title": "Colored masks, chandelier",
             "count": 3,
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Colors, Pot",
+            "title": "Colored masks, pot",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Library, Behind Bookcase",
+            "title": "Library, behind bookcase",
             "count": 2,
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Library, Behind Picture",
+            "title": "Library, behind picture",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Library, Ceiling Edge",
+            "title": "Library, ceiling edge",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Library, Cabinet Hole",
+            "title": "Library, cabinet hole",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Library, Picture Hole",
+            "title": "Library, picture hole",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Library, On Bookshelf",
+            "title": "Library, on bookshelf",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Storage Room, Behind Boat",
+            "title": "Storage room, behind boat",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Storage Room, Behind Crate",
+            "title": "Storage room, behind crate",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Storage Room, Web",
+            "title": "Storage room, web",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Storage Room, Crate",
+            "title": "Storage room, crate",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Storage Room, Jar",
+            "title": "Storage room, pot",
             "type": "gs",
             "tags": []
         },
@@ -139,12 +145,6 @@
             "title": "Masks",
             "count": 9,
             "type": "hiddenrupee",
-            "tags": []
-        },
-        {
-            "title": "Entrance, pots",
-            "count": 3,
-            "type": "fixed",
             "tags": []
         },
         {

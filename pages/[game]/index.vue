@@ -1,6 +1,7 @@
 <template>
     <div>
-        <filters :options="appState.options" :tags="appState.tagFilters" :config="filterConfig" @tag-click="filtersTagClick"></filters>
+        <filters :options="appState.options" :tags="appState.tagFilters" :config="filterConfig"
+            @tag-click="filtersTagClick"></filters>
         <div class="my-2 flex flex-row flex-nowrap card-container">
 
             <!-- no results -->
@@ -25,6 +26,9 @@
 const appState = useAppState();
 const filteredRegionGroups = ref([]);
 const filterConfig = ref({});
+const route = useRoute();
+
+
 
 watchEffect(() => {
     filterConfig.value = {
@@ -92,7 +96,6 @@ const filteredRegions = computed(() => {
         }
     }
 
-    console.log("Total:" + total);
     return result;
 });
 
@@ -179,7 +182,7 @@ function calculateRegionCardHeight(region) {
 }
 
 function filtersTagClick(tagName) {
-    
+
     for (let tag of Object.keys(appState.value.tags)) {
         if (tagName != tag)
             appState.value.tagFilters[tag] = false;

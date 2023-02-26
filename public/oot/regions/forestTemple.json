@@ -11,12 +11,42 @@
             ]
         },
         {
+            "title": "Entrance area, on the vines",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Center room",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 6
+        },
+        {
+            "title": "Center room, wall next to stairs",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
             "title": "Room straight back, staflos fight",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
+        {
+            "title": "Room straight back, staflos fight",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
         {
             "title": "Courtyard, room up the vines",
             "type": "item",
@@ -32,6 +62,13 @@
             ]
         },
         {
+            "title": "Courtyard, on the grassy hill",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
             "title": "Courtyard, in the well",
             "type": "item",
             "tags": [
@@ -39,12 +76,38 @@
             ]
         },
         {
-            "title": "Upper Courtyard, side room",
+            "title": "Courtyard, in the well",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+
+        
+        {
+            "title": "Upper courtyard, side room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
+        {
+            "title": "Upper courtyard, high on wall",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Upper courtyard, on pillars",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+
         {
             "title": "Eye switch near block puzzle",
             "type": "item",
@@ -52,6 +115,7 @@
                 "vanilla"
             ]
         },
+        
         {
             "title": "Boss key chest",
             "type": "item",
@@ -74,100 +138,6 @@
             ]
         },
         {
-            "title": "Blue poe (Beth)",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Falling ceiling room",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Spinning room in the basement",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Phantom Ganon",
-            "type": "boss",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Entrance area, on the vines",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Straight back, wall next to stairs",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Courtyard, on the grassy hill",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Courtyard, left side, high on wall",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Spinning room in the basement",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "In the well",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Courtyard, on pillars",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Center room",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 6
-        },
-        {
-            "title": "Room straight back, staflos fight",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
             "title": "Bow chest",
             "type": "pot",
             "tags": [
@@ -177,12 +147,20 @@
         },
         {
             "title": "Blue poe (Beth)",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Blue poe (Beth)",
             "type": "pot",
             "tags": [
                 "vanilla"
             ],
             "count": 3
         },
+
         {
             "title": "Frozen eye switch room",
             "type": "pot",
@@ -199,6 +177,45 @@
             ],
             "count": 2
         },
+
+        {
+            "title": "Falling ceiling room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Spinning room in the basement",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Spinning room in the basement",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
+        {
+            "title": "Phantom Ganon",
+            "type": "boss",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
+
+
+
+
+
+
+
+
         {
             "title": "Entrance area, up in the tree",
             "type": "item",
@@ -207,12 +224,36 @@
             ]
         },
         {
+            "title": "Entrance hallway, upper left corner",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Center room",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 6
+        },
+
+        {
             "title": "Room straight back, wolfos fight",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
+        {
+            "title": "Room straight back",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ]
+        },
+
         {
             "title": "Courtyard, upper balcony",
             "type": "item",
@@ -228,8 +269,37 @@
             ]
         },
         {
+            "title": "Courtyard, right side, above door",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
             "title": "Courtyard, in the well",
             "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Courtyard, in the well",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "In the well",
+            "type": "rupee",
+            "tags": [
+                "mq"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Courtyard, above the well",
+            "type": "gs",
             "tags": [
                 "mq"
             ]
@@ -242,12 +312,30 @@
             ]
         },
         {
+            "title": "Upper courtyard, on pillars",
+            "type": "rupee",
+            "tags": [
+                "mq"
+            ],
+            "count": 3
+        },
+
+        {
+            "title": "Blocking push room, on floor level",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
             "title": "Boss key chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
+
+
         {
             "title": "Red poe (Joelle)",
             "type": "item",
@@ -263,11 +351,45 @@
             ]
         },
         {
+            "title": "Bow room",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 4
+        },
+        {
             "title": "Blue poe (Beth)",
             "type": "item",
             "tags": [
                 "mq"
             ]
+        },
+        {
+            "title": "Blue poe (Beth)",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 3
+        },
+
+
+        {
+            "title": "Frozen switch room",
+            "type": "crate",
+            "tags": [
+                "mq"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Green poe (Amy)",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
         },
         {
             "title": "Falling ceiling room",
@@ -284,117 +406,20 @@
             ]
         },
         {
-            "title": "Phantom Ganon",
-            "type": "boss",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Entrance hallway, upper left corner",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Courtyard, right side, above door",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Courtyard, in the well",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Courtyard, above the well",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Blocking push room, on floor level",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Courtyard",
-            "type": "rupee",
-            "tags": [
-                "mq"
-            ],
-            "count": 3
-        },
-        {
-            "title": "In the well",
-            "type": "rupee",
-            "tags": [
-                "mq"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Frozen switch room",
-            "type": "crate",
-            "tags": [
-                "mq"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Center room",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 6
-        },
-        {
-            "title": "Room straight back",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Bow room",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 4
-        },
-        {
-            "title": "Blue poe (Beth)",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Green poe (Amy)",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
             "title": "Basement",
             "type": "pot",
             "tags": [
                 "mq"
             ],
             "count": 4
+        },
+        
+        {
+            "title": "Phantom Ganon",
+            "type": "boss",
+            "tags": [
+                "mq"
+            ]
         }
     ]
 }

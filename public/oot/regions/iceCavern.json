@@ -4,12 +4,60 @@
     "hasMQ": true,
     "locations": [
         {
+            "title": "Hallway",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Red ice near entrance",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Spinning blade room",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Spinning blade",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 4
+        },
+        {
             "title": "Back room chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
+        {
+            "title": "Back room",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Back room, frozen",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
+
+
         {
             "title": "Right room, chest",
             "type": "item",
@@ -25,6 +73,39 @@
             ]
         },
         {
+            "title": "Right room",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
+
+        {
+            "title": "Block puzzle room",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Block puzzle room",
+            "description": "Use song of time to reach",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Before wolfos",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
             "title": "Wolfos chest",
             "type": "item",
             "tags": [
@@ -38,141 +119,12 @@
                 "vanilla"
             ]
         },
-        {
-            "title": "Spinning blade room",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Right room",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Block puzzle room",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Red ice near entrance",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Back room",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Block pushing puzzle",
-            "description": "Use song of time to reach",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 3
-        },
+
+
+
+
         {
             "title": "Hallway",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Spinning blade",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 4
-        },
-        {
-            "title": "Back room, frozen",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Before wolfos",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Right room, red ice",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Back room, chest",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Back room, switch hidden in floor",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Stafos chest",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Sheik's song",
-            "type": "song",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Back room, under red ice",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Block pushing puzzle, switch ",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Block pushing puzzle, side cave",
-            "description": "Use scarecrow song to reach",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "First hallway",
             "type": "pot",
             "tags": [
                 "mq"
@@ -195,6 +147,27 @@
             "count": 2
         },
         {
+            "title": "Back room, chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Back room, switch hidden in floor",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Back room, under red ice",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
             "title": "Back room, floor",
             "type": "pot",
             "tags": [
@@ -202,9 +175,46 @@
             ],
             "count": 2
         },
+
+        {
+            "title": "Right room, red ice",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Block pushing puzzle, switch ",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Block pushing puzzle, side cave",
+            "description": "Use scarecrow song to reach",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
         {
             "title": "Before stalfos",
             "type": "pot",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Stafos chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Sheik's song",
+            "type": "song",
             "tags": [
                 "mq"
             ]

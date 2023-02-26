@@ -5,6 +5,7 @@
             "icon": "game-icons:ocarina",
             "description": "Ocarina of Time",
             "dir": "oot",
+            "hasEntranceRando": true,
             "regions": [
                 "regions/kokiriForest.json",
                 "regions/lostWoods.json",
@@ -50,6 +51,7 @@
             "description": "Majora's Mask",
             "icon": "carbon:face-mask",
             "dir": "mm",
+            "hasEntranceRando": true,
             "regions": [
                 "regions/clockTowerRoof.json",
                 "regions/southClockTown.json",
@@ -99,6 +101,10 @@
                 {
                     "description": "Google doc of tricks",
                     "url": "https://docs.google.com/spreadsheets/d/1ts8FhQOBrWLIlVGrJ-oAwv4TuOpzwSRsPVm4lw-atqY/edit#gid=0"
+                },
+                {
+                    "description": "Beneath the well shopping list",
+                    "url": "https://www.zeldadungeon.net/wiki/Beneath_the_Well"
                 }
             ]
         },
@@ -107,6 +113,7 @@
             "description": "A Link to the Past",
             "icon": "game-icons:sword-altar",
             "dir": "alttp",
+            "hasEntranceRando": false,
             "regions": [
                 "regions/lightWorld.json",
                 "regions/deathMountain.json",

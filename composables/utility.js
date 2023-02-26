@@ -3,12 +3,9 @@ import { useAppState } from "./state";
 import { resolveResource } from '@tauri-apps/api/path';
 import { readTextFile } from '@tauri-apps/api/fs';
 
-export function save() {
-    let appState = useAppState();
-
-    let key = appState.value.selectedGame.dir;
-    localStorage.setItem("zeldoTrackdo", JSON.stringify(appState.value.selectedGame));
-    localStorage.setItem(key, JSON.stringify(appState.value));
+export function save(key, value) {
+    if(key && value)
+        localStorage.setItem(key, JSON.stringify(value));
 }
 
 export async function reset() {
@@ -16,10 +13,10 @@ export async function reset() {
     
     localStorage.removeItem(appState.value.selectedGame.dir);
 
-    await loadGameInfo();
+    await loadGameInfoData();
     let gameInfo = appState.value.games.find(x => x.dir == appState.value.selectedGame.dir); // reset region data 
 
-    await loadGame(gameInfo);
+    await loadGameData(gameInfo);
 }
 
 export function getLocationIcon(locType) {
@@ -51,15 +48,15 @@ export function isTauri() {
     return !!window.__TAURI_IPC__;
 }
 
-export async function loadGameInfo() {
+export async function loadGameInfoData() {
     let appState = useAppState();
-    let gameInfo = await (await fetch("./games.json")).json();
+    let gameInfo = await (await fetch("../games.json")).json();
     appState.value.games = gameInfo.games;
 }
 
-export async function loadGame(gameInfo) {
+export async function loadGameData(gameInfo) {
     let appState = useAppState();
-    let dirPrefix = "./";
+    let dirPrefix = "../";
 
     try {
         if (isTauri()) {
@@ -90,6 +87,12 @@ export async function loadGame(gameInfo) {
             let results = await Promise.all(regionPromises);
             appState.value.regions = results;
 
+        }
+
+        // set default options
+        for(let locType of Object.getOwnPropertyNames(appState.value.locationTypes)) {
+            if(appState.value.locationTypes[locType].isDefault)
+                appState.value.options[locType] = true;
         }
     }
     catch (ex) {

@@ -26,6 +26,14 @@
             ]
         },
         {
+            "title": "Lizafos and beamos room",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
             "title": "Lava room, freestanding key",
             "type": "item",
             "tags": [
@@ -126,20 +134,20 @@
             ]
         },
         {
-            "title": "Lizafos and beamos room",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
             "title": "Lobby",
             "type": "item",
             "tags": [
                 "mq"
             ],
             "count": 2
+        },
+        {
+            "title": "Lobby",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 4
         },
         {
             "title": "Iron knuckle room",
@@ -227,14 +235,6 @@
             "tags": [
                 "mq"
             ]
-        },
-        {
-            "title": "Lobby",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 4
         }
     ]
 }

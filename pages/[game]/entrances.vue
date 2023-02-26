@@ -204,7 +204,7 @@ function updateDropdown(data) {
     }
 
 
-    save();
+    save(appState.value.selectedGame.dir, appState.value);
 }
 
 function assignColumnNumber(width) {

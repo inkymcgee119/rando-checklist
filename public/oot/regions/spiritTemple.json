@@ -4,10 +4,34 @@
     "hasMQ": true,
     "locations": [
         {
+            "title": "Lobby",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 4
+        },
+        {
             "title": "Child side, left room",
             "type": "item",
             "tags": [
                 "vanilla"
+            ]
+        },
+        {
+            "title": "Flying pot in bridge room",
+            "type": "pot",
+            "tags": [
+                "vanilla",
+                "child"
+            ]
+        },
+        {
+            "title": "Anubis room",
+            "type": "pot",
+            "tags": [
+                "vanilla",
+                "child"
             ]
         },
         {
@@ -18,12 +42,41 @@
             ]
         },
         {
-            "title": "Child side, sun room",
+            "title": "Child side, right room, on fence",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Before child climb",
+            "type": "crate",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Child climb",
             "type": "item",
             "tags": [
                 "vanilla"
             ],
             "count": 2
+        },
+        {
+            "title": "Child climb",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Child climb",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Main statue room, center torches",
@@ -47,11 +100,41 @@
             ]
         },
         {
+            "title": "Main statue room, left upper ledge",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Main statue room, flying pots",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
             "title": "Sun block room, torches",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
+        },
+        {
+            "title": "Before child iron knuckles",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Before child iron knuckle",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
         },
         {
             "title": "Silver Gauntlet chest",
@@ -75,12 +158,34 @@
             ]
         },
         {
+            "title": "Adult side, boulder room",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Adult climb flying pots",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
             "title": "Adult side, mirror room",
             "type": "item",
             "tags": [
                 "vanilla"
             ],
             "count": 2
+        },
+        {
+            "title": "Beamos hallway",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ]
         },
         {
             "title": "Adult side, sun switch room",
@@ -92,6 +197,14 @@
         {
             "title": "Hallway, invisible",
             "type": "item",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Shifting walls climb",
+            "type": "rupee",
             "tags": [
                 "vanilla"
             ],
@@ -120,132 +233,34 @@
             ]
         },
         {
-            "title": "Twinrova",
-            "type": "boss",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Child side, right room, on fence",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Child side, sun switch room",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Hall before child side iron knuckles",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Main statue room, left upper ledge",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Adult side, boulder room",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Shifting walls climb",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Before child climb",
-            "type": "crate",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Lobby",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 4
-        },
-        {
-            "title": "Flying pot in bridge room",
-            "type": "pot",
-            "tags": [
-                "vanilla",
-                "child"
-            ]
-        },
-        {
-            "title": "Anubis room",
-            "type": "pot",
-            "tags": [
-                "vanilla",
-                "child"
-            ]
-        },
-        {
-            "title": "Child climb room",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Before child iron knuckle",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Adult climb flying pots",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Main statue room, flying pots",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Beamos hallway",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
             "title": "Mirror room, flying pots",
             "type": "pot",
             "tags": [
                 "vanilla"
             ],
             "count": 6
+        },
+        {
+            "title": "Twinrova",
+            "type": "boss",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
+
+
+
+
+
+
+        {
+            "title": "Lobby",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 4
         },
         {
             "title": "Entrance, free chest",
@@ -276,18 +291,54 @@
             ]
         },
         {
-            "title": "Child side, left room, free chest",
+            "title": "Child side, torch slug",
+            "type": "pot",
+            "tags": [
+                "mq",
+                "child"
+            ]
+        },
+        {
+            "title": "Child side",
+            "type": "rupee",
+            "tags": [
+                "mq",
+                "child"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Child side, gibdo room, free chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Child side, left room, kill enemies",
+            "title": "Child side, gibdo room, kill enemies",
             "type": "item",
             "tags": [
                 "mq"
             ]
+        },
+        {
+            "title": "Child, gibdo room",
+            "type": "pot",
+            "tags": [
+                "mq",
+                "child"
+            ],
+            "count": 2
+        },
+
+        {
+            "title": "Child, stalfos room",
+            "type": "pot",
+            "tags": [
+                "mq",
+                "child"
+            ],
+            "count": 3
         },
         {
             "title": "Child side, hammer switch",
@@ -297,15 +348,22 @@
             ]
         },
         {
-            "title": "Child side, sun room, kill enemies",
+            "title": "Child climb, kill enemies",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Child side, sun room, on pillar",
+            "title": "Child climb, on pillar",
             "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Child climb",
+            "type": "pot",
             "tags": [
                 "mq"
             ]
@@ -340,170 +398,12 @@
             ]
         },
         {
-            "title": "Sun block room chest",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Silver gauntlet chest",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Song of time block puzzle room",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Before mirror chest, free chest",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Before mirror chest, sun room",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Mirror shield chest",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Adult side, lullaby room, leevers",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Adult side, song room",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Mirror room, invisible chest by bars",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Twinrova",
-            "type": "boss",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Sun block room",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Adult side, lullaby room",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Adult side, room after song room",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Iron knuckle room",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Child side",
-            "type": "rupee",
-            "tags": [
-                "mq",
-                "child"
-            ],
-            "count": 2
-        },
-        {
             "title": "Main statue room",
             "type": "crate",
             "tags": [
                 "mq"
             ],
             "count": 2
-        },
-        {
-            "title": "Big mirror",
-            "type": "crate",
-            "tags": [
-                "mq",
-                "adult"
-            ],
-            "count": 4
-        },
-        {
-            "title": "Lobby",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 4
-        },
-        {
-            "title": "Child, torch slug",
-            "type": "pot",
-            "tags": [
-                "mq",
-                "child"
-            ]
-        },
-        {
-            "title": "Child, gibdo room",
-            "type": "pot",
-            "tags": [
-                "mq",
-                "child"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Child, stalfos room",
-            "type": "pot",
-            "tags": [
-                "mq",
-                "child"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Child climb",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ]
         },
         {
             "title": "Main statue room, floor",
@@ -521,6 +421,21 @@
             ],
             "count": 2
         },
+
+        {
+            "title": "Sun block room chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Sun block room",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
         {
             "title": "Sun block room",
             "type": "pot",
@@ -530,6 +445,16 @@
             "count": 2
         },
         {
+            "title": "Silver gauntlet chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        
+
+
+        {
             "title": "Adult descent",
             "type": "pot",
             "tags": [
@@ -537,6 +462,62 @@
                 "adult"
             ],
             "count": 2
+        },
+        {
+            "title": "Adult side, lullaby room, leevers",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Adult side, lullaby room",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Adult side, song room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Adult side, room after song room",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Song of time block puzzle room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Before mirror shield, free chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Before mirror shield, sun switch",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Mirror shield chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Shifting walls",
@@ -557,13 +538,44 @@
             "count": 2
         },
         {
-            "title": "Big mirror",
+            "title": "Iron knuckle room",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Mirror room, invisible chest by bars",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Mirror room",
+            "type": "crate",
+            "tags": [
+                "mq",
+                "adult"
+            ],
+            "count": 4
+        },
+        {
+            "title": "Mirror room",
             "type": "pot",
             "tags": [
                 "mq",
                 "adult"
             ],
             "count": 4
+        },
+        {
+            "title": "Twinrova",
+            "type": "boss",
+            "tags": [
+                "mq"
+            ]
         }
     ]
 }

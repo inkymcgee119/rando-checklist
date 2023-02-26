@@ -17,11 +17,16 @@
     <div class="container mx-auto overflow-hidden">
         <div class="mt-2 mb-2 w-full">
 
-            <NuxtLink to="/" class="btn-option block float-left">Item Checklist</NuxtLink>
+            <NuxtLink :to="`/${route.params.game}/`" class="btn-option block float-left">Item Checklist</NuxtLink>
 
-            <NuxtLink to="/entrances" class="btn-option block float-left">Entrances</NuxtLink>
+            <NuxtLink v-if="appState.selectedGame.hasEntranceRando" :to="`/${route.params.game}/entrances`"
+                class="btn-option block float-left">Entrances</NuxtLink>
 
-            <NuxtLink to="/notes" class="btn-option block float-left">Notes</NuxtLink>
+            <NuxtLink :to="`/${route.params.game}/notes`" class="btn-option block float-left">Notes</NuxtLink>
+
+            <NuxtLink v-if="appState.selectedGame.resources && appState.selectedGame.resources.length > 0"
+                :to="`/${route.params.game}/resources`" class="btn-option block float-left">Resources</NuxtLink>
+
             <dropdown class="mr-1 my-1 float-right" v-model="selectedGame" :items="appState.games" @update="updateGame"
                 toggler-class="rounded-full py-1 px-4 hover:bg-orange-800 bg-orange-600 text-white"
                 toggler-text="Select game">
@@ -30,7 +35,7 @@
         </div>
     </div>
 
-    <div class="container mx-auto" :class="{'overflow-none': !isTauri(), 'overflow-y-scroll scrollbar': isTauri()}"
+    <div class="container mx-auto" :class="{ 'overflow-none': !isTauri(), 'overflow-y-scroll scrollbar': isTauri() }"
         :style="{ height: `${windowHeight}px` }">
         <slot />
     </div>
@@ -40,27 +45,13 @@
 import { appWindow } from '@tauri-apps/api/window';
 
 const appState = useAppState();
+const route = useRoute();
 const selectedGame = ref();
 const windowHeight = ref(window.innerHeight - 80);
 
-await loadGameInfo();
-
-//TODO: save previous selected game
-let previousGame = localStorage.getItem("zeldoTrackdo");
-if(previousGame) 
-    selectedGame.value = JSON.parse(previousGame);
-else
-    selectedGame.value = appState.value.games[0];
-
-appState.value.selectedGame = selectedGame.value;
-let stored = localStorage.getItem(appState.value.selectedGame.dir);
-if (stored) {
-    appState.value = JSON.parse(stored);
-}
-else {
-    await loadGame(appState.value.selectedGame);
-}
-
+// initial load
+await loadGameInfoData();
+await loadGame(route.params.game)
 
 onMounted(async () => {
     if (isTauri()) {
@@ -80,23 +71,40 @@ onMounted(async () => {
 });
 
 async function updateGame(data) {
-    save();
+    await loadGame(data.item.dir);
+    navigateTo(
+        {
+            path: `/${data.item.dir}/`,
+        });
+}
 
-    appState.value.regions = [];
-    appState.value.selectedGame = data.item;
-
-    let stored = localStorage.getItem(selectedGame.value.dir);
-    if (stored) {
-        appState.value = JSON.parse(stored);
+async function loadGame(game) {
+    selectedGame.value = appState.value.games.find(x => x.dir == game);
+    if (!selectedGame.value) {
+        // error
+        throw createError({ 
+            statusCode: 404, 
+            statusMessage: 'Page Not Found',
+            fatal: true
+         });
     }
     else {
-        await loadGameInfo();
-        await loadGame(selectedGame.value);
+        appState.value.regions = [];
+        appState.value.selectedGame = selectedGame;
+
+        let stored = localStorage.getItem(appState.value.selectedGame.dir); // check for existing save
+        if (stored) {
+            appState.value = JSON.parse(stored);
+        }
+        else { // otherwise load fresh from json files
+            await loadGameInfoData();
+            await loadGameData(appState.value.selectedGame);
+        }
     }
 }
 
-
 </script>
+
 <style>
 /* width */
 .scrollbar::-webkit-scrollbar {

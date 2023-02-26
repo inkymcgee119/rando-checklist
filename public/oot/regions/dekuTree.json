@@ -28,22 +28,29 @@
       "count": 2
     },
     {
+      "title": "Second floor Room",
+      "type": "gs",
+      "tags": [
+        "vanilla"
+      ]
+    },
+    {
+      "title": "Walk the plank",
+      "type": "rupee",
+      "tags": [
+        "vanilla"
+      ]
+    },
+    {
+      "title": "Leap down",
+      "type": "rupee",
+      "tags": [
+        "vanilla"
+      ]
+    },
+    {
       "title": "Basement",
       "type": "item",
-      "tags": [
-        "vanilla"
-      ]
-    },
-    {
-      "title": "Queen Gohma",
-      "type": "boss",
-      "tags": [
-        "vanilla"
-      ]
-    },
-    {
-      "title": "Compass Room",
-      "type": "gs",
       "tags": [
         "vanilla"
       ]
@@ -70,26 +77,19 @@
       ]
     },
     {
-      "title": "Walk the plank",
-      "type": "rupee",
-      "tags": [
-        "vanilla"
-      ]
-    },
-    {
-      "title": "Leap down",
-      "type": "rupee",
-      "tags": [
-        "vanilla"
-      ]
-    },
-    {
       "title": "Water before boss",
       "type": "rupee",
       "tags": [
         "vanilla"
       ],
       "count": 3
+    },
+    {
+      "title": "Queen Gohma",
+      "type": "boss",
+      "tags": [
+        "vanilla"
+      ]
     },
     {
       "title": "Lobby",
@@ -99,81 +99,8 @@
       ]
     },
     {
-      "title": "First floor Room",
-      "type": "item",
-      "tags": [
-        "mq"
-      ]
-    },
-    {
-      "title": "Second floor Room",
-      "type": "item",
-      "tags": [
-        "mq"
-      ],
-      "count": 2
-    },
-    {
-      "title": "Basement, switch",
-      "type": "item",
-      "tags": [
-        "mq"
-      ]
-    },
-    {
-      "title": "Water platform room chest",
-      "type": "item",
-      "tags": [
-        "mq"
-      ]
-    },
-    {
-      "title": "Water platform room, song of time",
-      "type": "item",
-      "tags": [
-        "mq"
-      ]
-    },
-    {
-      "title": "Queen Gohma",
-      "type": "boss",
-      "tags": [
-        "mq"
-      ]
-    },
-    {
       "title": "Under crate in lobby",
       "type": "gs",
-      "tags": [
-        "mq"
-      ]
-    },
-    {
-      "title": "First floor room, behind rock",
-      "description": "Use song of time",
-      "type": "gs",
-      "tags": [
-        "mq"
-      ]
-    },
-    {
-      "title": "Basement, grave room, ceiling",
-      "description": "Use song of time",
-      "type": "gs",
-      "tags": [
-        "mq"
-      ]
-    },
-    {
-      "title": "Basement, back room",
-      "type": "gs",
-      "tags": [
-        "mq"
-      ]
-    },
-    {
-      "title": "Scrub near gohma's hole",
-      "type": "scrub",
       "tags": [
         "mq"
       ]
@@ -201,6 +128,87 @@
       ]
     },
     {
+      "title": "Lobby",
+      "type": "crate",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "First floor Room",
+      "type": "item",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "First floor room, behind rock",
+      "description": "Use song of time",
+      "type": "gs",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Second floor Room",
+      "type": "item",
+      "tags": [
+        "mq"
+      ],
+      "count": 2
+    },
+    {
+      "title": "Second floor room",
+      "type": "crate",
+      "tags": [
+        "mq"
+      ],
+      "count": 2
+    },
+    {
+      "title": "Basement, switch",
+      "type": "item",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Water platform room chest",
+      "type": "item",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Water platform room, song of time",
+      "type": "item",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Basement, grave room, ceiling",
+      "description": "Use song of time",
+      "type": "gs",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Basement, back room",
+      "type": "gs",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Scrub near gohma's hole",
+      "type": "scrub",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
       "title": "Second floor room",
       "type": "rupee",
       "tags": [
@@ -216,19 +224,11 @@
       "count": 3
     },
     {
-      "title": "Lobby",
-      "type": "crate",
+      "title": "Queen Gohma",
+      "type": "boss",
       "tags": [
         "mq"
       ]
-    },
-    {
-      "title": "Second floor room",
-      "type": "crate",
-      "tags": [
-        "mq"
-      ],
-      "count": 2
     }
   ]
 }

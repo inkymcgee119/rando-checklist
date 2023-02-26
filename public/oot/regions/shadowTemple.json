@@ -11,11 +11,27 @@
             ]
         },
         {
+            "title": "Whispering walls, redead room",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
             "title": "Whispering walls, deadhand",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
+        },
+        {
+            "title": "Whispering walls",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 7
         },
         {
             "title": "Gibdos room",
@@ -40,12 +56,51 @@
             "count": 2
         },
         {
+            "title": "Invisible blade room",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Invisible blade room",
+            "description": "Use song of time to reach",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
             "title": "Falling spike room",
             "type": "item",
             "tags": [
                 "vanilla"
             ],
             "count": 3
+        },
+        {
+            "title": "Falling spike room",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Falling spike room, lower",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Falling spike room, upper",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
         },
         {
             "title": "Invisible floor spikes room",
@@ -57,6 +112,13 @@
         {
             "title": "Skull room",
             "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Skull room",
+            "type": "gs",
             "tags": [
                 "vanilla"
             ]
@@ -83,73 +145,22 @@
             ]
         },
         {
-            "title": "Invisible maze, invisible floormaster",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Invisible maze, spike trap",
-            "type": "item",
+            "title": "Fan area, gibdos room",
+            "type": "pot",
             "tags": [
                 "vanilla"
             ],
-            "count": 2
+            "count": 4
         },
         {
-            "title": "Bongo Bongo",
-            "type": "boss",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Invisible spinning blade room",
+            "title": "Before boat, scarecrow song",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Falling spike room",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Skull room",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Before the boat, scarecrow song",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Triple skull room",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Invisible blade room",
-            "description": "Use song of time to reach",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Before boat",
+            "title": "Before boat, scarecrow song",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -165,59 +176,41 @@
             "count": 3
         },
         {
+            "title": "After boat",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Invisible maze, invisible floormaster",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Invisible maze, spike trap",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Triple skull room",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
             "title": "Triple skull room",
             "type": "rupee",
             "tags": [
                 "vanilla"
             ],
             "count": 9
-        },
-        {
-            "title": "Whispering walls",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 7
-        },
-        {
-            "title": "Whispering walls, redead room",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Falling spike room, lower",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Falling spike room, upper",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Fan area, gibdos room",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 4
-        },
-        {
-            "title": "After boat",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ]
         },
         {
             "title": "Spike trap room",
@@ -243,11 +236,50 @@
             "count": 2
         },
         {
+            "title": "Bongo Bongo",
+            "type": "boss",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Truth spinner",
+            "type": "crate",
+            "tags": [
+                "mq"
+            ],
+            "count": 4
+        },
+        {
+            "title": "Whispering walls, before SoT",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 4
+        },
+        {
             "title": "Whispering walls, redead room",
             "type": "item",
             "tags": [
                 "mq"
             ]
+        },
+        {
+            "title": "Whispering walls, redead room",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Whispering walls, after SoT",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
         },
         {
             "title": "Whispering walls, deadhand",
@@ -292,6 +324,14 @@
             ]
         },
         {
+            "title": "Invisible blade room",
+            "type": "rupee",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
             "title": "Silver rupees around the beamos",
             "type": "item",
             "tags": [
@@ -305,6 +345,29 @@
                 "mq"
             ],
             "count": 3
+        },
+        {
+            "title": "Falling spike room",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Falling spikes, lower",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Falling spikes, upper",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
         },
         {
             "title": "Invisible floor spikes room",
@@ -328,6 +391,13 @@
             ]
         },
         {
+            "title": "Fan area, end room",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
             "title": "Fan area, gibdos room, kill enemies",
             "type": "item",
             "tags": [
@@ -340,6 +410,59 @@
             "tags": [
                 "mq"
             ]
+        },
+        {
+            "title": "Fan area, gibdos room, debris",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Fan area, gibdos room",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 4
+        },
+        {
+            "title": "Before boat",
+            "type": "rupee",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "After boat, in the pit",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "After boat, lower",
+            "type": "rupee",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "After boat, upper",
+            "type": "rupee",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "After boat",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
         },
         {
             "title": "Invisible maze, deadhand",
@@ -364,157 +487,12 @@
             "count": 2
         },
         {
-            "title": "Bongo Bongo",
-            "type": "boss",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Falling spike room",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Fan section, redead room",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Fan section, gibdos room, debris",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "After boat, in the pit",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Room before Bongo Bongo",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Invisible blade room",
-            "type": "rupee",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Before boat",
-            "type": "rupee",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "After boat, lower",
-            "type": "rupee",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "After boat, upper",
-            "type": "rupee",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
             "title": "Triple spinning pot",
             "type": "rupee",
             "tags": [
                 "mq"
             ],
             "count": 9
-        },
-        {
-            "title": "Truth spinner",
-            "type": "crate",
-            "tags": [
-                "mq"
-            ],
-            "count": 4
-        },
-        {
-            "title": "Whispering walls, before SoT",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 4
-        },
-        {
-            "title": "Whispering walls, after SoT",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Whispering walls, redead",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Falling spikes, lower",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Falling spikes, upper",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Fan area, gibdos room",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 4
-        },
-        {
-            "title": "After boat",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Near boss",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
         },
         {
             "title": "Invisible maze, deadhand 2",
@@ -527,6 +505,28 @@
         {
             "title": "Invisible maze, spike walls",
             "type": "pot",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Near boss",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Room before Bongo Bongo",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bongo Bongo",
+            "type": "boss",
             "tags": [
                 "mq"
             ]

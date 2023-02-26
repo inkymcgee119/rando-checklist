@@ -3,41 +3,6 @@
     "bgColor": "#1d4ed8",
     "locations": [
         {
-            "title": "Ice arrow chest",
-            "type": "item",
-            "tags": []
-        },
-        {
-            "title": "Boss heart container",
-            "type": "everything",
-            "tags": []
-        },
-        {
-            "title": "Boss remains",
-            "type": "item",
-            "tags": []
-        },
-        {
-            "title": "Outside red valve room",
-            "type": "dungeon",
-            "tags": []
-        },
-        {
-            "title": "Near boss key chest",
-            "type": "dungeon",
-            "tags": []
-        },
-        {
-            "title": "Near boss key chest, underwater",
-            "type": "dungeon",
-            "tags": []
-        },
-        {
-            "title": "Boss key chest",
-            "type": "dungeon",
-            "tags": []
-        },
-        {
             "title": "Entrance torches",
             "type": "fairies",
             "tags": []
@@ -53,7 +18,13 @@
             "tags": []
         },
         {
-            "title": "Whirlpool, jar",
+            "title": "Control room, left side ledge",
+            "count": 5,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Whirlpool, pot",
             "type": "fairies",
             "tags": []
         },
@@ -63,8 +34,29 @@
             "tags": []
         },
         {
-            "title": "Jar outside red valve room",
+            "title": "Ice arrow chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Outside red valve room",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Pot outside red valve room",
             "type": "fairies",
+            "tags": []
+        },
+        {
+            "title": "Red valve, barrels",
+            "count": 2,
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Red valve, crate",
+            "type": "fixed",
             "tags": []
         },
         {
@@ -73,22 +65,38 @@
             "tags": []
         },
         {
-            "title": "Near boss key, dexihands jar",
+            "title": "Near boss key",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Near boss key, underwater",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Near boss key, dexihands pot",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Green valve, chest above",
+            "title": "Near boss key, dexihands",
+            "count": 2,
+            "type": "rupee",
+            "tags": []
+        },
+        {
+            "title": "Boss key chest",
+            "type": "dungeon",
+            "tags": []
+        },
+        {
+            "title": "Waterwheel, torch hookshot",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Room before boss, bubble",
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Room before boss, underwater tunnel",
+            "title": "Waterwheel, above",
             "type": "fairies",
             "tags": []
         },
@@ -103,29 +111,17 @@
             "tags": []
         },
         {
-            "title": "Waterwheel, torch hookshot",
+            "title": "Seasaw room, pot",
+            "type": "fixed",
+            "tags": []
+        },
+        {
+            "title": "Green pump, chest above",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Waterwheel, above",
-            "type": "fairies",
-            "tags": []
-        },
-        {
-            "title": "Control room, left side ledge",
-            "count": 5,
-            "type": "rupee",
-            "tags": []
-        },
-        {
-            "title": "Near boss key, dexihands",
-            "count": 2,
-            "type": "rupee",
-            "tags": []
-        },
-        {
-            "title": "Green pump",
+            "title": "Green pump rupees",
             "count": 2,
             "type": "rupee",
             "tags": []
@@ -137,19 +133,23 @@
             "tags": []
         },
         {
-            "title": "Red valve barrels",
-            "count": 2,
-            "type": "fixed",
+            "title": "Room before boss, bubble",
+            "type": "fairies",
             "tags": []
         },
         {
-            "title": "Red valve crate",
-            "type": "fixed",
+            "title": "Room before boss, underwater tunnel",
+            "type": "fairies",
             "tags": []
         },
         {
-            "title": "Seasaw room, pot",
-            "type": "fixed",
+            "title": "Boss heart container",
+            "type": "everything",
+            "tags": []
+        },
+        {
+            "title": "Boss remains",
+            "type": "item",
             "tags": []
         }
     ]

@@ -4,21 +4,37 @@
     "hasMQ": true,
     "locations": [
         {
-            "title": "Front left invisible wall",
+            "title": "Near entrance",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Left side, basement exit",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Front left fake wall",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Right side invisible wall",
+            "title": "Right side fake wall",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Left side invisible wall",
+            "title": "Left side fake wall",
             "type": "item",
             "tags": [
                 "vanilla"
@@ -32,11 +48,48 @@
             ]
         },
         {
-            "title": "Left side, Coffin Room",
+            "title": "Center, left key door",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Center, right key door",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Center room, flying pots",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Near lullaby, after draining",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Left side, coffin room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
+        },
+        {
+            "title": "Left side, coffin room",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
         },
         {
             "title": "Bombable debris, front",
@@ -47,13 +100,6 @@
         },
         {
             "title": "Bombable debris, back left",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Basement, behind rocks",
             "type": "item",
             "tags": [
                 "vanilla"
@@ -88,6 +134,48 @@
             ]
         },
         {
+            "title": "Back right room, like like",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Back right room, fire keese",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
+        
+        
+        {
+            "title": "Center, fall onto platform",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 5
+        },
+        {
+            "title": "Basement, behind rocks",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Basement",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 12
+        },
+
+
+        {
             "title": "Invisible chest in deadhand room",
             "type": "item",
             "tags": [
@@ -101,88 +189,19 @@
                 "vanilla"
             ]
         },
+
+
+
+
+
+
         {
-            "title": "Center, left key door",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Center, right key door",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Back right room, like like",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Left side, coffin room",
+            "title": "Bombable debris, front",
             "type": "rupee",
             "tags": [
-                "vanilla"
+                "mq"
             ],
             "count": 2
-        },
-        {
-            "title": "Fall into pit, platform",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 5
-        },
-        {
-            "title": "Near entrance",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Left side, basement exit",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Center room, flying pots",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Near lullaby, after draining",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Back right room, fire keese",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Basement",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 12
         },
         {
             "title": "Center area chest",
@@ -192,11 +211,66 @@
             ]
         },
         {
+            "title": "Center area",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 3
+        },
+        {
             "title": "Center, right room",
             "type": "item",
             "tags": [
                 "mq"
             ]
+        },
+        {
+            "title": "Center, right room",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Center, left room, under gravestone",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+
+        {
+            "title": "Left side, coffin room",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Left side, coffin room",
+            "type": "rupee",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+
+        {
+            "title": "Basement, end of tunnel",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Basement, end of tunnel",
+            "type": "rupee",
+            "tags": [
+                "mq"
+            ],
+            "count": 3
         },
         {
             "title": "Basement chest",
@@ -219,67 +293,6 @@
             "tags": [
                 "mq"
             ]
-        },
-        {
-            "title": "Left side, coffin room",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Basement, end of the tunnel",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Center, left room, under gravestone",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Bombable debris, front",
-            "type": "rupee",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Left side, coffin room",
-            "type": "rupee",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Basement, end of tunnel",
-            "type": "rupee",
-            "tags": [
-                "mq"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Center area",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Center, right room",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 3
         }
     ]
 }

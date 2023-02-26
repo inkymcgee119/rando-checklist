@@ -4,6 +4,52 @@
     "hasMQ": true,
     "locations": [
         {
+            "title": "Ruto room",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Bottom path, wiggler room",
+            "description": "This is the rear door in the room you meet Ruto that you normally wouldn't enter.",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 4
+        },
+        {
+            "title": "Bottom path, switch room",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bottom path, switch room",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Elevator room, dive under wall",
+            "type": "scrub",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Elevator room, small crate",
+            "type": "crate",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
             "title": "Tentacle area, right room",
             "type": "item",
             "tags": [
@@ -25,22 +71,8 @@
             ]
         },
         {
-            "title": "Barinade",
-            "type": "boss",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Bottom path, switch room",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Ruto room",
-            "type": "gs",
+            "title": "After miniboss",
+            "type": "pot",
             "tags": [
                 "vanilla"
             ],
@@ -54,43 +86,11 @@
             ]
         },
         {
-            "title": "Elevator room, dive under wall",
-            "type": "scrub",
+            "title": "Barinade",
+            "type": "boss",
             "tags": [
                 "vanilla"
             ]
-        },
-        {
-            "title": "Elevator room, small crate",
-            "type": "crate",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Bottom path, switch room",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Bottom path, wiggler room",
-            "description": "This is the rear door in the room you meet Ruto that you normally wouldn't enter.",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 4
-        },
-        {
-            "title": "After miniboss",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
         },
         {
             "title": "Barinade",
@@ -115,6 +115,14 @@
             ]
         },
         {
+            "title": "First room",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
             "title": "Elevator room, bottom",
             "type": "item",
             "tags": [
@@ -136,85 +144,6 @@
             ]
         },
         {
-            "title": "Bottom path, switch room chest",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Bottom path, switch room enemies",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Ruto room",
-            "type": "item",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Tentacle area, back right room",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Room before Barinade",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Barinade",
-            "type": "boss",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Bottom path, switch room SoT block",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Tentacle area, back left room",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Ruto room, room behind tentacle",
-            "description": "This is the rear door in the room you meet Ruto that you normally wouldn't enter.",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Room before Barinade",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Room after miniboss",
-            "type": "cow",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
             "title": "Evevator room, dive under wall",
             "type": "rupee",
             "tags": [
@@ -231,7 +160,7 @@
             "count": 2
         },
         {
-            "title": "First room",
+            "title": "Elevator room, dive under wall",
             "type": "pot",
             "tags": [
                 "mq"
@@ -239,12 +168,41 @@
             "count": 2
         },
         {
-            "title": "Elevator room, dive under wall",
-            "type": "pot",
+            "title": "Ruto room",
+            "type": "item",
             "tags": [
                 "mq"
             ],
             "count": 2
+        },
+        {
+            "title": "Ruto room, room behind tentacle",
+            "description": "This is the rear door in the room you meet Ruto that you normally wouldn't enter.",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bottom path, switch room chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bottom path, switch room enemies",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bottom path, switch room SoT block",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
         },
         {
             "title": "Bottom path, switch room",
@@ -255,6 +213,13 @@
             "count": 2
         },
         {
+            "title": "Tentacle area, back right room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
             "title": "Tentacle area, back right",
             "type": "pot",
             "tags": [
@@ -263,10 +228,45 @@
             "count": 2
         },
         {
+            "title": "Tentacle area, back left room",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Room after miniboss",
+            "type": "cow",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Room before Barinade",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Room before Barinade",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Barinade",
+            "type": "boss",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
             "title": "Barinade",
             "type": "pot",
             "tags": [
-                "vanilla"
+                "mq"
             ],
             "count": 6
         }

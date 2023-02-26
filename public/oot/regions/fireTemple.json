@@ -11,6 +11,15 @@
             ]
         },
         {
+            "title": "Room before volvagia",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        
+        {
             "title": "Entrance loop, flame dancer",
             "type": "item",
             "tags": [
@@ -24,6 +33,14 @@
                 "vanilla"
             ]
         },
+        {
+            "title": "Entrance loop, back right room",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
         {
             "title": "Bridge room, goron room on left",
             "type": "item",
@@ -39,6 +56,31 @@
             ]
         },
         {
+            "title": "Bridge room, room on left side",
+            "description": "Use song of time",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bridge room, left side",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Elevator room, on fence",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 3
+        },
+
+        {
             "title": "Boulder maze lower, left side",
             "type": "item",
             "tags": [
@@ -53,12 +95,38 @@
             ]
         },
         {
-            "title": "Chest in lava wall room",
+            "title": "Boulder maze, bombable wall",
+            "type": "gs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
+        {
+            "title": "Narrow path room",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 3
+        },
+
+        {
+            "title": "Chest in moving fire wall room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
+        {
+            "title": "Moving fire wall room",
+            "type": "rupee",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 3
+        },
+
         {
             "title": "Boulder maze upper, goron",
             "type": "item",
@@ -73,60 +141,11 @@
                 "vanilla"
             ]
         },
+
         {
             "title": "Scarecrow chest",
             "description": "Use scarecrow's song to hookshot up to elevator, chest is at the end of the path",
             "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Firewall maze, room on right",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Firewall maze, center room",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Hammer chest",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Volvagia",
-            "type": "boss",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Entrance loop, back right room",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Bridge room, room on left side",
-            "description": "Use song of time",
-            "type": "gs",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Boulder maze, bombable wall",
-            "type": "gs",
             "tags": [
                 "vanilla"
             ]
@@ -141,44 +160,18 @@
             "count": 2
         },
         {
-            "title": "Elevator room, on fence",
-            "type": "rupee",
+            "title": "Fire wall maze, room on right",
+            "type": "item",
             "tags": [
                 "vanilla"
-            ],
-            "count": 3
+            ]
         },
         {
-            "title": "Room after boulder maze",
-            "type": "rupee",
+            "title": "Fire wall maze, center room",
+            "type": "item",
             "tags": [
                 "vanilla"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Moving fire wall room",
-            "type": "rupee",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Room before volvagia",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Bridge room, left side",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 3
+            ]
         },
         {
             "title": "Fire wall maze, left",
@@ -197,12 +190,66 @@
             "count": 4
         },
         {
+            "title": "Hammer chest",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Volvagia",
+            "type": "boss",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
+
+
+
+
+        
+        {
+            "title": "Lobby",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
             "title": "Room before volvagia",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
+        {
+            "title": "Before volvagia, left",
+            "type": "crate",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Before volvagia, right",
+            "type": "crate",
+            "tags": [
+                "mq"
+            ],
+            "count": 4
+        },
+        {
+            "title": "Before volvagia, right",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+
+
         {
             "title": "Entrance loop, left room",
             "type": "item",
@@ -211,11 +258,12 @@
             ]
         },
         {
-            "title": "Entrance loop, left room, in cage",
-            "type": "item",
+            "title": "Entrance loop, iron knuckle",
+            "type": "pot",
             "tags": [
                 "mq"
-            ]
+            ],
+            "count": 4
         },
         {
             "title": "Entrance loop, flame dancer",
@@ -225,64 +273,25 @@
             ]
         },
         {
+            "title": "Entrance loop, boss key",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Entrance loop, boss key",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ]
+        },
+
+
+
+        {
             "title": "Bridge room, left room",
             "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Bridge room, right room",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Boulder maze lower, crate",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Boulder maze lower, bombable wall",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Boulder maze upper, crate",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Boulder maze upper, down the hole",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Upper flame dancer, under elevator",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Former hammer chest",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Volvagia",
-            "type": "boss",
             "tags": [
                 "mq"
             ]
@@ -294,6 +303,119 @@
                 "mq"
             ]
         },
+        {
+            "title": "Bridge room, left side",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Bridge room, right room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bridge room, right side",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ]
+        },
+
+
+        {
+            "title": "Elevator room, on fence",
+            "type": "rupee",
+            "tags": [
+                "mq"
+            ],
+            "count": 3
+        },
+
+
+
+        
+        {
+            "title": "Lizafos maze lower, bombable wall",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },{
+            "title": "Lizafos maze lower, crate",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },        
+        {
+            "title": "Lizafos maze, lower",
+            "type": "crate",
+            "tags": [
+                "mq"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Lizafos maze, upper",
+            "type": "crate",
+            "tags": [
+                "mq"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Lizafos maze upper, crate",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Lizafos maze upper, down the hole",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Lizafos maze, down the hole",
+            "type": "crate",
+            "tags": [
+                "mq"
+            ],
+            "count": 6
+        },
+
+        {
+            "title": "Former lava wall chase",
+            "type": "crate",
+            "tags": [
+                "mq"
+            ],
+            "count": 5
+        },
+        {
+            "title": "Former lava wall chase",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Narrow path room",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+
         {
             "title": "Former scarecrow song area",
             "type": "gs",
@@ -314,116 +436,6 @@
             "tags": [
                 "mq"
             ]
-        },
-        {
-            "title": "Path down from hammer room",
-            "type": "gs",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Elevator room, on fence",
-            "type": "rupee",
-            "tags": [
-                "mq"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Before volvagia, left",
-            "type": "crate",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Before volvagia, right",
-            "type": "crate",
-            "tags": [
-                "mq"
-            ],
-            "count": 4
-        },
-        {
-            "title": "Lizafos maze, lower",
-            "type": "crate",
-            "tags": [
-                "mq"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Lizafos maze, upper",
-            "type": "crate",
-            "tags": [
-                "mq"
-            ],
-            "count": 3
-        },
-        {
-            "title": "Lizafos maze, down hole",
-            "type": "crate",
-            "tags": [
-                "mq"
-            ],
-            "count": 6
-        },
-        {
-            "title": "Former lava wall chase",
-            "type": "crate",
-            "tags": [
-                "mq"
-            ],
-            "count": 5
-        },
-        {
-            "title": "Lobby",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Before volvagia, right",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Bridge, left",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Bridge, right",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Narrow path room",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Former lava wall chase",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
         },
         {
             "title": "Flame maze, upper right",
@@ -449,16 +461,29 @@
             ]
         },
         {
-            "title": "Iron knuckle room",
-            "type": "pot",
+            "title": "Upper flame dancer, under elevator",
+            "type": "item",
             "tags": [
                 "mq"
-            ],
-            "count": 4
+            ]
         },
         {
-            "title": "Boss key chest",
-            "type": "pot",
+            "title": "Former hammer chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Path down from hammer room",
+            "type": "gs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Volvagia",
+            "type": "boss",
             "tags": [
                 "mq"
             ]
