@@ -6,9 +6,10 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "build-docker": "docker build -t zeldo-tracker .",
+    "build-docker": "docker build -t zeldo-trackdo .",
     "tauri": "tauri",
-    "electron-start": "electron ."
+    "tauri-dev": "tauri dev",
+    "tauri-build": "tauri build"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.2.0",
@@ -17,6 +18,7 @@
     "nuxt-icon": "^0.2.0"
   },
   "dependencies": {
-    "@tauri-apps/api": "1.1.0"
+    "@tauri-apps/api": "1.1.0",
+    "serve": "^14.2.0"
   }
 }

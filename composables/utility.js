@@ -4,13 +4,13 @@ import { resolveResource } from '@tauri-apps/api/path';
 import { readTextFile } from '@tauri-apps/api/fs';
 
 export function save(key, value) {
-    if(key && value)
+    if (key && value)
         localStorage.setItem(key, JSON.stringify(value));
 }
 
 export async function reset() {
     let appState = useAppState();
-    
+
     localStorage.removeItem(appState.value.selectedGame.dir);
 
     await loadGameInfoData();
@@ -55,6 +55,8 @@ export async function loadGameInfoData() {
 }
 
 export async function loadGameData(gameInfo) {
+
+    //await wait(5000);
     let appState = useAppState();
     let dirPrefix = "../";
 
@@ -90,14 +92,15 @@ export async function loadGameData(gameInfo) {
         }
 
         // set default options
-        for(let locType of Object.getOwnPropertyNames(appState.value.locationTypes)) {
-            if(appState.value.locationTypes[locType].isDefault)
+        for (let locType of Object.getOwnPropertyNames(appState.value.locationTypes)) {
+            if (appState.value.locationTypes[locType].isDefault)
                 appState.value.options[locType] = true;
         }
     }
     catch (ex) {
         throw ("Error loading json files.")
     }
+
 }
 
 
@@ -106,4 +109,10 @@ export function stringCompareCaseInsensitive(a, b) {
         return false;
 
     return a.toUpperCase() == b.toUpperCase();
+}
+
+function wait(milliseconds) {
+    return new Promise(resolve => {
+        setTimeout(resolve, milliseconds);
+    });
 }

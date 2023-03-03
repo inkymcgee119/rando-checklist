@@ -2,7 +2,7 @@
     <div>
         <!-- header -->
         <div class="rounded-t-md text-xl font-sans font-semibold text-left px-2 text-white"
-            :style="{ background: props.region.bgColor }" v-collapsible-header>
+            :style="{ background: props.region.bgColor }" v-collapsible-header @click="clickHeader(region)">
 
             {{ props.region.name }} <span v-if="props.region.hasMQ && props.region.showMQ">MQ</span>
             <button v-if="props.region.hasMQ" class="" @click.stop="clickMQ(region)">
@@ -22,7 +22,7 @@
         </div>
 
         <!-- items -->
-        <div>
+        <div class="overflow-hidden" :style="regionStyle">
             <div v-for="(loc, idx) in props.region.locations" :key="loc.description" class="flex flex-row cursor-pointer"
                 :class="{ 'border-b-2 border-slate-300': idx < props.region.locations.length - 1, 'bg-yellow-400': loc.isStarred }"
                 @click="clickLocation(loc)" @contextmenu.prevent="rightClickLocation(loc)">
@@ -58,8 +58,20 @@
 const appState = useAppState();
 const props = defineProps(["region"]);
 
+const regionStyle = ref('');
+onMounted(() => {
+    if(props.region.isCollapsed)
+        regionStyle.value = "max-height: 0px";
+});
+
 function clickLocation(loc) {
     loc.isChecked = !loc.isChecked;
+    save(appState.value.selectedGame.dir, appState.value);
+}
+
+function clickHeader(region) {
+    let r = appState.value.regions.find((reg) => stringCompareCaseInsensitive(reg.name, region.name));
+    r.isCollapsed = !r.isCollapsed;
     save(appState.value.selectedGame.dir, appState.value);
 }
 
@@ -72,6 +84,7 @@ function rightClickLocation(loc) {
 function clickMQ(region) {
     let r = appState.value.regions.find((reg) => stringCompareCaseInsensitive(reg.name, region.name));
     r.showMQ = !r.showMQ;
+    save(appState.value.selectedGame.dir, appState.value);
 }
 
 

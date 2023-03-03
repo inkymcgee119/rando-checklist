@@ -3,7 +3,8 @@
         "name": "item",
         "description": "Base Items",
         "icon": "game-icons:chest",
-        "hasFilter": true
+        "hasFilter": true,
+        "isDefault": true
     },
     "everything": {
         "name": "everything",

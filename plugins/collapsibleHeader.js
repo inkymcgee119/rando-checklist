@@ -1,7 +1,7 @@
 export default defineNuxtPlugin((nuxtApp) => {
     nuxtApp.vueApp.directive('collapsibleHeader',
         {
-            mounted(el) {
+            mounted(el, binding) {
                 el.style.cursor = "pointer";
                 
                 el.addEventListener('click', (e) => {
@@ -15,10 +15,12 @@ export default defineNuxtPlugin((nuxtApp) => {
 
                     // hack, delay to handle the maxheight not being initially set
                     setTimeout(() => {
-                        if (currentTarget.nextElementSibling.style.maxHeight != "0px")
+                        if (currentTarget.nextElementSibling.style.maxHeight != "0px") {
                             currentTarget.nextElementSibling.style.maxHeight = "0px";
-                        else
+                        }
+                        else {
                             currentTarget.nextElementSibling.style.maxHeight = `${currentTarget.nextElementSibling.scrollHeight}px`;
+                        }
                     }, 10);
                 });
             }

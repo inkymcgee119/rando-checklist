@@ -5,7 +5,7 @@ export const columnsEntrances = ref(1);
 
 export const useAppState = () => useState("appState", () => ({    
     games: [],
-    selectedGame: {},
+    selectedGame: null,
     notes: "",
     options: { },
     tagFilters: { },
