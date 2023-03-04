@@ -1,7 +1,7 @@
 <template>
     <div v-if="isTauri()" data-tauri-drag-region class="titlebar">
         <div class="float-left mx-2 mt-1" data-tauri-drag-region>
-            <Icon name="game-icons:ocarina" data-tauri-drag-region></Icon> Zeldo Rando Trackdo
+            <Icon name="game-icons:triforce" data-tauri-drag-region></Icon> Zeldo: Randomizer Checklist
         </div>
         <div class="titlebar-button float-right" id="titlebar-close">
             <Icon name="mdi:close" />

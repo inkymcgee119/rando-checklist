@@ -8,7 +8,7 @@
 
         
         <p>Zeldo is a simple checklist for randomizer.</p>
-        <p v-if="!isTauri()">Customizable desktop app available here.</p>
+        <p v-if="!isTauri()">Customizable desktop app available <a class="underline text-blue-700" href="https://github.com/inkymcgee119/zeldo-checklist/releases" target="_blank">here</a></p>
 
 
         <p class="mt-4">Select a game</p>
