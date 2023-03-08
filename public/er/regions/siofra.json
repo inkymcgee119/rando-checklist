@@ -1,0 +1,47 @@
+{
+    "name": "Siofra River",
+    "bgColor": "#0d9488",
+    "locations": [
+        {
+            "title": "Ancestor Spirit",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Crucible Knight (Greatsword)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Crucible Knight (Spear)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Crucible Knight (Greatsword)",
+            "type": "elite",
+            "description": "Teleport from The Four Belfries",
+            "tags": []
+        },
+        {
+            "title": "Dragonkin Soldier",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Mimic Tear",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Regal Ancestor Spirit",
+            "type": "rememberance",
+            "tags": []
+        },
+        {
+            "title": "Valiant Gargoyle Duo",
+            "type": "boss",
+            "tags": []
+        }
+    ]
+}

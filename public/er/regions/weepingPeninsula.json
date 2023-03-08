@@ -1,0 +1,61 @@
+{
+    "name": "Weeping Peninsula",
+    "bgColor": "#854d0e",
+    "locations": [
+        {
+            "title": "Ancient Hero of Zamor",
+            "type": "boss",
+            "tags": ["evergoal"]
+        },
+        {
+            "title": "Cementery Shade (Tombsward Catacombs)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Deathbird",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Erdtree Avatar",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Erdtree Burial Watchdog (Impaler's Catacombs)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Golem, bow (Castle Morne)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Leonine Misbegotten (Castle Morne)",
+            "type": "boss",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Miranda the Blighted Bloom (Tombsward Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Night's Calvary",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Runebear (Earthbore Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Scaly Misbegotten (Morne Tunnel)",
+            "type": "boss",
+            "tags": ["mine"]
+        }
+    ]
+}

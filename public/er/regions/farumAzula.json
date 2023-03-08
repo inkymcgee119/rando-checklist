@@ -1,0 +1,76 @@
+{
+    "name": "Crumbling Farum Azula",
+    "bgColor": "#7c3aed",
+    "locations": [
+        {
+            "title": "Alexander, Warrior-Jar",
+            "type": "npc",
+            "tags": []
+        },
+        {
+            "title": "Ancient Dragon",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Ancient Dragon 2",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Ancient Dragon 3",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Ancient Dragon 4",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Ancient Dragon 5",
+            "type": "elite",
+            "tags": []
+        },{
+            "title": "Crucible Knight (Greatsword) (Dragon Temple Rooftop)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Crucible Knight (Greatsword) (Boltdrake Talisman +2)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Draconic Tree Sentinel",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Dragonlord Placidusax",
+            "type": "rememberance",
+            "tags": []
+        },
+        {
+            "title": "Godskin Duo",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Recusant Bernahl",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Maliketh, The Black Blade",
+            "type": "rememberance",
+            "tags": []
+        },
+        {
+            "title": "Wormface",
+            "type": "elite",
+            "tags": []
+        }
+        
+    ]
+}

@@ -134,9 +134,8 @@ async function loadGame(game) {
         else { // otherwise load fresh from json files
             await loadGameInfoData();
             await loadGameData(appState.value.selectedGame);
-
-
         }
+
     }
 }
 

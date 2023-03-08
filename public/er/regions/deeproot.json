@@ -1,0 +1,26 @@
+{
+    "name": "Deeproot Depths",
+    "bgColor": "#713f12",
+    "locations": [        
+        {
+            "title": "Crucible Knight Siluria",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Fia's Champions",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Lichdragon Fortissax",
+            "type": "rememberance",
+            "tags": []
+        },
+        {
+            "title": "Minor Erdtree",
+            "type": "elite",
+            "tags": []
+        }
+    ]
+}

@@ -132,6 +132,32 @@
                 "regions/turtleRock.json",
                 "regions/ganonTower.json"
             ]
+        },
+        {
+            "value": "Elden Ring",
+            "description": "Elden Ring",
+            "icon": "ic:baseline-elderly",
+            "dir": "er",
+            "hasEntranceRando": false,
+            "regions": [
+                "regions/limgrave.json",
+                "regions/weepingPeninsula.json",
+                "regions/liurnia.json",
+                "regions/caelid.json",
+                "regions/dragonbarrow.json",
+                "regions/altus.json",
+                "regions/mtGelmir.json",
+                "regions/leyndellCapital.json",
+                "regions/ainsel.json",
+                "regions/deeproot.json",
+                "regions/siofra.json",
+                "regions/mountaintops.json",
+                "regions/consecratedSnowfield.json",
+                "regions/mohgwyn.json",
+                "regions/farumAzula.json",
+                "regions/leyndellAsh.json",
+                "regions/roundtable.json"
+            ]
         }
     ]
 }

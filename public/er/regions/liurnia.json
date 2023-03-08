@@ -1,0 +1,233 @@
+{
+    "name": "Liurnia of the Lakes",
+    "bgColor": "#2563eb",
+    "locations": [
+        {
+            "title": "Adan, Thief of Fire",
+            "type": "boss",
+            "tags": ["evergoal"]
+        },
+        {
+            "title": "Alabaster Lord",
+            "type": "boss",
+            "tags": ["evergoal"]
+        },
+        {
+            "title": "Alecto, Black Knife Ringleader",
+            "type": "boss",
+            "tags": ["evergoal"]
+        },
+        {
+            "title": "Bell Bearing Hunter (Church of Vows)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Black Knife Assassin (Black Knife Catacombs)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Blaidd the Half-Wolf",
+            "type": "npc",
+            "description": "Ranni's questline",
+            "tags": []
+        },
+        {
+            "title": "Bloodhound Knight (Lakeside Crystal Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Bols, Carian Knight",
+            "type": "boss",
+            "tags": ["evergoal"]
+        },
+        {
+            "title": "Cemetary Shade (Black Knife Catacombs)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Cleanrot Knight (Stillwater Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Crystalian (Raya Lucaria Crystal Tunnel)",
+            "type": "boss",
+            "tags": ["mine"]
+        },
+        {
+            "title": "Crystalian Duo (Academy Crystal Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Deathbird (Scenic Isle)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Death Rite Bird (Academy Gate Town)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Edgar The Revenger",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Erdtree Avatar (Southwest)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Erdtree Avatar (Northeast)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Erdtree Burial Watchdog (Cliffbottom Catacombs)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Festering Fingerprint Vyke",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Glintstone Dragon Adula",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Glintstone Dragon Smarag",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Godskin Noble",
+            "type": "elite",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Golem, bow (Ainsel River Well)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Grafted Scion (Chapel of Anticipation)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Grafted Scion (Fallen Ruins)",
+            "type": "elite",
+            "description": "Disguised as crayfish",
+            "tags": []
+        },
+        {
+            "title": "Great Horned Tragoth",
+            "type": "invasion",
+            "description": "Volcano manor questline",
+            "tags": ["mine"]
+        },
+        {
+            "title": "Magma Wyrm Makar (Ruin-strewn Precipice)",
+            "type": "boss",
+            "tags": ["mine"]
+        },
+        {
+            "title": "Moongrum, Carian Knight",
+            "type": "npc",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Moonlight altar dragons x3",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Night's Calvary (Bellum Highway Forest)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Night's Calvary (Gate Town Bridge)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Omenkiller",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Preceptor Miriam",
+            "type": "npc",
+            "tags": []
+        },
+        {
+            "title": "Preceptor Miriam (inverted)",
+            "type": "npc",
+            "tags": []
+        },
+        {
+            "title": "Ravenmount Assassin",
+            "type": "invasion",
+            "description": "Yura questline",
+            "tags": []
+        },
+        {
+            "title": "Red Wolf of Radagon",
+            "type": "boss",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Red Wolf (Behind Caria Manor)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Red Wolf (Moonlight Altar)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Rennala, Queen of the Full Moon",
+            "type": "rememberance",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Royal Knight Loretta",
+            "type": "boss",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Royal Revenant (Kingsrealm  Ruins)",
+            "type": "boss",
+            "tags": ["ruin"]
+        },
+        {
+            "title": "Sorceress Sellen or Witch Hunter Jerren",
+            "type": "invasion",
+            "description": "Sellen questline",
+            "tags": []
+        },
+        {
+            "title": "Spirit-Caller Snail (Road's End Catacombs)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Tibia Mariner",
+            "type": "boss",
+            "tags": []
+        }       
+        
+        
+    ]
+}

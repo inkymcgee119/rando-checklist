@@ -1,0 +1,131 @@
+{
+    "name": "Leyndell, The Capital",
+    "bgColor": "#65a30d",
+    "locations": [
+
+
+        {
+            "title": "Bell Bearing Hunter (Hermit Merchant)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Black Knife Assassin (Queen's Bedchamber)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Crucible Knight Ordovis and Crucible Knight (Auriza's Hero)",
+            "type": "boss",
+            "tags": ["grave"]
+        },
+        {
+            "title": "Crucible Knight (Spear) (Avenue Balcony)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Crucible Knight (Spear) (Down from Erdtree Sanctuary)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Deathbird (Leyndell North)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Draconic Tree Sentinel (Inner Leyndell Entrance)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Erdtree Avatar (Leyndell Main Road)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Esgar, Priest of Blood Leyndell Catacombs)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Godfrey, First Elden Lord (Erdtree Sanctuary)",
+            "type": "boss",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Gargoyle (West Capital Rampart)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Golem, halberd (Divine Bridge)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Grave Warden Duelist (Auriza Side Tomb)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Fell Twins Duo (Divine Tower)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Loathesome Dung Eater (Leyndell North)",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Lion Guardian (Avenue Balcony)",
+            "type": "elite",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Onyx Lord (Sealed Tunnel)",
+            "type": "boss",
+            "tags": ["mine"]
+        },        
+        {
+            "title": "Margit, the Fell Omen (Leyndell West)",
+            "type": "elite",
+            "description": "Disguised as wondering noble",
+            "tags": []
+        },
+        {
+            "title": "Mohg, the Omen (Cathedral of the Forsaken)",
+            "type": "boss",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Morgott, the Omen King (The Elden Throne)",
+            "type": "rememberance",
+            "tags": ["dungeon"]
+        },        
+        {
+            "title": "Twinblade Gargoyle (Lendell Entrance)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Ulcerated Tree Spirit (Leyndell West)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Ulcerated Tree Spirit (Lower Capital Church)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Vargram & Wilhelm (Fortified Manor)",
+            "type": "invasion",
+            "description": "Volcano manor questline",
+            "tags": []
+        }
+
+    ]
+}

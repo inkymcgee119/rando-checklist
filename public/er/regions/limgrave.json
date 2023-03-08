@@ -1,0 +1,168 @@
+{
+    "name": "Limgrave",
+    "bgColor": "#4d7c0f",
+    "locations": [
+        {
+            "title": "Anastasia, Tarnished Eater",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Beastman of Farum Azula (Groveside Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Bell Bearing Hunter",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Black Knife Assassin (Deathtouched Catacombs)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Bloody Finger Nerijus",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Bloodhound Knight Darriwil",
+            "type": "boss",
+            "tags": ["evergoal"]
+        },
+        {
+            "title": "Crucible Knight",
+            "type": "boss",
+            "tags": ["evergoal"]
+        },
+        {
+            "title": "Crucible Knight (Stormveil)",
+            "type": "elite",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Deathbird",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Demi-Human Chief Duo (Coastal Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Erdtree Burial Watchdog (Stormfoot Catacombs)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Flying Dragon Agheel",
+            "type": "boss",
+            "tags": []
+        },        
+        {
+            "title": "Godrick The Grafted",
+            "type": "rememberance",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Golem, halberd (Stormhill)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Grafted Scion (Stormveil)",
+            "type": "elite",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Grafted Scion (Fringefolk Hero's Grave)",
+            "type": "elite",
+            "tags": ["grave"]
+        },
+        {
+            "title": "Grave Warden Duelist (Murkwater Catacombs)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Guardian Golem (Highroad Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Lion Guardian (Stormveil Castle)",
+            "type": "elite",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Mad Pumpkin Head (Waypoint Ruins)",
+            "type": "boss",
+            "tags": ["ruin"]
+        },
+        {
+            "title": "Margit, The Fell Omen",
+            "type": "boss",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Night's Calvary",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Old Knight Istvan",
+            "type": "invasion",
+            "description": "Volcano manor questline",
+            "tags": []
+        },
+        {
+            "title": "Patches (Murkwater Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Recusant Henricus",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Runebear (East of the Agheel Lake South)",
+            "type": "elite",
+            "description": "Disguised as Wondering Noble",
+            "tags": []
+        },
+        {
+            "title": "Soldier of Godrick (Stranded Graveyard)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Stonedigger Troll (Limgrave Tunnels)",
+            "type": "boss",
+            "tags": ["mine"]
+        },
+        {
+            "title": "Tibia Mariner",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Tree Sentinel",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Ulcerated Tree Spirit (Fringefolk Hero's Grave)",
+            "type": "boss",
+            "tags": ["grave"]
+        },
+        {
+            "title": "Ulcerated Tree Spirit (Stormveil)",
+            "type": "elite",
+            "tags": ["dungeon"]
+        }
+    ]
+}

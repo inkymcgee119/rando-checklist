@@ -1,0 +1,94 @@
+{
+    "name": "Mt. Gelmir and Volcano Manor",
+    "bgColor": "#dc2626",
+    "locations": [
+        {
+            "title": "Abductor Virgin Duo (Volcano Manor)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Anastasia, Tarnished Eater (Corpse-Stenched Shack)",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Demi-Human Queen Maggie (Hermit Village)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Demi-Human Queen Margot (Volcano Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Fire Prelate (Fort Laiedd)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Full-Grown Fallingstar Beast (Ninth Mt. Gelmir)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Godskin Noble (Volcano Manor)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Grafted Scion (North. Mt. Gelmir)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Inquisitor Ghiza (Volcano Manor)",
+            "type": "invasion",
+            "tags": []
+        },
+
+        {
+            "title": "Kindred of Rot Duo (Seethewater Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Magma Wyrm (South of Fort Laiedd)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Magma Wyrm (Volcano Manor)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Red Wolf of the Champion (Gelmir Hero)",
+            "type": "boss",
+            "tags": ["grave"]
+        },        
+        {
+            "title": "Rykard, Lord of Blasphemy (Volcano Manor)",
+            "type": "rememberance",
+            "tags": []
+        },
+        {
+            "title": "Tanith's Crucible Knight (Volcano Manor)",
+            "type": "invasion",
+            "description": "After defeating Rykard return to the arena and attack Tanith.",
+            "tags": []
+        },
+        {
+            "title": "Ulcerated Tree Spirit (Minor Erdtree)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Wormface (Road of Iniquity)",
+            "type": "elite",
+            "description": "Disguised as a Burning Putrid Corpse",
+            "tags": []
+        }
+    ]
+}

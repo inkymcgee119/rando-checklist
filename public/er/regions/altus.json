@@ -1,0 +1,141 @@
+{
+    "name": "Altus Plateau",
+    "bgColor": "#f59e0b",
+    "locations": [
+        {
+            "title": "Ancient Dragon Lansseax",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Ancient Hero of Zamor (Sainted Hero's Grave)",
+            "type": "boss",
+            "tags": ["grave"]
+        },
+        {
+            "title": "Black Knife Assassin (Sage's Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Black Knife Assassin (Sainted Hero's Grave)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Crystalian Duo (Altus Tunnel)",
+            "type": "boss",
+            "tags": ["mine"]
+        },
+        {
+            "title": "Demi-Human Queen Gilika (Lux Ruins)",
+            "type": "boss",
+            "tags": ["ruin"]
+        },
+        {
+            "title": "Elemer of the Briar (Shaded Castle)",
+            "type": "boss",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Eleonora, Violet Bloody Finger",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Erdtree Burial Watchdog (Wyndham Catacomb)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Fallingstar Beast",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Godefroy The Grafted",
+            "type": "boss",
+            "tags": ["evergoal"]
+        },
+        {
+            "title": "Godskin Apostle",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Lion Guardian (Ruins near Windmill Village)",
+            "type": "elite",
+            "description": "Disguised as Wondering Noble",
+            "tags": []
+        },
+        {
+            "title": "Necromancer Garris (Sage's Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Night's Calvary (Altus Highway)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Magnus the Beast Claw (Writheblood Ruins)",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Malformed Star (Perfurmer's Grotto)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Maleigh Marais, Shaded Castle Castellan",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Misbegotten Warrior & Perfumer Tricia (Unsightly Catacombs)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Omenkiller & Miranda the Blighted Bloom (Perfurmer's Grotto)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Rileigh The Idle",
+            "type": "invasion",
+            "description": "Volcano manor questline",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Sanguine Noble (Writheblood Ruins)",
+            "type": "boss",
+            "tags": ["ruin"]
+        },
+        {
+            "title": "Stonedigger Troll (Old Altus Tunnel)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+
+        {
+            "title": "Tibia Mariner (Wyndham)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Tree Sentinel Duo (Leyndell Entrance)",
+            "type": "boss",
+            "tags": []
+        },
+        
+        {
+            "title": "Wormface",
+            "type": "boss",
+            "tags": []
+        }
+        
+    ]
+}

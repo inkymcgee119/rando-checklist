@@ -1,0 +1,22 @@
+{
+    "name": "Mohgwyn Palace",
+    "bgColor": "#c026d3",
+    "locations": [
+        {
+            "title": "Nameless White Mask Trio",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "White-Faced Varre",
+            "type": "invasion",
+            "description": "Varre's questline",
+            "tags": []
+        },
+        {
+            "title": "Mohg, Lord of Blood",
+            "type": "rememberance",
+            "tags": []
+        }
+    ]
+}

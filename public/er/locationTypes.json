@@ -1,0 +1,33 @@
+{
+    "boss": {
+        "name": "boss",
+        "description": "Boss",
+        "icon": "material-symbols:skull",
+        "hasFilter": true,
+        "isDefault": true
+    },
+    "invasion": {
+        "name": "invasion",
+        "description": "Invader/Invasion",
+        "icon": "bx:bxs-invader",
+        "hasFilter": true
+    },
+    "npc": {
+        "name": "npc",
+        "description": "Hostile NPC",
+        "icon": "material-symbols:person",
+        "hasFilter": true
+    },
+    "elite": {
+        "name": "elite",
+        "description": "Perma-dead Enemies",
+        "icon": "mdi:sword",
+        "hasFilter": true
+    },
+    "rememberance": {
+        "name": "rememberance",
+        "description": "Rememberance",
+        "icon": "game-icons:daemon-skull",
+        "filterWith": "boss"
+    }
+}

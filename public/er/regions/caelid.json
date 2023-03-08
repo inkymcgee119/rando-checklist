@@ -1,0 +1,96 @@
+{
+    "name": "Caelid",
+    "bgColor": "#c2410c",
+    "locations": [
+        {
+            "title": "Cemetary Shade (Caelid Catacombs)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Commander O'Neil (Aeonia Swamp)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Death Ride Bird (Southern Aaeonia Swamp)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Decaying Ekzykes (Caelid Highway South)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Erdtree Burial Watchdog Duo (Minor Erdtree Catacombs)",
+            "type": "boss",
+            "tags": ["catacomb"]
+        },
+        {
+            "title": "Fallingstar Beast (Sellia Tunnel)",
+            "type": "boss",
+            "tags": ["mine"]
+        },
+        {
+            "title": "Frenzied Duelist (Gaol Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Lion Guardian (Fort Gael)",
+            "type": "elite",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Lion Guardian x2 (Redmane)",
+            "type": "elite",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Mad Pumpkin Head Duo (Caelem Ruins Underground)",
+            "type": "boss",
+            "tags": ["ruin"]
+        },
+        {
+            "title": "Magma Wyrm (Gael Tunnel)",
+            "type": "boss",
+            "tags": ["mine"]
+        },
+        {
+            "title": "Millicent (Aeonia Swamp)",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Misbegotten Warrior & Crucible Knight (Redmane)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Night's Calvary (Caelid Highway South)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Nox Swordstress & Nox Priest (Chair-Crypt of Sellia)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Putrid Avatar",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Starscourge Radahn (Redmane)",
+            "type": "rememberance",
+            "tags": []
+        },
+        {
+            "title": "Troll Knight",
+            "type": "elite",
+            "tags": []
+        }
+    ]
+}

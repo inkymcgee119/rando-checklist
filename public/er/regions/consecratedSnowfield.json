@@ -1,0 +1,86 @@
+{
+    "name": "Consecrated Snowfield",
+    "bgColor": "#94a3b8",
+    "locations": [
+        {
+            "title": "Anastasia, Tarnished-Eater",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Astel, Stars of Darkness",
+            "type": "boss",
+            "tags": ["mine"]
+        },
+        {
+            "title": "Black Knife Assassin 4x (Ordina)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Death Rite Bird",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Great Wyrm Theodorix",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Loretta, Knight of the Haligtree",
+            "type": "boss",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Malena, Blade of Miquella (Haligtree)",
+            "type": "rememberance",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Millicent/Sisters x3 (Haligtree)",
+            "type": "invasion",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Misbegotten Crusader (Cave of the Forlorn)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Night's Calvary Duo (Snowfields Wagon)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Putrid Avatar (Minor Erdtree)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Putrid Avatar x2 (Elphael)",
+            "type": "elite",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Putrid Grave Warden Duelist (Consecrated Snowfield Catacombs)",
+            "type": "boss",
+            "tags": ["catacombs"]
+        },
+        {
+            "title": "Putrid Tree Spirit (Elphael)",
+            "type": "elite",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Sanguine Noble",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Stray Mimic Tear (Hidden Path to the Haligtree)",
+            "type": "boss",
+            "tags": ["catacombs"]
+        }
+    ]
+}

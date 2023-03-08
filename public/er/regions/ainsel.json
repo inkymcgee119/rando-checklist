@@ -1,0 +1,42 @@
+{
+    "name": "Ainsel River & Lake of Rot",
+    "bgColor": "#0891b2",
+    "locations": [        
+        {
+            "title": "Astel, Naturalborn of the Void",
+            "type": "rememberance",
+            "tags": []
+        },
+        {
+            "title": "Baleful Shadow",
+            "type": "invasion",
+            "description": "Ranni's questline",
+            "tags": []
+        },
+        {
+            "title": "Dragonkin Soldier of Nokstella",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Dragonkin Soldier (Lake of Rot)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Malformed Star (Uhi Palace Ruins)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Malformed Star (Ainsel River)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Putrid Tree Spirit (Grand Cloister)",
+            "type": "elite",
+            "tags": []
+        }
+    ]
+}

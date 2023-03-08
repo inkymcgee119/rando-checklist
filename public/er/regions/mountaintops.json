@@ -1,0 +1,89 @@
+{
+    "name": "Mountaintops of the Giants",
+    "bgColor": "#be185d",
+    "locations": [        
+        {
+            "title": "Ancient Hero of Zamor (Giant-Conquering Hero's Grave)",
+            "type": "boss",
+            "tags": ["grave"]
+        },
+        {
+            "title": "Black Blade Kindred",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Bloody Finger Okina",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Borealis the Freezing Fog",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Chief Guardian Arghanthy",
+            "type": "npc",
+            "tags": []
+        },
+        {
+            "title": "Commander Niall",
+            "type": "boss",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Death Ride Bird",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Erdtree Avatar (East Minor)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Fire Giant",
+            "type": "rememberance",
+            "tags": []
+        },
+        {
+            "title": "Juno Hoslow",
+            "type": "invasion",
+            "description": "Volcano manor questline",
+            "tags": []
+        },
+        {
+            "title": "Lion Guardian x2 (Castle Sol)",
+            "type": "elite",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Night's Calvary (Forbidden Lands)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Spirit-Caller Snail (Spiritcaller's Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Tibia Mariner",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Ulcerated Tree Spirit (Giant's Mountaintop Catacombs)",
+            "type": "boss",
+            "tags": ["catacombs"]
+        },
+        {
+            "title": "Vyke, Knight of the Roundtable",
+            "type": "boss",
+            "tags": ["evergoal"]
+        }
+        
+        
+    ]
+}

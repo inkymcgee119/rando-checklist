@@ -1,0 +1,44 @@
+{
+    "cave": {
+        "name": "cave",
+        "description": "Cave",
+        "icon": "game-icons:underground-cave",
+        "hasFilter": true
+    },
+    "mine": {
+        "name": "mine",
+        "description": "Mine",
+        "icon": "bi:minecart-loaded",
+        "hasFilter": true
+    },
+    "catacomb": {
+        "name": "catacomb",
+        "description": "Catacomb",
+        "icon": "mdi:tunnel-outline",
+        "hasFilter": true
+    },
+    "dungeon": {
+        "name": "dungeon",
+        "description": "Dungeon",
+        "icon": "material-symbols:castle",
+        "hasFilter": true
+    },
+    "ruin": {
+        "name": "ruin",
+        "description": "Ruin",
+        "icon": "mdi:pillar",
+        "hasFilter": true
+    },
+    "grave": {
+        "name": "grave",
+        "description": "Hero's Grave",
+        "icon": "mdi:grave-stone",
+        "hasFilter": true
+    },
+    "night": {
+        "name": "night",
+        "description": "Night",
+        "icon": "bi:moon-fill",
+        "hasFilter": true
+    }
+}

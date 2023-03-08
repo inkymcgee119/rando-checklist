@@ -1,0 +1,31 @@
+{
+    "name": "Leyndell, Captial of Ash",
+    "bgColor": "#71717a",
+    "locations": [
+        {
+            "title": "Gargoyle",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Godfrey / Hoarah Loux",
+            "type": "rememberance",
+            "tags": []
+        },
+        {
+            "title": "Putrid Tree Spirit Trio",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Radagon / Elden Beast",
+            "type": "rememberance",
+            "tags": []
+        },
+        {
+            "title": "Sir Gideon Ofnir",
+            "type": "boss",
+            "tags": []
+        }
+    ]
+}

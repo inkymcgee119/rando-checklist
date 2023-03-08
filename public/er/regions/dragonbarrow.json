@@ -1,0 +1,73 @@
+{
+    "name": "Dragonbarrow",
+    "bgColor": "#134e4a",
+    "locations": [
+
+
+        {
+            "title": "Battlemage Hugues (Sellia Evergaol)",
+            "type": "boss",
+            "tags": ["evergoal"]
+        },
+        {
+            "title": "Beastman of Farum Azula Duo (Dragonbarrow Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Bell Bearing Hunter (Isolated Merchant Shack)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Black Blade Kindred (Bestial Sanctum)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Cleanrot Knight Duo (Abandoned Cave)",
+            "type": "boss",
+            "tags": ["cave"]
+        },
+        {
+            "title": "Elder Dragon Greyoll (Outside Fort Faroth)",
+            "type": "elite",
+            "tags": []
+        },
+        {
+            "title": "Flying Dragon Greyll (Farum Greatbridge)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Godskin Apostle (Divine Tower)",
+            "type": "boss",
+            "tags": ["dungeon"]
+        },
+        {
+            "title": "Knights of the Great Jar (Caelid Colosseum)",
+            "type": "invasion",
+            "tags": []
+        },
+        {
+            "title": "Night's Calvary (Lenne's Rise Bridge)",
+            "type": "boss",
+            "tags": ["night"]
+        },
+        {
+            "title": "Putrid Avatar (East Minor)",
+            "type": "boss",
+            "tags": []
+        },
+        {
+            "title": "Putrid Crystallian Trio (Sellia Hideaway)",
+            "type": "boss",
+            "tags": ["cave"]
+        },        
+        {
+            "title": "Putrid Tree Spirit (War-Dead Catacombs)",
+            "type": "boss",
+            "tags": []
+        }
+    ]
+}
