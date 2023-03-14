@@ -44,12 +44,20 @@
                 "regions/spiritTemple.json",
                 "regions/ganonCastle.json",
                 "regions/warpSongs.json"
-            ]
+            ],
+            "columns": {
+                "sm": 1,
+                "md": 2,
+                "lg": 3,
+                "xl": 4,
+                "xxl": 5,
+                "xxxl": 6 
+            }
         },
         {
             "value": "Majora's Mask",
             "description": "Majora's Mask",
-            "icon": "carbon:face-mask",
+            "icon": "game-icons:tribal-mask",
             "dir": "mm",
             "hasEntranceRando": true,
             "regions": [
@@ -106,7 +114,15 @@
                     "description": "Beneath the well shopping list",
                     "url": "https://www.zeldadungeon.net/wiki/Beneath_the_Well"
                 }
-            ]
+            ],
+            "columns": {
+                "sm": 1,
+                "md": 2,
+                "lg": 3,
+                "xl": 4,
+                "xxl": 5,
+                "xxxl": 6 
+            }
         },
         {
             "value": "A Link to the Past",
@@ -131,12 +147,20 @@
                 "regions/miseryMire.json",
                 "regions/turtleRock.json",
                 "regions/ganonTower.json"
-            ]
+            ],
+            "columns": {
+                "sm": 1,
+                "md": 2,
+                "lg": 3,
+                "xl": 4,
+                "xxl": 5,
+                "xxxl": 6 
+            }
         },
         {
             "value": "Elden Ring",
             "description": "Elden Ring",
-            "icon": "ic:baseline-elderly",
+            "icon": "icon-park-outline:ring",
             "dir": "er",
             "hasEntranceRando": false,
             "regions": [
@@ -157,7 +181,15 @@
                 "regions/farumAzula.json",
                 "regions/leyndellAsh.json",
                 "regions/roundtable.json"
-            ]
+            ],
+            "columns": {
+                "sm": 1,
+                "md": 1,
+                "lg": 2,
+                "xl": 3,
+                "xxl": 4,
+                "xxxl": 4 
+            }
         }
     ]
 }

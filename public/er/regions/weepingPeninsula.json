@@ -48,6 +48,11 @@
             "tags": ["night"]
         },
         {
+            "title": "Oynx Lord (Near Oridys' Rise)",
+            "type": "elite",
+            "tags": []
+        },
+        {
             "title": "Runebear (Earthbore Cave)",
             "type": "boss",
             "tags": ["cave"]

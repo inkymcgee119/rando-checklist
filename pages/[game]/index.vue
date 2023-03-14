@@ -124,17 +124,17 @@ function assignColumnNumber(width) {
 
     // responsive sizes configured in tailwind
     if (width >= 2058)
-        columns.value = 6;
+        columns.value = appState.value.selectedGame?.columns?.xxxl ?? 6; //3xl
     else if (width >= 1715)
-        columns.value = 5;
+        columns.value = appState.value.selectedGame?.columns?.xxl ?? 5; //2xl
     else if (width >= 1372)
-        columns.value = 4;
+        columns.value = appState.value.selectedGame?.columns?.xl ?? 4; //xl
     else if (width >= 1029)
-        columns.value = 3;
+        columns.value = appState.value.selectedGame?.columns?.lg ?? 3; //lg
     else if (width >= 686)
-        columns.value = 2;
+        columns.value = appState.value.selectedGame?.columns?.md ?? 2; //md
     else
-        columns.value = 1;
+        columns.value = appState.value.selectedGame?.columns?.sm ?? 1; //sm
 
     if (columns.value != prevColNum) {
         assignRegionCardColumns(columns.value);
