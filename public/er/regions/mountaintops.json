@@ -1,94 +1,51 @@
 {
     "name": "Mountaintops of the Giants",
     "bgColor": "#be185d",
-    "locations": [        
+    "locations": [
         {
-            "title": "Ancient Hero of Zamor (Giant-Conquering Hero's Grave)",
-            "type": "boss",
-            "tags": ["grave"]
+            "type": "key",
+            "title": "Haligtree Secret Medallion (Left)",
+            "description": "Atop a tower after defeating Commander Niall"
         },
         {
-            "title": "Black Blade Kindred",
-            "type": "boss",
-            "tags": []
+            "type": "major",
+            "title": "Commander Niall in Castle Sol"
         },
         {
-            "title": "Bloody Finger Okina",
-            "type": "invasion",
-            "tags": []
+            "type": "flask",
+            "title": "First Church of Marika at the southmost end of Freezing Lake"
         },
         {
-            "title": "Borealis the Freezing Fog",
-            "type": "boss",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed south of the Freezing Lake Site of Grace"
         },
         {
-            "title": "Chief Guardian Arghanthy",
-            "type": "npc",
-            "tags": []
+            "type": "shop",
+            "title": "Hermit Merchant along a cliffside to the west of Stargazer's Ruins"
         },
         {
-            "title": "Commander Niall",
-            "type": "boss",
-            "tags": ["dungeon"]
+            "type": "minor",
+            "title": "Borealis the Freezing Fog"
         },
         {
-            "title": "Death Ride Bird",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Roundtable Knight Vyke in the Lord Contender's Evergaol"
         },
         {
-            "title": "Erdtree Avatar (East Minor)",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Erdtree Avatar Duo"
         },
         {
-            "title": "Fire Giant",
-            "type": "rememberance",
-            "tags": []
+            "type": "minor",
+            "title": "Death Rite Bird on the way from Snow Valley Ruins Overlook to Castle Sol"
         },
         {
-            "title": "Golem, bow (Bridge to Snow Valley)",
-            "type": "elite",
-            "tags": []
+            "type": "miniboss",
+            "title": "Giants' Mountaintop Catacombs, Ulcerated Tree Spirit"
         },
         {
-            "title": "Juno Hoslow",
-            "type": "invasion",
-            "description": "Volcano manor questline",
-            "tags": []
-        },
-        {
-            "title": "Lion Guardian x2 (Castle Sol)",
-            "type": "elite",
-            "tags": ["dungeon"]
-        },
-        {
-            "title": "Night's Calvary (Forbidden Lands)",
-            "type": "boss",
-            "tags": ["night"]
-        },
-        {
-            "title": "Spirit-Caller Snail (Spiritcaller's Cave)",
-            "type": "boss",
-            "tags": ["cave"]
-        },
-        {
-            "title": "Tibia Mariner",
-            "type": "elite",
-            "tags": []
-        },
-        {
-            "title": "Ulcerated Tree Spirit (Giant's Mountaintop Catacombs)",
-            "type": "boss",
-            "tags": ["catacombs"]
-        },
-        {
-            "title": "Vyke, Knight of the Roundtable",
-            "type": "boss",
-            "tags": ["evergoal"]
+            "type": "miniboss",
+            "title": "Spiritcaller Cave, Spiritcaller Snail (Godskin Summoner)"
         }
-        
-        
     ]
 }

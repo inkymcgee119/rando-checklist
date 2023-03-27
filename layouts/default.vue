@@ -46,7 +46,7 @@
                 <div>Loading</div>
 
             </div>
-            <slot v-if="!isLoading" />
+            <slot class="pb-5" v-if="!isLoading" />
         </div>
 
     </div>

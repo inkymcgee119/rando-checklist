@@ -1,0 +1,33 @@
+{
+    "name": "Volcano Manor",
+    "bgColor": "#be123c",
+    "locations": [
+        {
+            "type": "key",
+            "title": "Drawing Room Key",
+            "description": "Given by Tanith upon joining Volcano Manor, or in her chair after defeating Rykard"
+        },
+        {
+            "type": "major",
+            "title": "Godskin Noble"
+        },
+        {
+            "type": "major",
+            "title": "Rykard"
+        },
+        {
+            "type": "minor",
+            "title": "Abductor Virgins"
+        },
+        {
+            "type": "tali",
+            "title": "Dagger Talisman",
+            "description": "From an Imp Statue barrier in the building with the Sending Gate to Audience Pathway, enter the dark room with hanging cages, drop off immediately to the right, and enter through a narrow crevice"
+        },
+        {
+            "type": "tali",
+            "title": "Crimson Amber Medallion +1",
+            "description": "Sealed by an Imp Statue all the way down the path from Prison Town Church"
+        }
+    ]
+}

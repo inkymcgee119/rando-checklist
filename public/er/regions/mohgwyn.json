@@ -1,22 +1,23 @@
 {
-    "name": "Mohgwyn Palace",
-    "bgColor": "#c026d3",
+    "name": "Mohgwyn",
+    "bgColor": "#f472b6",
     "locations": [
         {
-            "title": "Nameless White Mask Trio",
-            "type": "invasion",
-            "tags": []
+            "type": "major",
+            "title": "Mohg, Lord of Blood"
         },
         {
-            "title": "White-Faced Varre",
-            "type": "invasion",
-            "description": "Varre's questline",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed tree in the lake of blood"
         },
         {
-            "title": "Mohg, Lord of Blood",
-            "type": "rememberance",
-            "tags": []
+            "type": "shop",
+            "title": "Imprisoned Merchant in the cave"
+        },
+        {
+            "type": "tali",
+            "title": "Haligtree Talisman +2",
+            "description": "Among graves on the southwest cliffside of the lake of blood"
         }
     ]
 }

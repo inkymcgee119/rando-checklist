@@ -3,94 +3,109 @@
     "bgColor": "#c2410c",
     "locations": [
         {
-            "title": "Cemetary Shade (Caelid Catacombs)",
-            "type": "boss",
-            "tags": ["catacomb"]
+            "type": "key",
+            "title": "Imbued Sword Key",
+            "description": "In a chest hidden behind a magical barrier in Sellia, accessed by lighting flames around town"
         },
         {
-            "title": "Commander O'Neil (Aeonia Swamp)",
-            "type": "boss",
-            "tags": []
+            "type": "major",
+            "title": "Starscourge Radahn"
         },
         {
-            "title": "Death Ride Bird (Southern Aaeonia Swamp)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "flask",
+            "title": "Church of the Plague"
         },
         {
-            "title": "Decaying Ekzykes (Caelid Highway South)",
-            "type": "boss",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed tree on the road from Southern Aeonia Swamp Bank to Impassable Greatbridge"
         },
         {
-            "title": "Erdtree Burial Watchdog Duo (Minor Erdtree Catacombs)",
-            "type": "boss",
-            "tags": ["catacomb"]
+            "type": "flask",
+            "title": "Golden Seed tree up the stairs at the north end of Sellia"
         },
         {
-            "title": "Fallingstar Beast (Sellia Tunnel)",
-            "type": "boss",
-            "tags": ["mine"]
+            "type": "shop",
+            "title": "Nomadic Merchant between Astray from Caelid Highway North and Aeonia Swamp Shore"
         },
         {
-            "title": "Frenzied Duelist (Gaol Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "shop",
+            "title": "Nomadic Merchant southwest of southern Aeonia Swamp Bank"
         },
         {
-            "title": "Lion Guardian (Fort Gael)",
-            "type": "elite",
-            "tags": ["dungeon"]
+            "type": "minor",
+            "title": "Commander O'Neil in the Heart of Aeonia"
         },
         {
-            "title": "Lion Guardian x2 (Redmane)",
-            "type": "elite",
-            "tags": ["dungeon"]
+            "type": "minor",
+            "title": "Decaying Ekzykes, south of the Caelid Highway South Site of Grace"
         },
         {
-            "title": "Mad Pumpkin Head Duo (Caelem Ruins Underground)",
-            "type": "boss",
-            "tags": ["ruin"]
+            "type": "minor",
+            "title": "Nox Swordstress and Nox Priest in the Sellia Chair-Crypt"
         },
         {
-            "title": "Magma Wyrm (Gael Tunnel)",
-            "type": "boss",
-            "tags": ["mine"]
+            "type": "minor",
+            "title": "Putrid Avatar down the hill northeast of Smoldering Church"
         },
         {
-            "title": "Millicent (Aeonia Swamp)",
-            "type": "invasion",
-            "tags": []
+            "type": "minor",
+            "title": "Crucible Knight and Misbegotten Warrior at Redmane Castle"
         },
         {
-            "title": "Misbegotten Warrior & Crucible Knight (Redmane)",
-            "type": "boss",
-            "tags": []
+            "type": "miniboss",
+            "title": "Abandoned Cave, Cleanrot Knights"
         },
         {
-            "title": "Night's Calvary (Caelid Highway South)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "miniboss",
+            "title": "Gael Tunnel, Magma Wyrm"
         },
         {
-            "title": "Nox Swordstress & Nox Priest (Chair-Crypt of Sellia)",
-            "type": "boss",
-            "tags": []
+            "type": "miniboss",
+            "title": "Gaol Cave, Grave Warden Duelist"
         },
         {
-            "title": "Putrid Avatar",
-            "type": "boss",
-            "tags": []
+            "type": "miniboss",
+            "title": "Minor Erdtree Catacombs,Erdtree Burial Watchdog Duo"
         },
         {
-            "title": "Starscourge Radahn (Redmane)",
-            "type": "rememberance",
-            "tags": []
+            "type": "miniboss",
+            "title": "Sellia Crystal Tunnel, Fallingstar Beast"
         },
         {
-            "title": "Troll Knight",
-            "type": "elite",
-            "tags": []
+            "type": "miniboss",
+            "title": "War-Dead Catacombs, Putrid Tree Spirit"
+        },
+        {
+            "type": "miniboss",
+            "title": "Caelid Catacombs, Cemetery Shade"
+        },
+        {
+            "type": "night",
+            "title": "Death Rite Bird southeast of Southern Aeonia Swamp Bank Site of Grace"
+        },
+        {
+            "type": "night",
+            "title": "Night's Calvary west of Southern Aeonia Swamp Bank Site of Grace"
+        },
+        {
+            "type": "tali",
+            "title": "Starscourge Heirloom",
+            "description": "In a chest at the top of Fort Gael"
+        },
+        {
+            "type": "tali",
+            "title": "Arrow's Sting Talisman",
+            "description": "In a chest at the top of the tower on the west side of Impassable Greatbridge"
+        },
+        {
+            "type": "tali",
+            "title": "Spelldrake Talisman",
+            "description": "In a chest hidden behind a magical barrier in Sellia"
+        },
+        {
+            "type": "minitali",
+            "title": "Faithful's Canvas Talisman",
+            "description": "Sellia Crystal Tunnel, Guarded by several Kindred of Rot shortly before the area boss"
         }
     ]
 }

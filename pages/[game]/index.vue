@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="pb-64">
         <filters :options="appState.options" :tags="appState.tagFilters" :config="filterConfig"
             @tag-click="filtersTagClick"></filters>
         <div class="my-2 flex flex-row flex-nowrap card-container">

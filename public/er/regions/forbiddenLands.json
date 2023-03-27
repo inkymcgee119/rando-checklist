@@ -1,0 +1,18 @@
+{
+    "name": "Forbidden Lands",
+    "bgColor": "#292524",
+    "locations": [
+        {
+            "type": "flask",
+            "title": "Golden Seed tree in Forbidden Lands before the stairs to the Grand Lift of Rold"
+        },
+        {
+            "type": "minor",
+            "title": "Black Blade Kindred before the Grand Lift of Rold"
+        },
+        {
+            "type": "night",
+            "title": "Night's Calvary on the path"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Academy of Raya Lucaria",
+    "bgColor": "#a855f7",
+    "locations": [
+        {
+            "type": "key",
+            "title": "Dark Moon Ring",
+            "description": "In a chest unlocked by Discarded Palace Key in the Raya Lucaria Grand Library"
+        },
+        {
+            "type": "key",
+            "title": "Imbued Sword Key",
+            "description": "On a robed corpse in the Raya Lucaria rooftop path, accessed by looping around from Debate Parlor by dropping down past the rubble-strewn stairs"
+        },
+        {
+            "type": "major",
+            "title": "Red Wolf of Radagon"
+        },
+        {
+            "type": "major",
+            "title": "Rennala"
+        },
+        {
+            "type": "flask",
+            "title": "Golden Seed tree in the courtyard after Debate Parlor"
+        },
+        {
+            "type": "flask",
+            "title": "Golden Seed tree on a bridge to north of the Main Academy Gate"
+        },
+        {
+            "type": "shop",
+            "title": "Isolated Merchant southeast of Main Academy Gate"
+        },
+        {
+            "type": "tali",
+            "title": "Glintstone Scarab",
+            "description": "In a chest found dropping down in the garden to the left of the elevator to the Grand Library, then up a ladder"
+        },
+        {
+            "type": "tali",
+            "title": "Radagon Icon",
+            "description": "In a chest found on the second floor of Debate Parlor, found by dropping down immediately to the right after Debate Parlor, then up a ladder and through a broken window"
+        },
+        {
+            "type": "tali",
+            "title": "Graven-School Talisman",
+            "description": "In a pile of crystals behind an illusory wall before Debate Parlor on the left, then dropping down to a second room"
+        },
+        {
+            "type": "tali",
+            "title": "Longtail Cat Talisman",
+            "description": "On a corpse at the bottom of the giant rotating lift, guarded by an Iron Virgin"
+        }
+    ]
+}

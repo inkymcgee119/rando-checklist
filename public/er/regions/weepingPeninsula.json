@@ -3,64 +3,73 @@
     "bgColor": "#854d0e",
     "locations": [
         {
-            "title": "Ancient Hero of Zamor",
-            "type": "boss",
-            "tags": ["evergoal"]
+            "type": "major",
+            "title": "Leonine Misbegotten south of Castle Morne"
         },
         {
-            "title": "Cementery Shade (Tombsward Catacombs)",
-            "type": "boss",
-            "tags": ["catacomb"]
+            "type": "flask",
+            "title": "Church of Pilgrimage on the Weeping Peninsula north coast."
         },
         {
-            "title": "Deathbird",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "flask",
+            "title": "Callu Baptismal Church, south of Ailing Village"
         },
         {
-            "title": "Erdtree Avatar",
-            "type": "boss",
-            "tags": []
+            "type": "flask",
+            "title": "Fourth Church of Marika, near the peninsula's west coast"
         },
         {
-            "title": "Erdtree Burial Watchdog (Impaler's Catacombs)",
-            "type": "boss",
-            "tags": ["catacomb"]
+            "type": "flask",
+            "title": "Golden Seed tree straight north of Castle Morne"
         },
         {
-            "title": "Golem, bow (Castle Morne)",
-            "type": "elite",
-            "tags": []
+            "type": "shop",
+            "title": "Isolated Merchant near the southwest shore"
         },
         {
-            "title": "Leonine Misbegotten (Castle Morne)",
-            "type": "boss",
-            "tags": ["dungeon"]
+            "type": "shop",
+            "title": "Nomadic Merchant at Castle Morne Rampart"
         },
         {
-            "title": "Miranda the Blighted Bloom (Tombsward Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "minor",
+            "title": "Ancient Hero of Zamor in the Weeping Evergaol"
         },
         {
-            "title": "Night's Calvary",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "minor",
+            "title": "Erdtree Avatar at the Weeping Peninsula Minor Erdtree"
         },
         {
-            "title": "Oynx Lord (Near Oridys' Rise)",
-            "type": "elite",
-            "tags": []
+            "type": "miniboss",
+            "title": "Earthbore Cave, Runebear"
         },
         {
-            "title": "Runebear (Earthbore Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "miniboss",
+            "title": "Impaler's Catacombs, Erdtree Burial Watchdog"
         },
         {
-            "title": "Scaly Misbegotten (Morne Tunnel)",
-            "type": "boss",
-            "tags": ["mine"]
+            "type": "miniboss",
+            "title": "Morne Tunnel, Scaly Misbegotten"
+        },
+        {
+            "type": "miniboss",
+            "title": "Tombsward Catacombs, Cemetery Shade"
+        },
+        {
+            "type": "miniboss",
+            "title": "Tombsward Cave, Miranda the Blighted Bloom"
+        },
+        {
+            "type": "night",
+            "title": "Deathbird up the hill directly north of Castle Morne"
+        },
+        {
+            "type": "night",
+            "title": "Night's Calvary at Castle Morne Rampart"
+        },
+        {
+            "type": "tali",
+            "title": "Twinblade Talisman",
+            "description": "In a chest found dropping down an open grate past the Behind the Castle Site of Grace in Castle Morne, crossing a bridge, and climbing a tower ladder"
         }
     ]
 }

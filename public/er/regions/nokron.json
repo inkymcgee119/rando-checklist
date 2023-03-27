@@ -1,0 +1,28 @@
+{
+    "name": "Nokron, Eternal City",
+    "bgColor": "#a1a1aa",
+    "locations": [
+        {
+            "type": "major",
+            "title": "Mimic Tear"
+        },
+        {
+            "type": "major",
+            "title": "Regal Ancestor Spirit"
+        },
+        {
+            "type": "major",
+            "title": "Valiant Gargoyles"
+        },
+        {
+            "type": "tali",
+            "title": "Clarifying Horn Charm +1",
+            "description": "In the room before dropping down to the statue and then lake where Dragonkin Soldier is located"
+        },
+        {
+            "type": "tali",
+            "title": "Mottled Necklace +1",
+            "description": "On top of stone beams overlooking the Horned Remains, accessed from a path to the left of Hallowhorn Grounds"
+        }
+    ]
+}

@@ -3,84 +3,59 @@
     "bgColor": "#94a3b8",
     "locations": [
         {
-            "title": "Anastasia, Tarnished-Eater",
-            "type": "invasion",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed tree in Ordina, Liturgical Town"
         },
         {
-            "title": "Astel, Stars of Darkness",
-            "type": "boss",
-            "tags": ["mine"]
+            "type": "flask",
+            "title": "Golden Seed tree in the foggy area northeast of the Consecrated Snowfield Site of Grace"
         },
         {
-            "title": "Black Knife Assassin 4x (Ordina)",
-            "type": "elite",
-            "tags": []
+            "type": "minor",
+            "title": "Great Wyrm Theodrix at the base of the frozen waterfall, east of the Inner Consecrated Snowfield Site of Grace"
         },
         {
-            "title": "Death Rite Bird",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Putrid Avatar at the Consecrated Snowfield Minor Erdtree"
         },
         {
-            "title": "Great Wyrm Theodorix",
-            "type": "boss",
-            "tags": []
+            "type": "miniboss",
+            "title": "Cave of the Forlorn, Misbegotten Crusader"
         },
         {
-            "title": "Loretta, Knight of the Haligtree",
-            "type": "boss",
-            "tags": ["dungeon"]
+            "type": "miniboss",
+            "title": "Yelough Anix Tunnel, Astel, Stars of Darkness"
         },
         {
-            "title": "Malena, Blade of Miquella (Haligtree)",
-            "type": "rememberance",
-            "tags": ["dungeon"]
+            "type": "miniboss",
+            "title": "Consecrated Snowfield Catacombs, Putrid Grave Warden Duelist"
         },
         {
-            "title": "Millicent/Sisters x3 (Haligtree)",
-            "type": "invasion",
-            "tags": ["dungeon"]
+            "type": "miniboss",
+            "title": "Hidden Path to the Haligtree, Stray Mimic Tear"
         },
         {
-            "title": "Misbegotten Crusader (Cave of the Forlorn)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "night",
+            "title": "Death Rite Bird at the north end of the frozen-over river, between Ordina and Apostate Derelict"
         },
         {
-            "title": "Night's Calvary Duo (Snowfields Wagon)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "night",
+            "title": "Dropped by the Night's Calvary Duo near Inner Consecrated Snowfield Site of Grace"
         },
         {
-            "title": "Putrid Avatar (Minor Erdtree)",
-            "type": "boss",
-            "tags": []
+            "type": "tali",
+            "title": "Stalwart Horn Charm +1",
+            "description": "Guarded by Ancestral Followers to the east of Yelough Anix Ruins"
         },
         {
-            "title": "Putrid Avatar x2 (Elphael)",
-            "type": "elite",
-            "tags": ["dungeon"]
+            "type": "minitali",
+            "title": "Spelldrake Talisman +2",
+            "description": "Hidden Path to the Haligtree, up elevator after Stray Mimic Tear. Replaces Spelldrake Talisman +2"
         },
         {
-            "title": "Putrid Grave Warden Duelist (Consecrated Snowfield Catacombs)",
-            "type": "boss",
-            "tags": ["catacombs"]
-        },
-        {
-            "title": "Putrid Tree Spirit (Elphael)",
-            "type": "elite",
-            "tags": ["dungeon"]
-        },
-        {
-            "title": "Sanguine Noble",
-            "type": "invasion",
-            "tags": []
-        },
-        {
-            "title": "Stray Mimic Tear (Hidden Path to the Haligtree)",
-            "type": "boss",
-            "tags": ["catacombs"]
+            "type": "minitali",
+            "title": "Silver Scarab",
+            "description": "Hidden Path to the Haligtree, behind illusory wall, left side of invisible bridge. Replaces Silver Scarab"
         }
     ]
 }

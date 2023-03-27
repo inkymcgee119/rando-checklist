@@ -1,131 +1,42 @@
 {
-    "name": "Leyndell, The Capital",
-    "bgColor": "#65a30d",
+    "name": "Leyndell",
+    "bgColor": "#ca8a04",
     "locations": [
-
-
         {
-            "title": "Bell Bearing Hunter (Hermit Merchant)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "key",
+            "title": "Rold Medallion",
+            "description": "Given by Melania after defeating Morgott"
         },
         {
-            "title": "Black Knife Assassin (Queen's Bedchamber)",
-            "type": "elite",
-            "tags": []
+            "type": "major",
+            "title": "Godfrey, First Elden Lord, in the Erdtree Sanctuary"
         },
         {
-            "title": "Crucible Knight Ordovis and Crucible Knight (Auriza's Hero)",
-            "type": "boss",
-            "tags": ["grave"]
+            "type": "major",
+            "title": "Morgott the Omen King"
         },
         {
-            "title": "Crucible Knight (Spear) (Avenue Balcony)",
-            "type": "elite",
-            "tags": []
+            "type": "minor",
+            "title": "Fell Twins"
         },
         {
-            "title": "Crucible Knight (Spear) (Down from Erdtree Sanctuary)",
-            "type": "elite",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed tree down the hall from West Capital Rampart, up the giant dragon's wing"
         },
         {
-            "title": "Deathbird (Leyndell North)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "tali",
+            "title": "Ritual Shield Talisman",
+            "description": "On a corpse in front of the Coliseum after West Capital Rampart"
         },
         {
-            "title": "Draconic Tree Sentinel (Inner Leyndell Entrance)",
-            "type": "boss",
-            "tags": []
+            "type": "tali",
+            "title": "Blessed Dew Talisman",
+            "description": "In the chest on Divine Bridge"
         },
         {
-            "title": "Erdtree Avatar (Leyndell Main Road)",
-            "type": "elite",
-            "tags": []
-        },
-        {
-            "title": "Esgar, Priest of Blood Leyndell Catacombs)",
-            "type": "boss",
-            "tags": ["catacomb"]
-        },
-        {
-            "title": "Godfrey, First Elden Lord (Erdtree Sanctuary)",
-            "type": "boss",
-            "tags": ["dungeon"]
-        },
-        {
-            "title": "Gargoyle (West Capital Rampart)",
-            "type": "elite",
-            "tags": []
-        },
-        {
-            "title": "Golem, halberd (Divine Bridge)",
-            "type": "elite",
-            "tags": []
-        },
-        {
-            "title": "Grave Warden Duelist (Auriza Side Tomb)",
-            "type": "boss",
-            "tags": ["catacomb"]
-        },
-        {
-            "title": "Fell Twins Duo (Divine Tower)",
-            "type": "boss",
-            "tags": []
-        },
-        {
-            "title": "Loathesome Dung Eater (Leyndell North)",
-            "type": "invasion",
-            "tags": []
-        },
-        {
-            "title": "Lion Guardian (Avenue Balcony)",
-            "type": "elite",
-            "tags": ["dungeon"]
-        },
-        {
-            "title": "Onyx Lord (Sealed Tunnel)",
-            "type": "boss",
-            "tags": ["mine"]
-        },        
-        {
-            "title": "Margit, the Fell Omen (Leyndell West)",
-            "type": "elite",
-            "description": "Disguised as wondering noble",
-            "tags": []
-        },
-        {
-            "title": "Mohg, the Omen (Cathedral of the Forsaken)",
-            "type": "boss",
-            "tags": ["dungeon"]
-        },
-        {
-            "title": "Morgott, the Omen King (The Elden Throne)",
-            "type": "rememberance",
-            "tags": ["dungeon"]
-        },        
-        {
-            "title": "Twinblade Gargoyle (Lendell Entrance)",
-            "type": "elite",
-            "tags": []
-        },
-        {
-            "title": "Ulcerated Tree Spirit (Leyndell West)",
-            "type": "elite",
-            "tags": []
-        },
-        {
-            "title": "Ulcerated Tree Spirit (Lower Capital Church)",
-            "type": "elite",
-            "tags": []
-        },
-        {
-            "title": "Vargram & Wilhelm (Fortified Manor)",
-            "type": "invasion",
-            "description": "Volcano manor questline",
-            "tags": []
+            "type": "tali",
+            "title": "Flamedrake Talisman +1",
+            "description": "At the top of the stairs leading to the Divine Tower of East Altus and Forbidden Lands"
         }
-
     ]
 }

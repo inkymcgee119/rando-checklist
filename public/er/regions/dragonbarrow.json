@@ -2,72 +2,69 @@
     "name": "Dragonbarrow",
     "bgColor": "#134e4a",
     "locations": [
-
-
         {
-            "title": "Battlemage Hugues (Sellia Evergaol)",
-            "type": "boss",
-            "tags": ["evergoal"]
+            "type": "key",
+            "title": "Dectus Medallion (Right)",
+            "description": "In a chest up the first ladder at Fort Faroth"
         },
         {
-            "title": "Beastman of Farum Azula Duo (Dragonbarrow Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "flask",
+            "title": "Golden Seed tree on the road from Farum Greatbridge from Bestial Sanctum"
         },
         {
-            "title": "Bell Bearing Hunter (Isolated Merchant Shack)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "shop",
+            "title": "Isolated Merchant at Isolated Merchant's Shack"
         },
         {
-            "title": "Black Blade Kindred (Bestial Sanctum)",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Battlemage Hugues in the Sellia Evergaol"
         },
         {
-            "title": "Cleanrot Knight Duo (Abandoned Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "minor",
+            "title": "Black Blade Kindred in front of Bestial Sanctum"
         },
         {
-            "title": "Elder Dragon Greyoll (Outside Fort Faroth)",
-            "type": "elite",
-            "tags": []
+            "type": "minor",
+            "title": "Flying Dragon Greyll on Farum Greatbridge"
         },
         {
-            "title": "Flying Dragon Greyll (Farum Greatbridge)",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Putrid Avatar at the Dragonbarrow Minor Erdtree"
         },
         {
-            "title": "Godskin Apostle (Divine Tower)",
-            "type": "boss",
-            "tags": ["dungeon"]
+            "type": "minor",
+            "title": "Divine Tower of Caelid, Godskin Apostle"
         },
         {
-            "title": "Knights of the Great Jar (Caelid Colosseum)",
-            "type": "invasion",
-            "tags": []
+            "type": "miniboss",
+            "title": "Sellia Hideaway, Dropped by Putrid Crystallians"
         },
         {
-            "title": "Night's Calvary (Lenne's Rise Bridge)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "miniboss",
+            "title": "Beastman of Farum Azula"
         },
         {
-            "title": "Putrid Avatar (East Minor)",
-            "type": "boss",
-            "tags": []
+            "type": "night",
+            "title": "Bell Bearing Hunter who invades at Isolated Merchant's Shack"
         },
         {
-            "title": "Putrid Crystallian Trio (Sellia Hideaway)",
-            "type": "boss",
-            "tags": ["cave"]
-        },        
+            "type": "night",
+            "title": "Night's Calvary on the smaller bridge to the east of Farum Greatbridge"
+        },
         {
-            "title": "Putrid Tree Spirit (War-Dead Catacombs)",
-            "type": "boss",
-            "tags": []
+            "type": "tali",
+            "title": "Dragoncrest Shield Talisman",
+            "description": "On a corpse found after doing a long series of dropdowns behind Bestial Sanctum"
+        },
+        {
+            "type": "tali",
+            "title": "Radagon's Soreseal",
+            "description": "On the ground floor of Fort Faroth. Requires ascending to the upper level, descending a ladder to some wooden scaffolding, jumping a gap, and dropping down after a giant rat"
+        },
+        {
+            "type": "minitali",
+            "title": "Bull-Goat's Talisman",
+            "description": "Dragonbarrow Cave, surrounded by wildlife, down a tunnel guarded by a Runebear"
         }
     ]
 }

@@ -1,0 +1,31 @@
+{
+    "name": "Bellum Highway",
+    "bgColor": "#ec4899",
+    "locations": [
+        {
+            "type": "flask",
+            "title": "Church of Inhibition"
+        },
+        {
+            "type": "flask",
+            "title": "Bellum Church"
+        },
+        {
+            "type": "shop",
+            "title": "Nomadic Merchant down the cliffside pathway from Bellum Church"
+        },
+        {
+            "type": "minor",
+            "title": "Erdtree Avatar at the Minor Erdtree south of Frenzied Flame Village in East Liurnia"
+        },
+        {
+            "type": "night",
+            "title": "Night's Calvary between East Raya Lucaria Gate and Bellum Church"
+        },
+        {
+            "type": "tali",
+            "title": "Shabriri's Woe",
+            "description": "In front of a house in Frenzied Flame Village with many soldiers milling about"
+        }
+    ]
+}

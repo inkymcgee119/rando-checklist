@@ -3,231 +3,160 @@
     "bgColor": "#2563eb",
     "locations": [
         {
-            "title": "Adan, Thief of Fire",
-            "type": "boss",
-            "tags": ["evergoal"]
+            "type": "key",
+            "title": "Haligtree Secret Medallion (Right)",
+            "description": "Given by Albus the Albinauric in Village of the Albinauric"
         },
         {
-            "title": "Alabaster Lord",
-            "type": "boss",
-            "tags": ["evergoal"]
+            "type": "key",
+            "title": "Cursemark of Death",
+            "description": "Divine Tower of Liurnia, accessed after traversing Inverted Carian Study Hall"
         },
         {
-            "title": "Alecto, Black Knife Ringleader",
-            "type": "boss",
-            "tags": ["evergoal"]
+            "type": "key",
+            "title": "Academy Glintstone Key",
+            "description": "Guarded by Glintstone Dragon Smarag"
         },
         {
-            "title": "Bell Bearing Hunter (Church of Vows)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "key",
+            "title": "Imbued Sword Key",
+            "description": "In a chest at the topmost of the Belfries"
         },
         {
-            "title": "Black Knife Assassin (Black Knife Catacombs)",
-            "type": "boss",
-            "tags": ["catacomb"]
+            "type": "major",
+            "title": "Royal Knight Loretta"
         },
         {
-            "title": "Blaidd the Half-Wolf",
-            "type": "npc",
-            "description": "Ranni's questline",
-            "tags": []
+            "type": "major",
+            "title": "Magma Wyrm Makar"
         },
         {
-            "title": "Bloodhound Knight (Lakeside Crystal Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "flask",
+            "title": "Church of Irith, south of Lake-Facing Cliffs Site of Grace"
         },
         {
-            "title": "Bols, Carian Knight",
-            "type": "boss",
-            "tags": ["evergoal"]
+            "type": "flask",
+            "title": "Golden Seed tree after Manor Upper Level in Caria Manor"
         },
         {
-            "title": "Cemetary Shade (Black Knife Catacombs)",
-            "type": "boss",
-            "tags": ["catacomb"]
+            "type": "flask",
+            "title": "Golden Seed tree near the Ravine-Veiled Village before Ruin-Strewn Precipice"
         },
         {
-            "title": "Cleanrot Knight (Stillwater Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "flask",
+            "title": "Golden Seed tree in Academy Gate Town"
         },
         {
-            "title": "Crystalian (Raya Lucaria Crystal Tunnel)",
-            "type": "boss",
-            "tags": ["mine"]
+            "type": "shop",
+            "title": "Iji"
         },
         {
-            "title": "Crystalian Duo (Academy Crystal Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "shop",
+            "title": "Pidia, found by dropping back down into Caria Manor off a cliff edge from the Three Sisters"
         },
         {
-            "title": "Deathbird (Scenic Isle)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "shop",
+            "title": "Nomadic Merchant by the Liurnia Lake Shore Site of Grace"
         },
         {
-            "title": "Death Rite Bird (Academy Gate Town)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "minor",
+            "title": "Adan, Thief of Fire in the Malefactor's Evergaol"
         },
         {
-            "title": "Edgar The Revenger",
-            "type": "invasion",
-            "tags": []
+            "type": "minor",
+            "title": "Bols, Carian Knight in Cuckoo's Evergaol"
         },
         {
-            "title": "Erdtree Avatar (Southwest)",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Erdtree Avatar at the Minor Erdtree north of Converted Tower in West Liurnia"
         },
         {
-            "title": "Erdtree Avatar (Northeast)",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Glintstone Dragon Smarag"
         },
         {
-            "title": "Erdtree Burial Watchdog (Cliffbottom Catacombs)",
-            "type": "boss",
-            "tags": ["catacomb"]
+            "type": "minor",
+            "title": "Omenkiller, in Village of the Albinaurics"
         },
         {
-            "title": "Festering Fingerprint Vyke",
-            "type": "invasion",
-            "tags": []
+            "type": "minor",
+            "title": "Onyx Lord in the Royal Grave Evergaol"
         },
         {
-            "title": "Glintstone Dragon Adula",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Tibia Mariner down the hill from Artist's Shack, to the south"
         },
         {
-            "title": "Glintstone Dragon Smarag",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Chapel of Anticipation, Grafted Scion"
         },
         {
-            "title": "Godskin Noble",
-            "type": "elite",
-            "tags": ["dungeon"]
+            "type": "miniboss",
+            "title": "Academy Crystal Cave, Crystallians"
         },
         {
-            "title": "Golem, bow (Ainsel River Well)",
-            "type": "elite",
-            "tags": []
+            "type": "miniboss",
+            "title": "Black Knife Catacombs, Black Knife Assassin"
         },
         {
-            "title": "Grafted Scion (Chapel of Anticipation)",
-            "type": "boss",
-            "tags": []
+            "type": "miniboss",
+            "title": "Black Knife Catacombs, Cemetery Shade"
         },
         {
-            "title": "Grafted Scion (Fallen Ruins)",
-            "type": "elite",
-            "description": "Disguised as crayfish",
-            "tags": []
+            "type": "miniboss",
+            "title": "Cliffbottom Catacombs, Erdtree Burial Watchdog"
         },
         {
-            "title": "Great Horned Tragoth",
-            "type": "invasion",
-            "description": "Volcano manor questline",
-            "tags": ["mine"]
+            "type": "miniboss",
+            "title": "Lakeside Crystal Cave, Bloodhound Knight"
         },
         {
-            "title": "Magma Wyrm Makar (Ruin-strewn Precipice)",
-            "type": "boss",
-            "tags": ["mine"]
+            "type": "miniboss",
+            "title": "Raya Lucaria Crystal Tunnel, Crystallian"
         },
         {
-            "title": "Moongrum, Carian Knight",
-            "type": "npc",
-            "tags": ["dungeon"]
+            "type": "miniboss",
+            "title": "Road's End Catacombs, Spiritcaller Snail"
         },
         {
-            "title": "Moonlight altar dragons x3",
-            "type": "elite",
-            "tags": []
+            "type": "miniboss",
+            "title": "Stillwater Cave, Cleanrot Knight"
         },
         {
-            "title": "Night's Calvary (Bellum Highway Forest)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "night",
+            "title": "Bell Bearing Hunter who invades at Church of Vows"
         },
         {
-            "title": "Night's Calvary (Gate Town Bridge)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "night",
+            "title": "Death Rite Bird south of Gate Town North"
         },
         {
-            "title": "Omenkiller",
-            "type": "boss",
-            "tags": []
+            "type": "night",
+            "title": "Deathbird north of the Scenic Isle Site of Grace"
         },
         {
-            "title": "Preceptor Miriam",
-            "type": "npc",
-            "tags": []
+            "type": "night",
+            "title": "Night's Calvary east of the Gate Town Bridge Site of Grace"
         },
         {
-            "title": "Preceptor Miriam (inverted)",
-            "type": "npc",
-            "tags": []
+            "type": "minitali",
+            "title": "Spear Talisman",
+            "description": "Lakeside Crystal Cave, in a chest guarded by a Demi-Human Chief"
         },
         {
-            "title": "Ravenmount Assassin",
-            "type": "invasion",
-            "description": "Yura questline",
-            "tags": []
+            "type": "tali",
+            "title": "Cerulean Seed Talisman",
+            "description": "Carian Study Hall, on the second level of rafters in Carian Study Hall"
         },
         {
-            "title": "Red Wolf of Radagon",
-            "type": "boss",
-            "tags": ["dungeon"]
+            "type": "tali",
+            "title": "Pearldrake Talisman",
+            "description": "Farum Azula via Belfries, after a series of dropdowns in the isolated debris"
         },
         {
-            "title": "Red Wolf (Behind Caria Manor)",
-            "type": "elite",
-            "tags": []
-        },
-        {
-            "title": "Red Wolf (Moonlight Altar)",
-            "type": "elite",
-            "tags": []
-        },
-        {
-            "title": "Rennala, Queen of the Full Moon",
-            "type": "rememberance",
-            "tags": ["dungeon"]
-        },
-        {
-            "title": "Royal Knight Loretta",
-            "type": "boss",
-            "tags": ["dungeon"]
-        },
-        {
-            "title": "Royal Revenant (Kingsrealm  Ruins)",
-            "type": "boss",
-            "tags": ["ruin"]
-        },
-        {
-            "title": "Sorceress Sellen or Witch Hunter Jerren",
-            "type": "invasion",
-            "description": "Sellen questline",
-            "tags": []
-        },
-        {
-            "title": "Spirit-Caller Snail (Road's End Catacombs)",
-            "type": "boss",
-            "tags": ["catacomb"]
-        },
-        {
-            "title": "Tibia Mariner",
-            "type": "boss",
-            "tags": []
-        }       
-        
-        
+            "type": "tali",
+            "title": "Mottled Necklace",
+            "description": "Siofra River via Belfries, on a ledge overlooking Siofra River and Nokron in the distance"
+        }
     ]
 }

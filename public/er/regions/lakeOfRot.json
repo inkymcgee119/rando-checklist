@@ -1,0 +1,10 @@
+{
+    "name": "Lake of Rot",
+    "bgColor": "#7f1d1d",
+    "locations": [
+        {
+            "type": "minor",
+            "title": "Dragonkin Soldier"
+        }
+    ]
+}

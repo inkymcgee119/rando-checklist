@@ -3,139 +3,152 @@
     "bgColor": "#f59e0b",
     "locations": [
         {
-            "title": "Ancient Dragon Lansseax",
-            "type": "boss",
-            "tags": []
+            "type": "major",
+            "title": "Elemer of the Briar"
         },
         {
-            "title": "Ancient Hero of Zamor (Sainted Hero's Grave)",
-            "type": "boss",
-            "tags": ["grave"]
+            "type": "flask",
+            "title": "Stormcaller Church"
         },
         {
-            "title": "Black Knife Assassin (Sage's Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "flask",
+            "title": "Second Church of Marika"
         },
         {
-            "title": "Black Knife Assassin (Sainted Hero's Grave)",
-            "type": "boss",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed tree down the southeast road from Windmill Village"
         },
         {
-            "title": "Crystalian Duo (Altus Tunnel)",
-            "type": "boss",
-            "tags": ["mine"]
+            "type": "flask",
+            "title": "Golden Seed tree found up the stairs from Outer Wall Phantom Tree"
         },
         {
-            "title": "Demi-Human Queen Gilika (Lux Ruins)",
-            "type": "boss",
-            "tags": ["ruin"]
+            "type": "flask",
+            "title": "Golden Seed tree next to the Erdtree-Gazing Hill Site of Grace"
         },
         {
-            "title": "Elemer of the Briar (Shaded Castle)",
-            "type": "boss",
-            "tags": ["dungeon"]
+            "type": "flask",
+            "title": "Golden Seed tree found north of the Altus Highway Junction Site of Grace"
         },
         {
-            "title": "Eleonora, Violet Bloody Finger",
-            "type": "invasion",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed tree found north of the Altus Plateau Minor Erdtree"
         },
         {
-            "title": "Erdtree Burial Watchdog (Wyndham Catacomb)",
-            "type": "boss",
-            "tags": ["catacomb"]
+            "type": "shop",
+            "title": "Nomadic Merchant at the southern end of the Forest-Spanning Greatbridge"
         },
         {
-            "title": "Fallingstar Beast",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Ancient Dragon Lansseax up the hill from Abandoned Coffin"
         },
         {
-            "title": "Godefroy The Grafted",
-            "type": "boss",
-            "tags": ["evergoal"]
+            "type": "minor",
+            "title": "Fallingstar Beast to the south of Tree Sentinel Duo"
         },
         {
-            "title": "Godskin Apostle",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Godefroy the Grafted in the Golden Lineage Evergaol"
         },
         {
-            "title": "Lion Guardian (Ruins near Windmill Village)",
-            "type": "elite",
-            "description": "Disguised as Wondering Noble",
-            "tags": []
+            "type": "minor",
+            "title": "Godskin Apostle at the elevated north cliffside of Windmill Village"
         },
         {
-            "title": "Necromancer Garris (Sage's Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "minor",
+            "title": "Black Knight Assassin camping out in front of Sainted Hero's Grave"
         },
         {
-            "title": "Night's Calvary (Altus Highway)",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "minor",
+            "title": "Tibia Mariner in Wyndham Ruins"
         },
         {
-            "title": "Magnus the Beast Claw (Writheblood Ruins)",
-            "type": "invasion",
-            "tags": []
+            "type": "minor",
+            "title": "Tree Sentinel Duo, at the top of the stairs from Altus Highway Junction"
         },
         {
-            "title": "Malformed Star (Perfurmer's Grotto)",
-            "type": "elite",
-            "tags": []
+            "type": "minor",
+            "title": "Wormface at the Altus Plateau Minor Erdtree"
         },
         {
-            "title": "Maleigh Marais, Shaded Castle Castellan",
-            "type": "invasion",
-            "tags": []
+            "type": "miniboss",
+            "title": "Perfumer's Grotto, Omenkiller and Giant Miranda Flower"
         },
         {
-            "title": "Misbegotten Warrior & Perfumer Tricia (Unsightly Catacombs)",
-            "type": "boss",
-            "tags": ["catacomb"]
+            "type": "miniboss",
+            "title": "Sage's Cave, Black Knife Assassin"
         },
         {
-            "title": "Omenkiller & Miranda the Blighted Bloom (Perfurmer's Grotto)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "miniboss",
+            "title": "Sage's Cave, Necromancer Garris"
         },
         {
-            "title": "Rileigh The Idle",
-            "type": "invasion",
-            "description": "Volcano manor questline",
-            "tags": ["catacomb"]
+            "type": "miniboss",
+            "title": "Sainted Hero's Grave, Ancient Hero of Zamor"
         },
         {
-            "title": "Sanguine Noble (Writheblood Ruins)",
-            "type": "boss",
-            "tags": ["ruin"]
+            "type": "miniboss",
+            "title": "Unsightly Catacombs, Perfumer Tricia and Misbegotten Warrior"
         },
         {
-            "title": "Stonedigger Troll (Old Altus Tunnel)",
-            "type": "boss",
-            "tags": ["cave"]
-        },
-
-        {
-            "title": "Tibia Mariner (Wyndham)",
-            "type": "boss",
-            "tags": []
+            "type": "miniboss",
+            "title": "Altus Tunnel, Crystallians"
         },
         {
-            "title": "Tree Sentinel Duo (Leyndell Entrance)",
-            "type": "boss",
-            "tags": []
+            "type": "miniboss",
+            "title": "Sealed Tunnel, Onyx Lord"
         },
-        
         {
-            "title": "Wormface",
-            "type": "boss",
-            "tags": []
+            "type": "miniboss",
+            "title": "Old Altus Tunnel, Stonedigger Troll"
+        },
+        {
+            "type": "miniboss",
+            "title": "Wyndham Catacombs, Erdtree Burial Watchdog"
+        },
+        {
+            "type": "night",
+            "title": "Night's Calvary on the road from the Grand Lift of Dectus to Altus Highway Junction"
+        },
+        {
+            "type": "tali",
+            "title": "Ritual Sword Talisman",
+            "description": "In a chest after defeating Demi-Human Queen Gilika, down some stairs in Lux Ruins, North of the Altus Plateau Site of Grace"
+        },
+        {
+            "type": "tali",
+            "title": "Pearldrake Talisman +1",
+            "description": "In a chest down some stairs past an Imp Statue barrier in Wyndham Ruins"
+        },
+        {
+            "type": "tali",
+            "title": "Perfurmer's Talisman",
+            "description": "In a chest under Perfumer's Ruins, found by breaking wooden boards on the ground beside a Giant Miranda Flower"
+        },
+        {
+            "type": "minitali",
+            "title": "Crimson Seed Talisman",
+            "description": "Sainted Hero's Grave, past an Imp Statue barrier beside the Site of Grace"
+        },
+        {
+            "type": "minitali",
+            "title": "Dragoncrest Shield Talisman +1",
+            "description": "Sainted Hero's Grave, past an Imp Statue barrier deep in the Catacombs, riding a giant slicing blade to an upper level"
+        },
+        {
+            "type": "minitali",
+            "title": "Arsenal Charm +1",
+            "description": "Altus Tunnel, from a sidepath deep in the tunnel, on top of a wooden structure which requires dropping down to a branch to access. The rock-slinging Malformed Star from Perfumer's Grotto will attack you here as well"
+        },
+        {
+            "type": "minitali",
+            "title": "Boltdrake Talisman +1",
+            "description": "Old Altus Tunnel, In a shack up a ladder from the main mining shaft"
+        },
+        {
+            "type": "minitali",
+            "title": "Lightning Scorpion Charm",
+            "description": "Wyndham Catacombs, Past an Imp Statue barrier deep in the Catacombs, found up a ladder"
         }
-        
     ]
 }

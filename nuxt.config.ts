@@ -4,7 +4,7 @@ export default defineNuxtConfig({
         head: {
             charset: 'utf-16',
             viewport: 'width=device-width, initial-scale=1',
-            title: 'Zeldo: Randomizer Checklist',
+            title: 'Randomizer Checklist',
             meta: [{ name: 'description', content: 'Randomizer Location Checklist.' }],    
             link: [{ rel: 'icon', type: 'image/svg', href: '/favicon.svg' }]        
         }

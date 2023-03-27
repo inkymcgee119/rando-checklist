@@ -3,45 +3,30 @@
     "bgColor": "#0d9488",
     "locations": [
         {
-            "title": "Ancestor Spirit",
-            "type": "boss",
-            "tags": []
+            "type": "major",
+            "title": "Ancestor Spirit"
         },
         {
-            "title": "Crucible Knight (Greatsword)",
-            "type": "elite",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed tree past a narrow bridge connecting Worshipper's Woods to Siofra Aqueduct"
         },
         {
-            "title": "Crucible Knight (Spear)",
-            "type": "elite",
-            "tags": []
+            "type": "shop",
+            "title": "Abandoned Merchant, found by ascending a scaffolding"
         },
         {
-            "title": "Crucible Knight (Greatsword)",
-            "type": "elite",
-            "description": "Teleport from The Four Belfries",
-            "tags": []
+            "type": "minor",
+            "title": "Dragonkin Soldier"
         },
         {
-            "title": "Dragonkin Soldier",
-            "type": "boss",
-            "tags": []
+            "type": "tali",
+            "title": "Clarifying Horn Charm",
+            "description": "On the stairs leading up to the Deep Siofra Well"
         },
         {
-            "title": "Mimic Tear",
-            "type": "boss",
-            "tags": []
-        },
-        {
-            "title": "Regal Ancestor Spirit",
-            "type": "rememberance",
-            "tags": []
-        },
-        {
-            "title": "Valiant Gargoyle Duo",
-            "type": "boss",
-            "tags": []
+            "type": "tali",
+            "title": "Marika's Scarseal",
+            "description": "Under a waterfall on the right edge of where Dragonkin Soldier can be fought"
         }
     ]
 }

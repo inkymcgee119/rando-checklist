@@ -3,166 +3,109 @@
     "bgColor": "#4d7c0f",
     "locations": [
         {
-            "title": "Anastasia, Tarnished Eater",
-            "type": "invasion",
-            "tags": []
+            "type": "key",
+            "title": "Dectus Medallion (Left)",
+            "description": "Fort Haight, in a chest at the top of a tower"
         },
         {
-            "title": "Beastman of Farum Azula (Groveside Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "flask",
+            "title": "Third Church of Marika, northeast of the Mistwood"
         },
         {
-            "title": "Bell Bearing Hunter",
-            "type": "boss",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed tree in front of Fort Haight"
         },
         {
-            "title": "Black Knife Assassin (Deathtouched Catacombs)",
-            "type": "boss",
-            "tags": ["catacomb"]
+            "type": "shop",
+            "title": "Kale at the Church of Elleh"
         },
         {
-            "title": "Bloody Finger Nerijus",
-            "type": "invasion",
-            "tags": []
+            "type": "shop",
+            "title": "Nomadic Merchant between Saintsbridge and Summonwater Village"
         },
         {
-            "title": "Bloodhound Knight Darriwil",
-            "type": "boss",
-            "tags": ["evergoal"]
+            "type": "shop",
+            "title": "Nomadic Merchant in front of Coastal Cave"
         },
         {
-            "title": "Crucible Knight",
-            "type": "boss",
-            "tags": ["evergoal"]
+            "type": "shop",
+            "title": "Nomadic Merchant in the Mistwood along the road to Fort Haight"
         },
         {
-            "title": "Crucible Knight (Stormveil)",
-            "type": "elite",
-            "tags": ["dungeon"]
+            "type": "shop",
+            "title": "Murkwater Cave, Patches"
         },
         {
-            "title": "Deathbird",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "minor",
+            "title": "Bloodhound Knight Darriwil in Forlorn Hound Evergaol"
         },
         {
-            "title": "Demi-Human Chief Duo (Coastal Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "minor",
+            "title": "Flying Dragon Agheel"
         },
         {
-            "title": "Erdtree Burial Watchdog (Stormfoot Catacombs)",
-            "type": "boss",
-            "tags": ["catacomb"]
+            "type": "minor",
+            "title": "Tibia Mariner in Summonwater Village"
         },
         {
-            "title": "Flying Dragon Agheel",
-            "type": "boss",
-            "tags": []
-        },        
-        {
-            "title": "Godrick The Grafted",
-            "type": "rememberance",
-            "tags": ["dungeon"]
+            "type": "minor",
+            "title": "Tree Sentinel before the Church of Elleh"
         },
         {
-            "title": "Golem, halberd (Stormhill)",
-            "type": "elite",
-            "tags": []
+            "type": "miniboss",
+            "title": "Fringefolk Hero's Grave, Ulcerated Tree Spirit"
         },
         {
-            "title": "Grafted Scion (Stormveil)",
-            "type": "elite",
-            "tags": ["dungeon"]
+            "type": "miniboss",
+            "title": "Coastal Cave, Demi-Human Chiefs"
         },
         {
-            "title": "Grafted Scion (Fringefolk Hero's Grave)",
-            "type": "elite",
-            "tags": ["grave"]
+            "type": "miniboss",
+            "title": "Groveside Cave, Beastman of Farum Azula"
         },
         {
-            "title": "Grave Warden Duelist (Murkwater Catacombs)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "miniboss",
+            "title": "Highroad Cave, Guardian Golem"
         },
         {
-            "title": "Guardian Golem (Highroad Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "miniboss",
+            "title": "Murkwater Catacombs, Grave Warden Duelist"
         },
         {
-            "title": "Lion Guardian (Stormveil Castle)",
-            "type": "elite",
-            "tags": ["dungeon"]
+            "type": "miniboss",
+            "title": "Stormfoot Catacombs, Erdtree Burial Watchdog"
         },
         {
-            "title": "Mad Pumpkin Head (Waypoint Ruins)",
-            "type": "boss",
-            "tags": ["ruin"]
+            "type": "miniboss",
+            "title": "Limgrave Tunnels, Stonedigger Troll"
         },
         {
-            "title": "Margit, The Fell Omen",
-            "type": "boss",
-            "tags": ["dungeon"]
+            "type": "miniboss",
+            "title": "Fringefolk Hero's Grave, Dropped by Ulcerated Tree Spirit"
         },
         {
-            "title": "Night's Calvary",
-            "type": "boss",
-            "tags": ["night"]
+            "type": "night",
+            "title": "Night's Calvary on the bridge eastward of Agheel Lake North"
         },
         {
-            "title": "Old Knight Istvan",
-            "type": "invasion",
-            "description": "Volcano manor questline",
-            "tags": []
+            "type": "tali",
+            "title": "Axe Talisman",
+            "description": "In a chest down the stairs in Mistwood Ruins"
         },
         {
-            "title": "Patches (Murkwater Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "tali",
+            "title": "Green Turtle Talisman",
+            "description": "Imp Statue barrier in Summonwater Village"
         },
         {
-            "title": "Recusant Henricus",
-            "type": "invasion",
-            "tags": []
+            "type": "tali",
+            "title": "Haligdrake Talisman",
+            "description": "Cave entrance on the ruined beach to the southeast"
         },
         {
-            "title": "Runebear (East of the Agheel Lake South)",
-            "type": "elite",
-            "description": "Disguised as Wondering Noble",
-            "tags": []
-        },
-        {
-            "title": "Soldier of Godrick (Stranded Graveyard)",
-            "type": "boss",
-            "tags": ["cave"]
-        },
-        {
-            "title": "Stonedigger Troll (Limgrave Tunnels)",
-            "type": "boss",
-            "tags": ["mine"]
-        },
-        {
-            "title": "Tibia Mariner",
-            "type": "boss",
-            "tags": []
-        },
-        {
-            "title": "Tree Sentinel",
-            "type": "boss",
-            "tags": []
-        },
-        {
-            "title": "Ulcerated Tree Spirit (Fringefolk Hero's Grave)",
-            "type": "boss",
-            "tags": ["grave"]
-        },
-        {
-            "title": "Ulcerated Tree Spirit (Stormveil)",
-            "type": "elite",
-            "tags": ["dungeon"]
+            "type": "minitali",
+            "title": "Erdtree's Favor",
+            "description": "Fringefolk Hero's Grave, Guarded by a Grafted Scion"
         }
     ]
 }

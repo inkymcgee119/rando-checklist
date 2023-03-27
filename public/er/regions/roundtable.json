@@ -3,15 +3,8 @@
     "bgColor": "#86198f",
     "locations": [
         {
-            "title": "Ensha of the Royal Remains",
-            "type": "invasion",
-            "tags": []
-        },
-        {
-            "title": "Mad Tongue Alberich",
-            "type": "invasion",
-            "tags": []
+            "type": "shop",
+            "title": "Twin Maiden Husks"
         }
-        
     ]
 }

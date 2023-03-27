@@ -1,0 +1,22 @@
+{
+    "name": "Flame Peak",
+    "bgColor": "#f97316",
+    "locations": [
+        {
+            "type": "major",
+            "title": "Fire Giant"
+        },
+        {
+            "type": "flask",
+            "title": "Church of Repose, in southwest Flame Peak"
+        },
+        {
+            "type": "flask",
+            "title": "North of Foot of the Forge Site of Grace"
+        },
+        {
+            "type": "miniboss",
+            "title": "Giant-Conquering Hero's Grave, Ancient Hero of Zamor"
+        }
+    ]
+}

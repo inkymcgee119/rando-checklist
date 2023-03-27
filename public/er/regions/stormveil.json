@@ -1,0 +1,34 @@
+{
+    "name": "Stormveil Castle",
+    "bgColor": "#115e59",
+    "locations": [
+        {
+            "type": "key",
+            "title": "Rusty Key",
+            "description": "In the dark room before the Rusty Key door, guarded by a Banished Knight"
+        },
+        {
+            "type": "major",
+            "title": "Godrick the Grafted"
+        },
+        {
+            "type": "flask",
+            "title": "Under a Golden Seed tree on the way to Godrick the Grafted"
+        },
+        {
+            "type": "tali",
+            "title": "Curved Sword Talisman",
+            "description": "In a chest in the dark room before the Rusty Key door, guarded by a Banished Knight"
+        },
+        {
+            "type": "tali",
+            "title": "Claw Talisman",
+            "description": "Right outside Rampart Tower Site of Grace (or higher up), jump to an adjacent rooftop to the east. Find the debris of a fallen-over pillar, jump up to the ledge above it, follow the ledge to a small courtyard, and climb a long ladder there"
+        },
+        {
+            "type": "tali",
+            "title": "Boltdrake Talisman",
+            "description": "Up the stairs after the Limgrave Tower Bridge site of grace"
+        }
+    ]
+}

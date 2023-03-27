@@ -1,94 +1,51 @@
 {
-    "name": "Mt. Gelmir and Volcano Manor",
-    "bgColor": "#dc2626",
+    "name": "Mt. Gelmir",
+    "bgColor": "#ef4444",
     "locations": [
         {
-            "title": "Abductor Virgin Duo (Volcano Manor)",
-            "type": "boss",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed tree before the Road of Iniquity Site of Grace"
         },
         {
-            "title": "Anastasia, Tarnished Eater (Corpse-Stenched Shack)",
-            "type": "invasion",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Tree found following Seethwater River north"
         },
         {
-            "title": "Demi-Human Queen Maggie (Hermit Village)",
-            "type": "boss",
-            "tags": []
+            "type": "shop",
+            "title": "Nomadic Merchant in the long ladder section before Ninth Mt. Gelmir Campsite"
         },
         {
-            "title": "Demi-Human Queen Margot (Volcano Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "minor",
+            "title": "Demi-Human Queen Maggie in Hermit Village"
         },
         {
-            "title": "Fire Prelate (Fort Laiedd)",
-            "type": "elite",
-            "tags": []
+            "type": "minor",
+            "title": "Full-Grown Fallingstar Beast after Ninth Mt. Gelmir Campsite"
         },
         {
-            "title": "Full-Grown Fallingstar Beast (Ninth Mt. Gelmir)",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Magma Wyrm behind Fort Laiedd"
         },
         {
-            "title": "Godskin Noble (Volcano Manor)",
-            "type": "boss",
-            "tags": []
+            "type": "minor",
+            "title": "Ulcerated Tree Spirit at the Mt. Gelmir Minor Erdtree"
         },
         {
-            "title": "Grafted Scion (North. Mt. Gelmir)",
-            "type": "elite",
-            "tags": []
+            "type": "miniboss",
+            "title": "Gelmir Hero's Grave, Red Wolf of the Champion"
         },
         {
-            "title": "Inquisitor Ghiza (Volcano Manor)",
-            "type": "invasion",
-            "tags": []
-        },
-
-        {
-            "title": "Kindred of Rot Duo (Seethewater Cave)",
-            "type": "boss",
-            "tags": ["cave"]
+            "type": "miniboss",
+            "title": "Seethewater Cave, Kindred of Rot"
         },
         {
-            "title": "Magma Wyrm (South of Fort Laiedd)",
-            "type": "boss",
-            "tags": []
+            "type": "miniboss",
+            "title": "Volcano Cave, Demi-Human Queen Margot"
         },
         {
-            "title": "Magma Wyrm (Volcano Manor)",
-            "type": "elite",
-            "tags": []
-        },
-        {
-            "title": "Red Wolf of the Champion (Gelmir Hero)",
-            "type": "boss",
-            "tags": ["grave"]
-        },        
-        {
-            "title": "Rykard, Lord of Blasphemy (Volcano Manor)",
-            "type": "rememberance",
-            "tags": []
-        },
-        {
-            "title": "Tanith's Crucible Knight (Volcano Manor)",
-            "type": "invasion",
-            "description": "After defeating Rykard return to the arena and attack Tanith.",
-            "tags": []
-        },
-        {
-            "title": "Ulcerated Tree Spirit (Minor Erdtree)",
-            "type": "boss",
-            "tags": []
-        },
-        {
-            "title": "Wormface (Road of Iniquity)",
-            "type": "elite",
-            "description": "Disguised as a Burning Putrid Corpse",
-            "tags": []
+            "type": "tali",
+            "title": "Fire Scorpion Charm",
+            "description": "Found at the top of Fort Laiedd, equires jumping on top of the wall"
         }
     ]
 }

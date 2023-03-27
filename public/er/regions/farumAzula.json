@@ -3,74 +3,39 @@
     "bgColor": "#7c3aed",
     "locations": [
         {
-            "title": "Alexander, Warrior-Jar",
-            "type": "npc",
-            "tags": []
+            "type": "major",
+            "title": "Dragonlord Placidusax"
         },
         {
-            "title": "Ancient Dragon",
-            "type": "elite",
-            "tags": []
+            "type": "major",
+            "title": "Godskin Duo"
         },
         {
-            "title": "Ancient Dragon 2",
-            "type": "elite",
-            "tags": []
+            "type": "major",
+            "title": "Maliketh, the Black Blade"
         },
         {
-            "title": "Ancient Dragon 3",
-            "type": "elite",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed tree after using a Stonesword Key and ascending Dragon Temple Lift, past a plaza fountain"
         },
         {
-            "title": "Ancient Dragon 4",
-            "type": "elite",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed tree guarded by four eagles. Near low health dragon"
         },
         {
-            "title": "Ancient Dragon 5",
-            "type": "elite",
-            "tags": []
-        },{
-            "title": "Crucible Knight (Greatsword) (Dragon Temple Rooftop)",
-            "type": "elite",
-            "tags": []
+            "type": "tali",
+            "title": "Boltdrake Talisman +2",
+            "description": "At the end of a long path dropping down to the left of the low-health dragon"
         },
         {
-            "title": "Crucible Knight (Greatsword) (Boltdrake Talisman +2)",
-            "type": "elite",
-            "tags": []
+            "type": "tali",
+            "title": "Dragoncrest Shield Talisman +2",
+            "description": "Hidden on some floating rubble underneath other rubble right before the building with the Crucible Knight"
         },
         {
-            "title": "Draconic Tree Sentinel",
-            "type": "elite",
-            "tags": []
-        },
-        {
-            "title": "Dragonlord Placidusax",
-            "type": "rememberance",
-            "tags": []
-        },
-        {
-            "title": "Godskin Duo",
-            "type": "boss",
-            "tags": []
-        },
-        {
-            "title": "Recusant Bernahl",
-            "type": "invasion",
-            "tags": []
-        },
-        {
-            "title": "Maliketh, The Black Blade",
-            "type": "rememberance",
-            "tags": []
-        },
-        {
-            "title": "Wormface",
-            "type": "elite",
-            "tags": []
+            "type": "tali",
+            "title": "Old Lord's Talisman",
+            "description": "In a chest at the end of the path, down the Great Bridge in the opposite direction from Maliketh"
         }
-        
     ]
 }

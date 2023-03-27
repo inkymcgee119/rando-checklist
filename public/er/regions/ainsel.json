@@ -1,42 +1,32 @@
 {
-    "name": "Ainsel River & Lake of Rot",
+    "name": "Ainsel River",
     "bgColor": "#0891b2",
-    "locations": [        
+    "locations": [
         {
-            "title": "Astel, Naturalborn of the Void",
-            "type": "rememberance",
-            "tags": []
+            "type": "major",
+            "title": "Astel, Naturalborn of the Void"
         },
         {
-            "title": "Baleful Shadow",
-            "type": "invasion",
-            "description": "Ranni's questline",
-            "tags": []
+            "type": "major",
+            "title": "Dragonkin Soldier of Nokstella"
         },
         {
-            "title": "Dragonkin Soldier of Nokstella",
-            "type": "boss",
-            "tags": []
+            "type": "flask",
+            "title": "Golden Seed tree on a cliffside"
         },
         {
-            "title": "Dragonkin Soldier (Lake of Rot)",
-            "type": "boss",
-            "tags": []
+            "type": "shop",
+            "title": "Hermit Merchant in the alcove past the rock-slinging Malformed Star"
         },
         {
-            "title": "Malformed Star (Uhi Palace Ruins)",
-            "type": "elite",
-            "tags": []
+            "type": "tali",
+            "title": "Immunizing Horn Charm",
+            "description": "Guarded by several giant ants shortly after Ainsel River Downstream"
         },
         {
-            "title": "Malformed Star (Ainsel River)",
-            "type": "elite",
-            "tags": []
-        },
-        {
-            "title": "Putrid Tree Spirit (Grand Cloister)",
-            "type": "elite",
-            "tags": []
+            "type": "tali",
+            "title": "Moon of Nokstella",
+            "description": "In a lidded chest in the cathedral at the very top of several flights of stairs from the Nokstella Site of Grace"
         }
     ]
 }

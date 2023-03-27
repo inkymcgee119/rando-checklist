@@ -1,31 +1,28 @@
 {
-    "name": "Leyndell, Captial of Ash",
+    "name": "Ashen Leyndell",
     "bgColor": "#71717a",
     "locations": [
         {
-            "title": "Gargoyle",
-            "type": "elite",
-            "tags": []
+            "type": "major",
+            "title": "Hoarah Loux"
         },
         {
-            "title": "Godfrey / Hoarah Loux",
-            "type": "rememberance",
-            "tags": []
+            "type": "major",
+            "title": "Elden Beast"
         },
         {
-            "title": "Putrid Tree Spirit Trio",
-            "type": "elite",
-            "tags": []
+            "type": "minor",
+            "title": "Gideon"
         },
         {
-            "title": "Radagon / Elden Beast",
-            "type": "rememberance",
-            "tags": []
+            "type": "tali",
+            "title": "Erdtree's Favor +2",
+            "description": "Guarded by three Ulcerated Tree Spirits, on a tree branch jutting out of the ash found backtracking from the Forbidden Lands Site of Grace"
         },
         {
-            "title": "Sir Gideon Ofnir",
-            "type": "boss",
-            "tags": []
+            "type": "tali",
+            "title": "Crimson Amber Medallion +2",
+            "description": "Hanging on a beam accessible by dropping down from Leyndell, Capital of Ash"
         }
     ]
 }

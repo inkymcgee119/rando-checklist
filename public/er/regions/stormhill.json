@@ -1,0 +1,40 @@
+{
+    "name": "Stormhill",
+    "bgColor": "#facc15",
+    "locations": [
+        {
+            "type": "major",
+            "title": "Margit the Fell Omen or Morgott the Omen King."
+        },
+        {
+            "type": "flask",
+            "title": "Golden Seed tree along the road from Gatefront to Stormhill Shack."
+        },
+        {
+            "type": "minor",
+            "title": "Crucible Knight in the Stormhill Evergaol."
+        },
+        {
+            "type": "miniboss",
+            "title": "Deathtouched Catacombs, Black Knife Assassin."
+        },
+        {
+            "type": "night",
+            "title": "Deathbird to the east of Warmaster's Shack"
+        },
+        {
+            "type": "night",
+            "title": "Bell Bearing Hunter at Warmaster's Shack"
+        },
+        {
+            "type": "tali",
+            "title": "Arrow's Reach Talisman",
+            "description": "In a chest on a walkway at the top of the Gatefront gate, accessed directly northeast of Stormhill Evergaol"
+        },
+        {
+            "type": "tali",
+            "title": "Lance Talisman",
+            "description": "On a corpse resting on rubble on the northeast-most cliffside in Stormhill, north of Saintsbridge and Deathtouched Catacombs"
+        }
+    ]
+}
