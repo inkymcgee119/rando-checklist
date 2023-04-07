@@ -6,7 +6,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "build-docker": "docker build -t zeldo-trackdo .",
+    "docker-build": "docker build -t rando-checklist .",
+    "docker-run": "docker run -d -p 80:8080 rando-checklist",
     "tauri": "tauri",
     "tauri-dev": "tauri dev",
     "tauri-build": "tauri build"

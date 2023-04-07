@@ -54,5 +54,11 @@
             "type": "fixed",
             "tags": []
         }
+    ],
+    "entrances": [
+        {
+            "name": "Great Bay Temple",
+            "type": "dungeon"
+        }
     ]
 }

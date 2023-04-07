@@ -91,8 +91,7 @@ const filteredRegions = computed(() => {
 
             if (r.locations.length > 0) {
                 result.push(r);
-                total += r.locations.reduce((acc, x) => acc + (x.count ? x.count : 1), 0);
-                console.log("Total:" + total);
+                total += r.locations.reduce((acc, x) => acc + (x.count ? x.count : 1), 0);                
             }
         }
     }

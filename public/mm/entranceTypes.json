@@ -4,6 +4,7 @@
         "description": "Dungeons",
         "icon": "material-symbols:castle-outline",
         "hasFilter": true,
-        "hideRegionLabel": true
+        "hideRegionLabel": true,
+        "isDefault": true
     }
 }

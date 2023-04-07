@@ -8,8 +8,8 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "zeldo-checklist",
-    "version": "1.1.0"
+    "productName": "rando-checklist",
+    "version": "1.1.1"
   },
   "tauri": {
     "allowlist": {
@@ -61,7 +61,7 @@
         "fullscreen": false,
         "height": 900,
         "resizable": true,
-        "title": "Zeldo Rando Trackdo",
+        "title": "Rando Checklist",
         "width": 1740,
         "decorations": false    
       }

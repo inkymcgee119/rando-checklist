@@ -4,15 +4,7 @@
     "locations": [
         {
             "type": "major",
-            "title": "Astel, Naturalborn of the Void"
-        },
-        {
-            "type": "major",
             "title": "Dragonkin Soldier of Nokstella"
-        },
-        {
-            "type": "flask",
-            "title": "Golden Seed tree on a cliffside"
         },
         {
             "type": "shop",
@@ -22,11 +14,6 @@
             "type": "tali",
             "title": "Immunizing Horn Charm",
             "description": "Guarded by several giant ants shortly after Ainsel River Downstream"
-        },
-        {
-            "type": "tali",
-            "title": "Moon of Nokstella",
-            "description": "In a lidded chest in the cathedral at the very top of several flights of stairs from the Nokstella Site of Grace"
         }
     ]
 }

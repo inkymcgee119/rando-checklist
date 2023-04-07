@@ -49,5 +49,11 @@
                 "winter"
             ]
         }
+    ],
+    "entrances": [
+        {
+            "name": "Snowhead Temple",
+            "type": "dungeon"
+        }
     ]
 }

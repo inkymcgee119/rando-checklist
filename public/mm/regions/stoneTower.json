@@ -51,5 +51,11 @@
             "type": "fixed",
             "tags": []
         }
+    ],
+    "entrances": [
+        {
+            "name": "Stone Tower Temple",
+            "type": "dungeon"
+        }
     ]
 }

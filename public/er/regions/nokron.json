@@ -1,6 +1,6 @@
 {
-    "name": "Nokron, Eternal City",
-    "bgColor": "#a1a1aa",
+    "name": "Nokron",
+    "bgColor": "#7c3aed",
     "locations": [
         {
             "type": "major",

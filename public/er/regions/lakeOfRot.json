@@ -3,6 +3,10 @@
     "bgColor": "#7f1d1d",
     "locations": [
         {
+            "type": "major",
+            "title": "Astel, Naturalborn of the Void"
+        },
+        {
             "type": "minor",
             "title": "Dragonkin Soldier"
         }

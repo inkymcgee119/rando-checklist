@@ -6,7 +6,7 @@
         </h1>        
 
         
-        <p>A simple checklist for randomizer</p>
+        <p>A simple checklist for randomizers</p>
         <p v-if="!isTauri()">Customizable desktop app available <a class="underline text-blue-700" href="https://github.com/inkymcgee119/zeldo-checklist/releases" target="_blank">here</a></p>
 
 

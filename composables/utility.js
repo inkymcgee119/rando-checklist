@@ -96,6 +96,10 @@ export async function loadGameData(gameInfo) {
             if (appState.value.locationTypes[locType].isDefault)
                 appState.value.options[locType] = true;
         }
+        for (let locType of Object.getOwnPropertyNames(appState.value.entranceTypes)) {
+            if (appState.value.entranceTypes[locType].isDefault)
+                appState.value.entranceOptions[locType] = true;
+        }
     }
     catch (ex) {
         throw ("Error loading json files.")

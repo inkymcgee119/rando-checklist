@@ -1,0 +1,15 @@
+{
+    "name": "Nokstella, Eternal City",
+    "bgColor": "#581c87",
+    "locations": [
+        {
+            "type": "flask",
+            "title": "Golden Seed tree near elevator exit"
+        },
+        {
+            "type": "tali",
+            "title": "Moon of Nokstella",
+            "description": "In a lidded chest in the cathedral at the very top of several flights of stairs from the Nokstella Site of Grace"
+        }
+    ]
+}

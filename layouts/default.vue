@@ -1,7 +1,7 @@
 <template>
     <div v-if="isTauri()" data-tauri-drag-region class="titlebar">
         <div class="float-left mx-2 mt-1" data-tauri-drag-region>
-            <Icon name="game-icons:triforce" data-tauri-drag-region></Icon> Zeldo: Randomizer Checklist
+            <Icon name="material-symbols:checklist" data-tauri-drag-region></Icon> Randomizer Checklist
         </div>
         <div class="titlebar-button float-right" id="titlebar-close">
             <Icon name="mdi:close" />
@@ -32,7 +32,7 @@
                     :to="`/${route.params.game}/resources`" class="btn-option block float-left">Resources</NuxtLink>
 
                 <dropdown class="mr-1 my-1 float-right" v-model="selectedGame" :items="gameLinks" @update="updateGame"
-                    toggler-class="rounded-full py-1 px-4 hover:bg-orange-800 bg-orange-600 text-white"
+                    toggler-class="rounded-full py-1 px-4 hover:bg-orange-800 bg-orange-600 text-white w-52"
                     toggler-text="Select game">
                 </dropdown>
 
