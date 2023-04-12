@@ -127,7 +127,7 @@ async function loadGame(game) {
         appState.value.regions = [];
         appState.value.selectedGame = selectedGame;
 
-        let stored = localStorage.getItem(appState.value.selectedGame.dir); // check for existing save
+        let stored = localStorage.getItem(appState.value.selectedGame.dir + "test"); // check for existing save
         if (stored) {
             appState.value = JSON.parse(stored);
         }

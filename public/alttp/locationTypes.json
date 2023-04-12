@@ -1,9 +1,0 @@
-{
-    "item": {
-        "name": "item",
-        "description": "Items",
-        "icon": "game-icons:chest",
-        "isDefault": true,
-        "hasFilter": false
-    }
-}

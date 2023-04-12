@@ -23,8 +23,6 @@
 <script setup>
 import { appWindow } from '@tauri-apps/api/window';
 
-const appState = useAppState();
-const route = useRoute();
 const windowHeight = ref(window.innerHeight - 80);
 
 

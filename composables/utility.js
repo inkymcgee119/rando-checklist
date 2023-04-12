@@ -11,7 +11,7 @@ export function save(key, value) {
 export async function reset() {
     let appState = useAppState();
 
-    localStorage.removeItem(appState.value.selectedGame.dir);
+    localStorage.removeItem(appState.value.selectedGame.dir + "test");
 
     await loadGameInfoData();
     let gameInfo = appState.value.games.find(x => x.dir == appState.value.selectedGame.dir); // reset region data 
@@ -22,8 +22,8 @@ export async function reset() {
 export function getLocationIcon(locType) {
     let appState = useAppState();
     let result = "";
-    if (appState.value.locationTypes[locType])
-        result = appState.value.locationTypes[locType].icon;
+    if (appState.value.selectedGame.locationTypes[locType])
+        result = appState.value.selectedGame.locationTypes[locType].icon;
     return result;
 }
 
@@ -31,16 +31,16 @@ export function getLocationIcon(locType) {
 export function getEntranceTypeByName(entType) {
     let appState = useAppState();
     let result = "";
-    if (appState.value.entranceTypes[entType])
-        result = appState.value.entranceTypes[entType];
+    if (appState.value.selectedGame.entranceTypes[entType])
+        result = appState.value.selectedGame.entranceTypes[entType];
     return result;
 }
 
 export function getTagIcon(tag) {
     let appState = useAppState();
     let result = "";
-    if (appState.value.tags[tag])
-        result = appState.value.tags[tag].icon;
+    if (appState.value.selectedGame.tags[tag])
+        result = appState.value.selectedGame.tags[tag].icon;
     return result;
 }
 
@@ -56,17 +56,12 @@ export async function loadGameInfoData() {
 
 export async function loadGameData(gameInfo) {
 
-    //await wait(5000);
     let appState = useAppState();
     let dirPrefix = "../";
 
     try {
         if (isTauri()) {
-            dirPrefix = "_up_/public/";
-
-            appState.value.tags = await (JSON.parse(await readTextFile(await resolveResource(`${dirPrefix}${gameInfo.dir}/tags.json`))));
-            appState.value.locationTypes = await (JSON.parse(await readTextFile(await resolveResource(`${dirPrefix}${gameInfo.dir}/locationTypes.json`))));
-            appState.value.entranceTypes = await (JSON.parse(await readTextFile(await resolveResource(`${dirPrefix}${gameInfo.dir}/entranceTypes.json`))));
+            dirPrefix = "_up_/public/";            
 
             let regionPromises = [];
             for (let r of gameInfo.regions) {
@@ -77,10 +72,6 @@ export async function loadGameData(gameInfo) {
             appState.value.regions = results;
         }
         else {
-            appState.value.tags = await (await fetch(`${dirPrefix}${gameInfo.dir}/tags.json`)).json();
-            appState.value.locationTypes = await (await fetch(`${dirPrefix}${gameInfo.dir}/locationTypes.json`)).json();
-            appState.value.entranceTypes = await (await fetch(`${dirPrefix}${gameInfo.dir}/entranceTypes.json`)).json();
-
             let regionPromises = [];
             for (let r of gameInfo.regions) {
                 regionPromises.push((await fetch(`${dirPrefix}${gameInfo.dir}/${r}`)).json());
@@ -92,14 +83,17 @@ export async function loadGameData(gameInfo) {
         }
 
         // set default options
-        for (let locType of Object.getOwnPropertyNames(appState.value.locationTypes)) {
-            if (appState.value.locationTypes[locType].isDefault)
-                appState.value.options[locType] = true;
-        }
-        for (let locType of Object.getOwnPropertyNames(appState.value.entranceTypes)) {
-            if (appState.value.entranceTypes[locType].isDefault)
-                appState.value.entranceOptions[locType] = true;
-        }
+        if(gameInfo.locationTypes)
+            for (let locType of Object.getOwnPropertyNames(gameInfo.locationTypes)) {
+                if (gameInfo.locationTypes[locType].isDefault)
+                    appState.value.options[locType] = true;
+            }
+
+        if(gameInfo.entranceTypes)
+            for (let locType of Object.getOwnPropertyNames(gameInfo.entranceTypes)) {
+                if (gameInfo.entranceTypes[locType].isDefault)
+                    appState.value.entranceOptions[locType] = true;
+            }
     }
     catch (ex) {
         throw ("Error loading json files.")

@@ -66,25 +66,25 @@ onMounted(() => {
 
 function clickLocation(loc) {
     loc.isChecked = !loc.isChecked;
-    save(appState.value.selectedGame.dir, appState.value);
+    save(appState.value.selectedGame.dir + "test", appState.value);
 }
 
 function clickHeader(region) {
     let r = appState.value.regions.find((reg) => stringCompareCaseInsensitive(reg.name, region.name));
     r.isCollapsed = !r.isCollapsed;
-    save(appState.value.selectedGame.dir, appState.value);
+    save(appState.value.selectedGame.dir + "test", appState.value);
 }
 
 function rightClickLocation(loc) {
     loc.isStarred = !loc.isStarred;
-    save(appState.value.selectedGame.dir, appState.value);
+    save(appState.value.selectedGame.dir + "test", appState.value);
 
     return false;
 }
 function clickMQ(region) {
     let r = appState.value.regions.find((reg) => stringCompareCaseInsensitive(reg.name, region.name));
     r.showMQ = !r.showMQ;
-    save(appState.value.selectedGame.dir, appState.value);
+    save(appState.value.selectedGame.dir + "test", appState.value);
 }
 
 

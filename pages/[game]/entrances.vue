@@ -51,8 +51,8 @@ const filterConfig = ref({});
 
 onMounted(() => {
     filterConfig.value = {
-        options: Object.keys(appState.value.entranceTypes).map(key => appState.value.entranceTypes[key]).filter(x => x.hasFilter),
-        toggles: Object.keys(appState.value.entranceTypes).map(key => appState.value.entranceTypes[key]).filter(x => x.hasToggle),
+        options: Object.keys(appState.value.selectedGame.entranceTypes).map(key => appState.value.selectedGame.entranceTypes[key]).filter(x => x.hasFilter),
+        toggles: Object.keys(appState.value.selectedGame.entranceTypes).map(key => appState.value.selectedGame.entranceTypes[key]).filter(x => x.hasToggle),
     };
 
     assignColumnNumber(window.innerWidth);
@@ -75,7 +75,7 @@ const filteredRegions = computed(() => {
         r.entrances = r.entrances.filter(ent => {
             let rowVisible = true;
 
-            if (appState.value.entranceTypes[ent.type])
+            if (appState.value.selectedGame.entranceTypes[ent.type])
                 rowVisible &= appState.value.entranceOptions[ent.type];
             else
                 rowVisible = false;
@@ -115,7 +115,7 @@ const filteredRegionEntranceList = computed(() => {
 const dropdownGroupsByType = computed(() => {
     let result = [];
 
-    for (let entType of Object.getOwnPropertyNames(appState.value.entranceTypes)) {
+    for (let entType of Object.getOwnPropertyNames(appState.value.selectedGame.entranceTypes)) {
         result[entType] = getDropdownGroupsByType(entType);
     }
     result["all"] = getDropdownGroupsByType("all");
@@ -204,7 +204,7 @@ function updateDropdown(data) {
     }
 
 
-    save(appState.value.selectedGame.dir, appState.value);
+    save(appState.value.selectedGame.dir + "test", appState.value);
 }
 
 function assignColumnNumber(width) {

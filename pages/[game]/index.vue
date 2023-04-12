@@ -32,15 +32,15 @@ const route = useRoute();
 
 watchEffect(() => {
     filterConfig.value = {
-        options: Object.keys(appState.value.locationTypes).map(key => appState.value.locationTypes[key]).filter(x => x.hasFilter),
-        tags: Object.keys(appState.value.tags).map(key => appState.value.tags[key]).filter(x => x.hasFilter)
+        options: appState.value.selectedGame.locationTypes ? Object.keys(appState.value.selectedGame.locationTypes).map(key => appState.value.selectedGame.locationTypes[key]).filter(x => x.hasFilter) : [],
+        tags: appState.value.selectedGame.tags ? Object.keys(appState.value.selectedGame.tags).map(key => appState.value.selectedGame.tags[key]).filter(x => x.hasFilter) : []
     };
 });
 
 onMounted(() => {
     filterConfig.value = {
-        options: Object.keys(appState.value.locationTypes).map(key => appState.value.locationTypes[key]).filter(x => x.hasFilter),
-        tags: Object.keys(appState.value.tags).map(key => appState.value.tags[key]).filter(x => x.hasFilter)
+        options: appState.value.selectedGame.locationTypes ? Object.keys(appState.value.selectedGame.locationTypes).map(key => appState.value.selectedGame.locationTypes[key]).filter(x => x.hasFilter) : [],
+        tags: appState.value.selectedGame.tags ? Object.keys(appState.value.selectedGame.tags).map(key => appState.value.selectedGame.tags[key]).filter(x => x.hasFilter) : []
     };
     assignColumnNumber(window.innerWidth);
     assignRegionCardColumns(columns.value);
@@ -62,8 +62,8 @@ const filteredRegions = computed(() => {
                 let rowVisible = true;
 
                 // filter location types
-                if (appState.value.locationTypes[loc.type]) {
-                    let filterType = appState.value.locationTypes[loc.type].filterWith ? appState.value.locationTypes[loc.type].filterWith : loc.type;
+                if (appState.value.selectedGame.locationTypes[loc.type]) {
+                    let filterType = appState.value.selectedGame.locationTypes[loc.type].filterWith ? appState.value.selectedGame.locationTypes[loc.type].filterWith : loc.type;
                     rowVisible &= !!appState.value.options[filterType];
                 }
                 else {
@@ -71,12 +71,13 @@ const filteredRegions = computed(() => {
                 }
 
                 // filter tags
-                for (let tag of Object.getOwnPropertyNames(appState.value.tags)) {
-                    if (appState.value.tags[tag].hasFilter) {
-                        if (appState.value.tagFilters[tag])
-                            rowVisible &= !!loc.tags.find(x => stringCompareCaseInsensitive(x, tag));
+                if(appState.value.selectedGame.tags)
+                    for (let tag of Object.getOwnPropertyNames(appState.value.selectedGame.tags)) {
+                        if (appState.value.selectedGame.tags[tag].hasFilter) {
+                            if (appState.value.tagFilters[tag])
+                                rowVisible &= !!loc.tags.find(x => stringCompareCaseInsensitive(x, tag));
+                        }
                     }
-                }
 
                 // master quest filter
                 if (r.hasMQ) {
@@ -183,7 +184,7 @@ function calculateRegionCardHeight(region) {
 
 function filtersTagClick(tagName) {
 
-    for (let tag of Object.keys(appState.value.tags)) {
+    for (let tag of Object.keys(appState.value.selectedGame.tags)) {
         if (tagName != tag)
             appState.value.tagFilters[tag] = false;
         else

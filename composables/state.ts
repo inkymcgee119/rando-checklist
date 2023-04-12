@@ -10,8 +10,6 @@ export const useAppState = () => useState("appState", () => ({
     options: { },
     tagFilters: { },
     entranceOptions: { },
-    regions: [],
-    tags: [],
-    locationTypes: [],
-    entranceTypes: []
+    regions: []
+    
 }));
