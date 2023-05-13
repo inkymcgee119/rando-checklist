@@ -46,18 +46,18 @@ export async function loadGameData(gameInfo) {
 
     try {
         if (isTauri()) {
-            dirPrefix = "_up_/public/";            
+            dirPrefix = "public";            
 
             let regionPromises = [];
             if(gameInfo.regions)
                 for (let r of gameInfo.regions) {
-                    regionPromises.push(JSON.parse(await readTextFile(await resolveResource(`/${gameInfo.dir}/${r}`))));
+                    regionPromises.push(JSON.parse(await readTextFile(await resolveResource(`../${dirPrefix}/${gameInfo.dir}/${r}`))));
                 }
 
             let entrancePromises = [];
             if(gameInfo.entranceRegions)
                 for (let r of gameInfo.entranceRegions) {
-                    entrancePromises.push(JSON.parse(await readTextFile(await resolveResource(`/${gameInfo.dir}/${r}`))));
+                    entrancePromises.push(JSON.parse(await readTextFile(await resolveResource(`../${dirPrefix}/${gameInfo.dir}/${r}`))));
                 }
 
             let resultsRegions = await Promise.all(regionPromises);
