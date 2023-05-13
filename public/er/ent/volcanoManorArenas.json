@@ -1,0 +1,47 @@
+{
+    "name": "Volcano Manor Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #be123c 60%)",
+    "dropdownColor": "#be123c",
+    "entrances": [
+        {
+            "name": "Abductor Virgins, front",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Abductor Virgins, back",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Godskin Noble, front",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Godskin Noble, back",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Rykard",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+    ]
+}

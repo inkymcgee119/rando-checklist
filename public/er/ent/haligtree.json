@@ -1,0 +1,26 @@
+{
+    "name": "Haligtree",
+    "bgColor": "#059669",
+    "entrances": [
+        {
+            "name": "Start of Haligtree, from warp",
+            "type": "legacy",
+            "tags": ["world"]
+        },
+        {
+            "name": "Before Loretta's arena",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        },
+        {
+            "name": "After Loretta's arena",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        },
+        {
+            "name": "Before Malenia's arena",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        }
+    ]
+}

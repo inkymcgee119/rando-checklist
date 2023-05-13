@@ -1,0 +1,52 @@
+{
+    "name": "Subterranean Shunning-Grounds",
+    "bgColor": "#64748b",
+    "entrances": [
+        {
+            "name": "Before Mohg's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Entrance from Leyndell, Royal Capital",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Entrance to Leyndell Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Leyndell Catacombs, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Leyndell Catacombs, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Leyndell Catacombs", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Leyndell Catacombs, entrance", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Leyndell Catacombs, boss", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        }
+    ]
+}

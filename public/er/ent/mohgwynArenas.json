@@ -1,0 +1,32 @@
+{
+    "name": "Mohgwyn Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #f472b6 60%)",
+    "dropdownColor": "#f472b6",
+    "entrances": [
+        {
+            "name": "Mohg, front",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        },
+        {
+            "name": "Mohg, back left",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        },
+        {
+            "name": "Mohg, back right",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        },
+        {
+            "name": "Behind Mohg's arena, left",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        },
+        {
+            "name": "Behind Mohg's arena, right",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        }
+    ]
+}

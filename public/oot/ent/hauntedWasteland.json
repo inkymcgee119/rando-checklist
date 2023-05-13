@@ -1,0 +1,14 @@
+{
+    "name": "Haunted Wasteland",
+    "bgColor": "#c084fc",
+    "entrances": [
+        {
+            "name": "Gerudo Fortress",
+            "type": "overworld"
+        },
+        {
+            "name": "Desert Colossus",
+            "type": "overworld"
+        }
+    ]
+}

@@ -7,9 +7,21 @@ export const useAppState = () => useState("appState", () => ({
     games: [],
     selectedGame: null,
     notes: "",
-    options: { },
-    tagFilters: { },
-    entranceOptions: { },
-    regions: []
+    regions: [],
+    entranceRegions: [],
+
+    
+    options: {
+        settings: {},
+        tags: {},
+        toggleSettings: {},
+        toggleTags: {}
+     },
+    entranceOptions: { 
+        settings: {},
+        tags: {},
+        toggleSettings: {},
+        toggleTags: {}
+    },
     
 }));

@@ -1,8 +1,6 @@
 {
     "name": "Lost Woods Bridge",
     "bgColor": "#fbbf24",
-    "hasMQ": false,
-    "locations": [],
     "entrances": [
         {
             "name": "Hyrule Field",

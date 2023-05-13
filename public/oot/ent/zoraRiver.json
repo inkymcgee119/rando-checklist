@@ -1,0 +1,30 @@
+{
+    "name": "Zora River",
+    "bgColor": "#059669",
+    "entrances": [
+        {
+            "name": "Hyrule Field",
+            "type": "overworld"
+        },
+        {
+            "name": "Zora's Domain",
+            "type": "overworld"
+        },
+        {
+            "name": "Lost Woods",
+            "type": "overworld"
+        },
+        {
+            "name": "Song of storms",
+            "type": "grotto"
+        },
+        {
+            "name": "Open",
+            "type": "grotto"
+        },
+        {
+            "name": "Fairy",
+            "type": "grotto"
+        }
+    ]
+}

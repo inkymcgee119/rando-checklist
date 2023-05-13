@@ -101,31 +101,5 @@
             "tags": [],
             "count": 4
         }
-    ],
-    "entrances": [
-        {
-            "name": "Goron City",
-            "type": "overworld"
-        },
-        {
-            "name": "Death Mountain Trail",
-            "type": "overworld"
-        },
-        {
-            "name": "Great fairy",
-            "type": "interior"
-        },
-        {
-            "name": "Hammer rock",
-            "type": "grotto"
-        },
-        {
-            "name": "Upper rock",
-            "type": "grotto"
-        },
-        {
-            "name": "Fire temple",
-            "type": "dungeon"
-        }
     ]
 }

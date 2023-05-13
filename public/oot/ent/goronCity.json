@@ -1,0 +1,26 @@
+{
+    "name": "Goron City",
+    "bgColor": "#713f12",
+    "entrances": [
+        {
+            "name": "Death Mountain Trail",
+            "type": "overworld"
+        },
+        {
+            "name": "Lost Woods",
+            "type": "overworld"
+        },
+        {
+            "name": "Death Mountain Crater",
+            "type": "overworld"
+        },
+        {
+            "name": "Shop",
+            "type": "interior"
+        },
+        {
+            "name": "Song of time block",
+            "type": "grotto"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Gerudo's Fortress",
+    "bgColor": "#ca8a04",
+    "entrances": [
+        {
+            "name": "Gerudo Valley",
+            "type": "overworld"
+        },
+        {
+            "name": "Haunted Wasteland",
+            "type": "overworld"
+        },
+        {
+            "name": "Song of storms",
+            "type": "grotto"
+        },
+        {
+            "name": "Gerudo training grounds",
+            "type": "dungeon"
+        }
+    ]
+}

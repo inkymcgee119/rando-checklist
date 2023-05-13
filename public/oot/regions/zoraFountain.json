@@ -66,23 +66,5 @@
             "tags": [],
             "count": 3
         }
-    ],
-    "entrances": [
-        {
-            "name": "Zora's domain",
-            "type": "overworld"
-        },
-        {
-            "name": "Great fairy",
-            "type": "interior"
-        },
-        {
-            "name": "Jabu jabu",
-            "type": "dungeon"
-        },
-        {
-            "name": "Ice cavern",
-            "type": "dungeon"
-        }
     ]
 }

@@ -1,0 +1,80 @@
+{
+    "name": "Ashen Leyndell Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #71717a 60%)",
+    "dropdownColor": "#71717a",
+    "entrances": [
+        {
+            "name": "Gideon, right",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Gideon, back left",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Gideon, back center",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Gideon, back right",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Gideon, front left",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Gideon, front center",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Gideon, front right",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Hoarah Loux, front",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Hoarah Loux, back",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+
+    ]
+}

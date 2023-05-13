@@ -1,0 +1,15 @@
+{
+    "name": "Weeping Peninsula Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #713f12 60%)",
+    "dropdownColor": "#713f12",
+    "entrances": [
+        {
+            "name": "Weeping Peninsula, Leonine Misbegotten",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+    ]
+}

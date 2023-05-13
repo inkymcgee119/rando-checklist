@@ -99,17 +99,17 @@ onMounted(async () => {
 });
 
 async function updateGame(data) {
-    if (data.item.url) {
+    if (data.url) {
         navigateTo(
             {
-                path: data.item.url,
+                path: data.url,
             });
     }
     else {
-        await loadGame(data.item.dir);
+        await loadGame(data.dir);
         navigateTo(
             {
-                path: `/${data.item.dir}/`,
+                path: `/${data.dir}/`,
             });
     }
 }
@@ -127,7 +127,7 @@ async function loadGame(game) {
         appState.value.regions = [];
         appState.value.selectedGame = selectedGame;
 
-        let stored = localStorage.getItem(appState.value.selectedGame.dir + "test"); // check for existing save
+        let stored = localStorage.getItem(appState.value.selectedGame.dir); // check for existing save
         if (stored) {
             appState.value = JSON.parse(stored);
         }

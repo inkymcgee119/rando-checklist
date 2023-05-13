@@ -1,0 +1,66 @@
+{
+    "name": "Hyrule Field",
+    "bgColor": "#854D0E",
+    "entrances": [
+        {
+            "name": "Lost Woods Bridge",
+            "type": "overworld"
+        },
+        {
+            "name": "Zora River",
+            "type": "overworld"
+        },
+        {
+            "name": "Kakariko Village",
+            "type": "overworld"
+        },
+        {
+            "name": "Market Entrance",
+            "type": "overworld"
+        },
+        {
+            "name": "Gerudo Valley",
+            "type": "overworld"
+        },
+        {
+            "name": "Lon Lon Ranch",
+            "type": "overworld"
+        },
+        {
+            "name": "Lake Hylia",
+            "type": "overworld"
+        },
+        {
+            "name": "Open",
+            "type": "grotto"
+        },
+        {
+            "name": "Near kakariko",
+            "type": "grotto"
+        },
+        {
+            "name": "Near market entrance",
+            "type": "grotto"
+        },
+        {
+            "name": "Tektite",
+            "type": "grotto"
+        },
+        {
+            "name": "Fairy",
+            "type": "grotto"
+        },
+        {
+            "name": "Cow",
+            "type": "grotto"
+        },
+        {
+            "name": "Southeast",
+            "type": "grotto"
+        },
+        {
+            "name": "Inside fence",
+            "type": "grotto"
+        }
+    ]
+}

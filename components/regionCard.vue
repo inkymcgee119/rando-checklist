@@ -29,7 +29,10 @@
 
                 <!-- description -->
                 <div class="px-2 font-sans font-medium self-start grow">
-                    <Icon :name="getLocationIcon(loc.type)"></Icon>
+
+                    <Icon v-if="appState.selectedGame.options.settings[loc.type].icon"
+                        :name="appState.selectedGame.options.settings[loc.type].icon"></Icon>
+
                     {{ loc.title }} <span v-if="loc.count">({{ loc.count }})</span>
                     <span v-if="loc.description">
                         <tooltip :text="loc.description">
@@ -41,11 +44,12 @@
                 <!-- tags and fake checkbox -->
                 <div class="px-2 justify-self-end whitespace-nowrap">
                     <span v-for="tag in loc.tags">
-                        <Icon v-if="getTagIcon(tag)" :name="getTagIcon(tag)"></Icon>
+                        <Icon v-if="appState.selectedGame.options.tags[tag].icon" :name="appState.selectedGame.options.tags[tag].icon"></Icon>
                     </span>
                     <span>
                         <Icon :name="loc.isChecked ? 'fa-regular:check-square' : 'fa-regular:square'"
-                            :class="{'text-green-700 cursor-pointer transition ease-in-out hover:scale-110 duration-100': loc.isChecked, 'cursor-pointer transition ease-in-out hover:scale-110 duration-100': !loc.isChecked}"></Icon>
+                            :class="{ 'text-green-700 cursor-pointer transition ease-in-out hover:scale-110 duration-100': loc.isChecked, 'cursor-pointer transition ease-in-out hover:scale-110 duration-100': !loc.isChecked }">
+                        </Icon>
                     </span>
                 </div>
             </div>
@@ -60,31 +64,31 @@ const props = defineProps(["region"]);
 
 const regionStyle = ref('');
 onMounted(() => {
-    if(props.region.isCollapsed)
+    if (props.region.isCollapsed)
         regionStyle.value = "max-height: 0px";
 });
 
 function clickLocation(loc) {
     loc.isChecked = !loc.isChecked;
-    save(appState.value.selectedGame.dir + "test", appState.value);
+    save();
 }
 
 function clickHeader(region) {
     let r = appState.value.regions.find((reg) => stringCompareCaseInsensitive(reg.name, region.name));
     r.isCollapsed = !r.isCollapsed;
-    save(appState.value.selectedGame.dir + "test", appState.value);
+    save();
 }
 
 function rightClickLocation(loc) {
     loc.isStarred = !loc.isStarred;
-    save(appState.value.selectedGame.dir + "test", appState.value);
+    save();
 
     return false;
 }
 function clickMQ(region) {
     let r = appState.value.regions.find((reg) => stringCompareCaseInsensitive(reg.name, region.name));
     r.showMQ = !r.showMQ;
-    save(appState.value.selectedGame.dir + "test", appState.value);
+    save();
 }
 
 

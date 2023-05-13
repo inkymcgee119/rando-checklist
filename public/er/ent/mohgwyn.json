@@ -1,0 +1,22 @@
+{
+    "name": "Mohgwyn",
+    "bgColor": "#f472b6",
+    "entrances": [
+        {
+            "name": "Start of Mohgwyn Palace, from sending gate", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Arriving from Pureblood Knight's Medal warp",
+            "type": "critcal",
+            "tags": ["world", "dungeon"]
+        },
+        {
+            "name": "Before Mohg's arena",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        }   
+        
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Ainsel River",
+    "bgColor": "#c084fc",
+    "entrances": [
+        {
+            "name": "Start of Ainsel River Main, from coffin", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Top of the Ainsel River Well", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Before Dragonkin of Nokstella's arena", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Chest after Dragonkin of Nokstella", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Path down from Ainsel River Main", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Tunnel leading to Ainsel River Downstream", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        }
+    ]
+}

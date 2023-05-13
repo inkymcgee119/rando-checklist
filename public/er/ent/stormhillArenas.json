@@ -1,0 +1,18 @@
+{
+    "name": "Stormhill Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #581c87 60%)",
+    "dropdownColor": "#581c87",
+    "entrances": [
+        {
+            "name": "Margit, front",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        },
+        {
+            "name": "Margit, back",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        }
+
+    ]
+}

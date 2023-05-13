@@ -1,0 +1,13 @@
+{
+    "name": "Siofra Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #fb7185 60%)",
+    "dropdownColor": "#fb7185",
+    "entrances": [
+        {
+            "name": "Ancestor Spirit", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        }
+
+    ]
+}

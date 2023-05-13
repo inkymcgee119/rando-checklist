@@ -1,0 +1,72 @@
+{
+    "name": "Consecrated Snowfield Dungeons",
+    "bgColor": "repeating-linear-gradient(-45deg, #94a3b8 0px 10px, #27272a 10px 20px)",
+    "dropdownColor": "#94a3b8",
+    "entrances": [
+        {
+            "name": "Consecrated Snowfield Catacombs, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Consecrated Snowfield Catacombs, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Consecrated Snowfield Catacombs, entrance", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Consecrated Snowfield Catacombs, boss", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Consecrated Snowfield Catacombs, evergaol", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Yelough Anix Tunnel, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Yelough Anix Tunnel, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Yelough Anix Tunnel, entrance", 
+            "type": "tunnel",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Yelough Anix Tunnel, boss", 
+            "type": "tunnel",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Cave of the Forlorn, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Cave of the Forlorn, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Cave of the Forlorn, entrance", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Cave of the Forlorn, boss", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        }
+    ]
+}

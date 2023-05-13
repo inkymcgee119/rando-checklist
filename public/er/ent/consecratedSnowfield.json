@@ -1,0 +1,83 @@
+{
+    "name": "Consecrated Snowfield",
+    "bgColor": "#94a3b8",
+    "entrances": [
+        {
+            "name": "Arriving in Hidden Path from Grand Lift of Rold", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the Haligtree secret medallions at Hidden Path to the Haligtree", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Hidden Path, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Hidden Path, boss", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Hidden Path, exit to Consecrated Snowfield", 
+            "type": "critical",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Consecrated Snowfield, from Hidden Path dungeon exit", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the sending gate on the west cliffside", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entering Ordina Evergaol", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Arriving in Ordina Evergaol", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the Sending Gate to Haligtree",
+            "type": "legacy",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Using the sending gate in the blizzard area", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Arriving at Minor Erdtree, from warp", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Consecrated Snowfield Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Yelough Anix Tunnel", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Cave of the Forlorn", 
+            "type": "dungeon",
+            "tags": ["world"]
+        }
+    ]
+}

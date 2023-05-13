@@ -1,0 +1,17 @@
+{
+    "name": "Deeproot Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #713f12 60%)",
+    "dropdownColor": "#713f12",
+    "entrances": [
+        {
+            "name": "Fia's Champions", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Sending gate after Fia's Champions", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        }
+    ]
+}

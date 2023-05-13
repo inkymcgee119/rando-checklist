@@ -1,0 +1,22 @@
+{
+    "name": "Flame Peak",
+    "bgColor": "#f97316",
+    "entrances": [
+        
+        {
+            "name": "Entrance to Giant-Conquering Hero's Grave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Fire Giant arena, left", 
+            "type": "major",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Fire Giant arena, right", 
+            "type": "major",
+            "tags": ["world"]
+        }
+    ]
+}

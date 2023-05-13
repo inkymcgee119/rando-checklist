@@ -1,0 +1,230 @@
+{
+    "name": "Limgrave Dungeons",
+    "bgColor": "repeating-linear-gradient(-45deg, #4d7c0f 0px 10px, #27272a 10px 20px)",
+    "dropdownColor": "#4d7c0f",
+    "entrances": [
+        {
+            "name": "Fringefolk Hero's Grave, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Fringefolk Hero's Grave, boss", 
+            "type": "grave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Groveside Cave, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Groveside Cave, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Groveside Cave, entrance", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Groveside Cave, boss", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Groveside Cave, evergaol", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Coastal Cave, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Coastal Cave, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Coastal Cave, boss arena front", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Coastal Cave, boss arena back", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Coastal Cave, exit to Dragon Church", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Coastal Cave, entrance", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Coastal Cave, boss", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Coastal Cave, boss arena front", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Coastal Cave, boss arena back", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Coastal Cave, exit to Dragon Church", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Limgrave Tunnels, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Limgrave Tunnels, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Limgrave Tunnels, entrance", 
+            "type": "tunnel",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Limgrave Tunnels, boss", 
+            "type": "tunnel",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Stormfoot Catacombs, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Stormfoot Catacombs, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Stormfoot Catacombs, entrance", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Stormfoot Catacombs, boss", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Stormfoot Catacombs, evergaol", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Murkwater Cave, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Murkwater Cave, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Murkwater Cave, entrance", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Murkwater Cave, boss", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Murkwater Cave, evergaol", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Murkwater Catacombs, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Murkwater Catacombs, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Murkwater Catacombs, entrance", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Murkwater Catacombs, boss", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Murkwater Catacombs, evergaol", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Highroad Cave, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Highroad Cave, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Highroad Cave, entrance", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Highroad Cave, boss", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Highroad Cave, evergaol", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Waypoint Ruins, arena front", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Waypoint Ruins, arena back", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Waypoint Ruins, Sellen", 
+            "type": "dungeon",
+            "tags": ["world"]
+        }
+        
+
+
+    ]
+}

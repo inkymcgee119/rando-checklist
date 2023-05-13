@@ -1,0 +1,92 @@
+{
+    "name": "Farum Azula",
+    "bgColor": "#7c3aed",
+    "entrances": [
+        {
+            "name": "Start of Farum Azula",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Before Godskin Duo arena, balcony",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Before Godskin Duo arena, right",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Before Godskin Duo arena, left",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Before Godskin Duo arena, site of grace",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        
+        {
+            "name": "After Godskin Duo arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Before Maliketh's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Lying down to go to Placidusax",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Imp Seal leading up to the Dragon Temple Lift grace",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Down the elevator from Dragon Temple Lift grace",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Arriving from Belfries sending gate", 
+            "type": "belfry",
+            "tags": ["world"]
+        }
+    ]
+}

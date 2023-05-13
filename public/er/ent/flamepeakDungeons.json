@@ -1,0 +1,27 @@
+{
+    "name": "Flame Peak Dungeons",
+    "bgColor": "repeating-linear-gradient(-45deg, #f97316 0px 10px, #27272a 10px 20px)",
+    "dropdownColor": "#f97316",
+    "entrances": [
+        {
+            "name": "Giant-Conquering Hero's Grave, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Giant-Conquering Hero's Grave, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Giant-Conquering Hero's Grave, entrance", 
+            "type": "grave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Giant-Conquering Hero's Grave, boss", 
+            "type": "grave",
+            "tags": ["dungeon"]
+        }
+    ]
+}

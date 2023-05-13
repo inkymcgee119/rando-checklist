@@ -131,35 +131,5 @@
                 "grotto"
             ]
         }
-    ],
-    "entrances": [
-        {
-            "name": "Kokiri Forest",
-            "type": "overworld"
-        },
-        {
-            "name": "Sacred Forest Meadow",
-            "type": "overworld"
-        },
-        {
-            "name": "Goron City",
-            "type": "overworld"
-        },
-        {
-            "name": "Zora River",
-            "type": "overworld"
-        },
-        {
-            "name": "Deku theater",
-            "type": "grotto"
-        },
-        {
-            "name": "Near goron city warp",
-            "type": "grotto"
-        },
-        {
-            "name": "Near exit",
-            "type": "grotto"
-        }
     ]
 }

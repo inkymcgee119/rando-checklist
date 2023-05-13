@@ -62,27 +62,5 @@
             ],
             "count": 4
         }
-    ],
-    "entrances": [
-        {
-            "name": "Market",
-            "type": "overworld"
-        },
-        {
-            "name": "Great fairy, child",
-            "type": "interior"
-        },
-        {
-            "name": "Great fairy, adult",
-            "type": "interior"
-        },
-        {
-            "name": "Song of storms",
-            "type": "grotto"
-        },
-        {
-            "name": "Ganon's castle",
-            "type": "dungeon"
-        }
     ]
 }

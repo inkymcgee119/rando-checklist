@@ -1,0 +1,21 @@
+{
+    "name": "Deeproot Depths",
+    "bgColor": "#713f12",
+    "entrances": [
+        {
+            "name": "From Valiant Gargoyles coffin", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Before the Fia's Champions arena", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Resting in the coffin", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        }
+    ]
+}

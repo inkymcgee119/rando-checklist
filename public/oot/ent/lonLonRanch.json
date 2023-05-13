@@ -1,0 +1,26 @@
+{
+    "name": "Lon Lon Ranch",
+    "bgColor": "#ea580c",
+    "entrances": [
+        {
+            "name": "Hyrule Field",
+            "type": "overworld"
+        },
+        {
+            "name": "Talon's house",
+            "type": "interior"
+        },
+        {
+            "name": "Stable",
+            "type": "interior"
+        },
+        {
+            "name": "Silo",
+            "type": "interior"
+        },
+        {
+            "name": "Open",
+            "type": "grotto"
+        }
+    ]
+}

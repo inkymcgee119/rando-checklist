@@ -1,0 +1,26 @@
+{
+    "name": "Chapel of Anticipation",
+    "bgColor": "#e11d48",
+    "entrances": [        
+        {
+            "name": "Pureblood Knight's Medal from anywhere", 
+            "type": "critical",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Before Grafted Scion's arena",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        },        
+        {
+            "name": "After Grafted Scion's arena", 
+            "type": "belfry",
+            "tags": ["world"]
+        },
+        {
+            "name": "After Grafted Scion's arena, from belfries sending gate", 
+            "type": "belfry",
+            "tags": ["world"]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Bellum Highway",
+    "bgColor": "#ec4899",
+    "entrances": [
+        {
+            "name": "Using East Raya Lucaria Gate",
+            "type": "legacy",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Using the Dectus Medallion in Bellum Highway", 
+            "type": "critical",
+            "tags": ["world"]
+        }
+    ]
+}

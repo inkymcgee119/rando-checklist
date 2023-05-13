@@ -40,15 +40,5 @@
             "tags": [],
             "count": 3
         }
-    ],
-    "entrances": [
-        {
-            "name": "Gerudo Fortress",
-            "type": "overworld"
-        },
-        {
-            "name": "Desert Colossus",
-            "type": "overworld"
-        }
     ]
 }

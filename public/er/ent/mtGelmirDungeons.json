@@ -1,0 +1,87 @@
+{
+    "name": "Mt Gelmir Dungeons",
+    "bgColor": "repeating-linear-gradient(-45deg, #3f6212 0px 10px, #27272a 10px 20px)",
+    "dropdownColor": "#3f6212",
+    "entrances": [
+        {
+            "name": "Wyndham Catacombs, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Wyndham Catacombs, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Wyndham Catacombs, entrance", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Wyndham Catacombs, boss", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Gelmir Hero's Grave, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Gelmir Hero's Grave, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Gelmir Hero's Grave, entrance", 
+            "type": "grave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Gelmir Hero's Grave, boss", 
+            "type": "grave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Seethewater Cave, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Seethewater Cave, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Seethewater Cave, entrance", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Seethewater Cave, boss", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Volcano Cave, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Volcano Cave, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Volcano Cave, entrance", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Volcano Cave, boss", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        }
+    ]
+}

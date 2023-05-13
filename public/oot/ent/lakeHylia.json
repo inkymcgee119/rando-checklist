@@ -1,0 +1,34 @@
+{
+    "name": "Lake Hylia",
+    "bgColor": "#2563eb",
+    "entrances": [
+        {
+            "name": "Hyrule Field",
+            "type": "overworld"
+        },
+        {
+            "name": "Zora's Domain",
+            "type": "overworld"
+        },
+        {
+            "name": "Fishing",
+            "type": "interior"
+        },
+        {
+            "name": "Lab",
+            "type": "interior"
+        },
+        {
+            "name": "Gravestone",
+            "type": "grotto"
+        },
+        {
+            "name": "Water temple",
+            "type": "dungeon"
+        },
+        {
+            "name": "Owl",
+            "type": "owl"
+        }
+    ]
+}

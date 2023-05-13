@@ -1,0 +1,23 @@
+{
+    "name": "Haligtree Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #059669 60%)",
+    "dropdownColor": "#059669",
+    "entrances": [
+        {
+            "name": "Loretta, front",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        },
+        {
+            "name": "Loretta, back",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        },
+        {
+            "name": "Malenia",
+            "type": "major",
+            "tags": ["world", "dungeon"]
+        }
+
+    ]
+}

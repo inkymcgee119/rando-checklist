@@ -1,0 +1,71 @@
+{
+    "name": "Farum Azula Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #7c3aed 60%)",
+    "dropdownColor": "#7c3aed",
+    "entrances": [
+        {
+            "name": "Godskin Duo, balcony",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Godskin Duo, front left",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Godskin Duo, front right",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Godskin Duo, back left",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Godskin Duo, back right",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Farum Azula, Placidusax",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Farum Azula, Maliketh",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Farum Azula, warp after defeating Maliketh",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Dragonbarrow Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #134e4a 60%)",
+    "dropdownColor": "#134e4a",
+    "entrances": [
+        {
+            "name": "Divive Tower of Caelid, Godskin Apostle, front", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Divive Tower of Caelid, Godskin Apostle, back", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        }
+
+
+    ]
+}

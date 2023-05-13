@@ -1,0 +1,29 @@
+{
+    "name": "Limgrave Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #4d7c0f 60%)",
+    "dropdownColor": "#4d7c0f",
+    "entrances": [
+        {
+            "name": "Cave of Knowledge, Soldier of Godrick, front", 
+            "type": "stranded",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Cave of Knowledge, Soldier of Godrick, back", 
+            "type": "stranded",
+            "tags": ["world","dungeon"]
+        },        
+        {
+            "name": "Murkwater Cave, Patches' arena", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Murkwater Cave, transporter chest in Patches' room", 
+            "type": "gate",
+            "tags": ["world"]
+        }
+
+
+    ]
+}

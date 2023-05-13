@@ -1,0 +1,78 @@
+{
+    "name": "Academy of Raya Lucaria",
+    "bgColor": "#a855f7",
+    "entrances": [
+        {
+            "name": "Before Red Wolf's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "After Red Wolf's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Before Rennala's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Using South-facing gate at Raya Lucaria Main Entrance",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Using East-facing gate at Raya Lucaria Main Entrance",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Getting abducted at the bottom of the elevator",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Going up the steps to the rooftops section",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Top of the steps before rooftops section",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Using the sending gate before the elevator to Grand Library",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+    ]
+}

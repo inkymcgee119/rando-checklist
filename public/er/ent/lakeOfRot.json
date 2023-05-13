@@ -1,0 +1,26 @@
+{
+    "name": "Lake of Rot",
+    "bgColor": "#7f1d1d",
+    "entrances": [
+        {
+            "name": "Resting in the coffin", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Room before Astel's arena", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "After Astel's arena", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "At the top of the Deep Ainsel Well", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        }
+    ]
+}

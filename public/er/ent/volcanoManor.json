@@ -1,0 +1,101 @@
+{
+    "name": "Volcano Manor",
+    "bgColor": "#be123c",
+    "entrances": [
+        {
+            "name": "Before Abductor Virgins' arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "After Abductor Virgins' arena",
+            "type": "major",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Outside Godskin Noble's arena, front",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Outside Godskin Noble's arena, back",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Before Rykard's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Doorway from Mt. Gelmir",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "End of the dark hallway leading to Prison Town",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Behind the altar coming from the manor",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Doorway on the second story, opposite the Sending Gate",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Using the Sending Gate after Volcano Manor temple",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Audience Pathway, from wrap",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "From Abductor Virgin warp",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+    ]
+}

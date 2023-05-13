@@ -1,0 +1,31 @@
+{
+    "name": "Flame Peak Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #f97316 60%)",
+    "dropdownColor": "#f97316",
+    "entrances": [
+        {
+            "name": "Fire Giant, left",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Fire Giant, right",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Fire Giant, burning the erdtree",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+    ]
+}

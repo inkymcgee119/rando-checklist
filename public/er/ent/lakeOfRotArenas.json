@@ -1,0 +1,17 @@
+{
+    "name": "Lake of Rot Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #7f1d1d 60%)",
+    "dropdownColor": "#7f1d1d",
+    "entrances": [
+        {
+            "name": "Astel, front", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Astel, back", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        }
+    ]
+}

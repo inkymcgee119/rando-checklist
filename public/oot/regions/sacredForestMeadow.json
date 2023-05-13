@@ -45,27 +45,5 @@
                 "grotto"
             ]
         }
-    ],
-    "entrances": [
-        {
-            "name": "Lost Woods",
-            "type": "overworld"
-        },
-        {
-            "name": "Wolfos",
-            "type": "grotto"
-        },
-        {
-            "name": "Song of storms",
-            "type": "grotto"
-        },
-        {
-            "name": "Fairy",
-            "type": "grotto"
-        },
-        {
-            "name": "Forest temple",
-            "type": "dungeon"
-        }
     ]
 }

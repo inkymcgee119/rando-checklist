@@ -1,0 +1,58 @@
+{
+    "name": "Weeping Peninsula",
+    "bgColor": "#713f12",
+    "entrances": [
+        {
+            "name": "Before Leonine Misbegotten's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Opening the transporter chest atop the Tower of Return",
+            "type": "legacy",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Castle Mourne entrance from Weeping Peninsula",
+            "type": "legacy",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Weeping Evergaol", 
+            "type": "evergaol",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Tombsward Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Morne Tunnel", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Tombsward Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Earthbore Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Impaler's Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        }
+    ]
+}

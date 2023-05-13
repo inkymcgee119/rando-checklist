@@ -1,0 +1,26 @@
+{
+    "name": "Hyrule/Ganon's Castle Grounds",
+    "bgColor": "#f43f5e",
+    "entrances": [
+        {
+            "name": "Market",
+            "type": "overworld"
+        },
+        {
+            "name": "Great fairy, child",
+            "type": "interior"
+        },
+        {
+            "name": "Great fairy, adult",
+            "type": "interior"
+        },
+        {
+            "name": "Song of storms",
+            "type": "grotto"
+        },
+        {
+            "name": "Ganon's castle",
+            "type": "dungeon"
+        }
+    ]
+}

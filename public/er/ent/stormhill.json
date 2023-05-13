@@ -1,0 +1,27 @@
+{
+    "name": "Stormhill",
+    "bgColor": "#581c87",
+    "entrances": [
+        {
+            "name": "Before Margit's arena",
+            "type": "major",
+            "tags": ["world"]
+        },
+        
+        {
+            "name": "Side path to Liurnia", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Stormhill Evergaol", 
+            "type": "evergaol",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Deathtouched Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        }
+    ]
+}

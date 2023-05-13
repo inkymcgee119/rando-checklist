@@ -122,23 +122,5 @@
             "tags": [],
             "count": 2
         }
-    ],
-    "entrances": [
-        {
-            "name": "Gerudo Valley",
-            "type": "overworld"
-        },
-        {
-            "name": "Haunted Wasteland",
-            "type": "overworld"
-        },
-        {
-            "name": "Song of storms",
-            "type": "grotto"
-        },
-        {
-            "name": "Gerudo training grounds",
-            "type": "dungeon"
-        }
     ]
 }

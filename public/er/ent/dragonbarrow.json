@@ -1,0 +1,77 @@
+{
+    "name": "Dragonbarrow",
+    "bgColor": "#134e4a",
+    "entrances": [
+        
+        {
+            "name": "Arriving at Bestial Sanctum, from warp", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Right entrance to Divine Tower of Caelid", 
+            "type": "tower",
+            "tags": ["world"]
+        },
+        {
+            "name": "Middle entrance to Divine Tower of Caelid", 
+            "type": "tower",
+            "tags": ["world"]
+        },
+        {
+            "name": "Left entrance to Divine Tower of Caelid", 
+            "type": "tower",
+            "tags": ["world"]
+        },
+        {
+            "name": "Divine Tower of Caelid, left exit to Dragonbarrow", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Divine Tower of Caelid, middle exit to Dragonbarrow", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Divine Tower of Caelid, right exit to Dragonbarrow", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Stairs to Caelid Divine Tower's Two Fingers", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Door to Caelid Divine Tower's Two Fingers", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Before Godskin Apostle's arena", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "After Godskin Apostle's arena", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Sellia Evergaol", 
+            "type": "evergaol",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Sellia Hideaway", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Dragonbarrow Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "Stormveil Castle",
+    "bgColor": "#14b8a6",
+    "entrances": [
+        {
+            "name": "After Margit's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Before Godrick's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Going towards Limgrave Divine Tower", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Divine Tower of Limgrave, from Stormveil Castle", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Divine Tower of Limgrave, using sending gate", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Divine Tower of Limgrave, other side, arriving from sending gate", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        }
+    ]
+}

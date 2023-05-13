@@ -1,0 +1,81 @@
+{
+    "name": "Leyndell Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #831843 60%)",
+    "dropdownColor": "#831843",
+    "entrances": [
+        {
+            "name": "Godfrey, side",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Godfrey, back left",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Godfrey, back center",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Godfrey, back right",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Godfrey, front left",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Godfrey, front center",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Godfrey, front right",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Morgott, front",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Morgott, back",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+        
+
+    ]
+}

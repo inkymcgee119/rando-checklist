@@ -102,39 +102,5 @@
             ],
             "count": 2
         }
-    ],
-    "entrances": [
-        {
-            "name": "Kakariko Village",
-            "type": "overworld"
-        },
-        {
-            "name": "Goron City",
-            "type": "overworld"
-        },
-        {
-            "name": "Death Mountain Crater",
-            "type": "overworld"
-        },
-        {
-            "name": "Great fairy",
-            "type": "interior"
-        },
-        {
-            "name": "Song of storms",
-            "type": "grotto"
-        },
-        {
-            "name": "Cow",
-            "type": "grotto"
-        },
-        {
-            "name": "Dodongo's cavern",
-            "type": "dungeon"
-        },
-        {
-            "name": "Owl",
-            "type": "owl"
-        }
     ]
 }

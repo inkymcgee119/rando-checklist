@@ -9,13 +9,10 @@
             "regions": [
                 "regions/kokiriForest.json",
                 "regions/lostWoods.json",
-                "regions/lostWoodsBridge.json",
                 "regions/sacredForestMeadow.json",
                 "regions/hyruleField.json",
-                "regions/marketEntrance.json",
                 "regions/market.json",
                 "regions/castleGrounds.json",
-                "regions/templeOfTimeEntrance.json",
                 "regions/templeOfTime.json",
                 "regions/lonLonRanch.json",
                 "regions/kakarikoVillage.json",
@@ -42,8 +39,33 @@
                 "regions/shadowTemple.json",
                 "regions/gerudoTrainingGrounds.json",
                 "regions/spiritTemple.json",
-                "regions/ganonCastle.json",
-                "regions/warpSongs.json"
+                "regions/ganonCastle.json"
+            ],
+            "entranceRegions": [
+                "ent/kokiriForest.json",
+                "ent/lostWoods.json",
+                "ent/lostWoodsBridge.json",
+                "ent/sacredForestMeadow.json",
+                "ent/hyruleField.json",
+                "ent/marketEntrance.json",
+                "ent/market.json",
+                "ent/castleGrounds.json",
+                "ent/templeOfTimeEntrance.json",
+                "ent/lonLonRanch.json",
+                "ent/kakarikoVillage.json",
+                "ent/graveyard.json",
+                "ent/deathMountainTrail.json",
+                "ent/deathMountainCrater.json",
+                "ent/goronCity.json",
+                "ent/zoraRiver.json",
+                "ent/zoraDomain.json",
+                "ent/zoraFountain.json",
+                "ent/lakeHylia.json",
+                "ent/gerudoValley.json",
+                "ent/gerudoFortress.json",
+                "ent/hauntedWasteland.json",
+                "ent/desertColossus.json",
+                "ent/warpSongs.json"
             ],
             "columns": {
                 "sm": 1,
@@ -51,175 +73,163 @@
                 "lg": 3,
                 "xl": 4,
                 "xxl": 5,
-                "xxxl": 6 
+                "xxxl": 6
             },
-            "locationTypes": {
-                "item": {
-                    "name": "item",
-                    "description": "Items",
-                    "icon": "game-icons:chest",
-                    "hasFilter": true,
-                    "isDefault": true
+            "options": {
+                "settings": {
+                    "item": {
+                        "name": "item",
+                        "description": "Items",
+                        "icon": "game-icons:chest",
+                        "isDefault": true
+                    },
+                    "gs": {
+                        "name": "gs",
+                        "description": "Gold Skulltulas",
+                        "icon": "game-icons:masked-spider"
+                    },
+                    "boss": {
+                        "name": "boss",
+                        "description": "Boss",
+                        "icon": "game-icons:death-skull",
+                        "filterWith": "item"
+                    },
+                    "shop": {
+                        "name": "shop",
+                        "description": "Shops",
+                        "icon": "game-icons:shopping-cart"
+                    },
+                    "scrub": {
+                        "name": "scrub",
+                        "description": "Scrubs",
+                        "icon": "tabler:plant-2"
+                    },
+                    "cow": {
+                        "name": "cow",
+                        "description": "Cows",
+                        "icon": "game-icons:cow"
+                    },
+                    "pot": {
+                        "name": "pot",
+                        "description": "Pots",
+                        "icon": "game-icons:covered-jar"
+                    },
+                    "crate": {
+                        "name": "crate",
+                        "description": "Crates",
+                        "icon": "game-icons:wooden-crate"
+                    },
+                    "song": {
+                        "name": "song",
+                        "description": "Songs",
+                        "icon": "game-icons:musical-score",
+                        "filterWith": "item"
+                    },
+                    "rupee": {
+                        "name": "rupee",
+                        "description": "Rupees & Hearts",
+                        "icon": "game-icons:rupee"
+                    },
+                    "beehive": {
+                        "name": "beehive",
+                        "description": "Bee Hives",
+                        "icon": "game-icons:bee"
+                    }
                 },
-                "gs": {
-                    "name": "gs",
-                    "description": "Gold Skulltulas",
-                    "icon": "game-icons:masked-spider",
-                    "hasFilter": true
-                },
-                "boss": {
-                    "name": "boss",
-                    "description": "Boss",
-                    "icon": "game-icons:death-skull",
-                    "filterWith": "item"
-                },
-                "shop": {
-                    "name": "shop",
-                    "description": "Shops",
-                    "icon": "game-icons:shopping-cart",
-                    "hasFilter": true
-                },
-                "scrub": {
-                    "name": "scrub",
-                    "description": "Scrubs",
-                    "icon": "tabler:plant-2",
-                    "hasFilter": true
-                },
-                "cow": {
-                    "name": "cow",
-                    "description": "Cows",
-                    "icon": "game-icons:cow",
-                    "hasFilter": true
-                },
-                "pot": {
-                    "name": "pot",
-                    "description": "Pots",
-                    "icon": "game-icons:covered-jar",
-                    "hasFilter": true
-                },
-                "crate": {
-                    "name": "crate",
-                    "description": "Crates",
-                    "icon": "game-icons:wooden-crate",
-                    "hasFilter": true
-                },
-                "song": {
-                    "name": "song",
-                    "description": "Songs",
-                    "icon": "game-icons:musical-score",
-                    "filterWith": "item"
-                },
-                "rupee": {
-                    "name": "rupee",
-                    "description": "Rupees & Hearts",
-                    "icon": "game-icons:rupee",
-                    "hasFilter": true
-                },
-                "heart": {
-                    "name": "heart",
-                    "description": "Heart",
-                    "icon": "game-icons:hearts"
-                },
-                "beehive": {
-                    "name": "beehive",
-                    "description": "Bee Hives",
-                    "icon": "game-icons:bee",
-                    "hasFilter": true
+                "tags": {
+                    "vanilla": {
+                        "name": "Vanilla",
+                        "description": "Vanilla Dungeon",
+                        "isHidden": true
+                    },
+                    "mq": {
+                        "name": "MQ",
+                        "description": "Master Quest Dungeon",
+                        "isHidden": true
+                    },
+                    "child": {
+                        "name": "child",
+                        "description": "Child",
+                        "icon": "fa6-solid:c"
+                    },
+                    "adult": {
+                        "name": "adult",
+                        "description": "Adult",
+                        "icon": "fa6-solid:a"
+                    },
+                    "grotto": {
+                        "name": "grotto",
+                        "description": "Grotto",
+                        "icon": "game-icons:hole"
+                    },
+                    "night": {
+                        "name": "night",
+                        "description": "Night",
+                        "icon": "bi:moon"
+                    },
+                    "bean": {
+                        "name": "bean",
+                        "description": "Soft soil",
+                        "icon": "iconoir:soil-alt"
+                    }
                 }
             },
-            "entranceTypes": {
-                "dungeon": {
-                    "name": "dungeon",
-                    "description": "Dungeons",
-                    "icon": "material-symbols:castle-outline",
-                    "hasFilter": true,
-                    "hideRegionLabel": true
+            "entranceOptions": {
+                "settings": {
+                    "dungeon": {
+                        "name": "dungeon",
+                        "description": "Dungeons",
+                        "icon": "material-symbols:castle-outline",
+                        "hasFilter": true,
+                        "hideRegionLabel": true
+                    },
+                    "interior": {
+                        "name": "interior",
+                        "description": "Interiors",
+                        "icon": "material-symbols:house-outline",
+                        "hasFilter": true
+                    },
+                    "overworld": {
+                        "name": "overworld",
+                        "description": "Overworld",
+                        "icon": "ion:md-globe",
+                        "hasFilter": true,
+                        "isBidirectional": true,
+                        "addToAndFromToDescription": true
+                    },
+                    "grotto": {
+                        "name": "grotto",
+                        "description": "Grottos",
+                        "icon": "game-icons:hole",
+                        "hasFilter": true
+                    },
+                    "owl": {
+                        "name": "owl",
+                        "description": "Owls",
+                        "icon": "icon-park-solid:owl",
+                        "hasFilter": true,
+                        "showAll": true
+                    },
+                    "song": {
+                        "name": "song",
+                        "description": "Warp Songs",
+                        "icon": "game-icons:musical-score",
+                        "hasFilter": true,
+                        "showAll": true
+                    }
                 },
-                "interior": {
-                    "name": "interior",
-                    "description": "Interiors",
-                    "icon": "material-symbols:house-outline",
-                    "hasFilter": true
-                },
-                "overworld": {
-                    "name": "overworld",
-                    "description": "Overworld",
-                    "icon": "ion:md-globe",
-                    "hasFilter": true,
-                    "isBidirectional": true
-                },
-                "grotto": {
-                    "name": "grotto",
-                    "description": "Grottos",
-                    "icon": "game-icons:hole",
-                    "hasFilter": true
-                },
-                "owl": {
-                    "name": "owl",
-                    "description": "Owls",
-                    "icon": "icon-park-solid:owl",
-                    "hasFilter": true,
-                    "showAll": true
-                },
-                "song": {
-                    "name": "song",
-                    "description": "Warp Songs",
-                    "icon": "game-icons:musical-score",
-                    "hasFilter": true,
-                    "showAll": true
-                },
-                "mixedPool": {
-                    "name": "mixedPool",
-                    "description": "Mixed entrance pools",
-                    "hasToggle": true
-                },
-                "decoupled": {
-                    "name": "decoupled",
-                    "description": "Decoupled entrances",
-                    "hasToggle": true
-                }
-            },
-            "tags": {
-                "vanilla": {
-                    "name": "Vanilla",
-                    "description": "Vanilla Dungeon"
-                },
-                "mq": {
-                    "name": "MQ",
-                    "description": "Master Quest Dungeon"
-                },
-                "child": {
-                    "name": "child",
-                    "description": "Child",
-                    "icon": "fa6-solid:c",
-                    "hasFilter": true
-                },
-                "adult": {
-                    "name": "adult",
-                    "description": "Adult",
-                    "icon": "fa6-solid:a",
-                    "hasFilter": true
-                },
-                "grotto": {
-                    "name": "grotto",
-                    "description": "Grotto",
-                    "icon": "game-icons:hole",
-                    "hasFilter": true
-                },
-                "night": {
-                    "name": "night",
-                    "description": "Night",
-                    "icon": "bi:moon",
-                    "hasFilter": true
-                },
-                "bean": {
-                    "name": "bean",
-                    "description": "Soft soil",
-                    "icon": "iconoir:soil-alt",
-                    "hasFilter": true
+                "toggleSettings": {
+                    "coupled": {
+                        "name": "coupled",
+                        "description": "Auto Pair Entrances",
+                        "isDefault": true
+                    },
+                    "mixedPool": {
+                        "name": "mixedPool",
+                        "description": "Mixed entrance pools"
+                    }
                 }
             }
-
         },
         {
             "value": "Majora's Mask",
@@ -244,7 +254,7 @@
                 "regions/woodfallTemple.json",
                 "regions/mountainVillage.json",
                 "regions/twinIslands.json",
-                "regions/goronVillage.json",                
+                "regions/goronVillage.json",
                 "regions/pathToSnowhead.json",
                 "regions/snowheadTemple.json",
                 "regions/milkRoad.json",
@@ -253,7 +263,7 @@
                 "regions/oceanSpiderHouse.json",
                 "regions/pinnacleRock.json",
                 "regions/zoraCape.json",
-                "regions/zoraHall.json",                
+                "regions/zoraHall.json",
                 "regions/pirateFortress.json",
                 "regions/greatBayTemple.json",
                 "regions/roadToIkana.json",
@@ -265,8 +275,6 @@
                 "regions/stoneTowerTemple.json",
                 "regions/secretShrine.json",
                 "regions/moon.json"
-                
-                
             ],
             "resources": [
                 {
@@ -288,172 +296,175 @@
                 "lg": 3,
                 "xl": 4,
                 "xxl": 5,
-                "xxxl": 6 
+                "xxxl": 6
             },
-            "locationTypes": {
-                "item": {
-                    "name": "item",
-                    "description": "Base Items",
-                    "icon": "game-icons:chest",
-                    "hasFilter": true,
-                    "isDefault": true
+            "options": {
+                "settings": {
+                    "item": {
+                        "name": "item",
+                        "description": "Base Items",
+                        "icon": "game-icons:chest",
+                        "hasFilter": true,
+                        "isDefault": true
+                    },
+                    "everything": {
+                        "name": "everything",
+                        "description": "Everything Else",
+                        "icon": "game-icons:hearts",
+                        "hasFilter": true
+                    },
+                    "mundane": {
+                        "name": "mundane",
+                        "description": "Mundane Rewards",
+                        "icon": "material-symbols:timer-outline-rounded",
+                        "hasFilter": true
+                    },
+                    "dungeon": {
+                        "name": "dungeon",
+                        "description": "Dungeon Items",
+                        "icon": "material-symbols:castle-outline",
+                        "hasFilter": true
+                    },
+                    "gs": {
+                        "name": "gs",
+                        "description": "Gold Skulltulas",
+                        "icon": "game-icons:masked-spider",
+                        "hasFilter": true
+                    },
+                    "boss": {
+                        "name": "boss",
+                        "description": "Boss",
+                        "icon": "game-icons:death-skull",
+                        "filterWith": "item"
+                    },
+                    "shop": {
+                        "name": "shop",
+                        "description": "Shops",
+                        "icon": "game-icons:shopping-cart",
+                        "hasFilter": true
+                    },
+                    "cow": {
+                        "name": "cow",
+                        "description": "Cows",
+                        "icon": "game-icons:cow",
+                        "hasFilter": true
+                    },
+                    "song": {
+                        "name": "song",
+                        "description": "Songs",
+                        "icon": "game-icons:musical-score",
+                        "filterWith": "item"
+                    },
+                    "rupee": {
+                        "name": "rupee",
+                        "description": "Freestanding Rupees",
+                        "icon": "game-icons:rupee",
+                        "hasFilter": true
+                    },
+                    "hiddenrupee": {
+                        "name": "hiddenrupee",
+                        "description": "Hidden Rupees",
+                        "icon": "emojione-monotone:sparkles",
+                        "hasFilter": true
+                    },
+                    "fairies": {
+                        "name": "fairies",
+                        "description": "Stray Fairies",
+                        "icon": "game-icons:fairy",
+                        "hasFilter": true
+                    },
+                    "fairyrewards": {
+                        "name": "fairyrewards",
+                        "description": "Fairy Rewards",
+                        "icon": "game-icons:fairy",
+                        "hasFilter": true
+                    },
+                    "moon": {
+                        "name": "moon",
+                        "description": "Moon",
+                        "icon": "ri:moon-line",
+                        "hasFilter": true
+                    },
+                    "softsoil": {
+                        "name": "softsoil",
+                        "description": "Soft Soil",
+                        "icon": "iconoir:soil-alt",
+                        "hasFilter": true
+                    },
+                    "fixed": {
+                        "name": "fixed",
+                        "description": "Fixed Minor Drops",
+                        "icon": "game-icons:covered-jar",
+                        "hasFilter": true
+                    },
+                    "ocarina": {
+                        "name": "ocarina",
+                        "description": "Ocarina/Song of Time",
+                        "icon": "game-icons:ocarina",
+                        "hasFilter": true
+                    }
                 },
-                "everything": {
-                    "name": "everything",
-                    "description": "Everything Else",
-                    "icon": "game-icons:hearts",
-                    "hasFilter": true
-                },
-                "mundane": {
-                    "name": "mundane",
-                    "description": "Mundane Rewards",
-                    "icon": "material-symbols:timer-outline-rounded",
-                    "hasFilter": true
-                },
-                "dungeon": {
-                    "name": "dungeon",
-                    "description": "Dungeon Items",
-                    "icon": "material-symbols:castle-outline",
-                    "hasFilter": true
-                },
-                "gs": {
-                    "name": "gs",
-                    "description": "Gold Skulltulas",
-                    "icon": "game-icons:masked-spider",
-                    "hasFilter": true
-                },
-                "boss": {
-                    "name": "boss",
-                    "description": "Boss",
-                    "icon": "game-icons:death-skull",
-                    "filterWith": "item"
-                },
-                "shop": {
-                    "name": "shop",
-                    "description": "Shops",
-                    "icon": "game-icons:shopping-cart",
-                    "hasFilter": true
-                },
-                "cow": {
-                    "name": "cow",
-                    "description": "Cows",
-                    "icon": "game-icons:cow",
-                    "hasFilter": true
-                },
-                "song": {
-                    "name": "song",
-                    "description": "Songs",
-                    "icon": "game-icons:musical-score",
-                    "filterWith": "item"
-                },
-                "rupee": {
-                    "name": "rupee",
-                    "description": "Freestanding Rupees",
-                    "icon": "game-icons:rupee",
-                    "hasFilter": true
-                },
-                "hiddenrupee": {
-                    "name": "hiddenrupee",
-                    "description": "Hidden Rupees",
-                    "icon": "emojione-monotone:sparkles",
-                    "hasFilter": true
-                },
-                "fairies": {
-                    "name": "fairies",
-                    "description": "Stray Fairies",
-                    "icon": "game-icons:fairy",
-                    "hasFilter": true
-                },
-                "fairyrewards": {
-                    "name": "fairyrewards",
-                    "description": "Fairy Rewards",
-                    "icon": "game-icons:fairy",
-                    "hasFilter": true
-                },
-                "moon": {
-                    "name": "moon",
-                    "description": "Moon",
-                    "icon": "ri:moon-line",
-                    "hasFilter": true
-                },
-                "softsoil": {
-                    "name": "softsoil",
-                    "description": "Soft Soil",
-                    "icon": "iconoir:soil-alt",
-                    "hasFilter": true
-                },
-                "fixed": {
-                    "name": "fixed",
-                    "description": "Fixed Minor Drops",
-                    "icon": "game-icons:covered-jar",
-                    "hasFilter": true
-                },
-                "ocarina": {
-                    "name": "ocarina",
-                    "description": "Ocarina/Song of Time",
-                    "icon": "game-icons:ocarina",
-                    "hasFilter": true
+                "tags": {
+                    "day": {
+                        "name": "day",
+                        "description": "Day",
+                        "icon": "bi:sun",
+                        "hasFilter": true
+                    },
+                    "night": {
+                        "name": "night",
+                        "description": "Night",
+                        "icon": "bi:moon",
+                        "hasFilter": true
+                    },
+                    "day1": {
+                        "name": "day1",
+                        "description": "Day",
+                        "icon": "ri:number-1",
+                        "hasFilter": true
+                    },
+                    "day2": {
+                        "name": "day2",
+                        "description": "Day",
+                        "icon": "ri:number-2",
+                        "hasFilter": true
+                    },
+                    "day3": {
+                        "name": "day3",
+                        "description": "Day",
+                        "icon": "ri:number-3",
+                        "hasFilter": true
+                    },
+                    "grotto": {
+                        "name": "grotto",
+                        "description": "Grotto",
+                        "icon": "game-icons:hole",
+                        "hasFilter": true
+                    },
+                    "winter": {
+                        "name": "winter",
+                        "description": "Winter",
+                        "icon": "bi:snow",
+                        "hasFilter": true
+                    },
+                    "spring": {
+                        "name": "spring",
+                        "description": "Spring",
+                        "icon": "cib:spring",
+                        "hasFilter": true
+                    }
                 }
-                
             },
-            "entranceTypes": {
-                "dungeon": {
-                    "name": "dungeon",
-                    "description": "Dungeons",
-                    "icon": "material-symbols:castle-outline",
-                    "hasFilter": true,
-                    "hideRegionLabel": true,
-                    "isDefault": true
-                }
-            },
-            "tags": {
-                "day": {
-                    "name": "day",
-                    "description": "Day",
-                    "icon": "bi:sun",
-                    "hasFilter": true
-                },
-                "night": {
-                    "name": "night",
-                    "description": "Night",
-                    "icon": "bi:moon",
-                    "hasFilter": true
-                },
-                "day1": {
-                    "name": "day1",
-                    "description": "Day",
-                    "icon": "ri:number-1",
-                    "hasFilter": true
-                },
-                "day2": {
-                    "name": "day2",
-                    "description": "Day",
-                    "icon": "ri:number-2",
-                    "hasFilter": true
-                },
-                "day3": {
-                    "name": "day3",
-                    "description": "Day",
-                    "icon": "ri:number-3",
-                    "hasFilter": true
-                },
-                "grotto": {
-                    "name": "grotto",
-                    "description": "Grotto",
-                    "icon": "game-icons:hole",
-                    "hasFilter": true
-                },
-                "winter": {
-                    "name": "winter",
-                    "description": "Winter",
-                    "icon": "bi:snow",
-                    "hasFilter": true
-                },
-                "spring": {
-                    "name": "spring",
-                    "description": "Spring",
-                    "icon": "cib:spring",
-                    "hasFilter": true
+            "entranceOptions": {
+                "settings": {
+                    "dungeon": {
+                        "name": "dungeon",
+                        "description": "Dungeons",
+                        "icon": "material-symbols:castle-outline",
+                        "hasFilter": true,
+                        "hideRegionLabel": true,
+                        "isDefault": true
+                    }
                 }
             }
         },
@@ -487,15 +498,17 @@
                 "lg": 3,
                 "xl": 4,
                 "xxl": 5,
-                "xxxl": 6 
+                "xxxl": 6
             },
-            "locationTypes": {
-                "item": {
-                    "name": "item",
-                    "description": "Items",
-                    "icon": "game-icons:chest",
-                    "isDefault": true,
-                    "hasFilter": false
+            "options": {
+                "settings": {
+                    "item": {
+                        "name": "item",
+                        "description": "Items",
+                        "icon": "game-icons:chest",
+                        "isDefault": true,
+                        "hasFilter": false
+                    }
                 }
             }
         },
@@ -504,13 +517,13 @@
             "description": "Elden Ring",
             "icon": "icon-park-outline:ring",
             "dir": "er",
-            "hasEntranceRando": false,
+            "hasEntranceRando": true,
             "regions": [
                 "regions/limgrave.json",
                 "regions/stormhill.json",
                 "regions/stormveil.json",
                 "regions/weepingPeninsula.json",
-                "regions/siofra.json",                
+                "regions/siofra.json",
                 "regions/liurnia.json",
                 "regions/ainsel.json",
                 "regions/bellum.json",
@@ -518,16 +531,16 @@
                 "regions/caelid.json",
                 "regions/dragonbarrow.json",
                 "regions/altus.json",
-                "regions/capitalOutskirts.json",                
+                "regions/capitalOutskirts.json",
                 "regions/leyndellCapital.json",
                 "regions/shunningGrounds.json",
                 "regions/mtGelmir.json",
                 "regions/volcanoManor.json",
                 "regions/nokron.json",
-                "regions/deeproot.json",                
+                "regions/deeproot.json",
                 "regions/nokstella.json",
                 "regions/lakeOfRot.json",
-                "regions/moonlightAltar.json",                
+                "regions/moonlightAltar.json",
                 "regions/forbiddenLands.json",
                 "regions/mountaintops.json",
                 "regions/flamePeak.json",
@@ -538,69 +551,280 @@
                 "regions/leyndellAsh.json",
                 "regions/roundtable.json"
             ],
+            "entranceRegions": [
+                "ent/general.json",
+                "ent/chapelOfAnticipation.json",
+                "ent/chapelOfAnticipationArenas.json",
+                "ent/limgrave.json",
+                "ent/limgraveDungeons.json",
+                "ent/limgraveArenas.json",
+                "ent/stormhill.json",
+                "ent/stormhillDungeons.json",
+                "ent/stormhillArenas.json",
+                "ent/stormveil.json",
+                "ent/stormveilArenas.json",
+                "ent/weepingPeninsula.json",
+                "ent/weepingPeninsulaDungeons.json",
+                "ent/siofra.json",
+                "ent/siofraArenas.json",
+                "ent/liurnia.json",
+                "ent/liurniaDungeons.json",
+                "ent/liurniaArenas.json",
+                "ent/ainsel.json",
+                "ent/ainselArenas.json",
+                "ent/bellum.json",
+                "ent/rayaLucaria.json",
+                "ent/caelid.json",
+                "ent/caelidDungeons.json",
+                "ent/caelidArenas.json",
+                "ent/dragonbarrow.json",
+                "ent/dragonbarrowDungeons.json",
+                "ent/dragonbarrowArenas.json",
+                "ent/altus.json",
+                "ent/altusDungeons.json",
+                "ent/altusArenas.json",
+                "ent/capitalOutskirts.json",
+                "ent/capitalOutskirtsDungeons.json",
+                "ent/capitalOutskirtsArenas.json",
+                "ent/leyndellCapital.json",
+                "ent/leyndellCapitalArenas.json",
+                "ent/shunningGrounds.json",
+                "ent/shunningGroundsArenas.json",
+                "ent/mtGelmir.json",
+                "ent/mtGelmirDungeons.json",
+                "ent/volcanoManor.json",
+                "ent/volcanoManorArenas.json",
+                "ent/nokron.json",
+                "ent/nokronArenas.json",
+                "ent/deeproot.json",
+                "ent/deeprootArenas.json",
+                "ent/nokstella.json",
+                "ent/lakeOfRot.json",
+                "ent/lakeOfRotArenas.json",
+                "ent/moonlightAltar.json",
+                "ent/forbiddenLands.json",
+                "ent/mountaintops.json",
+                "ent/mountaintopsDungeons.json",
+                "ent/mountaintopsArenas.json",
+                "ent/flamepeak.json",
+                "ent/flamepeakDungeons.json",
+                "ent/flamepeakArenas.json",
+                "ent/farumAzula.json",
+                "ent/farumAzulaArenas.json",
+                "ent/consecratedSnowfield.json",
+                "ent/consecratedSnowfieldDungeons.json",
+                "ent/haligtree.json",
+                "ent/haligtreeArenas.json",
+                "ent/mohgwyn.json",
+                "ent/mohgwynArenas.json",
+                "ent/leyndellAsh.json",
+                "ent/leyndellAshArenas.json",
+                "ent/roundtable.json"
+            ],
             "columns": {
                 "sm": 1,
                 "md": 1,
                 "lg": 2,
                 "xl": 2,
                 "xxl": 3,
-                "xxxl": 3 
+                "xxxl": 3
             },
-            "locationTypes": {
-                "key": {
-                    "name": "key",
-                    "description": "Vanilla Key Items",
-                    "icon": "material-symbols:key",
-                    "hasFilter": true,
-                    "isDefault": true
+            "options": {
+                "settings": {
+                    "key": {
+                        "name": "key",
+                        "description": "Vanilla Key Items",
+                        "icon": "material-symbols:key",
+                        "hasFilter": true,
+                        "isDefault": true
+                    },
+                    "shop": {
+                        "name": "shop",
+                        "description": "Merchants",
+                        "icon": "ic:baseline-shopping-cart",
+                        "hasFilter": true
+                    },
+                    "major": {
+                        "name": "major",
+                        "description": "Major Bosses",
+                        "icon": "game-icons:daemon-skull",
+                        "hasFilter": true
+                    },
+                    "minor": {
+                        "name": "minor",
+                        "description": "Minor Bosses",
+                        "icon": "ph:skull-fill",
+                        "hasFilter": true
+                    },
+                    "night": {
+                        "name": "night",
+                        "description": "Night Bosses",
+                        "icon": "material-symbols:mode-night",
+                        "hasFilter": true
+                    },
+                    "flask": {
+                        "name": "flask",
+                        "description": "Flask Upgrades",
+                        "icon": "mdi:bottle-soda",
+                        "hasFilter": true
+                    },
+                    "tali": {
+                        "name": "tali",
+                        "description": "Talismans",
+                        "icon": "icon-park-outline:diamond-necklace",
+                        "hasFilter": true
+                    },
+                    "miniboss": {
+                        "name": "miniboss",
+                        "description": "Mini-dungeon Bosses",
+                        "icon": "ph:skull-fill",
+                        "hasFilter": true
+                    },
+                    "minitali": {
+                        "name": "minitali",
+                        "description": "Mini-dungeon Talismans",
+                        "icon": "icon-park-outline:diamond-necklace",
+                        "hasFilter": true
+                    }
+                }
+            },
+            "entranceOptions": {
+                "settings": {
+                    "general": {
+                        "name": "major",
+                        "description": "General",
+                        "icon": "game-icons:pin",
+                        "isDefault": true,
+                        "isHidden": true,
+                        "isBidirectional": false
+                    },
+                    "major": {
+                        "name": "major",
+                        "description": "Major Bosses",
+                        "icon": "game-icons:daemon-skull",
+                        "isDefault": true,
+                        "isBidirectional": true
+                    },
+                    "legacy": {
+                        "name": "legacy",
+                        "description": "Legacy Dungeons",
+                        "icon": "material-symbols:castle",
+                        "isDefault": true,
+                        "isBidirectional": true
+                    },
+                    "critical": {
+                        "name": "critical",
+                        "description": "Critical Path",
+                        "icon": "material-symbols:star-rounded",
+                        "isDefault": true,
+                        "isBidirectional": true
+                    },
+                    "underground": {
+                        "name": "underground",
+                        "description": "Underground Cities",
+                        "icon": "game-icons:underground-cave",
+                        "isBidirectional": true
+                    },
+                    "colosseum": {
+                        "name": "colosseum",
+                        "description": "Colosseums",
+                        "icon": "material-symbols:stadium",
+                        "isBidirectional": true
+                    },
+                    "tower": {
+                        "name": "tower",
+                        "description": "Divine Towers",
+                        "icon": "game-icons:white-tower",
+                        "isBidirectional": true
+                    },
+                    "belfry": {
+                        "name": "belfry",
+                        "description": "Belfries",
+                        "icon": "material-symbols:notifications-outline-sharp",
+                        "isBidirectional": true
+                    },
+                    "stranded": {
+                        "name": "stranded",
+                        "description": "Stranded Graveyard",
+                        "icon": "mdi:grave-stone",
+                        "isBidirectional": true
+                    },
+                    "evergaol": {
+                        "name": "evergaol",
+                        "description": "Evergaols",
+                        "icon": "tabler:prison",
+                        "isBidirectional": true
+                    },
+                    "gate": {
+                        "name": "gate",
+                        "description": "Minor Sending Gates",
+                        "icon": "game-icons:star-gate",
+                        "isBidirectional": true
+                    },
+                    "dungeon": {
+                        "name": "dungeon",
+                        "description": "Mini-dungeons",
+                        "icon": "fa6-solid:dungeon",
+                        "isBidirectional": true
+                    },
+                    "cave": {
+                        "name": "cave",
+                        "description": "Caves",
+                        "icon": "game-icons:underground-cave",
+                        "isBidirectional": true
+                    },
+                    "catacomb": {
+                        "name": "catacomb",
+                        "description": "Catacombs",
+                        "icon": "game-icons:dungeon-gate",
+                        "isBidirectional": true
+                    },
+                    "tunnel": {
+                        "name": "tunnel",
+                        "description": "Tunnels",
+                        "icon": "guidance:tunnel",
+                        "isBidirectional": true
+                    },
+                    "grave": {
+                        "name": "grave",
+                        "description": "Hero Graves",
+                        "icon": "game-icons:hasty-grave",
+                        "isBidirectional": true
+                    }
                 },
-                "shop": {
-                    "name": "shop",
-                    "description": "Merchants",
-                    "icon": "ic:baseline-shopping-cart",
-                    "hasFilter": true
+                "toggleSettings": {
+                    "mixedPool": {
+                        "name": "mixedPool",
+                        "description": "Mixed entrance pools",
+                        "isDefault": true,
+                        "isHidden": true
+                    },
+                    "coupled": {
+                        "name": "coupled",
+                        "description": "Auto Pair Entrances",
+                        "isDefault": true
+                    }
                 },
-                "major": {
-                    "name": "major",
-                    "description": "Major Bosses",
-                    "icon": "game-icons:daemon-skull",
-                    "hasFilter": true
-                },
-                "minor": {
-                    "name": "minor",
-                    "description": "Minor Bosses",
-                    "icon": "ph:skull-fill",
-                    "hasFilter": true
-                },
-                "night": {
-                    "name": "night",
-                    "description": "Night Bosses",
-                    "icon": "material-symbols:mode-night",
-                    "hasFilter": true
-                },
-                "flask": {
-                    "name": "flask",
-                    "description": "Flask Upgrades",
-                    "icon": "mdi:bottle-soda",
-                    "hasFilter": true
-                },
-                "tali": {
-                    "name": "tali",
-                    "description": "Talismans",
-                    "icon": "icon-park-outline:diamond-necklace",
-                    "hasFilter": true
-                },
-                "miniboss": {
-                    "name": "miniboss",
-                    "description": "Mini-dungeon Bosses",
-                    "icon": "ph:skull-fill",
-                    "hasFilter": true
-                },
-                "minitali": {
-                    "name": "minitali",
-                    "description": "Mini-dungeon Talismans",
-                    "icon": "icon-park-outline:diamond-necklace",
-                    "hasFilter": true
+                "toggleTags": {
+                    "mode": {
+                        "name": "mode",
+                        "description": "World Shuffle",
+                        "afterDescription": "Dungeon Crawl",
+                        "trueColor": "#b91c1c",
+                        "falseColor": "#1e40af",
+                        "trueValue": "dungeon",
+                        "falseValue": "world",
+                        "ignore": true
+                    },
+                    "world": {
+                        "name": "world",
+                        "isHidden": true,
+                        "isDefault": true
+                    },
+                    "dungeon": {
+                        "name": "dungeon",
+                        "isHidden": true
+                    }
                 }
             }
         }

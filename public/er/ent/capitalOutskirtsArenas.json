@@ -1,0 +1,36 @@
+{
+    "name": "Capital Outskirts Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #a16207 60%)",
+    "dropdownColor": "#a16207",
+    "entrances": [
+        {
+            "name": "Sealed Tunnel, front",
+            "type": "dungeon",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Sealed Tunnel, back",
+            "type": "dungeon",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Sealed Tunnel, front",
+            "type": "tunnel",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Sealed Tunnel, back",
+            "type": "tunnel",
+            "tags": [
+                "dungeon"
+            ]
+        }
+
+    ]
+}

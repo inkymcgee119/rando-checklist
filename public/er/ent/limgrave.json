@@ -1,0 +1,130 @@
+{
+    "name": "Limgrave",
+    "bgColor": "#4d7c0f",
+    "entrances": [
+        {
+            "name": "Nokron from Limgrave",
+            "type": "underground",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Siofra River Well",
+            "type": "underground",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Entrance to Limgrave Colosseum", 
+            "type": "colosseum",
+            "tags": ["world"]
+        },
+        {
+            "name": "Before Soldier of Godrick's arena", 
+            "type": "stranded",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "After Soldier of Godrick's arena", 
+            "type": "stranded",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Cave of Knowledge, door to Stranded Graveyard", 
+            "type": "stranded",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Cave of Knowledge, back entrance from beach", 
+            "type": "stranded",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Cave of Knowledge, back entrance going to beach", 
+            "type": "stranded",
+            "tags": ["world"]
+        },
+        {
+            "name": "Stranded Graveyard, door from Cave of Knowledge", 
+            "type": "stranded",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Stranged Graveyard, exit to Limgrave", 
+            "type": "stranded",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Limgrave, door to Stranded Graveyard", 
+            "type": "stranded",
+            "tags": ["world"]
+        },
+        {
+            "name": "Forlorn Hound Evergaol", 
+            "type": "evergaol",
+            "tags": ["world"]
+        },
+        {
+            "name": "Transporter chest, Dragon-Burnt Ruins", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the sending gate north of Third Church of Marika", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Arriving at Mistwood, from warp", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Groveside Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Coastal Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Limgrave Tunnels", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Rear entrance to Gael Tunnel", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Stormfoot Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Murkwater Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Murkwater Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Highroad Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Waypoint Ruins", 
+            "type": "dungeon",
+            "tags": ["world"]
+        }
+    ]
+}

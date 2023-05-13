@@ -1,0 +1,26 @@
+{
+    "name": "Gerudo Valley",
+    "bgColor": "#0d9488",
+    "entrances": [
+        {
+            "name": "Hyrule Field",
+            "type": "overworld"
+        },
+        {
+            "name": "Gerudo Fortress",
+            "type": "overworld"
+        },
+        {
+            "name": "Carpenter's tent",
+            "type": "interior"
+        },
+        {
+            "name": "Song of storms",
+            "type": "grotto"
+        },
+        {
+            "name": "Silver rock",
+            "type": "grotto"
+        }
+    ]
+}

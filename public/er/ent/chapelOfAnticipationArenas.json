@@ -1,0 +1,17 @@
+{
+    "name": "Chapel of Anticipation Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #e11d48 60%)",
+    "dropdownColor": "#e11d48",
+    "entrances": [
+        {
+            "name": "Grafted Scion, front", 
+            "type": "belfry",
+            "tags": ["world"]
+        },
+        {
+            "name": "Grafted Scion, side", 
+            "type": "belfry",
+            "tags": ["world"]
+        }
+    ]
+}

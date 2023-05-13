@@ -1,0 +1,81 @@
+{
+    "name": "Altus Plateau",
+    "bgColor": "#f59e0b",
+    "entrances": [
+        {
+            "name": "Shaded Castle, entering Elemer of the Briar's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Shaded Castle, sending gate outside castle",
+            "type": "legacy",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Using the Dectus Medallion in Altus Plateau", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Golden Lineage Evergaol", 
+            "type": "evergaol",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the sending gate by Forest-Spanning Greatbridge grace", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Arriving near Windmill Village, from warp", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Sainted Hero's Grave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Unsightly Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Old Altus Tunnel", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Sage's Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Lux Ruins", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Writheblood Ruins", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Perfumer's Grotto", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Altus Tunnel", 
+            "type": "dungeon",
+            "tags": ["world"]
+        }
+    ]
+}

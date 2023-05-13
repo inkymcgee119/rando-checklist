@@ -1,0 +1,34 @@
+{
+    "name": "Graveyard",
+    "bgColor": "#a78bfa",
+    "entrances": [
+        {
+            "name": "Kakariko Village",
+            "type": "overworld"
+        },
+        {
+            "name": "Dampe's hut",
+            "type": "interior"
+        },
+        {
+            "name": "Flower grave",
+            "type": "grotto"
+        },
+        {
+            "name": "Dampe's grave",
+            "type": "grotto"
+        },
+        {
+            "name": "Redead",
+            "type": "grotto"
+        },
+        {
+            "name": "Royal family tomb",
+            "type": "grotto"
+        },
+        {
+            "name": "Shadow temple",
+            "type": "dungeon"
+        }
+    ]
+}

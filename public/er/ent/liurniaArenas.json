@@ -1,0 +1,65 @@
+{
+    "name": "Liurnia of the Lakes Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #2563eb 60%)",
+    "dropdownColor": "#2563eb",
+    "entrances": [
+        {
+            "name": "Caria Manor, Loretta, front",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Caria Manor, Loretta, back",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Ruin-Strewn Precipice, Magma Wyrm Makar, front",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Ruin-Strewn Precipice, Magma Wyrm Makar, back",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Academy of Raya Lucaria, Red Wolf, front",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Academy of Raya Lucaria, Red Wolf, back",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        
+        {
+            "name": "Academy of Raya Lucaria, Rennala",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+
+    ]
+}

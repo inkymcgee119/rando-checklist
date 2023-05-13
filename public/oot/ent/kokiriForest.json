@@ -1,0 +1,46 @@
+{
+    "name": "Kokiri Forest",
+    "bgColor": "#84CC16",
+    "entrances": [
+        {
+            "name": "Lost Woods Bridge",
+            "type": "overworld"
+        },
+        {
+            "name": "Lost Woods",
+            "type": "overworld"
+        },
+        {
+            "name": "Link's house",
+            "type": "interior"
+        },
+        {
+            "name": "Mido's house",
+            "type": "interior"
+        },
+        {
+            "name": "Know-it-all brothers",
+            "type": "interior"
+        },
+        {
+            "name": "Saria's house",
+            "type": "interior"
+        },
+        {
+            "name": "Twin's house",
+            "type": "interior"
+        },
+        {
+            "name": "Shop",
+            "type": "interior"
+        },
+        {
+            "name": "Song of storms",
+            "type": "grotto"
+        },
+        {
+            "name": "Deku tree",
+            "type": "dungeon"
+        }
+    ]
+}

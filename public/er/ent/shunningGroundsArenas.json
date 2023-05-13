@@ -1,0 +1,16 @@
+{
+    "name": "Subterranean Shunning-Grounds Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #64748b 60%)",
+    "dropdownColor": "#64748b",
+    "entrances": [
+        {
+            "name": "Mohg, the Omen",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+
+    ]
+}

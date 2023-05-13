@@ -1,8 +1,6 @@
 {
     "name": "Warp Songs",
     "bgColor": "#44403c",
-    "hasMQ": false,
-    "locations": [],
     "entrances": [
         {
             "name": "Minuet of Forest",

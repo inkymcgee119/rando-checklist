@@ -1,0 +1,33 @@
+{
+    "name": "Mt Gelmir",
+    "bgColor": "#3f6212",
+    "entrances": [
+        {
+            "name": "Entrance to Volcano Manor",
+            "type": "legacy",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Entrance to Wyndham Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Gelmir Hero's Grave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Seethewater Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Volcano Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        }
+    ]
+}

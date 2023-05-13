@@ -1,0 +1,75 @@
+{
+    "name": "Siofra River",
+    "bgColor": "#fb7185",
+    "entrances": [
+        {
+            "name": "Top of the Siofra River Well elevator",
+            "type": "underground",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Top of the Deep Siofra Well elevator",
+            "type": "underground",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Using Horned Remains in Siofra",
+            "type": "underground",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Arriving in room before Ancestor Spirit's arena", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "To Ancestor Spirit's arena", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Using sending gate after the Siofra River Bank grace", 
+            "type": "gate",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Arriving at sending gate after the Worshippers' Woods grace", 
+            "type": "gate",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Using sending gate after the Worshippers' Woods grace", 
+            "type": "gate",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Arriving at sending gate after the Worshippers' Woods grace", 
+            "type": "gate",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Using sending gate atop rubble before the Worshippers' Woods grace", 
+            "type": "gate",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Arriving in upper Siofra River from lower sending gate", 
+            "type": "gate",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Arriving from Belfries sending gate", 
+            "type": "belfry",
+            "tags": ["world"]
+        }
+    ]
+}

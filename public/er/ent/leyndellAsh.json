@@ -1,0 +1,92 @@
+{
+    "name": "Ashen Leyndell",
+    "bgColor": "#71717a",
+    "entrances": [
+        {
+            "name": "Wrap from Farum Azula",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        
+        {
+            "name": "Outside Gideon's arena, front",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Outside Gideon's arena, from the branches",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Outside of Gideon's arena, left",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Outside of Gideon's arena, center",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Outside of Gideon's arena, right",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Outside Gideon's arena, shortcut ladder",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Before Hoarah Loux's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "At the Ashen Capital entrance from Capital Rampart",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Base of the elevator to the Divine Tower of East Altus",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Entrance to Royal Colosseum", 
+            "type": "colosseum",
+            "tags": ["world"]
+        }
+    ]
+}

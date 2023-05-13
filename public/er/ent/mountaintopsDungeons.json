@@ -1,0 +1,52 @@
+{
+    "name": "Mountaintops of the Giants Dungeons",
+    "bgColor": "repeating-linear-gradient(-45deg, #be185d 0px 10px, #27272a 10px 20px)",
+    "dropdownColor": "#be185d",
+    "entrances": [
+        {
+            "name": "Giants' Mountaintop Catacombs, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Giants' Mountaintop Catacombs, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Giants' Mountaintop Catacombs, entrance", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Giants' Mountaintop Catacombs, boss", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Giants' Mountaintop Catacombs, evergaol", 
+            "type": "catacomb",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Spiritcaller Cave, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Spiritcaller Cave, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Spiritcaller Cave, entrance", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Spiritcaller Cave, boss", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        }
+    ]
+}

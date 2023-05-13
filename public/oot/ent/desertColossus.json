@@ -1,0 +1,22 @@
+{
+    "name": "Desert Colossus",
+    "bgColor": "#fbbf24",
+    "entrances": [
+        {
+            "name": "Haunted Wasteland",
+            "type": "overworld"
+        },
+        {
+            "name": "Great fairy",
+            "type": "interior"
+        },
+        {
+            "name": "Silver rock",
+            "type": "grotto"
+        },
+        {
+            "name": "Spirit temple",
+            "type": "dungeon"
+        }
+    ]
+}

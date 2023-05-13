@@ -1,0 +1,50 @@
+{
+    "name": "Market",
+    "bgColor": "#94a3b8",
+    "entrances": [
+        {
+            "name": "Market Entrance",
+            "type": "overworld"
+        },
+        {
+            "name": "Hyrule/Ganon's Castle Grounds",
+            "type": "overworld"
+        },
+        {
+            "name": "Temple of Time Entrance",
+            "type": "overworld"
+        },
+        {
+            "name": "Bazaar",
+            "type": "interior"
+        },
+        {
+            "name": "Potion shop",
+            "type": "interior"
+        },
+        {
+            "name": "Mask shop",
+            "type": "interior"
+        },
+        {
+            "name": "Shooting gallery",
+            "type": "interior"
+        },
+        {
+            "name": "Bombchu bowling",
+            "type": "interior"
+        },
+        {
+            "name": "Treasure chest game",
+            "type": "interior"
+        },
+        {
+            "name": "Back alley, bombchu shop",
+            "type": "interior"
+        },
+        {
+            "name": "Back alley, man in green",
+            "type": "interior"
+        }
+    ]
+}

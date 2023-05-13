@@ -1,0 +1,189 @@
+{
+    "name": "Liurnia of the Lakes",
+    "bgColor": "#2563eb",
+    "entrances": [
+        {
+            "name": "Before Loretta's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "After Loretta's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Before Magma Worm Makar's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "After Magma Worm Makar's arena",
+            "type": "major",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Stormveil Castle, rear exit",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Using South Raya Lucaria Gate",
+            "type": "legacy",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Sending gate at the Caria Manor entrance",
+            "type": "legacy",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Side path to Stormhill", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Ruin-Strewn Precipice", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Ruin-Strewn Precipice from Liurnia", 
+            "type": "critical",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Entering Ainsel River Well", 
+            "type": "underground",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Carian Study Hall", 
+            "type": "tower",
+            "tags": ["world"]
+        },
+        {
+            "name": "Carian Study Hall entrance from Liurnia", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Carian Study Hall flipped, door", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Divine Tower of Liurnia Interior, from flipped door", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Royal Grave Evergaol", 
+            "type": "evergaol",
+            "tags": ["world", "dungeon"]
+        },
+        {
+            "name": "Using the 1st Belfry", 
+            "type": "belfry",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the 2nd Belfry", 
+            "type": "belfry",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the 3rd Belfry", 
+            "type": "belfry",
+            "tags": ["world"]
+        },
+        {
+            "name": "Cuckoo's Evergaol", 
+            "type": "evergaol",
+            "tags": ["world"]
+        },
+        {
+            "name": "Malefactor's Evergaol", 
+            "type": "evergaol",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the sending gate straight east of Raya Lucaria", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the sending gate in Laskyar Ruins or Purified Ruins", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Arriving at Iji, from warp", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Arriving at South Raya Lucaria Gate, from warp", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Raya Lucaria Crystal Tunnel", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Road's End Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Academy Crystal Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Kingsrealm Ruins", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Lakeside Crystal Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Stillwater Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Cliffbottom Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Black Knife Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        }
+    ]
+}

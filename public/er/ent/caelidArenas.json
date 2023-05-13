@@ -1,0 +1,45 @@
+{
+    "name": "Caelid Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #c2410c 60%)",
+    "dropdownColor": "#c2410c",
+    "entrances": [
+        {
+            "name": "Gaol Cave, front",
+            "type": "dungeon",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Gaol Cave, back",
+            "type": "dungeon",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Gaol Cave, front",
+            "type": "cave",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Gaol Cave, back",
+            "type": "cave",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Redmane Castle, Starscourge Radahn",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+
+
+    ]
+}

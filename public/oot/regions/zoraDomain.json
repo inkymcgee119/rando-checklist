@@ -57,27 +57,5 @@
             "tags": [],
             "count": 5
         }
-    ],
-    "entrances": [
-        {
-            "name": "Zora River",
-            "type": "overworld"
-        },
-        {
-            "name": "Lake Hylia",
-            "type": "overworld"
-        },
-        {
-            "name": "Zora's Fountain",
-            "type": "overworld"
-        },
-        {
-            "name": "Shop",
-            "type": "interior"
-        },
-        {
-            "name": "Song of storms",
-            "type": "grotto"
-        }
     ]
 }

@@ -1,0 +1,40 @@
+{
+    "name": "Capital Outskirts",
+    "bgColor": "#a16207",
+    "entrances": [
+        {
+            "name": "Up the stairs behind Draconic Tree Sentinel",
+            "type": "critical",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "After Draconic Tree Sentinel",
+            "type": "critical",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "After Sealed Tunnel boss", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Entrance to Auriza Hero's Grave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Sealed Tunnel", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Auriza Side Tomb", 
+            "type": "dungeon",
+            "tags": ["world"]
+        }
+    ]
+}

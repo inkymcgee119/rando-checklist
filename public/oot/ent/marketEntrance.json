@@ -1,8 +1,6 @@
 {
     "name": "Market entrance",
     "bgColor": "#64748b",
-    "hasMQ": false,
-    "locations": [],
     "entrances": [
         {
             "name": "Hyrule field",

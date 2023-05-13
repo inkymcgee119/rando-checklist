@@ -1,0 +1,18 @@
+{
+    "name": "Moonlight Altar",
+    "bgColor": "#1e40af",
+    "entrances": [
+        {
+            "name": "At the Deep Ainsel Well",
+            "type": "underground",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Ringleader's Evergaol", 
+            "type": "evergaol",
+            "tags": ["world"]
+        }
+    ]
+}

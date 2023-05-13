@@ -1,0 +1,22 @@
+{
+    "name": "Roundtable Hold",
+    "bgColor": "#86198f",
+    "entrances": [
+        {
+            "name": "Roundtable to balcony",
+            "type": "critical",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Balcony to roundtable",
+            "type": "critical",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "name": "Caelid",
+    "bgColor": "#c2410c",
+    "entrances": [
+        {
+            "name": "Sending gate to Starscourge Radahn",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Sending gate on the cliffside path before Redmane Castle",
+            "type": "legacy",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Before Redmane Castle Plaza", 
+            "type": "critical",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Redmane Castle Plaza, front", 
+            "type": "critical",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Redmane Castle Plaza, back", 
+            "type": "critical",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "After Redmane Castle Plaza", 
+            "type": "critical",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Elevator to the Radahn warp", 
+            "type": "critical",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Before the Radahn warp", 
+            "type": "critical",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Deep Siofra Well, near Greatjar", 
+            "type": "underground",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Caelid Colosseum", 
+            "type": "colosseum",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the sending gate atop Fort Gael", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using either sending gate in Impassable Greatbridge", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the sending gate in Redmane Castle", 
+            "type": "gate",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Arriving in Sellia Crystal Tunnel, from warp", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Arriving at Impassable Greatbridge, from warp", 
+            "type": "gate",
+            "tags": ["world"]
+        },
+        {
+            "name": "Arriving at the Redmane Castle sending gate", 
+            "type": "gate",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Entrance to Minor Erdtree Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Caelid Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Gael Tunnel Start", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Gaol Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Caelem Ruins", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Nox Duo's arena in Sellia Chair-Crypt", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Nox Duo's arena, front", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Nox Duo's arena, back", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Nox Duo's arena, after", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Sellia Crystal Tunnel", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Abandoned Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to War-Dead Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        }
+
+        
+    ]
+}

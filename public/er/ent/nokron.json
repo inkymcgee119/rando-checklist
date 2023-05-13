@@ -1,0 +1,56 @@
+{
+    "name": "Nokron",
+    "bgColor": "#7c3aed",
+    "entrances": [
+        {
+            "name": "At the start of Nokron from Limgrave", 
+            "type": "underground",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Before Mimic Tear's arena", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "After Mimic Tear's arena", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Using Horned Remains in Nokron", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Before Valiant Gargoyles' arena", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Arriving in room before Regal Ancestor Spirit's arena", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },        
+        {
+            "name": "To Regal Ancestor Spirit's arena", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Small room in aqueduct", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Using the sending gate near Fingerslayer Blade chest", 
+            "type": "gate",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Ancestral Woods from sending gate", 
+            "type": "gate",
+            "tags": ["world","dungeon"]
+        }
+    ]
+}

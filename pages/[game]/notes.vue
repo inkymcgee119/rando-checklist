@@ -15,7 +15,7 @@
 const appState = useAppState();
 
 function update() {
-    save(appState.value.selectedGame.dir + "test", appState.value);
+    save();
 }
 
 </script>

@@ -1,0 +1,38 @@
+{
+    "name": "General",
+    "bgColor": "red",
+    "entrances": [
+        {
+            "name": "Boss arena, dead end",
+            "type": "general",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Passthrough",
+            "type": "general",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Dead end",
+            "type": "general",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },        
+        {
+            "name": "Checked",
+            "type": "general",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+    ]
+}

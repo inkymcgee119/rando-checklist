@@ -1,0 +1,32 @@
+{
+    "name": "Forbidden Lands",
+    "bgColor": "#292524",
+    "entrances": [
+        {
+            "name": "At the exit from Divine Tower of East Altus",
+            "type": "critical",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Using the Rold Medallion at Forbidden Lands",
+            "type": "critical",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Arriving in Forbidden Lands from Grand Lift of Rold", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the Haligtree secret medallions at Forbidden Lands",
+            "type": "critical",
+            "tags": [
+                "world"
+            ]
+        }
+    ]
+}

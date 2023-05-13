@@ -1,0 +1,151 @@
+{
+    "name": "Leyndell",
+    "bgColor": "#831843",
+    "entrances": [
+        {
+            "name": "Before Godfrey's arena, from branches",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },        
+        {
+            "name": "Outside of Godfrey's arena, towards elevator",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Outside of Godfrey's arena, left",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Outside of Godfrey's arena, center",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Outside of Godfrey's arena, right",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Outside of Godfrey's arena, shortcut ladder",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Outside of Godfrey's arena, item",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Before Morgott's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Path up to the Erdtree",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Leyndell entrance to Capital Rampart",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Leyndell entrance from Capital Rampart",
+            "type": "legacy",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Entrance to Subterranean Shunning-Grounds",
+            "type": "legacy",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "To elevator to the Divine Tower of East Altus", 
+            "type": "critical",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "From elevator to the Divine Tower of East Altus", 
+            "type": "critical",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "At the exit to Forbidden Lands", 
+            "type": "critical",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Start of Leyndell, from sending gate", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Entrance to Royal Colosseum", 
+            "type": "colosseum",
+            "tags": ["world"]
+        },
+        {
+            "name": "Arriving at Divine Bridge, from warp", 
+            "type": "legacy",
+            "tags": ["world"]
+        },
+        {
+            "name": "Using the sending gate at Divine Bridge, also in Ashen Capital", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Approaching the Divine Tower of East Altus gate", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Fell Twins arena", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Arriving at Isolated Divine Tower", 
+            "type": "tower",
+            "tags": ["world","dungeon"]
+        }
+    ]
+}

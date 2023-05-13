@@ -1,0 +1,37 @@
+{
+    "name": "Nokron Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #7c3aed 60%)",
+    "dropdownColor": "#7c3aed",
+    "entrances": [
+        {
+            "name": "Mimic Tear, front", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": " Mimic Tear, side", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Regal Ancestor Spirit", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Valiant Gargoyles, main", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Valiant Gargoyles, side", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        },
+        {
+            "name": "Valiant Gargoyles, coffin", 
+            "type": "underground",
+            "tags": ["world","dungeon"]
+        }
+    ]
+}

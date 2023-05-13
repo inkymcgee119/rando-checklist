@@ -1,6 +1,6 @@
 <template>
     <label class="switch">
-        <input type="checkbox" v-model="checked" @click="clickCheckbox">
+        <input type="checkbox" v-model="checked" @click="clickCheckbox(!checked)">
         <span class="slider round"></span>
     </label>
 </template>
@@ -8,16 +8,37 @@
 <script setup>
 const checked = ref(false);
 
-const props = defineProps(['modelValue']);
-const emit = defineEmits(['update:modelValue']);
-
-onMounted(() => {
-    checked.value = !!props.modelValue;
+const props = defineProps({
+    'modelValue': {},
+    'trueValue': {
+        default: true
+    },
+    'falseValue': {
+        default: false
+    },
+    'trueColor': {
+        type: String,
+        default: "#6d28d9"
+    },
+    'falseColor': {
+        type: String,
+        default: "#cccccc"
+    }
 });
 
-function clickCheckbox() {
-    checked.value = !checked.value;
-    emit("update:modelValue", checked.value);
+
+const emit = defineEmits(['update:modelValue', 'updated']);
+
+onMounted(() => {    
+    if(props.modelValue)
+        props.modelValue === props.trueValue ? clickCheckbox(true) : clickCheckbox(false);
+});
+
+function clickCheckbox(value) {
+    let oldValue = checked.value;
+    checked.value = value;
+    emit("update:modelValue", value ? props.trueValue : props.falseValue);
+    emit("updated", oldValue ? props.trueValue : props.falseValue, value ? props.trueValue : props.falseValue);
 }
 </script>
 
@@ -45,7 +66,7 @@ function clickCheckbox() {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: v-bind(props.falseColor);
     -webkit-transition: .1s;
     transition: .1s;
 }
@@ -63,7 +84,7 @@ function clickCheckbox() {
 }
 
 input:checked+.slider {
-    @apply bg-violet-700
+    background-color: v-bind(props.trueColor);
 }
 
 

@@ -1,11 +1,20 @@
 <template>
-    <div>
-        <filters :options="appState.entranceOptions" :config="filterConfig"></filters>
+    <div v-if="appState.selectedGame.entranceOptions">
+        <Filters v-model="appState.entranceOptions" :settings="appState.selectedGame.entranceOptions.settings"
+            :toggle-settings="appState.selectedGame.entranceOptions.toggleSettings"
+            :toggle-tags="appState.selectedGame.entranceOptions.toggleTags" @reset="reset" />
 
-        <div class="flex flex-row my-5">
+        <div class="flex flex-row my-2 mx-1 p-2 bg-white rounded-lg">
+            <div class="w-full flex-shrink">
+                <input type="text" placeholder="Search" class="w-full p-1" v-model="searchTerm" />
+            </div>
+            <div class="ml-2 flex-grow text-xl whitespace-nowrap">Total {{ totalChecked }}/{{ totalChecks }}</div>
+        </div>
+
+        <div class="flex flex-row my-2">
             <!-- no results -->
-            <div v-if="filteredRegions.length == 0" class="w-full text-white text-center font-sans">
-                No Results, Select Your Options
+            <div v-if="searchResults.length == 0" class="w-full text-white text-center font-sans">
+                No Results
             </div>
 
             <div class="flex flex-col mx-1 grow" v-for="regionGroup in filteredRegionGroups">
@@ -17,20 +26,21 @@
                     </div>
                     <div>
                         <div v-for="(ent, idx) in region.entrances" class="flex flex-row justify-between px-2 my-1"
-                            :class="{ 'border-b-2 border-slate-300': idx < region.entrances.length - 1 }">
+                            :class="{ 'border-b-2 border-slate-300': idx < region.entrances.length - 1, 'bg-yellow-400': ent.isStarred }"
+                            @contextmenu.prevent="rightClickLocation(ent)">
                             <div class="font-semibold my-auto basis-1/2">
-                                <Icon :name="getEntranceTypeByName(ent.type).icon"></Icon>
-                                <span v-if="stringCompareCaseInsensitive(ent.type, 'overworld')">To </span>{{
-                                    ent.name
-                                }}
+                                <Icon :name="getEntranceTypeByName(ent.type).icon"></Icon> <span
+                                    v-if="getEntranceTypeByName(ent.type).addToAndFromToDescription">To</span>
+                                {{ ent.name }}
                             </div>
 
                             <div class="basis-1/2 my-auto">
-                                <dropdown v-model="ent.destination" :metadata="{ region: region, entrance: ent }"
-                                    toggler-class="rounded-md text-white" :style="{ background: region.bgColor }"
+                                <dropdown v-model="ent.destination" toggler-class="rounded-md text-white text-sm"
+                                    :style="{ background: region.dropdownColor ?? region.bgColor }"
                                     toggler-text="Select location"
-                                    :groups="dropdownGroupsByType[appState.entranceOptions.mixedPool ? 'all' : ent.type]"
-                                    :items="[{ value: '', description: 'Clear Value' }]" @update="updateDropdown">
+                                    :groups="dropdownGroupsByType[appState.entranceOptions.settings.mixedPool ? 'all' : ent.type]"
+                                    :include-clear="true" :include-search="true"
+                                    @update="(item) => updateDropdown({ src: { region: region, entrance: ent }, dest: item })">
                                 </dropdown>
                             </div>
                         </div>
@@ -47,27 +57,38 @@
 
 const appState = useAppState();
 const filteredRegionGroups = ref([]);
-const filterConfig = ref({});
+const searchTerm = useDebouncedRef("", 200);
 
 onMounted(() => {
-    filterConfig.value = {
-        options: Object.keys(appState.value.selectedGame.entranceTypes).map(key => appState.value.selectedGame.entranceTypes[key]).filter(x => x.hasFilter),
-        toggles: Object.keys(appState.value.selectedGame.entranceTypes).map(key => appState.value.selectedGame.entranceTypes[key]).filter(x => x.hasToggle),
-    };
-
     assignColumnNumber(window.innerWidth);
     assignRegionCardColumns(columnsEntrances.value);
 
     window.addEventListener("resize", (e) => {
         assignColumnNumber(window.innerWidth);
     });
-
 });
+
+watch(appState.value.entranceOptions, () => save());
+
+const totalChecks = computed(() => filteredRegions.value.reduce((acc, val) => acc + val.entrances.length, 0));
+const totalChecked = computed(() => filteredRegions.value.reduce((acc, val) => acc + val.entrances.filter(x => x.destination).length, 0));
+
+function rightClickLocation(ent) {
+    ent.isStarred = !ent.isStarred;
+    save();
+
+    return false;
+}
 
 const filteredRegions = computed(() => {
     let result = [];
 
-    for (let region of appState.value.regions) {
+    if (!appState.value.selectedGame.entranceOptions)
+        return result;
+
+    let combinedSettings = { ...appState.value.selectedGame.entranceOptions.settings, ...appState.value.selectedGame.entranceOptions.toggleSettings };
+
+    for (let region of appState.value.entranceRegions) {
         let r = { ...region };
         if (!r.entrances)
             continue;
@@ -75,16 +96,58 @@ const filteredRegions = computed(() => {
         r.entrances = r.entrances.filter(ent => {
             let rowVisible = true;
 
-            if (appState.value.selectedGame.entranceTypes[ent.type])
-                rowVisible &= appState.value.entranceOptions[ent.type];
+            // filter settings
+            if (combinedSettings && combinedSettings[ent.type] && !combinedSettings[ent.type].isHidden)
+                rowVisible &= appState.value.entranceOptions.settings[ent.type];
             else
                 rowVisible = false;
+
+
+            // filter tags
+            if (appState.value.selectedGame.entranceOptions.tags)
+                for (let tag of Object.getOwnPropertyNames(appState.value.selectedGame.entranceOptions.tags)) {
+                    if (appState.value.entranceOptions.tags[tag])
+                        rowVisible &= ent.tags && !!ent.tags.find(x => stringCompareCaseInsensitive(x, tag));
+                }
+
+            // filter tags
+            if (appState.value.selectedGame.entranceOptions.toggleTags)
+                for (let tag of Object.getOwnPropertyNames(appState.value.selectedGame.entranceOptions.toggleTags)) {
+                    if (!appState.value.selectedGame.entranceOptions.toggleTags[tag].ignore && appState.value.entranceOptions.toggleTags[tag])
+                        rowVisible &= ent.tags && !!ent.tags.find(t => stringCompareCaseInsensitive(t, tag));
+                }
 
             return rowVisible;
         });
 
         if (r.entrances.length > 0)
             result.push(r);
+    }
+
+    return result;
+});
+
+const searchResults = computed(() => {
+    if (!searchTerm.value)
+        return filteredRegions.value;
+
+    let result = [];
+    for (let region of filteredRegions.value) {
+        let r = { ...region };
+        if (!r.entrances)
+            continue;
+
+        r.entrances = r.entrances.filter(ent => {
+            let searchFound = false;
+            for (let term of searchTerm.value.split(' ').filter(x => x != ""))
+                searchFound |= region.name.toUpperCase().indexOf(term.toUpperCase()) > -1 || ent.name.toUpperCase().indexOf(term.toUpperCase()) > -1;
+
+            return searchFound;
+        });
+
+        if (r.entrances.length > 0) {
+            result.push(r);
+        }
     }
 
 
@@ -95,9 +158,9 @@ const filteredRegions = computed(() => {
 const filteredRegionEntranceList = computed(() => {
     let entrances = [];
 
-    for (let region of appState.value.regions) {
+    for (let region of appState.value.entranceRegions) {
         if (region.entrances) {
-            let ents = region.entrances.filter(x => appState.value.entranceOptions[x.type]);
+            let ents = region.entrances.filter(x => appState.value.entranceOptions.settings[x.type]);
             if (ents.length > 0) {
                 entrances.push({
                     name: region.name,
@@ -115,7 +178,7 @@ const filteredRegionEntranceList = computed(() => {
 const dropdownGroupsByType = computed(() => {
     let result = [];
 
-    for (let entType of Object.getOwnPropertyNames(appState.value.selectedGame.entranceTypes)) {
+    for (let entType of Object.getOwnPropertyNames(appState.value.selectedGame.entranceOptions.settings)) {
         result[entType] = getDropdownGroupsByType(entType);
     }
     result["all"] = getDropdownGroupsByType("all");
@@ -128,26 +191,32 @@ function getDropdownGroupsByType(entTypeName) {
     let groups = [];
     let entType = getEntranceTypeByName(entTypeName);
 
-    //    for (let region of appState.value.regions) {
     for (let region of filteredRegionEntranceList.value) {
         if (region.entrances) {
-            let ents = region.entrances.filter(x => {
-                if (stringCompareCaseInsensitive(x.type, entTypeName))
-                    return true;
+            let ents = region.entrances.filter(ent => {
+                let rowVisible = true;
+                if (stringCompareCaseInsensitive(ent.type, entTypeName))
+                    rowVisible |= true;
                 if (entType.showAll)
-                    return true;
+                    rowVisible |= true;
 
                 // mixed pool, all entrances included as long as the option is selected
-                if (stringCompareCaseInsensitive(entTypeName, "all") && appState.value.entranceOptions[x.type])
-                    return true;
+                if (stringCompareCaseInsensitive(entTypeName, "all") && appState.value.entranceOptions.settings[ent.type])
+                    rowVisible |= true;
 
-                return false;
-            }).map(x => ({
-                description: getEntranceTypeByName(entTypeName).isBidirectional ? `from ${x.name}` : x.name,
-                icon: getEntranceTypeByName(x.type).icon,
+                // filter tags
+                for (let tag of Object.getOwnPropertyNames(appState.value.selectedGame.entranceOptions.toggleTags)) {
+                    if (!appState.value.selectedGame.entranceOptions.toggleTags[tag].ignore && appState.value.entranceOptions.toggleTags[tag])
+                        rowVisible &= ent.tags && !!ent.tags.find(t => stringCompareCaseInsensitive(t, tag));
+                }
+
+                return rowVisible;
+            }).map(ent => ({
+                description: getEntranceTypeByName(ent.type).addToAndFromToDescription ? `from ${ent.name}` : ent.name,
+                icon: getEntranceTypeByName(ent.type).icon,
                 region: region.name,
-                name: x.name,
-                type: x.type
+                name: ent.name,
+                type: ent.type
             }));
 
             if (ents.length > 0) {
@@ -162,13 +231,15 @@ function getDropdownGroupsByType(entTypeName) {
     return groups;
 }
 
-
 function updateDropdown(data) {
+    // clear value
+    if (!data || !data.dest)
+        return;
 
-    let srcRegion = data.metadata.region.name;
-    let srcEnt = data.metadata.entrance.name;
-    let destRegion = data.item.region;
-    let destEnt = data.item.name;
+    let srcRegion = data.src.region.name;
+    let srcEnt = data.src.entrance.name;
+    let destRegion = data.dest.region;
+    let destEnt = data.dest.name;
 
     // find in entrance list
     let dropdownItems = getDropdownGroupsByType("all");
@@ -179,19 +250,19 @@ function updateDropdown(data) {
     let destEntDDItem = destRegionDDItem?.items.find(x => stringCompareCaseInsensitive(x.name, destEnt));
 
     // assign in regions
-    let srcReg = appState.value.regions.find(x => stringCompareCaseInsensitive(x.name, srcRegion));
-    let srcRegEnt = srcReg?.entrances.find(x => stringCompareCaseInsensitive(x.name, srcEnt));
-    let srcRegEntType = getEntranceTypeByName(data.metadata.entrance.type);
+    let srcReg = appState.value.entranceRegions.find(x => stringCompareCaseInsensitive(x.name, srcRegion));
+    let srcRegEnt = srcReg?.entrances.find(x => stringCompareCaseInsensitive(x.name, srcEnt) && x.type == srcEntDDItem.type);
+    let srcRegEntType = getEntranceTypeByName(data.src.entrance.type);
 
-    let destReg = appState.value.regions.find(x => stringCompareCaseInsensitive(x.name, destRegion));
-    let destRegEnt = destReg?.entrances.find(x => stringCompareCaseInsensitive(x.name, destEnt));
-    let destRegEntType = getEntranceTypeByName(data.item.type);
+    let destReg = appState.value.entranceRegions.find(x => stringCompareCaseInsensitive(x.name, destRegion));
+    let destRegEnt = destReg?.entrances.find(x => stringCompareCaseInsensitive(x.name, destEnt) && x.type == destEntDDItem.type);
+    let destRegEntType = getEntranceTypeByName(data.dest.type);
 
     if (destRegEnt && srcEntDDItem)
         srcRegEnt.destination = { ...destEntDDItem, value: getEntranceDescription(destEntDDItem) };
 
     // A->B becomes C->D, D->C also becomes B->A, assign the inverse if coupled entrances
-    if (!appState.value.entranceOptions.decoupled &&
+    if (appState.value.entranceOptions.toggleSettings.coupled &&
         (srcRegEntType.isBidirectional || destRegEntType.isBidirectional)) {
 
         srcRegionDDItem = dropdownItems.find(r => stringCompareCaseInsensitive(r.description, destRegion));
@@ -202,9 +273,7 @@ function updateDropdown(data) {
 
         destRegEnt.destination = { ...destEntDDItem, value: getEntranceDescription(destEntDDItem) };
     }
-
-
-    save(appState.value.selectedGame.dir + "test", appState.value);
+    save();
 }
 
 function assignColumnNumber(width) {
@@ -232,19 +301,19 @@ function assignColumnNumber(width) {
 // hacky attempt to balance the height by distributing the region cards evenly by height
 function assignRegionCardColumns(colNum) {
 
-    if (!filteredRegions.value || filteredRegions.value.length == 0) {
+    if (!searchResults.value || searchResults.value.length == 0) {
         filteredRegionGroups.value = [];
         return;
     }
 
-    let height = calculateRegionCardHeight(filteredRegions.value[0]);
+    let height = calculateRegionCardHeight(searchResults.value[0]);
 
     let currCol = 0;
     do {
         currCol = 0;
         let runningHeight = 0;
 
-        for (let region of filteredRegions.value) {
+        for (let region of searchResults.value) {
             let cardHeight = calculateRegionCardHeight(region);
 
             // if overflowing, start new col
@@ -276,7 +345,7 @@ function calculateRegionCardHeight(region) {
 function assignRegionGroups() {
     //group by colnum
     let results = [];
-    for (let r of filteredRegions.value) {
+    for (let r of searchResults.value) {
         if (results[r.colNum])
             results[r.colNum].push(r);
         else
@@ -291,13 +360,13 @@ function getEntranceDescription(ddItem) {
     let entType = getEntranceTypeByName(ddItem.type);
     if (entType.hideRegionLabel)
         return ddItem.name;
-    else if (entType.isBidirectional)
+    else if (entType.addToAndFromToDescription)
         return `${ddItem.region}, from ${ddItem.name}`;
     else
         return `${ddItem.region}, ${ddItem.name}`;
 }
 
-watch(filteredRegions, () => {
+watch(searchResults, () => {
     assignRegionCardColumns(columnsEntrances.value);
 });
 watch(columns, () => {

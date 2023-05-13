@@ -1,0 +1,200 @@
+{
+    "name": "Capital Outskirts Dungeons",
+    "bgColor": "repeating-linear-gradient(-45deg, #a16207 0px 10px, #27272a 10px 20px)",
+    "dropdownColor": "#a16207",
+    "entrances": [
+        {
+            "name": "Auriza Hero's Grave, entrance",
+            "type": "dungeon",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Auriza Hero's Grave, boss",
+            "type": "dungeon",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Auriza Hero's Grave, entrance",
+            "type": "grave",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Hero's Grave, boss",
+            "type": "grave",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Sealed Tunnel, entrance",
+            "type": "dungeon",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Sealed Tunnel, boss",
+            "type": "dungeon",
+            "tags": [
+                "world"
+            ]
+        },
+       
+        {
+            "name": "Sealed Tunnel, entrance",
+            "type": "tunnel",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Sealed Tunnel, to boss",
+            "type": "tunnel",
+            "tags": [
+                "dungeon"
+            ]
+        }, 
+        {
+            "name": "Auriza Side Tomb, entrance",
+            "type": "dungeon",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, boss",
+            "type": "dungeon",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, entrance",
+            "type": "catacomb",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, boss",
+            "type": "catacomb",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, in the actual entrance",
+            "type": "gate",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, 1st floor, before the main hallway",
+            "type": "gate",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, 1st floor, end of main hallway",
+            "type": "gate",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, 1st floor, behind illusory wall",
+            "type": "gate",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, 2nd floor, overlooking main hallway",
+            "type": "gate",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, 2nd floor, up the ladder from main second floor",
+            "type": "gate",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, main jail",
+            "type": "gate",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, dupe jail",
+            "type": "dungeon",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, dupe jail",
+            "type": "catacomb",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, duplicate entrance area",
+            "type": "gate",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, dupe 1st floor, end of main hallway",
+            "type": "dungeon",
+            "tags": [
+                "world"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, dupe 1st floor, end of main hallway",
+            "type": "catacomb",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, dupe 1st floor, behind the illusory wall",
+            "type": "gate",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Auriza Side Tomb, dupe 2nd floor, overlooking the duplicate hallway",
+            "type": "gate",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+    ]
+}

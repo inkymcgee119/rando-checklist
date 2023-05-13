@@ -1,0 +1,57 @@
+{
+    "name": "Dragonbarrow Dungeons",
+    "bgColor": "repeating-linear-gradient(-45deg, #134e4a 0px 10px, #27272a 10px 20px)",
+    "dropdownColor": "#134e4a",
+    "entrances": [
+        {
+            "name": "Sellia Hideaway, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Sellia Hideaway, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Sellia Hideaway, entrance", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Sellia Hideaway, boss", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Sellia Hideaway, evergaol", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Dragonbarrow Cave, entrance", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Dragonbarrow Cave, boss", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Dragonbarrow Cave, entrance", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Dragonbarrow Cave, boss", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        },
+        {
+            "name": "Dragonbarrow Cave, evergaol", 
+            "type": "cave",
+            "tags": ["dungeon"]
+        }
+    ]
+}

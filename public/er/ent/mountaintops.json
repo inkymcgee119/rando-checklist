@@ -1,0 +1,54 @@
+{
+    "name": "Mountaintops of the Giants",
+    "bgColor": "#be185d",
+    "entrances": [
+        {
+            "name": "Before Commander Niall's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "After Commander Niall's arena",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Sending gate at the Castle Sol entrance",
+            "type": "legacy",
+            "tags": [
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Using the Rold Medallion at Mountaintops of the Giants", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Arriving in Mountaintops of the Giants from Grand Lift of Rold", 
+            "type": "critical",
+            "tags": ["world"]
+        },
+        {
+            "name": "Lord Contender's Evergaol", 
+            "type": "evergaol",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Giants' Mountaintop Catacombs", 
+            "type": "dungeon",
+            "tags": ["world"]
+        },
+        {
+            "name": "Entrance to Spiritcaller Cave", 
+            "type": "dungeon",
+            "tags": ["world"]
+        }
+    ]
+}
