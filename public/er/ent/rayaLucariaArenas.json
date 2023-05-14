@@ -1,0 +1,33 @@
+{
+    "name": "Academy of Raya Lucaria Boss Arenas",
+    "bgColor": "linear-gradient(90deg, #27272a, #3730a3 60%)",
+    "dropdownColor": "#3730a3",
+    "entrances": [
+        {
+            "name": "Red Wolf of Radagon, front",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        {
+            "name": "Red Wolf of Radagon, back",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        },
+        
+        {
+            "name": "Rennala, Queen of the Full Moon",
+            "type": "major",
+            "tags": [
+                "world",
+                "dungeon"
+            ]
+        }
+
+    ]
+}

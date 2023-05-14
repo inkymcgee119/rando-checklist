@@ -208,14 +208,16 @@
                         "description": "Owls",
                         "icon": "icon-park-solid:owl",
                         "hasFilter": true,
-                        "showAll": true
+                        "showAll": true,
+                        "isUnidirectional": true
                     },
                     "song": {
                         "name": "song",
                         "description": "Warp Songs",
                         "icon": "game-icons:musical-score",
                         "hasFilter": true,
-                        "showAll": true
+                        "showAll": true,
+                        "isUnidirectional": true
                     }
                 },
                 "toggleSettings": {
@@ -574,6 +576,7 @@
                 "ent/ainselArenas.json",
                 "ent/bellum.json",
                 "ent/rayaLucaria.json",
+                "ent/rayaLucariaArenas.json",
                 "ent/caelid.json",
                 "ent/caelidDungeons.json",
                 "ent/caelidArenas.json",

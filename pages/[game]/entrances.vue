@@ -205,10 +205,11 @@ function getDropdownGroupsByType(entTypeName) {
                     rowVisible |= true;
 
                 // filter tags
-                for (let tag of Object.getOwnPropertyNames(appState.value.selectedGame.entranceOptions.toggleTags)) {
-                    if (!appState.value.selectedGame.entranceOptions.toggleTags[tag].ignore && appState.value.entranceOptions.toggleTags[tag])
-                        rowVisible &= ent.tags && !!ent.tags.find(t => stringCompareCaseInsensitive(t, tag));
-                }
+                if (appState.value.selectedGame.entranceOptions.toggleTags)
+                    for (let tag of Object.getOwnPropertyNames(appState.value.selectedGame.entranceOptions.toggleTags)) {
+                        if (!appState.value.selectedGame.entranceOptions.toggleTags[tag].ignore && appState.value.entranceOptions.toggleTags[tag])
+                            rowVisible &= ent.tags && !!ent.tags.find(t => stringCompareCaseInsensitive(t, tag));
+                    }
 
                 return rowVisible;
             }).map(ent => ({
@@ -263,7 +264,8 @@ function updateDropdown(data) {
 
     // A->B becomes C->D, D->C also becomes B->A, assign the inverse if coupled entrances
     if (appState.value.entranceOptions.toggleSettings.coupled &&
-        (srcRegEntType.isBidirectional || destRegEntType.isBidirectional)) {
+        (srcRegEntType.isBidirectional || destRegEntType.isBidirectional) &&
+        !(srcRegEntType.isUnidirectional || destRegEntType.isUnidirectional) ) {
 
         srcRegionDDItem = dropdownItems.find(r => stringCompareCaseInsensitive(r.description, destRegion));
         srcEntDDItem = srcRegionDDItem?.items.find(x => stringCompareCaseInsensitive(x.name, destEnt));

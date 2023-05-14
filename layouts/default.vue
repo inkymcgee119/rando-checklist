@@ -24,11 +24,10 @@
                 <NuxtLink v-if="route.params.game && appState.selectedGame?.hasEntranceRando && !isLoading"
                     :to="`/${route.params.game}/entrances`" class="btn-option block float-left">Entrances</NuxtLink>
 
-                <NuxtLink v-if="route.params.game && appState.selectedGame && !isLoading" :to="`/${route.params.game}/notes`"
-                    class="btn-option block float-left">Notes</NuxtLink>
+                <NuxtLink v-if="route.params.game && appState.selectedGame && !isLoading"
+                    :to="`/${route.params.game}/notes`" class="btn-option block float-left">Notes</NuxtLink>
 
-                <NuxtLink
-                    v-if="route.params.game && appState.selectedGame?.resources?.length > 0 && !isLoading"
+                <NuxtLink v-if="route.params.game && appState.selectedGame?.resources?.length > 0 && !isLoading"
                     :to="`/${route.params.game}/resources`" class="btn-option block float-left">Resources</NuxtLink>
 
                 <dropdown class="mr-1 my-1 float-right" v-model="selectedGame" :items="gameLinks" @update="updateGame"
@@ -95,7 +94,7 @@ onMounted(async () => {
         await loadGame(route.params.game);
 
     isLoading.value = false;
-    
+
 });
 
 async function updateGame(data) {
@@ -127,13 +126,18 @@ async function loadGame(game) {
         appState.value.regions = [];
         appState.value.selectedGame = selectedGame;
 
-        let stored = localStorage.getItem(appState.value.selectedGame.dir); // check for existing save
-        if (stored) {
-            appState.value = JSON.parse(stored);
+        try {
+            let stored = localStorage.getItem(appState.value.selectedGame.dir); // check for existing save
+            if (stored) {
+                appState.value = JSON.parse(stored);
+            }
+            else { // otherwise load fresh from json files
+                await loadGameInfoData();
+                await loadGameData(appState.value.selectedGame);
+            }
         }
-        else { // otherwise load fresh from json files
-            await loadGameInfoData();
-            await loadGameData(appState.value.selectedGame);
+        catch {
+            reset();
         }
 
     }

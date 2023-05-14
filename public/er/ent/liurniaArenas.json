@@ -34,32 +34,7 @@
                 "world",
                 "dungeon"
             ]
-        },
-        {
-            "name": "Academy of Raya Lucaria, Red Wolf, front",
-            "type": "major",
-            "tags": [
-                "world",
-                "dungeon"
-            ]
-        },
-        {
-            "name": "Academy of Raya Lucaria, Red Wolf, back",
-            "type": "major",
-            "tags": [
-                "world",
-                "dungeon"
-            ]
-        },
-        
-        {
-            "name": "Academy of Raya Lucaria, Rennala",
-            "type": "major",
-            "tags": [
-                "world",
-                "dungeon"
-            ]
-        }
+        }       
 
     ]
 }
