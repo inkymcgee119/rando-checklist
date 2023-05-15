@@ -194,8 +194,7 @@
                         "description": "Overworld",
                         "icon": "ion:md-globe",
                         "hasFilter": true,
-                        "isBidirectional": true,
-                        "addToAndFromToDescription": true
+                        "isBidirectional": true
                     },
                     "grotto": {
                         "name": "grotto",
@@ -277,6 +276,12 @@
                 "regions/stoneTowerTemple.json",
                 "regions/secretShrine.json",
                 "regions/moon.json"
+            ],
+            "entranceRegions": [
+                "ent/woodfall.json",
+                "ent/pathToSnowhead.json",
+                "ent/zoraCape.json",
+                "ent/stonetower.json"
             ],
             "resources": [
                 {

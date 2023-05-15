@@ -1,0 +1,10 @@
+{
+    "name": "Path to Snowhead",
+    "bgColor": "#fdba74",
+    "entrances": [
+        {
+            "name": "Snowhead Temple",
+            "type": "dungeon"
+        }
+    ]
+}

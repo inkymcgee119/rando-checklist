@@ -1,0 +1,10 @@
+{
+    "name": "Zora Cape",
+    "bgColor": "#6366f1",
+    "entrances": [
+        {
+            "name": "Great Bay Temple",
+            "type": "dungeon"
+        }
+    ]
+}

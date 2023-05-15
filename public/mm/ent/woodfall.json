@@ -1,0 +1,10 @@
+{
+    "name": "Woodfall",
+    "bgColor": "#365314",
+    "entrances": [
+        {
+            "name": "Woodfall Temple",
+            "type": "dungeon"
+        }
+    ]
+}

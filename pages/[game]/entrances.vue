@@ -29,8 +29,7 @@
                             :class="{ 'border-b-2 border-slate-300': idx < region.entrances.length - 1, 'bg-yellow-400': ent.isStarred }"
                             @contextmenu.prevent="rightClickLocation(ent)">
                             <div class="font-semibold my-auto basis-1/2">
-                                <Icon :name="getEntranceTypeByName(ent.type).icon"></Icon> <span
-                                    v-if="getEntranceTypeByName(ent.type).addToAndFromToDescription">To</span>
+                                <Icon :name="getEntranceTypeByName(ent.type).icon"></Icon>
                                 {{ ent.name }}
                             </div>
 
@@ -213,7 +212,7 @@ function getDropdownGroupsByType(entTypeName) {
 
                 return rowVisible;
             }).map(ent => ({
-                description: getEntranceTypeByName(ent.type).addToAndFromToDescription ? `from ${ent.name}` : ent.name,
+                description: ent.name,
                 icon: getEntranceTypeByName(ent.type).icon,
                 region: region.name,
                 name: ent.name,
@@ -362,8 +361,6 @@ function getEntranceDescription(ddItem) {
     let entType = getEntranceTypeByName(ddItem.type);
     if (entType.hideRegionLabel)
         return ddItem.name;
-    else if (entType.addToAndFromToDescription)
-        return `${ddItem.region}, from ${ddItem.name}`;
     else
         return `${ddItem.region}, ${ddItem.name}`;
 }

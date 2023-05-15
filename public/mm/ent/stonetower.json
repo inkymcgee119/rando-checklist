@@ -1,0 +1,10 @@
+{
+    "name": "Stone Tower",
+    "bgColor": "#059669",
+    "entrances": [
+        {
+            "name": "Stone Tower Temple",
+            "type": "dungeon"
+        }
+    ]
+}
