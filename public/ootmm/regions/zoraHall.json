@@ -1,0 +1,38 @@
+{
+    "name": "Zora Hall",
+    "bgColor": "#1e3a8a",
+    "locations": [
+        {
+            "title": "Evan's song",
+            "description": "► ► ▼ A A ▼ ► A ◄ ◄ ► ▼ ▼ ► ◄ ▼",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Lulu's room ledge",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Zora hall stage lights",
+            "type": "mundane",
+            "tags": []
+        },
+        {
+            "title": "Zora shop",
+            "count": 3,
+            "type": "mmshop",
+            "tags": []
+        },
+        {
+            "title": "Ocean scrub trade",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Ocean scrub purchase",
+            "type": "mmmerchant",
+            "tags": []
+        }
+    ]
+}

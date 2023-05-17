@@ -1,0 +1,26 @@
+{
+    "name": "Great Bay",
+    "bgColor": "#3b82f6",
+    "entrances": [        
+        {
+            "name": "Termina Field",
+            "type": "region"
+        },
+        {
+            "name": "Ocean Spider House",
+            "type": "dungeon"
+        },
+        {
+            "name": "Pirate Fortress",
+            "type": "dungeon"
+        },
+        {
+            "name": "Great Bay Temple",
+            "type": "dungeon"
+        },
+        {
+            "name": "Gyorg",
+            "type": "boss"
+        }
+    ]
+}

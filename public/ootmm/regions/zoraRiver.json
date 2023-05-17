@@ -1,0 +1,84 @@
+{
+    "name": "Zora River",
+    "bgColor": "#059669",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Open grotto",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Lower river heart piece",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Upper river heart piece",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Frogs, song of storms",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Frogs, minigame",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Bean salesman",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Tree near entrance",
+            "type": "ootgs",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Upper river, on the ladder",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "On wall near the open grotto",
+            "type": "ootgs",
+            "tags": [
+                "adult",
+                "night"
+            ]
+        },
+        {
+            "title": "Upper river, high on the wall",
+            "type": "ootgs",
+            "tags": [
+                "adult",
+                "night"
+            ]
+        },
+        {
+            "title": "Song of storms, rock circle",
+            "type": "ootscrub",
+            "tags": [
+                "grotto"
+            ],
+            "count": 2
+        }
+    ]
+}

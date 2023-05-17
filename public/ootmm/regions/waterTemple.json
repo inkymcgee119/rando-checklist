@@ -1,0 +1,205 @@
+{
+    "name": "Water Temple",
+    "bgColor": "#1e40af",
+    "hasMQ": true,
+    "locations": [
+        {
+            "title": "Bottom floor, first chest",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bottom floor, torch room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bottom floor, dragon",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bottom floor, behind a gate",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bottom floor, waterfall boulders",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bottom floor, waterfall boulder",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Central pillar, basement area",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Central pillar, at the top",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Second floor, cracked wall",
+            "description": "Up from the room where you meet Ruto",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Second floor, water column room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Second floor, eye switch",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Top floor, hookshot waterfall room",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Top floor, dark Link",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "River chest after dark Link",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "River after dark link",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Morpha",
+            "type": "boss",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bottom floor, first chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bottom floor, waterfall room crate",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bottom floor, torch room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bottom floor, triple torch room",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Central pillar, basement area",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Second floor, cracked wall",
+            "description": "Up from the room where you meet Ruto",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Second floor, torches behind a gate",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Second floor, box button room",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "After dark link, river",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Boss key chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Longshot area, behind gate",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Morpha",
+            "type": "boss",
+            "tags": [
+                "mq"
+            ]
+        }
+    ]
+}

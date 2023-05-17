@@ -1,0 +1,178 @@
+{
+    "name": "Jabu Jabu",
+    "bgColor": "#0ea5e9",
+    "hasMQ": true,
+    "locations": [
+        {
+            "title": "Ruto room",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Bottom path, switch room",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Elevator room, dive under wall",
+            "type": "ootscrub",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Tentacle area, right room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Tentacle area, left room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Tentacle area, back left room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Room before Barinade",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Barinade",
+            "type": "boss",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "First room, press button",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "First room, right cow",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Elevator room, bottom",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Elevator room, dive under wall",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Elevator room, cow switch",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Ruto room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Ruto room, room behind tentacle",
+            "description": "This is the rear door in the room you meet Ruto that you normally wouldn't enter.",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bottom path, switch room chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bottom path, switch room enemies",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bottom path, switch room SoT block",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Tentacle area, back right room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Tentacle area, back left room",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Room after miniboss",
+            "type": "ootcow",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Room before Barinade",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Room before Barinade",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Barinade",
+            "type": "boss",
+            "tags": [
+                "mq"
+            ]
+        }
+    ]
+}

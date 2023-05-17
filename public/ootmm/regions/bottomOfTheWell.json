@@ -1,0 +1,184 @@
+{
+    "name": "Bottom of the Well",
+    "bgColor": "#c026d3",
+    "hasMQ": true,
+    "locations": [
+        {
+            "title": "Front left fake wall",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Right side fake wall",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Left side fake wall",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Center room, behind skulltula",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Center, left key door",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Center, right key door",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Left side, coffin room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bombable debris, front",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bombable debris, back left",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Drained water, left side",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Drained water, front",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Back right room, keese",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Back right room, like like",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Back right room, like like",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Basement, behind rocks",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Invisible chest in deadhand room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Deadhand",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Center area chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Center, right room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Center, left room, under gravestone",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+
+        {
+            "title": "Left side, coffin room",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Basement, end of tunnel",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Basement chest",
+            "description": "Switch in back right room under bombable debris",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Deadhand room, bombable debris",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Deadhand",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        }
+    ]
+}

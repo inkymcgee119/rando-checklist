@@ -1,0 +1,26 @@
+{
+    "name": "Temple of Time",
+    "bgColor": "#0e7490",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Master Sword (if enabled)",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Prelude of light",
+            "type": "song",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Light arrows",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        }
+    ]
+}

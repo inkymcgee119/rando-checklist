@@ -1,0 +1,117 @@
+{
+    "name": "Lost Woods",
+    "bgColor": "#3F6212",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Lost woods bridge",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Deku Salesman, by bridge",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Deku Salesman, rock near exit",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Grotto, rock by Goron City warp",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Target in the woods",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Ocarina memory game",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Skull kid (Saria's song)",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Deku Theater, skull mask",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Deku Theater, mask of truth",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Odd Mushroom",
+            "type": "item",
+            "tags": ["adult"]
+        },
+        {
+            "title": "Poacher's Saw",
+            "type": "item",
+            "tags": ["adult"]
+        },
+        {
+            "title": "Bean patch by bridge",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "bean"
+            ]
+        },
+        {
+            "title": "Bean patch by deku theater",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "bean"
+            ]
+        },
+        {
+            "title": "Above deku theater bean patch",
+            "type": "ootgs",
+            "tags": [
+                "adult",
+                "night"
+            ]
+        },
+        {
+            "title": "Deku Salesman, rock near exit",
+            "type": "ootscrub",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Near deku theater",
+            "type": "ootscrub",
+            "tags": [
+                "child"
+            ],
+            "count": 2
+        }
+    ]
+}

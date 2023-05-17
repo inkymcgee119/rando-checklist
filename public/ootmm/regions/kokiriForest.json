@@ -1,0 +1,62 @@
+{
+    "name": "Kokiri Forest",
+    "bgColor": "#84CC16",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Mido's House",
+            "type": "item",
+            "tags": [],
+            "count": 4
+        },
+        {
+            "title": "Kokiri sword chest",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Song of storms grotto",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Back of Know-it-all Bros house",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "Bean patch by shop",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "bean"
+            ]
+        },
+        {
+            "title": "On top of twins' house",
+            "type": "ootgs",
+            "tags": [
+                "adult",
+                "night"
+            ]
+        },
+        {
+            "title": "Link's cow",
+            "description": "Win obstacle course minigame at lon lon ranch",
+            "type": "ootcow",
+            "tags": []
+        },
+        {
+            "title": "Shop",
+            "type": "ootshop",
+            "tags": []
+        }
+    ]
+}

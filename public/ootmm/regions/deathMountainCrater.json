@@ -1,0 +1,68 @@
+{
+    "name": "Death Mountain Crater",
+    "bgColor": "#dc2626",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Upper grotto",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Wall heart piece",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Great fairy",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Heart piece on top of the volcano",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Sheik's song",
+            "type": "song",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Crate near exit at the top of the crater",
+            "type": "ootgs",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Bean patch",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "bean"
+            ]
+        },
+        {
+            "title": "Hammer rock near bridge",
+            "type": "ootscrub",
+            "tags": [
+                "grotto"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Down ladder from upper DMC",
+            "type": "ootscrub",
+            "tags": [
+                "child"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,228 @@
+{
+    "name": "Dodongo's Cavern",
+    "bgColor": "#dc2626",
+    "hasMQ": true,
+    "locations": [
+        {
+            "title": "Lobby, left side bombable wall",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lobby, left side",
+            "type": "ootscrub",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lower right, scarecrow song",
+            "description": "This can also be gotten by dragging a statue all way from the other end of the hallway",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lower right, bombable wall",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lower right, after lizafos",
+            "type": "ootscrub",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lower left, bombable wall",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Left side, above the stairs",
+            "description": "You can reach this by activating the elevator shortcut and re-entering the dungeon to reset the stairs",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Left side, on vines",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Upper right, bomb flower platform",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Upper right, bombable wall",
+            "type": "ootscrub",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Upper right, bomb bag chest",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Upper lobby, across the bridge",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Inside the dodongo face, back room",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Room before King Dodongo",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "King Dodongo",
+            "type": "boss",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lobby, right side bombable wall",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Lobby, left side",
+            "type": "ootscrub",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Lower right, before lizafos",
+            "type": "ootscrub",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Lower right, poe side room",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Lower right path, after poe room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Lower left side, song of time room",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Left side, above stairs",
+            "type": "ootscrub",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Upper left side, dodongo room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Upper right side, barred room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Upper right side, barred room",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Upper right side, bomb bag room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Upper right side, lizafos fight",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Armos army, top of maze",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Poe room in the rear",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Room before King Dodongo",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "King Dodongo",
+            "type": "boss",
+            "tags": [
+                "mq"
+            ]
+        }
+    ]
+}

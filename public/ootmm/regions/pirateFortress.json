@@ -1,0 +1,66 @@
+{
+    "name": "Pirates' Fortress",
+    "bgColor": "#9a3412",
+    "locations": [
+        {
+            "title": "Exterior, corner chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Exterior, log chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Exterior, sand chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Sewer, cage",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Sewer, cage room deep chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Sewer, cage room shallow chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Sewer, maze chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Interior, hookshot chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Interior, guard room chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Interior, lower chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Interior, tank chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Interior, upper chest",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

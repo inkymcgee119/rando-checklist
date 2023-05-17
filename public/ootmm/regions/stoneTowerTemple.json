@@ -1,0 +1,138 @@
+{
+    "name": "Stone Tower Temple",
+    "bgColor": "#6b21a8",
+    "locations": [
+        
+        
+        {
+            "title": "Statue room, eye switch chest",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Statue room, sun switch (inverted)",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Basement, behind sun block",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Basement, armos chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Basement, ledge",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Eyegore bridge room, chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Eyegore bridge room, crystal",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Water room, underwater switch",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Water room, frozen eye",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Water room, behind sun block",
+            "type": "item",
+            "tags": []
+        },   
+        {
+            "title": "Mirror, sun block",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Mirror, sun switch",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Lava room, fire ring",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Lava room, ledge",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Light arrow chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Eyegore after master garo",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Inverted updraft, fire ring",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Inverted, updraft room sun switch",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Inverted, death armos tunnel",
+            "type": "item",
+            "tags": []
+        },      
+        {
+            "title": "Inverted, wizzrobe",
+            "type": "mmfairies",
+            "tags": []
+        },  
+        {
+            "title": "Inverted, boss key chest",
+            "type": "item",
+            "tags": []
+        },                
+        {
+            "title": "Inverted statue room, death armos switch",
+            "type": "mmfairies",
+            "tags": []
+        },   
+        {
+            "title": "Giant's mask chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Inverted, pre-boss, crystal switch",
+            "type": "mmfairies",
+            "tags": []
+        },      
+        {
+            "title": "Boss heart container",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Boss remains",
+            "type": "item",
+            "tags": []
+        }      
+    ]
+}

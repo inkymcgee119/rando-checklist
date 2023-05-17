@@ -1,0 +1,48 @@
+{
+    "name": "Ikana Graveyard",
+    "bgColor": "#57534e",
+    "locations": [
+        {
+            "title": "Captain Keeta's chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Rock circle grotto",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Night 1 grave bats",
+            "type": "item",
+            "tags": [
+                "day1",
+                "night"
+            ]
+        },
+        {
+            "title": "Night 1 Grave Tablet",
+            "type": "item",
+            "tags": [
+                "day1",
+                "night"
+            ]
+        },
+        {
+            "title": "Night 2 iron knuckle chest",
+            "type": "item",
+            "tags": [
+                "day2",
+                "night"
+            ]
+        },
+        {
+            "title": "Dampe digging",
+            "type": "item",
+            "tags": [
+                "day3",
+                "night"
+            ]
+        }
+    ]
+}

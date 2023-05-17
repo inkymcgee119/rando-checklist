@@ -1,0 +1,79 @@
+{
+    "name": "Hyrule Field",
+    "bgColor": "#854D0E",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Open grotto near lake hylia",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Deku salesman",
+            "description": "Grotto inside the fences by lake hylia",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Southeast grotto, under rock",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Tektite grotto",
+            "description": "Northwest of lon lon by tree",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Grotto west of castle town",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Ocarina of time",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Ocarina of time, song",
+            "type": "song",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Grotto near kakariko, near tree",
+            "type": "ootgs",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Grotto near gerudo valley",
+            "type": "ootgs",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Grotto near gerudo valley",
+            "type": "ootcow",
+            "tags": [
+                "grotto"
+            ]
+        }
+    ]
+}

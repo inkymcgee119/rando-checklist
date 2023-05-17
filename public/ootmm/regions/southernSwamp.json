@@ -1,0 +1,73 @@
+{
+    "name": "Southern Swamp",
+    "bgColor": "#059669",
+    "locations": [
+        {
+            "title": "Boat archery",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Kotake",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Koume, pictograph box",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Pictograph contest, winner",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Mystery woods grotto",
+            "type": "item",
+            "tags": [
+                "day2",
+                "grotto"
+            ]
+        },
+        {
+            "title": "Near swamp spider house grotto",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Swamp scrub trade",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Swamp scrub purchase",
+            "type": "mmmerchant",
+            "tags": []
+        },
+        {
+            "title": "Tourist center roof",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Potion shop, left",
+            "description": "Requires mushroom",
+            "type": "mmshop",
+            "tags": []
+        },
+        {
+            "title": "Potion shop, other items",
+            "count": 2,
+            "type": "mmshop",
+            "tags": []
+        },        
+        {
+            "title": "Owl Statue",
+            "type": "mmstatue",
+            "tags": []
+        }
+    ]
+}

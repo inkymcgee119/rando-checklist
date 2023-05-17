@@ -1,0 +1,21 @@
+{
+    "name": "Pinnacle Rock",
+    "bgColor": "#ca8a04",
+    "locations": [
+        {
+            "title": "Lower chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Upper chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Seahorses",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

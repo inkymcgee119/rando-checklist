@@ -1,0 +1,26 @@
+{
+    "name": "Deku Palace",
+    "bgColor": "#a16207",
+    "locations": [
+        {
+            "title": "Bean grotto",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Butler",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Deku palace west garden",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Imprisoned monkey",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

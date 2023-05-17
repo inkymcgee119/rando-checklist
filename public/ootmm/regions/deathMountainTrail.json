@@ -27,7 +27,21 @@
             "tags": []
         },
         {
-            "title": "Biggoron trade quest",
+            "title": "Biggoron, prescription",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Biggoron, claim check",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Biggoron, sword",
             "type": "item",
             "tags": [
                 "adult"
@@ -35,12 +49,12 @@
         },
         {
             "title": "Bombable wall, near entrance",
-            "type": "gs",
+            "type": "ootgs",
             "tags": []
         },
         {
             "title": "Bean patch, dodongo's cavern",
-            "type": "gs",
+            "type": "ootgs",
             "tags": [
                 "child",
                 "bean"
@@ -48,7 +62,7 @@
         },
         {
             "title": "Hammer rock, above DC",
-            "type": "gs",
+            "type": "ootgs",
             "tags": [
                 "adult",
                 "night"
@@ -56,7 +70,7 @@
         },
         {
             "title": "Hammer rock, path to summit",
-            "type": "gs",
+            "type": "ootgs",
             "tags": [
                 "adult",
                 "night"
@@ -64,43 +78,10 @@
         },
         {
             "title": "Grotto heading towards summit",
-            "type": "cow",
+            "type": "ootcow",
             "tags": [
                 "grotto"
             ]
-        },
-        {
-            "title": "Under rocks on ramp",
-            "description": "The rupees are only there as child, but logic can require breaking the rocks as adult then returning as child.",
-            "type": "rupee",
-            "tags": [
-                "child"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Cow grotto",
-            "type": "rupee",
-            "tags": [
-                "grotto"
-            ],
-            "count": 11
-        },
-        {
-            "title": "Cow grotto",
-            "type": "beehive",
-            "tags": [
-                "grotto"
-            ]
-        },
-        {
-            "title": "Song of storms grotto",
-            "description": "Rock circle outside goron city",
-            "type": "beehive",
-            "tags": [
-                "grotto"
-            ],
-            "count": 2
         }
     ]
 }

@@ -1,0 +1,149 @@
+{
+    "name": "Ocean Spider House",
+    "bgColor": "#155e75",
+    "locations": [
+        {
+            "title": "Entrance, slope left",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Entrance, slope right",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Entrance, ceiling webs",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Stairs room, behind skull",
+            "count": 2,
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Stairs room, ceiling edge",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Stairs room, ceiling plank",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Stairs room, pot",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Stairs room, lower pot",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Stairs room, upper pot",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Stairs room, webbed hole",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Stairs room, webbed pot",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Colored masks, behind picture",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Colored masks, ceiling edge",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Colored masks, chandelier",
+            "count": 3,
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Colored masks, pot",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Library, behind bookcase",
+            "count": 2,
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Library, behind picture",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Library, ceiling edge",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Library, cabinet hole",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Library, picture hole",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Library, on bookshelf",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Storage room, behind boat",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Storage room, behind crate",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Storage room, web",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Storage room, crate",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Storage room, pot",
+            "type": "mmgs",
+            "tags": []
+        },        
+        {
+            "title": "Colored skulls chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Day 1 reward",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

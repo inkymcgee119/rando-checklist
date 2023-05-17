@@ -1,0 +1,18 @@
+{
+    "name": "Mountain Village",
+    "bgColor": "#854D0E",
+    "entrances": [        
+        {
+            "name": "Termina Field",
+            "type": "region"
+        },
+        {
+            "name": "Snowhead Temple",
+            "type": "dungeon"
+        },
+        {
+            "name": "Goht",
+            "type": "boss"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Kakariko Village",
+    "bgColor": "#b45309",
+    "entrances": [
+        {
+            "name": "Hyrule Field",
+            "type": "region"
+        },
+        {
+            "name": "Bottom of the Well",
+            "type": "dungeon"
+        },
+        {
+            "name": "Shadow Temple",
+            "type": "dungeon"
+        },
+        {
+            "name": "Bongo Bongo",
+            "type": "boss"
+        }
+    ]
+}

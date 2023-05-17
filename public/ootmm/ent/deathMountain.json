@@ -1,0 +1,22 @@
+{
+    "name": "Death Mountain",
+    "bgColor": "#dc2626",
+    "entrances": [
+        {
+            "name": "Dodongo Cavern",
+            "type": "dungeon"
+        },
+        {
+            "name": "King Dodongo",
+            "type": "boss"
+        },
+        {
+            "name": "Fire Temple",
+            "type": "dungeon"
+        },
+        {
+            "name": "Volvagia",
+            "type": "boss"
+        }
+    ]
+}

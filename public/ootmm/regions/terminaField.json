@@ -1,0 +1,84 @@
+{
+    "name": "Termina Field",
+    "bgColor": "#3f6212",
+    "locations": [
+        {
+            "title": "Astronomy telescope",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bio baba grotto",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Business scrub purchase",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Dodongo grotto",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Gossip stones",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Kamaro",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Peahat grotto",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "SW corner grass chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Grotto near grass chest",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Pillar grotto",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Stump chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Underwater chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Grotto in log tunnel",
+            "count": 2,
+            "type": "mmcow",
+            "tags": [
+                "grotto"
+            ]
+        }
+    ]
+}

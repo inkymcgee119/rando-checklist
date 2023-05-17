@@ -1,0 +1,178 @@
+{
+    "name": "Kakariko Village",
+    "bgColor": "#b45309",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Anju's chickens",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Impa's cow hp",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Redead grotto",
+            "description": "In center of the village",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Open grotto, near potion shop",
+            "type": "item",
+            "tags": [
+                "grotto"
+            ]
+        },
+        {
+            "title": "Anju, egg",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Anju, cojiro",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Talk to Anju",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Talk to man on the roof",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Shooting gallery minigame",
+            "description": "Requires bow for item",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Windmill hp",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Gold skulltula reward: 10",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Gold skulltula reward: 20",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Gold skulltula reward: 30",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Gold skulltula reward: 40",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Gold skulltula reward: 50",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Windmill song",
+            "type": "song",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Sheik's song",
+            "description": "Need forest, fire, and water medallions",
+            "type": "song",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Tree near entrance",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "Side of skulltula house",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "Partially built house",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "Side of shop by DMT",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "Ladder on the lookout tower",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "On top of Impa's house",
+            "type": "ootgs",
+            "tags": [
+                "adult",
+                "night"
+            ]
+        },
+        {
+            "title": "Impa's house",
+            "type": "ootcow",
+            "tags": []
+        },
+        {
+            "title": "Shop, bazaar",
+            "type": "ootshop",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Shop, potion",
+            "type": "ootshop",
+            "tags": []
+        }
+    ]
+}

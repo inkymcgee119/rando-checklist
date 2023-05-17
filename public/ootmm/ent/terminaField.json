@@ -1,0 +1,26 @@
+{
+    "name": "Termina Field",
+    "bgColor": "#3f6212",
+    "entrances": [        
+        {
+            "name": "Romani Ranch",
+            "type": "region"
+        },
+        {
+            "name": "Southern Swamp",
+            "type": "region"
+        },
+        {
+            "name": "Mountain Village",
+            "type": "region"
+        },
+        {
+            "name": "Great Bay Coast",
+            "type": "region"
+        },
+        {
+            "name": "Ikana Valley",
+            "type": "region"
+        }
+    ]
+}

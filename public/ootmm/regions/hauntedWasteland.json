@@ -1,0 +1,17 @@
+{
+    "name": "Haunted Wasteland",
+    "bgColor": "#c084fc",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Light torches",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Inside building",
+            "type": "ootgs",
+            "tags": []
+        }
+    ]
+}

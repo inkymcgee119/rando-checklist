@@ -1,0 +1,79 @@
+{
+    "name": "Lon Lon Ranch",
+    "bgColor": "#ea580c",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Silo, rear of the ranch",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Chicken minigame",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Malon's song",
+            "type": "song",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Tree near entrance",
+            "type": "ootgs",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Backside of the fenced in area",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "On building near the entrance",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "Rear wall",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "Open grotto in the rear",
+            "type": "ootscrub",
+            "tags": [
+                "grotto"
+            ],
+            "count": 3
+        },
+        {
+            "title": "In stable",
+            "type": "ootcow",
+            "tags": [],
+            "count": 2
+        },
+        {
+            "title": "Rear silo",
+            "type": "ootcow",
+            "tags": [],
+            "count": 2
+        }
+    ]
+}

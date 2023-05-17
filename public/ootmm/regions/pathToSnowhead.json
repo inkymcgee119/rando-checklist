@@ -1,0 +1,26 @@
+{
+    "name": "Path to Snowhead",
+    "bgColor": "#fdba74",
+    "locations": [
+        {
+            "title": "Grotto",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Pillar",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Great Fairy",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Owl Statue",
+            "type": "mmstatue",
+            "tags": []
+        }
+    ]
+}

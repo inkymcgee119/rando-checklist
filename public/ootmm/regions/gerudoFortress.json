@@ -1,0 +1,38 @@
+{
+    "name": "Gerudo's Fortress",
+    "bgColor": "#ca8a04",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Chest on the roof",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Horseback archery",
+            "type": "item",
+            "tags": [
+                "adult"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Top of the fortress",
+            "type": "ootgs",
+            "tags": [
+                "adult",
+                "night"
+            ]
+        },
+        {
+            "title": "Target on horse archery range",
+            "type": "ootgs",
+            "tags": [
+                "adult",
+                "night"
+            ]
+        }
+    ]
+}

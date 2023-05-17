@@ -1,0 +1,126 @@
+{
+    "name": "Snowhead Temple",
+    "bgColor": "#a1a1aa",
+    "locations": [
+
+        
+        {
+            "title": "Bridge room, chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bridge room, ledge bubble",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Bridge room, pillar bubble",
+            "type": "mmfairies",
+            "tags": []
+        },
+
+        
+        {
+            "title": "Elevator room, chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Elevator room, fairy",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Elevator room, ledge",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Double block room, chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Double block",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Wolfos/ice chunk, chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Wolfos/ice chunk, crate",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Wolfos/ice chunk, button",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Icicle room, chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Icicle room, wall",
+            "type": "mmfairies",
+            "tags": []
+        },        
+        {
+            "title": "Ceiling bubble",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Fire arrow chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Snow room, fake wall bubble",
+            "type": "mmfairies",
+            "tags": []
+        },        
+        {
+            "title": "Dinolfos",
+            "count": 2,
+            "type": "mmfairies",
+            "tags": []
+        },        
+        {
+            "title": "Basement, lava button",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Pillar freezards",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Main room, wall",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Boss key chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Boss heart container",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Boss remains",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

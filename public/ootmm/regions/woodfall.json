@@ -1,0 +1,31 @@
+{
+    "name": "Woodfall",
+    "bgColor": "#365314",
+    "locations": [
+        {
+            "title": "Behind woodfall owl chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Entrance to woodfall chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Woodfall bridge chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Great fairy",
+            "type": "mmfairies",
+            "tags": []
+        },        
+        {
+            "title": "Owl Statue",
+            "type": "mmstatue",
+            "tags": []
+        }
+    ]
+}

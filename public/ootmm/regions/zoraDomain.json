@@ -1,0 +1,47 @@
+{
+    "name": "Zora's Domain",
+    "bgColor": "#06b6d4",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Diving Minigame",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Light torches",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Melt king zora",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Eyeball frog",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Top of the waterfall",
+            "type": "ootgs",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Shop",
+            "type": "ootshop",
+            "tags": []
+        }
+    ]
+}

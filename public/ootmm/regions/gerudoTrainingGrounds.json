@@ -1,0 +1,217 @@
+{
+    "name": "Gerudo Training Grounds",
+    "bgColor": "#facc15",
+    "hasMQ": true,
+    "locations": [
+        {
+            "title": "Lobby",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Stafos room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lizafos and beamos room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lava room, freestanding key",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lava room, toilet",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Hammer room, kill enemies",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Hammer room, hidden switch",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Spinning eye statue",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Spinning eye statue, side room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Wolfos room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Silver block like like room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 4
+        },
+        {
+            "title": "Lock maze, right side",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Lock maze, up through ceiling",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lock maze, left side chest 1",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lock maze, left side chest 2",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lock maze, left side chest 3",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lock maze, left side chest 4",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Lobby",
+            "type": "item",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Iron knuckle room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Stafos room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Silver block room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Lizalfos and dodongos room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Lava room, toilet",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Spinning eye statue",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Fiery iron knuckles room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Lock maze, right side",
+            "type": "item",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Lock maze, left side",
+            "type": "item",
+            "tags": [
+                "mq"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Lock maze, left side key",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Lock maze, switch chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        }
+    ]
+}

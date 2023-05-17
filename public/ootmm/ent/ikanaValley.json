@@ -1,0 +1,38 @@
+{
+    "name": "Ikana Valley",
+    "bgColor": "#991b1b",
+    "entrances": [        
+        {
+            "name": "Termina Field",
+            "type": "region"
+        },
+        {
+            "name": "Secret Shrine",
+            "type": "dungeon"
+        },
+        {
+            "name": "Beneath the Well",
+            "type": "dungeon"
+        },
+        {
+            "name": "Beneath the Well End",
+            "type": "dungeon"
+        },
+        {
+            "name": "Ikana Castle",
+            "type": "dungeon"
+        },
+        {
+            "name": "Stone Tower Temple",
+            "type": "dungeon"
+        },
+        {
+            "name": "Inverted Stone Tower Temple",
+            "type": "dungeon"
+        },
+        {
+            "name": "Twinmold",
+            "type": "boss"
+        }
+    ]
+}

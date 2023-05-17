@@ -1,0 +1,79 @@
+{
+    "name": "Gerudo Valley",
+    "bgColor": "#0d9488",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Crate heart piece",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Waterfall heart piece",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Chest behind hammer rocks",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Bean patch, bottom of canyon",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "bean"
+            ]
+        },
+        {
+            "title": "On waterfall near entrance",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "Underside of rock arch",
+            "type": "ootgs",
+            "tags": [
+                "adult",
+                "night"
+            ]
+        },
+        {
+            "title": "Behind carpenter's tent",
+            "type": "ootgs",
+            "tags": [
+                "adult",
+                "night"
+            ]
+        },
+        {
+            "title": "Broken goron sword",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Song of storms, behind tent",
+            "type": "ootscrub",
+            "tags": [
+                "grotto",
+                "adult"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Bottom of canyon",
+            "type": "ootcow",
+            "tags": [
+                "child"
+            ]
+        }
+    ]
+}

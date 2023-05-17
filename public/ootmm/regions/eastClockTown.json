@@ -1,0 +1,75 @@
+{
+    "name": "East Clock Town",
+    "bgColor": "#16a34a",
+    "locations": [
+        {
+            "title": "Bombers' hideout chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "East clock town chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Gorman",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Honey and Darling, any day",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Honey and Darling, three days",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Madame Aroma, in office",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Madame Aroma, in bar",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Mayor",
+            "type": "item",
+            "tags": [
+                "day1"
+            ]
+        },
+        {
+            "title": "Postman's freedom reward",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Town archery",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Treasure chest game, goron",
+            "type": "item",
+            "tags": []
+        },        
+        {
+            "title": "Milk bar, purchase milk",
+            "type": "mmmerchant",
+            "tags": []
+        },
+        {
+            "title": "Milk bar, purchase chateau",
+            "type": "mmmerchant",
+            "tags": []
+        }
+        
+    ]
+}

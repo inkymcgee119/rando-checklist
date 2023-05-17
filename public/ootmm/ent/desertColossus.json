@@ -1,0 +1,14 @@
+{
+    "name": "Desert Colossus",
+    "bgColor": "#fbbf24",
+    "entrances": [
+        {
+            "name": "Spirit Temple",
+            "type": "dungeon"
+        },
+        {
+            "name": "Twin Rova",
+            "type": "boss"
+        }
+    ]
+}

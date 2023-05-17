@@ -1,0 +1,30 @@
+{
+    "name": "Hyrule Field",
+    "bgColor": "#854D0E",
+    "entrances": [
+        {
+            "name": "Kakariko Village",
+            "type": "region"
+        },
+        {
+            "name": "Lake Hylia",
+            "type": "region"
+        },
+        {
+            "name": "Lon Lon Ranch",
+            "type": "region"
+        },
+        {
+            "name": "Zora River",
+            "type": "region"
+        },
+        {
+            "name": "Lost Woods Bridge",
+            "type": "region"
+        },
+        {
+            "name": "Gerudo Fortress",
+            "type": "region"
+        }
+    ]
+}

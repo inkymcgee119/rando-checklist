@@ -1,0 +1,32 @@
+{
+    "name": "Laundry Pool",
+    "bgColor": "#3b82f6",
+    "locations": [
+        {
+            "title": "Kafei",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Curiosity shop man",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Guru Guru",
+            "type": "item",
+            "tags": [
+                "night"
+            ]
+        },
+        {
+            "title": "Fairy over water",
+            "type": "mmfairies",
+            "tags": [
+                "day1",
+                "day2"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Stone Tower",
+    "bgColor": "#059669",
+    "locations": [
+        {
+            "title": "Inverted, left chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Inverted, middle chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Inverted, right chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Owl Statue",
+            "type": "mmstatue",
+            "tags": []
+        }
+    ]
+}

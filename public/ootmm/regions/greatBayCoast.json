@@ -1,0 +1,53 @@
+{
+    "name": "Great Bay Coast",
+    "bgColor": "#3b82f6",
+    "locations": [
+        {
+            "title": "Mikau",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Lab, baby zoras",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Lab, fish",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Fisherman game",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Grotto behind fisherman house",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Hookshot cliffs",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Tingle maps",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Hookshot cliffs, grotto",
+            "count": 2,
+            "type": "mmcow",
+            "tags": []
+        },
+        {
+            "title": "Owl Statue",
+            "type": "mmstatue",
+            "tags": []
+        }
+    ]
+}

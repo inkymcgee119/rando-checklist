@@ -1,0 +1,64 @@
+{
+    "name": "Market",
+    "bgColor": "#94a3b8",
+    "locations": [
+        {
+            "title": "Slingshot minigame",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Save Richard the dog",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Bombchu bowling",
+            "type": "item",
+            "tags": [
+                "child"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Treasure chest minigame",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Big poes",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Pot room, back crate",
+            "type": "ootgs",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Shop, bazaar",
+            "type": "ootshop",
+            "tags": []
+        },
+        {
+            "title": "Shop, potion",
+            "type": "ootshop",
+            "tags": []
+        },
+        {
+            "title": "Shop, bombchu",
+            "type": "ootshop",
+            "tags": []
+        }
+    ]
+}

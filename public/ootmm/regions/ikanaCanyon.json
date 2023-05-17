@@ -1,0 +1,52 @@
+{
+    "name": "Ikana Canyon",
+    "bgColor": "#991b1b",
+    "locations": [
+        {
+            "title": "Canyon scrub trade",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Canyon scrub purchase",
+            "type": "mmmerchant",
+            "tags": []
+        },
+        {
+            "title": "Tingle maps",
+            "count": 2,
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Ledge near scrub",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Pamela's father",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Poe hut",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Secret shrine grotto",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Great fairy",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Owl Statue",
+            "type": "mmstatue",
+            "tags": []
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "West Clock Town",
+    "bgColor": "#db2777",
+    "locations": [
+        {
+            "title": "Bank reward #1",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bank reward #2",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bank reward #3",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Curiosity shop, all-night mask",
+            "type": "mmshop",
+            "tags": [
+                "day3",
+                "night"
+            ]
+        },
+        {
+            "title": "Postman's game",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Rosa sisters",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Swordsman's school",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Bomb shop",
+            "count": 3,
+            "type": "mmshop",
+            "tags": []
+        },
+        {
+            "title": "Big bomb bag purchase",
+            "description": "Save old lady on night 1 or buy from curiosity shop night 3",
+            "type": "mmshop",
+            "tags": []
+        },
+        {
+            "title": "Trading post",
+            "count": 8,
+            "type": "mmshop",
+            "tags": []
+        }
+    ]
+}

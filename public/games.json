@@ -476,6 +476,287 @@
             }
         },
         {
+            "value": "OOT/MM Combo",
+            "icon": "game-icons:ocarina",
+            "description": "OOT/MM Combo",
+            "dir": "ootmm",
+            "hasEntranceRando": true,
+            "regions": [
+                "regions/kokiriForest.json",
+                "regions/lostWoods.json",
+                "regions/sacredForestMeadow.json",
+                "regions/hyruleField.json",
+                "regions/market.json",
+                "regions/castleGrounds.json",
+                "regions/templeOfTime.json",
+                "regions/lonLonRanch.json",
+                "regions/kakarikoVillage.json",
+                "regions/graveyard.json",
+                "regions/deathMountainTrail.json",
+                "regions/deathMountainCrater.json",
+                "regions/goronCity.json",
+                "regions/zoraRiver.json",
+                "regions/zoraDomain.json",
+                "regions/zoraFountain.json",
+                "regions/lakeHylia.json",
+                "regions/gerudoValley.json",
+                "regions/gerudoFortress.json",
+                "regions/hauntedWasteland.json",
+                "regions/desertColossus.json",
+                "regions/dekuTree.json",
+                "regions/dodongoCavern.json",
+                "regions/jabu.json",
+                "regions/forestTemple.json",
+                "regions/fireTemple.json",
+                "regions/iceCavern.json",
+                "regions/waterTemple.json",
+                "regions/bottomOfTheWell.json",
+                "regions/shadowTemple.json",
+                "regions/gerudoTrainingGrounds.json",
+                "regions/spiritTemple.json",
+                "regions/ganonCastle.json",
+                "regions/clockTowerRoof.json",
+                "regions/southClockTown.json",
+                "regions/northClockTown.json",
+                "regions/eastClockTown.json",
+                "regions/westClockTown.json",
+                "regions/stockPotInn.json",
+                "regions/laundryPool.json",
+                "regions/terminaField.json",
+                "regions/roadToSouthernSwamp.json",
+                "regions/southernSwamp.json",
+                "regions/swampSpiderHouse.json",
+                "regions/dekuPalace.json",
+                "regions/woodfall.json",
+                "regions/woodfallTemple.json",
+                "regions/mountainVillage.json",
+                "regions/twinIslands.json",
+                "regions/goronVillage.json",
+                "regions/pathToSnowhead.json",
+                "regions/snowheadTemple.json",
+                "regions/milkRoad.json",
+                "regions/romaniRanch.json",
+                "regions/greatBayCoast.json",
+                "regions/oceanSpiderHouse.json",
+                "regions/pinnacleRock.json",
+                "regions/zoraCape.json",
+                "regions/zoraHall.json",
+                "regions/pirateFortress.json",
+                "regions/greatBayTemple.json",
+                "regions/roadToIkana.json",
+                "regions/ikanaGraveyard.json",
+                "regions/ikanaCanyon.json",
+                "regions/beneathTheWell.json",
+                "regions/ikanaCastle.json",
+                "regions/stoneTower.json",
+                "regions/stoneTowerTemple.json",
+                "regions/secretShrine.json",
+                "regions/moon.json"
+            ],
+            "entranceRegions": [
+                "ent/hyruleField.json",
+                "ent/kokiriForest.json",
+                "ent/kakariko.json",
+                "ent/lakeHylia.json",
+                "ent/lonLonRanch.json",
+                "ent/deathMountain.json",
+                "ent/zoraRiver.json",
+                "ent/gerudoFortress.json",
+                "ent/desertColossus.json",
+                "ent/castle.json",
+                "ent/terminaField.json",
+                "ent/southernSwamp.json",
+                "ent/romaniRanch.json",
+                "ent/mountainVillage.json",
+                "ent/greatBay.json",
+                "ent/ikanaValley.json"
+            ],
+            "columns": {
+                "sm": 1,
+                "md": 2,
+                "lg": 3,
+                "xl": 4,
+                "xxl": 5,
+                "xxxl": 6
+            },
+            "options": {
+                "settings": {
+                    "item": {
+                        "name": "item",
+                        "description": "Items",
+                        "icon": "game-icons:chest",
+                        "isDefault": true
+                    },
+                    "ootgs": {
+                        "name": "ootgs",
+                        "description": "Gold Skulltulas (OOT)",
+                        "icon": "game-icons:masked-spider"
+                    },
+                    "mmgs": {
+                        "name": "mmgs",
+                        "description": "Gold Skulltulas (MM)",
+                        "icon": "game-icons:masked-spider"
+                    },
+                    "ootshop": {
+                        "name": "ootshop",
+                        "description": "Shops (OOT)",
+                        "icon": "game-icons:shopping-cart"
+                    },
+                    "mmshop": {
+                        "name": "mmshop",
+                        "description": "Shops (MM)",
+                        "icon": "game-icons:shopping-cart"
+                    },
+                    "ootscrub": {
+                        "name": "ootscrub",
+                        "description": "Scrubs (OOT)",
+                        "icon": "tabler:plant-2"
+                    },
+                    "ootcow": {
+                        "name": "ootcow",
+                        "description": "Cows (OOT)",
+                        "icon": "game-icons:cow"
+                    },
+                    "mmcow": {
+                        "name": "mmcow",
+                        "description": "Cows (MM)",
+                        "icon": "game-icons:cow"
+                    },
+                    "mmfairies": {
+                        "name": "mmfairies",
+                        "description": "Stray Fairies (MM)",
+                        "icon": "game-icons:fairy"
+                    },
+                    "mmstatue": {
+                        "name": "mmstatue",
+                        "description": "Owl Statues (MM)",
+                        "icon": "icon-park-solid:owl"
+                    },
+                    "mmmerchant": {
+                        "name": "mmmerchant",
+                        "description": "Merchants (MM)",
+                        "icon": "game-icons:shopping-cart"
+                    },
+                    "song": {
+                        "name": "song",
+                        "description": "Songs",
+                        "icon": "game-icons:musical-score",
+                        "filterWith": "item"
+                    },
+                    "boss": {
+                        "name": "boss",
+                        "description": "Boss",
+                        "icon": "game-icons:death-skull",
+                        "filterWith": "item"
+                    }
+                },
+                "tags": {
+                    "vanilla": {
+                        "name": "Vanilla",
+                        "description": "Vanilla Dungeon",
+                        "isHidden": true
+                    },
+                    "mq": {
+                        "name": "MQ",
+                        "description": "Master Quest Dungeon",
+                        "isHidden": true
+                    },
+                    "child": {
+                        "name": "child",
+                        "description": "Child",
+                        "icon": "fa6-solid:c"
+                    },
+                    "adult": {
+                        "name": "adult",
+                        "description": "Adult",
+                        "icon": "fa6-solid:a"
+                    },
+                    "grotto": {
+                        "name": "grotto",
+                        "description": "Grotto",
+                        "icon": "game-icons:hole"
+                    },
+                    "bean": {
+                        "name": "bean",
+                        "description": "Soft soil",
+                        "icon": "iconoir:soil-alt"
+                    },
+                    "day": {
+                        "name": "day",
+                        "description": "Day",
+                        "icon": "bi:sun",
+                        "hasFilter": true
+                    },
+                    "night": {
+                        "name": "night",
+                        "description": "Night",
+                        "icon": "bi:moon",
+                        "hasFilter": true
+                    },
+                    "day1": {
+                        "name": "day1",
+                        "description": "Day",
+                        "icon": "ri:number-1",
+                        "hasFilter": true
+                    },
+                    "day2": {
+                        "name": "day2",
+                        "description": "Day",
+                        "icon": "ri:number-2",
+                        "hasFilter": true
+                    },
+                    "day3": {
+                        "name": "day3",
+                        "description": "Day",
+                        "icon": "ri:number-3",
+                        "hasFilter": true
+                    },
+                    "winter": {
+                        "name": "winter",
+                        "description": "Winter",
+                        "icon": "bi:snow",
+                        "hasFilter": true
+                    },
+                    "spring": {
+                        "name": "spring",
+                        "description": "Spring",
+                        "icon": "cib:spring",
+                        "hasFilter": true
+                    }
+                }
+            },
+            "entranceOptions": {
+                "settings": {
+                    "dungeon": {
+                        "name": "dungeon",
+                        "description": "Dungeons",
+                        "icon": "material-symbols:castle-outline",
+                        "hasFilter": true
+                    },
+                    "boss": {
+                        "name": "boss",
+                        "description": "Bosses",
+                        "icon": "game-icons:death-skull",
+                        "hasFilter": true
+                    },
+                    "region": {
+                        "name": "region",
+                        "description": "Major Regions",
+                        "icon": "ion:md-globe",
+                        "hasFilter": true,
+                        "isBidirectional": true
+                    }
+                },
+                "toggleSettings": {
+                    "coupled": {
+                        "name": "coupled",
+                        "description": "Auto Pair Entrances",
+                        "isDefault": true
+                    }
+                }
+            }
+        },
+        {
             "value": "A Link to the Past",
             "description": "A Link to the Past",
             "icon": "game-icons:sword-altar",

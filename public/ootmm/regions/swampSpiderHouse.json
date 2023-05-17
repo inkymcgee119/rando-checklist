@@ -1,0 +1,132 @@
+{
+    "name": "Swamp Spider House",
+    "bgColor": "#fb923c",
+    "locations": [
+        {
+            "title": "Main room, pot",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Main room, lower soft soils",
+            "count": 2,
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Main room, near ceiling",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Main room, pillar",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Main room, upper pillar",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Main room, upper soft soil",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Main room, Water",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Gold room, hive",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Gold room, near ceiling",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Gold room, pillar",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Gold room, wall",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Tree room, grass",
+            "count": 2,
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Tree room, hive",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Tree room, tree",
+            "count": 3,
+            "type": "mmgs",
+            "tags": []
+        },        
+        {
+            "title": "Monument room, crates",
+            "count": 2,
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Monument room, lower wall",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Monument room, on monument",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Monument room, torch",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Jar room, behind vines",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Jar room, hives",
+            "count": 2,
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Jar room, roll into jars",
+            "count": 2,
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Jar room, pot",
+            "type": "mmgs",
+            "tags": []
+        },
+        {
+            "title": "Jar room, on wall",
+            "type": "mmgs",
+            "tags": []
+        },        
+        {
+            "title": "Reward",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

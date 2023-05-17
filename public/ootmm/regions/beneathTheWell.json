@@ -1,0 +1,30 @@
+{
+    "name": "Beneath the Well",
+    "bgColor": "#3f3f46",
+    "locations": [
+        {
+            "title": "Mirror shield chest",
+            "type": "item",
+            "description": "5x beans, water, big poe, milk",
+            "tags": []
+        },
+        {
+            "title": "Left path chest",
+            "type": "item",
+            "description": "Blue potion, water, bugs",
+            "tags": []
+        },
+        {
+            "title": "Right path chest",
+            "type": "item",
+            "description": "5x beans, fish, bugs",
+            "tags": []
+        },
+        {
+            "title": "Cow",
+            "type": "mmcow",
+            "description": "5x beans, 10x deku nuts, hot spring water",
+            "tags": []
+        }
+    ]
+}

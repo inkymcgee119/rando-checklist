@@ -1,0 +1,42 @@
+{
+    "name": "Sacred Forest Meadow",
+    "bgColor": "#10B981",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Wolfos grotto",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Song from Saria",
+            "type": "song",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Song from Sheik",
+            "type": "song",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "On the wall above the maze",
+            "type": "ootgs",
+            "tags": [
+                "adult",
+                "night"
+            ]
+        },
+        {
+            "title": "Song of storms, in corner",
+            "type": "ootscrub",
+            "tags": [
+                "grotto"
+            ],
+            "count": 2
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Romani Ranch",
+    "bgColor": "#f97316",
+    "entrances": [        
+        {
+            "name": "Termina Field",
+            "type": "region"
+        }
+    ]
+}

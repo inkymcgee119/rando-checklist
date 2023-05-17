@@ -1,0 +1,14 @@
+{
+    "name": "Gerudo Fortress",
+    "bgColor": "#ca8a04",
+    "entrances": [
+        {
+            "name": "Hyrule Field",
+            "type": "region"
+        },
+        {
+            "name": "Gerudo Training Grounds",
+            "type": "dungeon"
+        }
+    ]
+}

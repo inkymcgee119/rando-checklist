@@ -1,0 +1,267 @@
+{
+    "name": "Forest Temple",
+    "bgColor": "#065f46",
+    "hasMQ": true,
+    "locations": [
+        {
+            "title": "Entrance area, up in the tree",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Entrance area, on the vines",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Center room, wall next to stairs",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Room straight back, staflos fight",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Courtyard, room up the vines",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Courtyard, chest on grassy hill",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Courtyard, on the grassy hill",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Courtyard, in the well",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },        
+        {
+            "title": "Upper courtyard, side room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Upper courtyard, high on wall",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Eye switch near block puzzle",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },        
+        {
+            "title": "Boss key chest",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Red poe (Joelle)",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bow chest",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Blue poe (Beth)",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Falling ceiling room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Spinning room in the basement",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Spinning room in the basement",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
+        {
+            "title": "Phantom Ganon",
+            "type": "boss",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Entrance area, up in the tree",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Entrance hallway, upper left corner",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Room straight back, wolfos fight",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Courtyard, upper balcony",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Courtyard, chest on grassy hill",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Courtyard, right side, above door",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Courtyard, in the well",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Courtyard, in the well",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Courtyard, above the well",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Upper Courtyard, side room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Blocking push room, on floor level",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Boss key chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Red poe (Joelle)",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bow chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Blue poe (Beth)",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Falling ceiling room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Spinning room in the basement",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Phantom Ganon",
+            "type": "boss",
+            "tags": [
+                "mq"
+            ]
+        }
+    ]
+}

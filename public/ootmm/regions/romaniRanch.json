@@ -1,0 +1,50 @@
+{
+    "name": "Romani Ranch",
+    "bgColor": "#f97316",
+    "locations": [
+        {
+            "title": "Romani's game",
+            "type": "item",
+            "tags": [
+                "day1"
+            ]
+        },
+        {
+            "title": "Aliens defense",
+            "type": "item",
+            "tags": [
+                "day1",
+                "night"
+            ]
+        },
+        {
+            "title": "Cremia defense",
+            "type": "item",
+            "tags": [
+                "day2",
+                "night"
+            ]
+        },
+        {
+            "title": "Dog race",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Dog race, roof chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Grog",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Ranch",
+            "count": 3,
+            "type": "mmcow",
+            "tags": []
+        }
+    ]
+}

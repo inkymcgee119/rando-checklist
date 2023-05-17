@@ -1,0 +1,14 @@
+{
+    "name": "Castle Grounds",
+    "bgColor": "#f43f5e",
+    "entrances": [        
+        {
+            "name": "Ganon's Castle, Trials",
+            "type": "dungeon"
+        },
+        {
+            "name": "Ganon's Castle, Central Stairs",
+            "type": "dungeon"
+        }        
+    ]
+}

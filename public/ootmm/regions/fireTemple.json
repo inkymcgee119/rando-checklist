@@ -1,0 +1,271 @@
+{
+    "name": "Fire Temple",
+    "bgColor": "#991b1b",
+    "hasMQ": true,
+    "locations": [
+        {
+            "title": "Room before volvagia",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },        
+        {
+            "title": "Entrance loop, flame dancer",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Entrance loop, boss key chest",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Entrance loop, back right room",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
+        {
+            "title": "Bridge room, goron room on left",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bridge room, goron room on right",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Bridge room, room on left side",
+            "description": "Use song of time",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Boulder maze lower, left side",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Boulder maze lower, right side",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Boulder maze, bombable wall",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Chest in moving fire wall room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Boulder maze upper, goron",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Boulder maze upper, down the hole",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+
+        {
+            "title": "Scarecrow chest",
+            "description": "Use scarecrow's song to hookshot up to elevator, chest is at the end of the path",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Above boulder maze",
+            "description": "Scarecrow song area",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "title": "Fire wall maze, room on right",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Fire wall maze, center room",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Hammer chest",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Volvagia",
+            "type": "boss",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Room before volvagia",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Entrance loop, left room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Entrance loop, flame dancer",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Entrance loop, boss key",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bridge room, left room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bridge room, left side room",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Bridge room, right room",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Lizafos maze lower, bombable wall",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },{
+            "title": "Lizafos maze lower, crate",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },        
+        {
+            "title": "Lizafos maze upper, crate",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Lizafos maze upper, down the hole",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Former scarecrow song area",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Firewall maze, room on right",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Firewall maze, center room",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Upper flame dancer, under elevator",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Former hammer chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Path down from hammer room",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Volvagia",
+            "type": "boss",
+            "tags": [
+                "mq"
+            ]
+        }
+    ]
+}

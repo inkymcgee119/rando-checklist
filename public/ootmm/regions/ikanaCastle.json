@@ -1,0 +1,16 @@
+{
+    "name": "Ikana Castle",
+    "bgColor": "#a16207",
+    "locations": [
+        {
+            "title": "Pillar",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Ikana King",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

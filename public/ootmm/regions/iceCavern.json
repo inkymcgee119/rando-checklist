@@ -1,0 +1,120 @@
+{
+    "name": "Ice Cavern",
+    "bgColor": "#60a5fa",
+    "hasMQ": true,
+    "locations": [
+        {
+            "title": "Spinning blade room",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Back room chest",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Right room, chest",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Right room, red ice",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Right room",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Block puzzle room",
+            "type": "ootgs",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Wolfos chest",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Sheik's song",
+            "type": "song",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "title": "Back room, chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Back room, switch hidden in floor",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Back room, under red ice",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Right room, red ice",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Block pushing puzzle, switch ",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Block pushing puzzle, side cave",
+            "description": "Use scarecrow song to reach",
+            "type": "ootgs",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Stafos chest",
+            "type": "item",
+            "tags": [
+                "mq"
+            ]
+        },
+        {
+            "title": "Sheik's song",
+            "type": "song",
+            "tags": [
+                "mq"
+            ]
+        }
+    ]
+}

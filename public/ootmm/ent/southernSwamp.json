@@ -1,0 +1,22 @@
+{
+    "name": "Southern Swamp",
+    "bgColor": "#059669",
+    "entrances": [        
+        {
+            "name": "Termina Field",
+            "type": "region"
+        },
+        {
+            "name": "Swamp Spider House",
+            "type": "dungeon"
+        },
+        {
+            "name": "Woodfall Temple",
+            "type": "dungeon"
+        },
+        {
+            "name": "Odolwa",
+            "type": "boss"
+        }
+    ]
+}

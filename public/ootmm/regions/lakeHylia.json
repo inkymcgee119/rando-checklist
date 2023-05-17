@@ -1,0 +1,97 @@
+{
+    "name": "Lake Hylia",
+    "bgColor": "#2563eb",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Lab diving (gold scale)",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Underwater bottle",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Fishing",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Fishing",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Rooftop heart piece",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Shoot the sun",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Bean patch",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "bean"
+            ]
+        },
+        {
+            "title": "Back of the lab",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "On the little island",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "Top of the tree",
+            "type": "ootgs",
+            "tags": [
+                "adult",
+                "night"
+            ]
+        },
+        {
+            "title": "Crate in the lab",
+            "type": "ootgs",
+            "tags": []
+        },
+        {
+            "title": "Eye drops",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Under gravestone",
+            "type": "ootscrub",
+            "tags": [
+                "grotto"
+            ],
+            "count": 3
+        }
+    ]
+}

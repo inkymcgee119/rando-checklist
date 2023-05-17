@@ -1,0 +1,52 @@
+{
+    "name": "Desert Colossus",
+    "bgColor": "#fbbf24",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Great fairy",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Heart piece on archway",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Sheik's song",
+            "type": "song",
+            "tags": []
+        },
+        {
+            "title": "Bean patch",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "bean"
+            ]
+        },
+        {
+            "title": "Palm tree by dried pond",
+            "type": "ootgs",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Top of the sand dune",
+            "type": "ootgs",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Under silver rock",
+            "type": "ootscrub",
+            "tags": [
+                "grotto"
+            ],
+            "count": 2
+        }
+    ]
+}

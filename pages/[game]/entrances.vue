@@ -37,7 +37,7 @@
                                 <dropdown v-model="ent.destination" toggler-class="rounded-md text-white text-sm"
                                     :style="{ background: region.dropdownColor ?? region.bgColor }"
                                     toggler-text="Select location"
-                                    :groups="dropdownGroupsByType[appState.entranceOptions.settings.mixedPool ? 'all' : ent.type]"
+                                    :groups="dropdownGroupsByType[appState.entranceOptions.toggleSettings.mixedPool ? 'all' : ent.type]"
                                     :include-clear="true" :include-search="true"
                                     @update="(item) => updateDropdown({ src: { region: region, entrance: ent }, dest: item })">
                                 </dropdown>
@@ -193,7 +193,7 @@ function getDropdownGroupsByType(entTypeName) {
     for (let region of filteredRegionEntranceList.value) {
         if (region.entrances) {
             let ents = region.entrances.filter(ent => {
-                let rowVisible = true;
+                let rowVisible = false;
                 if (stringCompareCaseInsensitive(ent.type, entTypeName))
                     rowVisible |= true;
                 if (entType.showAll)

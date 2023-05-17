@@ -1,0 +1,116 @@
+{
+    "name": "Great Bay Temple",
+    "bgColor": "#1d4ed8",
+    "locations": [
+        {
+            "title": "Entrance torches",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Control room, under entrance ledge",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Control room, skulltula",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Whirlpool, pot",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Whirlpool, barrel",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Ice arrow chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Outside red valve room",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Pot outside red valve room",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Bio babas chest",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Near boss key",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Near boss key, underwater",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Near boss key, dexihands pot",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Boss key chest",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Waterwheel, torch hookshot",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Waterwheel, above",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Sewsaw room, barrel under",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Seesaw room, chest in cage",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Green pump, chest above",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Room before boss, bubble",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Room before boss, underwater tunnel",
+            "type": "mmfairies",
+            "tags": []
+        },
+        {
+            "title": "Boss heart container",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Boss remains",
+            "type": "item",
+            "tags": []
+        }
+    ]
+}

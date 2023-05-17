@@ -1,0 +1,80 @@
+{
+    "name": "Goron City",
+    "bgColor": "#713f12",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Rolling goron",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Darunia's joy",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Spinning pot",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Rock maze, right side",
+            "type": "item",
+            "tags": [],
+            "count": 2
+        },
+        {
+            "title": "Rock maze, left side",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Link the goron",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Medigoron (if enabled)",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Rock maze, right side crate",
+            "type": "ootgs",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Back of pedestal in the center",
+            "type": "ootgs",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Hookshot in lava room",
+            "type": "ootscrub",
+            "tags": [
+                "grotto"
+            ],
+            "count": 3
+        },
+        {
+            "title": "Shop",
+            "type": "ootshop",
+            "tags": []
+        }
+    ]
+}

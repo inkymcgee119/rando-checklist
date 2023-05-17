@@ -1,0 +1,174 @@
+{
+  "name": "Deku Tree",
+  "bgColor": "#16a34a",
+  "hasMQ": true,
+  "showMQ": false,
+  "locations": [
+    {
+      "title": "Lobby",
+      "type": "item",
+      "tags": [
+        "vanilla"
+      ]
+    },
+    {
+      "title": "First floor Room",
+      "type": "item",
+      "tags": [
+        "vanilla"
+      ],
+      "count": 2
+    },
+    {
+      "title": "Second floor Room",
+      "type": "item",
+      "tags": [
+        "vanilla"
+      ],
+      "count": 2
+    },
+    {
+      "title": "Second floor Room",
+      "type": "gs",
+      "tags": [
+        "vanilla"
+      ]
+    },
+    {
+      "title": "Walk the plank",
+      "type": "rupee",
+      "tags": [
+        "vanilla"
+      ]
+    },
+    {
+      "title": "Leap down",
+      "type": "rupee",
+      "tags": [
+        "vanilla"
+      ]
+    },
+    {
+      "title": "Basement",
+      "type": "item",
+      "tags": [
+        "vanilla"
+      ]
+    },
+    {
+      "title": "Basement on vines",
+      "type": "gs",
+      "tags": [
+        "vanilla"
+      ]
+    },
+    {
+      "title": "Basement on the bars",
+      "type": "ootgs",
+      "tags": [
+        "vanilla"
+      ]
+    },
+    {
+      "title": "Basement, back room",
+      "type": "ootgs",
+      "tags": [
+        "vanilla"
+      ]
+    },
+    {
+      "title": "Queen Gohma",
+      "type": "boss",
+      "tags": [
+        "vanilla"
+      ]
+    },
+    {
+      "title": "Lobby",
+      "type": "item",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Under crate in lobby",
+      "type": "ootgs",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "First floor Room",
+      "type": "item",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "First floor room, behind rock",
+      "description": "Use song of time",
+      "type": "ootgs",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Second floor Room",
+      "type": "item",
+      "tags": [
+        "mq"
+      ],
+      "count": 2
+    },
+    {
+      "title": "Basement, switch",
+      "type": "item",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Water platform room chest",
+      "type": "item",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Water platform room, song of time",
+      "type": "item",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Basement, grave room, ceiling",
+      "description": "Use song of time",
+      "type": "ootgs",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Basement, back room",
+      "type": "ootgs",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Scrub near gohma's hole",
+      "type": "ootscrub",
+      "tags": [
+        "mq"
+      ]
+    },
+    {
+      "title": "Queen Gohma",
+      "type": "boss",
+      "tags": [
+        "mq"
+      ]
+    }
+  ]
+}

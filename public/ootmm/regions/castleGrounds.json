@@ -1,0 +1,58 @@
+{
+    "name": "Hyrule/Ganon's Castle Grounds",
+    "bgColor": "#f43f5e",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Talk to Malon",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Great fairy",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Great fairy",
+            "type": "item",
+            "tags": [
+                "adult"
+            ]
+        },
+        {
+            "title": "Zelda's lullaby",
+            "type": "song",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "In tree near entrance",
+            "type": "ootgs",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Song of storms grotto",
+            "description": "Inside the gates, near the tree in the corner",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "grotto"
+            ]
+        },
+        {
+            "title": "On the side of pillar",
+            "type": "ootgs",
+            "tags": [
+                "adult"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Graveyard",
+    "bgColor": "#a78bfa",
+    "hasMQ": false,
+    "locations": [
+        {
+            "title": "Flower grave",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Composer grave, torches",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Redead grave (play sun's song)",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Dampe digging game",
+            "type": "item",
+            "tags": [
+                "child"
+            ]
+        },
+        {
+            "title": "Dampe race",
+            "type": "item",
+            "tags": [],
+            "count": 2
+        },
+        {
+            "title": "Crate hp, above bean patch",
+            "type": "item",
+            "tags": []
+        },
+        {
+            "title": "Composer grave, song",
+            "type": "song",
+            "tags": []
+        },
+        {
+            "title": "Back right wall",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "night"
+            ]
+        },
+        {
+            "title": "Bean patch",
+            "type": "ootgs",
+            "tags": [
+                "child",
+                "bean"
+            ]
+        }
+    ]
+}

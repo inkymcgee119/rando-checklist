@@ -1,0 +1,10 @@
+{
+    "name": "Lon Lon Ranch",
+    "bgColor": "#ea580c",
+    "entrances": [
+        {
+            "name": "Hyrule Field",
+            "type": "region"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Zora River",
+    "bgColor": "#059669",
+    "entrances": [
+        {
+            "name": "Hyrule Field",
+            "type": "region"
+        },
+        {
+            "name": "Jabu Jabu",
+            "type": "dungeon"
+        },
+        {
+            "name": "Barinade",
+            "type": "boss"
+        },
+        {
+            "name": "Ice Cavern",
+            "type": "dungeon"
+        }
+    ]
+}
