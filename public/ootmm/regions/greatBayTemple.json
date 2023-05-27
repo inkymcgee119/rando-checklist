@@ -5,112 +5,156 @@
         {
             "title": "Entrance torches",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Control room, under entrance ledge",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Control room, skulltula",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Whirlpool, pot",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Whirlpool, barrel",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Ice arrow chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Outside red valve room",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Pot outside red valve room",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Bio babas chest",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Near boss key",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Near boss key, underwater",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Near boss key, dexihands pot",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Boss key chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Waterwheel, torch hookshot",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Waterwheel, above",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Sewsaw room, barrel under",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Seesaw room, chest in cage",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Green pump, chest above",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Room before boss, bubble",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Room before boss, underwater tunnel",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Boss heart container",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Boss remains",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

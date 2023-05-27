@@ -5,22 +5,30 @@
         {
             "title": "Grotto",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Pillar",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Great Fairy",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Owl Statue",
             "type": "mmstatue",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

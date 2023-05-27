@@ -5,48 +5,66 @@
         {
             "title": "Canyon scrub trade",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Canyon scrub purchase",
             "type": "mmmerchant",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Tingle maps",
             "count": 2,
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Ledge near scrub",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Pamela's father",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Poe hut",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Secret shrine grotto",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Great fairy",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Owl Statue",
             "type": "mmstatue",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

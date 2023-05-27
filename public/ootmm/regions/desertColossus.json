@@ -6,22 +6,29 @@
         {
             "title": "Great fairy",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Heart piece on archway",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Sheik's song",
             "type": "song",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Bean patch",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "bean"
             ]
@@ -30,6 +37,7 @@
             "title": "Palm tree by dried pond",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
@@ -37,6 +45,7 @@
             "title": "Top of the sand dune",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
@@ -44,6 +53,7 @@
             "title": "Under silver rock",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "grotto"
             ],
             "count": 2

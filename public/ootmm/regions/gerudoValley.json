@@ -6,17 +6,22 @@
         {
             "title": "Crate heart piece",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Waterfall heart piece",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Chest behind hammer rocks",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
@@ -24,6 +29,7 @@
             "title": "Bean patch, bottom of canyon",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "bean"
             ]
@@ -32,6 +38,7 @@
             "title": "On waterfall near entrance",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "night"
             ]
@@ -40,6 +47,7 @@
             "title": "Underside of rock arch",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult",
                 "night"
             ]
@@ -48,14 +56,16 @@
             "title": "Behind carpenter's tent",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult",
                 "night"
             ]
         },
         {
-            "title": "Broken goron sword",
+            "title": "Trade quest, turn in poacher's saw",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
@@ -63,6 +73,7 @@
             "title": "Song of storms, behind tent",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "grotto",
                 "adult"
             ],
@@ -72,6 +83,7 @@
             "title": "Bottom of canyon",
             "type": "ootcow",
             "tags": [
+                "oot",
                 "child"
             ]
         }

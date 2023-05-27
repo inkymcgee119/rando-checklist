@@ -6,25 +6,33 @@
             "title": "Mirror shield chest",
             "type": "item",
             "description": "5x beans, water, big poe, milk",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Left path chest",
             "type": "item",
             "description": "Blue potion, water, bugs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Right path chest",
             "type": "item",
             "description": "5x beans, fish, bugs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Cow",
             "type": "mmcow",
             "description": "5x beans, 10x deku nuts, hot spring water",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

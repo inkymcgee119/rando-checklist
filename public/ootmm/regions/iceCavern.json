@@ -7,6 +7,7 @@
             "title": "Spinning blade room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -14,6 +15,7 @@
             "title": "Back room chest",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -21,6 +23,7 @@
             "title": "Right room, chest",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -28,6 +31,7 @@
             "title": "Right room, red ice",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -35,6 +39,7 @@
             "title": "Right room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -42,6 +47,7 @@
             "title": "Block puzzle room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -49,6 +55,7 @@
             "title": "Wolfos chest",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -56,6 +63,7 @@
             "title": "Sheik's song",
             "type": "song",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -63,6 +71,7 @@
             "title": "Back room, chest",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -70,6 +79,7 @@
             "title": "Back room, switch hidden in floor",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -77,6 +87,7 @@
             "title": "Back room, under red ice",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -84,6 +95,7 @@
             "title": "Right room, red ice",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -91,6 +103,7 @@
             "title": "Block pushing puzzle, switch ",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -99,6 +112,7 @@
             "description": "Use scarecrow song to reach",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -106,6 +120,7 @@
             "title": "Stafos chest",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -113,6 +128,7 @@
             "title": "Sheik's song",
             "type": "song",
             "tags": [
+                "oot",
                 "mq"
             ]
         }

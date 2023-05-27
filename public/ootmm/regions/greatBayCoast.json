@@ -5,49 +5,67 @@
         {
             "title": "Mikau",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Lab, baby zoras",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Lab, fish",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Fisherman game",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Grotto behind fisherman house",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Hookshot cliffs",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Tingle maps",
             "count": 2,
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Hookshot cliffs, grotto",
             "count": 2,
             "type": "mmcow",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Owl Statue",
             "type": "mmstatue",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

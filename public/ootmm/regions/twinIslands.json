@@ -5,33 +5,44 @@
         {
             "title": "Goron race",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Grotto on ramp to racetrack",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Hot spring water grotto",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Tingle maps",
             "count": 2,
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Goron Elder",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Underwater cave chest",
             "type": "item",
             "tags": [
+                "mm",
                 "spring"
             ]
         },
@@ -39,6 +50,7 @@
             "title": "Underwater chest near ramp",
             "type": "item",
             "tags": [
+                "mm",
                 "spring"
             ]
         }

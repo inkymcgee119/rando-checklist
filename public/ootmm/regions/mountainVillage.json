@@ -5,42 +5,61 @@
         {
             "title": "Darmani",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Hungry goron",
             "type": "item",
-            "tags": []
-        },
-        {
-            "title": "Frog choir",
-            "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Smithy day 1",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Smithy day 2",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Spring grotto",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm",
+                "spring"
+            ]
         },
         {
             "title": "Waterfall chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm",
+                "spring"
+            ]
+        },
+        {
+            "title": "Frog choir",
+            "type": "item",
+            "tags": [
+                "mm",
+                "spring"
+            ]
         },
         {
             "title": "Owl Statue",
             "type": "mmstatue",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

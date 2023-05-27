@@ -6,12 +6,16 @@
         {
             "title": "Light torches",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Inside building",
             "type": "ootgs",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         }
     ]
 }

@@ -5,53 +5,67 @@
         {
             "title": "Astronomy telescope",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Bio baba grotto",
             "type": "item",
             "tags": [
+                "mm",
                 "grotto"
             ]
         },
         {
             "title": "Business scrub purchase",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Dodongo grotto",
             "type": "item",
             "tags": [
+                "mm",
                 "grotto"
             ]
         },
         {
             "title": "Gossip stones",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Kamaro",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Peahat grotto",
             "type": "item",
             "tags": [
+                "mm",
                 "grotto"
             ]
         },
         {
             "title": "SW corner grass chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Grotto near grass chest",
             "type": "item",
             "tags": [
+                "mm",
                 "grotto"
             ]
         },
@@ -59,24 +73,30 @@
             "title": "Pillar grotto",
             "type": "item",
             "tags": [
+                "mm",
                 "grotto"
             ]
         },
         {
             "title": "Stump chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Underwater chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Grotto in log tunnel",
             "count": 2,
             "type": "mmcow",
             "tags": [
+                "mm",
                 "grotto"
             ]
         }

@@ -5,22 +5,30 @@
         {
             "title": "Bean grotto",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Butler",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Deku palace west garden",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Imprisoned monkey",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

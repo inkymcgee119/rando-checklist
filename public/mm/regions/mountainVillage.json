@@ -15,7 +15,7 @@
         {
             "title": "Frog choir",
             "type": "item",
-            "tags": []
+            "tags": ["spring"]
         },
         {
             "title": "Keaton quiz",
@@ -35,12 +35,12 @@
         {
             "title": "Spring grotto",
             "type": "everything",
-            "tags": []
+            "tags": ["spring"]
         },
         {
             "title": "Waterfall chest",
             "type": "everything",
-            "tags": []
+            "tags": ["spring"]
         },
         {
             "title": "Path to village, snowball",

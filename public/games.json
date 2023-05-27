@@ -661,6 +661,18 @@
                         "description": "Master Quest Dungeon",
                         "isHidden": true
                     },
+                    "oot": {
+                        "name": "oot",
+                        "description": "OOT",
+                        "icon": "game-icons:ocarina",
+                        "hideRowIcon": true
+                    },
+                    "mm": {
+                        "name": "mm",
+                        "description": "MM",
+                        "icon": "game-icons:tribal-mask",
+                        "hideRowIcon": true
+                    },
                     "child": {
                         "name": "child",
                         "description": "Child",
@@ -680,12 +692,6 @@
                         "name": "bean",
                         "description": "Soft soil",
                         "icon": "iconoir:soil-alt"
-                    },
-                    "day": {
-                        "name": "day",
-                        "description": "Day",
-                        "icon": "bi:sun",
-                        "hasFilter": true
                     },
                     "night": {
                         "name": "night",

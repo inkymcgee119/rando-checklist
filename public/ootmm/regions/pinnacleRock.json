@@ -5,17 +5,23 @@
         {
             "title": "Lower chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Upper chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Seahorses",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

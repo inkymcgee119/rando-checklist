@@ -5,27 +5,36 @@
         {
             "title": "Boat archery",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Kotake",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Koume, pictograph box",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Pictograph contest, winner",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Mystery woods grotto",
             "type": "item",
             "tags": [
+                "mm",
                 "day2",
                 "grotto"
             ]
@@ -34,40 +43,53 @@
             "title": "Near swamp spider house grotto",
             "type": "item",
             "tags": [
+                "mm",
                 "grotto"
             ]
         },
         {
             "title": "Swamp scrub trade",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Swamp scrub purchase",
             "type": "mmmerchant",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Tourist center roof",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Potion shop, left",
             "description": "Requires mushroom",
             "type": "mmshop",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Potion shop, other items",
             "count": 2,
             "type": "mmshop",
-            "tags": []
-        },        
+            "tags": [
+                "mm"
+            ]
+        },
         {
             "title": "Owl Statue",
             "type": "mmstatue",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

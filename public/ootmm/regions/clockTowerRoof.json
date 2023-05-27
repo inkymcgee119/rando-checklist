@@ -5,12 +5,16 @@
         {
             "title": "Skull kid",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Skull kid song",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

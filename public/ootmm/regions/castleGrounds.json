@@ -7,6 +7,15 @@
             "title": "Talk to Malon",
             "type": "item",
             "tags": [
+                "oot",
+                "child"
+            ]
+        },
+        {
+            "title": "Use weird egg (if enabled)",
+            "type": "item",
+            "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -14,6 +23,7 @@
             "title": "Great fairy",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -21,6 +31,7 @@
             "title": "Great fairy",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
@@ -28,6 +39,7 @@
             "title": "Zelda's lullaby",
             "type": "song",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -35,6 +47,7 @@
             "title": "In tree near entrance",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -43,6 +56,7 @@
             "description": "Inside the gates, near the tree in the corner",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "grotto"
             ]
@@ -51,6 +65,7 @@
             "title": "On the side of pillar",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult"
             ]
         }

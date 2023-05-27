@@ -6,33 +6,45 @@
             "title": "Evan's song",
             "description": "► ► ▼ A A ▼ ► A ◄ ◄ ► ▼ ▼ ► ◄ ▼",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Lulu's room ledge",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Zora hall stage lights",
             "type": "mundane",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Zora shop",
             "count": 3,
             "type": "mmshop",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Ocean scrub trade",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Ocean scrub purchase",
             "type": "mmmerchant",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

@@ -6,12 +6,15 @@
         {
             "title": "Wolfos grotto",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Song from Saria",
             "type": "song",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -19,6 +22,7 @@
             "title": "Song from Sheik",
             "type": "song",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
@@ -26,6 +30,7 @@
             "title": "On the wall above the maze",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult",
                 "night"
             ]
@@ -34,6 +39,7 @@
             "title": "Song of storms, in corner",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "grotto"
             ],
             "count": 2

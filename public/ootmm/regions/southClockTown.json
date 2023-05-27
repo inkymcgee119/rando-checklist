@@ -5,40 +5,53 @@
         {
             "title": "Song of healing",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Clock tower entrance",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Scrub trade",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Postbox",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Final day chest",
             "type": "item",
             "tags": [
+                "mm",
                 "day3"
             ]
         },
         {
             "title": "Owl Statue",
             "type": "mmstatue",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Straw roof chest",
             "description": "Jump slash from underneath to get on top",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

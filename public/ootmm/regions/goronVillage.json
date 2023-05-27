@@ -5,48 +5,66 @@
         {
             "title": "Baby goron",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Ledge above scrub",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Lens of truth chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Lens cave, invisible chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Lens cave, rock chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Mountain scrub trade",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Mountain scrub purchase",
             "type": "shop",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Powder keg challenge",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Goron shop",
             "count": 3,
             "type": "mmshop",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

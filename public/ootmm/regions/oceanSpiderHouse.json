@@ -5,145 +5,201 @@
         {
             "title": "Entrance, slope left",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Entrance, slope right",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Entrance, ceiling webs",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Stairs room, behind skull",
             "count": 2,
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Stairs room, ceiling edge",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Stairs room, ceiling plank",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Stairs room, pot",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Stairs room, lower pot",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Stairs room, upper pot",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Stairs room, webbed hole",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Stairs room, webbed pot",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Colored masks, behind picture",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Colored masks, ceiling edge",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Colored masks, chandelier",
             "count": 3,
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Colored masks, pot",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Library, behind bookcase",
             "count": 2,
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Library, behind picture",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Library, ceiling edge",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Library, cabinet hole",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Library, picture hole",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Library, on bookshelf",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Storage room, behind boat",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Storage room, behind crate",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Storage room, web",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Storage room, crate",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Storage room, pot",
             "type": "mmgs",
-            "tags": []
-        },        
+            "tags": [
+                "mm"
+            ]
+        },
         {
             "title": "Colored skulls chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Day 1 reward",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

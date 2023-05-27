@@ -6,6 +6,7 @@
             "title": "Slingshot minigame",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -13,6 +14,7 @@
             "title": "Save Richard the dog",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -20,6 +22,7 @@
             "title": "Bombchu bowling",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ],
             "count": 2
@@ -28,6 +31,7 @@
             "title": "Treasure chest minigame",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -35,6 +39,7 @@
             "title": "Big poes",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
@@ -42,23 +47,30 @@
             "title": "Pot room, back crate",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child"
             ]
         },
         {
             "title": "Shop, bazaar",
             "type": "ootshop",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Shop, potion",
             "type": "ootshop",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Shop, bombchu",
             "type": "ootshop",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         }
     ]
 }

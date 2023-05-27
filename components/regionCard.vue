@@ -44,7 +44,7 @@
                 <!-- tags and fake checkbox -->
                 <div class="px-2 justify-self-end whitespace-nowrap">
                     <span v-for="tag in loc.tags">
-                        <Icon v-if="appState.selectedGame.options.tags[tag].icon" :name="appState.selectedGame.options.tags[tag].icon"></Icon>
+                        <Icon v-if="appState.selectedGame.options.tags[tag].icon && !appState.selectedGame.options.tags[tag].hideRowIcon" :name="appState.selectedGame.options.tags[tag].icon"></Icon>
                     </span>
                     <span>
                         <Icon :name="loc.isChecked ? 'fa-regular:check-square' : 'fa-regular:square'"

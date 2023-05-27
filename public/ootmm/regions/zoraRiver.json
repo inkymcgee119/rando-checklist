@@ -7,23 +7,29 @@
             "title": "Open grotto",
             "type": "item",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
         {
             "title": "Lower river heart piece",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Upper river heart piece",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Frogs, song of storms",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -31,6 +37,7 @@
             "title": "Frogs, minigame",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -38,6 +45,7 @@
             "title": "Bean salesman",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -45,6 +53,7 @@
             "title": "Tree near entrance",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -52,6 +61,7 @@
             "title": "Upper river, on the ladder",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "night"
             ]
@@ -60,6 +70,7 @@
             "title": "On wall near the open grotto",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult",
                 "night"
             ]
@@ -68,6 +79,7 @@
             "title": "Upper river, high on the wall",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult",
                 "night"
             ]
@@ -76,6 +88,7 @@
             "title": "Song of storms, rock circle",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "grotto"
             ],
             "count": 2

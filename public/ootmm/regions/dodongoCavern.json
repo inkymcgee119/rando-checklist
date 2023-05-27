@@ -7,6 +7,7 @@
             "title": "Lobby, left side bombable wall",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -14,6 +15,7 @@
             "title": "Lobby, left side",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -22,6 +24,7 @@
             "description": "This can also be gotten by dragging a statue all way from the other end of the hallway",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -29,6 +32,7 @@
             "title": "Lower right, bombable wall",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -36,6 +40,7 @@
             "title": "Lower right, after lizafos",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -43,6 +48,7 @@
             "title": "Lower left, bombable wall",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -51,6 +57,7 @@
             "description": "You can reach this by activating the elevator shortcut and re-entering the dungeon to reset the stairs",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -58,6 +65,7 @@
             "title": "Left side, on vines",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -65,6 +73,7 @@
             "title": "Upper right, bomb flower platform",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -72,6 +81,7 @@
             "title": "Upper right, bombable wall",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "vanilla"
             ],
             "count": 2
@@ -80,6 +90,7 @@
             "title": "Upper right, bomb bag chest",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -87,6 +98,7 @@
             "title": "Upper lobby, across the bridge",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -94,6 +106,7 @@
             "title": "Inside the dodongo face, back room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -101,6 +114,7 @@
             "title": "Room before King Dodongo",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -108,6 +122,7 @@
             "title": "King Dodongo",
             "type": "boss",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -115,6 +130,7 @@
             "title": "Lobby, right side bombable wall",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -122,6 +138,7 @@
             "title": "Lobby, left side",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "mq"
             ],
             "count": 2
@@ -130,6 +147,7 @@
             "title": "Lower right, before lizafos",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -137,6 +155,7 @@
             "title": "Lower right, poe side room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -144,6 +163,7 @@
             "title": "Lower right path, after poe room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -151,6 +171,7 @@
             "title": "Lower left side, song of time room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -158,6 +179,7 @@
             "title": "Left side, above stairs",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -165,6 +187,7 @@
             "title": "Upper left side, dodongo room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -172,6 +195,7 @@
             "title": "Upper right side, barred room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -179,6 +203,7 @@
             "title": "Upper right side, barred room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -186,6 +211,7 @@
             "title": "Upper right side, bomb bag room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -193,6 +219,7 @@
             "title": "Upper right side, lizafos fight",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -200,6 +227,7 @@
             "title": "Armos army, top of maze",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -207,6 +235,7 @@
             "title": "Poe room in the rear",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -214,6 +243,7 @@
             "title": "Room before King Dodongo",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -221,6 +251,7 @@
             "title": "King Dodongo",
             "type": "boss",
             "tags": [
+                "oot",
                 "mq"
             ]
         }

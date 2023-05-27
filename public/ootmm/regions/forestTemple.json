@@ -7,6 +7,7 @@
             "title": "Entrance area, up in the tree",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -14,6 +15,7 @@
             "title": "Entrance area, on the vines",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -21,6 +23,7 @@
             "title": "Center room, wall next to stairs",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -28,6 +31,7 @@
             "title": "Room straight back, staflos fight",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -35,6 +39,7 @@
             "title": "Courtyard, room up the vines",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -42,6 +47,7 @@
             "title": "Courtyard, chest on grassy hill",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -49,6 +55,7 @@
             "title": "Courtyard, on the grassy hill",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -56,13 +63,15 @@
             "title": "Courtyard, in the well",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
-        },        
+        },
         {
             "title": "Upper courtyard, side room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -70,6 +79,7 @@
             "title": "Upper courtyard, high on wall",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -77,13 +87,15 @@
             "title": "Eye switch near block puzzle",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
-        },        
+        },
         {
             "title": "Boss key chest",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -91,6 +103,7 @@
             "title": "Red poe (Joelle)",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -98,6 +111,7 @@
             "title": "Bow chest",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -105,6 +119,7 @@
             "title": "Blue poe (Beth)",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -112,6 +127,7 @@
             "title": "Falling ceiling room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -119,6 +135,7 @@
             "title": "Spinning room in the basement",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -126,14 +143,15 @@
             "title": "Spinning room in the basement",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
-
         {
             "title": "Phantom Ganon",
             "type": "boss",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -141,6 +159,7 @@
             "title": "Entrance area, up in the tree",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -148,6 +167,7 @@
             "title": "Entrance hallway, upper left corner",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -155,6 +175,7 @@
             "title": "Room straight back, wolfos fight",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -162,6 +183,7 @@
             "title": "Courtyard, upper balcony",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -169,6 +191,7 @@
             "title": "Courtyard, chest on grassy hill",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -176,6 +199,7 @@
             "title": "Courtyard, right side, above door",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -183,6 +207,7 @@
             "title": "Courtyard, in the well",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -190,6 +215,7 @@
             "title": "Courtyard, in the well",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -197,6 +223,7 @@
             "title": "Courtyard, above the well",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -204,6 +231,7 @@
             "title": "Upper Courtyard, side room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -211,6 +239,7 @@
             "title": "Blocking push room, on floor level",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -218,6 +247,7 @@
             "title": "Boss key chest",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -225,6 +255,7 @@
             "title": "Red poe (Joelle)",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -232,6 +263,7 @@
             "title": "Bow chest",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -239,6 +271,7 @@
             "title": "Blue poe (Beth)",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -246,6 +279,7 @@
             "title": "Falling ceiling room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -253,6 +287,7 @@
             "title": "Spinning room in the basement",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -260,6 +295,7 @@
             "title": "Phantom Ganon",
             "type": "boss",
             "tags": [
+                "oot",
                 "mq"
             ]
         }

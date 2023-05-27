@@ -2,125 +2,167 @@
     "name": "Snowhead Temple",
     "bgColor": "#a1a1aa",
     "locations": [
-
-        
         {
             "title": "Bridge room, chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Bridge room, ledge bubble",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Bridge room, pillar bubble",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
-
-        
         {
             "title": "Elevator room, chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Elevator room, fairy",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Elevator room, ledge",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Double block room, chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Double block",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Wolfos/ice chunk, chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Wolfos/ice chunk, crate",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Wolfos/ice chunk, button",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Icicle room, chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Icicle room, wall",
             "type": "mmfairies",
-            "tags": []
-        },        
+            "tags": [
+                "mm"
+            ]
+        },
         {
             "title": "Ceiling bubble",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Fire arrow chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Snow room, fake wall bubble",
             "type": "mmfairies",
-            "tags": []
-        },        
+            "tags": [
+                "mm"
+            ]
+        },
         {
             "title": "Dinolfos",
             "count": 2,
             "type": "mmfairies",
-            "tags": []
-        },        
+            "tags": [
+                "mm"
+            ]
+        },
         {
             "title": "Basement, lava button",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Pillar freezards",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Main room, wall",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Boss key chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Boss heart container",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Boss remains",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

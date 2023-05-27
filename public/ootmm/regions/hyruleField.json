@@ -7,6 +7,7 @@
             "title": "Open grotto near lake hylia",
             "type": "item",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
@@ -15,6 +16,7 @@
             "description": "Grotto inside the fences by lake hylia",
             "type": "item",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
@@ -22,6 +24,7 @@
             "title": "Southeast grotto, under rock",
             "type": "item",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
@@ -30,6 +33,7 @@
             "description": "Northwest of lon lon by tree",
             "type": "item",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
@@ -37,6 +41,7 @@
             "title": "Grotto west of castle town",
             "type": "item",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
@@ -44,6 +49,7 @@
             "title": "Ocarina of time",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -51,6 +57,7 @@
             "title": "Ocarina of time, song",
             "type": "song",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -58,6 +65,7 @@
             "title": "Grotto near kakariko, near tree",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
@@ -65,6 +73,7 @@
             "title": "Grotto near gerudo valley",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
@@ -72,6 +81,7 @@
             "title": "Grotto near gerudo valley",
             "type": "ootcow",
             "tags": [
+                "oot",
                 "grotto"
             ]
         }

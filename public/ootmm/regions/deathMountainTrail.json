@@ -6,56 +6,69 @@
         {
             "title": "Bombable wall",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Song of storms grotto",
             "description": "Rock circle outside goron city",
             "type": "item",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
         {
             "title": "Great fairy at the summit",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Above dodongo's cavern",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
-            "title": "Biggoron, prescription",
+            "title": "Trade quest, turn in broken sword",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
         {
-            "title": "Biggoron, claim check",
+            "title": "Trade quest, turn in eye drops",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
         {
-            "title": "Biggoron, sword",
+            "title": "Trade quest, turn in claim check",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
         {
             "title": "Bombable wall, near entrance",
             "type": "ootgs",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Bean patch, dodongo's cavern",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "bean"
             ]
@@ -64,6 +77,7 @@
             "title": "Hammer rock, above DC",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult",
                 "night"
             ]
@@ -72,6 +86,7 @@
             "title": "Hammer rock, path to summit",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult",
                 "night"
             ]
@@ -80,6 +95,7 @@
             "title": "Grotto heading towards summit",
             "type": "ootcow",
             "tags": [
+                "oot",
                 "grotto"
             ]
         }

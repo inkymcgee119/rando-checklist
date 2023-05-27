@@ -5,18 +5,23 @@
         {
             "title": "Kafei",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Curiosity shop man",
             "count": 2,
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Guru Guru",
             "type": "item",
             "tags": [
+                "mm",
                 "night"
             ]
         },
@@ -24,6 +29,7 @@
             "title": "Fairy over water",
             "type": "mmfairies",
             "tags": [
+                "mm",
                 "day1",
                 "day2"
             ]

@@ -7,6 +7,7 @@
             "title": "Chest on the roof",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
@@ -14,6 +15,7 @@
             "title": "Horseback archery",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ],
             "count": 2
@@ -22,6 +24,7 @@
             "title": "Top of the fortress",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult",
                 "night"
             ]
@@ -30,8 +33,16 @@
             "title": "Target on horse archery range",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult",
                 "night"
+            ]
+        },
+        {
+            "title": "Gerudo Card (if enabled)",
+            "type": "item",
+            "tags": [
+                "oot"
             ]
         }
     ]

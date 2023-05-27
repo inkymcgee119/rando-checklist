@@ -6,6 +6,7 @@
             "title": "Anju and Kafei",
             "type": "item",
             "tags": [
+                "mm",
                 "day3",
                 "night"
             ]
@@ -13,27 +14,36 @@
         {
             "title": "Grandma, short story",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Grandma, long story",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Inn staff room chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Inn guest room chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Inn reservation",
             "type": "item",
             "tags": [
+                "mm",
                 "day1"
             ]
         },
@@ -41,6 +51,7 @@
             "title": "Midnight meeting",
             "type": "item",
             "tags": [
+                "mm",
                 "day1",
                 "night"
             ]
@@ -49,6 +60,7 @@
             "title": "Toilet hand",
             "type": "item",
             "tags": [
+                "mm",
                 "night"
             ]
         }

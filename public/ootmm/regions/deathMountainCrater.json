@@ -7,30 +7,37 @@
             "title": "Upper grotto",
             "type": "item",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
         {
             "title": "Wall heart piece",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Great fairy",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
         {
             "title": "Heart piece on top of the volcano",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Sheik's song",
             "type": "song",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
@@ -38,6 +45,7 @@
             "title": "Crate near exit at the top of the crater",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -45,6 +53,7 @@
             "title": "Bean patch",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "bean"
             ]
@@ -53,6 +62,7 @@
             "title": "Hammer rock near bridge",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "grotto"
             ],
             "count": 3
@@ -61,6 +71,7 @@
             "title": "Down ladder from upper DMC",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "child"
             ]
         }

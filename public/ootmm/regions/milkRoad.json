@@ -5,23 +5,31 @@
         {
             "title": "Gorman Bros, Race",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Gorman Bros, purchase milk",
             "type": "mmmerchant",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Tingle maps",
             "count": 2,
             "type": "item",
-            "tags": []
-        },        
+            "tags": [
+                "mm"
+            ]
+        },
         {
             "title": "Owl Statue",
             "type": "mmstatue",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

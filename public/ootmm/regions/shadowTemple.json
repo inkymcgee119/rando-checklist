@@ -7,6 +7,7 @@
             "title": "Whispering walls, redead room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -14,6 +15,7 @@
             "title": "Whispering walls, deadhand",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -21,6 +23,7 @@
             "title": "Gibdos room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -28,6 +31,7 @@
             "title": "Spinning blade room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -35,6 +39,7 @@
             "title": "Invisible blade room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ],
             "count": 2
@@ -43,6 +48,7 @@
             "title": "Invisible blade room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -50,6 +56,7 @@
             "title": "Falling spike room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ],
             "count": 3
@@ -58,6 +65,7 @@
             "title": "Falling spike room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -65,6 +73,7 @@
             "title": "Invisible floor spikes room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -72,6 +81,7 @@
             "title": "Skull room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -79,6 +89,7 @@
             "title": "Skull room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -86,6 +97,7 @@
             "title": "Fan area, end room invisible chest",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -93,6 +105,7 @@
             "title": "Fan area, gibdos room chest",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -100,6 +113,7 @@
             "title": "Fan area, gibdos room debris",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -107,6 +121,7 @@
             "title": "Before boat, scarecrow song",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -114,6 +129,7 @@
             "title": "Invisible maze, invisible floormaster",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -121,6 +137,7 @@
             "title": "Invisible maze, spike trap",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ],
             "count": 2
@@ -129,6 +146,7 @@
             "title": "Triple skull room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -136,6 +154,7 @@
             "title": "Bongo Bongo",
             "type": "boss",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -143,6 +162,7 @@
             "title": "Whispering walls, redead room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -150,6 +170,7 @@
             "title": "Whispering walls, deadhand",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -157,6 +178,7 @@
             "title": "Gibdos room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -164,6 +186,7 @@
             "title": "Spinning blade room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -171,6 +194,7 @@
             "title": "Spinning blade room, invisible chest",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -178,6 +202,7 @@
             "title": "Invisible blade room, visible chest",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -185,6 +210,7 @@
             "title": "Invisible blade room, invisible chest",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -192,6 +218,7 @@
             "title": "Silver rupees around the beamos",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -199,6 +226,7 @@
             "title": "Falling spike room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ],
             "count": 3
@@ -207,6 +235,7 @@
             "title": "Falling spike room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -214,6 +243,7 @@
             "title": "Invisible floor spikes room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -221,6 +251,7 @@
             "title": "Stalfos room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -228,6 +259,7 @@
             "title": "Fan area, end room invisible chest",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -235,6 +267,7 @@
             "title": "Fan area, end room",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -242,6 +275,7 @@
             "title": "Fan area, gibdos room, kill enemies",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -249,6 +283,7 @@
             "title": "Fan area, gibdos room, debris",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -256,6 +291,7 @@
             "title": "Fan area, gibdos room, debris",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -263,6 +299,7 @@
             "title": "After boat, in the pit",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -270,6 +307,7 @@
             "title": "Invisible maze, deadhand",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -277,6 +315,7 @@
             "title": "Invisible maze, triple skull",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -284,6 +323,7 @@
             "title": "Invisible maze, spike trap",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ],
             "count": 2
@@ -292,6 +332,7 @@
             "title": "Room before Bongo Bongo",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -299,6 +340,7 @@
             "title": "Bongo Bongo",
             "type": "boss",
             "tags": [
+                "oot",
                 "mq"
             ]
         }

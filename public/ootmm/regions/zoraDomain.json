@@ -7,6 +7,7 @@
             "title": "Diving Minigame",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -14,6 +15,7 @@
             "title": "Light torches",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -21,13 +23,15 @@
             "title": "Melt king zora",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
         {
-            "title": "Eyeball frog",
+            "title": "Trade quest, turn in prescription",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
@@ -35,13 +39,16 @@
             "title": "Top of the waterfall",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
         {
             "title": "Shop",
             "type": "ootshop",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         }
     ]
 }

@@ -5,112 +5,156 @@
         {
             "title": "Entrance, fairy",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Entrance, platform",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Main room, deku baba",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Main room, pot in corner",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Main Room, bubble",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Main Room, switch",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Right side, turtle room",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Right side, bottom ledge chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Right side, frog room",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Right side, hive",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Hero's bow chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Left side, dragonfly room",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Left side, bridge room hive",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Left side, dark room",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Left side, under bridge",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Left side, skulltula",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Before boss, pillar bubble",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Before boss, upper left bubble",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Before boss, upper right bubble",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Before boss, lower right bubble",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Boss heart container",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Boss remains",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

@@ -317,28 +317,6 @@
             "count": 2
         },
         {
-            "title": "Spirit trial, visible chest before gate",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Spirit trial, invisible chest after gate",
-            "type": "item",
-            "tags": [
-                "mq"
-            ]
-        },
-        {
-            "title": "Spirit trial, sun switchs",
-            "type": "item",
-            "tags": [
-                "mq"
-            ],
-            "count": 4
-        },
-        {
             "title": "Spirit trial",
             "type": "pot",
             "tags": [

@@ -6,45 +6,59 @@
         {
             "title": "Flower grave",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Composer grave, torches",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Redead grave (play sun's song)",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Dampe digging game",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
         {
             "title": "Dampe race",
             "type": "item",
-            "tags": [],
+            "tags": [
+                "oot"
+            ],
             "count": 2
         },
         {
             "title": "Crate hp, above bean patch",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Composer grave, song",
             "type": "song",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Back right wall",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "night"
             ]
@@ -53,6 +67,7 @@
             "title": "Bean patch",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "bean"
             ]

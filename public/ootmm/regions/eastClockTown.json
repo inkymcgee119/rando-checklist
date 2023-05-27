@@ -5,71 +5,95 @@
         {
             "title": "Bombers' hideout chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "East clock town chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Gorman",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Honey and Darling, any day",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Honey and Darling, three days",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Madame Aroma, in office",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Madame Aroma, in bar",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Mayor",
             "type": "item",
             "tags": [
+                "mm",
                 "day1"
             ]
         },
         {
             "title": "Postman's freedom reward",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Town archery",
             "count": 2,
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Treasure chest game, goron",
             "type": "item",
-            "tags": []
-        },        
+            "tags": [
+                "mm"
+            ]
+        },
         {
             "title": "Milk bar, purchase milk",
             "type": "mmmerchant",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Milk bar, purchase chateau",
             "type": "mmmerchant",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
-        
     ]
 }

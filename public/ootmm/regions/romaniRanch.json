@@ -6,6 +6,7 @@
             "title": "Romani's game",
             "type": "item",
             "tags": [
+                "mm",
                 "day1"
             ]
         },
@@ -13,6 +14,7 @@
             "title": "Aliens defense",
             "type": "item",
             "tags": [
+                "mm",
                 "day1",
                 "night"
             ]
@@ -21,6 +23,7 @@
             "title": "Cremia defense",
             "type": "item",
             "tags": [
+                "mm",
                 "day2",
                 "night"
             ]
@@ -28,23 +31,31 @@
         {
             "title": "Dog race",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Dog race, roof chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Grog",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Ranch",
             "count": 3,
             "type": "mmcow",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

@@ -5,17 +5,22 @@
         {
             "title": "Captain Keeta's chest",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Rock circle grotto",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Night 1 grave bats",
             "type": "item",
             "tags": [
+                "mm",
                 "day1",
                 "night"
             ]
@@ -24,6 +29,7 @@
             "title": "Night 1 Grave Tablet",
             "type": "item",
             "tags": [
+                "mm",
                 "day1",
                 "night"
             ]
@@ -32,6 +38,7 @@
             "title": "Night 2 iron knuckle chest",
             "type": "item",
             "tags": [
+                "mm",
                 "day2",
                 "night"
             ]
@@ -40,6 +47,7 @@
             "title": "Dampe digging",
             "type": "item",
             "tags": [
+                "mm",
                 "day3",
                 "night"
             ]

@@ -54,6 +54,7 @@
 <script setup>
 import { appWindow } from '@tauri-apps/api/window';
 
+
 const appState = useAppState();
 const route = useRoute();
 const selectedGame = ref();

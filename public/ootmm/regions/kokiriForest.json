@@ -6,13 +6,16 @@
         {
             "title": "Mido's House",
             "type": "item",
-            "tags": [],
+            "tags": [
+                "oot"
+            ],
             "count": 4
         },
         {
             "title": "Kokiri sword chest",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -20,6 +23,7 @@
             "title": "Song of storms grotto",
             "type": "item",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
@@ -27,6 +31,7 @@
             "title": "Back of Know-it-all Bros house",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "night"
             ]
@@ -35,6 +40,7 @@
             "title": "Bean patch by shop",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "bean"
             ]
@@ -43,6 +49,7 @@
             "title": "On top of twins' house",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult",
                 "night"
             ]
@@ -51,12 +58,16 @@
             "title": "Link's cow",
             "description": "Win obstacle course minigame at lon lon ranch",
             "type": "ootcow",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Shop",
             "type": "ootshop",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         }
     ]
 }

@@ -5,128 +5,176 @@
         {
             "title": "Main room, pot",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Main room, lower soft soils",
             "count": 2,
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Main room, near ceiling",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Main room, pillar",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Main room, upper pillar",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Main room, upper soft soil",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Main room, Water",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Gold room, hive",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Gold room, near ceiling",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Gold room, pillar",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Gold room, wall",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Tree room, grass",
             "count": 2,
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Tree room, hive",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Tree room, tree",
             "count": 3,
             "type": "mmgs",
-            "tags": []
-        },        
+            "tags": [
+                "mm"
+            ]
+        },
         {
             "title": "Monument room, crates",
             "count": 2,
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Monument room, lower wall",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Monument room, on monument",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Monument room, torch",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Jar room, behind vines",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Jar room, hives",
             "count": 2,
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Jar room, roll into jars",
             "count": 2,
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Jar room, pot",
             "type": "mmgs",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Jar room, on wall",
             "type": "mmgs",
-            "tags": []
-        },        
+            "tags": [
+                "mm"
+            ]
+        },
         {
             "title": "Reward",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

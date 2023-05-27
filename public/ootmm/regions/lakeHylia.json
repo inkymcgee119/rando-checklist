@@ -6,12 +6,15 @@
         {
             "title": "Lab diving (gold scale)",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Underwater bottle",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -19,6 +22,7 @@
             "title": "Fishing",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -26,18 +30,22 @@
             "title": "Fishing",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
         {
             "title": "Rooftop heart piece",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Shoot the sun",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
@@ -45,6 +53,7 @@
             "title": "Bean patch",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "bean"
             ]
@@ -53,6 +62,7 @@
             "title": "Back of the lab",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "night"
             ]
@@ -61,6 +71,7 @@
             "title": "On the little island",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "night"
             ]
@@ -69,6 +80,7 @@
             "title": "Top of the tree",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult",
                 "night"
             ]
@@ -76,12 +88,15 @@
         {
             "title": "Crate in the lab",
             "type": "ootgs",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
-            "title": "Eye drops",
+            "title": "Trade quest, turn in eyeball frog",
             "type": "item",
             "tags": [
+                "oot",
                 "adult"
             ]
         },
@@ -89,6 +104,7 @@
             "title": "Under gravestone",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "grotto"
             ],
             "count": 3

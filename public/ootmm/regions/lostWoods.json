@@ -6,12 +6,15 @@
         {
             "title": "Lost woods bridge",
             "type": "item",
-            "tags": []
+            "tags": [
+                "oot"
+            ]
         },
         {
             "title": "Deku Salesman, by bridge",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -19,6 +22,7 @@
             "title": "Deku Salesman, rock near exit",
             "type": "item",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
@@ -26,6 +30,7 @@
             "title": "Grotto, rock by Goron City warp",
             "type": "item",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
@@ -33,6 +38,7 @@
             "title": "Target in the woods",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -40,6 +46,7 @@
             "title": "Ocarina memory game",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -47,6 +54,7 @@
             "title": "Skull kid (Saria's song)",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -54,6 +62,7 @@
             "title": "Deku Theater, skull mask",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
             ]
         },
@@ -61,23 +70,31 @@
             "title": "Deku Theater, mask of truth",
             "type": "item",
             "tags": [
+                "oot",
                 "child"
+            ]
+        },        
+        {
+            "title": "Trade quest, turn in Cojiro",
+            "type": "item",
+            "tags": [
+                "oot",
+                "adult"
             ]
         },
         {
-            "title": "Odd Mushroom",
+            "title": "Trade quest, turn in odd potion",
             "type": "item",
-            "tags": ["adult"]
-        },
-        {
-            "title": "Poacher's Saw",
-            "type": "item",
-            "tags": ["adult"]
+            "tags": [
+                "oot",
+                "adult"
+            ]
         },
         {
             "title": "Bean patch by bridge",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "bean"
             ]
@@ -86,6 +103,7 @@
             "title": "Bean patch by deku theater",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "child",
                 "bean"
             ]
@@ -94,6 +112,7 @@
             "title": "Above deku theater bean patch",
             "type": "ootgs",
             "tags": [
+                "oot",
                 "adult",
                 "night"
             ]
@@ -102,6 +121,7 @@
             "title": "Deku Salesman, rock near exit",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "grotto"
             ]
         },
@@ -109,6 +129,7 @@
             "title": "Near deku theater",
             "type": "ootscrub",
             "tags": [
+                "oot",
                 "child"
             ],
             "count": 2

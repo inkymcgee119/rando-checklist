@@ -5,22 +5,29 @@
         {
             "title": "Bank reward #1",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Bank reward #2",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Bank reward #3",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Curiosity shop, all-night mask",
             "type": "mmshop",
             "tags": [
+                "mm",
                 "day3",
                 "night"
             ]
@@ -28,35 +35,47 @@
         {
             "title": "Postman's game",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Rosa sisters",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Swordsman's school",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Bomb shop",
             "count": 3,
             "type": "mmshop",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Big bomb bag purchase",
             "description": "Save old lady on night 1 or buy from curiosity shop night 3",
             "type": "mmshop",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Trading post",
             "count": 8,
             "type": "mmshop",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

@@ -5,28 +5,37 @@
         {
             "title": "Bombers' hide and seek",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Tingle maps",
             "count": 2,
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Keaton quiz",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "In the tree",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Save old lady",
             "type": "item",
             "tags": [
+                "mm",
                 "day1",
                 "night"
             ]
@@ -34,22 +43,30 @@
         {
             "title": "Deku playground, any day",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Deku playground, three days",
             "type": "item",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Great fairy, human",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         },
         {
             "title": "Great fairy, non-human",
             "type": "mmfairies",
-            "tags": []
+            "tags": [
+                "mm"
+            ]
         }
     ]
 }

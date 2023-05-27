@@ -8,6 +8,7 @@
       "title": "Lobby",
       "type": "item",
       "tags": [
+        "oot",
         "vanilla"
       ]
     },
@@ -15,6 +16,7 @@
       "title": "First floor Room",
       "type": "item",
       "tags": [
+        "oot",
         "vanilla"
       ],
       "count": 2
@@ -23,6 +25,7 @@
       "title": "Second floor Room",
       "type": "item",
       "tags": [
+        "oot",
         "vanilla"
       ],
       "count": 2
@@ -31,6 +34,7 @@
       "title": "Second floor Room",
       "type": "gs",
       "tags": [
+        "oot",
         "vanilla"
       ]
     },
@@ -38,6 +42,7 @@
       "title": "Walk the plank",
       "type": "rupee",
       "tags": [
+        "oot",
         "vanilla"
       ]
     },
@@ -45,6 +50,7 @@
       "title": "Leap down",
       "type": "rupee",
       "tags": [
+        "oot",
         "vanilla"
       ]
     },
@@ -52,6 +58,7 @@
       "title": "Basement",
       "type": "item",
       "tags": [
+        "oot",
         "vanilla"
       ]
     },
@@ -59,6 +66,7 @@
       "title": "Basement on vines",
       "type": "gs",
       "tags": [
+        "oot",
         "vanilla"
       ]
     },
@@ -66,6 +74,7 @@
       "title": "Basement on the bars",
       "type": "ootgs",
       "tags": [
+        "oot",
         "vanilla"
       ]
     },
@@ -73,6 +82,7 @@
       "title": "Basement, back room",
       "type": "ootgs",
       "tags": [
+        "oot",
         "vanilla"
       ]
     },
@@ -80,6 +90,7 @@
       "title": "Queen Gohma",
       "type": "boss",
       "tags": [
+        "oot",
         "vanilla"
       ]
     },
@@ -87,6 +98,7 @@
       "title": "Lobby",
       "type": "item",
       "tags": [
+        "oot",
         "mq"
       ]
     },
@@ -94,6 +106,7 @@
       "title": "Under crate in lobby",
       "type": "ootgs",
       "tags": [
+        "oot",
         "mq"
       ]
     },
@@ -101,6 +114,7 @@
       "title": "First floor Room",
       "type": "item",
       "tags": [
+        "oot",
         "mq"
       ]
     },
@@ -109,6 +123,7 @@
       "description": "Use song of time",
       "type": "ootgs",
       "tags": [
+        "oot",
         "mq"
       ]
     },
@@ -116,6 +131,7 @@
       "title": "Second floor Room",
       "type": "item",
       "tags": [
+        "oot",
         "mq"
       ],
       "count": 2
@@ -124,6 +140,7 @@
       "title": "Basement, switch",
       "type": "item",
       "tags": [
+        "oot",
         "mq"
       ]
     },
@@ -131,6 +148,7 @@
       "title": "Water platform room chest",
       "type": "item",
       "tags": [
+        "oot",
         "mq"
       ]
     },
@@ -138,6 +156,7 @@
       "title": "Water platform room, song of time",
       "type": "item",
       "tags": [
+        "oot",
         "mq"
       ]
     },
@@ -146,6 +165,7 @@
       "description": "Use song of time",
       "type": "ootgs",
       "tags": [
+        "oot",
         "mq"
       ]
     },
@@ -153,6 +173,7 @@
       "title": "Basement, back room",
       "type": "ootgs",
       "tags": [
+        "oot",
         "mq"
       ]
     },
@@ -160,6 +181,7 @@
       "title": "Scrub near gohma's hole",
       "type": "ootscrub",
       "tags": [
+        "oot",
         "mq"
       ]
     },
@@ -167,6 +189,7 @@
       "title": "Queen Gohma",
       "type": "boss",
       "tags": [
+        "oot",
         "mq"
       ]
     }

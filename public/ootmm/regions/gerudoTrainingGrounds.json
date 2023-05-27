@@ -7,6 +7,7 @@
             "title": "Lobby",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ],
             "count": 2
@@ -15,6 +16,7 @@
             "title": "Stafos room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -22,6 +24,7 @@
             "title": "Lizafos and beamos room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -29,6 +32,7 @@
             "title": "Lava room, freestanding key",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -36,6 +40,7 @@
             "title": "Lava room, toilet",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -43,6 +48,7 @@
             "title": "Hammer room, kill enemies",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -50,6 +56,7 @@
             "title": "Hammer room, hidden switch",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -57,6 +64,7 @@
             "title": "Spinning eye statue",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -64,6 +72,7 @@
             "title": "Spinning eye statue, side room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -71,6 +80,7 @@
             "title": "Wolfos room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -78,6 +88,7 @@
             "title": "Silver block like like room",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ],
             "count": 4
@@ -86,6 +97,7 @@
             "title": "Lock maze, right side",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ],
             "count": 2
@@ -94,6 +106,7 @@
             "title": "Lock maze, up through ceiling",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -101,6 +114,7 @@
             "title": "Lock maze, left side chest 1",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -108,6 +122,7 @@
             "title": "Lock maze, left side chest 2",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -115,6 +130,7 @@
             "title": "Lock maze, left side chest 3",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -122,6 +138,7 @@
             "title": "Lock maze, left side chest 4",
             "type": "item",
             "tags": [
+                "oot",
                 "vanilla"
             ]
         },
@@ -129,6 +146,7 @@
             "title": "Lobby",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ],
             "count": 2
@@ -137,6 +155,7 @@
             "title": "Iron knuckle room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -144,6 +163,7 @@
             "title": "Stafos room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -151,6 +171,7 @@
             "title": "Silver block room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -158,6 +179,7 @@
             "title": "Lizalfos and dodongos room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -165,6 +187,7 @@
             "title": "Lava room, toilet",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -172,6 +195,7 @@
             "title": "Spinning eye statue",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -179,6 +203,7 @@
             "title": "Fiery iron knuckles room",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ],
             "count": 2
@@ -187,6 +212,7 @@
             "title": "Lock maze, right side",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ],
             "count": 2
@@ -195,6 +221,7 @@
             "title": "Lock maze, left side",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ],
             "count": 3
@@ -203,6 +230,7 @@
             "title": "Lock maze, left side key",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         },
@@ -210,6 +238,7 @@
             "title": "Lock maze, switch chest",
             "type": "item",
             "tags": [
+                "oot",
                 "mq"
             ]
         }
