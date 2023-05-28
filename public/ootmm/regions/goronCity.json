@@ -76,6 +76,13 @@
             "count": 3
         },
         {
+            "title": "Medigoron",
+            "type": "item",
+            "tags": [
+                "oot"
+            ]
+        },
+        {
             "title": "Shop",
             "type": "ootshop",
             "tags": [
