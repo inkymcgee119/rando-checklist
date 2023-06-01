@@ -1,7 +1,7 @@
 {
     "name": "Stormhill",
     "bgColor": "#581c87",
-    "entrances": [
+    "items": [
         {
             "name": "Before Margit's arena",
             "type": "major",

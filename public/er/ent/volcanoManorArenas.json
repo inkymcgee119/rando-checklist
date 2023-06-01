@@ -2,7 +2,7 @@
     "name": "Volcano Manor Boss Arenas",
     "bgColor": "linear-gradient(90deg, #27272a, #be123c 60%)",
     "dropdownColor": "#be123c",
-    "entrances": [
+    "items": [
         {
             "name": "Abductor Virgins, front",
             "type": "major",

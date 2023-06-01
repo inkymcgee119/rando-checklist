@@ -2,9 +2,9 @@
     "name": "Death Mountain Crater",
     "bgColor": "#dc2626",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Upper grotto",
+            "name": "Upper grotto",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,14 +12,14 @@
             ]
         },
         {
-            "title": "Wall heart piece",
+            "name": "Wall heart piece",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Great fairy",
+            "name": "Great fairy",
             "type": "item",
             "tags": [
                 "oot",
@@ -27,14 +27,14 @@
             ]
         },
         {
-            "title": "Heart piece on top of the volcano",
+            "name": "Heart piece on top of the volcano",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Sheik's song",
+            "name": "Sheik's song",
             "type": "song",
             "tags": [
                 "oot",
@@ -42,7 +42,7 @@
             ]
         },
         {
-            "title": "Crate near exit at the top of the crater",
+            "name": "Crate near exit at the top of the crater",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -50,7 +50,7 @@
             ]
         },
         {
-            "title": "Bean patch",
+            "name": "Bean patch",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -59,7 +59,7 @@
             ]
         },
         {
-            "title": "Hammer rock near bridge",
+            "name": "Hammer rock near bridge",
             "type": "ootscrub",
             "tags": [
                 "oot",
@@ -68,7 +68,7 @@
             "count": 3
         },
         {
-            "title": "Down ladder from upper DMC",
+            "name": "Down ladder from upper DMC",
             "type": "ootscrub",
             "tags": [
                 "oot",

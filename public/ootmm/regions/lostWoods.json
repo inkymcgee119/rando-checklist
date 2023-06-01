@@ -2,16 +2,16 @@
     "name": "Lost Woods",
     "bgColor": "#3F6212",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Lost woods bridge",
+            "name": "Lost woods bridge",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Deku Salesman, by bridge",
+            "name": "Deku Salesman, by bridge",
             "type": "item",
             "tags": [
                 "oot",
@@ -19,7 +19,7 @@
             ]
         },
         {
-            "title": "Deku Salesman, rock near exit",
+            "name": "Deku Salesman, rock near exit",
             "type": "item",
             "tags": [
                 "oot",
@@ -27,7 +27,7 @@
             ]
         },
         {
-            "title": "Grotto, rock by Goron City warp",
+            "name": "Grotto, rock by Goron City warp",
             "type": "item",
             "tags": [
                 "oot",
@@ -35,7 +35,7 @@
             ]
         },
         {
-            "title": "Target in the woods",
+            "name": "Target in the woods",
             "type": "item",
             "tags": [
                 "oot",
@@ -43,7 +43,7 @@
             ]
         },
         {
-            "title": "Ocarina memory game",
+            "name": "Ocarina memory game",
             "type": "item",
             "tags": [
                 "oot",
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "title": "Skull kid (Saria's song)",
+            "name": "Skull kid (Saria's song)",
             "type": "item",
             "tags": [
                 "oot",
@@ -59,7 +59,7 @@
             ]
         },
         {
-            "title": "Deku Theater, skull mask",
+            "name": "Deku Theater, skull mask",
             "type": "item",
             "tags": [
                 "oot",
@@ -67,7 +67,7 @@
             ]
         },
         {
-            "title": "Deku Theater, mask of truth",
+            "name": "Deku Theater, mask of truth",
             "type": "item",
             "tags": [
                 "oot",
@@ -75,7 +75,7 @@
             ]
         },        
         {
-            "title": "Trade quest, turn in Cojiro",
+            "name": "Trade quest, turn in Cojiro",
             "type": "item",
             "tags": [
                 "oot",
@@ -83,7 +83,7 @@
             ]
         },
         {
-            "title": "Trade quest, turn in odd potion",
+            "name": "Trade quest, turn in odd potion",
             "type": "item",
             "tags": [
                 "oot",
@@ -91,7 +91,7 @@
             ]
         },
         {
-            "title": "Bean patch by bridge",
+            "name": "Bean patch by bridge",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "title": "Bean patch by deku theater",
+            "name": "Bean patch by deku theater",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -109,7 +109,7 @@
             ]
         },
         {
-            "title": "Above deku theater bean patch",
+            "name": "Above deku theater bean patch",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -118,7 +118,7 @@
             ]
         },
         {
-            "title": "Deku Salesman, rock near exit",
+            "name": "Deku Salesman, rock near exit",
             "type": "ootscrub",
             "tags": [
                 "oot",
@@ -126,7 +126,7 @@
             ]
         },
         {
-            "title": "Near deku theater",
+            "name": "Near deku theater",
             "type": "ootscrub",
             "tags": [
                 "oot",

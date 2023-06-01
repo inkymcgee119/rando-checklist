@@ -2,7 +2,7 @@
     "name": "Mohgwyn Boss Arenas",
     "bgColor": "linear-gradient(90deg, #27272a, #f472b6 60%)",
     "dropdownColor": "#f472b6",
-    "entrances": [
+    "items": [
         {
             "name": "Mohg, front",
             "type": "major",

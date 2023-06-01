@@ -2,29 +2,29 @@
     "name": "Kokiri Forest",
     "bgColor": "#84CC16",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Mido's House",
+            "name": "Mido's House",
             "type": "item",
             "tags": [],
             "count": 4
         },
         {
-            "title": "Kokiri sword chest",
+            "name": "Kokiri sword chest",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Song of storms grotto",
+            "name": "Song of storms grotto",
             "type": "item",
             "tags": [
                 "grotto"
             ]
         },
         {
-            "title": "Back of Know-it-all Bros house",
+            "name": "Back of Know-it-all Bros house",
             "type": "gs",
             "tags": [
                 "child",
@@ -32,7 +32,7 @@
             ]
         },
         {
-            "title": "Bean patch by shop",
+            "name": "Bean patch by shop",
             "type": "gs",
             "tags": [
                 "child",
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "title": "On top of twins' house",
+            "name": "On top of twins' house",
             "type": "gs",
             "tags": [
                 "adult",
@@ -48,25 +48,25 @@
             ]
         },
         {
-            "title": "Link's cow",
+            "name": "Link's cow",
             "description": "Win obstacle course minigame at lon lon ranch",
             "type": "cow",
             "tags": []
         },
         {
-            "title": "Shop",
+            "name": "Shop",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Behind mido's house",
+            "name": "Behind mido's house",
             "type": "rupee",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Boulder maze",
+            "name": "Boulder maze",
             "type": "rupee",
             "tags": [
                 "child"
@@ -74,14 +74,14 @@
             "count": 2
         },
         {
-            "title": "End of the skywalk",
+            "name": "End of the skywalk",
             "type": "rupee",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Top of saria's house",
+            "name": "Top of saria's house",
             "type": "rupee",
             "tags": [
                 "child"
@@ -89,7 +89,7 @@
             "count": 3
         },
         {
-            "title": "Grass near mido's house",
+            "name": "Grass near mido's house",
             "type": "rupee",
             "tags": [
                 "child"
@@ -97,7 +97,7 @@
             "count": 2
         },
         {
-            "title": "Grass near ramp",
+            "name": "Grass near ramp",
             "type": "rupee",
             "tags": [
                 "child"
@@ -105,7 +105,7 @@
             "count": 2
         },
         {
-            "title": "Nook above shop",
+            "name": "Nook above shop",
             "type": "rupee",
             "tags": [
                 "adult"
@@ -113,18 +113,18 @@
             "count": 7
         },
         {
-            "title": "Inside saria's house",
+            "name": "Inside saria's house",
             "type": "rupee",
             "tags": [],
             "count": 4
         },
         {
-            "title": "Shop, around corner",
+            "name": "Shop, around corner",
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Song of storms grotto",
+            "name": "Song of storms grotto",
             "type": "beehive",
             "tags": [
                 "grotto"
@@ -132,18 +132,18 @@
             "count": 2
         },
         {
-            "title": "Link's house",
+            "name": "Link's house",
             "type": "pot",
             "tags": []
         },
         {
-            "title": "Twin's house",
+            "name": "Twin's house",
             "type": "pot",
             "tags": [],
             "count": 2
         },
         {
-            "title": "Know-it-all bros' house",
+            "name": "Know-it-all bros' house",
             "type": "pot",
             "tags": [],
             "count": 2

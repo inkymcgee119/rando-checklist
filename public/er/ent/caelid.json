@@ -1,7 +1,7 @@
 {
     "name": "Caelid",
     "bgColor": "#c2410c",
-    "entrances": [
+    "items": [
         {
             "name": "Sending gate to Starscourge Radahn",
             "type": "major",

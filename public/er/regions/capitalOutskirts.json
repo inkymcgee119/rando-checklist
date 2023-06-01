@@ -1,38 +1,38 @@
 {
     "name": "Capital Outskirts",
     "bgColor": "#a16207",
-    "locations": [
+    "items": [
         {
             "type": "flask",
-            "title": "Golden Seed tree at Outer Wall Phantom Tree"
+            "name": "Golden Seed tree at Outer Wall Phantom Tree"
         },
         {
             "type": "shop",
-            "title": "Hermit Merchant at the Hermit's Merchant Shack"
+            "name": "Hermit Merchant at the Hermit's Merchant Shack"
         },
         {
             "type": "minor",
-            "title": "Draconic Tree Sentinel before Capital Rampart"
+            "name": "Draconic Tree Sentinel before Capital Rampart"
         },
         {
             "type": "miniboss",
-            "title": "Auriza Hero's Grave, Crucible Knight Duo"
+            "name": "Auriza Hero's Grave, Crucible Knight Duo"
         },
         {
             "type": "miniboss",
-            "title": "Auriza Side Tomb, Grave Warden Duelist"
+            "name": "Auriza Side Tomb, Grave Warden Duelist"
         },
         {
             "type": "night",
-            "title": "Deathbird straight east of the Hermit Merchant's Shack"
+            "name": "Deathbird straight east of the Hermit Merchant's Shack"
         },
         {
             "type": "night",
-            "title": "Bell Bearing Hunter who invades at Hermit Merchant's Shack"
+            "name": "Bell Bearing Hunter who invades at Hermit Merchant's Shack"
         },
         {
             "type": "minitali",
-            "title": "Crucible Feather Talisman",
+            "name": "Crucible Feather Talisman",
             "description": "Auriza Hero's Grave, guarded by an Omen deep in the Grave, found dropping down to wooden beams to the left of pillars between two Merciless Chariot patrol routes, up a ladder, and going further down stairs into a tunnel"
         }
     ]

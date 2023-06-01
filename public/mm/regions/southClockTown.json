@@ -1,37 +1,37 @@
 {
     "name": "South Clock Town",
     "bgColor": "#fbbf24",
-    "locations": [
+    "items": [
         {
-            "title": "Clock tower entrance",
+            "name": "Clock tower entrance",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Scrub trade",
+            "name": "Scrub trade",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Postbox",
+            "name": "Postbox",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Final day chest",
+            "name": "Final day chest",
             "type": "everything",
             "tags": [
                 "day3"
             ]
         },
         {
-            "title": "Straw roof chest",
+            "name": "Straw roof chest",
             "description": "Jump slash from underneath to get on top",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "On clock",
+            "name": "On clock",
             "count": 3,
             "type": "hiddenrupee",
             "tags": []

@@ -1,23 +1,23 @@
 {
     "name": "Market",
     "bgColor": "#94a3b8",
-    "locations": [
+    "items": [
         {
-            "title": "Slingshot minigame",
+            "name": "Slingshot minigame",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Save Richard the dog",
+            "name": "Save Richard the dog",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Bombchu bowling",
+            "name": "Bombchu bowling",
             "type": "item",
             "tags": [
                 "child"
@@ -25,43 +25,43 @@
             "count": 2
         },
         {
-            "title": "Treasure chest minigame",
+            "name": "Treasure chest minigame",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Big poes",
+            "name": "Big poes",
             "type": "item",
             "tags": [
                 "adult"
             ]
         },
         {
-            "title": "Pot room, back crate",
+            "name": "Pot room, back crate",
             "type": "gs",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Shop, bazaar",
+            "name": "Shop, bazaar",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Shop, potion",
+            "name": "Shop, potion",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Shop, bombchu",
+            "name": "Shop, bombchu",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Market",
+            "name": "Market",
             "type": "crate",
             "tags": [
                 "child",
@@ -70,21 +70,21 @@
             "count": 4
         },
         {
-            "title": "Richard's house",
+            "name": "Richard's house",
             "type": "crate",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Pot room",
+            "name": "Pot room",
             "type": "crate",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Pot room",
+            "name": "Pot room",
             "description": "The pots on top of the walls can be reached by jumping from the crate with the Skulltula. From the first wall, you can reach the second wall by jumping from the sloped part of the first wall.",
             "type": "pot",
             "tags": [
@@ -93,7 +93,7 @@
             "count": 44
         },
         {
-            "title": "Back alley house",
+            "name": "Back alley house",
             "type": "pot",
             "tags": [
                 "child"
@@ -101,7 +101,7 @@
             "count": 3
         },
         {
-            "title": "Pot room",
+            "name": "Pot room",
             "type": "pot",
             "tags": [
                 "adult"

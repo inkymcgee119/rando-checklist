@@ -2,9 +2,9 @@
     "name": "Zora's Domain",
     "bgColor": "#06b6d4",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Diving Minigame",
+            "name": "Diving Minigame",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Light torches",
+            "name": "Light torches",
             "type": "item",
             "tags": [
                 "oot",
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "title": "Melt king zora",
+            "name": "Melt king zora",
             "type": "item",
             "tags": [
                 "oot",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "title": "Trade quest, turn in prescription",
+            "name": "Trade quest, turn in prescription",
             "type": "item",
             "tags": [
                 "oot",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "title": "Top of the waterfall",
+            "name": "Top of the waterfall",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "title": "Shop",
+            "name": "Shop",
             "type": "ootshop",
             "tags": [
                 "oot"

@@ -2,9 +2,9 @@
     "name": "Kakariko Village",
     "bgColor": "#b45309",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Anju's chickens",
+            "name": "Anju's chickens",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,14 +12,14 @@
             ]
         },
         {
-            "title": "Impa's cow hp",
+            "name": "Impa's cow hp",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Redead grotto",
+            "name": "Redead grotto",
             "description": "In center of the village",
             "type": "item",
             "tags": [
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "title": "Open grotto, near potion shop",
+            "name": "Open grotto, near potion shop",
             "type": "item",
             "tags": [
                 "oot",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "title": "Talk to Anju",
+            "name": "Talk to Anju",
             "type": "item",
             "tags": [
                 "oot",
@@ -44,7 +44,7 @@
             ]
         },        
         {
-            "title": "Use pocket egg (if enabled)",
+            "name": "Use pocket egg (if enabled)",
             "type": "item",
             "tags": [
                 "oot",
@@ -52,7 +52,7 @@
             ]
         },
         {
-            "title": "Trade quest, turn in pocket cucco",
+            "name": "Trade quest, turn in pocket cucco",
             "type": "item",
             "tags": [
                 "oot",
@@ -60,7 +60,7 @@
             ]
         },
         {
-            "title": "Trade quest, turn in odd potion",
+            "name": "Trade quest, turn in odd potion",
             "type": "item",
             "tags": [
                 "oot",
@@ -68,14 +68,14 @@
             ]
         },
         {
-            "title": "Talk to man on the roof",
+            "name": "Talk to man on the roof",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Shooting gallery minigame",
+            "name": "Shooting gallery minigame",
             "description": "Requires bow for item",
             "type": "item",
             "tags": [
@@ -84,49 +84,49 @@
             ]
         },
         {
-            "title": "Windmill hp",
+            "name": "Windmill hp",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Gold skulltula reward: 10",
+            "name": "Gold skulltula reward: 10",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Gold skulltula reward: 20",
+            "name": "Gold skulltula reward: 20",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Gold skulltula reward: 30",
+            "name": "Gold skulltula reward: 30",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Gold skulltula reward: 40",
+            "name": "Gold skulltula reward: 40",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Gold skulltula reward: 50",
+            "name": "Gold skulltula reward: 50",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Windmill song",
+            "name": "Windmill song",
             "type": "song",
             "tags": [
                 "oot",
@@ -134,7 +134,7 @@
             ]
         },
         {
-            "title": "Sheik's song",
+            "name": "Sheik's song",
             "description": "Need forest, fire, and water medallions",
             "type": "song",
             "tags": [
@@ -143,7 +143,7 @@
             ]
         },
         {
-            "title": "Tree near entrance",
+            "name": "Tree near entrance",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -152,7 +152,7 @@
             ]
         },
         {
-            "title": "Side of skulltula house",
+            "name": "Side of skulltula house",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -161,7 +161,7 @@
             ]
         },
         {
-            "title": "Partially built house",
+            "name": "Partially built house",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -170,7 +170,7 @@
             ]
         },
         {
-            "title": "Side of shop by DMT",
+            "name": "Side of shop by DMT",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -179,7 +179,7 @@
             ]
         },
         {
-            "title": "Ladder on the lookout tower",
+            "name": "Ladder on the lookout tower",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -188,7 +188,7 @@
             ]
         },
         {
-            "title": "On top of Impa's house",
+            "name": "On top of Impa's house",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -197,14 +197,14 @@
             ]
         },
         {
-            "title": "Impa's house",
+            "name": "Impa's house",
             "type": "ootcow",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Shop, bazaar",
+            "name": "Shop, bazaar",
             "type": "ootshop",
             "tags": [
                 "oot",
@@ -212,7 +212,7 @@
             ]
         },
         {
-            "title": "Shop, potion",
+            "name": "Shop, potion",
             "type": "ootshop",
             "tags": [
                 "oot"

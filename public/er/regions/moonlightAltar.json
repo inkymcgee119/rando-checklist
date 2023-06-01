@@ -1,18 +1,18 @@
 {
     "name": "Moonlight Altar",
     "bgColor": "#1e40af",
-    "locations": [
+    "items": [
         {
             "type": "minor",
-            "title": "Alecto, Black Knife Ringleader in Ringleader's Evergaol"
+            "name": "Alecto, Black Knife Ringleader in Ringleader's Evergaol"
         },
         {
             "type": "minor",
-            "title": "Glintstone Dragon Adula"
+            "name": "Glintstone Dragon Adula"
         },
         {
             "type": "tali",
-            "title": "Cerulean Amber Medallion +2",
+            "name": "Cerulean Amber Medallion +2",
             "description": "In a chest in Lunar Estate Ruins, behind an Imp Statue barrier"
         }
     ]

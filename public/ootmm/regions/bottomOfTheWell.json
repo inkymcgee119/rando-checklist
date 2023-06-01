@@ -2,9 +2,9 @@
     "name": "Bottom of the Well",
     "bgColor": "#c026d3",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Front left fake wall",
+            "name": "Front left fake wall",
             "type": "item",
             "tags": [
                 "oot",
@@ -13,7 +13,7 @@
             ]
         },
         {
-            "title": "Right side fake wall",
+            "name": "Right side fake wall",
             "type": "item",
             "tags": [
                 "oot",
@@ -22,7 +22,7 @@
             ]
         },
         {
-            "title": "Left side fake wall",
+            "name": "Left side fake wall",
             "type": "item",
             "tags": [
                 "oot",
@@ -31,7 +31,7 @@
             ]
         },
         {
-            "title": "Center room, behind skulltula",
+            "name": "Center room, behind skulltula",
             "type": "item",
             "tags": [
                 "oot",
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "title": "Center, left key door",
+            "name": "Center, left key door",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -49,7 +49,7 @@
             ]
         },
         {
-            "title": "Center, right key door",
+            "name": "Center, right key door",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -58,7 +58,7 @@
             ]
         },
         {
-            "title": "Left side, coffin room",
+            "name": "Left side, coffin room",
             "type": "item",
             "tags": [
                 "oot",
@@ -67,7 +67,7 @@
             ]
         },
         {
-            "title": "Bombable debris, front",
+            "name": "Bombable debris, front",
             "type": "item",
             "tags": [
                 "oot",
@@ -76,7 +76,7 @@
             ]
         },
         {
-            "title": "Bombable debris, back left",
+            "name": "Bombable debris, back left",
             "type": "item",
             "tags": [
                 "oot",
@@ -85,7 +85,7 @@
             ]
         },
         {
-            "title": "Drained water, left side",
+            "name": "Drained water, left side",
             "type": "item",
             "tags": [
                 "oot",
@@ -94,7 +94,7 @@
             ]
         },
         {
-            "title": "Drained water, front",
+            "name": "Drained water, front",
             "type": "item",
             "tags": [
                 "oot",
@@ -103,7 +103,7 @@
             ]
         },
         {
-            "title": "Back right room, keese",
+            "name": "Back right room, keese",
             "type": "item",
             "tags": [
                 "oot",
@@ -112,7 +112,7 @@
             ]
         },
         {
-            "title": "Back right room, like like",
+            "name": "Back right room, like like",
             "type": "item",
             "tags": [
                 "oot",
@@ -120,7 +120,7 @@
             ]
         },
         {
-            "title": "Back right room, like like",
+            "name": "Back right room, like like",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -128,7 +128,7 @@
             ]
         },
         {
-            "title": "Basement, behind rocks",
+            "name": "Basement, behind rocks",
             "type": "item",
             "tags": [
                 "oot",
@@ -136,7 +136,7 @@
             ]
         },
         {
-            "title": "Invisible chest in deadhand room",
+            "name": "Invisible chest in deadhand room",
             "type": "item",
             "tags": [
                 "oot",
@@ -144,7 +144,7 @@
             ]
         },
         {
-            "title": "Deadhand",
+            "name": "Deadhand",
             "type": "item",
             "tags": [
                 "oot",
@@ -152,7 +152,7 @@
             ]
         },
         {
-            "title": "Center area chest",
+            "name": "Center area chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -160,7 +160,7 @@
             ]
         },
         {
-            "title": "Center, right room",
+            "name": "Center, right room",
             "type": "item",
             "tags": [
                 "oot",
@@ -168,7 +168,7 @@
             ]
         },
         {
-            "title": "Center, left room, under gravestone",
+            "name": "Center, left room, under gravestone",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -176,7 +176,7 @@
             ]
         },
         {
-            "title": "Left side, coffin room",
+            "name": "Left side, coffin room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -184,7 +184,7 @@
             ]
         },
         {
-            "title": "Basement, end of tunnel",
+            "name": "Basement, end of tunnel",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -192,7 +192,7 @@
             ]
         },
         {
-            "title": "Basement chest",
+            "name": "Basement chest",
             "description": "Switch in back right room under bombable debris",
             "type": "item",
             "tags": [
@@ -201,7 +201,7 @@
             ]
         },
         {
-            "title": "Deadhand room, bombable debris",
+            "name": "Deadhand room, bombable debris",
             "type": "item",
             "tags": [
                 "oot",
@@ -209,7 +209,7 @@
             ]
         },
         {
-            "title": "Deadhand",
+            "name": "Deadhand",
             "type": "item",
             "tags": [
                 "oot",

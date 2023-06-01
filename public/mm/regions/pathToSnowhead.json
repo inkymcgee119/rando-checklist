@@ -1,24 +1,24 @@
 {
     "name": "Path to Snowhead",
     "bgColor": "#fdba74",
-    "locations": [
+    "items": [
         {
-            "title": "Grotto",
+            "name": "Grotto",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Pillar",
+            "name": "Pillar",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Great Fairy",
+            "name": "Great Fairy",
             "type": "fairyrewards",
             "tags": []
         },
         {
-            "title": "Large snowballs on path",
+            "name": "Large snowballs on path",
             "count": 4,
             "type": "fixed",
             "tags": [
@@ -26,7 +26,7 @@
             ]
         },
         {
-            "title": "Small snowballs on path",
+            "name": "Small snowballs on path",
             "count": 4,
             "type": "fixed",
             "tags": [
@@ -34,7 +34,7 @@
             ]
         },
         {
-            "title": "Small snowballs near owl",
+            "name": "Small snowballs near owl",
             "count": 3,
             "type": "fixed",
             "tags": [
@@ -42,7 +42,7 @@
             ]
         },
         {
-            "title": "Large snowballs near snowhead",
+            "name": "Large snowballs near snowhead",
             "count": 6,
             "type": "fixed",
             "tags": [
@@ -50,7 +50,7 @@
             ]
         }
     ],
-    "entrances": [
+    "items": [
         {
             "name": "Snowhead Temple",
             "type": "dungeon"

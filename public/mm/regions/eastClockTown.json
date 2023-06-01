@@ -1,121 +1,121 @@
 {
     "name": "East Clock Town",
     "bgColor": "#16a34a",
-    "locations": [
+    "items": [
         {
-            "title": "Bombers' hideout chest",
+            "name": "Bombers' hideout chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "East clock town chest",
+            "name": "East clock town chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Gorman",
+            "name": "Gorman",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Honey and Darling, any day",
+            "name": "Honey and Darling, any day",
             "type": "mundane",
             "tags": []
         },
         {
-            "title": "Honey and Darling, three days",
+            "name": "Honey and Darling, three days",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Madame Aroma, in office",
+            "name": "Madame Aroma, in office",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Madame Aroma, in bar",
+            "name": "Madame Aroma, in bar",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Mayor",
+            "name": "Mayor",
             "type": "item",
             "tags": [
                 "day1"
             ]
         },
         {
-            "title": "Postbox",
+            "name": "Postbox",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Postman's freedom reward",
+            "name": "Postman's freedom reward",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Town archery",
+            "name": "Town archery",
             "count": 2,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Treasure chest game, goron",
+            "name": "Treasure chest game, goron",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Treasure chest game, deku",
+            "name": "Treasure chest game, deku",
             "type": "mundane",
             "tags": []
         },
         {
-            "title": "Treasure chest game, zora",
+            "name": "Treasure chest game, zora",
             "type": "mundane",
             "tags": []
         },
         {
-            "title": "Treasure chest game, human",
+            "name": "Treasure chest game, human",
             "type": "mundane",
             "tags": []
         },
         {
-            "title": "Milk bar, milk",
+            "name": "Milk bar, milk",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Milk bar, chateau",
+            "name": "Milk bar, chateau",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Basket",
+            "name": "Basket",
             "count": 3,
             "type": "hiddenrupee",
             "tags": []
         },
         {
-            "title": "Target",
+            "name": "Target",
             "count": 6,
             "type": "hiddenrupee",
             "tags": []
         },
         {
-            "title": "Pots near balloon, right",
+            "name": "Pots near balloon, right",
             "count": 2,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Pots near scarecrow",
+            "name": "Pots near scarecrow",
             "count": 3,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Crate",
+            "name": "Crate",
             "type": "fixed",
             "tags": []
         }

@@ -1,16 +1,16 @@
 {
     "name": "Termina Field",
     "bgColor": "#3f6212",
-    "locations": [
+    "items": [
         {
-            "title": "Astronomy telescope",
+            "name": "Astronomy telescope",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Bio baba grotto",
+            "name": "Bio baba grotto",
             "type": "item",
             "tags": [
                 "mm",
@@ -18,14 +18,14 @@
             ]
         },
         {
-            "title": "Business scrub purchase",
+            "name": "Business scrub purchase",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Dodongo grotto",
+            "name": "Dodongo grotto",
             "type": "item",
             "tags": [
                 "mm",
@@ -33,21 +33,21 @@
             ]
         },
         {
-            "title": "Gossip stones",
+            "name": "Gossip stones",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Kamaro",
+            "name": "Kamaro",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Peahat grotto",
+            "name": "Peahat grotto",
             "type": "item",
             "tags": [
                 "mm",
@@ -55,14 +55,14 @@
             ]
         },
         {
-            "title": "SW corner grass chest",
+            "name": "SW corner grass chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Grotto near grass chest",
+            "name": "Grotto near grass chest",
             "type": "item",
             "tags": [
                 "mm",
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "title": "Pillar grotto",
+            "name": "Pillar grotto",
             "type": "item",
             "tags": [
                 "mm",
@@ -78,21 +78,21 @@
             ]
         },
         {
-            "title": "Stump chest",
+            "name": "Stump chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Underwater chest",
+            "name": "Underwater chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Grotto in log tunnel",
+            "name": "Grotto in log tunnel",
             "count": 2,
             "type": "mmcow",
             "tags": [

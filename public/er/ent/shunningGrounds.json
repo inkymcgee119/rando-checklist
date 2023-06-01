@@ -1,7 +1,7 @@
 {
     "name": "Subterranean Shunning-Grounds",
     "bgColor": "#64748b",
-    "entrances": [
+    "items": [
         {
             "name": "Before Mohg's arena",
             "type": "major",

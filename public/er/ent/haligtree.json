@@ -1,7 +1,7 @@
 {
     "name": "Haligtree",
     "bgColor": "#059669",
-    "entrances": [
+    "items": [
         {
             "name": "Start of Haligtree, from warp",
             "type": "legacy",

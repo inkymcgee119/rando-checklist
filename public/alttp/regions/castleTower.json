@@ -1,14 +1,14 @@
 {
     "name": "Castle Tower",
     "bgColor": "#c084fc",
-    "locations": [
+    "items": [
         {
-            "title": "Room",
+            "name": "Room",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Dark maze",
+            "name": "Dark maze",
             "type": "item",
             "tags": []
         }

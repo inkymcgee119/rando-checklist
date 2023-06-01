@@ -1,30 +1,30 @@
 {
     "name": "Twin Islands",
     "bgColor": "#ec4899",
-    "locations": [
+    "items": [
         {
-            "title": "Goron race",
+            "name": "Goron race",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Grotto on ramp to racetrack",
+            "name": "Grotto on ramp to racetrack",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Hot spring water grotto",
+            "name": "Hot spring water grotto",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Tingle maps",
+            "name": "Tingle maps",
             "count": 2,
             "type": "item",
             "tags": [
@@ -32,14 +32,14 @@
             ]
         },
         {
-            "title": "Goron Elder",
+            "name": "Goron Elder",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Underwater cave chest",
+            "name": "Underwater cave chest",
             "type": "item",
             "tags": [
                 "mm",
@@ -47,7 +47,7 @@
             ]
         },
         {
-            "title": "Underwater chest near ramp",
+            "name": "Underwater chest near ramp",
             "type": "item",
             "tags": [
                 "mm",

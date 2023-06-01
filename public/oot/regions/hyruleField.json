@@ -2,16 +2,16 @@
     "name": "Hyrule Field",
     "bgColor": "#854D0E",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Open grotto near lake hylia",
+            "name": "Open grotto near lake hylia",
             "type": "item",
             "tags": [
                 "grotto"
             ]
         },
         {
-            "title": "Deku salesman",
+            "name": "Deku salesman",
             "description": "Grotto inside the fences by lake hylia",
             "type": "item",
             "tags": [
@@ -19,14 +19,14 @@
             ]
         },
         {
-            "title": "Southeast grotto, under rock",
+            "name": "Southeast grotto, under rock",
             "type": "item",
             "tags": [
                 "grotto"
             ]
         },
         {
-            "title": "Tektite grotto",
+            "name": "Tektite grotto",
             "description": "Northwest of lon lon by tree",
             "type": "item",
             "tags": [
@@ -34,49 +34,49 @@
             ]
         },
         {
-            "title": "Grotto west of castle town",
+            "name": "Grotto west of castle town",
             "type": "item",
             "tags": [
                 "grotto"
             ]
         },
         {
-            "title": "Ocarina of time",
+            "name": "Ocarina of time",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Ocarina of time, song",
+            "name": "Ocarina of time, song",
             "type": "song",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Grotto near kakariko, near tree",
+            "name": "Grotto near kakariko, near tree",
             "type": "gs",
             "tags": [
                 "grotto"
             ]
         },
         {
-            "title": "Grotto near gerudo valley",
+            "name": "Grotto near gerudo valley",
             "type": "gs",
             "tags": [
                 "grotto"
             ]
         },
         {
-            "title": "Grotto near gerudo valley",
+            "name": "Grotto near gerudo valley",
             "type": "cow",
             "tags": [
                 "grotto"
             ]
         },
         {
-            "title": "Open grotto near lake hylia",
+            "name": "Open grotto near lake hylia",
             "type": "beehive",
             "tags": [
                 "grotto"
@@ -84,7 +84,7 @@
             "count": 2
         },
         {
-            "title": "Southeast grotto, under rock",
+            "name": "Southeast grotto, under rock",
             "type": "beehive",
             "tags": [
                 "grotto"
@@ -92,7 +92,7 @@
             "count": 2
         },
         {
-            "title": "Deku salesman",
+            "name": "Deku salesman",
             "description": "Grotto inside the fences by lake hylia",
             "type": "beehive",
             "tags": [
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "title": "Grotto west of castle town",
+            "name": "Grotto west of castle town",
             "type": "beehive",
             "tags": [
                 "grotto"
@@ -108,7 +108,7 @@
             "count": 2
         },
         {
-            "title": "Grotto near gerudo valley",
+            "name": "Grotto near gerudo valley",
             "type": "pot",
             "tags": [
                 "grotto"

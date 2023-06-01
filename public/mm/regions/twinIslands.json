@@ -1,44 +1,44 @@
 {
     "name": "Twin Islands",
     "bgColor": "#ec4899",
-    "locations": [
+    "items": [
         {
-            "title": "Goron race",
+            "name": "Goron race",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Grotto on ramp to racetrack",
+            "name": "Grotto on ramp to racetrack",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Hot spring water grotto",
+            "name": "Hot spring water grotto",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Tingle maps",
+            "name": "Tingle maps",
             "count": 2,
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Underwater cave chest",
+            "name": "Underwater cave chest",
             "type": "everything",
             "tags": [
                 "spring"
             ]
         },
         {
-            "title": "Underwater chest near ramp",
+            "name": "Underwater chest near ramp",
             "type": "item",
             "tags": [
                 "spring"
             ]
         },
         {
-            "title": "Underwater rupees",
+            "name": "Underwater rupees",
             "count": 4,
             "type": "rupee",
             "tags": [
@@ -46,7 +46,7 @@
             ]
         },
         {
-            "title": "Large snowballs",
+            "name": "Large snowballs",
             "count": 5,
             "type": "fixed",
             "tags": [
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "title": "Large snowballs",
+            "name": "Large snowballs",
             "count": 4,
             "type": "fixed",
             "tags": [
@@ -64,7 +64,7 @@
             ]
         },
         {
-            "title": "Large snowballs",
+            "name": "Large snowballs",
             "count": 5,
             "type": "fixed",
             "tags": [
@@ -73,14 +73,14 @@
             ]
         },
         {
-            "title": "Small snowball, ramp to race",
+            "name": "Small snowball, ramp to race",
             "type": "fixed",
             "tags": [
                 "winter"
             ]
         },
         {
-            "title": "Small snowballs",
+            "name": "Small snowballs",
             "count": 2,
             "type": "fixed",
             "tags": [
@@ -88,7 +88,7 @@
             ]
         },
         {
-            "title": "Goron race, pots",
+            "name": "Goron race, pots",
             "count": 30,
             "type": "fixed",
             "tags": []

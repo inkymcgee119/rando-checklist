@@ -2,23 +2,23 @@
     "name": "Forest Temple",
     "bgColor": "#065f46",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Entrance area, up in the tree",
+            "name": "Entrance area, up in the tree",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Entrance area, on the vines",
+            "name": "Entrance area, on the vines",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Center room",
+            "name": "Center room",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -26,21 +26,21 @@
             "count": 6
         },
         {
-            "title": "Center room, wall next to stairs",
+            "name": "Center room, wall next to stairs",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Room straight back, staflos fight",
+            "name": "Room straight back, staflos fight",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Room straight back, staflos fight",
+            "name": "Room straight back, staflos fight",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -48,35 +48,35 @@
         },
 
         {
-            "title": "Courtyard, room up the vines",
+            "name": "Courtyard, room up the vines",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Courtyard, chest on grassy hill",
+            "name": "Courtyard, chest on grassy hill",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Courtyard, on the grassy hill",
+            "name": "Courtyard, on the grassy hill",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Courtyard, in the well",
+            "name": "Courtyard, in the well",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Courtyard, in the well",
+            "name": "Courtyard, in the well",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -86,21 +86,21 @@
 
         
         {
-            "title": "Upper courtyard, side room",
+            "name": "Upper courtyard, side room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Upper courtyard, high on wall",
+            "name": "Upper courtyard, high on wall",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Upper courtyard, on pillars",
+            "name": "Upper courtyard, on pillars",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -109,7 +109,7 @@
         },
 
         {
-            "title": "Eye switch near block puzzle",
+            "name": "Eye switch near block puzzle",
             "type": "item",
             "tags": [
                 "vanilla"
@@ -117,28 +117,28 @@
         },
         
         {
-            "title": "Boss key chest",
+            "name": "Boss key chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Red poe (Joelle)",
+            "name": "Red poe (Joelle)",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Bow chest",
+            "name": "Bow chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Bow chest",
+            "name": "Bow chest",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -146,14 +146,14 @@
             "count": 4
         },
         {
-            "title": "Blue poe (Beth)",
+            "name": "Blue poe (Beth)",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Blue poe (Beth)",
+            "name": "Blue poe (Beth)",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -162,7 +162,7 @@
         },
 
         {
-            "title": "Frozen eye switch room",
+            "name": "Frozen eye switch room",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -170,7 +170,7 @@
             "count": 2
         },
         {
-            "title": "Green poe (Amy)",
+            "name": "Green poe (Amy)",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -179,21 +179,21 @@
         },
 
         {
-            "title": "Falling ceiling room",
+            "name": "Falling ceiling room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Spinning room in the basement",
+            "name": "Spinning room in the basement",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Spinning room in the basement",
+            "name": "Spinning room in the basement",
             "type": "gs",
             "tags": [
                 "vanilla"
@@ -201,7 +201,7 @@
         },
 
         {
-            "title": "Phantom Ganon",
+            "name": "Phantom Ganon",
             "type": "boss",
             "tags": [
                 "vanilla"
@@ -217,21 +217,21 @@
 
 
         {
-            "title": "Entrance area, up in the tree",
+            "name": "Entrance area, up in the tree",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Entrance hallway, upper left corner",
+            "name": "Entrance hallway, upper left corner",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Center room",
+            "name": "Center room",
             "type": "pot",
             "tags": [
                 "mq"
@@ -240,14 +240,14 @@
         },
 
         {
-            "title": "Room straight back, wolfos fight",
+            "name": "Room straight back, wolfos fight",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Room straight back",
+            "name": "Room straight back",
             "type": "pot",
             "tags": [
                 "mq"
@@ -255,42 +255,42 @@
         },
 
         {
-            "title": "Courtyard, upper balcony",
+            "name": "Courtyard, upper balcony",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Courtyard, chest on grassy hill",
+            "name": "Courtyard, chest on grassy hill",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Courtyard, right side, above door",
+            "name": "Courtyard, right side, above door",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Courtyard, in the well",
+            "name": "Courtyard, in the well",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Courtyard, in the well",
+            "name": "Courtyard, in the well",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "In the well",
+            "name": "In the well",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -298,21 +298,21 @@
             "count": 3
         },
         {
-            "title": "Courtyard, above the well",
+            "name": "Courtyard, above the well",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Upper Courtyard, side room",
+            "name": "Upper Courtyard, side room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Upper courtyard, on pillars",
+            "name": "Upper courtyard, on pillars",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -321,14 +321,14 @@
         },
 
         {
-            "title": "Blocking push room, on floor level",
+            "name": "Blocking push room, on floor level",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Boss key chest",
+            "name": "Boss key chest",
             "type": "item",
             "tags": [
                 "mq"
@@ -337,21 +337,21 @@
 
 
         {
-            "title": "Red poe (Joelle)",
+            "name": "Red poe (Joelle)",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Bow chest",
+            "name": "Bow chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Bow room",
+            "name": "Bow room",
             "type": "pot",
             "tags": [
                 "mq"
@@ -359,14 +359,14 @@
             "count": 4
         },
         {
-            "title": "Blue poe (Beth)",
+            "name": "Blue poe (Beth)",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Blue poe (Beth)",
+            "name": "Blue poe (Beth)",
             "type": "pot",
             "tags": [
                 "mq"
@@ -376,7 +376,7 @@
 
 
         {
-            "title": "Frozen switch room",
+            "name": "Frozen switch room",
             "type": "crate",
             "tags": [
                 "mq"
@@ -384,7 +384,7 @@
             "count": 3
         },
         {
-            "title": "Green poe (Amy)",
+            "name": "Green poe (Amy)",
             "type": "pot",
             "tags": [
                 "mq"
@@ -392,21 +392,21 @@
             "count": 2
         },
         {
-            "title": "Falling ceiling room",
+            "name": "Falling ceiling room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Spinning room in the basement",
+            "name": "Spinning room in the basement",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Basement",
+            "name": "Basement",
             "type": "pot",
             "tags": [
                 "mq"
@@ -415,7 +415,7 @@
         },
         
         {
-            "title": "Phantom Ganon",
+            "name": "Phantom Ganon",
             "type": "boss",
             "tags": [
                 "mq"

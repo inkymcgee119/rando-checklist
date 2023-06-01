@@ -2,16 +2,16 @@
     "name": "Fire Temple",
     "bgColor": "#991b1b",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Room before volvagia",
+            "name": "Room before volvagia",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Room before volvagia",
+            "name": "Room before volvagia",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -20,21 +20,21 @@
         },
         
         {
-            "title": "Entrance loop, flame dancer",
+            "name": "Entrance loop, flame dancer",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Entrance loop, boss key chest",
+            "name": "Entrance loop, boss key chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Entrance loop, back right room",
+            "name": "Entrance loop, back right room",
             "type": "gs",
             "tags": [
                 "vanilla"
@@ -42,21 +42,21 @@
         },
 
         {
-            "title": "Bridge room, goron room on left",
+            "name": "Bridge room, goron room on left",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Bridge room, goron room on right",
+            "name": "Bridge room, goron room on right",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Bridge room, room on left side",
+            "name": "Bridge room, room on left side",
             "description": "Use song of time",
             "type": "gs",
             "tags": [
@@ -64,7 +64,7 @@
             ]
         },
         {
-            "title": "Bridge room, left side",
+            "name": "Bridge room, left side",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -72,7 +72,7 @@
             "count": 3
         },
         {
-            "title": "Elevator room, on fence",
+            "name": "Elevator room, on fence",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -81,21 +81,21 @@
         },
 
         {
-            "title": "Boulder maze lower, left side",
+            "name": "Boulder maze lower, left side",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Boulder maze lower, right side",
+            "name": "Boulder maze lower, right side",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Boulder maze, bombable wall",
+            "name": "Boulder maze, bombable wall",
             "type": "gs",
             "tags": [
                 "vanilla"
@@ -103,7 +103,7 @@
         },
 
         {
-            "title": "Narrow path room",
+            "name": "Narrow path room",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -112,14 +112,14 @@
         },
 
         {
-            "title": "Chest in moving fire wall room",
+            "name": "Chest in moving fire wall room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Moving fire wall room",
+            "name": "Moving fire wall room",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -128,14 +128,14 @@
         },
 
         {
-            "title": "Boulder maze upper, goron",
+            "name": "Boulder maze upper, goron",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Boulder maze upper, down the hole",
+            "name": "Boulder maze upper, down the hole",
             "type": "item",
             "tags": [
                 "vanilla"
@@ -143,7 +143,7 @@
         },
 
         {
-            "title": "Scarecrow chest",
+            "name": "Scarecrow chest",
             "description": "Use scarecrow's song to hookshot up to elevator, chest is at the end of the path",
             "type": "item",
             "tags": [
@@ -151,7 +151,7 @@
             ]
         },
         {
-            "title": "Above boulder maze",
+            "name": "Above boulder maze",
             "description": "Scarecrow song area",
             "type": "gs",
             "tags": [
@@ -160,21 +160,21 @@
             "count": 2
         },
         {
-            "title": "Fire wall maze, room on right",
+            "name": "Fire wall maze, room on right",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Fire wall maze, center room",
+            "name": "Fire wall maze, center room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Fire wall maze, left",
+            "name": "Fire wall maze, left",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -182,7 +182,7 @@
             "count": 4
         },
         {
-            "title": "Fire wall maze, right",
+            "name": "Fire wall maze, right",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -190,14 +190,14 @@
             "count": 4
         },
         {
-            "title": "Hammer chest",
+            "name": "Hammer chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Volvagia",
+            "name": "Volvagia",
             "type": "boss",
             "tags": [
                 "vanilla"
@@ -210,7 +210,7 @@
 
         
         {
-            "title": "Lobby",
+            "name": "Lobby",
             "type": "pot",
             "tags": [
                 "mq"
@@ -218,14 +218,14 @@
             "count": 2
         },
         {
-            "title": "Room before volvagia",
+            "name": "Room before volvagia",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Before volvagia, left",
+            "name": "Before volvagia, left",
             "type": "crate",
             "tags": [
                 "mq"
@@ -233,7 +233,7 @@
             "count": 2
         },
         {
-            "title": "Before volvagia, right",
+            "name": "Before volvagia, right",
             "type": "crate",
             "tags": [
                 "mq"
@@ -241,7 +241,7 @@
             "count": 4
         },
         {
-            "title": "Before volvagia, right",
+            "name": "Before volvagia, right",
             "type": "pot",
             "tags": [
                 "mq"
@@ -251,14 +251,14 @@
 
 
         {
-            "title": "Entrance loop, left room",
+            "name": "Entrance loop, left room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Entrance loop, iron knuckle",
+            "name": "Entrance loop, iron knuckle",
             "type": "pot",
             "tags": [
                 "mq"
@@ -266,21 +266,21 @@
             "count": 4
         },
         {
-            "title": "Entrance loop, flame dancer",
+            "name": "Entrance loop, flame dancer",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Entrance loop, boss key",
+            "name": "Entrance loop, boss key",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Entrance loop, boss key",
+            "name": "Entrance loop, boss key",
             "type": "pot",
             "tags": [
                 "mq"
@@ -290,21 +290,21 @@
 
 
         {
-            "title": "Bridge room, left room",
+            "name": "Bridge room, left room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Bridge room, left side room",
+            "name": "Bridge room, left side room",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Bridge room, left side",
+            "name": "Bridge room, left side",
             "type": "pot",
             "tags": [
                 "mq"
@@ -312,14 +312,14 @@
             "count": 2
         },
         {
-            "title": "Bridge room, right room",
+            "name": "Bridge room, right room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Bridge room, right side",
+            "name": "Bridge room, right side",
             "type": "pot",
             "tags": [
                 "mq"
@@ -328,7 +328,7 @@
 
 
         {
-            "title": "Elevator room, on fence",
+            "name": "Elevator room, on fence",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -340,20 +340,20 @@
 
         
         {
-            "title": "Lizafos maze lower, bombable wall",
+            "name": "Lizafos maze lower, bombable wall",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },{
-            "title": "Lizafos maze lower, crate",
+            "name": "Lizafos maze lower, crate",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },        
         {
-            "title": "Lizafos maze, lower",
+            "name": "Lizafos maze, lower",
             "type": "crate",
             "tags": [
                 "mq"
@@ -361,7 +361,7 @@
             "count": 3
         },
         {
-            "title": "Lizafos maze, upper",
+            "name": "Lizafos maze, upper",
             "type": "crate",
             "tags": [
                 "mq"
@@ -369,21 +369,21 @@
             "count": 3
         },
         {
-            "title": "Lizafos maze upper, crate",
+            "name": "Lizafos maze upper, crate",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Lizafos maze upper, down the hole",
+            "name": "Lizafos maze upper, down the hole",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Lizafos maze, down the hole",
+            "name": "Lizafos maze, down the hole",
             "type": "crate",
             "tags": [
                 "mq"
@@ -392,7 +392,7 @@
         },
 
         {
-            "title": "Former lava wall chase",
+            "name": "Former lava wall chase",
             "type": "crate",
             "tags": [
                 "mq"
@@ -400,7 +400,7 @@
             "count": 5
         },
         {
-            "title": "Former lava wall chase",
+            "name": "Former lava wall chase",
             "type": "pot",
             "tags": [
                 "mq"
@@ -408,7 +408,7 @@
             "count": 2
         },
         {
-            "title": "Narrow path room",
+            "name": "Narrow path room",
             "type": "pot",
             "tags": [
                 "mq"
@@ -417,28 +417,28 @@
         },
 
         {
-            "title": "Former scarecrow song area",
+            "name": "Former scarecrow song area",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Firewall maze, room on right",
+            "name": "Firewall maze, room on right",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Firewall maze, center room",
+            "name": "Firewall maze, center room",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Flame maze, upper right",
+            "name": "Flame maze, upper right",
             "type": "pot",
             "tags": [
                 "mq"
@@ -446,7 +446,7 @@
             "count": 2
         },
         {
-            "title": "Flame maze, right",
+            "name": "Flame maze, right",
             "type": "pot",
             "tags": [
                 "mq"
@@ -454,35 +454,35 @@
             "count": 2
         },
         {
-            "title": "Flame maze, left",
+            "name": "Flame maze, left",
             "type": "pot",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Upper flame dancer, under elevator",
+            "name": "Upper flame dancer, under elevator",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Former hammer chest",
+            "name": "Former hammer chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Path down from hammer room",
+            "name": "Path down from hammer room",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Volvagia",
+            "name": "Volvagia",
             "type": "boss",
             "tags": [
                 "mq"

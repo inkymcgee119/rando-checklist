@@ -2,70 +2,70 @@
     "name": "Lost Woods",
     "bgColor": "#3F6212",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Lost woods bridge",
+            "name": "Lost woods bridge",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Deku Salesman, by bridge",
+            "name": "Deku Salesman, by bridge",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Deku Salesman, rock near exit",
+            "name": "Deku Salesman, rock near exit",
             "type": "item",
             "tags": [
                 "grotto"
             ]
         },
         {
-            "title": "Grotto, rock by Goron City warp",
+            "name": "Grotto, rock by Goron City warp",
             "type": "item",
             "tags": [
                 "grotto"
             ]
         },
         {
-            "title": "Target in the woods",
+            "name": "Target in the woods",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Ocarina memory game",
+            "name": "Ocarina memory game",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Skull kid (Saria's song)",
+            "name": "Skull kid (Saria's song)",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Deku Theater, skull mask",
+            "name": "Deku Theater, skull mask",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Deku Theater, mask of truth",
+            "name": "Deku Theater, mask of truth",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Bean patch by bridge",
+            "name": "Bean patch by bridge",
             "type": "gs",
             "tags": [
                 "child",
@@ -73,7 +73,7 @@
             ]
         },
         {
-            "title": "Bean patch by deku theater",
+            "name": "Bean patch by deku theater",
             "type": "gs",
             "tags": [
                 "child",
@@ -81,7 +81,7 @@
             ]
         },
         {
-            "title": "Above deku theater bean patch",
+            "name": "Above deku theater bean patch",
             "type": "gs",
             "tags": [
                 "adult",
@@ -89,14 +89,14 @@
             ]
         },
         {
-            "title": "Deku Salesman, rock near exit",
+            "name": "Deku Salesman, rock near exit",
             "type": "scrub",
             "tags": [
                 "grotto"
             ]
         },
         {
-            "title": "Near deku theater",
+            "name": "Near deku theater",
             "type": "scrub",
             "tags": [
                 "child"
@@ -104,12 +104,12 @@
             "count": 2
         },
         {
-            "title": "Under rock near exit",
+            "name": "Under rock near exit",
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Water warp",
+            "name": "Water warp",
             "type": "rupee",
             "tags": [
                 "child"
@@ -117,7 +117,7 @@
             "count": 8
         },
         {
-            "title": "Rock by Goron City warp",
+            "name": "Rock by Goron City warp",
             "type": "beehive",
             "tags": [
                 "grotto"
@@ -125,7 +125,7 @@
             "count": 2
         },
         {
-            "title": "Deku Salesman, rock near exit",
+            "name": "Deku Salesman, rock near exit",
             "type": "beehive",
             "tags": [
                 "grotto"

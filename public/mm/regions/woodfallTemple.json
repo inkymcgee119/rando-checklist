@@ -1,137 +1,137 @@
 {
     "name": "Woodfall Temple",
     "bgColor": "#854d0e",
-    "locations": [
+    "items": [
         {
-            "title": "Entrance, fairy",
+            "name": "Entrance, fairy",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Entrance, platform",
+            "name": "Entrance, platform",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Entrance, bee hive",
+            "name": "Entrance, bee hive",
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Main room, deku baba",
+            "name": "Main room, deku baba",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Main room, pot in corner",
+            "name": "Main room, pot in corner",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Main Room, bubble",
+            "name": "Main Room, bubble",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Main Room, switch",
+            "name": "Main Room, switch",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Right side, turtle room",
+            "name": "Right side, turtle room",
             "type": "dungeon",
             "tags": []
         },
         {
-            "title": "Right side, bottom ledge chest",
+            "name": "Right side, bottom ledge chest",
             "type": "dungeon",
             "tags": []
         },
         {
-            "title": "Right side, frog room",
+            "name": "Right side, frog room",
             "type": "dungeon",
             "tags": []
         },
         {
-            "title": "Right side, hive",
+            "name": "Right side, hive",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Hero's bow chest",
+            "name": "Hero's bow chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Gekko pots",
+            "name": "Gekko pots",
             "count": 4,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Left side, dragonfly room",
+            "name": "Left side, dragonfly room",
             "type": "dungeon",
             "tags": []
         },
         {
-            "title": "Left side, bridge room hive",
+            "name": "Left side, bridge room hive",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Left side, dark room",
+            "name": "Left side, dark room",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Left side, under bridge",
+            "name": "Left side, under bridge",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Left side, skulltula",
+            "name": "Left side, skulltula",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Before boss, pillar bubble",
+            "name": "Before boss, pillar bubble",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Before boss, upper left bubble",
+            "name": "Before boss, upper left bubble",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Before boss, upper right bubble",
+            "name": "Before boss, upper right bubble",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Before boss, lower right bubble",
+            "name": "Before boss, lower right bubble",
             "type": "fairies",
             "tags": []
         },
         {
-            "title": "Before boss, far pillars",
+            "name": "Before boss, far pillars",
             "count": 2,
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Before boss, center platform",
+            "name": "Before boss, center platform",
             "count": 4,
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Boss heart container",
+            "name": "Boss heart container",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Boss remains",
+            "name": "Boss remains",
             "type": "item",
             "tags": []
         }

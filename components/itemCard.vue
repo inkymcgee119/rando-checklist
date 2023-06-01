@@ -10,10 +10,10 @@
             </button>
             <span class="float-right">
                 <span
-                    v-if="props.region.locations.reduce((acc, x) => acc + (!x.isChecked ? (x.count ? x.count : 1) : 0), 0) > 0">
-                    {{ props.region.locations.reduce((acc, x) => acc + (!x.isChecked ? (x.count ? x.count : 1) : 0), 0) }}
+                    v-if="props.region.items.reduce((acc, x) => acc + (!x.isChecked ? (x.count ? x.count : 1) : 0), 0) > 0">
+                    {{ props.region.items.reduce((acc, x) => acc + (!x.isChecked ? (x.count ? x.count : 1) : 0), 0) }}
                 </span>
-                <span v-if="props.region.locations.filter(x => !x.isChecked).length == 0">
+                <span v-if="props.region.items.filter(x => !x.isChecked).length == 0">
                     <Icon name="ic:baseline-check">
                     </Icon>
                 </span>
@@ -23,8 +23,8 @@
 
         <!-- items -->
         <div class="overflow-hidden" :style="regionStyle">
-            <div v-for="(loc, idx) in props.region.locations" :key="loc.description" class="flex flex-row cursor-pointer"
-                :class="{ 'border-b-2 border-slate-300': idx < props.region.locations.length - 1, 'bg-yellow-400': loc.isStarred }"
+            <div v-for="(loc, idx) in props.region.items" :key="loc.description" class="flex flex-row cursor-pointer"
+                :class="{ 'border-b-2 border-slate-300': idx < props.region.items.length - 1, 'bg-yellow-400': loc.isStarred }"
                 @click="clickLocation(loc)" @contextmenu.prevent="rightClickLocation(loc)">
 
                 <!-- description -->
@@ -33,7 +33,7 @@
                     <Icon v-if="appState.selectedGame.options.settings[loc.type].icon"
                         :name="appState.selectedGame.options.settings[loc.type].icon"></Icon>
 
-                    {{ loc.title }} <span v-if="loc.count">({{ loc.count }})</span>
+                    {{ loc.name }} <span v-if="loc.count">({{ loc.count }})</span>
                     <span v-if="loc.description">
                         <tooltip :text="loc.description">
                             <Icon name="material-symbols:info-outline"></Icon>
@@ -74,22 +74,23 @@ function clickLocation(loc) {
 }
 
 function clickHeader(region) {
-    let r = appState.value.regions.find((reg) => stringCompareCaseInsensitive(reg.name, region.name));
+    let r = getRegion(region.name);
     r.isCollapsed = !r.isCollapsed;
     save();
 }
 
 function rightClickLocation(loc) {
-    loc.isStarred = !loc.isStarred;
+    let item = getLocation(props.region.name, loc.name, loc.type);
+    item.isStarred = !item.isStarred;
     save();
 
     return false;
 }
+
 function clickMQ(region) {
-    let r = appState.value.regions.find((reg) => stringCompareCaseInsensitive(reg.name, region.name));
+    let r = getRegion(region.name);
     r.showMQ = !r.showMQ;
     save();
 }
-
 
 </script>

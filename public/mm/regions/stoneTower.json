@@ -1,58 +1,58 @@
 {
     "name": "Stone Tower",
     "bgColor": "#059669",
-    "locations": [
+    "items": [
         {
-            "title": "Inverted, left chest",
+            "name": "Inverted, left chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Inverted, middle chest",
+            "name": "Inverted, middle chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Inverted, right chest",
+            "name": "Inverted, right chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Lower",
+            "name": "Lower",
             "type": "softsoil",
             "tags": []
         },
         {
-            "title": "Upper",
+            "name": "Upper",
             "type": "softsoil",
             "tags": []
         },
         {
-            "title": "Inverted, pots",
+            "name": "Inverted, pots",
             "count": 2,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Lower scarecrow, pots",
+            "name": "Lower scarecrow, pots",
             "count": 3,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Upper scarecrow, pots",
+            "name": "Upper scarecrow, pots",
             "count": 4,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Pots near owl",
+            "name": "Pots near owl",
             "count": 3,
             "type": "fixed",
             "tags": []
         }
     ],
-    "entrances": [
+    "items": [
         {
             "name": "Stone Tower Temple",
             "type": "dungeon"

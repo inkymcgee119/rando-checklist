@@ -2,23 +2,23 @@
     "name": "Water Temple",
     "bgColor": "#1e40af",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Bottom floor, first chest",
+            "name": "Bottom floor, first chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Bottom floor, torch room",
+            "name": "Bottom floor, torch room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Bottom floor, torch room",
+            "name": "Bottom floor, torch room",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -26,21 +26,21 @@
             "count": 2
         },
         {
-            "title": "Bottom floor, dragon",
+            "name": "Bottom floor, dragon",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Bottom floor, behind a gate",
+            "name": "Bottom floor, behind a gate",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Bottom floor, behind a gate",
+            "name": "Bottom floor, behind a gate",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -48,21 +48,21 @@
             "count": 4
         },
         {
-            "title": "Bottom floor, waterfall boulders",
+            "name": "Bottom floor, waterfall boulders",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Bottom floor, waterfall boulder",
+            "name": "Bottom floor, waterfall boulder",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Bottom floor, waterfall boulder",
+            "name": "Bottom floor, waterfall boulder",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -73,14 +73,14 @@
 
 
         {
-            "title": "Central pillar, basement area",
+            "name": "Central pillar, basement area",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Central pillar, at the top",
+            "name": "Central pillar, at the top",
             "type": "gs",
             "tags": [
                 "vanilla"
@@ -89,7 +89,7 @@
 
 
         {
-            "title": "Second floor",
+            "name": "Second floor",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -97,7 +97,7 @@
             "count": 2
         },
         {
-            "title": "Second floor, cracked wall",
+            "name": "Second floor, cracked wall",
             "description": "Up from the room where you meet Ruto",
             "type": "item",
             "tags": [
@@ -105,14 +105,14 @@
             ]
         },
         {
-            "title": "Second floor, water column room",
+            "name": "Second floor, water column room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Second floor, water column room",
+            "name": "Second floor, water column room",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -120,14 +120,14 @@
             "count": 3
         },
         {
-            "title": "Second floor, eye switch",
+            "name": "Second floor, eye switch",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Second floor, eye switch",
+            "name": "Second floor, eye switch",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -137,14 +137,14 @@
 
 
         {
-            "title": "Top floor, hookshot waterfall room",
+            "name": "Top floor, hookshot waterfall room",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Top floor, before dark link",
+            "name": "Top floor, before dark link",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -152,28 +152,28 @@
             "count": 2
         },
         {
-            "title": "Top floor, dark Link",
+            "name": "Top floor, dark Link",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "River chest after dark Link",
+            "name": "River chest after dark Link",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "River after dark link",
+            "name": "River after dark link",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "River after dark link",
+            "name": "River after dark link",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -181,7 +181,7 @@
             "count": 4
         },
         {
-            "title": "River after dark Link",
+            "name": "River after dark Link",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -189,7 +189,7 @@
         },
 
         {
-            "title": "Morpha",
+            "name": "Morpha",
             "type": "boss",
             "tags": [
                 "vanilla"
@@ -203,28 +203,28 @@
 
 
         {
-            "title": "Bottom floor, first chest",
+            "name": "Bottom floor, first chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Bottom floor, waterfall room crate",
+            "name": "Bottom floor, waterfall room crate",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Bottom floor, torch room",
+            "name": "Bottom floor, torch room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Bottom, torch room",
+            "name": "Bottom, torch room",
             "type": "pot",
             "tags": [
                 "mq"
@@ -232,7 +232,7 @@
             "count": 2
         },
         {
-            "title": "Bottom floor, triple torch room",
+            "name": "Bottom floor, triple torch room",
             "type": "gs",
             "tags": [
                 "mq"
@@ -241,14 +241,14 @@
 
 
         {
-            "title": "Central pillar, basement area",
+            "name": "Central pillar, basement area",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Central pillar",
+            "name": "Central pillar",
             "type": "crate",
             "tags": [
                 "mq"
@@ -256,7 +256,7 @@
             "count": 2
         },
         {
-            "title": "Central pillar basement",
+            "name": "Central pillar basement",
             "type": "crate",
             "tags": [
                 "mq"
@@ -265,7 +265,7 @@
         },
 
         {
-            "title": "Second floor, cracked wall",
+            "name": "Second floor, cracked wall",
             "description": "Up from the room where you meet Ruto",
             "type": "item",
             "tags": [
@@ -273,14 +273,14 @@
             ]
         },
         {
-            "title": "Second floor, torches behind a gate",
+            "name": "Second floor, torches behind a gate",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Lizalfos hallway, gate",
+            "name": "Lizalfos hallway, gate",
             "type": "crate",
             "tags": [
                 "mq"
@@ -288,7 +288,7 @@
             "count": 2
         },
         {
-            "title": "Lizalfos hallway, hall",
+            "name": "Lizalfos hallway, hall",
             "type": "crate",
             "tags": [
                 "mq"
@@ -296,7 +296,7 @@
             "count": 3
         },
         {
-            "title": "Lizalfos hallway, room",
+            "name": "Lizalfos hallway, room",
             "type": "crate",
             "tags": [
                 "mq"
@@ -304,7 +304,7 @@
             "count": 5
         },
         {
-            "title": "Lizalfos hallway",
+            "name": "Lizalfos hallway",
             "type": "pot",
             "tags": [
                 "mq"
@@ -312,7 +312,7 @@
             "count": 3
         },
         {
-            "title": "Lizalfos hallway, gate",
+            "name": "Lizalfos hallway, gate",
             "type": "pot",
             "tags": [
                 "mq"
@@ -320,14 +320,14 @@
             "count": 2
         },
         {
-            "title": "Second floor, box button room",
+            "name": "Second floor, box button room",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Second floor, spike hallway",
+            "name": "Second floor, spike hallway",
             "type": "crate",
             "tags": [
                 "mq"
@@ -335,7 +335,7 @@
             "count": 7
         },
         {
-            "title": "Second floor, spikey hallway",
+            "name": "Second floor, spikey hallway",
             "type": "pot",
             "tags": [
                 "mq"
@@ -343,7 +343,7 @@
             "count": 3
         },
         {
-            "title": "To top water switch, lower",
+            "name": "To top water switch, lower",
             "type": "crate",
             "tags": [
                 "mq"
@@ -351,7 +351,7 @@
             "count": 6
         },
         {
-            "title": "To top water switch, upper",
+            "name": "To top water switch, upper",
             "type": "crate",
             "tags": [
                 "mq"
@@ -359,7 +359,7 @@
             "count": 2
         },
         {
-            "title": "To top water switch",
+            "name": "To top water switch",
             "type": "pot",
             "tags": [
                 "mq"
@@ -369,14 +369,14 @@
 
         
         {
-            "title": "Before dark link, lower",
+            "name": "Before dark link, lower",
             "type": "pot",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Before dark link, upper",
+            "name": "Before dark link, upper",
             "type": "pot",
             "tags": [
                 "mq"
@@ -384,21 +384,21 @@
             "count": 2
         },
         {
-            "title": "Room after dark link",
+            "name": "Room after dark link",
             "type": "pot",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "After dark link, river",
+            "name": "After dark link, river",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "After dark link, river",
+            "name": "After dark link, river",
             "type": "pot",
             "tags": [
                 "mq"
@@ -407,7 +407,7 @@
 
 
         {
-            "title": "Dragon, by door",
+            "name": "Dragon, by door",
             "type": "crate",
             "tags": [
                 "mq"
@@ -415,14 +415,14 @@
             "count": 8
         },
         {
-            "title": "Boss key chest",
+            "name": "Boss key chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Boss key room",
+            "name": "Boss key room",
             "type": "crate",
             "tags": [
                 "mq"
@@ -430,7 +430,7 @@
             "count": 5
         },
         {
-            "title": "Boss key room",
+            "name": "Boss key room",
             "type": "pot",
             "tags": [
                 "mq"
@@ -439,7 +439,7 @@
 
         
         {
-            "title": "Triple torch, submerged",
+            "name": "Triple torch, submerged",
             "type": "crate",
             "tags": [
                 "mq"
@@ -447,7 +447,7 @@
             "count": 6
         },
         {
-            "title": "Triple torch, behind gate",
+            "name": "Triple torch, behind gate",
             "type": "crate",
             "tags": [
                 "mq"
@@ -455,7 +455,7 @@
             "count": 3
         },
         {
-            "title": "Triple torch room",
+            "name": "Triple torch room",
             "type": "pot",
             "tags": [
                 "mq"
@@ -465,7 +465,7 @@
 
 
         {
-            "title": "Longshot area, waterfall room",
+            "name": "Longshot area, waterfall room",
             "type": "crate",
             "tags": [
                 "mq"
@@ -473,14 +473,14 @@
             "count": 5
         },
         {
-            "title": "Longshot area, waterfall room",
+            "name": "Longshot area, waterfall room",
             "type": "pot",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Longshot area, front crates",
+            "name": "Longshot area, front crates",
             "type": "crate",
             "tags": [
                 "mq"
@@ -488,7 +488,7 @@
             "count": 2
         },
         {
-            "title": "Longshot area, submerged",
+            "name": "Longshot area, submerged",
             "type": "crate",
             "tags": [
                 "mq"
@@ -496,7 +496,7 @@
             "count": 6
         },
         {
-            "title": "Longshot area, dodongo",
+            "name": "Longshot area, dodongo",
             "type": "crate",
             "tags": [
                 "mq"
@@ -504,7 +504,7 @@
             "count": 5
         },
         {
-            "title": "Longshot area, dodongo",
+            "name": "Longshot area, dodongo",
             "type": "pot",
             "tags": [
                 "mq"
@@ -512,14 +512,14 @@
             "count": 2
         },
         {
-            "title": "Longshot area, behind gate",
+            "name": "Longshot area, behind gate",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Longshot area, behind gate",
+            "name": "Longshot area, behind gate",
             "type": "crate",
             "tags": [
                 "mq"
@@ -528,7 +528,7 @@
         },
         
         {
-            "title": "Morpha",
+            "name": "Morpha",
             "type": "boss",
             "tags": [
                 "mq"

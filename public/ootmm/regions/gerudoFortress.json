@@ -2,9 +2,9 @@
     "name": "Gerudo's Fortress",
     "bgColor": "#ca8a04",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Chest on the roof",
+            "name": "Chest on the roof",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Horseback archery",
+            "name": "Horseback archery",
             "type": "item",
             "tags": [
                 "oot",
@@ -21,7 +21,7 @@
             "count": 2
         },
         {
-            "title": "Top of the fortress",
+            "name": "Top of the fortress",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -30,7 +30,7 @@
             ]
         },
         {
-            "title": "Target on horse archery range",
+            "name": "Target on horse archery range",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -39,7 +39,7 @@
             ]
         },
         {
-            "title": "Gerudo Card (if enabled)",
+            "name": "Gerudo Card (if enabled)",
             "type": "item",
             "tags": [
                 "oot"

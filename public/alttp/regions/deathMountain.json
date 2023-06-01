@@ -1,50 +1,50 @@
 {
     "name": "Death Mountain",
     "bgColor": "#991b1b",
-    "locations": [
+    "items": [
         {
-            "title": "Old man",
+            "name": "Old man",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Spectacle rock cave",
+            "name": "Spectacle rock cave",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Either tablet",
+            "name": "Either tablet",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Top of spectacle rock",
+            "name": "Top of spectacle rock",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Spiral cave",
+            "name": "Spiral cave",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Mimic cave",
+            "name": "Mimic cave",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Floating island",
+            "name": "Floating island",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Paradox cave, lower",
+            "name": "Paradox cave, lower",
             "count": 5,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Paradox cave, lower",
+            "name": "Paradox cave, lower",
             "count": 2,
             "type": "item",
             "tags": []

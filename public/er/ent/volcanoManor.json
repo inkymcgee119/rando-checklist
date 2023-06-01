@@ -1,7 +1,7 @@
 {
     "name": "Volcano Manor",
     "bgColor": "#be123c",
-    "entrances": [
+    "items": [
         {
             "name": "Before Abductor Virgins' arena",
             "type": "major",

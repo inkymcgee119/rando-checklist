@@ -2,9 +2,9 @@
     "name": "Bottom of the Well",
     "bgColor": "#c026d3",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Near entrance",
+            "name": "Near entrance",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -12,7 +12,7 @@
             "count": 2
         },
         {
-            "title": "Left side, basement exit",
+            "name": "Left side, basement exit",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -20,49 +20,49 @@
             "count": 3
         },
         {
-            "title": "Front left fake wall",
+            "name": "Front left fake wall",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Right side fake wall",
+            "name": "Right side fake wall",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Left side fake wall",
+            "name": "Left side fake wall",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Center room, behind skulltula",
+            "name": "Center room, behind skulltula",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Center, left key door",
+            "name": "Center, left key door",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Center, right key door",
+            "name": "Center, right key door",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Center room, flying pots",
+            "name": "Center room, flying pots",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -70,21 +70,21 @@
             "count": 3
         },
         {
-            "title": "Near lullaby, after draining",
+            "name": "Near lullaby, after draining",
             "type": "pot",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Left side, coffin room",
+            "name": "Left side, coffin room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Left side, coffin room",
+            "name": "Left side, coffin room",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -92,56 +92,56 @@
             "count": 2
         },
         {
-            "title": "Bombable debris, front",
+            "name": "Bombable debris, front",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Bombable debris, back left",
+            "name": "Bombable debris, back left",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Drained water, left side",
+            "name": "Drained water, left side",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Drained water, front",
+            "name": "Drained water, front",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Back right room, keese",
+            "name": "Back right room, keese",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Back right room, like like",
+            "name": "Back right room, like like",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Back right room, like like",
+            "name": "Back right room, like like",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Back right room, fire keese",
+            "name": "Back right room, fire keese",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -151,7 +151,7 @@
         
         
         {
-            "title": "Center, fall onto platform",
+            "name": "Center, fall onto platform",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -159,14 +159,14 @@
             "count": 5
         },
         {
-            "title": "Basement, behind rocks",
+            "name": "Basement, behind rocks",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Basement",
+            "name": "Basement",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -176,14 +176,14 @@
 
 
         {
-            "title": "Invisible chest in deadhand room",
+            "name": "Invisible chest in deadhand room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Deadhand",
+            "name": "Deadhand",
             "type": "item",
             "tags": [
                 "vanilla"
@@ -196,7 +196,7 @@
 
 
         {
-            "title": "Bombable debris, front",
+            "name": "Bombable debris, front",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -204,14 +204,14 @@
             "count": 2
         },
         {
-            "title": "Center area chest",
+            "name": "Center area chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Center area",
+            "name": "Center area",
             "type": "pot",
             "tags": [
                 "mq"
@@ -219,14 +219,14 @@
             "count": 3
         },
         {
-            "title": "Center, right room",
+            "name": "Center, right room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Center, right room",
+            "name": "Center, right room",
             "type": "pot",
             "tags": [
                 "mq"
@@ -234,7 +234,7 @@
             "count": 3
         },
         {
-            "title": "Center, left room, under gravestone",
+            "name": "Center, left room, under gravestone",
             "type": "gs",
             "tags": [
                 "mq"
@@ -242,14 +242,14 @@
         },
 
         {
-            "title": "Left side, coffin room",
+            "name": "Left side, coffin room",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Left side, coffin room",
+            "name": "Left side, coffin room",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -258,14 +258,14 @@
         },
 
         {
-            "title": "Basement, end of tunnel",
+            "name": "Basement, end of tunnel",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Basement, end of tunnel",
+            "name": "Basement, end of tunnel",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -273,7 +273,7 @@
             "count": 3
         },
         {
-            "title": "Basement chest",
+            "name": "Basement chest",
             "description": "Switch in back right room under bombable debris",
             "type": "item",
             "tags": [
@@ -281,14 +281,14 @@
             ]
         },
         {
-            "title": "Deadhand room, bombable debris",
+            "name": "Deadhand room, bombable debris",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Deadhand",
+            "name": "Deadhand",
             "type": "item",
             "tags": [
                 "mq"

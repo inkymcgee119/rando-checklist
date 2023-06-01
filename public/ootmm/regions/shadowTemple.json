@@ -2,9 +2,9 @@
     "name": "Shadow Temple",
     "bgColor": "#6b21a8",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Whispering walls, redead room",
+            "name": "Whispering walls, redead room",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Whispering walls, deadhand",
+            "name": "Whispering walls, deadhand",
             "type": "item",
             "tags": [
                 "oot",
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "title": "Gibdos room",
+            "name": "Gibdos room",
             "type": "item",
             "tags": [
                 "oot",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "title": "Spinning blade room",
+            "name": "Spinning blade room",
             "type": "item",
             "tags": [
                 "oot",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "title": "Invisible blade room",
+            "name": "Invisible blade room",
             "type": "item",
             "tags": [
                 "oot",
@@ -45,7 +45,7 @@
             "count": 2
         },
         {
-            "title": "Invisible blade room",
+            "name": "Invisible blade room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -53,7 +53,7 @@
             ]
         },
         {
-            "title": "Falling spike room",
+            "name": "Falling spike room",
             "type": "item",
             "tags": [
                 "oot",
@@ -62,7 +62,7 @@
             "count": 3
         },
         {
-            "title": "Falling spike room",
+            "name": "Falling spike room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "title": "Invisible floor spikes room",
+            "name": "Invisible floor spikes room",
             "type": "item",
             "tags": [
                 "oot",
@@ -78,7 +78,7 @@
             ]
         },
         {
-            "title": "Skull room",
+            "name": "Skull room",
             "type": "item",
             "tags": [
                 "oot",
@@ -86,7 +86,7 @@
             ]
         },
         {
-            "title": "Skull room",
+            "name": "Skull room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -94,7 +94,7 @@
             ]
         },
         {
-            "title": "Fan area, end room invisible chest",
+            "name": "Fan area, end room invisible chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -102,7 +102,7 @@
             ]
         },
         {
-            "title": "Fan area, gibdos room chest",
+            "name": "Fan area, gibdos room chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -110,7 +110,7 @@
             ]
         },
         {
-            "title": "Fan area, gibdos room debris",
+            "name": "Fan area, gibdos room debris",
             "type": "item",
             "tags": [
                 "oot",
@@ -118,7 +118,7 @@
             ]
         },
         {
-            "title": "Before boat, scarecrow song",
+            "name": "Before boat, scarecrow song",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -126,7 +126,7 @@
             ]
         },
         {
-            "title": "Invisible maze, invisible floormaster",
+            "name": "Invisible maze, invisible floormaster",
             "type": "item",
             "tags": [
                 "oot",
@@ -134,7 +134,7 @@
             ]
         },
         {
-            "title": "Invisible maze, spike trap",
+            "name": "Invisible maze, spike trap",
             "type": "item",
             "tags": [
                 "oot",
@@ -143,7 +143,7 @@
             "count": 2
         },
         {
-            "title": "Triple skull room",
+            "name": "Triple skull room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -151,7 +151,7 @@
             ]
         },
         {
-            "title": "Bongo Bongo",
+            "name": "Bongo Bongo",
             "type": "boss",
             "tags": [
                 "oot",
@@ -159,7 +159,7 @@
             ]
         },
         {
-            "title": "Whispering walls, redead room",
+            "name": "Whispering walls, redead room",
             "type": "item",
             "tags": [
                 "oot",
@@ -167,7 +167,7 @@
             ]
         },
         {
-            "title": "Whispering walls, deadhand",
+            "name": "Whispering walls, deadhand",
             "type": "item",
             "tags": [
                 "oot",
@@ -175,7 +175,7 @@
             ]
         },
         {
-            "title": "Gibdos room",
+            "name": "Gibdos room",
             "type": "item",
             "tags": [
                 "oot",
@@ -183,7 +183,7 @@
             ]
         },
         {
-            "title": "Spinning blade room",
+            "name": "Spinning blade room",
             "type": "item",
             "tags": [
                 "oot",
@@ -191,7 +191,7 @@
             ]
         },
         {
-            "title": "Spinning blade room, invisible chest",
+            "name": "Spinning blade room, invisible chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -199,7 +199,7 @@
             ]
         },
         {
-            "title": "Invisible blade room, visible chest",
+            "name": "Invisible blade room, visible chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -207,7 +207,7 @@
             ]
         },
         {
-            "title": "Invisible blade room, invisible chest",
+            "name": "Invisible blade room, invisible chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -215,7 +215,7 @@
             ]
         },
         {
-            "title": "Silver rupees around the beamos",
+            "name": "Silver rupees around the beamos",
             "type": "item",
             "tags": [
                 "oot",
@@ -223,7 +223,7 @@
             ]
         },
         {
-            "title": "Falling spike room",
+            "name": "Falling spike room",
             "type": "item",
             "tags": [
                 "oot",
@@ -232,7 +232,7 @@
             "count": 3
         },
         {
-            "title": "Falling spike room",
+            "name": "Falling spike room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -240,7 +240,7 @@
             ]
         },
         {
-            "title": "Invisible floor spikes room",
+            "name": "Invisible floor spikes room",
             "type": "item",
             "tags": [
                 "oot",
@@ -248,7 +248,7 @@
             ]
         },
         {
-            "title": "Stalfos room",
+            "name": "Stalfos room",
             "type": "item",
             "tags": [
                 "oot",
@@ -256,7 +256,7 @@
             ]
         },
         {
-            "title": "Fan area, end room invisible chest",
+            "name": "Fan area, end room invisible chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -264,7 +264,7 @@
             ]
         },
         {
-            "title": "Fan area, end room",
+            "name": "Fan area, end room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -272,7 +272,7 @@
             ]
         },
         {
-            "title": "Fan area, gibdos room, kill enemies",
+            "name": "Fan area, gibdos room, kill enemies",
             "type": "item",
             "tags": [
                 "oot",
@@ -280,7 +280,7 @@
             ]
         },
         {
-            "title": "Fan area, gibdos room, debris",
+            "name": "Fan area, gibdos room, debris",
             "type": "item",
             "tags": [
                 "oot",
@@ -288,7 +288,7 @@
             ]
         },
         {
-            "title": "Fan area, gibdos room, debris",
+            "name": "Fan area, gibdos room, debris",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -296,7 +296,7 @@
             ]
         },
         {
-            "title": "After boat, in the pit",
+            "name": "After boat, in the pit",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -304,7 +304,7 @@
             ]
         },
         {
-            "title": "Invisible maze, deadhand",
+            "name": "Invisible maze, deadhand",
             "type": "item",
             "tags": [
                 "oot",
@@ -312,7 +312,7 @@
             ]
         },
         {
-            "title": "Invisible maze, triple skull",
+            "name": "Invisible maze, triple skull",
             "type": "item",
             "tags": [
                 "oot",
@@ -320,7 +320,7 @@
             ]
         },
         {
-            "title": "Invisible maze, spike trap",
+            "name": "Invisible maze, spike trap",
             "type": "item",
             "tags": [
                 "oot",
@@ -329,7 +329,7 @@
             "count": 2
         },
         {
-            "title": "Room before Bongo Bongo",
+            "name": "Room before Bongo Bongo",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -337,7 +337,7 @@
             ]
         },
         {
-            "title": "Bongo Bongo",
+            "name": "Bongo Bongo",
             "type": "boss",
             "tags": [
                 "oot",

@@ -1,14 +1,14 @@
 {
     "name": "Lake of Rot",
     "bgColor": "#7f1d1d",
-    "locations": [
+    "items": [
         {
             "type": "major",
-            "title": "Astel, Naturalborn of the Void"
+            "name": "Astel, Naturalborn of the Void"
         },
         {
             "type": "minor",
-            "title": "Dragonkin Soldier"
+            "name": "Dragonkin Soldier"
         }
     ]
 }

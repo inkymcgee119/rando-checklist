@@ -2,7 +2,7 @@
     "name": "Flame Peak Boss Arenas",
     "bgColor": "linear-gradient(90deg, #27272a, #f97316 60%)",
     "dropdownColor": "#f97316",
-    "entrances": [
+    "items": [
         {
             "name": "Fire Giant, left",
             "type": "major",

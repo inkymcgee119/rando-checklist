@@ -1,106 +1,106 @@
 {
     "name": "Limgrave",
     "bgColor": "#4d7c0f",
-    "locations": [
+    "items": [
         {
             "type": "key",
-            "title": "Dectus Medallion (Left)",
+            "name": "Dectus Medallion (Left)",
             "description": "Fort Haight, in a chest at the top of a tower"
         },
         {
             "type": "flask",
-            "title": "Third Church of Marika, northeast of the Mistwood"
+            "name": "Third Church of Marika, northeast of the Mistwood"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree in front of Fort Haight"
+            "name": "Golden Seed tree in front of Fort Haight"
         },
         {
             "type": "shop",
-            "title": "Kale at the Church of Elleh"
+            "name": "Kale at the Church of Elleh"
         },
         {
             "type": "shop",
-            "title": "Nomadic Merchant between Saintsbridge and Summonwater Village"
+            "name": "Nomadic Merchant between Saintsbridge and Summonwater Village"
         },
         {
             "type": "shop",
-            "title": "Nomadic Merchant in front of Coastal Cave"
+            "name": "Nomadic Merchant in front of Coastal Cave"
         },
         {
             "type": "shop",
-            "title": "Nomadic Merchant in the Mistwood along the road to Fort Haight"
+            "name": "Nomadic Merchant in the Mistwood along the road to Fort Haight"
         },
         {
             "type": "shop",
-            "title": "Murkwater Cave, Patches"
+            "name": "Murkwater Cave, Patches"
         },
         {
             "type": "minor",
-            "title": "Bloodhound Knight Darriwil in Forlorn Hound Evergaol"
+            "name": "Bloodhound Knight Darriwil in Forlorn Hound Evergaol"
         },
         {
             "type": "minor",
-            "title": "Flying Dragon Agheel"
+            "name": "Flying Dragon Agheel"
         },
         {
             "type": "minor",
-            "title": "Tibia Mariner in Summonwater Village"
+            "name": "Tibia Mariner in Summonwater Village"
         },
         {
             "type": "minor",
-            "title": "Tree Sentinel before the Church of Elleh"
+            "name": "Tree Sentinel before the Church of Elleh"
         },
         {
             "type": "miniboss",
-            "title": "Fringefolk Hero's Grave, Ulcerated Tree Spirit"
+            "name": "Fringefolk Hero's Grave, Ulcerated Tree Spirit"
         },
         {
             "type": "miniboss",
-            "title": "Coastal Cave, Demi-Human Chiefs"
+            "name": "Coastal Cave, Demi-Human Chiefs"
         },
         {
             "type": "miniboss",
-            "title": "Groveside Cave, Beastman of Farum Azula"
+            "name": "Groveside Cave, Beastman of Farum Azula"
         },
         {
             "type": "miniboss",
-            "title": "Highroad Cave, Guardian Golem"
+            "name": "Highroad Cave, Guardian Golem"
         },
         {
             "type": "miniboss",
-            "title": "Murkwater Catacombs, Grave Warden Duelist"
+            "name": "Murkwater Catacombs, Grave Warden Duelist"
         },
         {
             "type": "miniboss",
-            "title": "Stormfoot Catacombs, Erdtree Burial Watchdog"
+            "name": "Stormfoot Catacombs, Erdtree Burial Watchdog"
         },
         {
             "type": "miniboss",
-            "title": "Limgrave Tunnels, Stonedigger Troll"
+            "name": "Limgrave Tunnels, Stonedigger Troll"
         },
         {
             "type": "night",
-            "title": "Night's Calvary on the bridge eastward of Agheel Lake North"
+            "name": "Night's Calvary on the bridge eastward of Agheel Lake North"
         },
         {
             "type": "tali",
-            "title": "Axe Talisman",
+            "name": "Axe Talisman",
             "description": "In a chest down the stairs in Mistwood Ruins"
         },
         {
             "type": "tali",
-            "title": "Green Turtle Talisman",
+            "name": "Green Turtle Talisman",
             "description": "Imp Statue barrier in Summonwater Village"
         },
         {
             "type": "tali",
-            "title": "Haligdrake Talisman",
+            "name": "Haligdrake Talisman",
             "description": "Cave entrance on the ruined beach to the southeast"
         },
         {
             "type": "minitali",
-            "title": "Erdtree's Favor",
+            "name": "Erdtree's Favor",
             "description": "Fringefolk Hero's Grave, Guarded by a Grafted Scion"
         }
     ]

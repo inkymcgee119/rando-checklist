@@ -1,61 +1,61 @@
 {
     "name": "Zora Cape",
     "bgColor": "#6366f1",
-    "locations": [
+    "items": [
         {
-            "title": "Beaver race",
+            "name": "Beaver race",
             "count": 2,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Grotto",
+            "name": "Grotto",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Pot game",
+            "name": "Pot game",
             "type": "mundane",
             "tags": []
         },
         {
-            "title": "Ledge with tree chest",
+            "name": "Ledge with tree chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Deku flower ledge",
+            "name": "Deku flower ledge",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Like-Like",
+            "name": "Like-Like",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Underwater chest",
+            "name": "Underwater chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Great fairy",
+            "name": "Great fairy",
             "type": "fairyrewards",
             "tags": []
         },
         {
-            "title": "Pots near owl",
+            "name": "Pots near owl",
             "count": 3,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Pot near waterfall",
+            "name": "Pot near waterfall",
             "type": "fixed",
             "tags": []
         }
     ],
-    "entrances": [
+    "items": [
         {
             "name": "Great Bay Temple",
             "type": "dungeon"

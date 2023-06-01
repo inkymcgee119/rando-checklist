@@ -1,7 +1,7 @@
 {
     "name": "Mohgwyn",
     "bgColor": "#f472b6",
-    "entrances": [
+    "items": [
         {
             "name": "Start of Mohgwyn Palace, from sending gate", 
             "type": "critical",

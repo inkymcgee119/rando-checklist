@@ -1,7 +1,7 @@
 {
     "name": "Great Bay",
     "bgColor": "#3b82f6",
-    "entrances": [        
+    "items": [        
         {
             "name": "Termina Field",
             "type": "region"

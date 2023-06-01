@@ -1,46 +1,46 @@
 {
     "name": "Zora Hall",
     "bgColor": "#1e3a8a",
-    "locations": [
+    "items": [
         {
-            "title": "Evan's song",
+            "name": "Evan's song",
             "description": "► ► ▼ A A ▼ ► A ◄ ◄ ► ▼ ▼ ► ◄ ▼",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Lulu's room ledge",
+            "name": "Lulu's room ledge",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Pictograph of Lulu, Bad",
+            "name": "Pictograph of Lulu, Bad",
             "type": "mundane",
             "tags": []
         },
         {
-            "title": "Pictograph of Lulu, Good",
+            "name": "Pictograph of Lulu, Good",
             "type": "mundane",
             "tags": []
         },
         {
-            "title": "Zora hall stage lights",
+            "name": "Zora hall stage lights",
             "type": "mundane",
             "tags": []
         },
         {
-            "title": "Zora shop",
+            "name": "Zora shop",
             "count": 3,
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Ocean scrub purchase",
+            "name": "Ocean scrub purchase",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Ocean scrub trade",
+            "name": "Ocean scrub trade",
             "type": "item",
             "tags": []
         }

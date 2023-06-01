@@ -1,45 +1,45 @@
 {
     "name": "Hyrule Castle",
     "bgColor": "#0e7490",
-    "locations": [
+    "items": [
         {
-            "title": "Link's uncle",
+            "name": "Link's uncle",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Secret passage",
+            "name": "Secret passage",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Castle, boomerang chest",
+            "name": "Castle, boomerang chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Castle, map chest",
+            "name": "Castle, map chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Castle, zelda's cell",
+            "name": "Castle, zelda's cell",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Sewers, dark cross",
+            "name": "Sewers, dark cross",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Sewers, secret room",
+            "name": "Sewers, secret room",
             "count": 3,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Sanctuary chest",
+            "name": "Sanctuary chest",
             "type": "item",
             "tags": []
         }

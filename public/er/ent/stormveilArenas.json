@@ -2,7 +2,7 @@
     "name": "Stormveil Boss Arenas",
     "bgColor": "linear-gradient(90deg, #27272a, #14b8a6 60%)",
     "dropdownColor": "#14b8a6",
-    "entrances": [
+    "items": [
         {
             "name": "Stormveil, Godrick, front",
             "type": "major",

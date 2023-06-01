@@ -2,7 +2,7 @@
     "name": "Dragonbarrow Dungeons",
     "bgColor": "repeating-linear-gradient(-45deg, #134e4a 0px 10px, #27272a 10px 20px)",
     "dropdownColor": "#134e4a",
-    "entrances": [
+    "items": [
         {
             "name": "Sellia Hideaway, entrance", 
             "type": "dungeon",

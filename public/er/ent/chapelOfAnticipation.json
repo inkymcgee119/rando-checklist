@@ -1,7 +1,7 @@
 {
     "name": "Chapel of Anticipation",
     "bgColor": "#e11d48",
-    "entrances": [        
+    "items": [        
         {
             "name": "Pureblood Knight's Medal from anywhere", 
             "type": "critical",

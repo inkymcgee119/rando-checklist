@@ -1,55 +1,55 @@
 {
     "name": "Academy of Raya Lucaria",
     "bgColor": "#3730a3",
-    "locations": [
+    "items": [
         {
             "type": "key",
-            "title": "Dark Moon Ring",
+            "name": "Dark Moon Ring",
             "description": "In a chest unlocked by Discarded Palace Key in the Raya Lucaria Grand Library"
         },
         {
             "type": "key",
-            "title": "Imbued Sword Key",
+            "name": "Imbued Sword Key",
             "description": "On a robed corpse in the Raya Lucaria rooftop path, accessed by looping around from Debate Parlor by dropping down past the rubble-strewn stairs"
         },
         {
             "type": "major",
-            "title": "Red Wolf of Radagon"
+            "name": "Red Wolf of Radagon"
         },
         {
             "type": "major",
-            "title": "Rennala"
+            "name": "Rennala"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree in the courtyard after Debate Parlor"
+            "name": "Golden Seed tree in the courtyard after Debate Parlor"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree on a bridge to north of the Main Academy Gate"
+            "name": "Golden Seed tree on a bridge to north of the Main Academy Gate"
         },
         {
             "type": "shop",
-            "title": "Isolated Merchant southeast of Main Academy Gate"
+            "name": "Isolated Merchant southeast of Main Academy Gate"
         },
         {
             "type": "tali",
-            "title": "Glintstone Scarab",
+            "name": "Glintstone Scarab",
             "description": "In a chest found dropping down in the garden to the left of the elevator to the Grand Library, then up a ladder"
         },
         {
             "type": "tali",
-            "title": "Radagon Icon",
+            "name": "Radagon Icon",
             "description": "In a chest found on the second floor of Debate Parlor, found by dropping down immediately to the right after Debate Parlor, then up a ladder and through a broken window"
         },
         {
             "type": "tali",
-            "title": "Graven-School Talisman",
+            "name": "Graven-School Talisman",
             "description": "In a pile of crystals behind an illusory wall before Debate Parlor on the left, then dropping down to a second room"
         },
         {
             "type": "tali",
-            "title": "Longtail Cat Talisman",
+            "name": "Longtail Cat Talisman",
             "description": "On a corpse at the bottom of the giant rotating lift, guarded by an Iron Virgin"
         }
     ]

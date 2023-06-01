@@ -1,7 +1,7 @@
 {
     "name": "Lake of Rot",
     "bgColor": "#7f1d1d",
-    "entrances": [
+    "items": [
         {
             "name": "Resting in the coffin", 
             "type": "underground",

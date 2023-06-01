@@ -1,7 +1,7 @@
 {
     "name": "Bellum Highway",
     "bgColor": "#ec4899",
-    "entrances": [
+    "items": [
         {
             "name": "Using East Raya Lucaria Gate",
             "type": "legacy",

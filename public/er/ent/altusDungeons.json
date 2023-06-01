@@ -2,7 +2,7 @@
     "name": "Altus Plateau Dungeons",
     "bgColor": "repeating-linear-gradient(-45deg, #f59e0b 0px 10px, #27272a 10px 20px)",
     "dropdownColor": "#f59e0b",
-    "entrances": [
+    "items": [
         {
             "name": "Sainted Hero's Grave, entrance", 
             "type": "dungeon",

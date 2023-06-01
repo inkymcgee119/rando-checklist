@@ -1,30 +1,30 @@
 {
     "name": "West Clock Town",
     "bgColor": "#db2777",
-    "locations": [
+    "items": [
         {
-            "title": "Bank reward #1",
+            "name": "Bank reward #1",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Bank reward #2",
+            "name": "Bank reward #2",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Bank reward #3",
+            "name": "Bank reward #3",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Curiosity shop, all-night mask",
+            "name": "Curiosity shop, all-night mask",
             "type": "mmshop",
             "tags": [
                 "mm",
@@ -33,28 +33,28 @@
             ]
         },
         {
-            "title": "Postman's game",
+            "name": "Postman's game",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Rosa sisters",
+            "name": "Rosa sisters",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Swordsman's school",
+            "name": "Swordsman's school",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Bomb shop",
+            "name": "Bomb shop",
             "count": 3,
             "type": "mmshop",
             "tags": [
@@ -62,7 +62,7 @@
             ]
         },
         {
-            "title": "Big bomb bag purchase",
+            "name": "Big bomb bag purchase",
             "description": "Save old lady on night 1 or buy from curiosity shop night 3",
             "type": "mmshop",
             "tags": [
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "title": "Trading post",
+            "name": "Trading post",
             "count": 8,
             "type": "mmshop",
             "tags": [

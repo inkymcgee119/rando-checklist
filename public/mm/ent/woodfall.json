@@ -1,7 +1,7 @@
 {
     "name": "Woodfall",
     "bgColor": "#365314",
-    "entrances": [
+    "items": [
         {
             "name": "Woodfall Temple",
             "type": "dungeon"

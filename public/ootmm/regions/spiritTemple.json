@@ -2,9 +2,9 @@
     "name": "Spirit Temple",
     "bgColor": "#f97316",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Child side, left room",
+            "name": "Child side, left room",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Child side, right room",
+            "name": "Child side, right room",
             "type": "item",
             "tags": [
                 "oot",
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "title": "Child side, right room, on fence",
+            "name": "Child side, right room, on fence",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "title": "Child climb",
+            "name": "Child climb",
             "type": "item",
             "tags": [
                 "oot",
@@ -37,7 +37,7 @@
             "count": 2
         },
         {
-            "title": "Child climb",
+            "name": "Child climb",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "title": "Main statue room, center torches",
+            "name": "Main statue room, center torches",
             "type": "item",
             "tags": [
                 "oot",
@@ -53,7 +53,7 @@
             ]
         },
         {
-            "title": "Main statue room, lullaby hand",
+            "name": "Main statue room, lullaby hand",
             "type": "item",
             "tags": [
                 "oot",
@@ -61,7 +61,7 @@
             ]
         },
         {
-            "title": "Main statue room, lullaby upper",
+            "name": "Main statue room, lullaby upper",
             "type": "item",
             "tags": [
                 "oot",
@@ -69,7 +69,7 @@
             ]
         },
         {
-            "title": "Main statue room, left upper ledge",
+            "name": "Main statue room, left upper ledge",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -77,7 +77,7 @@
             ]
         },
         {
-            "title": "Sun block room, torches",
+            "name": "Sun block room, torches",
             "type": "item",
             "tags": [
                 "oot",
@@ -85,7 +85,7 @@
             ]
         },
         {
-            "title": "Before child iron knuckles",
+            "name": "Before child iron knuckles",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -93,7 +93,7 @@
             ]
         },
         {
-            "title": "Silver Gauntlet chest",
+            "name": "Silver Gauntlet chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -101,7 +101,7 @@
             ]
         },
         {
-            "title": "Adult side, lullaby room",
+            "name": "Adult side, lullaby room",
             "type": "item",
             "tags": [
                 "oot",
@@ -109,7 +109,7 @@
             ]
         },
         {
-            "title": "Adult side, boulder room",
+            "name": "Adult side, boulder room",
             "type": "item",
             "tags": [
                 "oot",
@@ -117,7 +117,7 @@
             ]
         },
         {
-            "title": "Adult side, boulder room",
+            "name": "Adult side, boulder room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -125,7 +125,7 @@
             ]
         },
         {
-            "title": "Adult side, mirror room",
+            "name": "Adult side, mirror room",
             "type": "item",
             "tags": [
                 "oot",
@@ -134,7 +134,7 @@
             "count": 2
         },
         {
-            "title": "Adult side, sun switch room",
+            "name": "Adult side, sun switch room",
             "type": "item",
             "tags": [
                 "oot",
@@ -142,7 +142,7 @@
             ]
         },
         {
-            "title": "Hallway, invisible",
+            "name": "Hallway, invisible",
             "type": "item",
             "tags": [
                 "oot",
@@ -151,7 +151,7 @@
             "count": 2
         },
         {
-            "title": "Mirror shield chest",
+            "name": "Mirror shield chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -159,7 +159,7 @@
             ]
         },
         {
-            "title": "Boss key room",
+            "name": "Boss key room",
             "type": "item",
             "tags": [
                 "oot",
@@ -167,7 +167,7 @@
             ]
         },
         {
-            "title": "Mirror room",
+            "name": "Mirror room",
             "description": "Shine light onto the sun to spawn the chest",
             "type": "item",
             "tags": [
@@ -176,7 +176,7 @@
             ]
         },
         {
-            "title": "Twinrova",
+            "name": "Twinrova",
             "type": "boss",
             "tags": [
                 "oot",
@@ -184,7 +184,7 @@
             ]
         },
         {
-            "title": "Entrance, free chest",
+            "name": "Entrance, free chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -192,7 +192,7 @@
             ]
         },
         {
-            "title": "Entrance, switch chest",
+            "name": "Entrance, switch chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -200,7 +200,7 @@
             ]
         },
         {
-            "title": "Entrance, eye switch chest",
+            "name": "Entrance, eye switch chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -208,7 +208,7 @@
             ]
         },
         {
-            "title": "Entrance, adult side, silver rupees",
+            "name": "Entrance, adult side, silver rupees",
             "type": "item",
             "tags": [
                 "oot",
@@ -216,7 +216,7 @@
             ]
         },
         {
-            "title": "Child side, gibdo room, free chest",
+            "name": "Child side, gibdo room, free chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -224,7 +224,7 @@
             ]
         },
         {
-            "title": "Child side, gibdo room, kill enemies",
+            "name": "Child side, gibdo room, kill enemies",
             "type": "item",
             "tags": [
                 "oot",
@@ -232,7 +232,7 @@
             ]
         },
         {
-            "title": "Child side, hammer switch",
+            "name": "Child side, hammer switch",
             "type": "item",
             "tags": [
                 "oot",
@@ -240,7 +240,7 @@
             ]
         },
         {
-            "title": "Child climb, kill enemies",
+            "name": "Child climb, kill enemies",
             "type": "item",
             "tags": [
                 "oot",
@@ -248,7 +248,7 @@
             ]
         },
         {
-            "title": "Child climb, on pillar",
+            "name": "Child climb, on pillar",
             "type": "item",
             "tags": [
                 "oot",
@@ -256,7 +256,7 @@
             ]
         },
         {
-            "title": "Silver block hallway, eye switch",
+            "name": "Silver block hallway, eye switch",
             "description": "This is accessed as child, use din's fire on the frozen eye switch to access the hallway, the eye switch is hidden in the pit",
             "type": "item",
             "tags": [
@@ -265,7 +265,7 @@
             ]
         },
         {
-            "title": "Main statue room, eye switch",
+            "name": "Main statue room, eye switch",
             "type": "item",
             "tags": [
                 "oot",
@@ -273,7 +273,7 @@
             ]
         },
         {
-            "title": "Main statue room, lullaby chest",
+            "name": "Main statue room, lullaby chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -281,7 +281,7 @@
             ]
         },
         {
-            "title": "Main statue room, upper right ledge",
+            "name": "Main statue room, upper right ledge",
             "type": "item",
             "tags": [
                 "oot",
@@ -289,7 +289,7 @@
             ]
         },
         {
-            "title": "Sun block room chest",
+            "name": "Sun block room chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -297,7 +297,7 @@
             ]
         },
         {
-            "title": "Sun block room",
+            "name": "Sun block room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -305,7 +305,7 @@
             ]
         },
         {
-            "title": "Silver gauntlet chest",
+            "name": "Silver gauntlet chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -313,7 +313,7 @@
             ]
         },
         {
-            "title": "Adult side, lullaby room, leevers",
+            "name": "Adult side, lullaby room, leevers",
             "type": "item",
             "tags": [
                 "oot",
@@ -321,7 +321,7 @@
             ]
         },
         {
-            "title": "Adult side, lullaby room",
+            "name": "Adult side, lullaby room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -329,7 +329,7 @@
             ]
         },
         {
-            "title": "Adult side, song room",
+            "name": "Adult side, song room",
             "type": "item",
             "tags": [
                 "oot",
@@ -337,7 +337,7 @@
             ]
         },
         {
-            "title": "Adult side, room after song room",
+            "name": "Adult side, room after song room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -345,7 +345,7 @@
             ]
         },
         {
-            "title": "Song of time block puzzle room",
+            "name": "Song of time block puzzle room",
             "type": "item",
             "tags": [
                 "oot",
@@ -353,7 +353,7 @@
             ]
         },
         {
-            "title": "Before mirror shield, free chest",
+            "name": "Before mirror shield, free chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -361,7 +361,7 @@
             ]
         },
         {
-            "title": "Before mirror shield, sun switch",
+            "name": "Before mirror shield, sun switch",
             "type": "item",
             "tags": [
                 "oot",
@@ -369,7 +369,7 @@
             ]
         },
         {
-            "title": "Mirror shield chest",
+            "name": "Mirror shield chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -377,7 +377,7 @@
             ]
         },
         {
-            "title": "Iron knuckle room",
+            "name": "Iron knuckle room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -386,7 +386,7 @@
             "count": 2
         },
         {
-            "title": "Mirror room, invisible chest by bars",
+            "name": "Mirror room, invisible chest by bars",
             "type": "item",
             "tags": [
                 "oot",
@@ -394,7 +394,7 @@
             ]
         },
         {
-            "title": "Twinrova",
+            "name": "Twinrova",
             "type": "boss",
             "tags": [
                 "oot",

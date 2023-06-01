@@ -1,7 +1,7 @@
 {
     "name": "Market entrance",
     "bgColor": "#64748b",
-    "entrances": [
+    "items": [
         {
             "name": "Hyrule field",
             "type": "overworld"

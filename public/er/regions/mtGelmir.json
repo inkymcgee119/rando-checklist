@@ -1,50 +1,50 @@
 {
     "name": "Mt. Gelmir",
     "bgColor": "#3f6212",
-    "locations": [
+    "items": [
         {
             "type": "flask",
-            "title": "Golden Seed tree before the Road of Iniquity Site of Grace"
+            "name": "Golden Seed tree before the Road of Iniquity Site of Grace"
         },
         {
             "type": "flask",
-            "title": "Golden Tree found following Seethwater River north"
+            "name": "Golden Tree found following Seethwater River north"
         },
         {
             "type": "shop",
-            "title": "Nomadic Merchant in the long ladder section before Ninth Mt. Gelmir Campsite"
+            "name": "Nomadic Merchant in the long ladder section before Ninth Mt. Gelmir Campsite"
         },
         {
             "type": "minor",
-            "title": "Demi-Human Queen Maggie in Hermit Village"
+            "name": "Demi-Human Queen Maggie in Hermit Village"
         },
         {
             "type": "minor",
-            "title": "Full-Grown Fallingstar Beast after Ninth Mt. Gelmir Campsite"
+            "name": "Full-Grown Fallingstar Beast after Ninth Mt. Gelmir Campsite"
         },
         {
             "type": "minor",
-            "title": "Magma Wyrm behind Fort Laiedd"
+            "name": "Magma Wyrm behind Fort Laiedd"
         },
         {
             "type": "minor",
-            "title": "Ulcerated Tree Spirit at the Mt. Gelmir Minor Erdtree"
+            "name": "Ulcerated Tree Spirit at the Mt. Gelmir Minor Erdtree"
         },
         {
             "type": "miniboss",
-            "title": "Gelmir Hero's Grave, Red Wolf of the Champion"
+            "name": "Gelmir Hero's Grave, Red Wolf of the Champion"
         },
         {
             "type": "miniboss",
-            "title": "Seethewater Cave, Kindred of Rot"
+            "name": "Seethewater Cave, Kindred of Rot"
         },
         {
             "type": "miniboss",
-            "title": "Volcano Cave, Demi-Human Queen Margot"
+            "name": "Volcano Cave, Demi-Human Queen Margot"
         },
         {
             "type": "tali",
-            "title": "Fire Scorpion Charm",
+            "name": "Fire Scorpion Charm",
             "description": "Found at the top of Fort Laiedd, equires jumping on top of the wall"
         }
     ]

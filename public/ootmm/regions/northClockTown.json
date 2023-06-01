@@ -1,16 +1,16 @@
 {
     "name": "North Clock Town",
     "bgColor": "#0ea5e9",
-    "locations": [
+    "items": [
         {
-            "title": "Bombers' hide and seek",
+            "name": "Bombers' hide and seek",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Tingle maps",
+            "name": "Tingle maps",
             "count": 2,
             "type": "item",
             "tags": [
@@ -18,21 +18,21 @@
             ]
         },
         {
-            "title": "Keaton quiz",
+            "name": "Keaton quiz",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "In the tree",
+            "name": "In the tree",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Save old lady",
+            "name": "Save old lady",
             "type": "item",
             "tags": [
                 "mm",
@@ -41,28 +41,28 @@
             ]
         },
         {
-            "title": "Deku playground, any day",
+            "name": "Deku playground, any day",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Deku playground, three days",
+            "name": "Deku playground, three days",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Great fairy, human",
+            "name": "Great fairy, human",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Great fairy, non-human",
+            "name": "Great fairy, non-human",
             "type": "mmfairies",
             "tags": [
                 "mm"

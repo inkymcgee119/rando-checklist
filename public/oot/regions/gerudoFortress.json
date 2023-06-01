@@ -2,41 +2,41 @@
     "name": "Gerudo's Fortress",
     "bgColor": "#ca8a04",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Chest on the roof",
+            "name": "Chest on the roof",
             "type": "item",
             "tags": [
                 "adult"
             ]
         },
         {
-            "title": "Guard 1",
+            "name": "Guard 1",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Guard 2",
+            "name": "Guard 2",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Guard 3",
+            "name": "Guard 3",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Guard 4",
+            "name": "Guard 4",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Membership card (if enabled)",
+            "name": "Membership card (if enabled)",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Horseback archery",
+            "name": "Horseback archery",
             "type": "item",
             "tags": [
                 "adult"
@@ -44,7 +44,7 @@
             "count": 2
         },
         {
-            "title": "Top of the fortress",
+            "name": "Top of the fortress",
             "type": "gs",
             "tags": [
                 "adult",
@@ -52,7 +52,7 @@
             ]
         },
         {
-            "title": "Target on horse archery range",
+            "name": "Target on horse archery range",
             "type": "gs",
             "tags": [
                 "adult",
@@ -60,64 +60,64 @@
             ]
         },
         {
-            "title": "Above jail cell",
+            "name": "Above jail cell",
             "type": "crate",
             "tags": []
         },
         {
-            "title": "Break room",
+            "name": "Break room",
             "type": "crate",
             "tags": [],
             "count": 4
         },
         {
-            "title": "Kitchen",
+            "name": "Kitchen",
             "type": "crate",
             "tags": [],
             "count": 5
         },
         {
-            "title": "One torch jail",
+            "name": "One torch jail",
             "type": "crate",
             "tags": []
         },
         {
-            "title": "Two torch jail",
+            "name": "Two torch jail",
             "type": "crate",
             "tags": [],
             "count": 2
         },
         {
-            "title": "Three torch jail",
+            "name": "Three torch jail",
             "type": "crate",
             "tags": []
         },
         {
-            "title": "Break room",
+            "name": "Break room",
             "type": "pot",
             "tags": [],
             "count": 2
         },
         {
-            "title": "Kitchen",
+            "name": "Kitchen",
             "type": "pot",
             "tags": [],
             "count": 2
         },
         {
-            "title": "One torch jail",
+            "name": "One torch jail",
             "type": "pot",
             "tags": [],
             "count": 3
         },
         {
-            "title": "Two torch jail",
+            "name": "Two torch jail",
             "type": "pot",
             "tags": [],
             "count": 7
         },
         {
-            "title": "Four torch jail",
+            "name": "Four torch jail",
             "type": "pot",
             "tags": [],
             "count": 2

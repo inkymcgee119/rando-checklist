@@ -2,7 +2,7 @@
     "name": "Altus Plateau Boss Arenas",
     "bgColor": "linear-gradient(90deg, #27272a, #f59e0b 60%)",
     "dropdownColor": "#f59e0b",
-    "entrances": [
+    "items": [
         {
             "name": "Shaded Castle, Elemer of the Briar",
             "type": "major",

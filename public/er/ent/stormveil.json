@@ -1,7 +1,7 @@
 {
     "name": "Stormveil Castle",
     "bgColor": "#14b8a6",
-    "entrances": [
+    "items": [
         {
             "name": "After Margit's arena",
             "type": "major",

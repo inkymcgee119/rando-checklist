@@ -1,58 +1,58 @@
 {
     "name": "East Clock Town",
     "bgColor": "#16a34a",
-    "locations": [
+    "items": [
         {
-            "title": "Bombers' hideout chest",
+            "name": "Bombers' hideout chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "East clock town chest",
+            "name": "East clock town chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Gorman",
+            "name": "Gorman",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Honey and Darling, any day",
+            "name": "Honey and Darling, any day",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Honey and Darling, three days",
+            "name": "Honey and Darling, three days",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Madame Aroma, in office",
+            "name": "Madame Aroma, in office",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Madame Aroma, in bar",
+            "name": "Madame Aroma, in bar",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Mayor",
+            "name": "Mayor",
             "type": "item",
             "tags": [
                 "mm",
@@ -60,14 +60,14 @@
             ]
         },
         {
-            "title": "Postman's freedom reward",
+            "name": "Postman's freedom reward",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Town archery",
+            "name": "Town archery",
             "count": 2,
             "type": "item",
             "tags": [
@@ -75,21 +75,21 @@
             ]
         },
         {
-            "title": "Treasure chest game, goron",
+            "name": "Treasure chest game, goron",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Milk bar, purchase milk",
+            "name": "Milk bar, purchase milk",
             "type": "mmmerchant",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Milk bar, purchase chateau",
+            "name": "Milk bar, purchase chateau",
             "type": "mmmerchant",
             "tags": [
                 "mm"

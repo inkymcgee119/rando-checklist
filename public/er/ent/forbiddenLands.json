@@ -1,7 +1,7 @@
 {
     "name": "Forbidden Lands",
     "bgColor": "#292524",
-    "entrances": [
+    "items": [
         {
             "name": "At the exit from Divine Tower of East Altus",
             "type": "critical",

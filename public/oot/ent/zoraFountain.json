@@ -1,7 +1,7 @@
 {
     "name": "Zora's Fountain",
     "bgColor": "#d946ef",
-    "entrances": [
+    "items": [
         {
             "name": "Zora's domain",
             "type": "overworld"

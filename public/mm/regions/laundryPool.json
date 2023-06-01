@@ -1,27 +1,27 @@
 {
     "name": "Laundry Pool",
     "bgColor": "#3b82f6",
-    "locations": [
+    "items": [
         {
-            "title": "Kafei",
+            "name": "Kafei",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Curiosity shop man",
+            "name": "Curiosity shop man",
             "count": 2,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Guru Guru",
+            "name": "Guru Guru",
             "type": "item",
             "tags": [
                 "night"
             ]
         },
         {
-            "title": "Fairy over water",
+            "name": "Fairy over water",
             "type": "fairies",
             "tags": [
                 "day1",
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "title": "Underwater",
+            "name": "Underwater",
             "count": 3,
             "type": "rupee",
             "tags": [
@@ -38,7 +38,7 @@
             ]
         },
         {
-            "title": "Crate in the corner",
+            "name": "Crate in the corner",
             "type": "fixed",
             "tags": []
         }

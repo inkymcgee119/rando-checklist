@@ -2,7 +2,7 @@
     "name": "Leyndell Boss Arenas",
     "bgColor": "linear-gradient(90deg, #27272a, #831843 60%)",
     "dropdownColor": "#831843",
-    "entrances": [
+    "items": [
         {
             "name": "Godfrey, side",
             "type": "major",

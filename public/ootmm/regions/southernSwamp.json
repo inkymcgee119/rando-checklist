@@ -1,37 +1,37 @@
 {
     "name": "Southern Swamp",
     "bgColor": "#059669",
-    "locations": [
+    "items": [
         {
-            "title": "Boat archery",
+            "name": "Boat archery",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Kotake",
+            "name": "Kotake",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Koume, pictograph box",
+            "name": "Koume, pictograph box",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Pictograph contest, winner",
+            "name": "Pictograph contest, winner",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Mystery woods grotto",
+            "name": "Mystery woods grotto",
             "type": "item",
             "tags": [
                 "mm",
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "title": "Near swamp spider house grotto",
+            "name": "Near swamp spider house grotto",
             "type": "item",
             "tags": [
                 "mm",
@@ -48,28 +48,28 @@
             ]
         },
         {
-            "title": "Swamp scrub trade",
+            "name": "Swamp scrub trade",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Swamp scrub purchase",
+            "name": "Swamp scrub purchase",
             "type": "mmmerchant",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Tourist center roof",
+            "name": "Tourist center roof",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Potion shop, left",
+            "name": "Potion shop, left",
             "description": "Requires mushroom",
             "type": "mmshop",
             "tags": [
@@ -77,7 +77,7 @@
             ]
         },
         {
-            "title": "Potion shop, other items",
+            "name": "Potion shop, other items",
             "count": 2,
             "type": "mmshop",
             "tags": [
@@ -85,7 +85,7 @@
             ]
         },
         {
-            "title": "Owl Statue",
+            "name": "Owl Statue",
             "type": "mmstatue",
             "tags": [
                 "mm"

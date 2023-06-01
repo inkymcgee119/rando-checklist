@@ -1,16 +1,16 @@
 {
     "name": "Clock Tower Roof",
     "bgColor": "#f43f5e",
-    "locations": [
+    "items": [
         {
-            "title": "Skull kid",
+            "name": "Skull kid",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Skull kid song",
+            "name": "Skull kid song",
             "type": "item",
             "tags": [
                 "mm"

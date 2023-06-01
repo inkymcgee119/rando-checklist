@@ -1,7 +1,7 @@
 {
     "name": "Kakariko Village",
     "bgColor": "#b45309",
-    "entrances": [
+    "items": [
         {
             "name": "Hyrule Field",
             "type": "overworld"

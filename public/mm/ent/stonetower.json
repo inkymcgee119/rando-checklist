@@ -1,7 +1,7 @@
 {
     "name": "Stone Tower",
     "bgColor": "#059669",
-    "entrances": [
+    "items": [
         {
             "name": "Stone Tower Temple",
             "type": "dungeon"

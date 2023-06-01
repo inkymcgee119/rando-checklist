@@ -1,7 +1,7 @@
 {
     "name": "Ashen Leyndell",
     "bgColor": "#71717a",
-    "entrances": [
+    "items": [
         {
             "name": "Wrap from Farum Azula",
             "type": "major",

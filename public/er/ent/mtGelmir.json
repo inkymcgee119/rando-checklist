@@ -1,7 +1,7 @@
 {
     "name": "Mt Gelmir",
     "bgColor": "#3f6212",
-    "entrances": [
+    "items": [
         {
             "name": "Entrance to Volcano Manor",
             "type": "legacy",

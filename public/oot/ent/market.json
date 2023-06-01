@@ -1,7 +1,7 @@
 {
     "name": "Market",
     "bgColor": "#94a3b8",
-    "entrances": [
+    "items": [
         {
             "name": "Market Entrance",
             "type": "overworld"

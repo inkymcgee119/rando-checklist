@@ -2,7 +2,7 @@
     "name": "Stormhill Dungeons",
     "bgColor": "repeating-linear-gradient(-45deg, #581c87 0px 10px, #27272a 10px 20px)",
     "dropdownColor": "#581c87",
-    "entrances": [        
+    "items": [        
         {
             "name": "Deathtouched Catacombs, entrance", 
             "type": "dungeon",

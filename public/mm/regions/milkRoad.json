@@ -1,36 +1,36 @@
 {
     "name": "Milk Road",
     "bgColor": "#2dd4bf",
-    "locations": [
+    "items": [
         {
-            "title": "Gorman Bros, Race",
+            "name": "Gorman Bros, Race",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Gorman Bros, Milk",
+            "name": "Gorman Bros, Milk",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Keaton Quiz",
+            "name": "Keaton Quiz",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Tingle maps",
+            "name": "Tingle maps",
             "count": 2,
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Grass near owl",
+            "name": "Grass near owl",
             "count": 2,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Keaton grass",
+            "name": "Keaton grass",
             "count": 9,
             "type": "fixed",
             "tags": []

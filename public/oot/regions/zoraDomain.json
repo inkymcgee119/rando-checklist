@@ -2,42 +2,42 @@
     "name": "Zora's Domain",
     "bgColor": "#06b6d4",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Diving Minigame",
+            "name": "Diving Minigame",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Light torches",
+            "name": "Light torches",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Melt king zora",
+            "name": "Melt king zora",
             "type": "item",
             "tags": [
                 "adult"
             ]
         },
         {
-            "title": "Top of the waterfall",
+            "name": "Top of the waterfall",
             "type": "gs",
             "tags": [
                 "adult"
             ]
         },
         {
-            "title": "Shop",
+            "name": "Shop",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "In front of king zora",
+            "name": "In front of king zora",
             "type": "beehive",
             "tags": [
                 "child"
@@ -45,14 +45,14 @@
             "count": 2
         },
         {
-            "title": "Behind king zora",
+            "name": "Behind king zora",
             "type": "beehive",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Pots",
+            "name": "Pots",
             "type": "pot",
             "tags": [],
             "count": 5

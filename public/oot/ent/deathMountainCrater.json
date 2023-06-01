@@ -1,7 +1,7 @@
 {
     "name": "Death Mountain Crater",
     "bgColor": "#dc2626",
-    "entrances": [
+    "items": [
         {
             "name": "Goron City",
             "type": "overworld"

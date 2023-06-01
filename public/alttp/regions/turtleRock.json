@@ -1,51 +1,51 @@
 {
     "name": "Turtle Rock",
     "bgColor": "#6d28d9",
-    "locations": [
+    "items": [
         {
-            "title": "Map chest",
+            "name": "Map chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Compass chest",
+            "name": "Compass chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Big key chest",
+            "name": "Big key chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Big chest",
+            "name": "Big chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Chainchomp",
+            "name": "Chainchomp",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Roller room",
+            "name": "Roller room",
             "count": 2,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Crystaroller",
+            "name": "Crystaroller",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Laser eye bridge",
+            "name": "Laser eye bridge",
             "count": 4,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Boss",
+            "name": "Boss",
             "type": "item",
             "tags": []
         }

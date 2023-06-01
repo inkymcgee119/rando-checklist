@@ -1,7 +1,7 @@
 {
     "name": "Lake Hylia",
     "bgColor": "#2563eb",
-    "entrances": [
+    "items": [
         {
             "name": "Hyrule Field",
             "type": "overworld"

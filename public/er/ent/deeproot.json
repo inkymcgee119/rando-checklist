@@ -1,7 +1,7 @@
 {
     "name": "Deeproot Depths",
     "bgColor": "#713f12",
-    "entrances": [
+    "items": [
         {
             "name": "From Valiant Gargoyles coffin", 
             "type": "underground",

@@ -2,9 +2,9 @@
     "name": "Hyrule/Ganon's Castle Grounds",
     "bgColor": "#f43f5e",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Talk to Malon",
+            "name": "Talk to Malon",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Use weird egg (if enabled)",
+            "name": "Use weird egg (if enabled)",
             "type": "item",
             "tags": [
                 "oot",
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "title": "Great fairy",
+            "name": "Great fairy",
             "type": "item",
             "tags": [
                 "oot",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "title": "Great fairy",
+            "name": "Great fairy",
             "type": "item",
             "tags": [
                 "oot",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "title": "Zelda's lullaby",
+            "name": "Zelda's lullaby",
             "type": "song",
             "tags": [
                 "oot",
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "title": "In tree near entrance",
+            "name": "In tree near entrance",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -52,7 +52,7 @@
             ]
         },
         {
-            "title": "Song of storms grotto",
+            "name": "Song of storms grotto",
             "description": "Inside the gates, near the tree in the corner",
             "type": "ootgs",
             "tags": [
@@ -62,7 +62,7 @@
             ]
         },
         {
-            "title": "On the side of pillar",
+            "name": "On the side of pillar",
             "type": "ootgs",
             "tags": [
                 "oot",

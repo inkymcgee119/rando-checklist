@@ -1,19 +1,19 @@
 {
     "name": "Ikana Graveyard",
     "bgColor": "#57534e",
-    "locations": [
+    "items": [
         {
-            "title": "Captain Keeta's chest",
+            "name": "Captain Keeta's chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Rock circle grotto",
+            "name": "Rock circle grotto",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Night 1 grave bats",
+            "name": "Night 1 grave bats",
             "type": "everything",
             "tags": [
                 "day1",
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "title": "Night 1 Grave Tablet",
+            "name": "Night 1 Grave Tablet",
             "type": "item",
             "tags": [
                 "day1",
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "title": "Day 2 bats",
+            "name": "Day 2 bats",
             "description": "Kill bats around the graveyard then talk to Dampe",
             "type": "mundane",
             "tags": [
@@ -38,7 +38,7 @@
             ]
         },
         {
-            "title": "Night 2 grave rupees",
+            "name": "Night 2 grave rupees",
             "count": 7,
             "type": "rupee",
             "tags": [
@@ -47,7 +47,7 @@
             ]
         },
         {
-            "title": "Night 2 iron knuckle chest",
+            "name": "Night 2 iron knuckle chest",
             "type": "item",
             "tags": [
                 "day2",
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "title": "Dampe digging",
+            "name": "Dampe digging",
             "type": "item",
             "tags": [
                 "day3",
@@ -63,25 +63,25 @@
             ]
         },
         {
-            "title": "Lanterns",
+            "name": "Lanterns",
             "count": 12,
             "type": "hiddenrupee",
             "tags": []
         },
         {
-            "title": "Grass by graves",
+            "name": "Grass by graves",
             "count": 3,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Wall rocks, captain's path",
+            "name": "Wall rocks, captain's path",
             "count": 5,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Night 1 grave pots",
+            "name": "Night 1 grave pots",
             "count": 2,
             "type": "fixed",
             "tags": [
@@ -90,7 +90,7 @@
             ]
         },
         {
-            "title": "Night 2 grave pots",
+            "name": "Night 2 grave pots",
             "count": 2,
             "type": "fixed",
             "tags": [
@@ -99,7 +99,7 @@
             ]
         },
         {
-            "title": "Dampe's pots",
+            "name": "Dampe's pots",
             "count": 8,
             "type": "fixed",
             "tags": [

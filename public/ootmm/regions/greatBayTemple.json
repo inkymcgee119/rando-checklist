@@ -1,156 +1,156 @@
 {
     "name": "Great Bay Temple",
     "bgColor": "#1d4ed8",
-    "locations": [
+    "items": [
         {
-            "title": "Entrance torches",
+            "name": "Entrance torches",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Control room, under entrance ledge",
+            "name": "Control room, under entrance ledge",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Control room, skulltula",
+            "name": "Control room, skulltula",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Whirlpool, pot",
+            "name": "Whirlpool, pot",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Whirlpool, barrel",
+            "name": "Whirlpool, barrel",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Ice arrow chest",
+            "name": "Ice arrow chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Outside red valve room",
+            "name": "Outside red valve room",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Pot outside red valve room",
+            "name": "Pot outside red valve room",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Bio babas chest",
+            "name": "Bio babas chest",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Near boss key",
+            "name": "Near boss key",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Near boss key, underwater",
+            "name": "Near boss key, underwater",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Near boss key, dexihands pot",
+            "name": "Near boss key, dexihands pot",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Boss key chest",
+            "name": "Boss key chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Waterwheel, torch hookshot",
+            "name": "Waterwheel, torch hookshot",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Waterwheel, above",
+            "name": "Waterwheel, above",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Sewsaw room, barrel under",
+            "name": "Sewsaw room, barrel under",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Seesaw room, chest in cage",
+            "name": "Seesaw room, chest in cage",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Green pump, chest above",
+            "name": "Green pump, chest above",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Room before boss, bubble",
+            "name": "Room before boss, bubble",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Room before boss, underwater tunnel",
+            "name": "Room before boss, underwater tunnel",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Boss heart container",
+            "name": "Boss heart container",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Boss remains",
+            "name": "Boss remains",
             "type": "item",
             "tags": [
                 "mm"

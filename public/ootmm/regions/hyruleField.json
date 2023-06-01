@@ -2,9 +2,9 @@
     "name": "Hyrule Field",
     "bgColor": "#854D0E",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Open grotto near lake hylia",
+            "name": "Open grotto near lake hylia",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Deku salesman",
+            "name": "Deku salesman",
             "description": "Grotto inside the fences by lake hylia",
             "type": "item",
             "tags": [
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "title": "Southeast grotto, under rock",
+            "name": "Southeast grotto, under rock",
             "type": "item",
             "tags": [
                 "oot",
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "title": "Tektite grotto",
+            "name": "Tektite grotto",
             "description": "Northwest of lon lon by tree",
             "type": "item",
             "tags": [
@@ -38,7 +38,7 @@
             ]
         },
         {
-            "title": "Grotto west of castle town",
+            "name": "Grotto west of castle town",
             "type": "item",
             "tags": [
                 "oot",
@@ -46,7 +46,7 @@
             ]
         },
         {
-            "title": "Ocarina of time",
+            "name": "Ocarina of time",
             "type": "item",
             "tags": [
                 "oot",
@@ -54,7 +54,7 @@
             ]
         },
         {
-            "title": "Ocarina of time, song",
+            "name": "Ocarina of time, song",
             "type": "song",
             "tags": [
                 "oot",
@@ -62,7 +62,7 @@
             ]
         },
         {
-            "title": "Grotto near kakariko, near tree",
+            "name": "Grotto near kakariko, near tree",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "title": "Grotto near gerudo valley",
+            "name": "Grotto near gerudo valley",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -78,7 +78,7 @@
             ]
         },
         {
-            "title": "Grotto near gerudo valley",
+            "name": "Grotto near gerudo valley",
             "type": "ootcow",
             "tags": [
                 "oot",

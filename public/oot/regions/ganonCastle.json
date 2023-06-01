@@ -2,9 +2,9 @@
     "name": "Ganon's Castle",
     "bgColor": "#27272a",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Scrubs behind fake wall",
+            "name": "Scrubs behind fake wall",
             "type": "scrub",
             "tags": [
                 "vanilla"
@@ -13,14 +13,14 @@
         },
 
         {
-            "title": "Forest trial",
+            "name": "Forest trial",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Forest trial",
+            "name": "Forest trial",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -28,7 +28,7 @@
             "count": 2
         },
         {
-            "title": "Water trial",
+            "name": "Water trial",
             "type": "item",
             "tags": [
                 "vanilla"
@@ -36,7 +36,7 @@
             "count": 2
         },
         {
-            "title": "Water trial",
+            "name": "Water trial",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -44,21 +44,21 @@
             "count": 2
         },
         {
-            "title": "Shadow trial, left platform",
+            "name": "Shadow trial, left platform",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Shadow trial, rear platform",
+            "name": "Shadow trial, rear platform",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Shadow trial",
+            "name": "Shadow trial",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -66,7 +66,7 @@
             "count": 2
         },
         {
-            "title": "Shadow trial",
+            "name": "Shadow trial",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -74,14 +74,14 @@
             "count": 3
         },
         {
-            "title": "Fire trial",
+            "name": "Fire trial",
             "type": "rupee",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Fire trial",
+            "name": "Fire trial",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -89,7 +89,7 @@
             "count": 2
         },
         {
-            "title": "Light trial, first room",
+            "name": "Light trial, first room",
             "type": "item",
             "tags": [
                 "vanilla"
@@ -97,43 +97,21 @@
             "count": 7
         },
         {
-            "title": "Light trial, lullaby room chest",
+            "name": "Light trial, lullaby room chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Light trial, boulder room",
+            "name": "Light trial, boulder room",
             "type": "pot",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Light trial",
-            "type": "pot",
-            "tags": [
-                "vanilla"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Spirit trial, before bars",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Spirit trial, after bars",
-            "type": "item",
-            "tags": [
-                "vanilla"
-            ]
-        },
-        {
-            "title": "Spirit trial",
+            "name": "Light trial",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -141,21 +119,43 @@
             "count": 2
         },
         {
-            "title": "Spirit trial",
+            "name": "Spirit trial, before bars",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "name": "Spirit trial, after bars",
+            "type": "item",
+            "tags": [
+                "vanilla"
+            ]
+        },
+        {
+            "name": "Spirit trial",
+            "type": "pot",
+            "tags": [
+                "vanilla"
+            ],
+            "count": 2
+        },
+        {
+            "name": "Spirit trial",
             "type": "rupee",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Boss key chest",
+            "name": "Boss key chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Before ganondorf",
+            "name": "Before ganondorf",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -167,7 +167,7 @@
 
 
         {
-            "title": "Scrubs behind fake wall",
+            "name": "Scrubs behind fake wall",
             "type": "scrub",
             "tags": [
                 "mq"
@@ -175,28 +175,28 @@
             "count": 5
         },
         {
-            "title": "Forest trial, freestanding item",
+            "name": "Forest trial, freestanding item",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Forest trial, eye switch",
+            "name": "Forest trial, eye switch",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Forest trial, frozen eye switch",
+            "name": "Forest trial, frozen eye switch",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Forest trial",
+            "name": "Forest trial",
             "type": "pot",
             "tags": [
                 "mq"
@@ -204,21 +204,21 @@
             "count": 2
         },
         {
-            "title": "Water trial",
+            "name": "Water trial",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Water trial",
+            "name": "Water trial",
             "type": "rupee",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Water trial",
+            "name": "Water trial",
             "type": "pot",
             "tags": [
                 "mq"
@@ -226,21 +226,21 @@
             "count": 2
         },
         {
-            "title": "Shadow trial, hookshot chest",
+            "name": "Shadow trial, hookshot chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Shadow trial, eye switch",
+            "name": "Shadow trial, eye switch",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Shadow trial, like like",
+            "name": "Shadow trial, like like",
             "type": "pot",
             "tags": [
                 "mq"
@@ -248,7 +248,7 @@
             "count": 2
         },
         {
-            "title": "Shadow trial",
+            "name": "Shadow trial",
             "type": "pot",
             "tags": [
                 "mq"
@@ -256,7 +256,7 @@
             "count": 2
         },
         {
-            "title": "Fire trial",
+            "name": "Fire trial",
             "type": "pot",
             "tags": [
                 "mq"
@@ -264,14 +264,14 @@
             "count": 2
         },
         {
-            "title": "Light trial",
+            "name": "Light trial",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Light trial",
+            "name": "Light trial",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -279,7 +279,7 @@
             "count": 2
         },
         {
-            "title": "Light trial",
+            "name": "Light trial",
             "type": "pot",
             "tags": [
                 "mq"
@@ -287,21 +287,21 @@
             "count": 2
         },
         {
-            "title": "Spirit trial, visible chest before gate",
+            "name": "Spirit trial, visible chest before gate",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Spirit trial, invisible chest after gate",
+            "name": "Spirit trial, invisible chest after gate",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Spirit trial, sun switchs",
+            "name": "Spirit trial, sun switchs",
             "type": "item",
             "tags": [
                 "mq"
@@ -309,7 +309,7 @@
             "count": 4
         },
         {
-            "title": "Spirit trial",
+            "name": "Spirit trial",
             "type": "pot",
             "tags": [
                 "mq"
@@ -317,7 +317,7 @@
             "count": 2
         },
         {
-            "title": "Spirit trial",
+            "name": "Spirit trial",
             "type": "pot",
             "tags": [
                 "mq"
@@ -325,14 +325,14 @@
             "count": 2
         },
         {
-            "title": "Boss key chest",
+            "name": "Boss key chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Before ganondorf",
+            "name": "Before ganondorf",
             "type": "pot",
             "tags": [
                 "mq"

@@ -1,9 +1,9 @@
 {
     "name": "Stock Pot Inn",
     "bgColor": "#d97706",
-    "locations": [
+    "items": [
         {
-            "title": "Anju and Kafei",
+            "name": "Anju and Kafei",
             "type": "item",
             "tags": [
                 "day3",
@@ -11,34 +11,34 @@
             ]
         },
         {
-            "title": "Grandma, short story",
+            "name": "Grandma, short story",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Grandma, long story",
+            "name": "Grandma, long story",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Inn staff room chest",
+            "name": "Inn staff room chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Inn guest room chest",
+            "name": "Inn guest room chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Inn reservation",
+            "name": "Inn reservation",
             "type": "item",
             "tags": [
                 "day1"
             ]
         },
         {
-            "title": "Midnight meeting",
+            "name": "Midnight meeting",
             "type": "item",
             "tags": [
                 "day1",
@@ -46,14 +46,14 @@
             ]
         },
         {
-            "title": "Toilet hand",
+            "name": "Toilet hand",
             "type": "item",
             "tags": [
                 "night"
             ]
         },
         {
-            "title": "Masks",
+            "name": "Masks",
             "count": 3,
             "type": "hiddenrupee",
             "tags": []

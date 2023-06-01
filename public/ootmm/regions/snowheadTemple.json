@@ -1,121 +1,121 @@
 {
     "name": "Snowhead Temple",
     "bgColor": "#a1a1aa",
-    "locations": [
+    "items": [
         {
-            "title": "Bridge room, chest",
+            "name": "Bridge room, chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Bridge room, ledge bubble",
+            "name": "Bridge room, ledge bubble",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Bridge room, pillar bubble",
+            "name": "Bridge room, pillar bubble",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Elevator room, chest",
+            "name": "Elevator room, chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Elevator room, fairy",
+            "name": "Elevator room, fairy",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Elevator room, ledge",
+            "name": "Elevator room, ledge",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Double block room, chest",
+            "name": "Double block room, chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Double block",
+            "name": "Double block",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Wolfos/ice chunk, chest",
+            "name": "Wolfos/ice chunk, chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Wolfos/ice chunk, crate",
+            "name": "Wolfos/ice chunk, crate",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Wolfos/ice chunk, button",
+            "name": "Wolfos/ice chunk, button",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Icicle room, chest",
+            "name": "Icicle room, chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Icicle room, wall",
+            "name": "Icicle room, wall",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Ceiling bubble",
+            "name": "Ceiling bubble",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Fire arrow chest",
+            "name": "Fire arrow chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Snow room, fake wall bubble",
+            "name": "Snow room, fake wall bubble",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Dinolfos",
+            "name": "Dinolfos",
             "count": 2,
             "type": "mmfairies",
             "tags": [
@@ -123,42 +123,42 @@
             ]
         },
         {
-            "title": "Basement, lava button",
+            "name": "Basement, lava button",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Pillar freezards",
+            "name": "Pillar freezards",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Main room, wall",
+            "name": "Main room, wall",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Boss key chest",
+            "name": "Boss key chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Boss heart container",
+            "name": "Boss heart container",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Boss remains",
+            "name": "Boss remains",
             "type": "item",
             "tags": [
                 "mm"

@@ -1,110 +1,110 @@
 {
     "name": "Caelid",
     "bgColor": "#c2410c",
-    "locations": [
+    "items": [
         {
             "type": "key",
-            "title": "Imbued Sword Key",
+            "name": "Imbued Sword Key",
             "description": "In a chest hidden behind a magical barrier in Sellia, accessed by lighting flames around town"
         },
         {
             "type": "major",
-            "title": "Starscourge Radahn"
+            "name": "Starscourge Radahn"
         },
         {
             "type": "flask",
-            "title": "Church of the Plague"
+            "name": "Church of the Plague"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree on the road from Southern Aeonia Swamp Bank to Impassable Greatbridge"
+            "name": "Golden Seed tree on the road from Southern Aeonia Swamp Bank to Impassable Greatbridge"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree up the stairs at the north end of Sellia"
+            "name": "Golden Seed tree up the stairs at the north end of Sellia"
         },
         {
             "type": "shop",
-            "title": "Nomadic Merchant between Astray from Caelid Highway North and Aeonia Swamp Shore"
+            "name": "Nomadic Merchant between Astray from Caelid Highway North and Aeonia Swamp Shore"
         },
         {
             "type": "shop",
-            "title": "Nomadic Merchant southwest of southern Aeonia Swamp Bank"
+            "name": "Nomadic Merchant southwest of southern Aeonia Swamp Bank"
         },
         {
             "type": "minor",
-            "title": "Commander O'Neil in the Heart of Aeonia"
+            "name": "Commander O'Neil in the Heart of Aeonia"
         },
         {
             "type": "minor",
-            "title": "Decaying Ekzykes, south of the Caelid Highway South Site of Grace"
+            "name": "Decaying Ekzykes, south of the Caelid Highway South Site of Grace"
         },
         {
             "type": "minor",
-            "title": "Nox Swordstress and Nox Priest in the Sellia Chair-Crypt"
+            "name": "Nox Swordstress and Nox Priest in the Sellia Chair-Crypt"
         },
         {
             "type": "minor",
-            "title": "Putrid Avatar down the hill northeast of Smoldering Church"
+            "name": "Putrid Avatar down the hill northeast of Smoldering Church"
         },
         {
             "type": "minor",
-            "title": "Crucible Knight and Misbegotten Warrior at Redmane Castle"
+            "name": "Crucible Knight and Misbegotten Warrior at Redmane Castle"
         },
         {
             "type": "miniboss",
-            "title": "Abandoned Cave, Cleanrot Knights"
+            "name": "Abandoned Cave, Cleanrot Knights"
         },
         {
             "type": "miniboss",
-            "title": "Gael Tunnel, Magma Wyrm"
+            "name": "Gael Tunnel, Magma Wyrm"
         },
         {
             "type": "miniboss",
-            "title": "Gaol Cave, Grave Warden Duelist"
+            "name": "Gaol Cave, Grave Warden Duelist"
         },
         {
             "type": "miniboss",
-            "title": "Minor Erdtree Catacombs,Erdtree Burial Watchdog Duo"
+            "name": "Minor Erdtree Catacombs,Erdtree Burial Watchdog Duo"
         },
         {
             "type": "miniboss",
-            "title": "Sellia Crystal Tunnel, Fallingstar Beast"
+            "name": "Sellia Crystal Tunnel, Fallingstar Beast"
         },
         {
             "type": "miniboss",
-            "title": "War-Dead Catacombs, Putrid Tree Spirit"
+            "name": "War-Dead Catacombs, Putrid Tree Spirit"
         },
         {
             "type": "miniboss",
-            "title": "Caelid Catacombs, Cemetery Shade"
+            "name": "Caelid Catacombs, Cemetery Shade"
         },
         {
             "type": "night",
-            "title": "Death Rite Bird southeast of Southern Aeonia Swamp Bank Site of Grace"
+            "name": "Death Rite Bird southeast of Southern Aeonia Swamp Bank Site of Grace"
         },
         {
             "type": "night",
-            "title": "Night's Calvary west of Southern Aeonia Swamp Bank Site of Grace"
+            "name": "Night's Calvary west of Southern Aeonia Swamp Bank Site of Grace"
         },
         {
             "type": "tali",
-            "title": "Starscourge Heirloom",
+            "name": "Starscourge Heirloom",
             "description": "In a chest at the top of Fort Gael"
         },
         {
             "type": "tali",
-            "title": "Arrow's Sting Talisman",
+            "name": "Arrow's Sting Talisman",
             "description": "In a chest at the top of the tower on the west side of Impassable Greatbridge"
         },
         {
             "type": "tali",
-            "title": "Spelldrake Talisman",
+            "name": "Spelldrake Talisman",
             "description": "In a chest hidden behind a magical barrier in Sellia"
         },
         {
             "type": "minitali",
-            "title": "Faithful's Canvas Talisman",
+            "name": "Faithful's Canvas Talisman",
             "description": "Sellia Crystal Tunnel, Guarded by several Kindred of Rot shortly before the area boss"
         }
     ]

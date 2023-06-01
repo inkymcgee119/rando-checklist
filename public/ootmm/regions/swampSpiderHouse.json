@@ -1,16 +1,16 @@
 {
     "name": "Swamp Spider House",
     "bgColor": "#fb923c",
-    "locations": [
+    "items": [
         {
-            "title": "Main room, pot",
+            "name": "Main room, pot",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Main room, lower soft soils",
+            "name": "Main room, lower soft soils",
             "count": 2,
             "type": "mmgs",
             "tags": [
@@ -18,70 +18,70 @@
             ]
         },
         {
-            "title": "Main room, near ceiling",
+            "name": "Main room, near ceiling",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Main room, pillar",
+            "name": "Main room, pillar",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Main room, upper pillar",
+            "name": "Main room, upper pillar",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Main room, upper soft soil",
+            "name": "Main room, upper soft soil",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Main room, Water",
+            "name": "Main room, Water",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Gold room, hive",
+            "name": "Gold room, hive",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Gold room, near ceiling",
+            "name": "Gold room, near ceiling",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Gold room, pillar",
+            "name": "Gold room, pillar",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Gold room, wall",
+            "name": "Gold room, wall",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Tree room, grass",
+            "name": "Tree room, grass",
             "count": 2,
             "type": "mmgs",
             "tags": [
@@ -89,14 +89,14 @@
             ]
         },
         {
-            "title": "Tree room, hive",
+            "name": "Tree room, hive",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Tree room, tree",
+            "name": "Tree room, tree",
             "count": 3,
             "type": "mmgs",
             "tags": [
@@ -104,7 +104,7 @@
             ]
         },
         {
-            "title": "Monument room, crates",
+            "name": "Monument room, crates",
             "count": 2,
             "type": "mmgs",
             "tags": [
@@ -112,35 +112,35 @@
             ]
         },
         {
-            "title": "Monument room, lower wall",
+            "name": "Monument room, lower wall",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Monument room, on monument",
+            "name": "Monument room, on monument",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Monument room, torch",
+            "name": "Monument room, torch",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Jar room, behind vines",
+            "name": "Jar room, behind vines",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Jar room, hives",
+            "name": "Jar room, hives",
             "count": 2,
             "type": "mmgs",
             "tags": [
@@ -148,7 +148,7 @@
             ]
         },
         {
-            "title": "Jar room, roll into jars",
+            "name": "Jar room, roll into jars",
             "count": 2,
             "type": "mmgs",
             "tags": [
@@ -156,21 +156,21 @@
             ]
         },
         {
-            "title": "Jar room, pot",
+            "name": "Jar room, pot",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Jar room, on wall",
+            "name": "Jar room, on wall",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Reward",
+            "name": "Reward",
             "type": "item",
             "tags": [
                 "mm"

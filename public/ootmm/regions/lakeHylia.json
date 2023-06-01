@@ -2,16 +2,16 @@
     "name": "Lake Hylia",
     "bgColor": "#2563eb",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Lab diving (gold scale)",
+            "name": "Lab diving (gold scale)",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Underwater bottle",
+            "name": "Underwater bottle",
             "type": "item",
             "tags": [
                 "oot",
@@ -19,7 +19,7 @@
             ]
         },
         {
-            "title": "Fishing",
+            "name": "Fishing",
             "type": "item",
             "tags": [
                 "oot",
@@ -27,7 +27,7 @@
             ]
         },
         {
-            "title": "Fishing",
+            "name": "Fishing",
             "type": "item",
             "tags": [
                 "oot",
@@ -35,14 +35,14 @@
             ]
         },
         {
-            "title": "Rooftop heart piece",
+            "name": "Rooftop heart piece",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Shoot the sun",
+            "name": "Shoot the sun",
             "type": "item",
             "tags": [
                 "oot",
@@ -50,7 +50,7 @@
             ]
         },
         {
-            "title": "Bean patch",
+            "name": "Bean patch",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -59,7 +59,7 @@
             ]
         },
         {
-            "title": "Back of the lab",
+            "name": "Back of the lab",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -68,7 +68,7 @@
             ]
         },
         {
-            "title": "On the little island",
+            "name": "On the little island",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -77,7 +77,7 @@
             ]
         },
         {
-            "title": "Top of the tree",
+            "name": "Top of the tree",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -86,14 +86,14 @@
             ]
         },
         {
-            "title": "Crate in the lab",
+            "name": "Crate in the lab",
             "type": "ootgs",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Trade quest, turn in eyeball frog",
+            "name": "Trade quest, turn in eyeball frog",
             "type": "item",
             "tags": [
                 "oot",
@@ -101,7 +101,7 @@
             ]
         },
         {
-            "title": "Under gravestone",
+            "name": "Under gravestone",
             "type": "ootscrub",
             "tags": [
                 "oot",

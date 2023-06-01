@@ -1,153 +1,153 @@
 {
     "name": "Altus Plateau",
     "bgColor": "#f59e0b",
-    "locations": [
+    "items": [
         {
             "type": "major",
-            "title": "Elemer of the Briar"
+            "name": "Elemer of the Briar"
         },        
         {
             "type": "flask",
-            "title": "Stormcaller Church"
+            "name": "Stormcaller Church"
         },
         {
             "type": "flask",
-            "title": "Second Church of Marika"
+            "name": "Second Church of Marika"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree down the southeast road from Windmill Village"
+            "name": "Golden Seed tree down the southeast road from Windmill Village"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree found up the stairs from Outer Wall Phantom Tree"
+            "name": "Golden Seed tree found up the stairs from Outer Wall Phantom Tree"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree next to the Erdtree-Gazing Hill Site of Grace"
+            "name": "Golden Seed tree next to the Erdtree-Gazing Hill Site of Grace"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree found north of the Altus Highway Junction Site of Grace"
+            "name": "Golden Seed tree found north of the Altus Highway Junction Site of Grace"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree found north of the Altus Plateau Minor Erdtree"
+            "name": "Golden Seed tree found north of the Altus Plateau Minor Erdtree"
         },
         {
             "type": "shop",
-            "title": "Nomadic Merchant at the southern end of the Forest-Spanning Greatbridge"
+            "name": "Nomadic Merchant at the southern end of the Forest-Spanning Greatbridge"
         },
         {
             "type": "minor",
-            "title": "Ancient Dragon Lansseax up the hill from Abandoned Coffin"
+            "name": "Ancient Dragon Lansseax up the hill from Abandoned Coffin"
         },
         {
             "type": "minor",
-            "title": "Fallingstar Beast to the south of Tree Sentinel Duo"
+            "name": "Fallingstar Beast to the south of Tree Sentinel Duo"
         },
         {
             "type": "minor",
-            "title": "Godefroy the Grafted in the Golden Lineage Evergaol"
+            "name": "Godefroy the Grafted in the Golden Lineage Evergaol"
         },
         {
             "type": "minor",
-            "title": "Godskin Apostle at the elevated north cliffside of Windmill Village"
+            "name": "Godskin Apostle at the elevated north cliffside of Windmill Village"
         },
         {
             "type": "minor",
-            "title": "Black Knight Assassin camping out in front of Sainted Hero's Grave"
+            "name": "Black Knight Assassin camping out in front of Sainted Hero's Grave"
         },
         {
             "type": "minor",
-            "title": "Tibia Mariner in Wyndham Ruins"
+            "name": "Tibia Mariner in Wyndham Ruins"
         },
         {
             "type": "minor",
-            "title": "Tree Sentinel Duo, at the top of the stairs from Altus Highway Junction"
+            "name": "Tree Sentinel Duo, at the top of the stairs from Altus Highway Junction"
         },
         {
             "type": "minor",
-            "title": "Wormface at the Altus Plateau Minor Erdtree"
+            "name": "Wormface at the Altus Plateau Minor Erdtree"
         },
         {
             "type": "miniboss",
-            "title": "Perfumer's Grotto, Omenkiller and Giant Miranda Flower"
+            "name": "Perfumer's Grotto, Omenkiller and Giant Miranda Flower"
         },
         {
             "type": "miniboss",
-            "title": "Sage's Cave, Black Knife Assassin"
+            "name": "Sage's Cave, Black Knife Assassin"
         },
         {
             "type": "miniboss",
-            "title": "Sage's Cave, Necromancer Garris"
+            "name": "Sage's Cave, Necromancer Garris"
         },
         {
             "type": "miniboss",
-            "title": "Sainted Hero's Grave, Ancient Hero of Zamor"
+            "name": "Sainted Hero's Grave, Ancient Hero of Zamor"
         },
         {
             "type": "miniboss",
-            "title": "Unsightly Catacombs, Perfumer Tricia and Misbegotten Warrior"
+            "name": "Unsightly Catacombs, Perfumer Tricia and Misbegotten Warrior"
         },
         {
             "type": "miniboss",
-            "title": "Altus Tunnel, Crystallians"
+            "name": "Altus Tunnel, Crystallians"
         },
         {
             "type": "miniboss",
-            "title": "Sealed Tunnel, Onyx Lord"
+            "name": "Sealed Tunnel, Onyx Lord"
         },
         {
             "type": "miniboss",
-            "title": "Old Altus Tunnel, Stonedigger Troll"
+            "name": "Old Altus Tunnel, Stonedigger Troll"
         },
         {
             "type": "miniboss",
-            "title": "Wyndham Catacombs, Erdtree Burial Watchdog"
+            "name": "Wyndham Catacombs, Erdtree Burial Watchdog"
         },
         {
             "type": "night",
-            "title": "Night's Calvary on the road from the Grand Lift of Dectus to Altus Highway Junction"
+            "name": "Night's Calvary on the road from the Grand Lift of Dectus to Altus Highway Junction"
         },
         {
             "type": "tali",
-            "title": "Ritual Sword Talisman",
+            "name": "Ritual Sword Talisman",
             "description": "In a chest after defeating Demi-Human Queen Gilika, down some stairs in Lux Ruins, North of the Altus Plateau Site of Grace"
         },
         {
             "type": "tali",
-            "title": "Pearldrake Talisman +1",
+            "name": "Pearldrake Talisman +1",
             "description": "In a chest down some stairs past an Imp Statue barrier in Wyndham Ruins"
         },
         {
             "type": "tali",
-            "title": "Perfurmer's Talisman",
+            "name": "Perfurmer's Talisman",
             "description": "In a chest under Perfumer's Ruins, found by breaking wooden boards on the ground beside a Giant Miranda Flower"
         },
         {
             "type": "minitali",
-            "title": "Crimson Seed Talisman",
+            "name": "Crimson Seed Talisman",
             "description": "Sainted Hero's Grave, past an Imp Statue barrier beside the Site of Grace"
         },
         {
             "type": "minitali",
-            "title": "Dragoncrest Shield Talisman +1",
+            "name": "Dragoncrest Shield Talisman +1",
             "description": "Sainted Hero's Grave, past an Imp Statue barrier deep in the Catacombs, riding a giant slicing blade to an upper level"
         },
         {
             "type": "minitali",
-            "title": "Arsenal Charm +1",
+            "name": "Arsenal Charm +1",
             "description": "Altus Tunnel, from a sidepath deep in the tunnel, on top of a wooden structure which requires dropping down to a branch to access. The rock-slinging Malformed Star from Perfumer's Grotto will attack you here as well"
         },
         {
             "type": "minitali",
-            "title": "Boltdrake Talisman +1",
+            "name": "Boltdrake Talisman +1",
             "description": "Old Altus Tunnel, In a shack up a ladder from the main mining shaft"
         },
         {
             "type": "minitali",
-            "title": "Lightning Scorpion Charm",
+            "name": "Lightning Scorpion Charm",
             "description": "Wyndham Catacombs, Past an Imp Statue barrier deep in the Catacombs, found up a ladder"
         }
     ]

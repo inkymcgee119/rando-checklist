@@ -1,56 +1,56 @@
 {
     "name": "Mountain Village",
     "bgColor": "#d8b4fe",
-    "locations": [
+    "items": [
         {
-            "title": "Darmani",
+            "name": "Darmani",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Hungry goron",
+            "name": "Hungry goron",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Frog choir",
+            "name": "Frog choir",
             "type": "item",
             "tags": ["spring"]
         },
         {
-            "title": "Keaton quiz",
+            "name": "Keaton quiz",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Smithy day 1",
+            "name": "Smithy day 1",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Smithy day 2",
+            "name": "Smithy day 2",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Spring grotto",
+            "name": "Spring grotto",
             "type": "everything",
             "tags": ["spring"]
         },
         {
-            "title": "Waterfall chest",
+            "name": "Waterfall chest",
             "type": "everything",
             "tags": ["spring"]
         },
         {
-            "title": "Path to village, snowball",
+            "name": "Path to village, snowball",
             "type": "fixed",
             "tags": [
                 "winter"
             ]
         },
         {
-            "title": "Path to village, spring snowballs",
+            "name": "Path to village, spring snowballs",
             "count": 3,
             "type": "fixed",
             "tags": [
@@ -58,7 +58,7 @@
             ]
         },
         {
-            "title": "Snowballs near Darmani",
+            "name": "Snowballs near Darmani",
             "count": 2,
             "type": "fixed",
             "tags": [
@@ -66,7 +66,7 @@
             ]
         },
         {
-            "title": "Large snowball near water",
+            "name": "Large snowball near water",
             "type": "fixed",
             "tags": [
                 "day1",
@@ -74,7 +74,7 @@
             ]
         },
         {
-            "title": "Large snowball near water",
+            "name": "Large snowball near water",
             "type": "fixed",
             "tags": [
                 "day2",
@@ -82,7 +82,7 @@
             ]
         },
         {
-            "title": "Large snowball near hungry goron",
+            "name": "Large snowball near hungry goron",
             "type": "fixed",
             "tags": [
                 "day2",
@@ -90,7 +90,7 @@
             ]
         },
         {
-            "title": "Large snowball near exit",
+            "name": "Large snowball near exit",
             "type": "fixed",
             "tags": [
                 "day3",
@@ -98,7 +98,7 @@
             ]
         },
         {
-            "title": "Keaton grass",
+            "name": "Keaton grass",
             "count": 9,
             "type": "fixed",
             "tags": [
@@ -106,7 +106,7 @@
             ]
         },
         {
-            "title": "Winter snowballs",
+            "name": "Winter snowballs",
             "count": 5,
             "type": "fixed",
             "tags": [
@@ -114,7 +114,7 @@
             ]
         },
         {
-            "title": "Spring snowballs near owl",
+            "name": "Spring snowballs near owl",
             "count": 3,
             "type": "fixed",
             "tags": [
@@ -122,7 +122,7 @@
             ]
         },
         {
-            "title": "Spring, under smithy stairs",
+            "name": "Spring, under smithy stairs",
             "type": "fixed",
             "tags": [
                 "spring"

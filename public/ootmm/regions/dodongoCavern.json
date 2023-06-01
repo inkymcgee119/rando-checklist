@@ -2,9 +2,9 @@
     "name": "Dodongo's Cavern",
     "bgColor": "#dc2626",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Lobby, left side bombable wall",
+            "name": "Lobby, left side bombable wall",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Lobby, left side",
+            "name": "Lobby, left side",
             "type": "ootscrub",
             "tags": [
                 "oot",
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "title": "Lower right, scarecrow song",
+            "name": "Lower right, scarecrow song",
             "description": "This can also be gotten by dragging a statue all way from the other end of the hallway",
             "type": "ootgs",
             "tags": [
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "title": "Lower right, bombable wall",
+            "name": "Lower right, bombable wall",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "title": "Lower right, after lizafos",
+            "name": "Lower right, after lizafos",
             "type": "ootscrub",
             "tags": [
                 "oot",
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "title": "Lower left, bombable wall",
+            "name": "Lower left, bombable wall",
             "type": "item",
             "tags": [
                 "oot",
@@ -53,7 +53,7 @@
             ]
         },
         {
-            "title": "Left side, above the stairs",
+            "name": "Left side, above the stairs",
             "description": "You can reach this by activating the elevator shortcut and re-entering the dungeon to reset the stairs",
             "type": "ootgs",
             "tags": [
@@ -62,7 +62,7 @@
             ]
         },
         {
-            "title": "Left side, on vines",
+            "name": "Left side, on vines",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "title": "Upper right, bomb flower platform",
+            "name": "Upper right, bomb flower platform",
             "type": "item",
             "tags": [
                 "oot",
@@ -78,7 +78,7 @@
             ]
         },
         {
-            "title": "Upper right, bombable wall",
+            "name": "Upper right, bombable wall",
             "type": "ootscrub",
             "tags": [
                 "oot",
@@ -87,7 +87,7 @@
             "count": 2
         },
         {
-            "title": "Upper right, bomb bag chest",
+            "name": "Upper right, bomb bag chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -95,7 +95,7 @@
             ]
         },
         {
-            "title": "Upper lobby, across the bridge",
+            "name": "Upper lobby, across the bridge",
             "type": "item",
             "tags": [
                 "oot",
@@ -103,7 +103,7 @@
             ]
         },
         {
-            "title": "Inside the dodongo face, back room",
+            "name": "Inside the dodongo face, back room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -111,7 +111,7 @@
             ]
         },
         {
-            "title": "Room before King Dodongo",
+            "name": "Room before King Dodongo",
             "type": "item",
             "tags": [
                 "oot",
@@ -119,7 +119,7 @@
             ]
         },
         {
-            "title": "King Dodongo",
+            "name": "King Dodongo",
             "type": "boss",
             "tags": [
                 "oot",
@@ -127,7 +127,7 @@
             ]
         },
         {
-            "title": "Lobby, right side bombable wall",
+            "name": "Lobby, right side bombable wall",
             "type": "item",
             "tags": [
                 "oot",
@@ -135,7 +135,7 @@
             ]
         },
         {
-            "title": "Lobby, left side",
+            "name": "Lobby, left side",
             "type": "ootscrub",
             "tags": [
                 "oot",
@@ -144,7 +144,7 @@
             "count": 2
         },
         {
-            "title": "Lower right, before lizafos",
+            "name": "Lower right, before lizafos",
             "type": "ootscrub",
             "tags": [
                 "oot",
@@ -152,7 +152,7 @@
             ]
         },
         {
-            "title": "Lower right, poe side room",
+            "name": "Lower right, poe side room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -160,7 +160,7 @@
             ]
         },
         {
-            "title": "Lower right path, after poe room",
+            "name": "Lower right path, after poe room",
             "type": "item",
             "tags": [
                 "oot",
@@ -168,7 +168,7 @@
             ]
         },
         {
-            "title": "Lower left side, song of time room",
+            "name": "Lower left side, song of time room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -176,7 +176,7 @@
             ]
         },
         {
-            "title": "Left side, above stairs",
+            "name": "Left side, above stairs",
             "type": "ootscrub",
             "tags": [
                 "oot",
@@ -184,7 +184,7 @@
             ]
         },
         {
-            "title": "Upper left side, dodongo room",
+            "name": "Upper left side, dodongo room",
             "type": "item",
             "tags": [
                 "oot",
@@ -192,7 +192,7 @@
             ]
         },
         {
-            "title": "Upper right side, barred room",
+            "name": "Upper right side, barred room",
             "type": "item",
             "tags": [
                 "oot",
@@ -200,7 +200,7 @@
             ]
         },
         {
-            "title": "Upper right side, barred room",
+            "name": "Upper right side, barred room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -208,7 +208,7 @@
             ]
         },
         {
-            "title": "Upper right side, bomb bag room",
+            "name": "Upper right side, bomb bag room",
             "type": "item",
             "tags": [
                 "oot",
@@ -216,7 +216,7 @@
             ]
         },
         {
-            "title": "Upper right side, lizafos fight",
+            "name": "Upper right side, lizafos fight",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -224,7 +224,7 @@
             ]
         },
         {
-            "title": "Armos army, top of maze",
+            "name": "Armos army, top of maze",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -232,7 +232,7 @@
             ]
         },
         {
-            "title": "Poe room in the rear",
+            "name": "Poe room in the rear",
             "type": "item",
             "tags": [
                 "oot",
@@ -240,7 +240,7 @@
             ]
         },
         {
-            "title": "Room before King Dodongo",
+            "name": "Room before King Dodongo",
             "type": "item",
             "tags": [
                 "oot",
@@ -248,7 +248,7 @@
             ]
         },
         {
-            "title": "King Dodongo",
+            "name": "King Dodongo",
             "type": "boss",
             "tags": [
                 "oot",

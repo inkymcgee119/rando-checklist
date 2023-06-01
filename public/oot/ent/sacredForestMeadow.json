@@ -1,7 +1,7 @@
 {
     "name": "Sacred Forest Meadow",
     "bgColor": "#10B981",
-    "entrances": [
+    "items": [
         {
             "name": "Lost Woods",
             "type": "overworld"

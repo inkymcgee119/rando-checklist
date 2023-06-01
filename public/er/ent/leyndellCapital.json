@@ -1,7 +1,7 @@
 {
     "name": "Leyndell",
     "bgColor": "#831843",
-    "entrances": [
+    "items": [
         {
             "name": "Before Godfrey's arena, from branches",
             "type": "major",

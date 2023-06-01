@@ -1,7 +1,7 @@
 {
     "name": "Lost Woods",
     "bgColor": "#3F6212",
-    "entrances": [
+    "items": [
         {
             "name": "Kokiri Forest",
             "type": "overworld"

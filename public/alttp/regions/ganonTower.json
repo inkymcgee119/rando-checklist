@@ -1,90 +1,90 @@
 {
     "name": "Ganon's Tower",
     "bgColor": "#9d174d",
-    "locations": [
+    "items": [
         {
-            "title": "Torch",
+            "name": "Torch",
             "type": "item",
             "tags": []
         },
         {
-            "title": "DMs room",
+            "name": "DMs room",
             "count": 4,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Bombable wall room",
+            "name": "Bombable wall room",
             "count": 4,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Firesnake room",
+            "name": "Firesnake room",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Map chest",
+            "name": "Map chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Big chest",
+            "name": "Big chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Hope room",
+            "name": "Hope room",
             "count": 2,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Bob's chest",
+            "name": "Bob's chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Tile room",
+            "name": "Tile room",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Compass room",
+            "name": "Compass room",
             "count": 4,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Big key chest",
+            "name": "Big key chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Big key room",
+            "name": "Big key room",
             "count": 2,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Mini helmasaur room",
+            "name": "Mini helmasaur room",
             "count": 2,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Pre-moldorm chest",
+            "name": "Pre-moldorm chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Moldorm chest",
+            "name": "Moldorm chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Boss",
+            "name": "Boss",
             "type": "item",
             "tags": []
         }

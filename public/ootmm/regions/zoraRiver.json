@@ -2,9 +2,9 @@
     "name": "Zora River",
     "bgColor": "#059669",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Open grotto",
+            "name": "Open grotto",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,21 +12,21 @@
             ]
         },
         {
-            "title": "Lower river heart piece",
+            "name": "Lower river heart piece",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Upper river heart piece",
+            "name": "Upper river heart piece",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Frogs, song of storms",
+            "name": "Frogs, song of storms",
             "type": "item",
             "tags": [
                 "oot",
@@ -34,7 +34,7 @@
             ]
         },
         {
-            "title": "Frogs, minigame",
+            "name": "Frogs, minigame",
             "type": "item",
             "tags": [
                 "oot",
@@ -42,7 +42,7 @@
             ]
         },
         {
-            "title": "Bean salesman",
+            "name": "Bean salesman",
             "type": "item",
             "tags": [
                 "oot",
@@ -50,7 +50,7 @@
             ]
         },
         {
-            "title": "Tree near entrance",
+            "name": "Tree near entrance",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -58,7 +58,7 @@
             ]
         },
         {
-            "title": "Upper river, on the ladder",
+            "name": "Upper river, on the ladder",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -67,7 +67,7 @@
             ]
         },
         {
-            "title": "On wall near the open grotto",
+            "name": "On wall near the open grotto",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -76,7 +76,7 @@
             ]
         },
         {
-            "title": "Upper river, high on the wall",
+            "name": "Upper river, high on the wall",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -85,7 +85,7 @@
             ]
         },
         {
-            "title": "Song of storms, rock circle",
+            "name": "Song of storms, rock circle",
             "type": "ootscrub",
             "tags": [
                 "oot",

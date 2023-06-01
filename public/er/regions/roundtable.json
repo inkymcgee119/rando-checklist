@@ -1,10 +1,10 @@
 {
     "name": "Roundtable Hold",
     "bgColor": "#86198f",
-    "locations": [
+    "items": [
         {
             "type": "shop",
-            "title": "Twin Maiden Husks"
+            "name": "Twin Maiden Husks"
         }
     ]
 }

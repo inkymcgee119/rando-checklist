@@ -2,47 +2,47 @@
     "name": "Lake Hylia",
     "bgColor": "#2563eb",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Lab diving (gold scale)",
+            "name": "Lab diving (gold scale)",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Underwater bottle",
+            "name": "Underwater bottle",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Fishing",
+            "name": "Fishing",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Fishing",
+            "name": "Fishing",
             "type": "item",
             "tags": [
                 "adult"
             ]
         },
         {
-            "title": "Rooftop heart piece",
+            "name": "Rooftop heart piece",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Shoot the sun",
+            "name": "Shoot the sun",
             "type": "item",
             "tags": [
                 "adult"
             ]
         },
         {
-            "title": "Bean patch",
+            "name": "Bean patch",
             "type": "gs",
             "tags": [
                 "child",
@@ -50,7 +50,7 @@
             ]
         },
         {
-            "title": "Back of the lab",
+            "name": "Back of the lab",
             "type": "gs",
             "tags": [
                 "child",
@@ -58,7 +58,7 @@
             ]
         },
         {
-            "title": "On the little island",
+            "name": "On the little island",
             "type": "gs",
             "tags": [
                 "child",
@@ -66,7 +66,7 @@
             ]
         },
         {
-            "title": "Top of the tree",
+            "name": "Top of the tree",
             "type": "gs",
             "tags": [
                 "adult",
@@ -74,12 +74,12 @@
             ]
         },
         {
-            "title": "Crate in the lab",
+            "name": "Crate in the lab",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Under gravestone",
+            "name": "Under gravestone",
             "type": "scrub",
             "tags": [
                 "grotto"
@@ -87,14 +87,14 @@
             "count": 3
         },
         {
-            "title": "Near bottle, shallow",
+            "name": "Near bottle, shallow",
             "type": "rupee",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Near bottle, deep",
+            "name": "Near bottle, deep",
             "type": "rupee",
             "tags": [
                 "child"
@@ -102,13 +102,13 @@
             "count": 2
         },
         {
-            "title": "In the lab",
+            "name": "In the lab",
             "type": "rupee",
             "tags": [],
             "count": 3
         },
         {
-            "title": "Under gravestone",
+            "name": "Under gravestone",
             "type": "beehive",
             "tags": [
                 "grotto"

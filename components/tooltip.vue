@@ -32,17 +32,13 @@ function leave(e) {
 <style scoped>
 .c-tooltip {
     display: block;
-    /* reset defaults */
     top: initial;
     margin: initial;
-    /* vertically center */
     left: 50%;
     transform: translateX(-50%);
-    /* set new values */
     
     margin-bottom: 5px;
 
-    /* basic styles */
     width: 200px;
     padding: 10px;
     border-radius: 10px;

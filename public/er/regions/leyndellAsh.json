@@ -1,27 +1,27 @@
 {
     "name": "Ashen Leyndell",
     "bgColor": "#71717a",
-    "locations": [
+    "items": [
         {
             "type": "major",
-            "title": "Hoarah Loux"
+            "name": "Hoarah Loux"
         },
         {
             "type": "major",
-            "title": "Elden Beast"
+            "name": "Elden Beast"
         },
         {
             "type": "minor",
-            "title": "Gideon"
+            "name": "Gideon"
         },
         {
             "type": "tali",
-            "title": "Erdtree's Favor +2",
+            "name": "Erdtree's Favor +2",
             "description": "Guarded by three Ulcerated Tree Spirits, on a tree branch jutting out of the ash found backtracking from the Forbidden Lands Site of Grace"
         },
         {
             "type": "tali",
-            "title": "Crimson Amber Medallion +2",
+            "name": "Crimson Amber Medallion +2",
             "description": "Hanging on a beam accessible by dropping down from Leyndell, Capital of Ash"
         }
     ]

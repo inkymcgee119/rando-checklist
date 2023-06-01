@@ -1,47 +1,47 @@
 {
     "name": "Ikana Castle",
     "bgColor": "#a16207",
-    "locations": [
+    "items": [
         {
-            "title": "Pillar",
+            "name": "Pillar",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Ikana King",
+            "name": "Ikana King",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Courtyard grass",
+            "name": "Courtyard grass",
             "count": 4,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Falling ceiling room, pot",
+            "name": "Falling ceiling room, pot",
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Flower room, pots",
+            "name": "Flower room, pots",
             "count": 2,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Left staircase pot",
+            "name": "Left staircase pot",
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Before king, pot",
+            "name": "Before king, pot",
             "count": 3,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "King pots",
+            "name": "King pots",
             "count": 3,
             "type": "fixed",
             "tags": []

@@ -1,7 +1,7 @@
 {
     "name": "Nokron",
     "bgColor": "#7c3aed",
-    "entrances": [
+    "items": [
         {
             "name": "At the start of Nokron from Limgrave", 
             "type": "underground",

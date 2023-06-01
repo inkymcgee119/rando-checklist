@@ -1,28 +1,28 @@
 {
     "name": "Subterranean Shunning-Grounds",
     "bgColor": "#64748b",
-    "locations": [
+    "items": [
         {
             "type": "major",
-            "title": "Mohg the Omen"
+            "name": "Mohg the Omen"
         },
         {
             "type": "miniboss",
-            "title": "Leyndell Catacombs, Esgar, Priest of Blood"
+            "name": "Leyndell Catacombs, Esgar, Priest of Blood"
         },
         {
             "type": "tali",
-            "title": "Erdtree's Favor +1",
+            "name": "Erdtree's Favor +1",
             "description": "In a chest after defeating Mohg the Omen"
         },
         {
             "type": "minitali",
-            "title": "Haligdrake Talisman +1",
+            "name": "Haligdrake Talisman +1",
             "description": "Leyndell Catacombs, Behind two illusory walls beside a soldier-summoning Spiritcaller Snail, in the shortcut path up an elevator from Leyndell Catacombs Site of Grace"
         },
         {
             "type": "minitali",
-            "title": "Crucible Scale Talisman",
+            "name": "Crucible Scale Talisman",
             "description": "Leyndell Catacombs, Guarded by an Omen"
         }
     ]

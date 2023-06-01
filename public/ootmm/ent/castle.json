@@ -1,7 +1,7 @@
 {
     "name": "Castle Grounds",
     "bgColor": "#f43f5e",
-    "entrances": [        
+    "items": [        
         {
             "name": "Ganon's Castle, Trials",
             "type": "dungeon"

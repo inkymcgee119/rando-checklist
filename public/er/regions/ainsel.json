@@ -1,18 +1,18 @@
 {
     "name": "Ainsel River",
     "bgColor": "#c084fc",
-    "locations": [
+    "items": [
         {
             "type": "major",
-            "title": "Dragonkin Soldier of Nokstella"
+            "name": "Dragonkin Soldier of Nokstella"
         },
         {
             "type": "shop",
-            "title": "Hermit Merchant in the alcove past the rock-slinging Malformed Star"
+            "name": "Hermit Merchant in the alcove past the rock-slinging Malformed Star"
         },
         {
             "type": "tali",
-            "title": "Immunizing Horn Charm",
+            "name": "Immunizing Horn Charm",
             "description": "Guarded by several giant ants shortly after Ainsel River Downstream"
         }
     ]

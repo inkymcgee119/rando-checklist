@@ -2,7 +2,7 @@
     "name": "Weeping Peninsula Dungeons",
     "bgColor": "repeating-linear-gradient(-45deg, #713f12 0px 10px, #27272a 10px 20px)",
     "dropdownColor": "#713f12",
-    "entrances": [
+    "items": [
         {
             "name": "Tombsward Cave, entrance", 
             "type": "dungeon",

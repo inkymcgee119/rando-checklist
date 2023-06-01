@@ -61,7 +61,7 @@
         "fullscreen": false,
         "height": 900,
         "resizable": true,
-        "title": "Rando Checklist",
+        "name": "Rando Checklist",
         "width": 1740,
         "decorations": false    
       }

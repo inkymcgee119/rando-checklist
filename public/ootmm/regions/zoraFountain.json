@@ -2,16 +2,16 @@
     "name": "Zora's Fountain",
     "bgColor": "#d946ef",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Great fairy",
+            "name": "Great fairy",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Ice platform",
+            "name": "Ice platform",
             "type": "item",
             "tags": [
                 "oot",
@@ -19,7 +19,7 @@
             ]
         },
         {
-            "title": "Bottom of the lake",
+            "name": "Bottom of the lake",
             "type": "item",
             "tags": [
                 "oot",
@@ -27,7 +27,7 @@
             ]
         },
         {
-            "title": "Tree near great fairy",
+            "name": "Tree near great fairy",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -35,7 +35,7 @@
             ]
         },
         {
-            "title": "On wall to the right of entrance",
+            "name": "On wall to the right of entrance",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "title": "Tunnel under silver rock",
+            "name": "Tunnel under silver rock",
             "type": "ootgs",
             "tags": [
                 "oot",

@@ -1,44 +1,44 @@
 {
     "name": "Thieves Town",
     "bgColor": "#ea580c",
-    "locations": [
+    "items": [
         {
-            "title": "Map chest",
+            "name": "Map chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Compass chest",
+            "name": "Compass chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Big key chest",
+            "name": "Big key chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Big chest",
+            "name": "Big chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Attic",
+            "name": "Attic",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Ambush chest",
+            "name": "Ambush chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Blind's cell",
+            "name": "Blind's cell",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Boss",
+            "name": "Boss",
             "type": "item",
             "tags": []
         }

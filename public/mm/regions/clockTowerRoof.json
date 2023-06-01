@@ -1,19 +1,19 @@
 {
     "name": "Clock Tower Roof",
     "bgColor": "#f43f5e",
-    "locations": [
+    "items": [
         {
-            "title": "Skull kid",
+            "name": "Skull kid",
             "type": "ocarina",
             "tags": []
         },
         {
-            "title": "Skull kid song",
+            "name": "Skull kid song",
             "type": "ocarina",
             "tags": []
         },
         {
-            "title": "Pots",
+            "name": "Pots",
             "count": 4,
             "type": "fixed",
             "tags": []

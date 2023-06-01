@@ -1,44 +1,44 @@
 {
     "name": "Southern Swamp",
     "bgColor": "#059669",
-    "locations": [
+    "items": [
         {
-            "title": "Boat archery",
+            "name": "Boat archery",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Kotake",
+            "name": "Kotake",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Kotake, mushroom sale",
+            "name": "Kotake, mushroom sale",
             "type": "mundane",
             "tags": []
         },
         {
-            "title": "Koume, pictograph box",
+            "name": "Koume, pictograph box",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Pictograph contest, good ghoto",
+            "name": "Pictograph contest, good ghoto",
             "type": "mundane",
             "tags": []
         },
         {
-            "title": "Pictograph contest, standard photo",
+            "name": "Pictograph contest, standard photo",
             "type": "mundane",
             "tags": []
         },
         {
-            "title": "Pictograph contest, winner",
+            "name": "Pictograph contest, winner",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Mystery woods grotto",
+            "name": "Mystery woods grotto",
             "type": "everything",
             "tags": [
                 "day2",
@@ -46,79 +46,79 @@
             ]
         },
         {
-            "title": "Near swamp spider house grotto",
+            "name": "Near swamp spider house grotto",
             "type": "everything",
             "tags": [
                 "grotto"
             ]
         },
         {
-            "title": "Swamp scrub trade",
+            "name": "Swamp scrub trade",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Swamp scrub purchase",
+            "name": "Swamp scrub purchase",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Spider house reward",
+            "name": "Spider house reward",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Tourist center roof",
+            "name": "Tourist center roof",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Potion shop, behind large pot",
+            "name": "Potion shop, behind large pot",
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Potion shop, left",
+            "name": "Potion shop, left",
             "description": "Requires mushroom",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Potion shop, other items",
+            "name": "Potion shop, other items",
             "count": 2,
             "type": "shop",
             "tags": []
         },
         {
-            "title": "On flowers near frog",
+            "name": "On flowers near frog",
             "count": 2,
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Grass near owl, before beating temple",
+            "name": "Grass near owl, before beating temple",
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Grass near owl, after beating temple",
+            "name": "Grass near owl, after beating temple",
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Pots near potion shop, before beating temple",
+            "name": "Pots near potion shop, before beating temple",
             "count": 2,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Pots near potion shop, after beating temple",
+            "name": "Pots near potion shop, after beating temple",
             "count": 2,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Bee hive under archway",
+            "name": "Bee hive under archway",
             "type": "fixed",
             "tags": []
         }

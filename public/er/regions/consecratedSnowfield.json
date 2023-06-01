@@ -1,60 +1,60 @@
 {
     "name": "Consecrated Snowfield",
     "bgColor": "#94a3b8",
-    "locations": [
+    "items": [
         {
             "type": "flask",
-            "title": "Golden Seed tree in Ordina, Liturgical Town"
+            "name": "Golden Seed tree in Ordina, Liturgical Town"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree in the foggy area northeast of the Consecrated Snowfield Site of Grace"
+            "name": "Golden Seed tree in the foggy area northeast of the Consecrated Snowfield Site of Grace"
         },
         {
             "type": "minor",
-            "title": "Great Wyrm Theodrix at the base of the frozen waterfall, east of the Inner Consecrated Snowfield Site of Grace"
+            "name": "Great Wyrm Theodrix at the base of the frozen waterfall, east of the Inner Consecrated Snowfield Site of Grace"
         },
         {
             "type": "minor",
-            "title": "Putrid Avatar at the Consecrated Snowfield Minor Erdtree"
+            "name": "Putrid Avatar at the Consecrated Snowfield Minor Erdtree"
         },
         {
             "type": "miniboss",
-            "title": "Cave of the Forlorn, Misbegotten Crusader"
+            "name": "Cave of the Forlorn, Misbegotten Crusader"
         },
         {
             "type": "miniboss",
-            "title": "Yelough Anix Tunnel, Astel, Stars of Darkness"
+            "name": "Yelough Anix Tunnel, Astel, Stars of Darkness"
         },
         {
             "type": "miniboss",
-            "title": "Consecrated Snowfield Catacombs, Putrid Grave Warden Duelist"
+            "name": "Consecrated Snowfield Catacombs, Putrid Grave Warden Duelist"
         },
         {
             "type": "miniboss",
-            "title": "Hidden Path to the Haligtree, Stray Mimic Tear"
+            "name": "Hidden Path to the Haligtree, Stray Mimic Tear"
         },
         {
             "type": "night",
-            "title": "Death Rite Bird at the north end of the frozen-over river, between Ordina and Apostate Derelict"
+            "name": "Death Rite Bird at the north end of the frozen-over river, between Ordina and Apostate Derelict"
         },
         {
             "type": "night",
-            "title": "Dropped by the Night's Calvary Duo near Inner Consecrated Snowfield Site of Grace"
+            "name": "Dropped by the Night's Calvary Duo near Inner Consecrated Snowfield Site of Grace"
         },
         {
             "type": "tali",
-            "title": "Stalwart Horn Charm +1",
+            "name": "Stalwart Horn Charm +1",
             "description": "Guarded by Ancestral Followers to the east of Yelough Anix Ruins"
         },
         {
             "type": "minitali",
-            "title": "Spelldrake Talisman +2",
+            "name": "Spelldrake Talisman +2",
             "description": "Hidden Path to the Haligtree, up elevator after Stray Mimic Tear. Replaces Spelldrake Talisman +2"
         },
         {
             "type": "minitali",
-            "title": "Silver Scarab",
+            "name": "Silver Scarab",
             "description": "Hidden Path to the Haligtree, behind illusory wall, left side of invisible bridge. Replaces Silver Scarab"
         }
     ]

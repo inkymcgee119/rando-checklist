@@ -1,7 +1,7 @@
 {
     "name": "Siofra River",
     "bgColor": "#fb7185",
-    "entrances": [
+    "items": [
         {
             "name": "Top of the Siofra River Well elevator",
             "type": "underground",

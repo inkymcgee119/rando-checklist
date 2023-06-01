@@ -1,66 +1,66 @@
 {
     "name": "Dark Palace",
     "bgColor": "#c026d3",
-    "locations": [
+    "items": [
         {
-            "title": "Map chest",
+            "name": "Map chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Compass chest",
+            "name": "Compass chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Big key chest",
+            "name": "Big key chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Big chest",
+            "name": "Big chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Shooter room",
+            "name": "Shooter room",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Arena, ledge",
+            "name": "Arena, ledge",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Arena, bridge",
+            "name": "Arena, bridge",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Stalfos basement",
+            "name": "Stalfos basement",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Harmless hellway",
+            "name": "Harmless hellway",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Dark basement",
+            "name": "Dark basement",
             "count": 2,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Dark maze",
+            "name": "Dark maze",
             "count": 2,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Boss",
+            "name": "Boss",
             "type": "item",
             "tags": []
         }

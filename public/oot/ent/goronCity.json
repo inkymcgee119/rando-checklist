@@ -1,7 +1,7 @@
 {
     "name": "Goron City",
     "bgColor": "#713f12",
-    "entrances": [
+    "items": [
         {
             "name": "Death Mountain Trail",
             "type": "overworld"

@@ -1,33 +1,33 @@
 {
     "name": "Haligtree",
     "bgColor": "#059669",
-    "locations": [
+    "items": [
         {
             "type": "major",
-            "title": "Loretta, Knight of the Haligtree"
+            "name": "Loretta, Knight of the Haligtree"
         },
         {
             "type": "major",
-            "title": "Malenia, Blade of Miquella"
+            "name": "Malenia, Blade of Miquella"
         },
         {
             "type": "tali",
-            "title": "Viridian Amber Medallion +2",
+            "name": "Viridian Amber Medallion +2",
             "description": "In a chest found dropping down twice past Haligtree Town Plaza and doubling back to jump down to a storage room in the reverse direction"
         },
         {
             "type": "tali",
-            "title": "Dragoncrest Greatshield Talisman",
+            "name": "Dragoncrest Greatshield Talisman",
             "description": "In a chest, guarded by many Kindred of Rot, accessed through a hole in the roof of a building after Drainage Channel"
         },
         {
             "type": "tali",
-            "title": "Marika's Soreseal",
+            "name": "Marika's Soreseal",
             "description": "Past an Imp Statue barrier found dropping down from the bridge with the patrolling Putrid Avatar"
         },
         {
             "type": "tali",
-            "title": "Pearldrake Talisman +2",
+            "name": "Pearldrake Talisman +2",
             "description": "Up a ladder after the Haligtree Town Site of Grace then jumping across the gap"
         }
     ]

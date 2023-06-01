@@ -1,9 +1,9 @@
 {
     "name": "Stock Pot Inn",
     "bgColor": "#d97706",
-    "locations": [
+    "items": [
         {
-            "title": "Anju and Kafei",
+            "name": "Anju and Kafei",
             "type": "item",
             "tags": [
                 "mm",
@@ -12,35 +12,35 @@
             ]
         },
         {
-            "title": "Grandma, short story",
+            "name": "Grandma, short story",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Grandma, long story",
+            "name": "Grandma, long story",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Inn staff room chest",
+            "name": "Inn staff room chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Inn guest room chest",
+            "name": "Inn guest room chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Inn reservation",
+            "name": "Inn reservation",
             "type": "item",
             "tags": [
                 "mm",
@@ -48,7 +48,7 @@
             ]
         },
         {
-            "title": "Midnight meeting",
+            "name": "Midnight meeting",
             "type": "item",
             "tags": [
                 "mm",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "title": "Toilet hand",
+            "name": "Toilet hand",
             "type": "item",
             "tags": [
                 "mm",

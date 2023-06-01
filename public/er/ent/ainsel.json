@@ -1,7 +1,7 @@
 {
     "name": "Ainsel River",
     "bgColor": "#c084fc",
-    "entrances": [
+    "items": [
         {
             "name": "Start of Ainsel River Main, from coffin", 
             "type": "underground",

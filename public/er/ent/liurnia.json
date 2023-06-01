@@ -1,7 +1,7 @@
 {
     "name": "Liurnia of the Lakes",
     "bgColor": "#2563eb",
-    "entrances": [
+    "items": [
         {
             "name": "Before Loretta's arena",
             "type": "major",

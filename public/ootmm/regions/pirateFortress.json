@@ -1,86 +1,86 @@
 {
     "name": "Pirates' Fortress",
     "bgColor": "#9a3412",
-    "locations": [
+    "items": [
         {
-            "title": "Exterior, corner chest",
+            "name": "Exterior, corner chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Exterior, log chest",
+            "name": "Exterior, log chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Exterior, sand chest",
+            "name": "Exterior, sand chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Sewer, cage",
+            "name": "Sewer, cage",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Sewer, cage room deep chest",
+            "name": "Sewer, cage room deep chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Sewer, cage room shallow chest",
+            "name": "Sewer, cage room shallow chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Sewer, maze chest",
+            "name": "Sewer, maze chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Interior, hookshot chest",
+            "name": "Interior, hookshot chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Interior, guard room chest",
+            "name": "Interior, guard room chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Interior, lower chest",
+            "name": "Interior, lower chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Interior, tank chest",
+            "name": "Interior, tank chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Interior, upper chest",
+            "name": "Interior, upper chest",
             "type": "item",
             "tags": [
                 "mm"

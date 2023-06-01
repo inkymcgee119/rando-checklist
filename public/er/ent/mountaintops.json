@@ -1,7 +1,7 @@
 {
     "name": "Mountaintops of the Giants",
     "bgColor": "#be185d",
-    "entrances": [
+    "items": [
         {
             "name": "Before Commander Niall's arena",
             "type": "major",

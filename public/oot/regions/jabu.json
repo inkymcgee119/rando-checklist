@@ -2,9 +2,9 @@
     "name": "Jabu Jabu",
     "bgColor": "#0ea5e9",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Ruto room",
+            "name": "Ruto room",
             "type": "gs",
             "tags": [
                 "vanilla"
@@ -12,7 +12,7 @@
             "count": 2
         },
         {
-            "title": "Bottom path, wiggler room",
+            "name": "Bottom path, wiggler room",
             "description": "This is the rear door in the room you meet Ruto that you normally wouldn't enter.",
             "type": "pot",
             "tags": [
@@ -21,14 +21,14 @@
             "count": 4
         },
         {
-            "title": "Bottom path, switch room",
+            "name": "Bottom path, switch room",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Bottom path, switch room",
+            "name": "Bottom path, switch room",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -36,42 +36,42 @@
             "count": 2
         },
         {
-            "title": "Elevator room, dive under wall",
+            "name": "Elevator room, dive under wall",
             "type": "scrub",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Elevator room, small crate",
+            "name": "Elevator room, small crate",
             "type": "crate",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Tentacle area, right room",
+            "name": "Tentacle area, right room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Tentacle area, left room",
+            "name": "Tentacle area, left room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Tentacle area, back left room",
+            "name": "Tentacle area, back left room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "After miniboss",
+            "name": "After miniboss",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -79,21 +79,21 @@
             "count": 2
         },
         {
-            "title": "Room before Barinade",
+            "name": "Room before Barinade",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Barinade",
+            "name": "Barinade",
             "type": "boss",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Barinade",
+            "name": "Barinade",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -101,21 +101,21 @@
             "count": 6
         },
         {
-            "title": "First room, press button",
+            "name": "First room, press button",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "First room, right cow",
+            "name": "First room, right cow",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "First room",
+            "name": "First room",
             "type": "pot",
             "tags": [
                 "mq"
@@ -123,28 +123,28 @@
             "count": 2
         },
         {
-            "title": "Elevator room, bottom",
+            "name": "Elevator room, bottom",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Elevator room, dive under wall",
+            "name": "Elevator room, dive under wall",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Elevator room, cow switch",
+            "name": "Elevator room, cow switch",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Evevator room, dive under wall",
+            "name": "Evevator room, dive under wall",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -152,7 +152,7 @@
             "count": 3
         },
         {
-            "title": "Elevator room, between wigglers",
+            "name": "Elevator room, between wigglers",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -160,7 +160,7 @@
             "count": 2
         },
         {
-            "title": "Elevator room, dive under wall",
+            "name": "Elevator room, dive under wall",
             "type": "pot",
             "tags": [
                 "mq"
@@ -168,7 +168,7 @@
             "count": 2
         },
         {
-            "title": "Ruto room",
+            "name": "Ruto room",
             "type": "item",
             "tags": [
                 "mq"
@@ -176,7 +176,7 @@
             "count": 2
         },
         {
-            "title": "Ruto room, room behind tentacle",
+            "name": "Ruto room, room behind tentacle",
             "description": "This is the rear door in the room you meet Ruto that you normally wouldn't enter.",
             "type": "gs",
             "tags": [
@@ -184,28 +184,28 @@
             ]
         },
         {
-            "title": "Bottom path, switch room chest",
+            "name": "Bottom path, switch room chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Bottom path, switch room enemies",
+            "name": "Bottom path, switch room enemies",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Bottom path, switch room SoT block",
+            "name": "Bottom path, switch room SoT block",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Bottom path, switch room",
+            "name": "Bottom path, switch room",
             "type": "pot",
             "tags": [
                 "mq"
@@ -213,14 +213,14 @@
             "count": 2
         },
         {
-            "title": "Tentacle area, back right room",
+            "name": "Tentacle area, back right room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Tentacle area, back right",
+            "name": "Tentacle area, back right",
             "type": "pot",
             "tags": [
                 "mq"
@@ -228,42 +228,42 @@
             "count": 2
         },
         {
-            "title": "Tentacle area, back left room",
+            "name": "Tentacle area, back left room",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Room after miniboss",
+            "name": "Room after miniboss",
             "type": "cow",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Room before Barinade",
+            "name": "Room before Barinade",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Room before Barinade",
+            "name": "Room before Barinade",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Barinade",
+            "name": "Barinade",
             "type": "boss",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Barinade",
+            "name": "Barinade",
             "type": "pot",
             "tags": [
                 "mq"

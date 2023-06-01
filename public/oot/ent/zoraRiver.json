@@ -1,7 +1,7 @@
 {
     "name": "Zora River",
     "bgColor": "#059669",
-    "entrances": [
+    "items": [
         {
             "name": "Hyrule Field",
             "type": "overworld"

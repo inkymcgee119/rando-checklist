@@ -1,19 +1,19 @@
 {
     "name": "Road to Ikana",
     "bgColor": "#9d174d",
-    "locations": [
+    "items": [
         {
-            "title": "Invisible soldier",
+            "name": "Invisible soldier",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Grotto under rock",
+            "name": "Grotto under rock",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Pillar chest",
+            "name": "Pillar chest",
             "type": "everything",
             "tags": []
         }

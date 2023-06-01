@@ -1,40 +1,40 @@
 {
     "name": "Crumbling Farum Azula",
     "bgColor": "#7c3aed",
-    "locations": [
+    "items": [
         {
             "type": "major",
-            "title": "Dragonlord Placidusax"
+            "name": "Dragonlord Placidusax"
         },
         {
             "type": "major",
-            "title": "Godskin Duo"
+            "name": "Godskin Duo"
         },
         {
             "type": "major",
-            "title": "Maliketh, the Black Blade"
+            "name": "Maliketh, the Black Blade"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree after using a Stonesword Key and ascending Dragon Temple Lift, past a plaza fountain"
+            "name": "Golden Seed tree after using a Stonesword Key and ascending Dragon Temple Lift, past a plaza fountain"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree guarded by four eagles. Near low health dragon"
+            "name": "Golden Seed tree guarded by four eagles. Near low health dragon"
         },
         {
             "type": "tali",
-            "title": "Boltdrake Talisman +2",
+            "name": "Boltdrake Talisman +2",
             "description": "At the end of a long path dropping down to the left of the low-health dragon"
         },
         {
             "type": "tali",
-            "title": "Dragoncrest Shield Talisman +2",
+            "name": "Dragoncrest Shield Talisman +2",
             "description": "Hidden on some floating rubble underneath other rubble right before the building with the Crucible Knight"
         },
         {
             "type": "tali",
-            "title": "Old Lord's Talisman",
+            "name": "Old Lord's Talisman",
             "description": "In a chest at the end of the path, down the Great Bridge in the opposite direction from Maliketh"
         }
     ]

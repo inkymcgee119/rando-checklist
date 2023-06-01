@@ -2,9 +2,9 @@
     "name": "Ice Cavern",
     "bgColor": "#60a5fa",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Spinning blade room",
+            "name": "Spinning blade room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Back room chest",
+            "name": "Back room chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "title": "Right room, chest",
+            "name": "Right room, chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "title": "Right room, red ice",
+            "name": "Right room, red ice",
             "type": "item",
             "tags": [
                 "oot",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "title": "Right room",
+            "name": "Right room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "title": "Block puzzle room",
+            "name": "Block puzzle room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -52,7 +52,7 @@
             ]
         },
         {
-            "title": "Wolfos chest",
+            "name": "Wolfos chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -60,7 +60,7 @@
             ]
         },
         {
-            "title": "Sheik's song",
+            "name": "Sheik's song",
             "type": "song",
             "tags": [
                 "oot",
@@ -68,7 +68,7 @@
             ]
         },
         {
-            "title": "Back room, chest",
+            "name": "Back room, chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -76,7 +76,7 @@
             ]
         },
         {
-            "title": "Back room, switch hidden in floor",
+            "name": "Back room, switch hidden in floor",
             "type": "item",
             "tags": [
                 "oot",
@@ -84,7 +84,7 @@
             ]
         },
         {
-            "title": "Back room, under red ice",
+            "name": "Back room, under red ice",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -92,7 +92,7 @@
             ]
         },
         {
-            "title": "Right room, red ice",
+            "name": "Right room, red ice",
             "type": "item",
             "tags": [
                 "oot",
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "title": "Block pushing puzzle, switch ",
+            "name": "Block pushing puzzle, switch ",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -108,7 +108,7 @@
             ]
         },
         {
-            "title": "Block pushing puzzle, side cave",
+            "name": "Block pushing puzzle, side cave",
             "description": "Use scarecrow song to reach",
             "type": "ootgs",
             "tags": [
@@ -117,7 +117,7 @@
             ]
         },
         {
-            "title": "Stafos chest",
+            "name": "Stafos chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -125,7 +125,7 @@
             ]
         },
         {
-            "title": "Sheik's song",
+            "name": "Sheik's song",
             "type": "song",
             "tags": [
                 "oot",

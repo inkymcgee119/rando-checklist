@@ -2,9 +2,9 @@
     "name": "Forest Temple",
     "bgColor": "#065f46",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Entrance area, up in the tree",
+            "name": "Entrance area, up in the tree",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Entrance area, on the vines",
+            "name": "Entrance area, on the vines",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "title": "Center room, wall next to stairs",
+            "name": "Center room, wall next to stairs",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "title": "Room straight back, staflos fight",
+            "name": "Room straight back, staflos fight",
             "type": "item",
             "tags": [
                 "oot",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "title": "Courtyard, room up the vines",
+            "name": "Courtyard, room up the vines",
             "type": "item",
             "tags": [
                 "oot",
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "title": "Courtyard, chest on grassy hill",
+            "name": "Courtyard, chest on grassy hill",
             "type": "item",
             "tags": [
                 "oot",
@@ -52,7 +52,7 @@
             ]
         },
         {
-            "title": "Courtyard, on the grassy hill",
+            "name": "Courtyard, on the grassy hill",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -60,7 +60,7 @@
             ]
         },
         {
-            "title": "Courtyard, in the well",
+            "name": "Courtyard, in the well",
             "type": "item",
             "tags": [
                 "oot",
@@ -68,7 +68,7 @@
             ]
         },
         {
-            "title": "Upper courtyard, side room",
+            "name": "Upper courtyard, side room",
             "type": "item",
             "tags": [
                 "oot",
@@ -76,7 +76,7 @@
             ]
         },
         {
-            "title": "Upper courtyard, high on wall",
+            "name": "Upper courtyard, high on wall",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -84,7 +84,7 @@
             ]
         },
         {
-            "title": "Eye switch near block puzzle",
+            "name": "Eye switch near block puzzle",
             "type": "item",
             "tags": [
                 "oot",
@@ -92,7 +92,7 @@
             ]
         },
         {
-            "title": "Boss key chest",
+            "name": "Boss key chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "title": "Red poe (Joelle)",
+            "name": "Red poe (Joelle)",
             "type": "item",
             "tags": [
                 "oot",
@@ -108,7 +108,7 @@
             ]
         },
         {
-            "title": "Bow chest",
+            "name": "Bow chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -116,7 +116,7 @@
             ]
         },
         {
-            "title": "Blue poe (Beth)",
+            "name": "Blue poe (Beth)",
             "type": "item",
             "tags": [
                 "oot",
@@ -124,7 +124,7 @@
             ]
         },
         {
-            "title": "Falling ceiling room",
+            "name": "Falling ceiling room",
             "type": "item",
             "tags": [
                 "oot",
@@ -132,7 +132,7 @@
             ]
         },
         {
-            "title": "Spinning room in the basement",
+            "name": "Spinning room in the basement",
             "type": "item",
             "tags": [
                 "oot",
@@ -140,7 +140,7 @@
             ]
         },
         {
-            "title": "Spinning room in the basement",
+            "name": "Spinning room in the basement",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -148,7 +148,7 @@
             ]
         },
         {
-            "title": "Phantom Ganon",
+            "name": "Phantom Ganon",
             "type": "boss",
             "tags": [
                 "oot",
@@ -156,7 +156,7 @@
             ]
         },
         {
-            "title": "Entrance area, up in the tree",
+            "name": "Entrance area, up in the tree",
             "type": "item",
             "tags": [
                 "oot",
@@ -164,7 +164,7 @@
             ]
         },
         {
-            "title": "Entrance hallway, upper left corner",
+            "name": "Entrance hallway, upper left corner",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -172,7 +172,7 @@
             ]
         },
         {
-            "title": "Room straight back, wolfos fight",
+            "name": "Room straight back, wolfos fight",
             "type": "item",
             "tags": [
                 "oot",
@@ -180,7 +180,7 @@
             ]
         },
         {
-            "title": "Courtyard, upper balcony",
+            "name": "Courtyard, upper balcony",
             "type": "item",
             "tags": [
                 "oot",
@@ -188,7 +188,7 @@
             ]
         },
         {
-            "title": "Courtyard, chest on grassy hill",
+            "name": "Courtyard, chest on grassy hill",
             "type": "item",
             "tags": [
                 "oot",
@@ -196,7 +196,7 @@
             ]
         },
         {
-            "title": "Courtyard, right side, above door",
+            "name": "Courtyard, right side, above door",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -204,7 +204,7 @@
             ]
         },
         {
-            "title": "Courtyard, in the well",
+            "name": "Courtyard, in the well",
             "type": "item",
             "tags": [
                 "oot",
@@ -212,7 +212,7 @@
             ]
         },
         {
-            "title": "Courtyard, in the well",
+            "name": "Courtyard, in the well",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -220,7 +220,7 @@
             ]
         },
         {
-            "title": "Courtyard, above the well",
+            "name": "Courtyard, above the well",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -228,7 +228,7 @@
             ]
         },
         {
-            "title": "Upper Courtyard, side room",
+            "name": "Upper Courtyard, side room",
             "type": "item",
             "tags": [
                 "oot",
@@ -236,7 +236,7 @@
             ]
         },
         {
-            "title": "Blocking push room, on floor level",
+            "name": "Blocking push room, on floor level",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -244,7 +244,7 @@
             ]
         },
         {
-            "title": "Boss key chest",
+            "name": "Boss key chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -252,7 +252,7 @@
             ]
         },
         {
-            "title": "Red poe (Joelle)",
+            "name": "Red poe (Joelle)",
             "type": "item",
             "tags": [
                 "oot",
@@ -260,7 +260,7 @@
             ]
         },
         {
-            "title": "Bow chest",
+            "name": "Bow chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -268,7 +268,7 @@
             ]
         },
         {
-            "title": "Blue poe (Beth)",
+            "name": "Blue poe (Beth)",
             "type": "item",
             "tags": [
                 "oot",
@@ -276,7 +276,7 @@
             ]
         },
         {
-            "title": "Falling ceiling room",
+            "name": "Falling ceiling room",
             "type": "item",
             "tags": [
                 "oot",
@@ -284,7 +284,7 @@
             ]
         },
         {
-            "title": "Spinning room in the basement",
+            "name": "Spinning room in the basement",
             "type": "item",
             "tags": [
                 "oot",
@@ -292,7 +292,7 @@
             ]
         },
         {
-            "title": "Phantom Ganon",
+            "name": "Phantom Ganon",
             "type": "boss",
             "tags": [
                 "oot",

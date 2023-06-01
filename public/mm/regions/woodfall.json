@@ -1,40 +1,40 @@
 {
     "name": "Woodfall",
     "bgColor": "#365314",
-    "locations": [
+    "items": [
         {
-            "title": "Behind woodfall owl chest",
+            "name": "Behind woodfall owl chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Entrance to woodfall chest",
+            "name": "Entrance to woodfall chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Woodfall bridge chest",
+            "name": "Woodfall bridge chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Great fairy",
+            "name": "Great fairy",
             "type": "fairyrewards",
             "tags": []
         },
         {
-            "title": "On stump",
+            "name": "On stump",
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Pots near owl",
+            "name": "Pots near owl",
             "count": 2,
             "type": "fixed",
             "tags": []
         }
     ],
-    "entrances": [
+    "items": [
         {
             "name": "Woodfall Temple",
             "type": "dungeon"

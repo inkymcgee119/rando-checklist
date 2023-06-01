@@ -2,26 +2,26 @@
     "name": "Gerudo Valley",
     "bgColor": "#0d9488",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Crate heart piece",
+            "name": "Crate heart piece",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Waterfall heart piece",
+            "name": "Waterfall heart piece",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Chest behind hammer rocks",
+            "name": "Chest behind hammer rocks",
             "type": "item",
             "tags": [
                 "adult"
             ]
         },
         {
-            "title": "Bean patch, bottom of canyon",
+            "name": "Bean patch, bottom of canyon",
             "type": "gs",
             "tags": [
                 "child",
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "title": "On waterfall near entrance",
+            "name": "On waterfall near entrance",
             "type": "gs",
             "tags": [
                 "child",
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "title": "Underside of rock arch",
+            "name": "Underside of rock arch",
             "type": "gs",
             "tags": [
                 "adult",
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "title": "Behind carpenter's tent",
+            "name": "Behind carpenter's tent",
             "type": "gs",
             "tags": [
                 "adult",
@@ -53,7 +53,7 @@
             ]
         },
         {
-            "title": "Song of storms, behind tent",
+            "name": "Song of storms, behind tent",
             "type": "scrub",
             "tags": [
                 "grotto",
@@ -62,14 +62,14 @@
             "count": 2
         },
         {
-            "title": "Bottom of canyon",
+            "name": "Bottom of canyon",
             "type": "cow",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Silver rock grotto",
+            "name": "Silver rock grotto",
             "type": "rupee",
             "tags": [
                 "grotto"
@@ -77,7 +77,7 @@
             "count": 8
         },
         {
-            "title": "Song of storms, behind tent",
+            "name": "Song of storms, behind tent",
             "type": "beehive",
             "tags": [
                 "adult",
@@ -85,14 +85,14 @@
             ]
         },
         {
-            "title": "Near cow",
+            "name": "Near cow",
             "type": "crate",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Crate heart piece",
+            "name": "Crate heart piece",
             "type": "crate",
             "tags": []
         }

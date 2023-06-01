@@ -1,37 +1,37 @@
 {
     "name": "South Clock Town",
     "bgColor": "#fbbf24",
-    "locations": [
+    "items": [
         {
-            "title": "Song of healing",
+            "name": "Song of healing",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Clock tower entrance",
+            "name": "Clock tower entrance",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Scrub trade",
+            "name": "Scrub trade",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Postbox",
+            "name": "Postbox",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Final day chest",
+            "name": "Final day chest",
             "type": "item",
             "tags": [
                 "mm",
@@ -39,14 +39,14 @@
             ]
         },
         {
-            "title": "Owl Statue",
+            "name": "Owl Statue",
             "type": "mmstatue",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Straw roof chest",
+            "name": "Straw roof chest",
             "description": "Jump slash from underneath to get on top",
             "type": "item",
             "tags": [

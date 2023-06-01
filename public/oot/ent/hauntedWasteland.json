@@ -1,7 +1,7 @@
 {
     "name": "Haunted Wasteland",
     "bgColor": "#c084fc",
-    "entrances": [
+    "items": [
         {
             "name": "Gerudo Fortress",
             "type": "overworld"

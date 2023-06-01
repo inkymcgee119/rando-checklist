@@ -1,44 +1,44 @@
 {
     "name": "Ice Palace",
     "bgColor": "#22d3ee",
-    "locations": [
+    "items": [
         {
-            "title": "Map chest",
+            "name": "Map chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Compass chest",
+            "name": "Compass chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Big key chest",
+            "name": "Big key chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Big chest",
+            "name": "Big chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Spike room",
+            "name": "Spike room",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Freezor chest",
+            "name": "Freezor chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Iced T room",
+            "name": "Iced T room",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Boss",
+            "name": "Boss",
             "type": "item",
             "tags": []
         }

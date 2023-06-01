@@ -1,23 +1,23 @@
 {
     "name": "Milk Road",
     "bgColor": "#2dd4bf",
-    "locations": [
+    "items": [
         {
-            "title": "Gorman Bros, Race",
+            "name": "Gorman Bros, Race",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Gorman Bros, purchase milk",
+            "name": "Gorman Bros, purchase milk",
             "type": "mmmerchant",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Tingle maps",
+            "name": "Tingle maps",
             "count": 2,
             "type": "item",
             "tags": [
@@ -25,7 +25,7 @@
             ]
         },
         {
-            "title": "Owl Statue",
+            "name": "Owl Statue",
             "type": "mmstatue",
             "tags": [
                 "mm"

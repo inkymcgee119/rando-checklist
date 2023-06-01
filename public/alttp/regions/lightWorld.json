@@ -1,184 +1,184 @@
 {
     "name": "Light World",
     "bgColor": "#64748b",
-    "locations": [
+    "items": [
         {
-            "title": "Sahasrahla's Hut",
+            "name": "Sahasrahla's Hut",
             "count": 3,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Sahasrahla",
+            "name": "Sahasrahla",
             "type": "item",
             "tags": []
         },
         {
-            "title": "King Zora",
+            "name": "King Zora",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Zora's Ledge",
+            "name": "Zora's Ledge",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Waterfall Fairy",
+            "name": "Waterfall Fairy",
             "count": 2,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Potion Shop",
+            "name": "Potion Shop",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Master Sword Pedestal",
+            "name": "Master Sword Pedestal",
             "type": "item",
             "tags": []
         },
         {
-            "title": "King's Tomb",
+            "name": "King's Tomb",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Kakariko, Tavern",
+            "name": "Kakariko, Tavern",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Kakariko, Chicken House",
+            "name": "Kakariko, Chicken House",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Kakariko, Well",
+            "name": "Kakariko, Well",
             "count": 5,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Kakariko, Blind's Hideout",
+            "name": "Kakariko, Blind's Hideout",
             "count": 5,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Kakariko, Bottle Salesman",
+            "name": "Kakariko, Bottle Salesman",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Kakariko, Sick Kid",
+            "name": "Kakariko, Sick Kid",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Kakariko, Bat",
+            "name": "Kakariko, Bat",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Pegasus Rocks",
+            "name": "Pegasus Rocks",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Lost Woods Hideout",
+            "name": "Lost Woods Hideout",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Lumberjack Tree",
+            "name": "Lumberjack Tree",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Graveyard Ledge",
+            "name": "Graveyard Ledge",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Mushroom",
+            "name": "Mushroom",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Floodgate Chest",
+            "name": "Floodgate Chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Link's House",
+            "name": "Link's House",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Aginah's Cave",
+            "name": "Aginah's Cave",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Mini Moldorm Cave",
+            "name": "Mini Moldorm Cave",
             "count": 5,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Ice Rod Cave",
+            "name": "Ice Rod Cave",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Hobo Under Bridge",
+            "name": "Hobo Under Bridge",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Bombos Tablet",
+            "name": "Bombos Tablet",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Cave 45",
+            "name": "Cave 45",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Checkerboard Cave",
+            "name": "Checkerboard Cave",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Library",
+            "name": "Library",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Maze Race",
+            "name": "Maze Race",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Desert Ledge",
+            "name": "Desert Ledge",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Lake Hylia Island",
+            "name": "Lake Hylia Island",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Sunken Treasure",
+            "name": "Sunken Treasure",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Flute Spot",
+            "name": "Flute Spot",
             "type": "item",
             "tags": []
         }

@@ -1,86 +1,86 @@
 {
     "name": "Deku Palace",
     "bgColor": "#a16207",
-    "locations": [
+    "items": [
         {
-            "title": "Bean grotto",
+            "name": "Bean grotto",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Bean man",
+            "name": "Bean man",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Butler",
+            "name": "Butler",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Deku palace west garden",
+            "name": "Deku palace west garden",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Imprisoned monkey",
+            "name": "Imprisoned monkey",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Bean grotto",
+            "name": "Bean grotto",
             "type": "softsoil",
             "tags": []
         },
         {
-            "title": "Outside wall",
+            "name": "Outside wall",
             "type": "softsoil",
             "tags": []
         },
         {
-            "title": "Around guards",
+            "name": "Around guards",
             "count": 17,
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Rupee cluster",
+            "name": "Rupee cluster",
             "count": 7,
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Butler race, pillar islands",
+            "name": "Butler race, pillar islands",
             "count": 8,
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Butler race, river",
+            "name": "Butler race, river",
             "count": 6,
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Butler race, right path",
+            "name": "Butler race, right path",
             "count": 6,
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Butler race, final room",
+            "name": "Butler race, final room",
             "count": 10,
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Butler race, dual pot",
+            "name": "Butler race, dual pot",
             "description": "1st or 2nd right turn, there are 2 pots but only 1 drop.",
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Pots, top section",
+            "name": "Pots, top section",
             "count": 2,
             "type": "fixed",
             "tags": []

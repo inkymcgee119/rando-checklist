@@ -2,16 +2,16 @@
     "name": "Shadow Temple",
     "bgColor": "#6b21a8",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Whispering walls, redead room",
+            "name": "Whispering walls, redead room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Whispering walls, redead room",
+            "name": "Whispering walls, redead room",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -19,14 +19,14 @@
             "count": 2
         },
         {
-            "title": "Whispering walls, deadhand",
+            "name": "Whispering walls, deadhand",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Whispering walls",
+            "name": "Whispering walls",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -34,21 +34,21 @@
             "count": 7
         },
         {
-            "title": "Gibdos room",
+            "name": "Gibdos room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Spinning blade room",
+            "name": "Spinning blade room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Invisible blade room",
+            "name": "Invisible blade room",
             "type": "item",
             "tags": [
                 "vanilla"
@@ -56,14 +56,14 @@
             "count": 2
         },
         {
-            "title": "Invisible blade room",
+            "name": "Invisible blade room",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Invisible blade room",
+            "name": "Invisible blade room",
             "description": "Use song of time to reach",
             "type": "rupee",
             "tags": [
@@ -72,7 +72,7 @@
             "count": 2
         },
         {
-            "title": "Falling spike room",
+            "name": "Falling spike room",
             "type": "item",
             "tags": [
                 "vanilla"
@@ -80,14 +80,14 @@
             "count": 3
         },
         {
-            "title": "Falling spike room",
+            "name": "Falling spike room",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Falling spike room, lower",
+            "name": "Falling spike room, lower",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -95,7 +95,7 @@
             "count": 2
         },
         {
-            "title": "Falling spike room, upper",
+            "name": "Falling spike room, upper",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -103,49 +103,49 @@
             "count": 2
         },
         {
-            "title": "Invisible floor spikes room",
+            "name": "Invisible floor spikes room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Skull room",
+            "name": "Skull room",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Skull room",
+            "name": "Skull room",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Fan area, end room invisible chest",
+            "name": "Fan area, end room invisible chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Fan area, gibdos room chest",
+            "name": "Fan area, gibdos room chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Fan area, gibdos room debris",
+            "name": "Fan area, gibdos room debris",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Fan area, gibdos room",
+            "name": "Fan area, gibdos room",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -153,14 +153,14 @@
             "count": 4
         },
         {
-            "title": "Before boat, scarecrow song",
+            "name": "Before boat, scarecrow song",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Before boat, scarecrow song",
+            "name": "Before boat, scarecrow song",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -168,7 +168,7 @@
             "count": 2
         },
         {
-            "title": "After boat",
+            "name": "After boat",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -176,21 +176,21 @@
             "count": 3
         },
         {
-            "title": "After boat",
+            "name": "After boat",
             "type": "pot",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Invisible maze, invisible floormaster",
+            "name": "Invisible maze, invisible floormaster",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Invisible maze, spike trap",
+            "name": "Invisible maze, spike trap",
             "type": "item",
             "tags": [
                 "vanilla"
@@ -198,14 +198,14 @@
             "count": 2
         },
         {
-            "title": "Triple skull room",
+            "name": "Triple skull room",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Triple skull room",
+            "name": "Triple skull room",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -213,14 +213,14 @@
             "count": 9
         },
         {
-            "title": "Spike trap room",
+            "name": "Spike trap room",
             "type": "pot",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Invisible floor master room",
+            "name": "Invisible floor master room",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -228,7 +228,7 @@
             "count": 2
         },
         {
-            "title": "Before boss",
+            "name": "Before boss",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -236,14 +236,14 @@
             "count": 2
         },
         {
-            "title": "Bongo Bongo",
+            "name": "Bongo Bongo",
             "type": "boss",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Truth spinner",
+            "name": "Truth spinner",
             "type": "crate",
             "tags": [
                 "mq"
@@ -251,7 +251,7 @@
             "count": 4
         },
         {
-            "title": "Whispering walls, before SoT",
+            "name": "Whispering walls, before SoT",
             "type": "pot",
             "tags": [
                 "mq"
@@ -259,14 +259,14 @@
             "count": 4
         },
         {
-            "title": "Whispering walls, redead room",
+            "name": "Whispering walls, redead room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Whispering walls, redead room",
+            "name": "Whispering walls, redead room",
             "type": "pot",
             "tags": [
                 "mq"
@@ -274,7 +274,7 @@
             "count": 2
         },
         {
-            "title": "Whispering walls, after SoT",
+            "name": "Whispering walls, after SoT",
             "type": "pot",
             "tags": [
                 "mq"
@@ -282,49 +282,49 @@
             "count": 2
         },
         {
-            "title": "Whispering walls, deadhand",
+            "name": "Whispering walls, deadhand",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Gibdos room",
+            "name": "Gibdos room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Spinning blade room",
+            "name": "Spinning blade room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Spinning blade room, invisible chest",
+            "name": "Spinning blade room, invisible chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Invisible blade room, visible chest",
+            "name": "Invisible blade room, visible chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Invisible blade room, invisible chest",
+            "name": "Invisible blade room, invisible chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Invisible blade room",
+            "name": "Invisible blade room",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -332,14 +332,14 @@
             "count": 2
         },
         {
-            "title": "Silver rupees around the beamos",
+            "name": "Silver rupees around the beamos",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Falling spike room",
+            "name": "Falling spike room",
             "type": "item",
             "tags": [
                 "mq"
@@ -347,14 +347,14 @@
             "count": 3
         },
         {
-            "title": "Falling spike room",
+            "name": "Falling spike room",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Falling spikes, lower",
+            "name": "Falling spikes, lower",
             "type": "pot",
             "tags": [
                 "mq"
@@ -362,7 +362,7 @@
             "count": 2
         },
         {
-            "title": "Falling spikes, upper",
+            "name": "Falling spikes, upper",
             "type": "pot",
             "tags": [
                 "mq"
@@ -370,56 +370,56 @@
             "count": 2
         },
         {
-            "title": "Invisible floor spikes room",
+            "name": "Invisible floor spikes room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Stalfos room",
+            "name": "Stalfos room",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Fan area, end room invisible chest",
+            "name": "Fan area, end room invisible chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Fan area, end room",
+            "name": "Fan area, end room",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Fan area, gibdos room, kill enemies",
+            "name": "Fan area, gibdos room, kill enemies",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Fan area, gibdos room, debris",
+            "name": "Fan area, gibdos room, debris",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Fan area, gibdos room, debris",
+            "name": "Fan area, gibdos room, debris",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Fan area, gibdos room",
+            "name": "Fan area, gibdos room",
             "type": "pot",
             "tags": [
                 "mq"
@@ -427,7 +427,7 @@
             "count": 4
         },
         {
-            "title": "Before boat",
+            "name": "Before boat",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -435,21 +435,21 @@
             "count": 2
         },
         {
-            "title": "After boat, in the pit",
+            "name": "After boat, in the pit",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "After boat, lower",
+            "name": "After boat, lower",
             "type": "rupee",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "After boat, upper",
+            "name": "After boat, upper",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -457,7 +457,7 @@
             "count": 2
         },
         {
-            "title": "After boat",
+            "name": "After boat",
             "type": "pot",
             "tags": [
                 "mq"
@@ -465,21 +465,21 @@
             "count": 2
         },
         {
-            "title": "Invisible maze, deadhand",
+            "name": "Invisible maze, deadhand",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Invisible maze, triple skull",
+            "name": "Invisible maze, triple skull",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Invisible maze, spike trap",
+            "name": "Invisible maze, spike trap",
             "type": "item",
             "tags": [
                 "mq"
@@ -487,7 +487,7 @@
             "count": 2
         },
         {
-            "title": "Triple spinning pot",
+            "name": "Triple spinning pot",
             "type": "rupee",
             "tags": [
                 "mq"
@@ -495,7 +495,7 @@
             "count": 9
         },
         {
-            "title": "Invisible maze, deadhand 2",
+            "name": "Invisible maze, deadhand 2",
             "type": "pot",
             "tags": [
                 "mq"
@@ -503,14 +503,14 @@
             "count": 2
         },
         {
-            "title": "Invisible maze, spike walls",
+            "name": "Invisible maze, spike walls",
             "type": "pot",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Near boss",
+            "name": "Near boss",
             "type": "pot",
             "tags": [
                 "mq"
@@ -518,14 +518,14 @@
             "count": 2
         },
         {
-            "title": "Room before Bongo Bongo",
+            "name": "Room before Bongo Bongo",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Bongo Bongo",
+            "name": "Bongo Bongo",
             "type": "boss",
             "tags": [
                 "mq"

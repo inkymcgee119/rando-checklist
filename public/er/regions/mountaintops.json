@@ -1,51 +1,51 @@
 {
     "name": "Mountaintops of the Giants",
     "bgColor": "#be185d",
-    "locations": [
+    "items": [
         {
             "type": "key",
-            "title": "Haligtree Secret Medallion (Left)",
+            "name": "Haligtree Secret Medallion (Left)",
             "description": "Atop a tower after defeating Commander Niall"
         },
         {
             "type": "major",
-            "title": "Commander Niall in Castle Sol"
+            "name": "Commander Niall in Castle Sol"
         },
         {
             "type": "flask",
-            "title": "First Church of Marika at the southmost end of Freezing Lake"
+            "name": "First Church of Marika at the southmost end of Freezing Lake"
         },
         {
             "type": "flask",
-            "title": "Golden Seed south of the Freezing Lake Site of Grace"
+            "name": "Golden Seed south of the Freezing Lake Site of Grace"
         },
         {
             "type": "shop",
-            "title": "Hermit Merchant along a cliffside to the west of Stargazer's Ruins"
+            "name": "Hermit Merchant along a cliffside to the west of Stargazer's Ruins"
         },
         {
             "type": "minor",
-            "title": "Borealis the Freezing Fog"
+            "name": "Borealis the Freezing Fog"
         },
         {
             "type": "minor",
-            "title": "Roundtable Knight Vyke in the Lord Contender's Evergaol"
+            "name": "Roundtable Knight Vyke in the Lord Contender's Evergaol"
         },
         {
             "type": "minor",
-            "title": "Erdtree Avatar Duo"
+            "name": "Erdtree Avatar Duo"
         },
         {
             "type": "minor",
-            "title": "Death Rite Bird on the way from Snow Valley Ruins Overlook to Castle Sol"
+            "name": "Death Rite Bird on the way from Snow Valley Ruins Overlook to Castle Sol"
         },
         {
             "type": "miniboss",
-            "title": "Giants' Mountaintop Catacombs, Ulcerated Tree Spirit"
+            "name": "Giants' Mountaintop Catacombs, Ulcerated Tree Spirit"
         },
         {
             "type": "miniboss",
-            "title": "Spiritcaller Cave, Spiritcaller Snail (Godskin Summoner)"
+            "name": "Spiritcaller Cave, Spiritcaller Snail (Godskin Summoner)"
         }
     ]
 }

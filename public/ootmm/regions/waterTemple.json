@@ -2,9 +2,9 @@
     "name": "Water Temple",
     "bgColor": "#1e40af",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Bottom floor, first chest",
+            "name": "Bottom floor, first chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Bottom floor, torch room",
+            "name": "Bottom floor, torch room",
             "type": "item",
             "tags": [
                 "oot",
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "title": "Bottom floor, dragon",
+            "name": "Bottom floor, dragon",
             "type": "item",
             "tags": [
                 "oot",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "title": "Bottom floor, behind a gate",
+            "name": "Bottom floor, behind a gate",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "title": "Bottom floor, waterfall boulders",
+            "name": "Bottom floor, waterfall boulders",
             "type": "item",
             "tags": [
                 "oot",
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "title": "Bottom floor, waterfall boulder",
+            "name": "Bottom floor, waterfall boulder",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -52,7 +52,7 @@
             ]
         },
         {
-            "title": "Central pillar, basement area",
+            "name": "Central pillar, basement area",
             "type": "item",
             "tags": [
                 "oot",
@@ -60,7 +60,7 @@
             ]
         },
         {
-            "title": "Central pillar, at the top",
+            "name": "Central pillar, at the top",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -68,7 +68,7 @@
             ]
         },
         {
-            "title": "Second floor, cracked wall",
+            "name": "Second floor, cracked wall",
             "description": "Up from the room where you meet Ruto",
             "type": "item",
             "tags": [
@@ -77,7 +77,7 @@
             ]
         },
         {
-            "title": "Second floor, water column room",
+            "name": "Second floor, water column room",
             "type": "item",
             "tags": [
                 "oot",
@@ -85,7 +85,7 @@
             ]
         },
         {
-            "title": "Second floor, eye switch",
+            "name": "Second floor, eye switch",
             "type": "item",
             "tags": [
                 "oot",
@@ -93,7 +93,7 @@
             ]
         },
         {
-            "title": "Top floor, hookshot waterfall room",
+            "name": "Top floor, hookshot waterfall room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -101,7 +101,7 @@
             ]
         },
         {
-            "title": "Top floor, dark Link",
+            "name": "Top floor, dark Link",
             "type": "item",
             "tags": [
                 "oot",
@@ -109,7 +109,7 @@
             ]
         },
         {
-            "title": "River chest after dark Link",
+            "name": "River chest after dark Link",
             "type": "item",
             "tags": [
                 "oot",
@@ -117,7 +117,7 @@
             ]
         },
         {
-            "title": "River after dark link",
+            "name": "River after dark link",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -125,7 +125,7 @@
             ]
         },
         {
-            "title": "Morpha",
+            "name": "Morpha",
             "type": "boss",
             "tags": [
                 "oot",
@@ -133,7 +133,7 @@
             ]
         },
         {
-            "title": "Bottom floor, first chest",
+            "name": "Bottom floor, first chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -141,7 +141,7 @@
             ]
         },
         {
-            "title": "Bottom floor, waterfall room crate",
+            "name": "Bottom floor, waterfall room crate",
             "type": "item",
             "tags": [
                 "oot",
@@ -149,7 +149,7 @@
             ]
         },
         {
-            "title": "Bottom floor, torch room",
+            "name": "Bottom floor, torch room",
             "type": "item",
             "tags": [
                 "oot",
@@ -157,7 +157,7 @@
             ]
         },
         {
-            "title": "Bottom floor, triple torch room",
+            "name": "Bottom floor, triple torch room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -165,7 +165,7 @@
             ]
         },
         {
-            "title": "Central pillar, basement area",
+            "name": "Central pillar, basement area",
             "type": "item",
             "tags": [
                 "oot",
@@ -173,7 +173,7 @@
             ]
         },
         {
-            "title": "Second floor, cracked wall",
+            "name": "Second floor, cracked wall",
             "description": "Up from the room where you meet Ruto",
             "type": "item",
             "tags": [
@@ -182,7 +182,7 @@
             ]
         },
         {
-            "title": "Second floor, torches behind a gate",
+            "name": "Second floor, torches behind a gate",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -190,7 +190,7 @@
             ]
         },
         {
-            "title": "Second floor, box button room",
+            "name": "Second floor, box button room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -198,7 +198,7 @@
             ]
         },
         {
-            "title": "After dark link, river",
+            "name": "After dark link, river",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -206,7 +206,7 @@
             ]
         },
         {
-            "title": "Boss key chest",
+            "name": "Boss key chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -214,7 +214,7 @@
             ]
         },
         {
-            "title": "Longshot area, behind gate",
+            "name": "Longshot area, behind gate",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -222,7 +222,7 @@
             ]
         },
         {
-            "title": "Morpha",
+            "name": "Morpha",
             "type": "boss",
             "tags": [
                 "oot",

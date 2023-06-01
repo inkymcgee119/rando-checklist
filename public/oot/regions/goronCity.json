@@ -2,69 +2,69 @@
     "name": "Goron City",
     "bgColor": "#713f12",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Rolling goron",
+            "name": "Rolling goron",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Darunia's joy",
+            "name": "Darunia's joy",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Spinning pot",
+            "name": "Spinning pot",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Rock maze, right side",
+            "name": "Rock maze, right side",
             "type": "item",
             "tags": [],
             "count": 2
         },
         {
-            "title": "Rock maze, left side",
+            "name": "Rock maze, left side",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Link the goron",
+            "name": "Link the goron",
             "type": "item",
             "tags": [
                 "adult"
             ]
         },
         {
-            "title": "Medigoron (if enabled)",
+            "name": "Medigoron (if enabled)",
             "type": "item",
             "tags": [
                 "adult"
             ]
         },
         {
-            "title": "Rock maze, right side crate",
+            "name": "Rock maze, right side crate",
             "type": "gs",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Back of pedestal in the center",
+            "name": "Back of pedestal in the center",
             "type": "gs",
             "tags": [
                 "adult"
             ]
         },
         {
-            "title": "Hookshot in lava room",
+            "name": "Hookshot in lava room",
             "type": "scrub",
             "tags": [
                 "grotto"
@@ -72,12 +72,12 @@
             "count": 3
         },
         {
-            "title": "Shop",
+            "name": "Shop",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Spinning pot 🙂",
+            "name": "Spinning pot 🙂",
             "type": "rupee",
             "tags": [
                 "child"
@@ -85,7 +85,7 @@
             "count": 2
         },
         {
-            "title": "Spinning pot 😐",
+            "name": "Spinning pot 😐",
             "type": "rupee",
             "tags": [
                 "child"
@@ -93,7 +93,7 @@
             "count": 3
         },
         {
-            "title": "Spinning pot 😡",
+            "name": "Spinning pot 😡",
             "type": "rupee",
             "tags": [
                 "child"
@@ -101,29 +101,29 @@
             "count": 3
         },
         {
-            "title": "Rock maze, right side",
+            "name": "Rock maze, right side",
             "type": "crate",
             "tags": []
         },
         {
-            "title": "Staircase",
+            "name": "Staircase",
             "type": "pot",
             "tags": [],
             "count": 5
         },
         {
-            "title": "Medigoron",
+            "name": "Medigoron",
             "type": "pot",
             "tags": []
         },
         {
-            "title": "Darunia",
+            "name": "Darunia",
             "type": "pot",
             "tags": [],
             "count": 3
         },
         {
-            "title": "Hookshot in lava room",
+            "name": "Hookshot in lava room",
             "type": "beehive",
             "tags": [
                 "grotto"

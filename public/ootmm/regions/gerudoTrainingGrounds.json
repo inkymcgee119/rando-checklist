@@ -2,9 +2,9 @@
     "name": "Gerudo Training Grounds",
     "bgColor": "#facc15",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Lobby",
+            "name": "Lobby",
             "type": "item",
             "tags": [
                 "oot",
@@ -13,7 +13,7 @@
             "count": 2
         },
         {
-            "title": "Stafos room",
+            "name": "Stafos room",
             "type": "item",
             "tags": [
                 "oot",
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "title": "Lizafos and beamos room",
+            "name": "Lizafos and beamos room",
             "type": "item",
             "tags": [
                 "oot",
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "title": "Lava room, freestanding key",
+            "name": "Lava room, freestanding key",
             "type": "item",
             "tags": [
                 "oot",
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "title": "Lava room, toilet",
+            "name": "Lava room, toilet",
             "type": "item",
             "tags": [
                 "oot",
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "title": "Hammer room, kill enemies",
+            "name": "Hammer room, kill enemies",
             "type": "item",
             "tags": [
                 "oot",
@@ -53,7 +53,7 @@
             ]
         },
         {
-            "title": "Hammer room, hidden switch",
+            "name": "Hammer room, hidden switch",
             "type": "item",
             "tags": [
                 "oot",
@@ -61,7 +61,7 @@
             ]
         },
         {
-            "title": "Spinning eye statue",
+            "name": "Spinning eye statue",
             "type": "item",
             "tags": [
                 "oot",
@@ -69,7 +69,7 @@
             ]
         },
         {
-            "title": "Spinning eye statue, side room",
+            "name": "Spinning eye statue, side room",
             "type": "item",
             "tags": [
                 "oot",
@@ -77,7 +77,7 @@
             ]
         },
         {
-            "title": "Wolfos room",
+            "name": "Wolfos room",
             "type": "item",
             "tags": [
                 "oot",
@@ -85,7 +85,7 @@
             ]
         },
         {
-            "title": "Silver block like like room",
+            "name": "Silver block like like room",
             "type": "item",
             "tags": [
                 "oot",
@@ -94,7 +94,7 @@
             "count": 4
         },
         {
-            "title": "Lock maze, right side",
+            "name": "Lock maze, right side",
             "type": "item",
             "tags": [
                 "oot",
@@ -103,7 +103,7 @@
             "count": 2
         },
         {
-            "title": "Lock maze, up through ceiling",
+            "name": "Lock maze, up through ceiling",
             "type": "item",
             "tags": [
                 "oot",
@@ -111,7 +111,7 @@
             ]
         },
         {
-            "title": "Lock maze, left side chest 1",
+            "name": "Lock maze, left side chest 1",
             "type": "item",
             "tags": [
                 "oot",
@@ -119,7 +119,7 @@
             ]
         },
         {
-            "title": "Lock maze, left side chest 2",
+            "name": "Lock maze, left side chest 2",
             "type": "item",
             "tags": [
                 "oot",
@@ -127,7 +127,7 @@
             ]
         },
         {
-            "title": "Lock maze, left side chest 3",
+            "name": "Lock maze, left side chest 3",
             "type": "item",
             "tags": [
                 "oot",
@@ -135,7 +135,7 @@
             ]
         },
         {
-            "title": "Lock maze, left side chest 4",
+            "name": "Lock maze, left side chest 4",
             "type": "item",
             "tags": [
                 "oot",
@@ -143,7 +143,7 @@
             ]
         },
         {
-            "title": "Lobby",
+            "name": "Lobby",
             "type": "item",
             "tags": [
                 "oot",
@@ -152,7 +152,7 @@
             "count": 2
         },
         {
-            "title": "Iron knuckle room",
+            "name": "Iron knuckle room",
             "type": "item",
             "tags": [
                 "oot",
@@ -160,7 +160,7 @@
             ]
         },
         {
-            "title": "Stafos room",
+            "name": "Stafos room",
             "type": "item",
             "tags": [
                 "oot",
@@ -168,7 +168,7 @@
             ]
         },
         {
-            "title": "Silver block room",
+            "name": "Silver block room",
             "type": "item",
             "tags": [
                 "oot",
@@ -176,7 +176,7 @@
             ]
         },
         {
-            "title": "Lizalfos and dodongos room",
+            "name": "Lizalfos and dodongos room",
             "type": "item",
             "tags": [
                 "oot",
@@ -184,7 +184,7 @@
             ]
         },
         {
-            "title": "Lava room, toilet",
+            "name": "Lava room, toilet",
             "type": "item",
             "tags": [
                 "oot",
@@ -192,7 +192,7 @@
             ]
         },
         {
-            "title": "Spinning eye statue",
+            "name": "Spinning eye statue",
             "type": "item",
             "tags": [
                 "oot",
@@ -200,7 +200,7 @@
             ]
         },
         {
-            "title": "Fiery iron knuckles room",
+            "name": "Fiery iron knuckles room",
             "type": "item",
             "tags": [
                 "oot",
@@ -209,7 +209,7 @@
             "count": 2
         },
         {
-            "title": "Lock maze, right side",
+            "name": "Lock maze, right side",
             "type": "item",
             "tags": [
                 "oot",
@@ -218,7 +218,7 @@
             "count": 2
         },
         {
-            "title": "Lock maze, left side",
+            "name": "Lock maze, left side",
             "type": "item",
             "tags": [
                 "oot",
@@ -227,7 +227,7 @@
             "count": 3
         },
         {
-            "title": "Lock maze, left side key",
+            "name": "Lock maze, left side key",
             "type": "item",
             "tags": [
                 "oot",
@@ -235,7 +235,7 @@
             ]
         },
         {
-            "title": "Lock maze, switch chest",
+            "name": "Lock maze, switch chest",
             "type": "item",
             "tags": [
                 "oot",

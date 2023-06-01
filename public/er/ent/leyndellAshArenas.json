@@ -2,7 +2,7 @@
     "name": "Ashen Leyndell Boss Arenas",
     "bgColor": "linear-gradient(90deg, #27272a, #71717a 60%)",
     "dropdownColor": "#71717a",
-    "entrances": [
+    "items": [
         {
             "name": "Gideon, right",
             "type": "major",

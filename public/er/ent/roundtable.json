@@ -1,7 +1,7 @@
 {
     "name": "Roundtable Hold",
     "bgColor": "#86198f",
-    "entrances": [
+    "items": [
         {
             "name": "Roundtable to balcony",
             "type": "critical",

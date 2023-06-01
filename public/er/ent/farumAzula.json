@@ -1,7 +1,7 @@
 {
     "name": "Farum Azula",
     "bgColor": "#7c3aed",
-    "entrances": [
+    "items": [
         {
             "name": "Start of Farum Azula",
             "type": "major",

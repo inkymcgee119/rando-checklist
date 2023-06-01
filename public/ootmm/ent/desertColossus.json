@@ -1,7 +1,7 @@
 {
     "name": "Desert Colossus",
     "bgColor": "#fbbf24",
-    "entrances": [
+    "items": [
         {
             "name": "Spirit Temple",
             "type": "dungeon"

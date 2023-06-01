@@ -2,7 +2,7 @@
     "name": "Ainsel River Boss Arenas",
     "bgColor": "linear-gradient(90deg, #27272a, #c084fc 60%)",
     "dropdownColor": "#c084fc",
-    "entrances": [
+    "items": [
         {
             "name": "Dragonkin of Nokstella, front", 
             "type": "underground",

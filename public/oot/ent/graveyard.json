@@ -1,7 +1,7 @@
 {
     "name": "Graveyard",
     "bgColor": "#a78bfa",
-    "entrances": [
+    "items": [
         {
             "name": "Kakariko Village",
             "type": "overworld"

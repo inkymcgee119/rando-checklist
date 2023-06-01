@@ -1,7 +1,7 @@
 {
     "name": "Mountain Village",
     "bgColor": "#854D0E",
-    "entrances": [        
+    "items": [        
         {
             "name": "Termina Field",
             "type": "region"

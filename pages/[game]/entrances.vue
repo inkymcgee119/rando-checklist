@@ -17,34 +17,10 @@
                 No Results
             </div>
 
-            <div class="flex flex-col mx-1 grow" v-for="regionGroup in filteredRegionGroups">
-                <div class="bg-slate-200 mb-3 rounded-md shadow-xl pb-2 select-none" v-for="region in regionGroup">
-
-                    <div class="px-2 font-sans text-white rounded-t-md text-xl font-semibold text-left cursor-pointer"
-                        :style="{ background: region.bgColor }" v-collapsible-header>
-                        {{ region.name }}
-                    </div>
-                    <div>
-                        <div v-for="(ent, idx) in region.entrances" class="flex flex-row justify-between px-2 my-1"
-                            :class="{ 'border-b-2 border-slate-300': idx < region.entrances.length - 1, 'bg-yellow-400': ent.isStarred }"
-                            @contextmenu.prevent="rightClickLocation(ent)">
-                            <div class="font-semibold my-auto basis-1/2">
-                                <Icon :name="getEntranceTypeByName(ent.type).icon"></Icon>
-                                {{ ent.name }}
-                            </div>
-
-                            <div class="basis-1/2 my-auto">
-                                <dropdown v-model="ent.destination" toggler-class="rounded-md text-white text-sm"
-                                    :style="{ background: region.dropdownColor ?? region.bgColor }"
-                                    toggler-text="Select location"
-                                    :groups="dropdownGroupsByType[appState.entranceOptions.toggleSettings.mixedPool ? 'all' : ent.type]"
-                                    :include-clear="true" :include-search="true"
-                                    @update="(item) => updateDropdown({ src: { region: region, entrance: ent }, dest: item })">
-                                </dropdown>
-                            </div>
-                        </div>
-                    </div>
-
+            <div class="flex flex-col mx-1 grow" v-for="col in cardColumns">
+                <div v-for="region in col">
+                    <EntranceCard :region="region" :dropdown-groups="dropdownGroupsByType" @update="updateDropdown">
+                    </EntranceCard>
                 </div>
             </div>
 
@@ -55,12 +31,12 @@
 <script setup>
 
 const appState = useAppState();
-const filteredRegionGroups = ref([]);
+const cardColumns = ref([]);
 const searchTerm = useDebouncedRef("", 200);
+const columns = ref(1);
 
 onMounted(() => {
     assignColumnNumber(window.innerWidth);
-    assignRegionCardColumns(columnsEntrances.value);
 
     window.addEventListener("resize", (e) => {
         assignColumnNumber(window.innerWidth);
@@ -69,15 +45,8 @@ onMounted(() => {
 
 watch(appState.value.entranceOptions, () => save());
 
-const totalChecks = computed(() => filteredRegions.value.reduce((acc, val) => acc + val.entrances.length, 0));
-const totalChecked = computed(() => filteredRegions.value.reduce((acc, val) => acc + val.entrances.filter(x => x.destination).length, 0));
-
-function rightClickLocation(ent) {
-    ent.isStarred = !ent.isStarred;
-    save();
-
-    return false;
-}
+const totalChecks = computed(() => filteredRegions.value.reduce((acc, val) => acc + val.items.length, 0));
+const totalChecked = computed(() => filteredRegions.value.reduce((acc, val) => acc + val.items.filter(x => x.destination).length, 0));
 
 const filteredRegions = computed(() => {
     let result = [];
@@ -89,10 +58,10 @@ const filteredRegions = computed(() => {
 
     for (let region of appState.value.entranceRegions) {
         let r = { ...region };
-        if (!r.entrances)
+        if (!r.items)
             continue;
 
-        r.entrances = r.entrances.filter(ent => {
+        r.items = r.items.filter(ent => {
             let rowVisible = true;
 
             // filter settings
@@ -100,7 +69,6 @@ const filteredRegions = computed(() => {
                 rowVisible &= appState.value.entranceOptions.settings[ent.type];
             else
                 rowVisible = false;
-
 
             // filter tags
             if (appState.value.selectedGame.entranceOptions.tags)
@@ -119,7 +87,7 @@ const filteredRegions = computed(() => {
             return rowVisible;
         });
 
-        if (r.entrances.length > 0)
+        if (r.items.length > 0)
             result.push(r);
     }
 
@@ -133,10 +101,10 @@ const searchResults = computed(() => {
     let result = [];
     for (let region of filteredRegions.value) {
         let r = { ...region };
-        if (!r.entrances)
+        if (!r.items)
             continue;
 
-        r.entrances = r.entrances.filter(ent => {
+        r.items = r.items.filter(ent => {
             let searchFound = false;
             for (let term of searchTerm.value.split(' ').filter(x => x != ""))
                 searchFound |= region.name.toUpperCase().indexOf(term.toUpperCase()) > -1 || ent.name.toUpperCase().indexOf(term.toUpperCase()) > -1;
@@ -144,36 +112,34 @@ const searchResults = computed(() => {
             return searchFound;
         });
 
-        if (r.entrances.length > 0) {
+        if (r.items.length > 0) {
             result.push(r);
         }
     }
-
 
     return result;
 });
 
 // full entrance list
 const filteredRegionEntranceList = computed(() => {
-    let entrances = [];
-
+    let items = [];
     for (let region of appState.value.entranceRegions) {
-        if (region.entrances) {
-            let ents = region.entrances.filter(x => appState.value.entranceOptions.settings[x.type]);
+        if (region.items) {
+            let ents = region.items.filter(x => appState.value.entranceOptions.settings[x.type]);
             if (ents.length > 0) {
-                entrances.push({
+                items.push({
                     name: region.name,
-                    entrances: ents
+                    items: ents
                 });
             }
         }
     }
 
-    return entrances;
+    return items;
 });
 
 
-// entrances grouped by type, used for dropdown
+// items grouped by type, used for dropdown
 const dropdownGroupsByType = computed(() => {
     let result = [];
 
@@ -191,15 +157,15 @@ function getDropdownGroupsByType(entTypeName) {
     let entType = getEntranceTypeByName(entTypeName);
 
     for (let region of filteredRegionEntranceList.value) {
-        if (region.entrances) {
-            let ents = region.entrances.filter(ent => {
+        if (region.items) {
+            let ents = region.items.filter(ent => {
                 let rowVisible = false;
                 if (stringCompareCaseInsensitive(ent.type, entTypeName))
                     rowVisible |= true;
                 if (entType.showAll)
                     rowVisible |= true;
 
-                // mixed pool, all entrances included as long as the option is selected
+                // mixed pool, all items included as long as the option is selected
                 if (stringCompareCaseInsensitive(entTypeName, "all") && appState.value.entranceOptions.settings[ent.type])
                     rowVisible |= true;
 
@@ -249,22 +215,20 @@ function updateDropdown(data) {
     let destRegionDDItem = dropdownItems.find(r => stringCompareCaseInsensitive(r.description, destRegion));
     let destEntDDItem = destRegionDDItem?.items.find(x => stringCompareCaseInsensitive(x.name, destEnt));
 
-    // assign in regions
-    let srcReg = appState.value.entranceRegions.find(x => stringCompareCaseInsensitive(x.name, srcRegion));
-    let srcRegEnt = srcReg?.entrances.find(x => stringCompareCaseInsensitive(x.name, srcEnt) && x.type == srcEntDDItem.type);
+    // assign in regions    
+    let srcRegEnt = getEntrance(srcRegion, srcEnt, srcEntDDItem.type);
     let srcRegEntType = getEntranceTypeByName(data.src.entrance.type);
-
-    let destReg = appState.value.entranceRegions.find(x => stringCompareCaseInsensitive(x.name, destRegion));
-    let destRegEnt = destReg?.entrances.find(x => stringCompareCaseInsensitive(x.name, destEnt) && x.type == destEntDDItem.type);
+    
+    let destRegEnt = getEntrance(destRegion, destEnt, destEntDDItem.type);
     let destRegEntType = getEntranceTypeByName(data.dest.type);
 
     if (destRegEnt && srcEntDDItem)
         srcRegEnt.destination = { ...destEntDDItem, value: getEntranceDescription(destEntDDItem) };
 
-    // A->B becomes C->D, D->C also becomes B->A, assign the inverse if coupled entrances
+    // A->B becomes C->D, D->C also becomes B->A, assign the inverse if coupled items
     if (appState.value.entranceOptions.toggleSettings.coupled &&
         (srcRegEntType.isBidirectional || destRegEntType.isBidirectional) &&
-        !(srcRegEntType.isUnidirectional || destRegEntType.isUnidirectional) ) {
+        !(srcRegEntType.isUnidirectional || destRegEntType.isUnidirectional)) {
 
         srcRegionDDItem = dropdownItems.find(r => stringCompareCaseInsensitive(r.description, destRegion));
         srcEntDDItem = srcRegionDDItem?.items.find(x => stringCompareCaseInsensitive(x.name, destEnt));
@@ -274,88 +238,19 @@ function updateDropdown(data) {
 
         destRegEnt.destination = { ...destEntDDItem, value: getEntranceDescription(destEntDDItem) };
     }
+
     save();
 }
 
 function assignColumnNumber(width) {
-    let prevColNum = columnsEntrances.value;
-
     // responsive sizes configured in tailwind
-    if (width >= 2058)
-        columnsEntrances.value = 3;
-    else if (width >= 1715)
-        columnsEntrances.value = 3;
-    else if (width >= 1372)
-        columnsEntrances.value = 2;
-    else if (width >= 1029)
-        columnsEntrances.value = 2;
-    else if (width >= 686)
-        columnsEntrances.value = 1;
+    if (width >= constants.ResponsiveBreakPoints.xxl)
+        columns.value = 3;
+    else if (width >= constants.ResponsiveBreakPoints.lg)
+        columns.value = 2;
     else
-        columnsEntrances.value = 1;
-
-    if (columnsEntrances.value != prevColNum) {
-        assignRegionCardColumns(columnsEntrances.value);
-    }
+        columns.value = 1;
 }
-
-// hacky attempt to balance the height by distributing the region cards evenly by height
-function assignRegionCardColumns(colNum) {
-
-    if (!searchResults.value || searchResults.value.length == 0) {
-        filteredRegionGroups.value = [];
-        return;
-    }
-
-    let height = calculateRegionCardHeight(searchResults.value[0]);
-
-    let currCol = 0;
-    do {
-        currCol = 0;
-        let runningHeight = 0;
-
-        for (let region of searchResults.value) {
-            let cardHeight = calculateRegionCardHeight(region);
-
-            // if overflowing, start new col
-            if (runningHeight + cardHeight > height) {
-                currCol++;
-                runningHeight = cardHeight;
-            }
-            else
-                runningHeight += cardHeight; // else add to current column
-
-            region.colNum = currCol; // assign col to be used by layout
-        }
-
-        // there was overflow, increase size and try again
-        if (currCol >= colNum)
-            height += 2;
-    } while (currCol >= colNum)
-
-    assignRegionGroups();
-}
-
-function calculateRegionCardHeight(region) {
-    return region.entrances ? region.entrances.length + 1 : 0;
-}
-
-
-
-
-function assignRegionGroups() {
-    //group by colnum
-    let results = [];
-    for (let r of searchResults.value) {
-        if (results[r.colNum])
-            results[r.colNum].push(r);
-        else
-            results[r.colNum] = [r];
-    }
-
-    filteredRegionGroups.value = results;
-};
-
 
 function getEntranceDescription(ddItem) {
     let entType = getEntranceTypeByName(ddItem.type);
@@ -366,9 +261,9 @@ function getEntranceDescription(ddItem) {
 }
 
 watch(searchResults, () => {
-    assignRegionCardColumns(columnsEntrances.value);
+    cardColumns.value = assignCardColumns(searchResults.value, columns.value);
 });
 watch(columns, () => {
-    assignRegionCardColumns(columnsEntrances.value);
+    cardColumns.value = assignCardColumns(searchResults.value, columns.value);
 });
 </script>

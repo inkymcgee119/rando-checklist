@@ -1,65 +1,65 @@
 {
     "name": "Goron Village",
     "bgColor": "#f43f5e",
-    "locations": [
+    "items": [
         {
-            "title": "Baby goron",
+            "name": "Baby goron",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Ledge above scrub",
+            "name": "Ledge above scrub",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Lens of truth chest",
+            "name": "Lens of truth chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Lens cave, invisible chest",
+            "name": "Lens cave, invisible chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Lens cave, rock chest",
+            "name": "Lens cave, rock chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Mountain scrub trade",
+            "name": "Mountain scrub trade",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Mountain scrub purchase",
+            "name": "Mountain scrub purchase",
             "type": "shop",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Powder keg challenge",
+            "name": "Powder keg challenge",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Goron shop",
+            "name": "Goron shop",
             "count": 3,
             "type": "mmshop",
             "tags": [

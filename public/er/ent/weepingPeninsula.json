@@ -1,7 +1,7 @@
 {
     "name": "Weeping Peninsula",
     "bgColor": "#713f12",
-    "entrances": [
+    "items": [
         {
             "name": "Before Leonine Misbegotten's arena",
             "type": "major",

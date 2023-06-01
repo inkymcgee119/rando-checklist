@@ -1,161 +1,161 @@
 {
     "name": "Liurnia of the Lakes",
     "bgColor": "#2563eb",
-    "locations": [
+    "items": [
         {
             "type": "key",
-            "title": "Haligtree Secret Medallion (Right)",
+            "name": "Haligtree Secret Medallion (Right)",
             "description": "Given by Albus the Albinauric in Village of the Albinauric"
         },
         {
             "type": "key",
-            "title": "Cursemark of Death",
+            "name": "Cursemark of Death",
             "description": "Divine Tower of Liurnia, accessed after traversing Inverted Carian Study Hall"
         },
         {
             "type": "key",
-            "title": "Academy Glintstone Key",
+            "name": "Academy Glintstone Key",
             "description": "Guarded by Glintstone Dragon Smarag"
         },
         {
             "type": "key",
-            "title": "Imbued Sword Key",
+            "name": "Imbued Sword Key",
             "description": "In a chest at the topmost of the Belfries"
         },
         {
             "type": "major",
-            "title": "Royal Knight Loretta"
+            "name": "Royal Knight Loretta"
         },
         {
             "type": "major",
-            "title": "Magma Wyrm Makar"
+            "name": "Magma Wyrm Makar"
         },
         {
             "type": "flask",
-            "title": "Church of Irith, south of Lake-Facing Cliffs Site of Grace"
+            "name": "Church of Irith, south of Lake-Facing Cliffs Site of Grace"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree after Manor Upper Level in Caria Manor"
+            "name": "Golden Seed tree after Manor Upper Level in Caria Manor"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree near the Ravine-Veiled Village before Ruin-Strewn Precipice"
+            "name": "Golden Seed tree near the Ravine-Veiled Village before Ruin-Strewn Precipice"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree in Academy Gate Town"
+            "name": "Golden Seed tree in Academy Gate Town"
         },
         {
             "type": "shop",
-            "title": "Iji"
+            "name": "Iji"
         },
         {
             "type": "shop",
-            "title": "Pidia, found by dropping back down into Caria Manor off a cliff edge from the Three Sisters"
+            "name": "Pidia, found by dropping back down into Caria Manor off a cliff edge from the Three Sisters"
         },
         {
             "type": "shop",
-            "title": "Nomadic Merchant by the Liurnia Lake Shore Site of Grace"
+            "name": "Nomadic Merchant by the Liurnia Lake Shore Site of Grace"
         },
         {
             "type": "minor",
-            "title": "Adan, Thief of Fire in the Malefactor's Evergaol"
+            "name": "Adan, Thief of Fire in the Malefactor's Evergaol"
         },
         {
             "type": "minor",
-            "title": "Bols, Carian Knight in Cuckoo's Evergaol"
+            "name": "Bols, Carian Knight in Cuckoo's Evergaol"
         },
         {
             "type": "minor",
-            "title": "Erdtree Avatar at the Minor Erdtree north of Converted Tower in West Liurnia"
+            "name": "Erdtree Avatar at the Minor Erdtree north of Converted Tower in West Liurnia"
         },
         {
             "type": "minor",
-            "title": "Glintstone Dragon Smarag"
+            "name": "Glintstone Dragon Smarag"
         },
         {
             "type": "minor",
-            "title": "Omenkiller, in Village of the Albinaurics"
+            "name": "Omenkiller, in Village of the Albinaurics"
         },
         {
             "type": "minor",
-            "title": "Onyx Lord in the Royal Grave Evergaol"
+            "name": "Onyx Lord in the Royal Grave Evergaol"
         },
         {
             "type": "minor",
-            "title": "Tibia Mariner down the hill from Artist's Shack, to the south"
+            "name": "Tibia Mariner down the hill from Artist's Shack, to the south"
         },
         {
             "type": "minor",
-            "title": "Chapel of Anticipation, Grafted Scion"
+            "name": "Chapel of Anticipation, Grafted Scion"
         },
         {
             "type": "miniboss",
-            "title": "Academy Crystal Cave, Crystallians"
+            "name": "Academy Crystal Cave, Crystallians"
         },
         {
             "type": "miniboss",
-            "title": "Black Knife Catacombs, Black Knife Assassin"
+            "name": "Black Knife Catacombs, Black Knife Assassin"
         },
         {
             "type": "miniboss",
-            "title": "Black Knife Catacombs, Cemetery Shade"
+            "name": "Black Knife Catacombs, Cemetery Shade"
         },
         {
             "type": "miniboss",
-            "title": "Cliffbottom Catacombs, Erdtree Burial Watchdog"
+            "name": "Cliffbottom Catacombs, Erdtree Burial Watchdog"
         },
         {
             "type": "miniboss",
-            "title": "Lakeside Crystal Cave, Bloodhound Knight"
+            "name": "Lakeside Crystal Cave, Bloodhound Knight"
         },
         {
             "type": "miniboss",
-            "title": "Raya Lucaria Crystal Tunnel, Crystallian"
+            "name": "Raya Lucaria Crystal Tunnel, Crystallian"
         },
         {
             "type": "miniboss",
-            "title": "Road's End Catacombs, Spiritcaller Snail"
+            "name": "Road's End Catacombs, Spiritcaller Snail"
         },
         {
             "type": "miniboss",
-            "title": "Stillwater Cave, Cleanrot Knight"
+            "name": "Stillwater Cave, Cleanrot Knight"
         },
         {
             "type": "night",
-            "title": "Bell Bearing Hunter who invades at Church of Vows"
+            "name": "Bell Bearing Hunter who invades at Church of Vows"
         },
         {
             "type": "night",
-            "title": "Death Rite Bird south of Gate Town North"
+            "name": "Death Rite Bird south of Gate Town North"
         },
         {
             "type": "night",
-            "title": "Deathbird north of the Scenic Isle Site of Grace"
+            "name": "Deathbird north of the Scenic Isle Site of Grace"
         },
         {
             "type": "night",
-            "title": "Night's Calvary east of the Gate Town Bridge Site of Grace"
+            "name": "Night's Calvary east of the Gate Town Bridge Site of Grace"
         },
         {
             "type": "minitali",
-            "title": "Spear Talisman",
+            "name": "Spear Talisman",
             "description": "Lakeside Crystal Cave, in a chest guarded by a Demi-Human Chief"
         },
         {
             "type": "tali",
-            "title": "Cerulean Seed Talisman",
+            "name": "Cerulean Seed Talisman",
             "description": "Carian Study Hall, on the second level of rafters in Carian Study Hall"
         },
         {
             "type": "tali",
-            "title": "Pearldrake Talisman",
+            "name": "Pearldrake Talisman",
             "description": "Farum Azula via Belfries, after a series of dropdowns in the isolated debris"
         },
         {
             "type": "tali",
-            "title": "Mottled Necklace",
+            "name": "Mottled Necklace",
             "description": "Siofra River via Belfries, on a ledge overlooking Siofra River and Nokron in the distance"
         }
     ]

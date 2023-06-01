@@ -1,7 +1,7 @@
 {
     "name": "Hyrule/Ganon's Castle Grounds",
     "bgColor": "#f43f5e",
-    "entrances": [
+    "items": [
         {
             "name": "Market",
             "type": "overworld"

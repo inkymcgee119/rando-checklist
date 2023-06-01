@@ -1,16 +1,16 @@
 {
     "name": "Romani Ranch",
     "bgColor": "#f97316",
-    "locations": [
+    "items": [
         {
-            "title": "Romani's game",
+            "name": "Romani's game",
             "type": "item",
             "tags": [
                 "day1"
             ]
         },
         {
-            "title": "Aliens defense",
+            "name": "Aliens defense",
             "type": "item",
             "tags": [
                 "day1",
@@ -18,7 +18,7 @@
             ]
         },
         {
-            "title": "Cremia defense",
+            "name": "Cremia defense",
             "type": "item",
             "tags": [
                 "day2",
@@ -26,77 +26,77 @@
             ]
         },
         {
-            "title": "Dog race",
+            "name": "Dog race",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Dog race, roof chest",
+            "name": "Dog race, roof chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Dog race",
+            "name": "Dog race",
             "type": "softsoil",
             "tags": []
         },
         {
-            "title": "Grog",
+            "name": "Grog",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Ranch",
+            "name": "Ranch",
             "count": 3,
             "type": "cow",
             "tags": []
         },
         {
-            "title": "Ranch, day 1",
+            "name": "Ranch, day 1",
             "type": "softsoil",
             "tags": []
         },
         {
-            "title": "Ranch, day 2 or 3",
+            "name": "Ranch, day 2 or 3",
             "type": "softsoil",
             "tags": []
         },
         {
-            "title": "Ranch, hay",
+            "name": "Ranch, hay",
             "count": 2,
             "type": "rupee",
             "tags": []
         },
         {
-            "title": "Fence items",
+            "name": "Fence items",
             "count": 6,
             "type": "hiddenrupee",
             "tags": []
         },
         {
-            "title": "Cucco shack, diamond holes",
+            "name": "Cucco shack, diamond holes",
             "count": 6,
             "type": "hiddenrupee",
             "tags": []
         },
         {
-            "title": "Cucco shack, potted plant",
+            "name": "Cucco shack, potted plant",
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Cucco shack, crate",
+            "name": "Cucco shack, crate",
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Dog race, pots",
+            "name": "Dog race, pots",
             "count": 4,
             "type": "fixed",
             "tags": []
         },
         {
-            "title": "Romani's crate",
+            "name": "Romani's crate",
             "type": "fixed",
             "tags": []
         }

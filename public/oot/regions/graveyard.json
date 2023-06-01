@@ -2,47 +2,47 @@
     "name": "Graveyard",
     "bgColor": "#a78bfa",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Flower grave",
+            "name": "Flower grave",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Composer grave, torches",
+            "name": "Composer grave, torches",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Redead grave (play sun's song)",
+            "name": "Redead grave (play sun's song)",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Dampe digging game",
+            "name": "Dampe digging game",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Dampe race",
+            "name": "Dampe race",
             "type": "item",
             "tags": [],
             "count": 2
         },
         {
-            "title": "Crate hp, above bean patch",
+            "name": "Crate hp, above bean patch",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Composer grave, song",
+            "name": "Composer grave, song",
             "type": "song",
             "tags": []
         },
         {
-            "title": "Back right wall",
+            "name": "Back right wall",
             "type": "gs",
             "tags": [
                 "child",
@@ -50,7 +50,7 @@
             ]
         },
         {
-            "title": "Bean patch",
+            "name": "Bean patch",
             "type": "gs",
             "tags": [
                 "child",
@@ -58,13 +58,13 @@
             ]
         },
         {
-            "title": "Dampe race",
+            "name": "Dampe race",
             "type": "rupee",
             "tags": [],
             "count": 8
         },
         {
-            "title": "Dampe race",
+            "name": "Dampe race",
             "type": "pot",
             "tags": [],
             "count": 6

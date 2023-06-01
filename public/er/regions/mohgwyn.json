@@ -1,22 +1,22 @@
 {
     "name": "Mohgwyn",
     "bgColor": "#f472b6",
-    "locations": [
+    "items": [
         {
             "type": "major",
-            "title": "Mohg, Lord of Blood"
+            "name": "Mohg, Lord of Blood"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree in the lake of blood"
+            "name": "Golden Seed tree in the lake of blood"
         },
         {
             "type": "shop",
-            "title": "Imprisoned Merchant in the cave"
+            "name": "Imprisoned Merchant in the cave"
         },
         {
             "type": "tali",
-            "title": "Haligtree Talisman +2",
+            "name": "Haligtree Talisman +2",
             "description": "Among graves on the southwest cliffside of the lake of blood"
         }
     ]

@@ -1,156 +1,156 @@
 {
     "name": "Woodfall Temple",
     "bgColor": "#854d0e",
-    "locations": [
+    "items": [
         {
-            "title": "Entrance, fairy",
+            "name": "Entrance, fairy",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Entrance, platform",
+            "name": "Entrance, platform",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Main room, deku baba",
+            "name": "Main room, deku baba",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Main room, pot in corner",
+            "name": "Main room, pot in corner",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Main Room, bubble",
+            "name": "Main Room, bubble",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Main Room, switch",
+            "name": "Main Room, switch",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Right side, turtle room",
+            "name": "Right side, turtle room",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Right side, bottom ledge chest",
+            "name": "Right side, bottom ledge chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Right side, frog room",
+            "name": "Right side, frog room",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Right side, hive",
+            "name": "Right side, hive",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Hero's bow chest",
+            "name": "Hero's bow chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Left side, dragonfly room",
+            "name": "Left side, dragonfly room",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Left side, bridge room hive",
+            "name": "Left side, bridge room hive",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Left side, dark room",
+            "name": "Left side, dark room",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Left side, under bridge",
+            "name": "Left side, under bridge",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Left side, skulltula",
+            "name": "Left side, skulltula",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Before boss, pillar bubble",
+            "name": "Before boss, pillar bubble",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Before boss, upper left bubble",
+            "name": "Before boss, upper left bubble",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Before boss, upper right bubble",
+            "name": "Before boss, upper right bubble",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Before boss, lower right bubble",
+            "name": "Before boss, lower right bubble",
             "type": "mmfairies",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Boss heart container",
+            "name": "Boss heart container",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Boss remains",
+            "name": "Boss remains",
             "type": "item",
             "tags": [
                 "mm"

@@ -1,7 +1,7 @@
 {
     "name": "Altus Plateau",
     "bgColor": "#f59e0b",
-    "entrances": [
+    "items": [
         {
             "name": "Shaded Castle, entering Elemer of the Briar's arena",
             "type": "major",

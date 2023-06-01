@@ -1,7 +1,7 @@
 {
     "name": "Ikana Valley",
     "bgColor": "#991b1b",
-    "entrances": [        
+    "items": [        
         {
             "name": "Termina Field",
             "type": "region"

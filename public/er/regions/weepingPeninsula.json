@@ -1,74 +1,74 @@
 {
     "name": "Weeping Peninsula",
     "bgColor": "#854d0e",
-    "locations": [
+    "items": [
         {
             "type": "major",
-            "title": "Leonine Misbegotten south of Castle Morne"
+            "name": "Leonine Misbegotten south of Castle Morne"
         },
         {
             "type": "flask",
-            "title": "Church of Pilgrimage on the Weeping Peninsula north coast."
+            "name": "Church of Pilgrimage on the Weeping Peninsula north coast."
         },
         {
             "type": "flask",
-            "title": "Callu Baptismal Church, south of Ailing Village"
+            "name": "Callu Baptismal Church, south of Ailing Village"
         },
         {
             "type": "flask",
-            "title": "Fourth Church of Marika, near the peninsula's west coast"
+            "name": "Fourth Church of Marika, near the peninsula's west coast"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree straight north of Castle Morne"
+            "name": "Golden Seed tree straight north of Castle Morne"
         },
         {
             "type": "shop",
-            "title": "Isolated Merchant near the southwest shore"
+            "name": "Isolated Merchant near the southwest shore"
         },
         {
             "type": "shop",
-            "title": "Nomadic Merchant at Castle Morne Rampart"
+            "name": "Nomadic Merchant at Castle Morne Rampart"
         },
         {
             "type": "minor",
-            "title": "Ancient Hero of Zamor in the Weeping Evergaol"
+            "name": "Ancient Hero of Zamor in the Weeping Evergaol"
         },
         {
             "type": "minor",
-            "title": "Erdtree Avatar at the Weeping Peninsula Minor Erdtree"
+            "name": "Erdtree Avatar at the Weeping Peninsula Minor Erdtree"
         },
         {
             "type": "miniboss",
-            "title": "Earthbore Cave, Runebear"
+            "name": "Earthbore Cave, Runebear"
         },
         {
             "type": "miniboss",
-            "title": "Impaler's Catacombs, Erdtree Burial Watchdog"
+            "name": "Impaler's Catacombs, Erdtree Burial Watchdog"
         },
         {
             "type": "miniboss",
-            "title": "Morne Tunnel, Scaly Misbegotten"
+            "name": "Morne Tunnel, Scaly Misbegotten"
         },
         {
             "type": "miniboss",
-            "title": "Tombsward Catacombs, Cemetery Shade"
+            "name": "Tombsward Catacombs, Cemetery Shade"
         },
         {
             "type": "miniboss",
-            "title": "Tombsward Cave, Miranda the Blighted Bloom"
+            "name": "Tombsward Cave, Miranda the Blighted Bloom"
         },
         {
             "type": "night",
-            "title": "Deathbird up the hill directly north of Castle Morne"
+            "name": "Deathbird up the hill directly north of Castle Morne"
         },
         {
             "type": "night",
-            "title": "Night's Calvary at Castle Morne Rampart"
+            "name": "Night's Calvary at Castle Morne Rampart"
         },
         {
             "type": "tali",
-            "title": "Twinblade Talisman",
+            "name": "Twinblade Talisman",
             "description": "In a chest found dropping down an open grate past the Behind the Castle Site of Grace in Castle Morne, crossing a bridge, and climbing a tower ladder"
         }
     ]

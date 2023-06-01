@@ -2,16 +2,16 @@
     "name": "Death Mountain Trail",
     "bgColor": "#57534e",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Bombable wall",
+            "name": "Bombable wall",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Song of storms grotto",
+            "name": "Song of storms grotto",
             "description": "Rock circle outside goron city",
             "type": "item",
             "tags": [
@@ -20,21 +20,21 @@
             ]
         },
         {
-            "title": "Great fairy at the summit",
+            "name": "Great fairy at the summit",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Above dodongo's cavern",
+            "name": "Above dodongo's cavern",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Trade quest, turn in broken sword",
+            "name": "Trade quest, turn in broken sword",
             "type": "item",
             "tags": [
                 "oot",
@@ -42,7 +42,7 @@
             ]
         },
         {
-            "title": "Trade quest, turn in eye drops",
+            "name": "Trade quest, turn in eye drops",
             "type": "item",
             "tags": [
                 "oot",
@@ -50,7 +50,7 @@
             ]
         },
         {
-            "title": "Trade quest, turn in claim check",
+            "name": "Trade quest, turn in claim check",
             "type": "item",
             "tags": [
                 "oot",
@@ -58,14 +58,14 @@
             ]
         },
         {
-            "title": "Bombable wall, near entrance",
+            "name": "Bombable wall, near entrance",
             "type": "ootgs",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Bean patch, dodongo's cavern",
+            "name": "Bean patch, dodongo's cavern",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -74,7 +74,7 @@
             ]
         },
         {
-            "title": "Hammer rock, above DC",
+            "name": "Hammer rock, above DC",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -83,7 +83,7 @@
             ]
         },
         {
-            "title": "Hammer rock, path to summit",
+            "name": "Hammer rock, path to summit",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -92,7 +92,7 @@
             ]
         },
         {
-            "title": "Grotto heading towards summit",
+            "name": "Grotto heading towards summit",
             "type": "ootcow",
             "tags": [
                 "oot",

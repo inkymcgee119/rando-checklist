@@ -1,7 +1,7 @@
 {
     "name": "Death Mountain",
     "bgColor": "#dc2626",
-    "entrances": [
+    "items": [
         {
             "name": "Dodongo Cavern",
             "type": "dungeon"

@@ -2,9 +2,9 @@
     "name": "Lon Lon Ranch",
     "bgColor": "#ea580c",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Silo, rear of the ranch",
+            "name": "Silo, rear of the ranch",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Chicken minigame",
+            "name": "Chicken minigame",
             "type": "item",
             "tags": [
                 "oot",
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "title": "Malon's song",
+            "name": "Malon's song",
             "type": "song",
             "tags": [
                 "oot",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "title": "Tree near entrance",
+            "name": "Tree near entrance",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "title": "Backside of the fenced in area",
+            "name": "Backside of the fenced in area",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "title": "On building near the entrance",
+            "name": "On building near the entrance",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -54,7 +54,7 @@
             ]
         },
         {
-            "title": "Rear wall",
+            "name": "Rear wall",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -63,7 +63,7 @@
             ]
         },
         {
-            "title": "Open grotto in the rear",
+            "name": "Open grotto in the rear",
             "type": "ootscrub",
             "tags": [
                 "oot",
@@ -72,7 +72,7 @@
             "count": 3
         },
         {
-            "title": "In stable",
+            "name": "In stable",
             "type": "ootcow",
             "tags": [
                 "oot"
@@ -80,7 +80,7 @@
             "count": 2
         },
         {
-            "title": "Rear silo",
+            "name": "Rear silo",
             "type": "ootcow",
             "tags": [
                 "oot"

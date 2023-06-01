@@ -1,7 +1,7 @@
 {
     "name": "Capital Outskirts",
     "bgColor": "#a16207",
-    "entrances": [
+    "items": [
         {
             "name": "Up the stairs behind Draconic Tree Sentinel",
             "type": "critical",

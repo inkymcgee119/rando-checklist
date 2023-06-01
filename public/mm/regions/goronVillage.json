@@ -1,55 +1,55 @@
 {
     "name": "Goron Village",
     "bgColor": "#f43f5e",
-    "locations": [
+    "items": [
         {
-            "title": "Baby goron",
+            "name": "Baby goron",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Ledge above scrub",
+            "name": "Ledge above scrub",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Lens of truth chest",
+            "name": "Lens of truth chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Lens cave, invisible chest",
+            "name": "Lens cave, invisible chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Lens cave, rock chest",
+            "name": "Lens cave, rock chest",
             "type": "everything",
             "tags": []
         },
         {
-            "title": "Mountain scrub trade",
+            "name": "Mountain scrub trade",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Mountain scrub purchase",
+            "name": "Mountain scrub purchase",
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Powder keg challenge",
+            "name": "Powder keg challenge",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Goron shop",
+            "name": "Goron shop",
             "count": 3,
             "type": "shop",
             "tags": []
         },
         {
-            "title": "Large snowballs",
+            "name": "Large snowballs",
             "count": 6,
             "type": "fixed",
             "tags": [
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "title": "Small snowballs",
+            "name": "Small snowballs",
             "count": 10,
             "type": "fixed",
             "tags": [
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "title": "Goron shrine, pots",
+            "name": "Goron shrine, pots",
             "count": 11,
             "type": "fixed",
             "tags": []

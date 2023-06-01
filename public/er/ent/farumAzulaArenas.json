@@ -2,7 +2,7 @@
     "name": "Farum Azula Boss Arenas",
     "bgColor": "linear-gradient(90deg, #27272a, #7c3aed 60%)",
     "dropdownColor": "#7c3aed",
-    "entrances": [
+    "items": [
         {
             "name": "Godskin Duo, balcony",
             "type": "major",

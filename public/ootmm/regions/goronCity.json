@@ -2,9 +2,9 @@
     "name": "Goron City",
     "bgColor": "#713f12",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Rolling goron",
+            "name": "Rolling goron",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Darunia's joy",
+            "name": "Darunia's joy",
             "type": "item",
             "tags": [
                 "oot",
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "title": "Spinning pot",
+            "name": "Spinning pot",
             "type": "item",
             "tags": [
                 "oot",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "title": "Rock maze, right side",
+            "name": "Rock maze, right side",
             "type": "item",
             "tags": [
                 "oot"
@@ -36,14 +36,14 @@
             "count": 2
         },
         {
-            "title": "Rock maze, left side",
+            "name": "Rock maze, left side",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Link the goron",
+            "name": "Link the goron",
             "type": "item",
             "tags": [
                 "oot",
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "title": "Rock maze, right side crate",
+            "name": "Rock maze, right side crate",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -59,7 +59,7 @@
             ]
         },
         {
-            "title": "Back of pedestal in the center",
+            "name": "Back of pedestal in the center",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -67,7 +67,7 @@
             ]
         },
         {
-            "title": "Hookshot in lava room",
+            "name": "Hookshot in lava room",
             "type": "ootscrub",
             "tags": [
                 "oot",
@@ -76,14 +76,14 @@
             "count": 3
         },
         {
-            "title": "Medigoron",
+            "name": "Medigoron",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Shop",
+            "name": "Shop",
             "type": "ootshop",
             "tags": [
                 "oot"

@@ -1,30 +1,30 @@
 {
     "name": "Ocean Spider House",
     "bgColor": "#155e75",
-    "locations": [
+    "items": [
         {
-            "title": "Entrance, slope left",
+            "name": "Entrance, slope left",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Entrance, slope right",
+            "name": "Entrance, slope right",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Entrance, ceiling webs",
+            "name": "Entrance, ceiling webs",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Stairs room, behind skull",
+            "name": "Stairs room, behind skull",
             "count": 2,
             "type": "mmgs",
             "tags": [
@@ -32,70 +32,70 @@
             ]
         },
         {
-            "title": "Stairs room, ceiling edge",
+            "name": "Stairs room, ceiling edge",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Stairs room, ceiling plank",
+            "name": "Stairs room, ceiling plank",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Stairs room, pot",
+            "name": "Stairs room, pot",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Stairs room, lower pot",
+            "name": "Stairs room, lower pot",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Stairs room, upper pot",
+            "name": "Stairs room, upper pot",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Stairs room, webbed hole",
+            "name": "Stairs room, webbed hole",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Stairs room, webbed pot",
+            "name": "Stairs room, webbed pot",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Colored masks, behind picture",
+            "name": "Colored masks, behind picture",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Colored masks, ceiling edge",
+            "name": "Colored masks, ceiling edge",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Colored masks, chandelier",
+            "name": "Colored masks, chandelier",
             "count": 3,
             "type": "mmgs",
             "tags": [
@@ -103,14 +103,14 @@
             ]
         },
         {
-            "title": "Colored masks, pot",
+            "name": "Colored masks, pot",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Library, behind bookcase",
+            "name": "Library, behind bookcase",
             "count": 2,
             "type": "mmgs",
             "tags": [
@@ -118,84 +118,84 @@
             ]
         },
         {
-            "title": "Library, behind picture",
+            "name": "Library, behind picture",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Library, ceiling edge",
+            "name": "Library, ceiling edge",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Library, cabinet hole",
+            "name": "Library, cabinet hole",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Library, picture hole",
+            "name": "Library, picture hole",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Library, on bookshelf",
+            "name": "Library, on bookshelf",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Storage room, behind boat",
+            "name": "Storage room, behind boat",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Storage room, behind crate",
+            "name": "Storage room, behind crate",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Storage room, web",
+            "name": "Storage room, web",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Storage room, crate",
+            "name": "Storage room, crate",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Storage room, pot",
+            "name": "Storage room, pot",
             "type": "mmgs",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Colored skulls chest",
+            "name": "Colored skulls chest",
             "type": "item",
             "tags": [
                 "mm"
             ]
         },
         {
-            "title": "Day 1 reward",
+            "name": "Day 1 reward",
             "type": "item",
             "tags": [
                 "mm"

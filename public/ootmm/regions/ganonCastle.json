@@ -2,9 +2,9 @@
     "name": "Ganon's Castle",
     "bgColor": "#27272a",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Scrubs behind fake wall",
+            "name": "Scrubs behind fake wall",
             "type": "ootscrub",
             "tags": [
                 "oot",
@@ -13,7 +13,7 @@
             "count": 4
         },
         {
-            "title": "Forest trial",
+            "name": "Forest trial",
             "type": "item",
             "tags": [
                 "oot",
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "title": "Water trial",
+            "name": "Water trial",
             "type": "item",
             "tags": [
                 "oot",
@@ -30,7 +30,7 @@
             "count": 2
         },
         {
-            "title": "Shadow trial, left platform",
+            "name": "Shadow trial, left platform",
             "type": "item",
             "tags": [
                 "oot",
@@ -38,7 +38,7 @@
             ]
         },
         {
-            "title": "Shadow trial, rear platform",
+            "name": "Shadow trial, rear platform",
             "type": "item",
             "tags": [
                 "oot",
@@ -46,7 +46,7 @@
             ]
         },
         {
-            "title": "Light trial, first room",
+            "name": "Light trial, first room",
             "type": "item",
             "tags": [
                 "oot",
@@ -55,7 +55,7 @@
             "count": 7
         },
         {
-            "title": "Light trial, lullaby room chest",
+            "name": "Light trial, lullaby room chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -63,7 +63,7 @@
             ]
         },
         {
-            "title": "Spirit trial, before bars",
+            "name": "Spirit trial, before bars",
             "type": "item",
             "tags": [
                 "oot",
@@ -71,7 +71,7 @@
             ]
         },
         {
-            "title": "Spirit trial, after bars",
+            "name": "Spirit trial, after bars",
             "type": "item",
             "tags": [
                 "oot",
@@ -79,7 +79,7 @@
             ]
         },
         {
-            "title": "Boss key chest",
+            "name": "Boss key chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -87,7 +87,7 @@
             ]
         },
         {
-            "title": "Scrubs behind fake wall",
+            "name": "Scrubs behind fake wall",
             "type": "ootscrub",
             "tags": [
                 "oot",
@@ -96,7 +96,7 @@
             "count": 5
         },
         {
-            "title": "Forest trial, freestanding item",
+            "name": "Forest trial, freestanding item",
             "type": "item",
             "tags": [
                 "oot",
@@ -104,7 +104,7 @@
             ]
         },
         {
-            "title": "Forest trial, eye switch",
+            "name": "Forest trial, eye switch",
             "type": "item",
             "tags": [
                 "oot",
@@ -112,7 +112,7 @@
             ]
         },
         {
-            "title": "Forest trial, frozen eye switch",
+            "name": "Forest trial, frozen eye switch",
             "type": "item",
             "tags": [
                 "oot",
@@ -120,7 +120,7 @@
             ]
         },
         {
-            "title": "Water trial",
+            "name": "Water trial",
             "type": "item",
             "tags": [
                 "oot",
@@ -128,7 +128,7 @@
             ]
         },
         {
-            "title": "Shadow trial, hookshot chest",
+            "name": "Shadow trial, hookshot chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -136,7 +136,7 @@
             ]
         },
         {
-            "title": "Shadow trial, eye switch",
+            "name": "Shadow trial, eye switch",
             "type": "item",
             "tags": [
                 "oot",
@@ -144,7 +144,7 @@
             ]
         },
         {
-            "title": "Light trial",
+            "name": "Light trial",
             "type": "item",
             "tags": [
                 "oot",
@@ -152,7 +152,7 @@
             ]
         },
         {
-            "title": "Spirit trial, visible chest before gate",
+            "name": "Spirit trial, visible chest before gate",
             "type": "item",
             "tags": [
                 "oot",
@@ -160,7 +160,7 @@
             ]
         },
         {
-            "title": "Spirit trial, invisible chest after gate",
+            "name": "Spirit trial, invisible chest after gate",
             "type": "item",
             "tags": [
                 "oot",
@@ -168,7 +168,7 @@
             ]
         },
         {
-            "title": "Spirit trial, sun switchs",
+            "name": "Spirit trial, sun switchs",
             "type": "item",
             "tags": [
                 "oot",
@@ -177,7 +177,7 @@
             "count": 4
         },
         {
-            "title": "Boss key chest",
+            "name": "Boss key chest",
             "type": "item",
             "tags": [
                 "oot",

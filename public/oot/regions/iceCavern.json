@@ -2,9 +2,9 @@
     "name": "Ice Cavern",
     "bgColor": "#60a5fa",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Hallway",
+            "name": "Hallway",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -12,21 +12,21 @@
             "count": 2
         },
         {
-            "title": "Red ice near entrance",
+            "name": "Red ice near entrance",
             "type": "rupee",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Spinning blade room",
+            "name": "Spinning blade room",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Spinning blade",
+            "name": "Spinning blade",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -34,14 +34,14 @@
             "count": 4
         },
         {
-            "title": "Back room chest",
+            "name": "Back room chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Back room",
+            "name": "Back room",
             "type": "rupee",
             "tags": [
                 "vanilla"
@@ -49,7 +49,7 @@
             "count": 3
         },
         {
-            "title": "Back room, frozen",
+            "name": "Back room, frozen",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -59,21 +59,21 @@
 
 
         {
-            "title": "Right room, chest",
+            "name": "Right room, chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Right room, red ice",
+            "name": "Right room, red ice",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Right room",
+            "name": "Right room",
             "type": "gs",
             "tags": [
                 "vanilla"
@@ -82,14 +82,14 @@
 
 
         {
-            "title": "Block puzzle room",
+            "name": "Block puzzle room",
             "type": "gs",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Block puzzle room",
+            "name": "Block puzzle room",
             "description": "Use song of time to reach",
             "type": "rupee",
             "tags": [
@@ -98,7 +98,7 @@
             "count": 3
         },
         {
-            "title": "Before wolfos",
+            "name": "Before wolfos",
             "type": "pot",
             "tags": [
                 "vanilla"
@@ -106,14 +106,14 @@
             "count": 2
         },
         {
-            "title": "Wolfos chest",
+            "name": "Wolfos chest",
             "type": "item",
             "tags": [
                 "vanilla"
             ]
         },
         {
-            "title": "Sheik's song",
+            "name": "Sheik's song",
             "type": "song",
             "tags": [
                 "vanilla"
@@ -124,22 +124,14 @@
 
 
         {
-            "title": "Hallway",
+            "name": "Hallway",
             "type": "pot",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Tektite room",
-            "type": "pot",
-            "tags": [
-                "mq"
-            ],
-            "count": 2
-        },
-        {
-            "title": "Center room",
+            "name": "Tektite room",
             "type": "pot",
             "tags": [
                 "mq"
@@ -147,28 +139,36 @@
             "count": 2
         },
         {
-            "title": "Back room, chest",
+            "name": "Center room",
+            "type": "pot",
+            "tags": [
+                "mq"
+            ],
+            "count": 2
+        },
+        {
+            "name": "Back room, chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Back room, switch hidden in floor",
+            "name": "Back room, switch hidden in floor",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Back room, under red ice",
+            "name": "Back room, under red ice",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Back room, floor",
+            "name": "Back room, floor",
             "type": "pot",
             "tags": [
                 "mq"
@@ -177,21 +177,21 @@
         },
 
         {
-            "title": "Right room, red ice",
+            "name": "Right room, red ice",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Block pushing puzzle, switch ",
+            "name": "Block pushing puzzle, switch ",
             "type": "gs",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Block pushing puzzle, side cave",
+            "name": "Block pushing puzzle, side cave",
             "description": "Use scarecrow song to reach",
             "type": "gs",
             "tags": [
@@ -199,21 +199,21 @@
             ]
         },
         {
-            "title": "Before stalfos",
+            "name": "Before stalfos",
             "type": "pot",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Stafos chest",
+            "name": "Stafos chest",
             "type": "item",
             "tags": [
                 "mq"
             ]
         },
         {
-            "title": "Sheik's song",
+            "name": "Sheik's song",
             "type": "song",
             "tags": [
                 "mq"

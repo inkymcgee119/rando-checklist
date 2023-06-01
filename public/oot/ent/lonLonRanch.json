@@ -1,7 +1,7 @@
 {
     "name": "Lon Lon Ranch",
     "bgColor": "#ea580c",
-    "entrances": [
+    "items": [
         {
             "name": "Hyrule Field",
             "type": "overworld"

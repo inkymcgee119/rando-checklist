@@ -1,93 +1,93 @@
 {
     "name": "Dark World",
     "bgColor": "#292524",
-    "locations": [
+    "items": [
         {
-            "title": "Superbunny cave",
+            "name": "Superbunny cave",
             "count": 2,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Hookshot cave",
+            "name": "Hookshot cave",
             "count": 4,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Spike cave",
+            "name": "Spike cave",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Catfish",
+            "name": "Catfish",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Pyramid",
+            "name": "Pyramid",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Pyramid fairy",
+            "name": "Pyramid fairy",
             "count": 2,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Brewery",
+            "name": "Brewery",
             "type": "item",
             "tags": []
         },
         {
-            "title": "C-shaped house",
+            "name": "C-shaped house",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Chest game",
+            "name": "Chest game",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Hammer pegs",
+            "name": "Hammer pegs",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Bumper cave",
+            "name": "Bumper cave",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Blacksmiths",
+            "name": "Blacksmiths",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Purple chest",
+            "name": "Purple chest",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Hype cave",
+            "name": "Hype cave",
             "count": 5,
             "type": "item",
             "tags": []
         },
         {
-            "title": "Stumpy",
+            "name": "Stumpy",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Digging game",
+            "name": "Digging game",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Mire shed",
+            "name": "Mire shed",
             "type": "item",
             "tags": []
         }

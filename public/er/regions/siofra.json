@@ -1,31 +1,31 @@
 {
     "name": "Siofra River",
     "bgColor": "#fb7185",
-    "locations": [
+    "items": [
         {
             "type": "major",
-            "title": "Ancestor Spirit"
+            "name": "Ancestor Spirit"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree past a narrow bridge connecting Worshipper's Woods to Siofra Aqueduct"
+            "name": "Golden Seed tree past a narrow bridge connecting Worshipper's Woods to Siofra Aqueduct"
         },
         {
             "type": "shop",
-            "title": "Abandoned Merchant, found by ascending a scaffolding"
+            "name": "Abandoned Merchant, found by ascending a scaffolding"
         },
         {
             "type": "minor",
-            "title": "Dragonkin Soldier"
+            "name": "Dragonkin Soldier"
         },
         {
             "type": "tali",
-            "title": "Clarifying Horn Charm",
+            "name": "Clarifying Horn Charm",
             "description": "On the stairs leading up to the Deep Siofra Well"
         },
         {
             "type": "tali",
-            "title": "Marika's Scarseal",
+            "name": "Marika's Scarseal",
             "description": "Under a waterfall on the right edge of where Dragonkin Soldier can be fought"
         }
     ]

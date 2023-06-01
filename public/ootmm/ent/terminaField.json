@@ -1,7 +1,7 @@
 {
     "name": "Termina Field",
     "bgColor": "#3f6212",
-    "entrances": [        
+    "items": [        
         {
             "name": "Romani Ranch",
             "type": "region"

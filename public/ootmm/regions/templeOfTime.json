@@ -2,16 +2,16 @@
     "name": "Temple of Time",
     "bgColor": "#0e7490",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Master Sword (if enabled)",
+            "name": "Master Sword (if enabled)",
             "type": "item",
             "tags": [
                 "oot"
             ]
         },
         {
-            "title": "Prelude of light",
+            "name": "Prelude of light",
             "type": "song",
             "tags": [
                 "oot",
@@ -19,7 +19,7 @@
             ]
         },
         {
-            "title": "Light arrows",
+            "name": "Light arrows",
             "type": "item",
             "tags": [
                 "oot",

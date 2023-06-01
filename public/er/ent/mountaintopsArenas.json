@@ -2,7 +2,7 @@
     "name": "Mountaintops of the Giants Boss Arenas",
     "bgColor": "linear-gradient(90deg, #27272a, #be185d 60%)",
     "dropdownColor": "#be185d",
-    "entrances": [
+    "items": [
         {
             "name": "Commander Niall, front",
             "type": "major",

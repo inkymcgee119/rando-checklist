@@ -2,37 +2,37 @@
     "name": "Lon Lon Ranch",
     "bgColor": "#ea580c",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Silo, rear of the ranch",
+            "name": "Silo, rear of the ranch",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Chicken minigame",
+            "name": "Chicken minigame",
             "type": "item",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Malon's song",
+            "name": "Malon's song",
             "type": "song",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Tree near entrance",
+            "name": "Tree near entrance",
             "type": "gs",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Backside of the fenced in area",
+            "name": "Backside of the fenced in area",
             "type": "gs",
             "tags": [
                 "child",
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "title": "On building near the entrance",
+            "name": "On building near the entrance",
             "type": "gs",
             "tags": [
                 "child",
@@ -48,7 +48,7 @@
             ]
         },
         {
-            "title": "Rear wall",
+            "name": "Rear wall",
             "type": "gs",
             "tags": [
                 "child",
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "title": "Open grotto in the rear",
+            "name": "Open grotto in the rear",
             "type": "scrub",
             "tags": [
                 "grotto"
@@ -64,33 +64,33 @@
             "count": 3
         },
         {
-            "title": "In stable",
+            "name": "In stable",
             "type": "cow",
             "tags": [],
             "count": 2
         },
         {
-            "title": "Rear silo",
+            "name": "Rear silo",
             "type": "cow",
             "tags": [],
             "count": 2
         },
         {
-            "title": "Open grotto in the rear",
+            "name": "Open grotto in the rear",
             "type": "beehive",
             "tags": [
                 "grotto"
             ]
         },
         {
-            "title": "Near tree",
+            "name": "Near tree",
             "type": "crate",
             "tags": [
                 "child"
             ]
         },
         {
-            "title": "Near entrance",
+            "name": "Near entrance",
             "type": "pot",
             "tags": [
                 "child"
@@ -98,7 +98,7 @@
             "count": 4
         },
         {
-            "title": "In fenced area",
+            "name": "In fenced area",
             "type": "pot",
             "tags": [
                 "child"
@@ -106,7 +106,7 @@
             "count": 3
         },
         {
-            "title": "Talon's house",
+            "name": "Talon's house",
             "type": "pot",
             "tags": [],
             "count": 3

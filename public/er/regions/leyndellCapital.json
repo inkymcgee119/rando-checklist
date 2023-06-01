@@ -1,41 +1,41 @@
 {
     "name": "Leyndell",
     "bgColor": "#831843",
-    "locations": [
+    "items": [
         {
             "type": "key",
-            "title": "Rold Medallion",
+            "name": "Rold Medallion",
             "description": "Given by Melania after defeating Morgott"
         },
         {
             "type": "major",
-            "title": "Godfrey, First Elden Lord, in the Erdtree Sanctuary"
+            "name": "Godfrey, First Elden Lord, in the Erdtree Sanctuary"
         },
         {
             "type": "major",
-            "title": "Morgott the Omen King"
+            "name": "Morgott the Omen King"
         },
         {
             "type": "minor",
-            "title": "Fell Twins"
+            "name": "Fell Twins"
         },
         {
             "type": "flask",
-            "title": "Golden Seed tree down the hall from West Capital Rampart, up the giant dragon's wing"
+            "name": "Golden Seed tree down the hall from West Capital Rampart, up the giant dragon's wing"
         },
         {
             "type": "tali",
-            "title": "Ritual Shield Talisman",
+            "name": "Ritual Shield Talisman",
             "description": "On a corpse in front of the Coliseum after West Capital Rampart"
         },
         {
             "type": "tali",
-            "title": "Blessed Dew Talisman",
+            "name": "Blessed Dew Talisman",
             "description": "In the chest on Divine Bridge"
         },
         {
             "type": "tali",
-            "title": "Flamedrake Talisman +1",
+            "name": "Flamedrake Talisman +1",
             "description": "At the top of the stairs leading to the Divine Tower of East Altus and Forbidden Lands"
         }
     ]

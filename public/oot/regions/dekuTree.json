@@ -3,24 +3,16 @@
   "bgColor": "#16a34a",
   "hasMQ": true,
   "showMQ": false,
-  "locations": [
+  "items": [
     {
-      "title": "Lobby",
+      "name": "Lobby",
       "type": "item",
       "tags": [
         "vanilla"
       ]
     },
     {
-      "title": "First floor Room",
-      "type": "item",
-      "tags": [
-        "vanilla"
-      ],
-      "count": 2
-    },
-    {
-      "title": "Second floor Room",
+      "name": "First floor Room",
       "type": "item",
       "tags": [
         "vanilla"
@@ -28,56 +20,64 @@
       "count": 2
     },
     {
-      "title": "Second floor Room",
+      "name": "Second floor Room",
+      "type": "item",
+      "tags": [
+        "vanilla"
+      ],
+      "count": 2
+    },
+    {
+      "name": "Second floor Room",
       "type": "gs",
       "tags": [
         "vanilla"
       ]
     },
     {
-      "title": "Walk the plank",
+      "name": "Walk the plank",
       "type": "rupee",
       "tags": [
         "vanilla"
       ]
     },
     {
-      "title": "Leap down",
+      "name": "Leap down",
       "type": "rupee",
       "tags": [
         "vanilla"
       ]
     },
     {
-      "title": "Basement",
+      "name": "Basement",
       "type": "item",
       "tags": [
         "vanilla"
       ]
     },
     {
-      "title": "Basement on vines",
+      "name": "Basement on vines",
       "type": "gs",
       "tags": [
         "vanilla"
       ]
     },
     {
-      "title": "Basement on the bars",
+      "name": "Basement on the bars",
       "type": "gs",
       "tags": [
         "vanilla"
       ]
     },
     {
-      "title": "Basement, back room",
+      "name": "Basement, back room",
       "type": "gs",
       "tags": [
         "vanilla"
       ]
     },
     {
-      "title": "Water before boss",
+      "name": "Water before boss",
       "type": "rupee",
       "tags": [
         "vanilla"
@@ -85,42 +85,42 @@
       "count": 3
     },
     {
-      "title": "Queen Gohma",
+      "name": "Queen Gohma",
       "type": "boss",
       "tags": [
         "vanilla"
       ]
     },
     {
-      "title": "Lobby",
+      "name": "Lobby",
       "type": "item",
       "tags": [
         "mq"
       ]
     },
     {
-      "title": "Under crate in lobby",
+      "name": "Under crate in lobby",
       "type": "gs",
       "tags": [
         "mq"
       ]
     },
     {
-      "title": "Lobby, on branch",
+      "name": "Lobby, on branch",
       "type": "rupee",
       "tags": [
         "mq"
       ]
     },
     {
-      "title": "Lobby, giant deku baba room",
+      "name": "Lobby, giant deku baba room",
       "type": "rupee",
       "tags": [
         "mq"
       ]
     },
     {
-      "title": "Lobby, first floor chest room",
+      "name": "Lobby, first floor chest room",
       "description": "Under the rocks next to the gold skulltula",
       "type": "rupee",
       "tags": [
@@ -128,21 +128,21 @@
       ]
     },
     {
-      "title": "Lobby",
+      "name": "Lobby",
       "type": "crate",
       "tags": [
         "mq"
       ]
     },
     {
-      "title": "First floor Room",
+      "name": "First floor Room",
       "type": "item",
       "tags": [
         "mq"
       ]
     },
     {
-      "title": "First floor room, behind rock",
+      "name": "First floor room, behind rock",
       "description": "Use song of time",
       "type": "gs",
       "tags": [
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "title": "Second floor Room",
+      "name": "Second floor Room",
       "type": "item",
       "tags": [
         "mq"
@@ -158,7 +158,7 @@
       "count": 2
     },
     {
-      "title": "Second floor room",
+      "name": "Second floor room",
       "type": "crate",
       "tags": [
         "mq"
@@ -166,28 +166,28 @@
       "count": 2
     },
     {
-      "title": "Basement, switch",
+      "name": "Basement, switch",
       "type": "item",
       "tags": [
         "mq"
       ]
     },
     {
-      "title": "Water platform room chest",
+      "name": "Water platform room chest",
       "type": "item",
       "tags": [
         "mq"
       ]
     },
     {
-      "title": "Water platform room, song of time",
+      "name": "Water platform room, song of time",
       "type": "item",
       "tags": [
         "mq"
       ]
     },
     {
-      "title": "Basement, grave room, ceiling",
+      "name": "Basement, grave room, ceiling",
       "description": "Use song of time",
       "type": "gs",
       "tags": [
@@ -195,28 +195,28 @@
       ]
     },
     {
-      "title": "Basement, back room",
+      "name": "Basement, back room",
       "type": "gs",
       "tags": [
         "mq"
       ]
     },
     {
-      "title": "Scrub near gohma's hole",
+      "name": "Scrub near gohma's hole",
       "type": "scrub",
       "tags": [
         "mq"
       ]
     },
     {
-      "title": "Second floor room",
+      "name": "Second floor room",
       "type": "rupee",
       "tags": [
         "mq"
       ]
     },
     {
-      "title": "Basement, before gohma",
+      "name": "Basement, before gohma",
       "type": "rupee",
       "tags": [
         "mq"
@@ -224,7 +224,7 @@
       "count": 3
     },
     {
-      "title": "Queen Gohma",
+      "name": "Queen Gohma",
       "type": "boss",
       "tags": [
         "mq"

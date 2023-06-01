@@ -2,40 +2,40 @@
     "name": "Haunted Wasteland",
     "bgColor": "#c084fc",
     "hasMQ": false,
-    "locations": [
+    "items": [
         {
-            "title": "Light torches",
+            "name": "Light torches",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Carpet salesman (if enabled)",
+            "name": "Carpet salesman (if enabled)",
             "type": "item",
             "tags": []
         },
         {
-            "title": "Inside building",
+            "name": "Inside building",
             "type": "gs",
             "tags": []
         },
         {
-            "title": "Before quicksand",
+            "name": "Before quicksand",
             "type": "crate",
             "tags": []
         },
         {
-            "title": "After quicksand",
+            "name": "After quicksand",
             "type": "crate",
             "tags": [],
             "count": 3
         },
         {
-            "title": "Near colossus",
+            "name": "Near colossus",
             "type": "crate",
             "tags": []
         },
         {
-            "title": "Inside building",
+            "name": "Inside building",
             "type": "pot",
             "tags": [],
             "count": 3

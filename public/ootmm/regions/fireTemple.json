@@ -2,9 +2,9 @@
     "name": "Fire Temple",
     "bgColor": "#991b1b",
     "hasMQ": true,
-    "locations": [
+    "items": [
         {
-            "title": "Room before volvagia",
+            "name": "Room before volvagia",
             "type": "item",
             "tags": [
                 "oot",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "title": "Entrance loop, flame dancer",
+            "name": "Entrance loop, flame dancer",
             "type": "item",
             "tags": [
                 "oot",
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "title": "Entrance loop, boss key chest",
+            "name": "Entrance loop, boss key chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "title": "Entrance loop, back right room",
+            "name": "Entrance loop, back right room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "title": "Bridge room, goron room on left",
+            "name": "Bridge room, goron room on left",
             "type": "item",
             "tags": [
                 "oot",
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "title": "Bridge room, goron room on right",
+            "name": "Bridge room, goron room on right",
             "type": "item",
             "tags": [
                 "oot",
@@ -52,7 +52,7 @@
             ]
         },
         {
-            "title": "Bridge room, room on left side",
+            "name": "Bridge room, room on left side",
             "description": "Use song of time",
             "type": "ootgs",
             "tags": [
@@ -61,7 +61,7 @@
             ]
         },
         {
-            "title": "Boulder maze lower, left side",
+            "name": "Boulder maze lower, left side",
             "type": "item",
             "tags": [
                 "oot",
@@ -69,7 +69,7 @@
             ]
         },
         {
-            "title": "Boulder maze lower, right side",
+            "name": "Boulder maze lower, right side",
             "type": "item",
             "tags": [
                 "oot",
@@ -77,7 +77,7 @@
             ]
         },
         {
-            "title": "Boulder maze, bombable wall",
+            "name": "Boulder maze, bombable wall",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -85,7 +85,7 @@
             ]
         },
         {
-            "title": "Chest in moving fire wall room",
+            "name": "Chest in moving fire wall room",
             "type": "item",
             "tags": [
                 "oot",
@@ -93,7 +93,7 @@
             ]
         },
         {
-            "title": "Boulder maze upper, goron",
+            "name": "Boulder maze upper, goron",
             "type": "item",
             "tags": [
                 "oot",
@@ -101,7 +101,7 @@
             ]
         },
         {
-            "title": "Boulder maze upper, down the hole",
+            "name": "Boulder maze upper, down the hole",
             "type": "item",
             "tags": [
                 "oot",
@@ -109,7 +109,7 @@
             ]
         },
         {
-            "title": "Scarecrow chest",
+            "name": "Scarecrow chest",
             "description": "Use scarecrow's song to hookshot up to elevator, chest is at the end of the path",
             "type": "item",
             "tags": [
@@ -118,7 +118,7 @@
             ]
         },
         {
-            "title": "Above boulder maze",
+            "name": "Above boulder maze",
             "description": "Scarecrow song area",
             "type": "ootgs",
             "tags": [
@@ -128,7 +128,7 @@
             "count": 2
         },
         {
-            "title": "Fire wall maze, room on right",
+            "name": "Fire wall maze, room on right",
             "type": "item",
             "tags": [
                 "oot",
@@ -136,7 +136,7 @@
             ]
         },
         {
-            "title": "Fire wall maze, center room",
+            "name": "Fire wall maze, center room",
             "type": "item",
             "tags": [
                 "oot",
@@ -144,7 +144,7 @@
             ]
         },
         {
-            "title": "Hammer chest",
+            "name": "Hammer chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -152,7 +152,7 @@
             ]
         },
         {
-            "title": "Volvagia",
+            "name": "Volvagia",
             "type": "boss",
             "tags": [
                 "oot",
@@ -160,7 +160,7 @@
             ]
         },
         {
-            "title": "Room before volvagia",
+            "name": "Room before volvagia",
             "type": "item",
             "tags": [
                 "oot",
@@ -168,7 +168,7 @@
             ]
         },
         {
-            "title": "Entrance loop, left room",
+            "name": "Entrance loop, left room",
             "type": "item",
             "tags": [
                 "oot",
@@ -176,7 +176,7 @@
             ]
         },
         {
-            "title": "Entrance loop, flame dancer",
+            "name": "Entrance loop, flame dancer",
             "type": "item",
             "tags": [
                 "oot",
@@ -184,7 +184,7 @@
             ]
         },
         {
-            "title": "Entrance loop, boss key",
+            "name": "Entrance loop, boss key",
             "type": "item",
             "tags": [
                 "oot",
@@ -192,7 +192,7 @@
             ]
         },
         {
-            "title": "Bridge room, left room",
+            "name": "Bridge room, left room",
             "type": "item",
             "tags": [
                 "oot",
@@ -200,7 +200,7 @@
             ]
         },
         {
-            "title": "Bridge room, left side room",
+            "name": "Bridge room, left side room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -208,7 +208,7 @@
             ]
         },
         {
-            "title": "Bridge room, right room",
+            "name": "Bridge room, right room",
             "type": "item",
             "tags": [
                 "oot",
@@ -216,7 +216,7 @@
             ]
         },
         {
-            "title": "Lizafos maze lower, bombable wall",
+            "name": "Lizafos maze lower, bombable wall",
             "type": "item",
             "tags": [
                 "oot",
@@ -224,7 +224,7 @@
             ]
         },
         {
-            "title": "Lizafos maze lower, crate",
+            "name": "Lizafos maze lower, crate",
             "type": "item",
             "tags": [
                 "oot",
@@ -232,7 +232,7 @@
             ]
         },
         {
-            "title": "Lizafos maze upper, crate",
+            "name": "Lizafos maze upper, crate",
             "type": "item",
             "tags": [
                 "oot",
@@ -240,7 +240,7 @@
             ]
         },
         {
-            "title": "Lizafos maze upper, down the hole",
+            "name": "Lizafos maze upper, down the hole",
             "type": "item",
             "tags": [
                 "oot",
@@ -248,7 +248,7 @@
             ]
         },
         {
-            "title": "Former scarecrow song area",
+            "name": "Former scarecrow song area",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -256,7 +256,7 @@
             ]
         },
         {
-            "title": "Firewall maze, room on right",
+            "name": "Firewall maze, room on right",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -264,7 +264,7 @@
             ]
         },
         {
-            "title": "Firewall maze, center room",
+            "name": "Firewall maze, center room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -272,7 +272,7 @@
             ]
         },
         {
-            "title": "Upper flame dancer, under elevator",
+            "name": "Upper flame dancer, under elevator",
             "type": "item",
             "tags": [
                 "oot",
@@ -280,7 +280,7 @@
             ]
         },
         {
-            "title": "Former hammer chest",
+            "name": "Former hammer chest",
             "type": "item",
             "tags": [
                 "oot",
@@ -288,7 +288,7 @@
             ]
         },
         {
-            "title": "Path down from hammer room",
+            "name": "Path down from hammer room",
             "type": "ootgs",
             "tags": [
                 "oot",
@@ -296,7 +296,7 @@
             ]
         },
         {
-            "title": "Volvagia",
+            "name": "Volvagia",
             "type": "boss",
             "tags": [
                 "oot",

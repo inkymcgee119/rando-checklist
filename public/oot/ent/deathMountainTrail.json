@@ -1,7 +1,7 @@
 {
     "name": "Death Mountain Trail",
     "bgColor": "#57534e",
-    "entrances": [
+    "items": [
         {
             "name": "Kakariko Village",
             "type": "overworld"

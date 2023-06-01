@@ -1,7 +1,7 @@
 {
     "name": "Lost Woods Bridge",
     "bgColor": "#fbbf24",
-    "entrances": [
+    "items": [
         {
             "name": "Hyrule Field",
             "type": "overworld"
