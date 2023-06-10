@@ -1,3 +1,6 @@
+import { readTextFile } from "@tauri-apps/api/fs";
+import { resolveResource } from "@tauri-apps/api/path";
+
 export function save() {
     let appState = useAppState();
     if (appState.value.selectedGame.dir && appState.value)
@@ -47,8 +50,8 @@ export async function loadGameData(gameInfo) {
                     entrancePromises.push(JSON.parse(await readTextFile(await resolveResource(`${dirPrefix}/${gameInfo.dir}/${r}`))));
                 }
 
-            let resultsRegions = await Promise.all(regionPromises);
-            let resultsEntrances = await Promise.all(entrancePromises);
+            let resultsRegions: Region[] = await Promise.all<Region[]>(regionPromises);
+            let resultsEntrances: Region[] = await Promise.all<Region[]>(entrancePromises);
 
             appState.value.regions = resultsRegions;
             appState.value.entranceRegions = resultsEntrances;
@@ -66,8 +69,8 @@ export async function loadGameData(gameInfo) {
                     entrancePromises.push((await fetch(`/${gameInfo.dir}/${r}`)).json());
                 }
 
-            let resultsRegions = await Promise.all(regionPromises);
-            let resultsEntrances = await Promise.all(entrancePromises);
+            let resultsRegions: Region[] = await Promise.all<Region[]>(regionPromises);
+            let resultsEntrances: Region[] = await Promise.all<Region[]>(entrancePromises);
 
             appState.value.regions = resultsRegions;
             appState.value.entranceRegions = resultsEntrances;

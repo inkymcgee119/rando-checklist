@@ -5,25 +5,21 @@
     </label>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const checked = ref(false);
 
-const props = defineProps({
-    'modelValue': {},
-    'trueValue': {
-        default: true
-    },
-    'falseValue': {
-        default: false
-    },
-    'trueColor': {
-        type: String,
-        default: "#6d28d9"
-    },
-    'falseColor': {
-        type: String,
-        default: "#cccccc"
-    }
+const props = withDefaults(defineProps<{
+    modelValue: any;
+    trueValue?: any;
+    falseValue?: any;
+    trueColor?: string;
+    falseColor?: string;
+}>(),
+{
+    trueValue: true,
+    falseValue: false,
+    trueColor: "#6d28d9",
+    falseColor: "#cccccc"
 });
 
 

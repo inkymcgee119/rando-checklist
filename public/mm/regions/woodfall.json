@@ -33,11 +33,5 @@
             "type": "fixed",
             "tags": []
         }
-    ],
-    "items": [
-        {
-            "name": "Woodfall Temple",
-            "type": "dungeon"
-        }
     ]
 }

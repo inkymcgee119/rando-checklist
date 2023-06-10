@@ -28,7 +28,8 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+
 const appState = useAppState();
 const cardColumns = ref([]);
 const searchTerm = useDebouncedRef("", 200);
@@ -50,47 +51,47 @@ const filteredRegions = computed(() => {
     if (appState.value.regions) {
         for (let region of appState.value.regions) {
             let r = { ...region }; // to prevent infinite loop
-
+            
             r.items = r.items.filter(loc => {
-                let rowVisible = true;
+                let rowVisible = 1;
 
                 // filter location types
                 if (appState.value.selectedGame.options.settings)
                     if (appState.value.selectedGame.options.settings[loc.type]) {
                         let filterType = appState.value.selectedGame.options.settings[loc.type].filterWith ? appState.value.selectedGame.options.settings[loc.type].filterWith : loc.type;
-                        rowVisible &= !!appState.value.options.settings[filterType];
+                        rowVisible &= !!appState.value.options.settings[filterType] ? 1 : 0;
                     }
                     else
-                        rowVisible = false;
+                        rowVisible = 0;
 
                 if (appState.value.selectedGame.options.toggleSettings)
                     if (appState.value.selectedGame.options.toggleSettings[loc.type]) {
                         let filterType = appState.value.selectedGame.options.toggleSettings[loc.type].filterWith ? appState.value.selectedGame.options.toggleSettings[loc.type].filterWith : loc.type;
-                        rowVisible &= !!appState.value.options.toggleSettings[filterType];
+                        rowVisible &= !!appState.value.options.toggleSettings[filterType] ? 1 : 0;
                     }
                     else
-                        rowVisible = false;
+                        rowVisible = 0;
 
 
                 // filter tags
                 if (appState.value.selectedGame.options.tags)
                     for (let tag of Object.getOwnPropertyNames(appState.value.selectedGame.options.tags)) {
                         if (appState.value.options.tags[tag])
-                            rowVisible &= !!loc.tags.find(x => stringCompareCaseInsensitive(x, tag));
+                            rowVisible &= !!loc.tags.find(x => stringCompareCaseInsensitive(x, tag)) ? 1 : 0;
                     }
 
                 if (appState.value.selectedGame.options.toggleTags)
                     for (let tag of Object.getOwnPropertyNames(appState.value.selectedGame.options.toggleTags)) {
                         if (appState.value.options.toggleTags[tag])
-                            rowVisible &= loc.tags && !!loc.tags.find(x => stringCompareCaseInsensitive(x, tag));
+                            rowVisible &= loc.tags && !!loc.tags.find(x => stringCompareCaseInsensitive(x, tag)) ? 1 : 0;
                     }
 
                 // master quest filter
                 if (r.hasMQ) {
                     if (!r.showMQ)
-                        rowVisible &= !!loc.tags.find(x => stringCompareCaseInsensitive(x, "vanilla"));
+                        rowVisible &= !!loc.tags.find(x => stringCompareCaseInsensitive(x, "vanilla")) ? 1 : 0;
                     else
-                        rowVisible &= !!loc.tags.find(x => stringCompareCaseInsensitive(x, "mq"));
+                        rowVisible &= !!loc.tags.find(x => stringCompareCaseInsensitive(x, "mq")) ? 1 : 0;
                 }
 
                 return rowVisible;
@@ -114,9 +115,9 @@ const searchResults = computed(() => {
         let r = { ...region }; // to prevent infinite loop
 
         r.items = r.items.filter(loc => {
-            let searchFound = false;
+            let searchFound = 0;
             for (let term of searchTerm.value.split(' ').filter(x => x != ""))
-                searchFound |= r.name.toUpperCase().indexOf(term.toUpperCase()) > -1 || loc.name.toUpperCase().indexOf(term.toUpperCase()) > -1;
+                searchFound |= (r.name.toUpperCase().indexOf(term.toUpperCase()) > -1 || loc.name.toUpperCase().indexOf(term.toUpperCase()) > -1) ? 1 : 0;
 
             return searchFound;
         });

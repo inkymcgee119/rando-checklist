@@ -9,7 +9,7 @@
     </Teleport>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const props = defineProps(["text"]);
 const showText = ref(false);
 const x = ref(0);

@@ -7,7 +7,7 @@
         </button>
 
         <div v-if="active" class="border bg-white absolute min-w-[200px] max-w-[80%] max-h-[50%] rounded-sm overflow-y-auto"
-            :style="{ width: dropWidth }">
+            :style="{ width: dropWidth ?? '0px' }">
 
             <!-- search -->
             <div v-show="props.includeSearch"
@@ -48,41 +48,28 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 
 const active = ref(false);
 const button = ref();
-const dropWidth = ref(0);
+const dropWidth = ref();
 
 const searchTextbox = ref(null);
 const searchTerm = useDebouncedRef("", 200);
 
-const props = defineProps({
-    'modelValue': Object,
-    'groups': {
-        type: Array,
-        default: undefined
-    },
-    'items': {
-        type: Array,
-        default: []
-    },
-    'togglerClass': {
-        type: String,
-        default: 'dropdown'
-    },
-    'togglerText': {
-        type: String,
-        default: 'Click here'
-    },
-    'includeClear': {
-        type: Boolean
-    },
-    'includeSearch': {
-        type: Boolean
-    }
-
+const props = withDefaults(defineProps<{
+    modelValue: any;
+    groups?: DropdownItemGroup[];
+    items?: DropdownItem[];
+    togglerClass?: string;
+    togglerText?: string;
+    includeClear?: boolean;
+    includeSearch?: boolean;
+}>(), {
+    togglerClass: "dropdown",
+    togglerText: "Click here"
 });
+
 const emit = defineEmits(['update:modelValue', 'update']);
 
 const togglerText = computed(() => {
@@ -95,10 +82,10 @@ const togglerText = computed(() => {
 const filteredItems = computed(() => {
     let result = [];
     if (props.items) {
-        if (searchTerm.value) 
-            result = props.items.filter(x => x.description.toUpperCase().indexOf(searchTerm.value.toUpperCase()) > -1);        
-        else 
-            result = props.items;        
+        if (searchTerm.value)
+            result = props.items.filter(x => x.description.toUpperCase().indexOf(searchTerm.value.toUpperCase()) > -1);
+        else
+            result = props.items;
     }
     return result;
 });
@@ -157,7 +144,7 @@ function close(e) {
 }
 
 onMounted(() => {
-    document.addEventListener('click', close);    
+    document.addEventListener('click', close);
 });
 
 onBeforeUnmount(() => {

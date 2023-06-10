@@ -1,21 +1,42 @@
-export const useAppState = () => useState("appState", () => ({    
-    games: [],
-    selectedGame: null,
+class AppState {
+    games: GameInfo[];
+    selectedGame: GameInfo;
 
-    notes: "",
-    regions: [],
-    entranceRegions: [],
+    notes: string;
+    regions: Region[] = [];
+    entranceRegions: Region[] = [];
     
-    options: {
-        settings: {},
-        tags: {},
-        toggleSettings: {},
-        toggleTags: {}
-     },
-    entranceOptions: { 
-        settings: {},
-        tags: {},
-        toggleSettings: {},
-        toggleTags: {}
-    }    
-}));
+    options: Options;    
+    entranceOptions: Options;
+}
+
+class Options {
+    settings: any;
+    tags: any;
+    toggleSettings: any;
+    toggleTags: any;
+}
+
+// export const useAppState = () => useState("appState", () => ({    
+//     games: [],
+//     selectedGame: null,
+
+//     notes: "",
+//     regions: [],
+//     entranceRegions: [],
+    
+//     options: {
+//         settings: {},
+//         tags: {},
+//         toggleSettings: {},
+//         toggleTags: {}
+//      },
+//     entranceOptions: { 
+//         settings: {},
+//         tags: {},
+//         toggleSettings: {},
+//         toggleTags: {}
+//     }    
+// }));
+
+export const useAppState = () => useState("appState", () => (new AppState()));

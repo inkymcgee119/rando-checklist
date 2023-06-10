@@ -71,27 +71,25 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 
-const props = defineProps({
-    "settings": {},
-    "settingsDescription": {
-        default: "Randomizer Options"
-    },
-    "tags": {},
-    "tagsDescription": {
-        default: "Filter by Tag"
-    },
-    "toggleSettings": {},
-    "toggleSettingsDescription": {
-        default: ""
-    },
-    "toggleTags": {},
-    "toggleTagsDescription": {
-        default: ""
-    },
-    "modelValue": {}
+const props = withDefaults(defineProps<{
+    modelValue: any;
+    settings?: any;
+    settingsDescription?: any;
+    tags?: any;
+    tagsDescription?:  any;
+    toggleSettings?: any;
+    toggleSettingsDescription?: any;
+    toggleTags?: any,
+    toggleTagsDescription?: any;
+}>(), {
+    settingsDescription: "Randomizer Options",
+    tagsDescription: "Filter by Tag",
+    toggleSettingsDescription: "",
+    toggleTagsDescription: ""
 });
+
 const emit = defineEmits(["update:modelValue", "reset"])
 
 function clickSetting(name) {

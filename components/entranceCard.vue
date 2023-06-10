@@ -1,7 +1,7 @@
 <template>
     <div class="bg-slate-200 mb-3 rounded-md shadow-xl pb-2 select-none">
         <div class="px-2 font-sans text-white rounded-t-md text-xl font-semibold text-left cursor-pointer"
-            :style="{ background: props.region.bgColor }" v-collapsible-header @click="clickHeader(region)">
+            :style="{ background: props.region.bgColor }" v-collapsible-header @click="clickHeader()">
             {{ region.name }}
         </div>
         <div class="overflow-hidden" :style="regionStyle">
@@ -28,9 +28,14 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+
 const appState = useAppState();
-const props = defineProps(["region", "dropdownGroups"]);
+const props = defineProps<{
+    region: Region;
+    dropdownGroups: DropdownItemGroup[]
+}>();
+
 const emit = defineEmits(["update"]);
 
 const regionStyle = ref('');

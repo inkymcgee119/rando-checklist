@@ -49,11 +49,5 @@
                 "winter"
             ]
         }
-    ],
-    "items": [
-        {
-            "name": "Snowhead Temple",
-            "type": "dungeon"
-        }
     ]
 }

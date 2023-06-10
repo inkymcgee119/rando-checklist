@@ -10,8 +10,8 @@
             </button>
             <span class="float-right">
                 <span
-                    v-if="props.region.items.reduce((acc, x) => acc + (!x.isChecked ? (x.count ? x.count : 1) : 0), 0) > 0">
-                    {{ props.region.items.reduce((acc, x) => acc + (!x.isChecked ? (x.count ? x.count : 1) : 0), 0) }}
+                    v-if="props.region.items.reduce((acc, x) => acc + (!x.isChecked ? (x.count ?? 1) : 0), 0) > 0">
+                    {{ props.region.items.reduce((acc, x) => acc + (!x.isChecked ? (x.count ?? 1) : 0), 0) }}
                 </span>
                 <span v-if="props.region.items.filter(x => !x.isChecked).length == 0">
                     <Icon name="ic:baseline-check">
@@ -58,9 +58,11 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const appState = useAppState();
-const props = defineProps(["region"]);
+const props = defineProps<{
+    region: Region
+}>();
 
 const regionStyle = ref('');
 onMounted(() => {

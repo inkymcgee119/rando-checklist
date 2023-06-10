@@ -28,7 +28,7 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 
 const appState = useAppState();
 const cardColumns = ref([]);
@@ -62,26 +62,26 @@ const filteredRegions = computed(() => {
             continue;
 
         r.items = r.items.filter(ent => {
-            let rowVisible = true;
+            let rowVisible = 1;
 
             // filter settings
             if (combinedSettings && combinedSettings[ent.type] && !combinedSettings[ent.type].isHidden)
                 rowVisible &= appState.value.entranceOptions.settings[ent.type];
             else
-                rowVisible = false;
+                rowVisible = 0;
 
             // filter tags
             if (appState.value.selectedGame.entranceOptions.tags)
                 for (let tag of Object.getOwnPropertyNames(appState.value.selectedGame.entranceOptions.tags)) {
                     if (appState.value.entranceOptions.tags[tag])
-                        rowVisible &= ent.tags && !!ent.tags.find(x => stringCompareCaseInsensitive(x, tag));
+                        rowVisible &= ent.tags && !!ent.tags.find(x => stringCompareCaseInsensitive(x, tag)) ? 1 : 0;
                 }
 
             // filter tags
             if (appState.value.selectedGame.entranceOptions.toggleTags)
                 for (let tag of Object.getOwnPropertyNames(appState.value.selectedGame.entranceOptions.toggleTags)) {
                     if (!appState.value.selectedGame.entranceOptions.toggleTags[tag].ignore && appState.value.entranceOptions.toggleTags[tag])
-                        rowVisible &= ent.tags && !!ent.tags.find(t => stringCompareCaseInsensitive(t, tag));
+                        rowVisible &= ent.tags && !!ent.tags.find(t => stringCompareCaseInsensitive(t, tag)) ? 1 : 0;
                 }
 
             return rowVisible;
@@ -105,9 +105,9 @@ const searchResults = computed(() => {
             continue;
 
         r.items = r.items.filter(ent => {
-            let searchFound = false;
+            let searchFound = 0;
             for (let term of searchTerm.value.split(' ').filter(x => x != ""))
-                searchFound |= region.name.toUpperCase().indexOf(term.toUpperCase()) > -1 || ent.name.toUpperCase().indexOf(term.toUpperCase()) > -1;
+                searchFound |= region.name.toUpperCase().indexOf(term.toUpperCase()) > -1 || ent.name.toUpperCase().indexOf(term.toUpperCase()) > -1 ? 1 : 0;
 
             return searchFound;
         });
@@ -152,28 +152,28 @@ const dropdownGroupsByType = computed(() => {
 });
 
 
-function getDropdownGroupsByType(entTypeName) {
+function getDropdownGroupsByType(entTypeName):  DropdownItemGroup[] {
     let groups = [];
     let entType = getEntranceTypeByName(entTypeName);
 
     for (let region of filteredRegionEntranceList.value) {
         if (region.items) {
             let ents = region.items.filter(ent => {
-                let rowVisible = false;
+                let rowVisible = 0;
                 if (stringCompareCaseInsensitive(ent.type, entTypeName))
-                    rowVisible |= true;
+                    rowVisible |= 1;
                 if (entType.showAll)
-                    rowVisible |= true;
+                    rowVisible |= 1;
 
                 // mixed pool, all items included as long as the option is selected
                 if (stringCompareCaseInsensitive(entTypeName, "all") && appState.value.entranceOptions.settings[ent.type])
-                    rowVisible |= true;
+                    rowVisible |= 1;
 
                 // filter tags
                 if (appState.value.selectedGame.entranceOptions.toggleTags)
                     for (let tag of Object.getOwnPropertyNames(appState.value.selectedGame.entranceOptions.toggleTags)) {
                         if (!appState.value.selectedGame.entranceOptions.toggleTags[tag].ignore && appState.value.entranceOptions.toggleTags[tag])
-                            rowVisible &= ent.tags && !!ent.tags.find(t => stringCompareCaseInsensitive(t, tag));
+                            rowVisible &= ent.tags && !!ent.tags.find(t => stringCompareCaseInsensitive(t, tag)) ? 1 : 0;
                     }
 
                 return rowVisible;
