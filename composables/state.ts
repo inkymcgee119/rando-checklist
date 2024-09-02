@@ -6,8 +6,18 @@ class AppState {
     regions: Region[] = [];
     entranceRegions: Region[] = [];
     
-    options: Options;    
-    entranceOptions: Options;
+    options: Options = {
+                settings: {},
+                tags: {},
+                toggleSettings: {},
+                toggleTags: {}
+            };    
+    entranceOptions: Options = {
+                settings: {},
+                tags: {},
+                toggleSettings: {},
+                toggleTags: {}
+             };
 }
 
 class Options {
